@@ -1,0 +1,19 @@
+﻿[
+{%- for question in questions %}
+  {
+    "title": "{{ question.Title }}",
+    "question": "{{ question.Question }}",
+    {%- if question.Image %}
+    "image": "images/{{ question.Image.hashname }}",
+    "image_width": "{{ question.Image.display_width }}",
+    {%- else %}
+    "image": "",
+    {%- endif %}
+    "choices": [
+	 {%- for Choice in question.Choices %}
+       "{{ Choice }}"{% if not loop.last %},{% endif %}
+    {%- endfor %}
+    ]
+  }{% if not loop.last %},{% endif %}
+{%- endfor %}
+]

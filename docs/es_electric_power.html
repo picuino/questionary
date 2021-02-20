@@ -1,0 +1,96 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <!--
+   Copyright (c) 2021 Carlos Pardo
+
+   Copyright (c) 2021 James Q Quick
+   https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>Potencia eléctrica - Questionary</title>
+   <link rel="stylesheet" href="app.css" />
+   <link rel="stylesheet" href="game.css" />
+ 
+   <script>
+      sessionStorage.setItem('questionBank', "es_electric_power.json");
+      sessionStorage.setItem('questionBankMax', 0);
+      sessionStorage.setItem('questionBankTitle', "Electricity. Potencia eléctrica.");
+   </script>
+
+   </head>
+
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <p class="hud-main-text" id="score">
+              0
+            </p>
+          </div>
+        </div>
+        <h2 id="question">What is the answer to this questions?</h2>
+        <p><img id="questionImage" src="" width=""></p>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">E</p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">F</p>
+          <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
+      </div>
+    </div>
+    <script src="game.js"></script>
+  </body>
+
+</html>
