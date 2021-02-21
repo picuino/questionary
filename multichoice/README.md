@@ -1,4 +1,4 @@
-CREACIÓN DE PREGUNTAS DE TIPO MULTICHOICE
+﻿CREACIÓN DE PREGUNTAS DE TIPO MULTICHOICE
 =========================================
 
 Consejos y recursos para preparar preguntas de tipo múltiple choice.
@@ -28,51 +28,51 @@ Preguntas de electricidad y de electrónica.
   - Preguntas sobre el tipo de componentes (generadores, receptores, maniobra,
     aparatos de medición, etc.) por su símbolo o por su imagen.
 
-**electric_components_name:**
-   Preguntas sobre el nombre de los símbolos de componentes
+- **electric_components_name:**
+  - Preguntas sobre el nombre de los símbolos de componentes
 
-**electric_series_parallel_identify:**
-   Preguntas de identificar circuitos en serie, circuitos en paralelo o 
-   cortocircuitos a partir de esquemas eléctricos.
+- **electric_series_parallel_identify:**
+  - Preguntas de identificar circuitos en serie, circuitos en paralelo o 
+    cortocircuitos a partir de esquemas eléctricos.
 
-**electric_series_parallel_calc:**
-   Preguntas de calcular la resistencia equivalente o la tensión equivalente de 
-   circuitos con pilas y resistencias en serie, en paralelo o circuitos mixtos.
+- **electric_series_parallel_calc:**
+  - Preguntas de calcular la resistencia equivalente o la tensión equivalente de 
+    circuitos con pilas y resistencias en serie, en paralelo o circuitos mixtos.
 
-**electric_units_magnitudes:**
-   Preguntas sobre unidades y magnitudes eléctricas. Resistencia, 
-   intensidad de corriente, potencia eléctrica, etc. 
-   Con las unidades correspondientes a cada una.
+- **electric_units_magnitudes:**
+  - Preguntas sobre unidades y magnitudes eléctricas. Resistencia, 
+    intensidad de corriente, potencia eléctrica, etc. 
+    Con las unidades correspondientes a cada una.
 
-**electric_units_change:**
-   Preguntas de cambio de unidades en magnitudes eléctricas.
-   Paso de vatios a kilovatios de miliamperios a amperios, etc.
+- **electric_units_change:**
+  - Preguntas de cambio de unidades en magnitudes eléctricas.
+    Paso de vatios a kilovatios de miliamperios a amperios, etc.
 
-**electric_circuits:**
-   Preguntas sobre circuitos eléctricos. Desde la teoría básica hasta
-   el funcionamiento de varios circuitos al accionar los interruptores.
+- **electric_circuits:**
+  - Preguntas sobre circuitos eléctricos. Desde la teoría básica hasta
+    el funcionamiento de varios circuitos al accionar los interruptores.
 
-**electric_color_code:**
-   Estas preguntas tratan tanto de traducir código de colores a valor como
-   valor a código de colores.
+- **electric_color_code:**
+  - Estas preguntas tratan tanto de traducir código de colores a valor como
+    valor a código de colores.
 
-**electric_ohms_law:**
-   Ley de Ohm. Problemas de calcular resistencias, tensiones y corrientes.
-   Comprensión de la fórmula V = I·R
+- **electric_ohms_law:**
+  - Ley de Ohm. Problemas de calcular resistencias, tensiones y corrientes.
+    Comprensión de la fórmula V = I·R
 
-**electric_power:**
-   Preguntas sobre la potencia eléctrica.
-   Problemas de potencia consumida por diferentes aparatos.
-   Comprensión de la fórmula P = V·I
+- **electric_power:**
+  - Preguntas sobre la potencia eléctrica.
+    Problemas de potencia consumida por diferentes aparatos.
+    Comprensión de la fórmula P = V·I
 
-**electric_energy:**
-   Preguntas sobre la energía eléctrica. Problemas para calcular los 
-   kilovatios hora consumidos por diferentes aparatos durante cierto tiempo.
-   Comprensión de la fórmula E = P·t
+- **electric_energy:**
+  - Preguntas sobre la energía eléctrica. Problemas para calcular los 
+    kilovatios hora consumidos por diferentes aparatos durante cierto tiempo.
+    Comprensión de la fórmula E = P·t
 
-**electric_breadboard:**
-   Preguntas sobre la placa de prototipos o Breadboard.
+- **electric_breadboard:**
+  - Preguntas sobre la placa de prototipos o Breadboard.
 
-**electric_digital:**
-   Preguntas sobre electrónica digital. Puertas lógicas y tablas de verdad.
+- **electric_digital:**
+  - Preguntas sobre electrónica digital. Puertas lógicas y tablas de verdad.
 
