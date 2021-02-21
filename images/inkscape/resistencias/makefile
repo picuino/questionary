@@ -2,7 +2,7 @@
 SVGFILES = $(wildcard electric-resistencia-*.svg)
 PNGFILES = $(foreach f, $(SVGFILES), $(basename $f).png)
 
-$(PNGFILES): $(SVGFILES)
+%.png: %.svg
 	convert.exe -density 150 $< -transparent White $@
 	optipng -quiet -o 6  $@
 
