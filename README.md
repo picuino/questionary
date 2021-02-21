@@ -1,6 +1,5 @@
-﻿# Questionary
-Multichoice tests in YAML format with automated conversion to JSON, DOCX, 
-CSV, Moodle XML and WEB page.
+﻿QUESTIONARY
+===========
 
 Test de respuesta múltiple guardados en formato 
 [YAML](https://es.wikipedia.org/wiki/YAML) con conversión automática 
@@ -8,16 +7,17 @@ desde este formato a otros útiles como son DOCX, CSV, XML de Moodle
 o formato de página WEB.
 
 
-## Página web de Questionary
-
+PÁGINA WEB DE QUESTIONARY
+=========================
 Creada automáticamente a partir de los cuestionarios:
 
 https://picuino.github.io/questionary
 
 
-## Estructura de directorios
+ESTRUCTURA DE DIRECTORIOS
+=========================
 
-### Directorio multichoice
+## Directorio multichoice
 En este directorio se guardan los archivos con todas las preguntas y las 
 múltiples respuestas a cada pregunta. Es el directorio con el que se debe
 trabajar si se quiere aportar preguntas o leerlas y es la fuente a partir
@@ -72,9 +72,7 @@ preguntas y sus respuestas:
     - 1.0Ω
     - 10Ω
     - 1.0kΩ
-    - 2.0Ω
-    - 21Ω
-    - 1.01Ω
+    - 101Ω
 ```
 
 **Title**: es el título de la pregunta. Si no aparece nada en este campo, 
@@ -82,17 +80,17 @@ se tomará como título el texto que aparece en el siguiente campo Question.
 
 **Question**: es la pregunta que le aparece al estudiante
 
-Image: la imagen con la ruta para acceder a ella. El nombre de la imagen debe
+**Image**: imagen con la ruta para acceder a ella. El nombre de la imagen debe
 comenzar por una palabra que indique la categoría a la que pertenece.
 
-**Image_width**: Ancho en pixels con el que se debe mostrar la imagen en pantalla.
+**Image_width**: ancho en pixels con el que se debe mostrar la imagen en pantalla.
 
 **Choices**: listado de respuestas u opciones. La primera siempre debe ser cierta y 
 las siguientes deben ser falsas. Se pueden colocar desde 2 hasta 6 respuestas 
 como máximo.
 
 
-### Directorio images
+## Directorio images
 En este directorio se guardan todas las imágenes utilizadas en los 
 cuestionarios. 
 
@@ -105,12 +103,12 @@ pertenece a la categoría de electricidad, subcategoría de símbolos eléctrico
 y se trata de un interruptor.
 
 
-### Directorio image/kicad e image/libreoffice
+## Directorio image/kicad e image/libreoffice
 Este directorio contiene los proyectos en formato KiCAD y formato
 LibreOffice necesarios para generar las imágenes del proyecto.
 
 
-### Directorio image/thumbs
+## Directorio image/thumbs
 Este subdirectorio contiene todas las imágenes en formato pequeño (thumbnails).
 
 Las imágenes pequeñas de este directorio se generan automáticamente a 
@@ -118,13 +116,13 @@ partir de las imágenes del directorio "images" y sirven para utilizarlas
 en la documentación del proyecto.
 
 
-### Directorio build
+## Directorio build
 En este directorio se guardan automáticamente los formatos DOCX, CSV, y 
 XML de Moodle a partir de los ficheros YAML en texto plano, cuando se 
 ejecuta la macro en Pyhton questionary.py
 
 
-### Directorio docs
+## Directorio docs
 En este directorio se genera automáticamente las páginas web de los 
 cuestionarios.
 Los únicos archivos que habrá que editar a mano son los ficheros de 
@@ -132,13 +130,103 @@ Los únicos archivos que habrá que editar a mano son los ficheros de
 las páginas que se desee en el orden y con el título correcto.
 
 
-### Directorio templates
+## Directorio templates
 Directorio interno que contiene las plantillas necesarias para generar 
 automáticamente todos los ficheros.
 
 
-### Directorio venv
+## Directorio venv
 Directorio utilizado por Python para guardar el entorno y las
 librerías de trabajo. Se puede prescindir de él si se instala Python
 en el ordenador junto con todas las librerías necesarias.
 
+
+INSTALACIÓN EN WINDOWS
+======================
+
+## INTERPRETE PYTHON
+Para ejecutar la macro de Python questionary.py necesaria para renderizar
+todos los archivos, será necesario instalar el 
+[intérprete Pyhton](https://www.python.org/downloads/windows/)
+La última versión en el momento de escribir estas líneas es la 3.9
+pero la macro funciona también con versiones 3.x antiguas y posteriores.
+
+Durante la instalación será recomendable cambiar el directorio de 
+instalación a /Bin/Python39.
+En el caso de no hacerlo así, es necesario cambiar la dirección del 
+intérprete Python que se encuentra en el archivo _gnu-bash.bat
+por la verdadera ruta en la que Python esté instalado.
+
+
+## LIBRERIAS DE PYTHON
+Además de instalar el intérprete, será necesario instalar las librerías
+necesarias para trabajar con archivos YAML, con templates Jinja y con
+imágenes.
+
+En un directorio de Python se deben ejecutar las siguientes órdenes
+por ejemplo en un archivo .bat o en la línea de comandos:
+
+~~~
+@set PATH=C:/Bin/Python39;%PATH%
+python -m pip install --upgrade Jinja2
+python -m pip install --upgrade PyYAML
+python -m pip install --upgrade Pillow
+python -m pip install --upgrade python-docx
+~~~
+
+Cambiando C:/Bin/Python39 por la verdadera ruta en la que se encuentre
+el intérprete de Python.
+
+
+## ARCHIVOS MAKEFILE
+Mediante estos archivos es posible automatizar otras tareas tales como
+generar imágenes a partir de archivos .pdf o generar thumbnails (pequeñas
+imágenes) a partir de las imágenes grandes.
+
+No es necesario instalar el soporte para archivos makefile, pero si muy
+recomendable si se quiere aprovechar la generación automática de imágenes.
+
+**Cygwin**
+
+El primer paquete que habrá que instalar será [Cygwin](https://cygwin.com/install.html)
+que es una colección de herramientas Open Source que proveen una funcionalidad
+similar a una distribución Linux en Windows. Este paquete proporciona las 
+utilidades make y bash.
+
+Es recomendable instalar Cygwin en el directorio /Bin/cygwin64 o cambiar
+en el archivo _gnu-bash.bat la ruta donde se haya instalado
+
+**Imagemagick**
+
+El siguiente paquete a instalar será [imagemagick](https://imagemagick.org/script/download.php#windows)
+que es un conjunto de utilidades Open Source en linea de comandos utilizadas
+para automatizar las tareas de manejo de imágenes tales como recortar, posterizar,
+añadir transparencias, convertir entre formatos de imagen, generar thumbnails, etc.
+
+Es recomendable instalar Cygwin en el directorio /Bin/imagemagick o cambiar 
+en el archivo _gnu-bash.bat la ruta donde se haya instalado.
+
+
+**Optipng**
+
+Esta es una utilidad Open Source que recomprime las imágenes PNG para que ocupen
+menos espacio y estén libres de errores de integridad.
+Se puede descargar desde su página de sourceforge: http://optipng.sourceforge.net/
+y es recomendable instalarlo en /Bin/imagetools o cambiar
+en el archivo _gnu-bash.bat la ruta donde se haya instalado.
+
+Existen otras utilidades Open Source  para línea de comandos que optimizan 
+imágenes PNG tal como [png optimizer CL](http://psydk.org/pngoptimizer), 
+pero en caso de instalar otra utilidad será necesario cambiar la cabecera 
+de los archivos makefile.
+
+
+**XPDF**
+
+Esta utilidad Open Source se utiliza en el proyecto para convertir archivos
+desde el formato PDF al formato de imagen PNG.
+Se pueden instalar las utilidades para linea de comandos desde esta 
+dirección: https://www.xpdfreader.com/about.html
+
+Es recomendable instalar XPDF en el directorio /Bin/xpdf o cambiar 
+en el archivo _gnu-bash.bat la ruta donde se haya instalado.
