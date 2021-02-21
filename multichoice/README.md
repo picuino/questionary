@@ -3,8 +3,8 @@
 
 Consejos y recursos para preparar preguntas de tipo múltiple choice.
 
-* (Escribir preguntas de cuestionario multiple choice. EasyLMS)[https://www.onlinequizcreator.com/es/centro-de-conocimiento/centro-de-conocimiento/escribir-preguntas-de-cuestionario-multiple-choice/item146]
-* (Las preguntas bisagra: una estrategia ágil para averiguar dónde está el alumno)[https://practicareflexiva.pro/las-preguntas-bisagra-una-estrategia-agil-para-averiguar-donde-esta-el-alumno/]
+* [Escribir preguntas de cuestionario multiple choice. EasyLMS](https://www.onlinequizcreator.com/es/centro-de-conocimiento/centro-de-conocimiento/escribir-preguntas-de-cuestionario-multiple-choice/item146)
+* [Las preguntas bisagra: una estrategia ágil para averiguar dónde está el alumno](https://practicareflexiva.pro/las-preguntas-bisagra-una-estrategia-agil-para-averiguar-donde-esta-el-alumno/)
 
 
 ESTRUCTURA DEL BANCO DE PREGUNTAS
