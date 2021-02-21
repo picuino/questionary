@@ -7,6 +7,9 @@ Consejos y recursos para preparar preguntas de tipo múltiple choice.
 * [Las preguntas bisagra: una estrategia ágil para averiguar dónde está el alumno](https://practicareflexiva.pro/las-preguntas-bisagra-una-estrategia-agil-para-averiguar-donde-esta-el-alumno/)
 
 
+---
+
+
 ESTRUCTURA DEL BANCO DE PREGUNTAS
 =================================
 
