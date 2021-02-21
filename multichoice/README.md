@@ -20,9 +20,10 @@ ELECTRICIDAD
 Preguntas de electricidad y de electrónica.
 
 - **electric_introduction:**
-  - Preguntas de introducción a la electricidad. Historia
-    de la electricidad, composición eléctrica de la materia, aislantes y 
-    conductores.
+  
+  Preguntas de introducción a la electricidad. Historia
+  de la electricidad, composición eléctrica de la materia, aislantes y 
+  conductores.
 
 - **electric_components_type:**
   - Preguntas sobre el tipo de componentes (generadores, receptores, maniobra,
