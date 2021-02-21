@@ -1,0 +1,290 @@
+
+Category: Electricity
+Title: dixital
+Author: Tucho Méndez
+Show_max: 0
+
+---
+
+
+- Question: "Cal é o compoñente elemental da electrónica dixital?"
+  Image: ""
+  Choices:
+    - "O transistor"
+    - "A resistencia"
+    - "O condensador"
+    - "O transmisor"
+
+- Question: "Cal non é unha porta lóxica?"
+  Image: ""
+  Choices:
+    - "TOR"
+    - "OR"
+    - "NOR"
+    - "XOR"
+
+- Question: "Queres facer unha alarma que salte cando se abre calquera fiestra dunha habitación. Que tipo de portas lóxicas serán a base do teu circuíto?"
+  Image: ""
+  Choices:
+    - "OR"
+    - "AND"
+    - "NOT"
+    - "NAND"
+
+- Question: "Como funcionará un fecho SR, sabendo que S ven de set e R de reset?"
+  Image: ""
+  Choices:
+    - "A entrada S a 1 fará que a saída se poña a 1 e a entrada R que se poña a 0. "
+    - "A entrada R a 1 fará que a saída se poña a 1 e se está a 0 a saída será 0"
+    - "A entrada S a 1 fará que a saída se poña a 0 e a entrada R que se poña a 1."
+    - "A entrada S fará que a saída se poña a 1, independentemente da R."
+
+- Question: "Como funcionará un fecho D, sabendo que ten entradas D (data) e E (enable)?"
+  Image: ""
+  Choices:
+    - " Cando E estea a 1, a saída será o estado de D. Se E está a 0, manterá o último estado."
+    - "Cando D estea a 1, a saída será o estado de E. Se D está a 0, manterá o último estado"
+    - "Cando E estea a 0, a saída será o estado de D. Se E está a 1, manterá o último estado."
+    - "Cando E estea a 1, a saída será 1 ou 0 dependendo de se D estaba antes a 1 ou se non estaba antes a 1 e si a 0, sempre e cando E siga a estar a 0 ou a 1."
+
+- Question: "Quen publicou en 1854 \"The laws of thought\", o libro que consideramos o inicio da lóxica dixital?"
+  Image: ""
+  Choices:
+    - "George Boole"
+    - "Charles Babbage"
+    - "William Shockley"
+    - "Bill Gates"
+
+- Question: "En que ano publicou George Boole o libro \"The Laws of Thought\", que consideramos o inicio da lóxica dixital?"
+  Image: ""
+  Choices:
+    - "1854"
+    - "1904"
+    - "1934"
+    - "1954"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-notGate.png"
+  Image_width: 320
+  Choices:
+    - "NOT"
+    - "OR"
+    - "NAND"
+    - "NOR"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-orGate.png"
+  Image_width: 320
+  Choices:
+    - "OR"
+    - "NOR"
+    - "AND"
+    - "XOR"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-andGate.png"
+  Image_width: 320
+  Choices:
+    - "AND"
+    - "NAND"
+    - "OR"
+    - "XOR"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-norGate.png"
+  Image_width: 320
+  Choices:
+    - "NOR"
+    - "NOT"
+    - "OR"
+    - "XOR"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-nandGate.png"
+  Image_width: 320
+  Choices:
+    - "NAND"
+    - "AND"
+    - "NOR"
+    - "NOT"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-xorGate.png"
+  Image_width: 320
+  Choices:
+    - "XOR"
+    - "XNOR"
+    - "OR"
+    - "NOR"
+
+- Question: "Que porta lóxica representa este símbolo?"
+  Image: "images/electric-xnorGate.png"
+  Image_width: 320
+  Choices:
+    - "XNOR"
+    - "NOR"
+    - "OR"
+    - "XOR"
+
+- Question: "Que porta lóxica se constrúe con este circuíto?"
+  Image: "images/electric-transistorNor.png"
+  Image_width: 320
+  Choices:
+    - "NOR"
+    - "OR"
+    - "AND"
+    - "NAND"
+
+- Question: "Que porta lóxica se constrúe con este circuíto?"
+  Image: "images/electric-transistorAnd.png"
+  Image_width: 320
+  Choices:
+    - "AND"
+    - "NAND"
+    - "OR"
+    - "XOR"
+
+- Question: "Que porta lóxica se constrúe con este circuíto?"
+  Image: "images/electric-transistorNand.png"
+  Image_width: 320
+  Choices:
+    - "NAND"
+    - "AND"
+    - "XAND"
+    - "OR"
+
+- Question: "Que porta lóxica se constrúe con este circuíto?"
+  Image: "images/electric-transistorOr.png"
+  Image_width: 320
+  Choices:
+    - "OR"
+    - "AND"
+    - "NOR"
+    - "NAND"
+
+- Question: "Que porta lóxica se constrúe con este circuíto?"
+  Image: "images/electric-transistorNot.png"
+  Image_width: 320
+  Choices:
+    - "NOT"
+    - "NOR"
+    - "AND"
+    - "OR"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaNot.png"
+  Choices:
+    - "NOT"
+    - "OR"
+    - "AND"
+    - "NOR"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaOr.png"
+  Choices:
+    - "OR"
+    - "AND"
+    - "NOR"
+    - "NOT"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaAnd.png"
+  Choices:
+    - "AND"
+    - "OR"
+    - "NOR"
+    - "XOR"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaNor.png"
+  Choices:
+    - "NOR"
+    - "XNOR"
+    - "OR"
+    - "NOT"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaNand.png"
+  Choices:
+    - "NAND"
+    - "Ningunha"
+    - "AND"
+    - "XOR"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaXor.png"
+  Choices:
+    - "XOR"
+    - "XNOR"
+    - "OR"
+    - "NAND"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaXnor.png"
+  Choices:
+    - "XNOR"
+    - "Ningunha"
+    - "NAND"
+    - "XOR"
+
+- Question: "Que función lóxica se corresponde con esta táboa de verdade?"
+  Image: "images/electric-taboaTricky.png"
+  Choices:
+    - "Ningunha"
+    - "XOR"
+    - "NOT"
+    - "AND"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandNot.png"
+  Image_width: 320
+  Choices:
+    - "NOT"
+    - "AND"
+    - "NAND"
+    - "IF"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandOr.png"
+  Image_width: 480
+  Choices:
+    - "OR"
+    - "NOR"
+    - "AND"
+    - "XOR"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandAnd.png"
+  Image_width: 480
+  Choices:
+    - "AND"
+    - "NOT"
+    - "XOR"
+    - "OR"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandNor.png"
+  Image_width: 480
+  Choices:
+    - "NOR"
+    - "NOT"
+    - "XOR"
+    - "XNOR"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandXor.png"
+  Image_width: 480
+  Choices:
+    - "XOR"
+    - "XNOR"
+    - "NOR"
+    - "AND"
+
+- Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
+  Image: "images/electric-nandXnor.png"
+  Image_width: 480
+  Choices:
+    - "XNOR"
+    - "XOR"
+    - "NOR"
+    - "NOT"

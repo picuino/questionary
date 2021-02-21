@@ -1,0 +1,389 @@
+﻿[
+  {
+    "title": "Cal é o compoñente elemental da electrónica dixital?",
+    "question": "Cal é o compoñente elemental da electrónica dixital?",
+    "image": "",
+    "choices": [
+       "O transistor",
+       "A resistencia",
+       "O condensador",
+       "O transmisor"
+    ]
+  },
+  {
+    "title": "Cal non é unha porta lóxica?",
+    "question": "Cal non é unha porta lóxica?",
+    "image": "",
+    "choices": [
+       "TOR",
+       "OR",
+       "NOR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Queres facer unha alarma que salte cando se abre calquera fiestra dunha habitación. Que tipo de portas lóxicas serán a base do teu circuíto?",
+    "question": "Queres facer unha alarma que salte cando se abre calquera fiestra dunha habitación. Que tipo de portas lóxicas serán a base do teu circuíto?",
+    "image": "",
+    "choices": [
+       "OR",
+       "AND",
+       "NOT",
+       "NAND"
+    ]
+  },
+  {
+    "title": "Como funcionará un fecho SR, sabendo que S ven de set e R de reset?",
+    "question": "Como funcionará un fecho SR, sabendo que S ven de set e R de reset?",
+    "image": "",
+    "choices": [
+       "A entrada S a 1 fará que a saída se poña a 1 e a entrada R que se poña a 0. ",
+       "A entrada R a 1 fará que a saída se poña a 1 e se está a 0 a saída será 0",
+       "A entrada S a 1 fará que a saída se poña a 0 e a entrada R que se poña a 1.",
+       "A entrada S fará que a saída se poña a 1, independentemente da R."
+    ]
+  },
+  {
+    "title": "Como funcionará un fecho D, sabendo que ten entradas D (data) e E (enable)?",
+    "question": "Como funcionará un fecho D, sabendo que ten entradas D (data) e E (enable)?",
+    "image": "",
+    "choices": [
+       " Cando E estea a 1, a saída será o estado de D. Se E está a 0, manterá o último estado.",
+       "Cando D estea a 1, a saída será o estado de E. Se D está a 0, manterá o último estado",
+       "Cando E estea a 0, a saída será o estado de D. Se E está a 1, manterá o último estado.",
+       "Cando E estea a 1, a saída será 1 ou 0 dependendo de se D estaba antes a 1 ou se non estaba antes a 1 e si a 0, sempre e cando E siga a estar a 0 ou a 1."
+    ]
+  },
+  {
+    "title": "Quen publicou en 1854 "The laws of thought", o libro que consideramos o inicio da lóxica dixital?",
+    "question": "Quen publicou en 1854 "The laws of thought", o libro que consideramos o inicio da lóxica dixital?",
+    "image": "",
+    "choices": [
+       "George Boole",
+       "Charles Babbage",
+       "William Shockley",
+       "Bill Gates"
+    ]
+  },
+  {
+    "title": "En que ano publicou George Boole o libro "The Laws of Thought", que consideramos o inicio da lóxica dixital?",
+    "question": "En que ano publicou George Boole o libro "The Laws of Thought", que consideramos o inicio da lóxica dixital?",
+    "image": "",
+    "choices": [
+       "1854",
+       "1904",
+       "1934",
+       "1954"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "images/7e220afac2c32916764c.png",
+    "image_width": "320",
+    "choices": [
+       "NOT",
+       "OR",
+       "NAND",
+       "NOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "images/44243b6e313ee9b1029e.png",
+    "image_width": "320",
+    "choices": [
+       "OR",
+       "NOR",
+       "AND",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "",
+    "choices": [
+       "AND",
+       "NAND",
+       "OR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "images/0575ceb7a634eabcc118.png",
+    "image_width": "320",
+    "choices": [
+       "NOR",
+       "NOT",
+       "OR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "images/6a9ab17545d9a0e3e7eb.png",
+    "image_width": "320",
+    "choices": [
+       "NAND",
+       "AND",
+       "NOR",
+       "NOT"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "images/b12ddbc8882304917a1f.png",
+    "image_width": "320",
+    "choices": [
+       "XOR",
+       "XNOR",
+       "OR",
+       "NOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica representa este símbolo?",
+    "question": "Que porta lóxica representa este símbolo?",
+    "image": "",
+    "choices": [
+       "XNOR",
+       "NOR",
+       "OR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica se constrúe con este circuíto?",
+    "question": "Que porta lóxica se constrúe con este circuíto?",
+    "image": "images/afbfb6ca71e30a9056eb.png",
+    "image_width": "320",
+    "choices": [
+       "NOR",
+       "OR",
+       "AND",
+       "NAND"
+    ]
+  },
+  {
+    "title": "Que porta lóxica se constrúe con este circuíto?",
+    "question": "Que porta lóxica se constrúe con este circuíto?",
+    "image": "images/a970dd98e3269b62f0b7.png",
+    "image_width": "320",
+    "choices": [
+       "AND",
+       "NAND",
+       "OR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica se constrúe con este circuíto?",
+    "question": "Que porta lóxica se constrúe con este circuíto?",
+    "image": "images/c2a79b00c781a81852b3.png",
+    "image_width": "320",
+    "choices": [
+       "NAND",
+       "AND",
+       "XAND",
+       "OR"
+    ]
+  },
+  {
+    "title": "Que porta lóxica se constrúe con este circuíto?",
+    "question": "Que porta lóxica se constrúe con este circuíto?",
+    "image": "images/f59662cec983c42ba176.png",
+    "image_width": "320",
+    "choices": [
+       "OR",
+       "AND",
+       "NOR",
+       "NAND"
+    ]
+  },
+  {
+    "title": "Que porta lóxica se constrúe con este circuíto?",
+    "question": "Que porta lóxica se constrúe con este circuíto?",
+    "image": "images/7fd521256d8047e64885.png",
+    "image_width": "320",
+    "choices": [
+       "NOT",
+       "NOR",
+       "AND",
+       "OR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/8ee05902c4294adace6a.png",
+    "image_width": "271",
+    "choices": [
+       "NOT",
+       "OR",
+       "AND",
+       "NOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/061d7212489fda4f4086.png",
+    "image_width": "237",
+    "choices": [
+       "OR",
+       "AND",
+       "NOR",
+       "NOT"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/04284123e3eaca8eed9a.png",
+    "image_width": "237",
+    "choices": [
+       "AND",
+       "OR",
+       "NOR",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/d75dad1fd4d060058c2f.png",
+    "image_width": "237",
+    "choices": [
+       "NOR",
+       "XNOR",
+       "OR",
+       "NOT"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/73892517c5b60368172a.png",
+    "image_width": "235",
+    "choices": [
+       "NAND",
+       "Ningunha",
+       "AND",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/d4f714fafbc0bda66f46.png",
+    "image_width": "235",
+    "choices": [
+       "XOR",
+       "XNOR",
+       "OR",
+       "NAND"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/36366c2d5b7a01187220.png",
+    "image_width": "235",
+    "choices": [
+       "XNOR",
+       "Ningunha",
+       "NAND",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "question": "Que función lóxica se corresponde con esta táboa de verdade?",
+    "image": "images/5558d8b5eb52fa433081.png",
+    "image_width": "235",
+    "choices": [
+       "Ningunha",
+       "XOR",
+       "NOT",
+       "AND"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/3bfa119798d6e1e02564.png",
+    "image_width": "320",
+    "choices": [
+       "NOT",
+       "AND",
+       "NAND",
+       "IF"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/a3efca6595bfcfdd98f4.png",
+    "image_width": "480",
+    "choices": [
+       "OR",
+       "NOR",
+       "AND",
+       "XOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/2620bba033089988ba3c.png",
+    "image_width": "480",
+    "choices": [
+       "AND",
+       "NOT",
+       "XOR",
+       "OR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/81298814917e63fa3ecc.png",
+    "image_width": "480",
+    "choices": [
+       "NOR",
+       "NOT",
+       "XOR",
+       "XNOR"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/154c31293aa808ab2bb0.png",
+    "image_width": "480",
+    "choices": [
+       "XOR",
+       "XNOR",
+       "NOR",
+       "AND"
+    ]
+  },
+  {
+    "title": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "question": "Que función lóxica se constrúe con este circuíto de portas NAND?",
+    "image": "images/7465683b4cc2b6d9cefa.png",
+    "image_width": "480",
+    "choices": [
+       "XNOR",
+       "XOR",
+       "NOR",
+       "NOT"
+    ]
+  }
+]
