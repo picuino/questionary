@@ -73,6 +73,7 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 ![](images/thumbs/electric-simbolo-puerta-or.png)
 ![](images/thumbs/electric-simbolo-puerta-xor.png)
 ![](images/thumbs/electric-simbolo-amplificador-operacional.png)
+![](images/thumbs/electric-terraSimbolo.png)
 
 ![](images/thumbs/electric-serie-paralelo-c36.png)
 ![](images/thumbs/electric-serie-paralelo-c24.png)
@@ -373,7 +374,6 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 ![](images/thumbs/electric-taboaTricky.png)
 ![](images/thumbs/electric-taboaXnor.png)
 ![](images/thumbs/electric-taboaXor.png)
-![](images/thumbs/electric-terraSimbolo.png)
 ![](images/thumbs/electric-transistorAnd.png)
 ![](images/thumbs/electric-transistorNand.png)
 ![](images/thumbs/electric-transistorNor.png)
