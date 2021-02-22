@@ -123,6 +123,7 @@ class Questionary():
          if not 'Choices' in question:
             print('   Error: question without Choices ' + str(question))
             continue
+
          safe_questions.append(question)
       self.questions = safe_questions
 
