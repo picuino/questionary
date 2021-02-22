@@ -93,3 +93,13 @@ Preguntas de electricidad y de electrónica.
   
   Preguntas sobre electrónica digital. Puertas lógicas y tablas de verdad.
 
+
+MATERIALES
+----------
+Preguntas de materiales.
+
+- **material_properties:**
+  
+  Preguntas sobre las propiedades de los materiales. 
+  Dureza, conductividad, fusibilidad, elasticidad, etc.
+  
