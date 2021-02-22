@@ -87,6 +87,30 @@ Show_max: 0
     - Tres kilos de cristal
     - Cuatro kilos de papel
 
+- Title: Material menos denso que el agua
+  Question: ¿Por qué el corcho flota sobre el agua?
+  Choices:
+    - Porque tiene menos densidad que el agua
+    - Porque tiene más densidad que el agua
+    - Porque es sólido y el agua es líquida
+    - Ninguna es correcta
+
+- Title: Material mas denso que el agua
+  Question: ¿Por qué el hierro se hunde bajo el agua?
+  Choices:
+    - Porque tiene más densidad que el agua
+    - Porque tiene menos densidad que el agua
+    - Porque es sólido y el agua es líquida
+    - Ninguna es correcta
+
+- Title: Material menos denso que el mercurio
+  Question: ¿Por qué el hierro flota sobre el mercurio líquido?
+  Choices:
+    - Porque tiene menos densidad que el mercurio
+    - Porque tiene más densidad que el mercurio
+    - Porque es sólido y el mercurio es líquido
+    - Ninguna es correcta
+
 - Title: Dureza
   Question: La resistencia a ser rayado por otro objeto se denomina
   Choices:
@@ -103,13 +127,21 @@ Show_max: 0
     - Plástico
     - Dúctil
 
-- Title: Material duro
+- Title: Material duro 1
   Question: ¿Qué material es más duro?
   Choices:
     - Diamante
     - Estaño
     - Plástico
     - Mármol
+
+- Title: Material duro 2
+  Question: ¿Por qué puedo rayar un bate de madera con un cristal?
+  Choices:
+    - Porque el cristal es más duro que la madera
+    - Porque la madera es más dura que el cristal
+    - Porque el cristal tiene mucho filo
+    - Porque el bate de madera puede romper el cristal
 
 - Title: Tenacidad
   Question: La resistencia de un material a ser golpeado sin romperse se denomina
