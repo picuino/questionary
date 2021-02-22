@@ -226,7 +226,7 @@ de los archivos makefile.
 Esta utilidad Open Source se utiliza en el proyecto para convertir archivos
 desde el formato PDF al formato de imagen PNG.
 Se pueden instalar las utilidades para linea de comandos desde esta 
-dirección: https://www.xpdfreader.com/about.html
+dirección: https://www.xpdfreader.com/download.html
 
 Es recomendable instalar XPDF en el directorio /Bin/xpdf o cambiar 
 en el archivo _gnu-bash.bat la ruta donde se haya instalado.
