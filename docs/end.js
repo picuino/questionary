@@ -25,7 +25,7 @@
 
 const questionsTitle = document.getElementById('questionsTitle');
 const finalScore = document.getElementById('finalScore');
-const title = sessionStorage.getItem('questionBankTitle');
+const title = sessionStorage.getItem('mostRecentTitle');
 const mostRecentScore = sessionStorage.getItem('mostRecentScore');
 
 questionsTitle.innerText = title;

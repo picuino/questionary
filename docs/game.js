@@ -94,6 +94,7 @@ startGame = () => {
 
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= questionBankMax) {
+        sessionStorage.setItem('mostRecentTitle', sessionStorage.getItem('questionBankTitle'));
         sessionStorage.setItem('mostRecentScore', score);
         return window.location.assign('end.html');
     }
