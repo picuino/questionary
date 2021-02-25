@@ -3,7 +3,7 @@ Category: Electricity
 Title: Identificar serie, paralelo, cortocircuito
 Author: Carlos Pardo
 License: Creative Commons CC0 1.0 Universal
-Show_max: 20
+Show_max: 25
 
 ---
 
@@ -112,8 +112,8 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c11.png
   Image_width: 320
   Choices:
-    - Short circuit in the battery
     - In parallel
+    - Short circuit in the battery
     - In series
     - Short circuit in the light bulb
 
@@ -262,10 +262,10 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c26.png
   Image_width: 320
   Choices:
+    - Short circuit in the light bulb
     - Short circuit in the battery
     - In parallel
     - In series
-    - Short circuit in the light bulb
 
 - Title: Series, Parallel or Short circuit 27
   Question: How is the following circuit connected?
@@ -302,9 +302,9 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c30.png
   Image_width: 320
   Choices:
+    - Short circuit in the battery
     - In parallel
     - In series
-    - Short circuit in the battery
     - Short circuit in the light bulb
 
 - Title: Series, Parallel or Short circuit 31

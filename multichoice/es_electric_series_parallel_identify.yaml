@@ -3,7 +3,7 @@ Category: Electricity
 Title: Identificar serie, paralelo, cortocircuito
 Author: Carlos Pardo
 License: Creative Commons CC0 1.0 Universal
-Show_max: 20
+Show_max: 25
 
 ---
 
@@ -112,8 +112,8 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c11.png
   Image_width: 320
   Choices:
-    - Tiene un cortocircuito en la pila
     - En paralelo
+    - Tiene un cortocircuito en la pila
     - En serie
     - Tiene un cortocircuito en una bombilla
 
@@ -262,10 +262,10 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c26.png
   Image_width: 320
   Choices:
+    - Tiene un cortocircuito en una bombilla
     - Tiene un cortocircuito en la pila
     - En paralelo
     - En serie
-    - Tiene un cortocircuito en una bombilla
 
 - Title: Serie, Paralelo o Cortocircuito 27
   Question: ¿Cómo está conectado el siguiente circuito?
@@ -302,9 +302,9 @@ Show_max: 20
   Image: images/electric-serie-paralelo-c30.png
   Image_width: 320
   Choices:
+    - Tiene un cortocircuito en la pila
     - En paralelo
     - En serie
-    - Tiene un cortocircuito en la pila
     - Tiene un cortocircuito en una bombilla
 
 - Title: Serie, Paralelo o Cortocircuito 31
