@@ -9,3 +9,5 @@ images = [f for f in os.listdir('.') if f[-4:].lower() in ['.png', '.gif', '.jpg
 for image in images:
     if not re.search('images/thumbs/' + image, licenses):
         print('![](images/thumbs/%s)' % image)
+
+input()

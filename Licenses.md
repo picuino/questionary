@@ -21,8 +21,8 @@ se distribuyen bajo licencia Creative Commons CC0 1.0 Universal
 Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/publicdomain/zero/1.0/deed.es_ES
 
 
-Imágenes de los cuestionarios
-=============================
+Imágenes del proyecto
+=====================
 Las imágenes de los cuestionarios se distribuyen bajo diferentes 
 licencias. Por defecto la licencia de las imágenes será 
 **Creative Commons CC BY-SA 4.0 International** a menos que se indique 
@@ -381,3 +381,20 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 ![](images/thumbs/electric-transistorOr.png)
 ![](images/thumbs/electric-xnorGate.jpg)
 ![](images/thumbs/electric-xorGate.png)
+
+
+
+Imágenes Externas
+=====================
+
+**Las siguientes imágenes están tomadas de wikimedia:**
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
+<img alt="Claw-hammer" src="images/thumbs/material-screwdriver.jpg"></a>
+
+<a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
+<img alt="Screwdriver" src="images/thumbs/material-screwdriver.jpg"></a>
+https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
