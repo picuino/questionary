@@ -62,7 +62,7 @@ def main():
         ['naranja', rgb(230, 103, 25)],
         ['amarillo', rgb(230, 230, 26)],
         ['verde',   rgb(24, 168, 24)],      
-        ['azul',    rgb(24, 192, 192)],
+        ['azul',    rgb(24, 80, 255)],
         ['violeta', rgb(175, 50, 175)],
         ['gris',    rgb(102, 102, 102)],
         ['blanco',  rgb(204, 204, 204)],
