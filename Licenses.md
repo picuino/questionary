@@ -391,7 +391,7 @@ Imágenes Externas
 
 <a title="Evan-Amos, Public domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
-<img alt="Claw-hammer" src="images/thumbs/material-screwdriver.jpg"></a>
+<img alt="Claw-hammer" src="images/thumbs/material-hammer.jpg"></a>
 
 <a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
