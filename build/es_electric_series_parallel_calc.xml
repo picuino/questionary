@@ -314,9 +314,9 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
     <answer fraction="100" format="html"> <text>Las dos resistencias están sometidas al mismo voltaje</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si el interruptor cierra, pasará intensidad por las dos resistencias</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Por las dos resistencias pasará siempre la misma intensidad</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si desconecto la resistencia R2 no pasará corriente por el circuito</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Si desconecto la resistencia R1 no pasará corriente por el circuito</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
     <name> <text>¿Cuál es falsa, para el circuito de la figura?</text> </name>
@@ -371,9 +371,9 @@
     <answer fraction="0" format="html"> <text>Por ella pasará la mitad de la intensidad total del circuito</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>¿Por qué resistencia pasará más intensidad?</text> </name>
+    <name> <text>¿Por cuál de las tres resistencias pasará más intensidad?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Por qué resistencia pasará más intensidad?</p> 
+      <text><![CDATA[<p>¿Por cuál de las tres resistencias pasará más intensidad?</p> 
          <p><img src="@@PLUGINFILE@@/add250b0790f5727b649.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="550"></p>]]>
       </text>
@@ -417,10 +417,10 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>La intensidad total aumentará respecto a cuando había dos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>La intensidad total aumentará respecto a cuando había dos resistencias</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El voltaje al que están sometidas a las resistencias disminuirá respecto a cuando había dos</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El voltaje al que están sometidas las resistencias aumentará respecto a cuando había dos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La intensidad total disminuirá respecto a cuando había dos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La intensidad total disminuirá respecto a cuando había dos resistencias</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
     <name> <text>¿Qué pasará cuando conectemos la resistencia R2?</text> </name>
