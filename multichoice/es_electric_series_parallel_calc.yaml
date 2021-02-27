@@ -15,10 +15,10 @@ Show_max: 0
     - 3V
     - 1,5V
     - 0,75V
-    - 1V
+    - 0V
 
 - Title: 
-  Question: "Si juntamos dos resistencias de 4Ω de este modo... ¿Cuál será su resistencia equivalente?"
+  Question: "Si juntamos dos resistencias de 4Ω de este modo ¿Cuál será su resistencia equivalente?"
   Image: images/electric-circuit-10.png
   Image_width: 550
   Choices:
@@ -129,22 +129,22 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cuál es falsa, para el circuito de la figura?
-  Image: images/electric-circuit-10.png
+  Image: images/electric-circuit-23.png
   Image_width: 550
   Choices:
     - La intensidad que pasa por las dos resistencias es la misma
     - Las dos resistencias están sometidas al mismo voltaje
-    - Si desconecto la resistencia 'a', seguirá pasando corriente por la - b-
-    - La intensidad total del circuito será la suma de la intensidad por 'a' y la intensidad por - b-
+    - Si desconecto la resistencia R1, seguirá pasando corriente por la R2
+    - La intensidad total del circuito será la suma de la intensidad por R1 y la intensidad por R2
 
 - Title: 
-  Question: ¿Qué será cierto para la intensidad que pasa por la resistencia 'a'?
-  Image: images/electric-circuit-10.png
+  Question: ¿Qué será cierto para la intensidad que pasa por la resistencia R1?
+  Image: images/electric-circuit-23.png
   Image_width: 550
   Choices:
-    - Pasará el doble de intensidad que por la resistencia 'b'
-    - Pasará la misma intensidad que por la resistencia 'b'
-    - Pasará la mitad de intensidad que por la resistencia 'b'
+    - Pasará el doble de intensidad que por la resistencia R2
+    - Pasará la misma intensidad que por la resistencia R2
+    - Pasará la mitad de intensidad que por la resistencia R2
     - Por ella pasará la mitad de la intensidad total del circuito
 
 - Title: 
@@ -178,7 +178,7 @@ Show_max: 0
     - La intensidad total del circuito no variará
 
 - Title: 
-  Question: ¿Qué pasará cuando conectemos la resistencia en verde?
+  Question: ¿Qué pasará cuando conectemos el interruptor S1?
   Image: images/electric-circuit-24.png
   Image_width: 550
   Choices:
