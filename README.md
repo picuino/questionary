@@ -82,6 +82,20 @@ preguntas y sus respuestas:
     - 101Ω
 ```
 
+Los ficheros deben tener aproximadamente unas 30 preguntas y tratar de un mismo
+tema específico.
+
+Un numero mayor de preguntas hace que sean difíciles de responder en poco 
+tiempo y que los ficheros de preguntas sean difíciles de manejar para los
+profesores.
+Un número menor de 30 preguntas hace que estas se respondan muy rápido y 
+que las preguntas estén demasiado divididas en muchos subtemas o 
+que haya pocas preguntas para evaluar cada tema.
+
+Los alumnos tardan de 15 a 25 minutos en terminar un test de
+30 preguntas, repitiendolas si es necesario para obtener buena nota.
+
+
 **Title**: es el título de la pregunta. Si no aparece nada en este campo, 
 se tomará como título el texto que aparece en el siguiente campo Question.
 
