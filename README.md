@@ -199,14 +199,14 @@ utilidades make y bash.
 Es recomendable instalar Cygwin en el directorio /Bin/cygwin64 o cambiar
 en el archivo _gnu-bash.bat la ruta donde se haya instalado
 
-**Imagemagick**
+**ImageMagick**
 
 El siguiente paquete a instalar será [imagemagick](https://imagemagick.org/script/download.php#windows)
 que es un conjunto de utilidades Open Source en linea de comandos utilizadas
 para automatizar las tareas de manejo de imágenes tales como recortar, posterizar,
 añadir transparencias, convertir entre formatos de imagen, generar thumbnails, etc.
 
-Es recomendable instalar Cygwin en el directorio /Bin/imagemagick o cambiar 
+Es recomendable instalar ImageMagick en el directorio /Bin/imagemagick o cambiar 
 en el archivo _gnu-bash.bat la ruta donde se haya instalado.
 
 
