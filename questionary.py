@@ -50,17 +50,34 @@ def main():
    questionary = Questionary()
    
    # Process all yaml files of this directory
-   questions = 0
+   questions_counter = DictCounter()
    yaml_files = [yaml for yaml in os.listdir(multichoice_path) if yaml[-5:].lower() == '.yaml']
    for yaml_file in yaml_files:
       print('\nFile: %s/%s' % (multichoice_path, yaml_file))
-      questions += questionary.read_yaml(yaml_file, path=multichoice_path)
+      questions = questionary.read_yaml(yaml_file, path=multichoice_path)
+      questions_counter.add(questions, yaml_file)
       questionary.write_csv(path=build_path)
       questionary.docx_generate(path=build_path)
       questionary.moodle_generate(moodle_template, path=build_path)
       questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
-   print('\nTotal questions=%d' % questions)
+   print('\nTotal questions= %s' % str(questions_counter))
+
+
+
+class DictCounter():
+   def __init__(self):
+     self.counter = {}
+
+   def add(self, count, name):
+      prefix = re.split('[_ -]', name, maxsplit=1)[0]
+      if prefix in self.counter:
+         self.counter[prefix] += count
+      else:
+         self.counter[prefix] = count
+      
+   def __str__(self):
+      return str(self.counter)
 
 
 
