@@ -43,15 +43,19 @@ Show_max: 20
 
 ```
 
-**Category**:  es la categoría de las preguntas. Siempre se escribe en inglés 
-  para que todos los bloques de preguntas tengan la misma categoría 
-  independientemente de su idioma.
+**Category**:  es la categoría de las preguntas. La categoría es por ejemplo
+  materiales, electricidad, mecánica, programación, dibujo, etc.
+  La categoría es común y se repetirá en varios ficheros que traten 
+  sobre el mismo tema.
 
 **Title**: es el título del fichero de preguntas. Debe ser único y no repetirse 
-  entre ficheros.
+  entre ficheros. No debe repetir el texto ya escrito en la categoría.
+  Ejemplos de títulos para la categoría de Materiales serían 'La madera' o
+  'Los metales'
 
-**Author**: autor o autores (se escribirían con comas entre ellos) del fichero
-  de preguntas.
+**Author**: autor o autores del fichero de preguntas. En el caso de que haya
+  más de un autor se separan los nombres por comas. 
+  La coma solo debe utilizarse para separar autores entre sí.
 
 **License**: Licencia con la que se publica el contenido del archivo.
 
