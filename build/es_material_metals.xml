@@ -177,10 +177,54 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Una fusión de un metal con otro elemento, por ejemplo el acero o el bronce</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>Una fusión de un metal con otro elemento. Por ejemplo el acero o el bronce</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Una capa de protección que se aplica a un metal para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Un tipo de metal de alta densidad que no se oxida con facilidad</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Una unión entre piezas de metal que se realiza aplicando calor y presión</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué material es la Fundición?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué material es la Fundición?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Es hierro aleado con más de 1.76% de carbono. Se utiliza para hacer tapas de alcantarilla</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es hierro aleado con menos de 1.76% de carbono. Se utiliza para hacer engranajes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es hierro fundido con carbón. Se utiliza para hacer cuberterías</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es un acero inoxidable, con mejores propiedades que el hierro</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué es el acero?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué es el acero?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Es una aleación de hierro con menos del 1.76% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es una aleación de hierro con más del 1.76% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es una aleación de hierro con menos del 6.67% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es una aleación de hierro con más del 6.67% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
 
 
