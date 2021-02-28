@@ -9,7 +9,6 @@ all:
 	python questionary.py
 
 clean-web:
-	rm -f docs/images/*
 	rm -f docs/*.json
 	rm -f docs/es_*.html
 	rm -f docs/en_*.html

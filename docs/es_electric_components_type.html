@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -40,10 +40,10 @@
       sessionStorage.setItem('questionBankTitle', "Electricidad. Tipos de componentes.");
    </script>
 
-   </head>
+</head>
 
-  <body>
-    <div class="container">
+<body>
+   <div class="container">
       <div id="game" class="justify-center flex-column">
         <div id="hud">
           <div id="hud-item">
@@ -92,9 +92,50 @@
           <p class="choice-prefix">F</p>
           <p class="choice-text" data-number="6">Choice 6</p>
         </div>
+
+
+        <div class="cleaner"></div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+        <a class="float_left" href="https://www.picuino.com/es/contacto.html">Contacto</a>
+        <a class="float_left" href="https://www.picuino.com/es/legal-aviso.html">Aviso legal</a>
+        <a class="float_left" href="https://www.picuino.com/es/legal-cookies.html">Política de Cookies</a>
+        <a class="float_left" href="https://github.com/picuino/questionary/blob/master/Licenses.md">Créditos y Derechos de Autor</a>
+        <a class="float_left" href="https://github.com/picuino/questionary/">Proyecto en GitHub</a>
+        <a class="float_right" href="https://twitter.com/picuino">
+        <img src="twitter.png" title="Picuino Twitter" alt="Picuino Twitter"  height="30" />
+        </a>
+        </div>
+
+
+   <!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Utilizamos cookies propias y de terceros para elaborar información 
+   estadística y analizar tu navegación en el Sitio Web.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html"
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso. 
+   <a href="javascript:void(0);" onclick="cookieBarAccept();"><b>Aceptar</b></a></div>
+   <script>
+   if(document.cookie.indexOf("pcookiebar")<0) {cookieBarDisplay("block");}
+   function cookieBarAccept(){setCookie("pcookiebar","1",365); cookieBarDisplay("none");}
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
       </div>
-    </div>
-    <script src="game.js"></script>
-  </body>
+   </div>
+   <!-- Game -->
+   <script src="game.js"></script>
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
+   gtag('config', 'UA-59765999-1');
+   </script>   
+
+</body>
 
 </html>
