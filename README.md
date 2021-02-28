@@ -33,9 +33,10 @@ Este formato YAML se puede editar fácilmente con un simple block de notas.
 siguientes campos:
 
 ```
-Category: Electricity
-Title: Código de colores 1
+Category: Materiales
+Title: La madera
 Author: Carlos Pardo
+License: Creative Commons Attribution-ShareAlike 4.0
 Show_max: 20
 
 ---
@@ -43,19 +44,21 @@ Show_max: 20
 ```
 
 **Category**:  es la categoría de las preguntas. Siempre se escribe en inglés 
-para que todos los bloques de preguntas tengan la misma categoría 
-independientemente de su idioma.
+  para que todos los bloques de preguntas tengan la misma categoría 
+  independientemente de su idioma.
 
 **Title**: es el título del fichero de preguntas. Debe ser único y no repetirse 
-entre ficheros.
+  entre ficheros.
 
 **Author**: autor o autores (se escribirían con comas entre ellos) del fichero
- de preguntas.
+  de preguntas.
+
+**License**: Licencia con la que se publica el contenido del archivo.
 
 **Show_max**: número máximo de preguntas que se mostrarán en la página web. 
-Es útil para que los ficheros que tienen muchas preguntas repetitivas solo 
-muestren un subconjunto al azar de todas ellas.
-En caso de que valga cero, se mostrarán todas las preguntas del cuestionario.
+  Es útil para que los ficheros que tienen muchas preguntas repetitivas solo 
+  muestren un subconjunto al azar de todas ellas.
+  En caso de que valga cero, se mostrarán todas las preguntas del cuestionario.
 
 
 **Los siguientes elementos del fichero YAML** serán cada una de las 
@@ -86,7 +89,7 @@ comenzar por una palabra que indique la categoría a la que pertenece.
 **Image_width**: ancho en pixels con el que se debe mostrar la imagen en pantalla.
 
 **Choices**: listado de respuestas u opciones. La primera siempre debe ser cierta y 
-las siguientes deben ser falsas. Se pueden colocar desde 2 hasta 6 respuestas 
+las siguientes deben ser falsas. Se pueden escribir desde 2 hasta 6 respuestas 
 como máximo.
 
 
