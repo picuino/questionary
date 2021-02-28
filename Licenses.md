@@ -17,7 +17,7 @@ Autores de los cuestionarios:
 
 El texto de los cuestionarios en los archivos .yaml (preguntas y opciones de respuesta) 
 se distribuyen bajo licencia Creative Commons CC0 1.0 Universal
-o bajo licencia Creative Commons Atribution-ShareAlike 4.0.
+o bajo licencia Creative Commons Attribution-ShareAlike 4.0.
 Cada uno de los archivos tiene en las primeras líneas de la cabecera 
 información sobre la licencia con la que se distribuyen.
 
@@ -35,7 +35,7 @@ lo contrario.
 
 Las siguientes imágenes creadas por Carlos Pardo y que se pueden encontrar 
 en el repositorio  https://github.com/picuino/questionary
-se distribuyen bajo **licencia Creative Commons CC BY-SA 4.0**.
+se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
 Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 ![](images/thumbs/electric-simbolo-altavoz.png)
@@ -401,5 +401,5 @@ href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
 <a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
 <img alt="Screwdriver" src="images/thumbs/material-screwdriver.jpg"></a>
-https://creativecommons.org/licenses/by-sa/3.0/deed.en
+
 
