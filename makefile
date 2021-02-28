@@ -22,6 +22,7 @@ clean:
 	rm -f docs/en_*.html
 	rm -f docs/gal_*.html
 	rm -f build/*.xml
+	rm -f build/*.csv
 	rm -f build/*.docx
 	rm -f images/thumbs/*.png
 	rm -f images/thumbs/*.jpg

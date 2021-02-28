@@ -55,12 +55,14 @@ def main():
    for yaml_file in yaml_files:
       print('\nFile: %s/%s' % (multichoice_path, yaml_file))
       questions += questionary.read_yaml(yaml_file, path=multichoice_path)
-      # questionary.write_csv(path=build_path) # Warning: exporta siempre 4 Choices
+      questionary.write_csv(path=build_path)
       questionary.docx_generate(path=build_path)
       questionary.moodle_generate(moodle_template, path=build_path)
       questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
    print('\nTotal questions=%d' % questions)
+
+
 
 class Questionary():
 
@@ -141,17 +143,19 @@ class Questionary():
          return
       print('   Writing: ' + csv_filename)
 
-      csv_data = ['Question;Image;Choice_1;Choice_2;Choice_3;Choice_4;Block']
+      csv_data = ['Question;Image;Image_width;Choice_1;Choice_2;Choice_3;Choice_4;Choice_5;Choice_6;Block']
       for row in self.questions:
          line = '"' + row['Question'] + '";"'
          if row['Image']:
-            line = line + row['Image']['filename'] + '";"'
+            line = line + str(row['Image']['filename']) + '";"'
+            line = line + str(row['Image']['display_width']) + '";"'
          else:
-            line = line + '";"'
-         line = line + str(row['Choices'][0]) + '";"'
-         line = line + str(row['Choices'][1]) + '";"'
-         line = line + str(row['Choices'][2]) + '";"'
-         line = line + str(row['Choices'][3]) + '";"'
+            line = line + '";"";"'
+         for i in range(6):
+            if i < len(row['Choices']):
+               line = line + str(row['Choices'][i]) + '";"'
+            else:
+               line = line + '";"'
          line = line + self.filename + '"'
          csv_data.append(line)
       with codecs.open(csv_filename, 'w', encoding='utf-8') as csv_file:
