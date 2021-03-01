@@ -7,7 +7,7 @@
     <idnumber></idnumber>
   </question>
     <question type="multichoice">
-    <name> <text>Densidad de la madera 1</text> </name>
+    <name> <text>¿Qué densidad tiene la madera?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué densidad tiene la madera?</p>]]></text>
     </questiontext>
@@ -29,7 +29,7 @@
     <answer fraction="0" format="html"> <text>La madera no tiene densidad</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Densidad de la madera 2</text> </name>
+    <name> <text>¿La madera flota?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿La madera flota?</p>]]></text>
     </questiontext>
@@ -48,10 +48,10 @@
     <answer fraction="100" format="html"> <text>Algunas maderas flotan y otras se hunden</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La madera siempre flota en el agua</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La madera siempre se hunde en el agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La madera no de debe mojar con agua</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La madera no se debe mojar con agua</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Conductividad de la madera</text> </name>
+    <name> <text>¿Qué conductividad tiene la madera?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué conductividad tiene la madera?</p>]]></text>
     </questiontext>
@@ -73,7 +73,7 @@
     <answer fraction="0" format="html"> <text>Conduce bien el calor y la electricidad</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Madera higroscópica</text> </name>
+    <name> <text>¿Por qué decimos que la madera es higroscópica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Por qué decimos que la madera es higroscópica?</p>]]></text>
     </questiontext>
@@ -95,7 +95,7 @@
     <answer fraction="0" format="html"> <text>Porque el agua puede pudrirla</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Madera renovable</text> </name>
+    <name> <text>¿Es renovable la madera?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Es renovable la madera?</p>]]></text>
     </questiontext>
@@ -111,13 +111,13 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Si, si se repueblan los bosques talados.</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>Si, si se repueblan los bosques talados</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>No es renovable</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Siempre es renovable</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si porque se puede reciclar con facilidad</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Tenacidad de la madera</text> </name>
+    <name> <text>¿Es tenaz la madera?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Es tenaz la madera?</p>]]></text>
     </questiontext>
@@ -139,7 +139,7 @@
     <answer fraction="0" format="html"> <text>No, es blanda</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Albura del tronco</text> </name>
+    <name> <text>¿Qué es la albura de un tronco?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué es la albura de un tronco?</p>]]></text>
     </questiontext>
@@ -161,7 +161,7 @@
     <answer fraction="0" format="html"> <text>Es todo el interior del tronco excepto la corteza</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>Duramen del tronco</text> </name>
+    <name> <text>¿Qué es el duramen de un tronco?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué es el duramen de un tronco?</p>]]></text>
     </questiontext>
@@ -469,7 +469,7 @@
     <question type="multichoice">
     <name> <text>Chapa de madera natural sobre tableros artificiales</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>A los tableros artificiales se les suele pegar en el exterior una  chapa de madera natural o de material plástico.
+      <text><![CDATA[<p>A los tableros artificiales se les suele pegar en el exterior una  chapa de madera natural o de material plástico
 </p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -484,7 +484,7 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Si, mejora la resistencia y aspecto del tablero artificial.</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>Si, mejora la resistencia y aspecto del tablero artificial</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>No, los tableros artificiales solo se pintan</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>No, los tableros artificiales no se pueden tapar</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si, aunque eso disminuye la resistencia del tablero</text> <feedback format="html"> <text></text> </feedback> </answer>
@@ -534,9 +534,9 @@
     <answer fraction="0" format="html"> <text>Talado</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
     <question type="multichoice">
-    <name> <text>La operación de eliminar material de una pieza de madera para afinar su forma o quitar las asperezas se denomina.</text> </name>
+    <name> <text>La operación de eliminar material de una pieza de madera para afinar su forma o quitar las asperezas se denomina</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>La operación de eliminar material de una pieza de madera para afinar su forma o quitar las asperezas se denomina.</p>]]></text>
+      <text><![CDATA[<p>La operación de eliminar material de una pieza de madera para afinar su forma o quitar las asperezas se denomina</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>

@@ -303,15 +303,15 @@ Show_max: 0
 - Question: Como funcionará un fecho SR, sabendo que S ven de set e R de reset?
   Image: 
   Choices:
-    - A entrada S a 1 fará que a saída se poña a 1 e a entrada R que se poña a 0. 
+    - A entrada S a 1 fará que a saída se poña a 1 e a entrada R que se poña a 0
     - A entrada R a 1 fará que a saída se poña a 1 e se está a 0 a saída será 0
-    - A entrada S a 1 fará que a saída se poña a 0 e a entrada R que se poña a 1.
-    - A entrada S fará que a saída se poña a 1, independentemente da R.
+    - A entrada S a 1 fará que a saída se poña a 0 e a entrada R que se poña a 1
+    - A entrada S fará que a saída se poña a 1, independentemente da R
 
 - Question: Como funcionará un fecho D, sabendo que ten entradas D (data) e E (enable)?
   Image: 
   Choices:
-    - Cando E estea a 1, a saída será o estado de D. Se E está a 0, manterá o último estado.
+    - Cando E estea a 1, a saída será o estado de D. Se E está a 0, manterá o último estado
     - Cando D estea a 1, a saída será o estado de E. Se D está a 0, manterá o último estado
-    - Cando E estea a 0, a saída será o estado de D. Se E está a 1, manterá o último estado.
-    - Cando E estea a 1, a saída será 1 ou 0 dependendo de se D estaba antes a 1 ou se non estaba antes a 1 e si a 0, sempre e cando E siga a estar a 0 ou a 1.
+    - Cando E estea a 0, a saída será o estado de D. Se E está a 1, manterá o último estado
+    - Cando E estea a 1, a saída será 1 ou 0 dependendo de se D estaba antes a 1 ou se non estaba antes a 1 e si a 0, sempre e cando E siga a estar a 0 ou a 1
