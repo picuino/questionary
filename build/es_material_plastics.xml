@@ -181,6 +181,92 @@
     <answer fraction="0" format="html"> <text>Tienen buena resistencia a la oxidación, pero mala resistencia a los ácidos</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Tienen buena resistencia a los ácidos, pero mala a la oxidación</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
+    <question type="multichoice">
+    <name> <text>¿Existen plásticos naturales o son todos sintéticos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Existen plásticos naturales o son todos sintéticos?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Si hay plásticos naturales, por ejemplo el látex</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>No, son todos sintéticos</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué son los plásticos termoplásticos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué son los plásticos termoplásticos?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Plásticos que se funden con el calor todas las veces que se desee</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que no se funden con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que se vuelven elásticos con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos elásticos, como el caucho</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué son los plásticos termoestables?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué son los plásticos termoestables?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Plásticos que no se funden con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que se funden con el calor todas las veces que se desee</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que se vuelven elásticos con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos elásticos, como el caucho</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué son los plásticos elastómeros?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué son los plásticos elastómeros?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Plásticos elásticos, como el caucho</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que no se funden con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que se funden con el calor todas las veces que se desee</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plásticos que se vuelven elásticos con el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
 
 
 </quiz>
