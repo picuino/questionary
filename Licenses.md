@@ -392,7 +392,9 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 Imágenes Externas
 =====================
 
-**Las siguientes imágenes están tomadas de wikimedia:**
+Las siguientes imágenes están tomadas de **wikimedia**.
+Cada una de ellas tiene un enlace a la página de donde fueron tomadas y 
+un título con el autor y la licencia.
 
 <a title="Evan-Amos, Public domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
