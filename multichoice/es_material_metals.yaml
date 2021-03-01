@@ -72,6 +72,9 @@ Show_max: 0
     - Un tipo de metal de alta densidad que no se oxida con facilidad
     - Una unión entre piezas de metal que se realiza aplicando calor y presión
 
+
+# METALES FERROSOS
+
 - Title:
   Question: ¿Qué material es la Fundición?
   Choices:
@@ -99,10 +102,13 @@ Show_max: 0
 - Title:
   Question: ¿Para qué se utiliza el acero inoxidable?
   Choices:
-    - Tuberías, cubertería, maquinaria de industria alimenticia
+    - Tuberías, cubertería, fregaderos, cuchillos
     - Tuberías, cables eléctricos, monedas
-    - Cables eléctricos, fuselaje de aviones, ventanas
-    - Campanas, hélices de barcos, cojinetes
+    - Latas, cables eléctricos, ventanas, fuselaje de aviones
+    - Hélices de barcos, campanas, cojinetes
+
+
+# METALES NO FERROSOS
 
 - Title:
   Question: ¿De qué color es el cobre?
@@ -116,8 +122,8 @@ Show_max: 0
   Question: ¿Para qué se utiliza el cobre?
   Choices:
     - Tuberías, cables eléctricos, monedas
-    - Tuberías, cubertería, estructuras de edificios
-    - Cables eléctricos, fuselaje de aviones, ventanas
+    - Tuberías, cubertería, fregaderos, cuchillos
+    - Latas, cables eléctricos, ventanas, fuselaje de aviones
     - Monedas, tornillos, pomos, cerrojos
 
 - Title:
@@ -131,10 +137,10 @@ Show_max: 0
 - Title:
   Question: ¿Para qué se utiliza el bronce?
   Choices:
-    - Hélices de barcos, campanas, monedas
+    - Hélices de barcos, campanas, cojinetes
     - Tuberías, cables eléctricos, monedas
-    - Tuberías, cubertería, maquinaria de industria alimenticia
-    - Cables eléctricos, fuselaje de aviones, ventanas
+    - Tuberías, cubertería, fregaderos, cuchillos
+    - Latas, cables eléctricos, ventanas, fuselaje de aviones
 
 - Title:
   Question: ¿De qué está hecho el latón?
@@ -149,8 +155,8 @@ Show_max: 0
   Choices:
     - Monedas, tornillos, pomos, cerrojos
     - Tuberías, cables eléctricos, monedas
-    - Tuberías, cubertería, maquinaria de industria alimenticia
-    - Cables eléctricos, fuselaje de aviones, ventanas
+    - Tuberías, cubertería, fregaderos, cuchillos
+    - Latas, cables eléctricos, ventanas, fuselaje de aviones
 
 - Title:
   Question: ¿Qué propiedades tiene el aluminio?
@@ -164,6 +170,41 @@ Show_max: 0
   Question: ¿Para qué se utiliza el aluminio?
   Choices:
     - Latas, cables eléctricos, ventanas, fuselaje de aviones
-    - Tuberías, cubertería, maquinaria de industria alimenticia
-    - Hélices de barcos, campanas, monedas
+    - Tuberías, cubertería, fregaderos, cuchillos
+    - Hélices de barcos, campanas, cojinetes
     - Baterías, protector de radiaciones, para hacer vídrio
+
+- Title:
+  Question: ¿Qué es la galvanización?
+  Choices:
+    - Recubrir hierro con una capa de cinc para protegerle de la corrosión
+    - Fundir dos metales distintos para protegerles de la corrosión
+    - Recubrir hierro con una capa de cromo para protegerle de la corrosión
+    - El proceso de obtención del aluminio con corrientes eléctricas
+
+- Title:
+  Question: ¿Qué es la hojalata?
+  Choices:
+    - Una lámina de acero recubierta de estaño para que no se oxide
+    - Una lámina de acero recubierta de cinc para que no se oxide
+    - Una lámina de acero recubierta de plomo para que no se oxide
+    - Una lámina de acero recubierta de latón para que no se oxide
+
+- Title:
+  Question: ¿Qué propiedades tiene el plomo?
+  Choices:
+    - Es muy denso, buen conductor, muy maleable y muy tóxico
+    - Es muy denso, mal conductor, muy maleable y muy tóxico
+    - Es muy denso, buen conductor, muy maleable y no es tóxico
+    - Es muy denso, buen conductor, poco maleable y muy tóxico
+
+- Title:
+  Question: ¿Para qué se utiliza el plomo?
+  Choices:
+    - Baterías, protector de radiaciones, para hacer vídrio
+    - Latas, cables eléctricos, ventanas, fuselaje de aviones
+    - Tuberías, cubertería, fregaderos, cuchillos
+    - Hélices de barcos, campanas, cojinetes
+
+
+
