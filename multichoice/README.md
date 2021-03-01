@@ -102,4 +102,19 @@ Preguntas de materiales.
   
   Preguntas sobre las propiedades de los materiales. 
   Dureza, conductividad, fusibilidad, elasticidad, etc.
+
+
+- **material_wood:**
   
+  Preguntas sobre propiedades de la madera y 
+  trabajo con la madera.
+
+
+- **material_metals:**
+  
+  Preguntas sobre los metales.
+
+
+- **material_plastics:**
+  
+  Preguntas sobre los plásticos.
