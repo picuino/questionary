@@ -131,7 +131,7 @@ getNewQuestion = () => {
 
 function visibleElements(element, index, array) {
     if (index < currentQuestion['choices'].length) {
-        element.style.visibility = "block";
+        element.style.display = "";
     }
     else {
         element.style.display = "none";
