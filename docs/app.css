@@ -164,6 +164,10 @@ input::placeholder {
   margin: 0 6px;  
 }
 
+.float_left:first-child {
+  margin-left: 12px;
+}
+
 .footer a {
   text-decoration: none;
 }
