@@ -1,0 +1,25 @@
+﻿
+Category: Electricidad
+Title: El circuito eléctrico
+Author: Carlos Pardo
+License: Creative Commons Attribution-ShareAlike 4.0
+
+---
+
+- type: category
+  category: Electricidad/El_circuito_eléctrico
+
+- type: description
+  name: Generadores
+  questiontext: |
+    <h3>Título 1</h3>
+    <p>Imagen de un circuito</p>
+    {{ image(file=1, width=240) }}
+  files:
+    - ../images/electric-serie-paralelo-c01.png
+
+- type: essay
+  name: Entrega generadores
+  questiontext: Dibuja una pila conectada a una bombilla
+  defaultgrade: 2.0
+  attachments: 1
