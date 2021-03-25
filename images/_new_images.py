@@ -1,3 +1,6 @@
+"""Imprime una lista de las nuevas imágenes que no aparecen en
+el fichero Licenses.md, para poder añadirlas."""
+
 import os
 import codecs
 import re
