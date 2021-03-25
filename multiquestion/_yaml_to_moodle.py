@@ -36,7 +36,6 @@ def main():
    for yaml_file in yaml_files:
       print('\nFile: %s' % yaml_file)
       db.read_yaml(yaml_file)
-      db.test_questions()
       db.preprocess()
       data = db.render(template_xml_moodle)
       output_file = os.path.splitext(yaml_file)[0] + '.xml'
@@ -63,51 +62,107 @@ class Database():
       correct_questions = []
       for question in self.questions:
          counter += 1
-         if not 'type' in question:
-            print('Error: no type defined in question %d' % counter)
-         elif question['type'] not in question_types:
-            print('Error: type "%s" not recognized' % question['Type'])
-         elif question['type'] in ['description', 'essay'] and not exists_member(question, 'questiontext'):
-            print('Error: not "questiontext" in question %d' % counter)
-         else:
-            correct_questions.append(question)
-      self.questions = correct_questions
+         question['error'] = False
 
-   def exists_member(dictionary, member):
+         if 'files' in question:
+            files_base64 = [{'base64':'', 'ext':''}]
+            for filename in question['files']:
+               file_base64 = self.import_file(filename)
+               files_base64.append(file_base64)
+               if not file_base64:
+                  question['error'] = True
+            question['files'] = files_base64
+         else:
+            question['files'] = []
+            
+         if not 'type' in question:
+            print('   Error: type not defined in question %d' % counter)
+            question['error'] = True
+
+         elif question['type'] == 'category':
+            if not self.exists_member(question, 'category'):
+               print('   Error: does not exists "category" in question %d' % counter)
+               question['error'] = True
+
+         elif question['type'] == 'description':
+            self.test_questiontext(question, counter)
+
+         elif question['type'] == 'essay':
+            self.test_questiontext(question, counter)
+            
+         elif question['type'] == 'cloze':
+            self.test_questiontext(question, counter)
+            
+         elif question['type'] == 'multichoice':
+            self.test_questiontext(question, counter)
+            self.test_questiontext(question, counter)
+
+         else:
+            print('   Error: type "%s" not recognized' % question['type'])
+            question['error'] = True
+         
+      self.questions = [question for question in self.questions if question['error'] == False]
+
+   def test_questiontext(self, question, counter):
+      if not self.exists_member(question, 'questiontext'):
+         print('   Error: does not exists "questiontext" in question %d' % counter)
+         question['error'] = True
+
+   def test_multichoice_answers(self, question, counter):
+      if not 'answers' in question or len(question['answers']) < 2:
+         print('   Error: less than 2 answers in question %d' % counter)
+         question['error'] = True
+         return
+      sum_fractions = 0
+      for answer in question['answers']:
+         if not 'fraction' in answer:
+            print('   Error: answer without "fraction" in question %d' % counter)
+            question['error'] = True
+         else:
+            sum_fractions += answer['fraction']
+         if not 'text' in answer or not answer['text']:
+            print('   Error: answer without "text" in question %d' % counter)
+            question['error'] = True
+      if abs(sum_fractions) > 1:
+         print('   Warning: fractions not sums zero in question %d' % counter)
+
+   def preprocess(self):
+      self.test_questions()
+
+      for question in self.questions:
+         if 'questiontext' in question:
+            self.render_text(question, 'questiontext', question['files'])
+
+         if question['type'] == 'multichoice':
+            for answer in question['answers']:
+               self.render_text(answer, 'text', question['files'])
+
+   def exists_member(self, dictionary, member):
       if not member in dictionary:
          return False
       if not dictionary[member]:
          return False
       return True
 
-   def preprocess(self):
-      for question in self.questions:
-         if 'files' in question:
-            files_base64 = [{'base64':'', 'ext':''}]
-            for filename in question['files']:
-               files_base64.append(self.import_file(filename))
-            question['files'] = files_base64
-
-         if 'questiontext' in question:
-            self.render_text(question, 'questiontext')
-
-   def render_text(self, question, index):
+   def render_text(self, question, index, files):
       template = jinja2.Template(template_macros + question[index])
-      files = []
-      if 'files' in question:
-         files = question['files']
       data = template.render(files = files)
       question[index] = data
       
    def import_file(self, filename):
       if not os.path.exists(filename):
-         print("Error: File doesn't exists %s" % filename)
-         return ""
+         print("   Error: File doesn't exists %s" % filename)
+         return None
       with open(filename, 'rb') as fi:
-        data = fi.read()
-      ext = os.path.splitext(filename)[1][1:]
-      return {'base64': base64.b64encode(data).decode('ascii'), 'ext': ext}
-      
+         filedata = fi.read()
+      ext = os.path.splitext(filename)[1][1:].lower()
+      width, height = Image.open(filename).size if ext in image_types else (0, 0)
+      return { 'base64': base64.b64encode(filedata).decode('ascii'),
+               'ext': ext,
+               'width': width,
+               'height': height,
+               }
+
    def render(self, template_text):
       template = jinja2.Template(template_text)
       data = template.render(header = self.header, questions = self.questions)
@@ -118,19 +173,24 @@ class Database():
       return data.decode('utf-8')
 
 
+image_types = ['png', 'jpg', 'jpeg', 'gif']
+
+
 question_types = [
    'category',
    'description',
    'essay',
+   'cloze',
+   'multichoice'
    ]
 
 
 template_macros = """
-   {%- macro image(file, alt='', width=240, height=0) %}
+   {%- macro image(file, alt='', width=240, height=0) -%}
    <img src="data:image/{{ files[file]['ext'] }};base64,{{ files[file]['base64'] }}" alt="{{ alt }}"
-   {%- if width %} width="{{ width }}" {% endif -%}
-   {%- if height %} height="{{ height }}" {% endif %}>
-   {% endmacro -%}
+   {%- if width > 0 %} width="{{ width }}" {% endif %}
+   {%- if height > 0 %} height="{{ height }}" {% endif %}>
+   {%- endmacro -%}
 """
 
 
@@ -138,16 +198,16 @@ template_xml_moodle = """{#- -#}
 <?xml version="1.0" encoding="UTF-8"?>
 <quiz>
 
-{%- for question in questions %}
+{%- for question in questions if not question['error'] %}
+
+   <!-- question: {{ '%04d' % loop.index}}  -->
 
    {%- if question['type'] == 'category' %}
-
    <question type="category">
       <category> <text>$course$/top/{{ question['category'] }}</text> </category>
    </question>
 
    {%- elif question['type'] == 'description' %}
-
    <question type="description">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
@@ -161,7 +221,6 @@ template_xml_moodle = """{#- -#}
    </question>
 
    {%- elif question['type'] == 'essay' %}
-
    <question type="essay">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
@@ -178,6 +237,42 @@ template_xml_moodle = """{#- -#}
       <attachmentsrequired>{% if 'attachments' in question %}{{ question['attachments'] }}{% else %}0{% endif%}</attachmentsrequired>
       <graderinfo format="html"> <text></text> </graderinfo>
       <responsetemplate format="html"> <text></text> </responsetemplate>
+   </question>
+
+   {%- elif question['type'] == 'cloze' %}
+   <question type="cloze">
+      <name> <text>{{ question['name'] }}</text> </name>
+      <questiontext format="html">
+      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+      </questiontext>
+      <generalfeedback format="html"> <text></text> </generalfeedback>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0{% endif%}</penalty>
+      <hidden>0</hidden>
+      <idnumber></idnumber>
+   </question>
+
+   {%- elif question['type'] == 'multichoice' %}
+   <question type="multichoice">
+      <name> <text>{{ question['name'] }}</text> </name>
+      <questiontext format="html">
+      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+      </questiontext>
+      <generalfeedback format="html"> <text></text> </generalfeedback>
+      <defaultgrade>1.0000000</defaultgrade>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0{% endif%}</penalty>
+      <hidden>0</hidden>
+      <single>true</single>
+      <shuffleanswers>true</shuffleanswers>
+      <answernumbering>abc</answernumbering>
+      <correctfeedback format="html"> <text></text> </correctfeedback>
+      <partiallycorrectfeedback format="html"> <text></text> </partiallycorrectfeedback>
+      <incorrectfeedback format="html"> <text></text> </incorrectfeedback>
+      {%- for answer in question['answers'] %}
+      <answer fraction="{{ answer['fraction'] }}" format="html">
+         <text><![CDATA[{{ answer['text'] }}]]></text>
+         <feedback format="html"> <text>{{ answer['feedback'] }}</text> </feedback>
+      </answer>
+      {%- endfor %}
    </question>
 
    {%- endif %}
