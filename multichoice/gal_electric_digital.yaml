@@ -65,7 +65,7 @@ Show_max: 0
     - "1954"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-notGate.png"
+  Image: "../images/electric-notGate.png"
   Image_width: 320
   Choices:
     - "NOT"
@@ -74,7 +74,7 @@ Show_max: 0
     - "NOR"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-orGate.png"
+  Image: "../images/electric-orGate.png"
   Image_width: 320
   Choices:
     - "OR"
@@ -83,7 +83,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-andGate.png"
+  Image: "../images/electric-andGate.png"
   Image_width: 320
   Choices:
     - "AND"
@@ -92,7 +92,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-norGate.png"
+  Image: "../images/electric-norGate.png"
   Image_width: 320
   Choices:
     - "NOR"
@@ -101,7 +101,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-nandGate.png"
+  Image: "../images/electric-nandGate.png"
   Image_width: 320
   Choices:
     - "NAND"
@@ -110,7 +110,7 @@ Show_max: 0
     - "NOT"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-xorGate.png"
+  Image: "../images/electric-xorGate.png"
   Image_width: 320
   Choices:
     - "XOR"
@@ -119,7 +119,7 @@ Show_max: 0
     - "NOR"
 
 - Question: "Que porta lóxica representa este símbolo?"
-  Image: "images/electric-xnorGate.jpg"
+  Image: "../images/electric-xnorGate.jpg"
   Image_width: 320
   Choices:
     - "XNOR"
@@ -128,7 +128,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que porta lóxica se constrúe con este circuíto?"
-  Image: "images/electric-transistorNor.png"
+  Image: "../images/electric-transistorNor.png"
   Image_width: 320
   Choices:
     - "NOR"
@@ -137,7 +137,7 @@ Show_max: 0
     - "NAND"
 
 - Question: "Que porta lóxica se constrúe con este circuíto?"
-  Image: "images/electric-transistorAnd.png"
+  Image: "../images/electric-transistorAnd.png"
   Image_width: 320
   Choices:
     - "AND"
@@ -146,7 +146,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que porta lóxica se constrúe con este circuíto?"
-  Image: "images/electric-transistorNand.png"
+  Image: "../images/electric-transistorNand.png"
   Image_width: 320
   Choices:
     - "NAND"
@@ -155,7 +155,7 @@ Show_max: 0
     - "OR"
 
 - Question: "Que porta lóxica se constrúe con este circuíto?"
-  Image: "images/electric-transistorOr.png"
+  Image: "../images/electric-transistorOr.png"
   Image_width: 320
   Choices:
     - "OR"
@@ -164,7 +164,7 @@ Show_max: 0
     - "NAND"
 
 - Question: "Que porta lóxica se constrúe con este circuíto?"
-  Image: "images/electric-transistorNot.png"
+  Image: "../images/electric-transistorNot.png"
   Image_width: 320
   Choices:
     - "NOT"
@@ -173,7 +173,7 @@ Show_max: 0
     - "OR"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaNot.png"
+  Image: "../images/electric-taboaNot.png"
   Choices:
     - "NOT"
     - "OR"
@@ -181,7 +181,7 @@ Show_max: 0
     - "NOR"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaOr.png"
+  Image: "../images/electric-taboaOr.png"
   Choices:
     - "OR"
     - "AND"
@@ -189,7 +189,7 @@ Show_max: 0
     - "NOT"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaAnd.png"
+  Image: "../images/electric-taboaAnd.png"
   Choices:
     - "AND"
     - "OR"
@@ -197,7 +197,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaNor.png"
+  Image: "../images/electric-taboaNor.png"
   Choices:
     - "NOR"
     - "XNOR"
@@ -205,7 +205,7 @@ Show_max: 0
     - "NOT"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaNand.png"
+  Image: "../images/electric-taboaNand.png"
   Choices:
     - "NAND"
     - "Ningunha"
@@ -213,7 +213,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaXor.png"
+  Image: "../images/electric-taboaXor.png"
   Choices:
     - "XOR"
     - "XNOR"
@@ -221,7 +221,7 @@ Show_max: 0
     - "NAND"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaXnor.png"
+  Image: "../images/electric-taboaXnor.png"
   Choices:
     - "XNOR"
     - "Ningunha"
@@ -229,7 +229,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que función lóxica se corresponde con esta táboa de verdade?"
-  Image: "images/electric-taboaTricky.png"
+  Image: "../images/electric-taboaTricky.png"
   Choices:
     - "Ningunha"
     - "XOR"
@@ -237,7 +237,7 @@ Show_max: 0
     - "AND"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandNot.png"
+  Image: "../images/electric-nandNot.png"
   Image_width: 320
   Choices:
     - "NOT"
@@ -246,7 +246,7 @@ Show_max: 0
     - "IF"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandOr.png"
+  Image: "../images/electric-nandOr.png"
   Image_width: 480
   Choices:
     - "OR"
@@ -255,7 +255,7 @@ Show_max: 0
     - "XOR"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandAnd.png"
+  Image: "../images/electric-nandAnd.png"
   Image_width: 480
   Choices:
     - "AND"
@@ -264,7 +264,7 @@ Show_max: 0
     - "OR"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandNor.png"
+  Image: "../images/electric-nandNor.png"
   Image_width: 480
   Choices:
     - "NOR"
@@ -273,7 +273,7 @@ Show_max: 0
     - "XNOR"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandXor.png"
+  Image: "../images/electric-nandXor.png"
   Image_width: 480
   Choices:
     - "XOR"
@@ -282,7 +282,7 @@ Show_max: 0
     - "AND"
 
 - Question: "Que función lóxica se constrúe con este circuíto de portas NAND?"
-  Image: "images/electric-nandXnor.png"
+  Image: "../images/electric-nandXnor.png"
   Image_width: 480
   Choices:
     - "XNOR"

@@ -9,7 +9,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cómo están conectadas las resistencias en la breadboard?
-  Image: images/electric-brboardSerieParalelo01.png
+  Image: ../images/electric-brboardSerieParalelo01.png
   Choices:
     - 1 en paralelo, 2 en serie
     - Las dos en serie
@@ -18,7 +18,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cómo están conectadas las resistencias en la breadboard?
-  Image: images/electric-brboardSerieParalelo02.png
+  Image: ../images/electric-brboardSerieParalelo02.png
   Choices:
     - Las dos en serie
     - 1 en serie, 2 en paralelo
@@ -27,7 +27,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Por qué resistencias pasará corriente?
-  Image: images/electric-brboardBenConectadas01.png
+  Image: ../images/electric-brboardBenConectadas01.png
   Choices:
     - Por 1 y 2
     - Por todas
@@ -36,7 +36,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Qué montajes se corresponden con el esquema?
-  Image: images/electric-brboardResisCircuito.png
+  Image: ../images/electric-brboardResisCircuito.png
   Choices:
     - 1
     - 2
@@ -45,7 +45,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cuándo encenderá el led verde?
-  Image: images/electric-brBoard2PulsXeralSecundario.png
+  Image: ../images/electric-brBoard2PulsXeralSecundario.png
   Choices:
     - Si tengo presionados los dos pulsadores
     - Si presiono el pulsador de la derecha
@@ -54,7 +54,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cuál es falsa para el circuito de la figura?
-  Image: images/electric-brBoard2PulsXeralSecundario.png
+  Image: ../images/electric-brBoard2PulsXeralSecundario.png
   Choices:
     - Puedo encender el led verde sin que encienda el led rojo
     - Para encender el led verde tengo que haber presionado el pulsador de la izquierda
@@ -63,7 +63,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿A qué esquema se corresponde el circuito de la breadboard?
-  Image: images/electric-brBoard2PulsXeralSecEsquemas.png
+  Image: ../images/electric-brBoard2PulsXeralSecEsquemas.png
   Choices:
     - Al rosa
     - Al azul
@@ -72,7 +72,7 @@ Show_max: 0
 
 - Title: 
   Question: Quiero que el led encienda cuando presiono el pulsador. ¿Hay algún fallo?
-  Image: images/electric-brbrUnLedPulsadorTricky.png
+  Image: ../images/electric-brbrUnLedPulsadorTricky.png
   Choices:
     - Los cables no están en los terminales correctos del pulsador
     - El led está puesto del revés
@@ -81,7 +81,7 @@ Show_max: 0
 
 - Title: 
   Question: Quiero que el led encienda solo cuando presiono los dos pulsadores. ¿Hay algún fallo?
-  Image: images/electric-brbr2pulsadoresSerieTricky.png
+  Image: ../images/electric-brbr2pulsadoresSerieTricky.png
   Choices:
     - Ninguno
     - El led encenderá cuando presione cualquiera de los interruptores
@@ -90,7 +90,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cuál es falsa para el circuito de la figura?
-  Image: images/electric-brBr2IntParalelo.png
+  Image: ../images/electric-brBr2IntParalelo.png
   Choices:
     - El led no encenderá nunca
     - El led encenderá cuando presione el interruptor izquierdo
@@ -99,7 +99,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Qué ledes se encenderán cuando presione el pulsador?
-  Image: images/electric-brBr3Led1intCalAcende.png
+  Image: ../images/electric-brBr3Led1intCalAcende.png
   Choices:
     - El verde y el rojo
     - El azul y el rojo
@@ -108,7 +108,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Cuál es cierta para el circuito de la figura?
-  Image: images/electric-brBr2int2LedParalelo.png
+  Image: ../images/electric-brBr2int2LedParalelo.png
   Choices:
     - Cada interruptor enciende un led
     - No podré encender el led verde si no presiono el interruptor de la derecha
@@ -117,7 +117,7 @@ Show_max: 0
 
 - Title: 
   Question: ¿Qué cable tengo que quitar para que el led encienda desde cualquiera de los dos pulsadores?
-  Image: images/electric-2pulsParaleloQuitaCable.png
+  Image: ../images/electric-2pulsParaleloQuitaCable.png
   Choices:
     - El naranja
     - El verde

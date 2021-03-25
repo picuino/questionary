@@ -24,7 +24,7 @@ Show_max: 0
     - "Pilas, cables, resistencias e interruptores"
 
 - Question: "Se xuntamos dúas pilas de 1,5V deste xeito... cal será a voltaxe total?"
-  Image: "images/electric-duasPilasSerie.png"
+  Image: "../images/electric-duasPilasSerie.png"
   Choices:
     - "3V"
     - "1,5V"
@@ -32,7 +32,7 @@ Show_max: 0
     - "1,33V"
 
 - Question: "Se xuntamos dúas resistencias de 4Ω deste xeito... cal será a súa resistencia equivalente?"
-  Image: "images/electric-2ResisParalelo.png"
+  Image: "../images/electric-2ResisParalelo.png"
   Choices:
     - "2Ω"
     - "4Ω"
@@ -104,7 +104,7 @@ Show_max: 0
     - "Conmutador"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-pilaSimbolo.png"
+  Image: "../images/electric-pilaSimbolo.png"
   Choices:
     - "Batería ou pila"
     - "Xerador de corrente alterna"
@@ -112,7 +112,7 @@ Show_max: 0
     - "Toma de terra"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-xeradorAC.png"
+  Image: "../images/electric-xeradorAC.png"
   Choices:
     - "Xerador de corrente alterna"
     - "Batería ou pila"
@@ -120,7 +120,7 @@ Show_max: 0
     - "Motor eléctrico"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-pulsadorSimbolo.png"
+  Image: "../images/electric-pulsadorSimbolo.png"
   Choices:
     - "pulsador"
     - "interruptor"
@@ -128,7 +128,7 @@ Show_max: 0
     - "pila"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-interruptorSimbolo.png"
+  Image: "../images/electric-interruptorSimbolo.png"
   Choices:
     - "interruptor"
     - "conmutador"
@@ -136,7 +136,7 @@ Show_max: 0
     - "botón"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-conmutadorSimbolo.png"
+  Image: "../images/electric-conmutadorSimbolo.png"
   Choices:
     - "conmutador"
     - "interruptor"
@@ -144,7 +144,7 @@ Show_max: 0
     - "fusible"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-resistenciaSimbolo.png"
+  Image: "../images/electric-resistenciaSimbolo.png"
   Choices:
     - "resistencia"
     - "pila"
@@ -152,7 +152,7 @@ Show_max: 0
     - "interruptor"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-resistenciaSimbolo2.png"
+  Image: "../images/electric-resistenciaSimbolo2.png"
   Choices:
     - "resistencia"
     - "lámpada"
@@ -160,7 +160,7 @@ Show_max: 0
     - "interruptor"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-ledSimbolo.png"
+  Image: "../images/electric-ledSimbolo.png"
   Choices:
     - "LED"
     - "lámpada"
@@ -168,7 +168,7 @@ Show_max: 0
     - "Motor"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-lampadaSimbolo.png"
+  Image: "../images/electric-lampadaSimbolo.png"
   Choices:
     - "Lámpada"
     - "LED"
@@ -176,7 +176,7 @@ Show_max: 0
     - "Patrulla X"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-zoadorSimbolo.png"
+  Image: "../images/electric-zoadorSimbolo.png"
   Choices:
     - "zoador"
     - "altofalante"
@@ -184,7 +184,7 @@ Show_max: 0
     - "Xerador Alterna"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-altofalanteSimbolo.png"
+  Image: "../images/electric-altofalanteSimbolo.png"
   Choices:
     - "altofalante"
     - "zoador"
@@ -192,7 +192,7 @@ Show_max: 0
     - "Xerador de continua"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-motorSimbolo.png"
+  Image: "../images/electric-motorSimbolo.png"
   Choices:
     - "motor"
     - "zoador"
@@ -200,7 +200,7 @@ Show_max: 0
     - "lámpada"
 
 - Question: "A que compoñente se corresponde o símbolo da figura?"
-  Image: "images/electric-terraSimbolo.png"
+  Image: "../images/electric-terraSimbolo.png"
   Choices:
     - "terra"
     - "pila"
@@ -208,7 +208,7 @@ Show_max: 0
     - "receptor"
 
 - Question: "Como están conectadas as resistencias da figura?"
-  Image: "images/electric-3ResisSerie.png"
+  Image: "../images/electric-3ResisSerie.png"
   Image_width: 400
   Choices:
     - "Serie"
@@ -217,7 +217,7 @@ Show_max: 0
     - "Mixto"
 
 - Question: "Como están conectadas as resistencias da figura?"
-  Image: "images/electric-3ResisParalelo.png"
+  Image: "../images/electric-3ResisParalelo.png"
   Choices:
     - "Paralelo"
     - "lateral"
@@ -225,7 +225,7 @@ Show_max: 0
     - "mixto"
 
 - Question: "Como están conectadas as resistencias da figura?"
-  Image: "images/electric-3ResisMixto.png"
+  Image: "../images/electric-3ResisMixto.png"
   Choices:
     - "Mixto"
     - "Paralelo"
@@ -233,7 +233,7 @@ Show_max: 0
     - "composto"
 
 - Question: "Cal será a voltaxe total das tres pilas?"
-  Image: "images/electric-3PilasSerie.png"
+  Image: "../images/electric-3PilasSerie.png"
   Choices:
     - "6V"
     - "2V"
@@ -241,7 +241,7 @@ Show_max: 0
     - "8V"
 
 - Question: "Cal será a voltaxe total das tres pilas?"
-  Image: "images/electric-3PilasParalelo.png"
+  Image: "../images/electric-3PilasParalelo.png"
   Choices:
     - "2V"
     - "6V"
@@ -249,7 +249,7 @@ Show_max: 0
     - "8V"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-3ResisSerie223.png"
+  Image: "../images/electric-3ResisSerie223.png"
   Choices:
     - "7Ω"
     - "12Ω"
@@ -257,7 +257,7 @@ Show_max: 0
     - "8/6Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-3ResisParalelo666.png"
+  Image: "../images/electric-3ResisParalelo666.png"
   Choices:
     - "2Ω"
     - "18Ω"
@@ -265,7 +265,7 @@ Show_max: 0
     - "3/6Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-3ResisParalelo422.png"
+  Image: "../images/electric-3ResisParalelo422.png"
   Choices:
     - "4/5Ω"
     - "5/4Ω"
@@ -273,7 +273,7 @@ Show_max: 0
     - "8/3Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-2ResisParalelo36.png"
+  Image: "../images/electric-2ResisParalelo36.png"
   Choices:
     - "2Ω"
     - "0,5Ω"
@@ -281,7 +281,7 @@ Show_max: 0
     - "3Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-3ResisMixto422.png"
+  Image: "../images/electric-3ResisMixto422.png"
   Choices:
     - "5Ω"
     - "8Ω"
@@ -289,7 +289,7 @@ Show_max: 0
     - "6Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-3ResisMixto436.png"
+  Image: "../images/electric-3ResisMixto436.png"
   Choices:
     - "6Ω"
     - "13Ω"
@@ -297,7 +297,7 @@ Show_max: 0
     - "3Ω"
 
 - Question: "Cal será o valor da resistencia equivalente?"
-  Image: "images/electric-4ResisMixto4466.png"
+  Image: "../images/electric-4ResisMixto4466.png"
   Choices:
     - "5Ω"
     - "20Ω"
@@ -305,7 +305,7 @@ Show_max: 0
     - "10Ω"
 
 - Question: "Que diferencias de funcionamento haberá entre o circuíto 1 e 2?"
-  Image: "images/electric-2circSimples.png"
+  Image: "../images/electric-2circSimples.png"
   Choices:
     - "Ningunha"
     - "No circuíto 2, o led acende aínda que non cerremos o interruptor"
@@ -313,7 +313,7 @@ Show_max: 0
     - "Os dous leds acenden ao premer o interruptor, pero o 1 un chisco antes"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-2receptoresSerie.png"
+  Image: "../images/electric-2receptoresSerie.png"
   Choices:
     - "O led -a- acenderá un chisco antes que o -b-"
     - "A intensidade que circula polos dous leds é a mesma"
@@ -321,7 +321,7 @@ Show_max: 0
     - "Se o led -b- se queima, o -a- deixará de funcionar"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-2resisSerie.png"
+  Image: "../images/electric-2resisSerie.png"
   Choices:
     - "As dúas resistencias están sometidas á mesma voltaxe"
     - "Se o interruptor pecha, pasará intensidade polas dúas resistencias"
@@ -329,7 +329,7 @@ Show_max: 0
     - "Se desconecto a resistencia -b- non pasará corrente polo circuíto"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-2resisParalelo.png"
+  Image: "../images/electric-2resisParalelo.png"
   Choices:
     - "A intensidade que pasa polas dúas resistencias é a mesma"
     - "As dúas resistencias están sometidas á mesma voltaxe"
@@ -337,7 +337,7 @@ Show_max: 0
     - "A intensidade total do circuíto será a suma da intensidade por -a- e a intensidade por -b-"
 
 - Question: "Que será certo para a intensidade que pasa pola resistencia -a-?"
-  Image: "images/electric-2resisParalelo.png"
+  Image: "../images/electric-2resisParalelo.png"
   Choices:
     - "Pasará o doble de intensidade que pola resistencia -b-"
     - "Pasará a mesma intensidade que pola resitencia -b-"
@@ -345,7 +345,7 @@ Show_max: 0
     - "Por ela pasará a metade da intensidade total do circuíto"
 
 - Question: "Por cal resistencia pasará máis intensidade?"
-  Image: "images/electric-3resisParalelo.png"
+  Image: "../images/electric-3resisParalelo.png"
   Choices:
     - "Pola -a-"
     - "Pola -b-"
@@ -353,7 +353,7 @@ Show_max: 0
     - "Por todas pasará a mesma"
 
 - Question: "Que pasará neste circuíto se conecto a resistencia -c- ?"
-  Image: "images/electric-3resisParaleloQue.png"
+  Image: "../images/electric-3resisParaleloQue.png"
   Choices:
     - "A intensidade total aumentará respecto a cando había dúas"
     - "A voltaxe á que están sometidas ás resistencias disminuirá respecto a cando había dúas"
@@ -361,7 +361,7 @@ Show_max: 0
     - "A intensidade total disminuirá respecto a cando había dúas"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-2IntSerie.png"
+  Image: "../images/electric-2IntSerie.png"
   Choices:
     - "Se cerramos un ou outro interruptor, pasará corrente pola resistencia"
     - "Se cerramos un e outro interruptor, pasará corrente pola resistencia"
@@ -369,7 +369,7 @@ Show_max: 0
     - "Só pasará corrente pola resistencia se cerramos todos os interruptores"
 
 - Question: "Para que poderías empregar o circuíto da figura?"
-  Image: "images/electric-2IntSerieMotor.png"
+  Image: "../images/electric-2IntSerieMotor.png"
   Choices:
     - "Unha motoserra que actúa só cando premo dous interruptores"
     - "Un ventilador que se acende desde dous puntos distintos"
@@ -377,7 +377,7 @@ Show_max: 0
     - "Un taladro que pode ser accionado cun interruptor ou con outro"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-2IntParalelo.png"
+  Image: "../images/electric-2IntParalelo.png"
   Choices:
     - "A corrente pasará cando cerremos os dous interruptores"
     - "Se cerramos un ou outro interruptor, pasará corrente pola resistencia"
@@ -385,7 +385,7 @@ Show_max: 0
     - "A corrente pasa sempre que haxa polo menos un interruptor cerrado"
 
 - Question: "Cal é falsa, para o circuíto da figura?"
-  Image: "images/electric-ledCurtocircuito.png"
+  Image: "../images/electric-ledCurtocircuito.png"
   Choices:
     - "O led -a- acenderá"
     - "O led -a- está curtocircuitado"
@@ -393,7 +393,7 @@ Show_max: 0
     - "O led -b- acenderá"
 
 - Question: "Cal é certa para o circuíto da figura?"
-  Image: "images/electric-2IntSerieTricky.png"
+  Image: "../images/electric-2IntSerieTricky.png"
   Choices:
     - "Só pasará corrente pola resistencia con 1 e 2 cerrados"
     - "Se cerro o interruptor 1 pasará corrente pola resistencia"
@@ -401,7 +401,7 @@ Show_max: 0
     - "Se cerro calquera dos dous interruptores, pasará corrente"
 
 - Question: "Cando pasará corrente pola resistencia?"
-  Image: "images/electric-2IntMixtoTricky.png"
+  Image: "../images/electric-2IntMixtoTricky.png"
   Choices:
     - "Só se 2 está cerrado e 1 abert"
     - "Se cerramos 1 e 2"
@@ -409,7 +409,7 @@ Show_max: 0
     - "Cerrando o 2 ou o 1"
 
 - Question: "Como están conectadas as resistencias na breadboard?"
-  Image: "images/electric-brboardSerieParalelo01.png"
+  Image: "../images/electric-brboardSerieParalelo01.png"
   Choices:
     - "1 en paralelo, 2 en serie"
     - "As dúas en serie"
@@ -417,7 +417,7 @@ Show_max: 0
     - "1 en serie, 2 en paralelo"
 
 - Question: "Como están conectadas as resistencias na breadboard?"
-  Image: "images/electric-brboardSerieParalelo02.png"
+  Image: "../images/electric-brboardSerieParalelo02.png"
   Choices:
     - "As dúas en serie"
     - "1 en serie, 2 en paralelo"
@@ -425,7 +425,7 @@ Show_max: 0
     - "As dúas en paralelo"
 
 - Question: "Por que resistencias pasará corrente?"
-  Image: "images/electric-brboardBenConectadas01.png"
+  Image: "../images/electric-brboardBenConectadas01.png"
   Choices:
     - "Por 1 e 2"
     - "Por todas"
@@ -433,7 +433,7 @@ Show_max: 0
     - "Por ningunha"
 
 - Question: "Que montaxes se corresponden co esquema?"
-  Image: "images/electric-brboardResisCircuito.png"
+  Image: "../images/electric-brboardResisCircuito.png"
   Choices:
     - "1"
     - "2"
@@ -441,7 +441,7 @@ Show_max: 0
     - "ningún"
 
 - Question: "Cal é falsa para o circuíto da figura?"
-  Image: "images/electric-2Int3leds.png"
+  Image: "../images/electric-2Int3leds.png"
   Choices:
     - "Podo acender -c- sen acender -a- e -b-"
     - "Co interruptor 1 aberto, non acenderá nada"
@@ -449,7 +449,7 @@ Show_max: 0
     - "Cos dous interruptores premidos, acenden todos os leds"
 
 - Question: "Cando acenderá o led verde?"
-  Image: "images/electric-brBoard2PulsXeralSecundario.png"
+  Image: "../images/electric-brBoard2PulsXeralSecundario.png"
   Choices:
     - "Se teño premidos os dous pulsadores"
     - "Se premo o pulsador da dereita"
@@ -457,7 +457,7 @@ Show_max: 0
     - "En ningún caso"
 
 - Question: "Cal é falsa para o circuíto da figura?"
-  Image: "images/electric-brBoard2PulsXeralSecundario.png"
+  Image: "../images/electric-brBoard2PulsXeralSecundario.png"
   Choices:
     - "Podo acender o led verde sen que acenda o led vermello"
     - "Para acender o led verde teño que ter premido o pulsador da esquerda"
@@ -465,7 +465,7 @@ Show_max: 0
     - "O led vermello acende cando premo o pulsador da dereita"
 
 - Question: "A que esquema se corresponde o circuíto da breadboard?"
-  Image: "images/electric-brBoard2PulsXeralSecEsquemas.png"
+  Image: "../images/electric-brBoard2PulsXeralSecEsquemas.png"
   Choices:
     - "Ao rosa"
     - "Ao azul"
@@ -473,7 +473,7 @@ Show_max: 0
     - "Ao laranxa"
 
 - Question: "Cal será certa, para o circuíto da figura?"
-  Image: "images/electric-2IntResisLedCorto.png"
+  Image: "../images/electric-2IntResisLedCorto.png"
   Choices:
     - "O led acenderá se unicamente está pechado  -a-"
     - "O led non acenderá cando  -b- estea aberto"
@@ -481,7 +481,7 @@ Show_max: 0
     - "O led acenderá ao premer -a-, estea como estea -b-"
 
 - Question: "Que leds acenderán?"
-  Image: "images/electric-6ledAcenden.png"
+  Image: "../images/electric-6ledAcenden.png"
   Choices:
     - "O 2,3,4 e 6"
     - "O 1 e o 5"
@@ -489,7 +489,7 @@ Show_max: 0
     - "O 3 e o 4"
 
 - Question: "Que leds acenderán?"
-  Image: "images/electric-2CircLedAcenden.png"
+  Image: "../images/electric-2CircLedAcenden.png"
   Choices:
     - "O 1 e o 3"
     - "O 1, 3, 4 e 6"
@@ -497,7 +497,7 @@ Show_max: 0
     - "Todos"
 
 - Question: "Que leds acenderán?"
-  Image: "images/electric-3LedsCortoAcenden.png"
+  Image: "../images/electric-3LedsCortoAcenden.png"
   Choices:
     - "Ningún"
     - "O 3"
@@ -505,7 +505,7 @@ Show_max: 0
     - "Todos"
 
 - Question: "Que leds acenderán?"
-  Image: "images/electric-4LedsCortoAcenden.png"
+  Image: "../images/electric-4LedsCortoAcenden.png"
   Choices:
     - "O 4"
     - "Todos"
@@ -513,7 +513,7 @@ Show_max: 0
     - "Ningún"
 
 - Question: "Quero que o led acenda cando premo o pulsador. Hai algún fallo?"
-  Image: "images/electric-brbrUnLedPulsadorTricky.png"
+  Image: "../images/electric-brbrUnLedPulsadorTricky.png"
   Choices:
     - "Os cables non están nos terminais correctos do pulsador"
     - "O led está posto do revés"
@@ -521,7 +521,7 @@ Show_max: 0
     - "Non hai fallos, vai acender"
 
 - Question: "Quero que o led acenda só cando premo os dous pulsadores. Hai algún fallo?"
-  Image: "images/electric-brbr2pulsadoresSerieTricky.png"
+  Image: "../images/electric-brbr2pulsadoresSerieTricky.png"
   Choices:
     - "Ningún"
     - "O led acenderá cando prema calquera dos interruptores"
@@ -529,7 +529,7 @@ Show_max: 0
     - "A resistencia non está conectada no terminal correcto do pulsador"
 
 - Question: "Que cable teño que quitar para que o led acenda desde calquera dos dous pulsadores?"
-  Image: "images/electric-2pulsParaleloQuitaCable.png"
+  Image: "../images/electric-2pulsParaleloQuitaCable.png"
   Choices:
     - "O laranxa"
     - "O verde"
@@ -537,7 +537,7 @@ Show_max: 0
     - "O amarelo"
 
 - Question: "Por que circuíto circulará máis corrente?"
-  Image: "images/electric-leiOhmSameVolt.png"
+  Image: "../images/electric-leiOhmSameVolt.png"
   Choices:
     - "Polo 1"
     - "Polo 2"
@@ -545,7 +545,7 @@ Show_max: 0
     - "Polo 4"
 
 - Question: "Por que circuíto circulará máis corrente?"
-  Image: "images/electric-leiOhmSameRes.png"
+  Image: "../images/electric-leiOhmSameRes.png"
   Choices:
     - "Polo 2"
     - "Polo 1"
@@ -553,7 +553,7 @@ Show_max: 0
     - "Polo 4"
 
 - Question: "Por que circuíto circulará máis corrente?"
-  Image: "images/electric-leiOhmSameVoltDecimalOhm.png"
+  Image: "../images/electric-leiOhmSameVoltDecimalOhm.png"
   Choices:
     - "Polo 3"
     - "Polo 2"
@@ -561,7 +561,7 @@ Show_max: 0
     - "Polo 4"
 
 - Question: "Por que circuíto circulará máis corrente?"
-  Image: "images/electric-leiOhmSameVoltKohm.png"
+  Image: "../images/electric-leiOhmSameVoltKohm.png"
   Choices:
     - "Polo 2"
     - "Polo 1"
@@ -569,7 +569,7 @@ Show_max: 0
     - "Polo 4"
 
 - Question: "Por que circuíto circulará máis corrente?"
-  Image: "images/electric-leiOhmDifVoltDifRes.png"
+  Image: "../images/electric-leiOhmDifVoltDifRes.png"
   Choices:
     - "Polo 4"
     - "Polo 1"
@@ -577,7 +577,7 @@ Show_max: 0
     - "Polo 3"
 
 - Question: "Partimos do circuíto negro. Que pasará cando conectemos a resistencia en verde?"
-  Image: "images/electric-2ResisParaleloTricky44.png"
+  Image: "../images/electric-2ResisParaleloTricky44.png"
   Choices:
     - "A intensidade total do circuíto aumentará"
     - "A voltaxe á que está sometida -a- disminuirá"
@@ -585,7 +585,7 @@ Show_max: 0
     - "A intensidade total do circuíto non variará"
 
 - Question: "Partimos do circuíto negro. Que pasará cando conectemos a resistencia en verde?"
-  Image: "images/electric-2ResisParaleloTricky44.png"
+  Image: "../images/electric-2ResisParaleloTricky44.png"
   Choices:
     - "Por -b- pasará a mesma intensidade que por -a-"
     - "A voltaxe de -a- será a metade que antes"
@@ -593,7 +593,7 @@ Show_max: 0
     - "A intensidade total do circuíto non variará"
 
 - Question: "Partimos do circuíto negro. Se conectamos a parte en verde, cal será falsa?"
-  Image: "images/electric-2ResisParaleloTricky44.png"
+  Image: "../images/electric-2ResisParaleloTricky44.png"
   Choices:
     - "A intensidade total disminuirá"
     - "Por -b- pasará unha itensidade igual á que pasa por -a-"
@@ -601,7 +601,7 @@ Show_max: 0
     - "A intensidade que pasa por -a- non variará"
 
 - Question: "Cal é falsa para o circuíto da figura?"
-  Image: "images/electric-brBr2IntParalelo.png"
+  Image: "../images/electric-brBr2IntParalelo.png"
   Choices:
     - "O led non acenderá nunca"
     - "O led acenderá cando prema o interruptor esquerdo"
@@ -609,7 +609,7 @@ Show_max: 0
     - "Se teño premidos os dous interruptores, o led acenderá"
 
 - Question: "Cales leds acenderán cando prema o pulsador?"
-  Image: "images/electric-brBr3Led1intCalAcende.png"
+  Image: "../images/electric-brBr3Led1intCalAcende.png"
   Choices:
     - "O verde e o vermello"
     - "O azul e o vermello"
@@ -617,7 +617,7 @@ Show_max: 0
     - "O azul e o verde"
 
 - Question: "Cal é certa para o circuíto da figura?"
-  Image: "images/electric-brBr2int2LedParalelo.png"
+  Image: "../images/electric-brBr2int2LedParalelo.png"
   Choices:
     - "Cada o interruptor acende un led"
     - "Non poderei acender o led verde se non premo o interruptor da dereita"
@@ -625,7 +625,7 @@ Show_max: 0
     - "O verde está sempre aceso, aínda que non prema ningún pulsador"
 
 - Question: "Cando acenderá o led -b-?"
-  Image: "images/electric-3ledParal3IntAcenden.png"
+  Image: "../images/electric-3ledParal3IntAcenden.png"
   Choices:
     - "Sempre que estea pechado o interruptor 1"
     - "Con 1 pechado, 2 aberto e 3 aberto"
@@ -633,7 +633,7 @@ Show_max: 0
     - "Con 1 pechado, 2 pechado e 3 aberto"
 
 - Question: "Podo acender só o led -a-?"
-  Image: "images/electric-3ledParal4IntAcenden.png"
+  Image: "../images/electric-3ledParal4IntAcenden.png"
   Choices:
     - "Non"
     - "Si,premendo 1 e 2"

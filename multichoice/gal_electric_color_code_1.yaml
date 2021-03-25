@@ -9,7 +9,7 @@ Show_max: 0
 
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-1kOhm.png"
+  Image: "../images/electric-1kOhm.png"
   Choices:
     - "1 KΩ"
     - "10 KΩ"
@@ -17,7 +17,7 @@ Show_max: 0
     - "100 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-1MOhm.png"
+  Image: "../images/electric-1MOhm.png"
   Choices:
     - "1 MΩ"
     - "100KΩ"
@@ -25,7 +25,7 @@ Show_max: 0
     - "10 MΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-2k2Ohm.png"
+  Image: "../images/electric-2k2Ohm.png"
   Choices:
     - "2200 Ω"
     - "220 Ω"
@@ -33,7 +33,7 @@ Show_max: 0
     - "222 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-2K7Ohm.png"
+  Image: "../images/electric-2K7Ohm.png"
   Choices:
     - "2,7 KΩ"
     - "272 Ω"
@@ -41,7 +41,7 @@ Show_max: 0
     - "270 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-3Ohm.png"
+  Image: "../images/electric-3Ohm.png"
   Choices:
     - "3 Ω"
     - "30 Ω"
@@ -49,7 +49,7 @@ Show_max: 0
     - "3 KΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-10KOhm.png"
+  Image: "../images/electric-10KOhm.png"
   Choices:
     - "10 KΩ"
     - "1 KΩ"
@@ -57,7 +57,7 @@ Show_max: 0
     - "103 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-15KOhm.png"
+  Image: "../images/electric-15KOhm.png"
   Choices:
     - "15000 Ω"
     - "1,5 KΩ"
@@ -65,7 +65,7 @@ Show_max: 0
     - "150 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-33Ohm.png"
+  Image: "../images/electric-33Ohm.png"
   Choices:
     - "33 Ω"
     - "3,3 Ω"
@@ -73,7 +73,7 @@ Show_max: 0
     - "330 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-82MOhm.png"
+  Image: "../images/electric-82MOhm.png"
   Choices:
     - "82000000 Ω"
     - "8200000Ω"
@@ -81,7 +81,7 @@ Show_max: 0
     - "820 MΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-100Ohm.png"
+  Image: "../images/electric-100Ohm.png"
   Choices:
     - "100 Ω"
     - "101 Ω"
@@ -89,7 +89,7 @@ Show_max: 0
     - "1000 Ω"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-220Ohm.png"
+  Image: "../images/electric-220Ohm.png"
   Choices:
     - "220 Ω"
     - "22 Ω"
@@ -97,7 +97,7 @@ Show_max: 0
     - "2,2KΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-330Ohm.png"
+  Image: "../images/electric-330Ohm.png"
   Choices:
     - "330 Ω"
     - "0,033 KΩ"
@@ -105,7 +105,7 @@ Show_max: 0
     - "3,3 KΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-470KOhm.png"
+  Image: "../images/electric-470KOhm.png"
   Choices:
     - "470 KΩ"
     - "471000 Ω"
@@ -113,7 +113,7 @@ Show_max: 0
     - "47 KΩ"
 
 - Question: "Cal será o valor da resistencia da figura?"
-  Image: "images/electric-470Ohm.png"
+  Image: "../images/electric-470Ohm.png"
   Choices:
     - "470 Ω"
     - "47 KΩ"
@@ -121,7 +121,7 @@ Show_max: 0
     - "47 Ω"
 
 - Question: "Que cores terá unha resistencia de 330 Ω?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "laranxa - laranxa - marrón"
     - "laranxa - laranxa - negro"
@@ -129,7 +129,7 @@ Show_max: 0
     - "vermello - laranxa - marrón"
 
 - Question: "Que cores terá unha resistencia de 33 Ω?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "laranxa - laranxa - negro"
     - "laranxa - laranxa - branco"
@@ -137,7 +137,7 @@ Show_max: 0
     - "laranxa - negro - negro"
 
 - Question: "Que cores terá unha resistencia de 220 Ω?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "vermello - vermello - marrón"
     - "vermello - vermello - negro"
@@ -145,7 +145,7 @@ Show_max: 0
     - "vermello - marrón - marrón"
 
 - Question: "Que cores terá unha resistencia de 1 KΩ?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "marrón - negro - vermello"
     - "marrón - negro - laranxa"
@@ -153,7 +153,7 @@ Show_max: 0
     - "marrón - negro - marrón"
 
 - Question: "Que cores terá unha resistencia de 10 KΩ?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "marrón - negro - laranxa"
     - "marrón - negro - vermello"
@@ -161,7 +161,7 @@ Show_max: 0
     - "marrón - negro - amarelo"
 
 - Question: "Que cores terá unha resistencia de 100 KΩ?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "marrón - negro - amarelo"
     - "marrón  - negro - laranxa"
@@ -169,7 +169,7 @@ Show_max: 0
     - "marrón - negro - verde"
 
 - Question: "Que cores terá unha resistencia de 2,2 KΩ?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "vermello - vermello - vermello"
     - "vermello - vermello - marrón"
@@ -177,7 +177,7 @@ Show_max: 0
     - "vermello - vermello - verde"
 
 - Question: "Que cores terá unha resistencia de 470 Ω?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "amarelo - morado - marrón"
     - "morado - amarelo - marrón"
@@ -185,7 +185,7 @@ Show_max: 0
     - "amarelo - marrón - morado"
 
 - Question: "Que cores terá unha resistencia de 47 KΩ?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "amarelo - morado - laranxa"
     - "amarelo - morado - amarelo"
@@ -193,7 +193,7 @@ Show_max: 0
     - "amarelo - morado - vermello"
 
 - Question: "Que cores terá unha resistencia de 100 Ω?"
-  Image: "images/electric-colorCode.png"
+  Image: "../images/electric-colorCode.png"
   Choices:
     - "marrón -  negro - marrón"
     - "marrón - marrón - marrón"

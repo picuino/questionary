@@ -9,7 +9,7 @@ Show_max: 0
 
 - Title: Identificar puerta OR
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-or.png
+  Image: ../images/electric-simbolo-puerta-or.png
   Image_width: 180
   Choices:
     - Puerta OR
@@ -19,7 +19,7 @@ Show_max: 0
 
 - Title: Identificar puerta NOR
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-nor.png
+  Image: ../images/electric-simbolo-puerta-nor.png
   Image_width: 180
   Choices:
     - Puerta NOR
@@ -29,7 +29,7 @@ Show_max: 0
 
 - Title: Identificar puerta AND
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-and.png
+  Image: ../images/electric-simbolo-puerta-and.png
   Image_width: 180
   Choices:
     - Puerta AND
@@ -39,7 +39,7 @@ Show_max: 0
 
 - Title: Identificar puerta NAND
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-nand.png
+  Image: ../images/electric-simbolo-puerta-nand.png
   Image_width: 180
   Choices:
     - Puerta NAND
@@ -49,7 +49,7 @@ Show_max: 0
 
 - Title: Identificar puerta XOR
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-xor.png
+  Image: ../images/electric-simbolo-puerta-xor.png
   Image_width: 180
   Choices:
     - Puerta XOR
@@ -59,7 +59,7 @@ Show_max: 0
 
 - Title: Identificar puerta NOT
   Question: ¿Qué puerta lógica tiene este símbolo?
-  Image: images/electric-simbolo-puerta-not.png
+  Image: ../images/electric-simbolo-puerta-not.png
   Image_width: 180
   Choices:
     - Puerta NOT
@@ -85,7 +85,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad NOT
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-not.png
+  Image: ../images/electric-table-not.png
   Image_width: 120
   Choices:
     - NOT
@@ -95,7 +95,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad OR
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-or.png
+  Image: ../images/electric-table-or.png
   Image_width: 180
   Choices:
     - OR
@@ -105,7 +105,7 @@ Show_max: 0
 
 - Title: Identificar Tabla de verdad AND
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-and.png
+  Image: ../images/electric-table-and.png
   Image_width: 180
   Choices:
     - AND
@@ -115,7 +115,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad NOR
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-nor.png
+  Image: ../images/electric-table-nor.png
   Image_width: 180
   Choices:
     - NOR
@@ -125,7 +125,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad NAND
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-nand.png
+  Image: ../images/electric-table-nand.png
   Image_width: 180
   Choices:
     - NAND
@@ -135,7 +135,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad XOR
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-xor.png
+  Image: ../images/electric-table-xor.png
   Image_width: 180
   Choices:
     - XOR
@@ -145,7 +145,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad XNOR
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-xnor.png
+  Image: ../images/electric-table-xnor.png
   Image_width: 180
   Choices:
     - XNOR
@@ -155,7 +155,7 @@ Show_max: 0
 
 - Title: Identificar tabla de verdad Ninguna función
   Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
-  Image: images/electric-table-tricky.png
+  Image: ../images/electric-table-tricky.png
   Image_width: 180
   Choices:
     - Ninguna
@@ -180,7 +180,7 @@ Show_max: 0
 
 - Title: Identificar transistores puerta AND
   Question: ¿Qué puerta lógica se construye con este circuito?
-  Image: images/electric-digital-01.png
+  Image: ../images/electric-digital-01.png
   Image_width: 550
   Choices:
     - AND
@@ -190,7 +190,7 @@ Show_max: 0
 
 - Title: Identificar transistores puerta OR
   Question: ¿Qué puerta lógica se construye con este circuito?
-  Image: images/electric-digital-02.png
+  Image: ../images/electric-digital-02.png
   Image_width: 550
   Choices:
     - OR
@@ -200,7 +200,7 @@ Show_max: 0
 
 - Title: Identificar transistores puerta NAND
   Question: ¿Qué puerta lógica se construye con este circuito?
-  Image: images/electric-digital-03.png
+  Image: ../images/electric-digital-03.png
   Image_width: 550
   Choices:
     - NAND
@@ -210,7 +210,7 @@ Show_max: 0
 
 - Title: Identificar transistores puerta NOR
   Question: ¿Qué puerta lógica se construye con este circuito?
-  Image: images/electric-digital-04.png
+  Image: ../images/electric-digital-04.png
   Image_width: 550
   Choices:
     - NOR
@@ -220,7 +220,7 @@ Show_max: 0
 
 - Title: Identificar transistores puerta NOT
   Question: ¿Qué puerta lógica se construye con este circuito?
-  Image: images/electric-digital-05.png
+  Image: ../images/electric-digital-05.png
   Image_width: 550
   Choices:
     - NOT
@@ -230,7 +230,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: AND"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-06.png
+  Image: ../images/electric-digital-06.png
   Image_width: 550
   Choices:
     - AND
@@ -240,7 +240,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: NOT"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-07.png
+  Image: ../images/electric-digital-07.png
   Image_width: 550
   Choices:
     - NOT
@@ -250,7 +250,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: OR"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-08.png
+  Image: ../images/electric-digital-08.png
   Image_width: 550
   Choices:
     - OR
@@ -260,7 +260,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: XOR"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-09.png
+  Image: ../images/electric-digital-09.png
   Image_width: 550
   Choices:
     - XOR
@@ -270,7 +270,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: XNOR"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-10.png
+  Image: ../images/electric-digital-10.png
   Image_width: 550
   Choices:
     - XNOR
@@ -280,7 +280,7 @@ Show_max: 0
 
 - Title: "Identificar circuito equivalente con NAND: NOR"
   Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
-  Image: images/electric-digital-11.png
+  Image: ../images/electric-digital-11.png
   Image_width: 550
   Choices:
     - NOR

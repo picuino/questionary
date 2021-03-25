@@ -9,7 +9,7 @@ Show_max: 0
 
 - Title: Identify the Battery
   Question: What is the component of the image?
-  Image: images/electric-simbolo-pila.png
+  Image: ../images/electric-simbolo-pila.png
   Image_width: 180
   Choices:
     - Battery
@@ -19,7 +19,7 @@ Show_max: 0
 
 - Title: Identify the Altern current source
   Question: What is the component of the image?
-  Image: images/electric-simbolo-generador.png
+  Image: ../images/electric-simbolo-generador.png
   Image_width: 180
   Choices:
     - Altern current source
@@ -29,7 +29,7 @@ Show_max: 0
 
 - Title: Identify the Pushbutton n.o.
   Question: What is the component of the image?
-  Image: images/electric-simbolo-pulsador-na.png
+  Image: ../images/electric-simbolo-pulsador-na.png
   Image_width: 180
   Choices:
     - Pushbutton n.o.
@@ -39,7 +39,7 @@ Show_max: 0
 
 - Title: Identify the Switch
   Question: What is the component of the image?
-  Image: images/electric-simbolo-interruptor.png
+  Image: ../images/electric-simbolo-interruptor.png
   Image_width: 180
   Choices:
     - Switch
@@ -49,7 +49,7 @@ Show_max: 0
 
 - Title: Identify the Two way Switch
   Question: What is the component of the image?
-  Image: images/electric-simbolo-conmutador.png
+  Image: ../images/electric-simbolo-conmutador.png
   Image_width: 180
   Choices:
     - Two way Switch
@@ -59,7 +59,7 @@ Show_max: 0
 
 - Title: Identify the Resistor 1
   Question: What is the component of the image?
-  Image: images/electric-simbolo-resistencia.png
+  Image: ../images/electric-simbolo-resistencia.png
   Image_width: 180
   Choices:
     - Resistor
@@ -69,7 +69,7 @@ Show_max: 0
 
 - Title: Identify the Resistor 2
   Question: What is the component of the image?
-  Image: images/electric-simbolo-resistencia2.png
+  Image: ../images/electric-simbolo-resistencia2.png
   Image_width: 180
   Choices:
     - Resistor
@@ -79,7 +79,7 @@ Show_max: 0
 
 - Title: Identify the LED Diode
   Question: What is the component of the image?
-  Image: images/electric-simbolo-led.png
+  Image: ../images/electric-simbolo-led.png
   Image_width: 180
   Choices:
     - LED Diode
@@ -89,7 +89,7 @@ Show_max: 0
 
 - Title: Identify the Light Bulb
   Question: What is the component of the image?
-  Image: images/electric-simbolo-lampara.png
+  Image: ../images/electric-simbolo-lampara.png
   Image_width: 180
   Choices:
     - Light Bulb
@@ -99,7 +99,7 @@ Show_max: 0
 
 - Title: Identify the Buzzer
   Question: What is the component of the image?
-  Image: images/electric-simbolo-zumbador.png
+  Image: ../images/electric-simbolo-zumbador.png
   Image_width: 180
   Choices:
     - Buzzer
@@ -109,7 +109,7 @@ Show_max: 0
 
 - Title: Identify the Speaker
   Question: What is the component of the image?
-  Image: images/electric-simbolo-altavoz.png
+  Image: ../images/electric-simbolo-altavoz.png
   Image_width: 180
   Choices:
     - Speaker
@@ -119,7 +119,7 @@ Show_max: 0
 
 - Title: Identify the Motor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-motor.png
+  Image: ../images/electric-simbolo-motor.png
   Image_width: 180
   Choices:
     - Motor
@@ -129,7 +129,7 @@ Show_max: 0
 
 - Title: Identify the Earth
   Question: What is the component of the image?
-  Image: images/electric-simbolo-tierra.png
+  Image: ../images/electric-simbolo-tierra.png
   Image_width: 180
   Choices:
     - Earth
@@ -139,7 +139,7 @@ Show_max: 0
 
 - Title: Identify the Diode
   Question: What is the component of the image?
-  Image: images/electric-simbolo-diodo.png
+  Image: ../images/electric-simbolo-diodo.png
   Image_width: 180
   Choices:
     - Diode
@@ -149,7 +149,7 @@ Show_max: 0
 
 - Title: Identify the Fuse
   Question: What is the component of the image?
-  Image: images/electric-simbolo-fusible.png
+  Image: ../images/electric-simbolo-fusible.png
   Image_width: 180
   Choices:
     - Fuse
@@ -159,7 +159,7 @@ Show_max: 0
 
 - Title: Identify the Pushbutton n.c.
   Question: What is the component of the image?
-  Image: images/electric-simbolo-pulsador-nc.png
+  Image: ../images/electric-simbolo-pulsador-nc.png
   Image_width: 180
   Choices:
     - Pushbutton n.c.
@@ -169,7 +169,7 @@ Show_max: 0
 
 - Title: Identify the Voltmeter
   Question: What is the component of the image?
-  Image: images/electric-simbolo-voltimetro.png
+  Image: ../images/electric-simbolo-voltimetro.png
   Image_width: 180
   Choices:
     - Voltmeter
@@ -179,7 +179,7 @@ Show_max: 0
 
 - Title: Identify the Ammeter
   Question: What is the component of the image?
-  Image: images/electric-simbolo-amperimetro.png
+  Image: ../images/electric-simbolo-amperimetro.png
   Image_width: 180
   Choices:
     - Ammeter
@@ -189,7 +189,7 @@ Show_max: 0
 
 - Title: Identify the Transformer
   Question: What is the component of the image?
-  Image: images/electric-simbolo-transformador.png
+  Image: ../images/electric-simbolo-transformador.png
   Image_width: 180
   Choices:
     - Transformer
@@ -199,7 +199,7 @@ Show_max: 0
 
 - Title: Identify the Ground plane
   Question: What is the component of the image?
-  Image: images/electric-simbolo-masa.png
+  Image: ../images/electric-simbolo-masa.png
   Image_width: 180
   Choices:
     - Ground plane
@@ -209,7 +209,7 @@ Show_max: 0
 
 - Title: Identify the NPN Transistor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-npn.png
+  Image: ../images/electric-simbolo-npn.png
   Image_width: 180
   Choices:
     - NPN Transistor
@@ -219,7 +219,7 @@ Show_max: 0
 
 - Title: Identify the PNP Transistor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-pnp.png
+  Image: ../images/electric-simbolo-pnp.png
   Image_width: 180
   Choices:
     - PNP Transistor
@@ -229,7 +229,7 @@ Show_max: 0
 
 - Title: Identify the Relay
   Question: What is the component of the image?
-  Image: images/electric-simbolo-rele.png
+  Image: ../images/electric-simbolo-rele.png
   Image_width: 180
   Choices:
     - Relay
@@ -239,7 +239,7 @@ Show_max: 0
 
 - Title: Identify the Coil
   Question: What is the component of the image?
-  Image: images/electric-simbolo-inductancia.png
+  Image: ../images/electric-simbolo-inductancia.png
   Image_width: 180
   Choices:
     - Coil
@@ -249,7 +249,7 @@ Show_max: 0
 
 - Title: Identify the Capacitor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-condensador.png
+  Image: ../images/electric-simbolo-condensador.png
   Image_width: 180
   Choices:
     - Capacitor
@@ -259,7 +259,7 @@ Show_max: 0
 
 - Title: Identify the LDR Resistor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-resistencia-ldr.png
+  Image: ../images/electric-simbolo-resistencia-ldr.png
   Image_width: 180
   Choices:
     - LDR Resistor
@@ -269,7 +269,7 @@ Show_max: 0
 
 - Title: Identify the NTC Resistor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-resistencia-ntc.png
+  Image: ../images/electric-simbolo-resistencia-ntc.png
   Image_width: 180
   Choices:
     - NTC Resistor
@@ -279,7 +279,7 @@ Show_max: 0
 
 - Title: Identify the Variable Resistor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-resistencia-variable.png
+  Image: ../images/electric-simbolo-resistencia-variable.png
   Image_width: 180
   Choices:
     - Variable Resistor
@@ -289,7 +289,7 @@ Show_max: 0
 
 - Title: Identify the Limit Switch
   Question: What is the component of the image?
-  Image: images/electric-simbolo-final-carrera.png
+  Image: ../images/electric-simbolo-final-carrera.png
   Image_width: 180
   Choices:
     - Limit Switch
@@ -299,7 +299,7 @@ Show_max: 0
 
 - Title: Identify the Crossover cable not connected
   Question: What is the component of the image?
-  Image: images/electric-simbolo-cable-cruzado.png
+  Image: ../images/electric-simbolo-cable-cruzado.png
   Image_width: 180
   Choices:
     - Crossover wire not connected
@@ -309,7 +309,7 @@ Show_max: 0
 
 - Title: Identify the Connected wire
   Question: What is the component of the image?
-  Image: images/electric-simbolo-cable-conectado.png
+  Image: ../images/electric-simbolo-cable-conectado.png
   Image_width: 180
   Choices:
     - Connected wire
@@ -319,7 +319,7 @@ Show_max: 0
 
 - Title: Identify the Connector
   Question: What is the component of the image?
-  Image: images/electric-simbolo-conector.png
+  Image: ../images/electric-simbolo-conector.png
   Image_width: 180
   Choices:
     - Connector
@@ -329,7 +329,7 @@ Show_max: 0
 
 - Title: Identify the Polarized Capacitor
   Question: What is the component of the image?
-  Image: images/electric-simbolo-condensador-pol.png
+  Image: ../images/electric-simbolo-condensador-pol.png
   Image_width: 180
   Choices:
     - Polarized Capacitor

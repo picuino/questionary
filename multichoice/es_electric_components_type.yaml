@@ -11,7 +11,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una pila?
-  Image: images/electric-simbolo-pila.png
+  Image: ../images/electric-simbolo-pila.png
   Image_width: 180
   Choices:
     - Generador
@@ -21,7 +21,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un generador de corriente alterna?
-  Image: images/electric-simbolo-generador.png
+  Image: ../images/electric-simbolo-generador.png
   Image_width: 180
   Choices:
     - Generador
@@ -31,7 +31,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un transformador?
-  Image: images/electric-simbolo-transformador.png
+  Image: ../images/electric-simbolo-transformador.png
   Image_width: 180
   Choices:
     - Generador
@@ -43,7 +43,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una resistencia?
-  Image: images/electric-simbolo-resistencia.png
+  Image: ../images/electric-simbolo-resistencia.png
   Image_width: 180
   Choices:
     - Receptor
@@ -53,7 +53,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una bombilla?
-  Image: images/electric-simbolo-lampara.png
+  Image: ../images/electric-simbolo-lampara.png
   Image_width: 180
   Choices:
     - Receptor
@@ -63,7 +63,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un zumbador?
-  Image: images/electric-simbolo-zumbador.png
+  Image: ../images/electric-simbolo-zumbador.png
   Image_width: 180
   Choices:
     - Receptor
@@ -73,7 +73,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un altavoz?
-  Image: images/electric-simbolo-altavoz.png
+  Image: ../images/electric-simbolo-altavoz.png
   Image_width: 180
   Choices:
     - Receptor
@@ -83,7 +83,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un motor?
-  Image: images/electric-simbolo-motor.png
+  Image: ../images/electric-simbolo-motor.png
   Image_width: 180
   Choices:
     - Receptor
@@ -93,7 +93,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un condensador?
-  Image: images/electric-simbolo-condensador.png
+  Image: ../images/electric-simbolo-condensador.png
   Image_width: 180
   Choices:
     - Receptor
@@ -103,7 +103,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un condensador polarizado?
-  Image: images/electric-simbolo-condensador-pol.png
+  Image: ../images/electric-simbolo-condensador-pol.png
   Image_width: 180
   Choices:
     - Receptor
@@ -113,7 +113,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una bobina?
-  Image: images/electric-simbolo-inductancia.png
+  Image: ../images/electric-simbolo-inductancia.png
   Image_width: 180
   Choices:
     - Receptor
@@ -125,7 +125,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un pulsador n.a.?
-  Image: images/electric-simbolo-pulsador-na.png
+  Image: ../images/electric-simbolo-pulsador-na.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -135,7 +135,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un interruptor?
-  Image: images/electric-simbolo-interruptor.png
+  Image: ../images/electric-simbolo-interruptor.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -145,7 +145,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un conmutador?
-  Image: images/electric-simbolo-conmutador.png
+  Image: ../images/electric-simbolo-conmutador.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -155,7 +155,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un fusible?
-  Image: images/electric-simbolo-fusible.png
+  Image: ../images/electric-simbolo-fusible.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -165,7 +165,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un pulsador n.c.?
-  Image: images/electric-simbolo-pulsador-nc.png
+  Image: ../images/electric-simbolo-pulsador-nc.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -175,7 +175,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un Final de carrera?
-  Image: images/electric-simbolo-final-carrera.png
+  Image: ../images/electric-simbolo-final-carrera.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -185,7 +185,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un relé?
-  Image: images/electric-simbolo-rele.png
+  Image: ../images/electric-simbolo-rele.png
   Image_width: 180
   Choices:
     - Elemento de control
@@ -197,7 +197,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un voltímetro?
-  Image: images/electric-simbolo-voltimetro.png
+  Image: ../images/electric-simbolo-voltimetro.png
   Image_width: 180
   Choices:
     - Instrumento de medida
@@ -207,7 +207,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un amperímetro?
-  Image: images/electric-simbolo-amperimetro.png
+  Image: ../images/electric-simbolo-amperimetro.png
   Image_width: 180
   Choices:
     - Instrumento de medida
@@ -219,7 +219,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una toma de tierra?
-  Image: images/electric-simbolo-tierra.png
+  Image: ../images/electric-simbolo-tierra.png
   Image_width: 180
   Choices:
     - Conductor
@@ -229,7 +229,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un plano de masa?
-  Image: images/electric-simbolo-masa.png
+  Image: ../images/electric-simbolo-masa.png
   Image_width: 180
   Choices:
     - Conductor
@@ -239,7 +239,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un cable sin conectar?
-  Image: images/electric-simbolo-cable-cruzado.png
+  Image: ../images/electric-simbolo-cable-cruzado.png
   Image_width: 180
   Choices:
     - Conductor
@@ -249,7 +249,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un cable conectado?
-  Image: images/electric-simbolo-cable-conectado.png
+  Image: ../images/electric-simbolo-cable-conectado.png
   Image_width: 180
   Choices:
     - Conductor
@@ -259,7 +259,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un conector?
-  Image: images/electric-simbolo-conector.png
+  Image: ../images/electric-simbolo-conector.png
   Image_width: 180
   Choices:
     - Conductor
@@ -271,7 +271,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un diodo?
-  Image: images/electric-simbolo-diodo.png
+  Image: ../images/electric-simbolo-diodo.png
   Image_width: 180
   Choices:
     - Componente electrónico
@@ -281,7 +281,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un transistor NPN?
-  Image: images/electric-simbolo-npn.png
+  Image: ../images/electric-simbolo-npn.png
   Image_width: 180
   Choices:
     - Componente electrónico
@@ -291,7 +291,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un transistor PNP?
-  Image: images/electric-simbolo-pnp.png
+  Image: ../images/electric-simbolo-pnp.png
   Image_width: 180
   Choices:
     - Componente electrónico
@@ -301,7 +301,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un LED?
-  Image: images/electric-simbolo-led.png
+  Image: ../images/electric-simbolo-led.png
   Image_width: 180
   Choices:
     - Componente electrónico
@@ -311,7 +311,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es un Amplificador Operacional?
-  Image: images/electric-simbolo-amplificador-operacional.png
+  Image: ../images/electric-simbolo-amplificador-operacional.png
   Image_width: 180
   Choices:
     - Componente electrónico
@@ -323,7 +323,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una resistencia LDR?
-  Image: images/electric-simbolo-resistencia-ldr.png
+  Image: ../images/electric-simbolo-resistencia-ldr.png
   Image_width: 180
   Choices:
     - Sensor
@@ -333,7 +333,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una resistencia NTC?
-  Image: images/electric-simbolo-resistencia-ntc.png
+  Image: ../images/electric-simbolo-resistencia-ntc.png
   Image_width: 180
   Choices:
     - Sensor
@@ -343,7 +343,7 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de componente es una resistencia variable?
-  Image: images/electric-simbolo-resistencia-variable.png
+  Image: ../images/electric-simbolo-resistencia-variable.png
   Image_width: 180
   Choices:
     - Sensor
