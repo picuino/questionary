@@ -39,7 +39,7 @@ def main():
       db.read_yaml(yaml_file)
       output_file = os.path.join(output_path, os.path.splitext(yaml_file)[0] + '.xml')
       if is_newer(yaml_file, output_file):
-         db.preprocess()
+         db.preprocess_questions()
          data = db.render(template_xml_moodle)
          with codecs.open(output_file, 'w', encoding='utf-8') as fo:
             fo.write(data)
@@ -68,22 +68,15 @@ class Database():
       print('   Readed: %d questions' % len(self.questions))
       return len(self.questions)
 
-   def test_questions(self):
+   def preprocess_questions(self):
       counter = 0
-      correct_questions = []
       for question in self.questions:
          counter += 1
          question['error'] = False
-         question['counter'] = counter
+         question['index'] = counter
 
          if 'files' in question:
-            files_base64 = [{'base64':'', 'ext':''}]
-            for filename in question['files']:
-               file_base64 = self.import_file(filename)
-               files_base64.append(file_base64)
-               if not file_base64:
-                  question['error'] = True
-            question['files'] = files_base64
+            self.preprocess_files(question)
          else:
             question['files'] = []
             
@@ -97,58 +90,94 @@ class Database():
                question['error'] = True
 
          elif question['type'] == 'description':
-            self.test_questiontext(question, counter)
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
 
          elif question['type'] == 'essay':
-            self.test_questiontext(question, counter)
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
             
          elif question['type'] == 'cloze':
-            self.test_questiontext(question, counter)
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
             
          elif question['type'] == 'multichoice':
-            self.test_questiontext(question, counter)
-            self.test_questiontext(question, counter)
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
+            self.preprocess_multichoice_answers(question)
+
+         elif question['type'] == 'matching':
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
+            self.preprocess_matching_subquestions(question)
 
          else:
             print('   Error: type "%s" not recognized' % question['type'])
             question['error'] = True
-         
-   def test_questiontext(self, question, counter):
-      if not self.exists_member(question, 'questiontext'):
-         print('   Error: does not exists "questiontext" in question %d' % counter)
-         question['error'] = True
 
-   def test_multichoice_answers(self, question, counter):
+   def preprocess_files(self, question):
+      files_base64 = [{'base64':'', 'ext':''}]
+      for filename in question['files']:
+         file_base64 = self.import_file(filename)
+         files_base64.append(file_base64)
+         if not file_base64:
+            question['error'] = True
+      question['files'] = files_base64
+      
+   def preprocess_name(self, question):
+      if not self.exists_member(question, 'name'):
+         print('   Warning: question %d without name' % question['index'])
+         question['name'] = 'Question %04d' % counter
+         
+   def preprocess_questiontext(self, question):
+      if not self.exists_member(question, 'questiontext'):
+         print('   Error: does not exists "questiontext" in question %d "%s"' %
+               (question['index'], question['name']))
+         question['error'] = True
+      self.render_text(question, 'questiontext', question['files'])
+
+   def preprocess_multichoice_answers(self, question):
       if not 'answers' in question or len(question['answers']) < 2:
-         print('   Error: less than 2 answers in question %d' % counter)
+         print('   Error: less than 2 answers in question %d "%s"' %
+               (question['index'], question['name']))
          question['error'] = True
          return
       sum_fractions = 0
       for answer in question['answers']:
          if not 'fraction' in answer:
-            print('   Error: answer without "fraction" in question %d' % counter)
+            print('   Error: answer without "fraction" in question %d "%s"' %
+                  (question['index'], question['name']))
             question['error'] = True
          else:
             sum_fractions += answer['fraction']
          if not 'text' in answer or not answer['text']:
-            print('   Error: answer without "text" in question %d' % counter)
+            print('   Error: answer without "text" in question %d "%s"' %
+                  (question['index'], question['name']))
             question['error'] = True
+         else:
+            self.render_text(answer, 'text', question['files'])
+
       if abs(sum_fractions) > 1:
-         print('   Warning: fractions not sums zero in question %d' % counter)
+         print('   Warning: fractions not sums zero in question %d "%s"' %
+               (question['index'], question['name']))
 
-   def preprocess(self):
-      self.test_questions()
-
-      for question in self.questions:
-         if question['error']:
-            continue
-         
-         if 'questiontext' in question:
-            self.render_text(question, 'questiontext', question['files'])
-
-         if question['type'] == 'multichoice':
-            for answer in question['answers']:
-               self.render_text(answer, 'text', question['files'])
+   def preprocess_matching_subquestions(self, question):
+      if not 'subquestions' in question or len(question['subquestions']) < 2:
+         print('   Error: less than 2 subquestions in question %d "%s"' %
+               (question['index'], question['name']))
+         question['error'] = True
+         return
+      for subquestion in question['subquestions']:
+         if not 'text' in subquestion or not subquestion['text']:
+            print('   Error: subquestion without "text" in question %d "%s"' %
+                  (question['index'], question['name']))
+            question['error'] = True
+         else:
+            self.render_text(subquestion, 'text', question['files'])
+         if not 'answer' in subquestion or not subquestion['answer']:
+            print('   Error: subquestion without "answer" in question %d "%s"' %
+                  (question['index'], question['name']))
+            question['error'] = True
 
    def exists_member(self, dictionary, member):
       if not member in dictionary:
@@ -204,7 +233,7 @@ template_xml_moodle = """{#- -#}
 
 {%- for question in questions if not question['error'] %}
 
-   <!-- question: {{ '%04d' % question['counter'] }} -->
+   <!-- question: {{ '%04d' % question['index'] }} -->
 
    {%- if question['type'] == 'category' %}
    <question type="category">
@@ -232,7 +261,7 @@ template_xml_moodle = """{#- -#}
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
-      <penalty>0.0000000</penalty>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.0000000{% endif%}</penalty>
       <hidden>0</hidden>
       <responseformat>editor</responseformat>
       <responserequired>1</responserequired>
@@ -250,7 +279,7 @@ template_xml_moodle = """{#- -#}
       <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
-      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0{% endif%}</penalty>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.000000{% endif%}</penalty>
       <hidden>0</hidden>
       <idnumber></idnumber>
    </question>
@@ -262,8 +291,8 @@ template_xml_moodle = """{#- -#}
       <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
-      <defaultgrade>1.0000000</defaultgrade>
-      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0{% endif%}</penalty>
+      <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.0000000{% endif%}</penalty>
       <hidden>0</hidden>
       <single>true</single>
       <shuffleanswers>true</shuffleanswers>
@@ -276,6 +305,30 @@ template_xml_moodle = """{#- -#}
          <text><![CDATA[{{ answer['text'] }}]]></text>
          <feedback format="html"> <text>{{ answer['feedback'] }}</text> </feedback>
       </answer>
+      {%- endfor %}
+   </question>
+
+   {%- elif question['type'] == 'matching' %}
+   <question type="matching">
+      <name> <text>{{ question['name'] }}</text> </name>
+      <questiontext format="html">
+      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+      </questiontext>
+      <generalfeedback format="html"> <text></text> </generalfeedback>
+      <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.0000000{% endif%}</penalty>
+      <hidden>0</hidden>
+      <idnumber></idnumber>
+      <shuffleanswers>true</shuffleanswers>
+      <correctfeedback format="html"> <text>Respuesta correcta</text> </correctfeedback>
+      <partiallycorrectfeedback format="html"> <text>Respuesta parcialmente correcta.</text> </partiallycorrectfeedback>
+      <incorrectfeedback format="html"> <text>Respuesta incorrecta.</text> </incorrectfeedback>
+      <shownumcorrect/>
+      {%- for subquestion in question['subquestions'] %}
+      <subquestion format="html">
+         <text><![CDATA[{{ subquestion['text'] }}]]></text>
+         <answer> <text>{{ subquestion['answer'] }}</text> </answer>
+      </subquestion>
       {%- endfor %}
    </question>
 

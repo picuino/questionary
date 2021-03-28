@@ -39,6 +39,7 @@ License: Creative Commons Attribution-ShareAlike 4.0
 
 
 - type: multichoice
+  name: Ejemplo de pregunta multichoice
   questiontext: ¿Cuál es la resistencia de 120 Ohmios?
   answers:
     - fraction: -50
@@ -49,6 +50,22 @@ License: Creative Commons Attribution-ShareAlike 4.0
     - fraction: -50
       text: '{{ image(file=3, alt="Resistencia", width=240) }}'
       feedback: Esta resistencia vale 150 Ohmios
+  files:
+    -  ../images/electric-resistencia-100.png
+    -  ../images/electric-resistencia-120.png
+    -  ../images/electric-resistencia-150.png
+
+
+- type: matching
+  name: Ejemplo de pregunta matching
+  questiontext: Empareja cada resistencia con su valor
+  subquestions:
+     - text: '{{ image(file=1, alt="Resistencia", width=240) }}'
+       answer: 100 Ohmios
+     - text: '{{ image(file=2, alt="Resistencia", width=240) }}'
+       answer: 120 Ohmios
+     - text: '{{ image(file=3, alt="Resistencia", width=240) }}'
+       answer: 150 Ohmios
   files:
     -  ../images/electric-resistencia-100.png
     -  ../images/electric-resistencia-120.png
