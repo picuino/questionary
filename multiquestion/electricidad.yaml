@@ -9,6 +9,7 @@ License: Creative Commons Attribution-ShareAlike 4.0
 - type: category
   category: Electricidad/El_circuito_eléctrico
 
+
 - type: description
   name: Generadores
   questiontext: |
@@ -18,11 +19,13 @@ License: Creative Commons Attribution-ShareAlike 4.0
   files:
     - ../images/electric-serie-paralelo-c01.png
 
+
 - type: essay
   name: Pregunta de generadores
   questiontext: Dibuja una pila conectada a una bombilla
   defaultgrade: 1.0
   attachments: 1
+
 
 - type: cloze
   name: Ejemplo de pregunta cloze

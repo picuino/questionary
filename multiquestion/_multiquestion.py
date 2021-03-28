@@ -30,17 +30,27 @@ from PIL import Image
 
 def main():
    """Main program"""
-
+   output_path = '.'
+   
    db = Database()
    yaml_files = [yaml for yaml in os.listdir('.') if yaml[-5:].lower() == '.yaml']
    for yaml_file in yaml_files:
       print('\nFile: %s' % yaml_file)
       db.read_yaml(yaml_file)
-      db.preprocess()
-      data = db.render(template_xml_moodle)
-      output_file = os.path.splitext(yaml_file)[0] + '.xml'
-      with codecs.open(output_file, 'w', encoding='utf-8') as fo:
-         fo.write(data)
+      output_file = os.path.join(output_path, os.path.splitext(yaml_file)[0] + '.xml')
+      if is_newer(yaml_file, output_file):
+         db.preprocess()
+         data = db.render(template_xml_moodle)
+         with codecs.open(output_file, 'w', encoding='utf-8') as fo:
+            fo.write(data)
+         print('   Output: %s' % output_file)
+
+
+def is_newer(filename1, filename2):
+   if os.path.exists(filename2):
+      if os.path.getmtime(filename1) < os.path.getmtime(filename2):
+         return False
+   return True
 
 
 class Database():
@@ -55,6 +65,7 @@ class Database():
       yaml_files = list(yaml.load_all(yamldata, Loader=yaml.SafeLoader))
       self.header = yaml_files[0]
       self.questions = yaml_files[1]
+      print('   Readed: %d questions' % len(self.questions))
       return len(self.questions)
 
    def test_questions(self):
@@ -63,6 +74,7 @@ class Database():
       for question in self.questions:
          counter += 1
          question['error'] = False
+         question['counter'] = counter
 
          if 'files' in question:
             files_base64 = [{'base64':'', 'ext':''}]
@@ -101,8 +113,6 @@ class Database():
             print('   Error: type "%s" not recognized' % question['type'])
             question['error'] = True
          
-      self.questions = [question for question in self.questions if question['error'] == False]
-
    def test_questiontext(self, question, counter):
       if not self.exists_member(question, 'questiontext'):
          print('   Error: does not exists "questiontext" in question %d' % counter)
@@ -130,6 +140,9 @@ class Database():
       self.test_questions()
 
       for question in self.questions:
+         if question['error']:
+            continue
+         
          if 'questiontext' in question:
             self.render_text(question, 'questiontext', question['files'])
 
@@ -176,15 +189,6 @@ class Database():
 image_types = ['png', 'jpg', 'jpeg', 'gif']
 
 
-question_types = [
-   'category',
-   'description',
-   'essay',
-   'cloze',
-   'multichoice'
-   ]
-
-
 template_macros = """
    {%- macro image(file, alt='', width=240, height=0) -%}
    <img src="data:image/{{ files[file]['ext'] }};base64,{{ files[file]['base64'] }}" alt="{{ alt }}"
@@ -200,7 +204,7 @@ template_xml_moodle = """{#- -#}
 
 {%- for question in questions if not question['error'] %}
 
-   <!-- question: {{ '%04d' % loop.index}}  -->
+   <!-- question: {{ '%04d' % question['counter'] }} -->
 
    {%- if question['type'] == 'category' %}
    <question type="category">
