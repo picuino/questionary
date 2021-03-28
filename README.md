@@ -112,6 +112,25 @@ Los alumnos tardan de 15 a 25 minutos en terminar un test de
 30 preguntas, repitiendolas si es necesario para obtener buena nota.
 
 
+## Directorio multichoice/build
+En este directorio se guardan automáticamente los formatos DOCX, CSV, y 
+XML de Moodle a partir de los ficheros YAML en texto plano, cuando se 
+ejecuta la macro en Pyhton _multichoice.py
+
+
+## Directorio multichoice/templates
+Directorio interno que contiene las plantillas necesarias para generar 
+automáticamente todos los ficheros.
+
+
+## Directorio docs
+En este directorio se generan automáticamente las páginas web de los 
+cuestionarios.
+Los únicos archivos que habrá que editar a mano son los ficheros de 
+índice: index.html, index_en.html e index_gal.html para incluir en ellos 
+las páginas que se desee en el orden y con el título correcto.
+
+
 ## Directorio images
 En este directorio se guardan todas las imágenes utilizadas en los 
 cuestionarios. 
@@ -125,36 +144,17 @@ pertenece a la categoría de electricidad, subcategoría de símbolos eléctrico
 y se trata de un interruptor.
 
 
-## Directorio image/kicad e image/libreoffice
+## Directorio images/kicad e images/libreoffice
 Este directorio contiene los proyectos en formato KiCAD y formato
 LibreOffice necesarios para generar las imágenes del proyecto.
 
 
-## Directorio image/thumbs
+## Directorio images/thumbs
 Este subdirectorio contiene todas las imágenes en formato pequeño (thumbnails).
 
 Las imágenes pequeñas de este directorio se generan automáticamente a 
 partir de las imágenes del directorio "images" y sirven para utilizarlas
 en la documentación del proyecto.
-
-
-## Directorio build
-En este directorio se guardan automáticamente los formatos DOCX, CSV, y 
-XML de Moodle a partir de los ficheros YAML en texto plano, cuando se 
-ejecuta la macro en Pyhton questionary.py
-
-
-## Directorio docs
-En este directorio se genera automáticamente las páginas web de los 
-cuestionarios.
-Los únicos archivos que habrá que editar a mano son los ficheros de 
-índice: index.html, index_en.html e index_gal.html para incluir en ellos 
-las páginas que se desee en el orden y con el título correcto.
-
-
-## Directorio templates
-Directorio interno que contiene las plantillas necesarias para generar 
-automáticamente todos los ficheros.
 
 
 ## Directorio venv
@@ -163,15 +163,16 @@ librerías de trabajo. Se puede prescindir de él si se instala Python
 en el ordenador junto con todas las librerías necesarias.
 
 
+
 INSTALACIÓN EN WINDOWS
 ======================
 
 ## INTERPRETE PYTHON
-Para ejecutar la macro de Python questionary.py necesaria para renderizar
+Para ejecutar las macros de Python necesarias para renderizar
 todos los archivos, será necesario instalar el 
 [intérprete Pyhton](https://www.python.org/downloads/windows/)
 La última versión en el momento de escribir estas líneas es la 3.9
-pero la macro funciona también con versiones 3.x antiguas y posteriores.
+pero la macro funciona también con versiones 3.x antiguas.
 
 Durante la instalación será recomendable cambiar el directorio de 
 instalación a /Bin/Python39.
