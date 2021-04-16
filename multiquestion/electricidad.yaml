@@ -1,5 +1,4 @@
 ﻿
-Category: Electricidad
 Title: El circuito eléctrico
 Author: Carlos Pardo
 License: Creative Commons Attribution-ShareAlike 4.0
@@ -7,7 +6,7 @@ License: Creative Commons Attribution-ShareAlike 4.0
 ---
 
 - type: category
-  category: Electricidad/El_circuito_eléctrico
+  category: Ejemplos/El_circuito_eléctrico
 
 
 - type: description
@@ -70,3 +69,19 @@ License: Creative Commons Attribution-ShareAlike 4.0
     -  ../images/electric-resistencia-100.png
     -  ../images/electric-resistencia-120.png
     -  ../images/electric-resistencia-150.png
+
+
+- type: shortanswer
+  name: Ejemplo de pregunta shortanswer
+  questiontext: ¿Qué unidad mide la intensidad de corriente eléctrica?
+  defaultgrade: 1.0
+  answers:
+    - fraction: 100
+      text: Amperio
+      feedback:
+    - fraction: 80
+      text: amperio
+      feedback: Se escribe Amperio
+    - fraction: 0
+      text: voltio
+      feedback: No, esa es la unidad de tensión o voltaje eléctrico

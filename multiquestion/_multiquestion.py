@@ -32,18 +32,22 @@ def main():
    """Main program"""
    output_path = '.'
    
-   db = Database()
+   mq = Multiquestion()
    yaml_files = [yaml for yaml in os.listdir('.') if yaml[-5:].lower() == '.yaml']
    for yaml_file in yaml_files:
       print('\nFile: %s' % yaml_file)
-      db.read_yaml(yaml_file)
+      mq.read_yaml(yaml_file)
       output_file = os.path.join(output_path, os.path.splitext(yaml_file)[0] + '.xml')
       if is_newer(yaml_file, output_file):
-         db.preprocess_questions()
-         data = db.render(template_xml_moodle)
-         with codecs.open(output_file, 'w', encoding='utf-8') as fo:
-            fo.write(data)
+         mq.preprocess_questions()
+         data = mq.render(template_xml_moodle)
+         write(output_file, data)
          print('   Output: %s' % output_file)
+
+
+def write(filename, data):
+    with codecs.open(filename , 'w', encoding='utf-8') as fo:
+        fo.write(data)
 
 
 def is_newer(filename1, filename2):
@@ -53,7 +57,7 @@ def is_newer(filename1, filename2):
    return True
 
 
-class Database():
+class Multiquestion():
    
    def __init__(self):
       pass
@@ -97,20 +101,25 @@ class Database():
             self.preprocess_name(question)
             self.preprocess_questiontext(question)
             
-         elif question['type'] == 'cloze':
-            self.preprocess_name(question)
-            self.preprocess_questiontext(question)
-            
          elif question['type'] == 'multichoice':
             self.preprocess_name(question)
             self.preprocess_questiontext(question)
             self.preprocess_multichoice_answers(question)
+
+         elif question['type'] == 'shortanswer':
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
+            self.preprocess_shortanswer_answers(question)
 
          elif question['type'] == 'matching':
             self.preprocess_name(question)
             self.preprocess_questiontext(question)
             self.preprocess_matching_subquestions(question)
 
+         elif question['type'] == 'cloze':
+            self.preprocess_name(question)
+            self.preprocess_questiontext(question)
+            
          else:
             print('   Error: type "%s" not recognized' % question['type'])
             question['error'] = True
@@ -158,8 +167,26 @@ class Database():
             self.render_text(answer, 'text', question['files'])
 
       if abs(sum_fractions) > 1:
-         print('   Warning: fractions not sums zero in question %d "%s"' %
+         print('   Warning: fractions does not sum zero in question %d "%s"' %
                (question['index'], question['name']))
+
+   def preprocess_shortanswer_answers(self, question):
+      if not 'answers' in question:
+         print('   Error: no answers in question %d "%s"' %
+               (question['index'], question['name']))
+         question['error'] = True
+         return
+      for answer in question['answers']:
+         if not 'fraction' in answer:
+            print('   Error: answer without "fraction" in question %d "%s"' %
+                  (question['index'], question['name']))
+            question['error'] = True
+         if not 'text' in answer or not answer['text']:
+            print('   Error: answer without "text" in question %d "%s"' %
+                  (question['index'], question['name']))
+            question['error'] = True
+         else:
+            self.render_text(answer, 'text', question['files'])
 
    def preprocess_matching_subquestions(self, question):
       if not 'subquestions' in question or len(question['subquestions']) < 2:
@@ -219,8 +246,9 @@ image_types = ['png', 'jpg', 'jpeg', 'gif']
 
 
 template_macros = """
-   {%- macro image(file, alt='', width=240, height=0) -%}
+   {%- macro image(file, alt='', title='', width=240, height=0) -%}
    <img src="data:image/{{ files[file]['ext'] }};base64,{{ files[file]['base64'] }}" alt="{{ alt }}"
+   {%- if title != '' %} title="{{ title }}" {% endif %}>
    {%- if width > 0 %} width="{{ width }}" {% endif %}
    {%- if height > 0 %} height="{{ height }}" {% endif %}>
    {%- endmacro -%}
@@ -244,7 +272,7 @@ template_xml_moodle = """{#- -#}
    <question type="description">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
-      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <defaultgrade>0.0000000</defaultgrade>
@@ -257,7 +285,7 @@ template_xml_moodle = """{#- -#}
    <question type="essay">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
-      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
@@ -276,7 +304,7 @@ template_xml_moodle = """{#- -#}
    <question type="cloze">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
-      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.000000{% endif%}</penalty>
@@ -288,13 +316,13 @@ template_xml_moodle = """{#- -#}
    <question type="multichoice">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
-      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
       <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.0000000{% endif%}</penalty>
       <hidden>0</hidden>
-      <single>true</single>
+      <single>{% if 'single' in question and question['single'] == False %}false{% else %}true{% endif %}</single>
       <shuffleanswers>true</shuffleanswers>
       <answernumbering>abc</answernumbering>
       <correctfeedback format="html"> <text></text> </correctfeedback>
@@ -312,7 +340,7 @@ template_xml_moodle = """{#- -#}
    <question type="matching">
       <name> <text>{{ question['name'] }}</text> </name>
       <questiontext format="html">
-      <text><![CDATA[{{ question['questiontext'] }}]]></text>
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
       </questiontext>
       <generalfeedback format="html"> <text></text> </generalfeedback>
       <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
@@ -329,6 +357,25 @@ template_xml_moodle = """{#- -#}
          <text><![CDATA[{{ subquestion['text'] }}]]></text>
          <answer> <text>{{ subquestion['answer'] }}</text> </answer>
       </subquestion>
+      {%- endfor %}
+   </question>
+
+   {%- elif question['type'] == 'shortanswer' %}
+   <question type="shortanswer">
+      <name> <text>{{ question['name'] }}</text> </name>
+      <questiontext format="html">
+         <text><![CDATA[{{ question['questiontext'] }}]]></text>
+      </questiontext>
+      <generalfeedback format="html"> <text></text> </generalfeedback>
+      <defaultgrade>{% if 'defaultgrade' in question %}{{ question['defaultgrade'] }}{% else %}1.0000000{% endif%}</defaultgrade>
+      <penalty>{% if 'penalty' in question %}{{ question['penalty'] }}{% else %}0.0000000{% endif%}</penalty>
+      <hidden>0</hidden>
+      <usecase>0</usecase>
+      {%- for answer in question['answers'] %}
+      <answer fraction="{{ answer['fraction'] }}" format="html">
+         <text><![CDATA[{{ answer['text'] }}]]></text>
+         <feedback format="html"> <text>{{ answer['feedback'] }}</text> </feedback>
+      </answer>
       {%- endfor %}
    </question>
 
