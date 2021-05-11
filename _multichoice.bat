@@ -1,7 +1,7 @@
 @echo off
+cd multichoice
 set PATH=..\venv\Scripts;%PATH%
 call activate.bat
 
-cd multichoice
 python.exe _multichoice.py
 pause
