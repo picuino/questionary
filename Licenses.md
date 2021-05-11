@@ -12,8 +12,8 @@ con licencia [MIT](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS
 Texto de los cuestionarios
 ==========================
 Autores de los cuestionarios:
- - Tucho Méndez
  - Carlos Pardo
+ - [Tucho Méndez](https://github.com/procastino/bancosTecno)
 
 El texto de los cuestionarios en los archivos .yaml (preguntas y opciones de respuesta) 
 se distribuyen bajo licencia Creative Commons CC0 1.0 Universal
