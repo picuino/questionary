@@ -170,7 +170,7 @@ INSTALACIÓN EN WINDOWS
 ## INTERPRETE PYTHON
 Para ejecutar las macros de Python necesarias para renderizar
 todos los archivos, será necesario instalar el 
-[intérprete Pyhton](https://www.python.org/downloads/windows/)
+[intérprete Python](https://www.python.org/downloads/windows/)
 La última versión en el momento de escribir estas líneas es la 3.9
 pero la macro funciona también con versiones 3.x antiguas.
 
