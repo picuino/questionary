@@ -11,7 +11,8 @@ body {
 
 h1 {
   font-size: 40px;
-  color: #56a5eb;
+  text-align: center;
+  color: #094070;
   margin: 32px 0 12px 0;
 }
 
@@ -65,10 +66,10 @@ h2 {
   padding: 8px 0;
   width: 240px;
   text-align: center;
-  border: 1px solid #56a5eb;
+  border: 1px solid #094070;
   margin-bottom: 8px;
   text-decoration: none;
-  color: #56a5eb;
+  color: #094070;
   background-color: white;
 }
 
@@ -142,10 +143,10 @@ input::placeholder {
 
 .footer {
   color: White;
-  background-color: #56a5eb;
+  background-color: #094070;
   margin: 100px 0;
   padding: 12px 0 8px 0;
-  border-top: 2px solid #56a5eb;
+  border-top: 2px solid #094070;
   line-height: 200%;
 }
 
@@ -173,7 +174,7 @@ input::placeholder {
 }
 
 .footer a:hover {
-  color: #56a5eb;
+  color: #094070;
   background-color: #ecf5ff;
 }
 
