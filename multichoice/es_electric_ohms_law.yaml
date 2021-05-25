@@ -1,214 +1,381 @@
 ﻿
 Category: Electricidad
-Title: Ley de Ohm
-Author: Tucho Méndez
-License: Creative Commons CC0 1.0 Universal
+Title: Ley de Ohm básica
+Author: Carlos Pardo
+License: Creative Commons Atribution-ShareAlike 4.0
 Show_max: 0
 
 ---
 
-- Title: Divisor de tensión 1
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA644.png
-  Choices:
-    - 3V
-    - 6V
-    - 4V
-    - No se puede saber sin el dato de la intensidad
+#
+# Magnitudes y unidades de la ley de Ohm
+#
 
-- Title: Divisor de tensión 2
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA60044.png
+- Title:
+  Question: ¿Qué mide la energía con la que se impulsan los electrones?
   Choices:
-    - 300V
-    - 3V
-    - 400V
-    - 150V
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La intensidad de corriente
+    - La potencia eléctrica
 
-- Title: Divisor de tensión 3
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA622.png
+- Title:
+  Question: ¿Qué mide la cantidad de electrones que circulan por segundo?
   Choices:
-    - 3V
-    - 6V
-    - 2V
-    - 4V
+    - La intensidad de corriente
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La potencia eléctrica
 
-- Title: Divisor de tensión 4
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA62K2K.png
+- Title:
+  Question: ¿Qué mide la oposición al paso de la corriente eléctrica?
   Choices:
-    - 3V
-    - 3KV
-    - 0,003V
-    - 0,00003V
+    - La resistencia eléctrica
+    - La tensión eléctrica
+    - La intensidad de corriente
+    - La potencia eléctrica
 
-- Title: Divisor de tensión 5
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA61K1.png
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10V?
   Choices:
-    - Casi 0V
-    - Casi 6V
-    - Sobre 3V
-    - Más de 6V
+    - Tensión eléctrica
+    - Resistencia eléctrica
+    - Intensidad de corriente
+    - Potencia eléctrica
 
-- Title: Divisor de tensión 6
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA611K.png
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10A?
   Choices:
-    - Casi 6V
-    - Casi 0V
-    - Sobre 3V
-    - Más de 6V
+    - Intensidad de corriente
+    - Tensión eléctrica
+    - Resistencia eléctrica
+    - Potencia eléctrica
 
-- Title: Divisor de tensión 7
-  Question: ¿Cuál será el voltaje en el punto 'a'?
-  Image: ../images/electric-voltEnA642.png
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10Ω?
   Choices:
-    - 2V
-    - 4V
-    - 3V
-    - 6V
+    - Resistencia eléctrica
+    - Intensidad de corriente
+    - Tensión eléctrica
+    - Potencia eléctrica
 
-- Title: Ley de ohm correcta
-  Question: ¿Cuál de estas es una expresión CORRECTA de la Ley de Ohm?
+- Title:
+  Question: ¿Qué unidad se utiliza para medir tensión eléctrica?
   Choices:
-    - R=V/I
-    - R=I/V
-    - R=V·I
-    - R.V=I
+    - Voltios
+    - Ohmios
+    - Amperios
+    - Vatios
 
-- Title: Ley de ohm incorrecta
-  Question: ¿Cuál de las siguientes sería una expresión incorrecta de la ley de Ohm?
+- Title:
+  Question: ¿Qué unidad se utiliza para medir intensidad de corriente?
   Choices:
-    - R=I.V
-    - I=V/ R
-    - I. R=V
-    - R=V/I
+    - Amperios
+    - Voltios
+    - Ohmios
+    - Vatios
 
-- Title: Problema Resistencia 1
-  Question: Tienes un circuito conectado a un voltaje de 20V por el que pasa una corriente de 10A. ¿Cuál es la resistencia que tiene ese circuito?
+- Title:
+  Question: ¿Qué unidad se utiliza para medir resistencia eléctrica?
   Choices:
-    - 2Ω
-    - 200 Ω
-    - 0,5Ω
-    - 1Ω
+    - Ohmios
+    - Voltios
+    - Amperios
+    - Vatios
 
+#
+# Fórmula de la ley de Ohm
+#
 
-- Title: Problema Resistencia 2
-  Question: La intensidad que circula por un circuito es de 2A y está alimentado a 6V. ¿Qué resistencia hay en el circuito?
+- Title:
+  Question: ¿Según la ley de Ohm la intensidad de corriente es proporcional a?
   Choices:
-    - 3Ω
-    - 12Ω
-    - 0,33Ω
-    - 2/6Ω
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La potencia eléctrica
+    - La distancia
 
-- Title: Problema Intensidad 1
-  Question: Conecto una resistencia de 100 Ω en un circuito con una pila de 9V. ¿Qué intensidad circula?
+- Title:
+  Question: ¿Según la ley de Ohm la intensidad de corriente es inversamente proporcional a?
   Choices:
-    - 0,09A
-    - 900A
-    - 0,9A
-    - 11,11A
+    - La resistencia eléctrica
+    - La tensión eléctrica
+    - La potencia eléctrica
+    - La energía eléctrica
 
-- Title: Problema Intensidad 2
-  Question: Tienes un circuito con una resistencia de 4Ω conectado a una pila de 8V. ¿Qué intensidad circulará?
+- Title:
+  Question: ¿Según la ley de Ohm la tensión eléctrica es proporcional a?
   Choices:
-    - 2A
-    - 32A
-    - 0,5A
-    - 12A
+    - La intensidad de corriente y a la resistencia
+    - La capacidad eléctrica
+    - La potencia eléctrica
+    - La distancia
 
-- Title: Problema Voltaje 1
-  Question: Tienes un circuito de resistencia de 3Ω por el que pasa una intensidad de 9A ¿A qué voltaje estará conectado ese circuito?
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
   Choices:
-    - 27V
-    - 0,33V
-    - 3V
-    - 12V
+    - I = V · R 
+    - V = I · R
+    - I = V / R
+    - R = V / I
 
-- Title: Problema Voltaje 2
-  Question: En un circuito con una resistencia de 100 Ω la intensidad es de 0,5A. ¿Cuál es el voltaje?
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
   Choices:
-    - 50V
-    - 200V
-    - 5V
-    - 0,005V
+    - R = V · I 
+    - V = I · R
+    - I = V / R
+    - R = V / I
 
-- Title: Resistencia aumenta
-  Question: Tienes un circuito con un voltaje determinado conectado a una resistencia. Sustituyes esa resistencia por una de mayor valor, ¿qué va a pasar en el circuito?
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
   Choices:
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo, será menor
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo, aumentará
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo no se verá afectada
+    - I = R / V
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
+  Choices:
+    - R = I / V
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es correcta?
+  Choices:
+    - V = I · R
+    - I = V · R
+    - R = V · I
+    - R = I / V
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es correcta?
+  Choices:
+    - I = V / R
+    - I = R / V
+    - R = I / V
+    - R = V · I
+
+
+#
+# Variación de magnitudes 
+#
+- Title:
+  Question: En un circuito con una tensión fija sustituyes la resistencia por otra de mayor valor ¿Qué ocurrirá en el circuito?
+  Choices:
+    - La intensidad que pasa por la resistencia será menor
     - La intensidad que pasa por la resistencia será mayor
+    - La intensidad que pasa por la resistencia no se verá afectada
+    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo aumentará
 
-- Title: Resistencia disminuye
-  Question: Tienes un circuito con un voltaje determinado conectado a una resistencia. Sustituyes esa resistencia por una de menor valor, ¿qué va a pasar?
+- Title:
+  Question: En un circuito con una tensión fija sustituyes la resistencia por otra de menor valor ¿Qué ocurrirá en el circuito?
   Choices:
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo, aumentará
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo, disminuirá
-    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo no se verá afectada
-    - La intensidad que pasa por la resistencia será más pequeña
+    - La intensidad que pasa por la resistencia será mayor
+    - La intensidad que pasa por la resistencia será menor
+    - La intensidad que pasa por la resistencia no se verá afectada
+    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo disminuirá
 
-- Title: Intensidad disminuye
-  Question: Estás midiendo la intensidad que pasa por una resistencia que no varía. En un momento determinado, observas que el valor de la intensidad reduce a la mitad. ¿Qué habrá pasado?
+- Title:
+  Question: En un circuito con una resistencia fija la corriente aumenta al doble ¿Qué ha ocurrido en el circuito?
   Choices:
-    - El voltaje del circuito se redujo, también, a la mitad
-    - El voltaje del circuito se duplicó
-    - No se puede saber sin conocer el voltaje a la que está conectado el circuito
-    - La cantidad de electrones que pasan por el circuito está aumentando por algún motivo
-
-- Title: Intensidad aumenta
-  Question: Estás midiendo la intensidad que pasa por una resistencia que no varía. En un momento determinado el valor de la intensidad se duplica. ¿Qué habrá pasado?
-  Choices:
-    - El voltaje del circuito se duplicó también
-    - El voltaje del circuito se redujo la mitad
+    - La tensión de la batería ha aumentado el doble
+    - La tensión de la batería ha disminuido a la mitad
     - No se puede saber sin conocer el voltaje al que está conectado el circuito
     - La cantidad de electrones que pasan por el circuito está reduciéndose por algún motivo
 
-- Title: 
-  Question: ¿Por qué circuito circulará más corriente?
-  Image: ../images/electric-leiOhmSameVolt.png
+- Title:
+  Question: En un circuito con una resistencia fija la corriente disminuye a la mitad ¿Qué ha ocurrido en el circuito?
   Choices:
-    - Por el 1
-    - Por el 2
-    - Por el 3
-    - Por el 4
+    - La tensión de la batería ha disminuido a la mitad
+    - La tensión de la batería ha aumentado el doble
+    - No se puede saber sin conocer el voltaje al que está conectado el circuito
+    - La cantidad de electrones que pasan por el circuito está aumentando por algún motivo
 
-- Title: 
-  Question: ¿Por qué circuito circulará más corriente?
-  Image: ../images/electric-leiOhmSameRes.png
+#
+# Cálculo de I, V y R con la ley de Ohm 
+#
+
+- Title: Ley de Ohm 01
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-01.png
+  Image_width: 302
   Choices:
-    - Por el 2
-    - Por el 1
-    - Por el 3
-    - Por el 4
+    - 3A
+    - 12A
+    - 0.33A
+    - 2Ω
 
-- Title: 
-  Question: ¿Por qué circuito circulará más corriente?
-  Image: ../images/electric-leiOhmSameVoltDecimalOhm.png
+- Title: Ley de Ohm 02
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-02.png
+  Image_width: 302
   Choices:
-    - Por el 3
-    - Por el 2
-    - Por el 1
-    - Por el 4
+    - 0.3A
+    - 3.3A
+    - 270A
+    - 9V
 
-- Title: 
-  Question: ¿Por qué circuito circulará más corriente?
-  Image: ../images/electric-leiOhmSameVoltKohm.png
+- Title: Ley de Ohm 07
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-07.png
+  Image_width: 302
   Choices:
-    - Por el 2
-    - Por el 1
-    - Por el 3
-    - Por el 4
+    - 0.1A
+    - 10A
+    - 1440A
+    - 120Ω
 
-- Title: 
-  Question: ¿Por qué circuito circulará más corriente?
-  Image: ../images/electric-leiOhmDifVoltDifRes.png
+- Title: Ley de Ohm 08
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-08.png
+  Image_width: 302
   Choices:
-    - Por el 4
-    - Por el 1
-    - Por el 2
-    - Por el 3
+    - 1.5A
+    - 0.66A
+    - 150A
+    - 15V
 
+- Title: Ley de Ohm 13
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-13.png
+  Image_width: 302
+  Choices:
+    - 2A
+    - 0.5A
+    - 162A
+    - 9Ω
+
+- Title: Ley de Ohm 14
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-14.png
+  Image_width: 302
+  Choices:
+    - 0.24A
+    - 4.16A
+    - 2400A
+    - 24V
+
+- Title: Ley de Ohm 03
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-03.png
+  Image_width: 302
+  Choices:
+    - 60V
+    - 15V
+    - 0.06V
+    - 2A
+
+- Title: Ley de Ohm 06
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-06.png
+  Image_width: 302
+  Choices:
+    - 24V
+    - 2.6V
+    - 0.38V
+    - 8Ω
+
+- Title: Ley de Ohm 09
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-09.png
+  Image_width: 302
+  Choices:
+    - 1.5V
+    - 0.006V
+    - 150V
+    - 0.1A
+
+- Title: Ley de Ohm 12
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-12.png
+  Image_width: 302
+  Choices:
+    - 20V
+    - 500V
+    - 0.002V
+    - 100Ω
+
+- Title: Ley de Ohm 15
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-15.png
+  Image_width: 302
+  Choices:
+    - 3V
+    - 1200V
+    - 8V
+    - 0.05A
+
+- Title: Ley de Ohm 18
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-18.png
+  Image_width: 302
+  Choices:
+    - 5V
+    - 20V
+    - 0.05V
+    - 10Ω
+
+- Title: Ley de Ohm 04
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-04.png
+  Image_width: 302
+  Choices:
+    - 60Ω
+    - 16Ω
+    - 0.6Ω
+    - 6V
+
+- Title: Ley de Ohm 05
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-05.png
+  Image_width: 302
+  Choices:
+    - 3Ω
+    - 27Ω
+    - 0.33Ω
+    - 3A
+
+- Title: Ley de Ohm 10
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-10.png
+  Image_width: 302
+  Choices:
+    - 24Ω
+    - 6Ω
+    - 0.04Ω
+    - 12V
+
+- Title: Ley de Ohm 11
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-11.png
+  Image_width: 302
+  Choices:
+    - 500Ω
+    - 0.45Ω
+    - 15Ω
+    - 0.03A
+
+- Title: Ley de Ohm 16
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-16.png
+  Image_width: 302
+  Choices:
+    - 9Ω
+    - 36Ω
+    - 0.11Ω
+    - 18V
+
+- Title: Ley de Ohm 17
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-17.png
+  Image_width: 302
+  Choices:
+    - 6Ω
+    - 0.16Ω
+    - 96Ω
+    - 4A
