@@ -260,6 +260,25 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 ![](images/thumbs/electric-digital-10.png)
 ![](images/thumbs/electric-digital-11.png)
 
+![](images/thumbs/electric-ley-ohm-01.png)
+![](images/thumbs/electric-ley-ohm-02.png)
+![](images/thumbs/electric-ley-ohm-03.png)
+![](images/thumbs/electric-ley-ohm-04.png)
+![](images/thumbs/electric-ley-ohm-05.png)
+![](images/thumbs/electric-ley-ohm-06.png)
+![](images/thumbs/electric-ley-ohm-07.png)
+![](images/thumbs/electric-ley-ohm-08.png)
+![](images/thumbs/electric-ley-ohm-09.png)
+![](images/thumbs/electric-ley-ohm-10.png)
+![](images/thumbs/electric-ley-ohm-11.png)
+![](images/thumbs/electric-ley-ohm-12.png)
+![](images/thumbs/electric-ley-ohm-13.png)
+![](images/thumbs/electric-ley-ohm-14.png)
+![](images/thumbs/electric-ley-ohm-15.png)
+![](images/thumbs/electric-ley-ohm-16.png)
+![](images/thumbs/electric-ley-ohm-17.png)
+![](images/thumbs/electric-ley-ohm-18.png)
+
 
 Las siguientes imágenes creadas por Tucho Méndez y que se pueden encontrar 
 en el repositorio https://github.com/procastino/bancosTecno
