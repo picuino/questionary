@@ -418,55 +418,42 @@ un título con el autor y la licencia.
 <a title="Evan-Amos, Public domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
 <img alt="Claw-hammer" src="images/thumbs/material-hammer.jpg"></a>
-
 <a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
 <img alt="Screwdriver" src="images/thumbs/material-screwdriver.jpg"></a>
-
 <a title="Lysippos, Creative Commons Attribution-Share Alike 2.0 DE, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Milv.jpg">
 <img alt="Mármol" src="images/thumbs/material-marmol.jpg"></a>
-
 <a title="Rojinegro81, CC BY-SA 3.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG">
 <img alt="Granito" src="images/thumbs/material-granito.jpg"></a>
-
 <a title="Dontworry, CC BY-SA 3.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg">
 <img alt="Pizarra" src="images/thumbs/material-pizarra.jpg"></a>
-
 <a title="Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg">
 <img alt="Caliza" src="images/thumbs/material-caliza.jpg"></a>
-
 <a title="Sarranpa, CC BY-SA 4.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Arenisca.jpg">
 <img alt="Arenisca" src="images/thumbs/material-arenisca.jpg"></a>
-
 <a title="Joseph Rose, CC0 Public Domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Tapestry_Room_from_Croome_Court_MET_DP341270.jpg">
 <img alt="Escayola" src="images/thumbs/material-escayola.jpg"></a>
-
 <a title="Anónimo, CC0 Public Domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:USMC-110806-M-IX060-148.jpg">
 <img alt="Cemento" src="images/thumbs/material-cemento.jpg"></a>
-
 <a title="Dafran, CC BY-SA 4.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png">
 <img alt="Hormigón" src="images/thumbs/material-hormigon.jpg"></a>
-
 <a title="Siim Sepp, CC BY-SA 3.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg">
 <img alt="Arcilla" src="images/thumbs/material-arcilla.jpg"></a>
-
 <a title="Patrick Charpiat, CC BY-SA 3.0, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Beau_021.jpg">
 <img alt="Gres" src="images/thumbs/material-gres.jpg"></a>
-
 <a title="Klausbo, Public Domain, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Transparent_porcelain.jpg">
 <img alt="Porcelana" src="images/thumbs/material-porcelana.jpg"></a>
-
 <a title="Matthew Bowden, via Wikimedia Commons"
 href="https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg">
 <img alt="Vidrio" src="images/thumbs/material-vidrio.jpg"></a>
