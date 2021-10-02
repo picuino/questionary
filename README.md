@@ -14,6 +14,12 @@ Creada automáticamente a partir de los cuestionarios:
 https://www.picuino.com/questionary
 
 
+CRÉDITOS Y LICENCIAS
+====================
+
+https://github.com/picuino/questionary/blob/master/Licenses.md
+
+
 ESTRUCTURA DE DIRECTORIOS
 =========================
 
