@@ -1,0 +1,106 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# simbolos_CopyRight
+#
+DEF simbolos_CopyRight CP 0 40 Y Y 1 F N
+F0 "CP" 250 50 40 H I C CNN
+F1 "simbolos_CopyRight" 0 50 40 H I C CNN
+F2 "" -100 350 50 H I C CNN
+F3 "" 0 200 50 H I C CNN
+F4 "CC BY-SA 4.0" -50 -50 60 H V R CNN "License"
+F5 "www.picuino.com" 0 -50 60 H V L CNN "Web"
+DRAW
+P 2 0 1 8 -400 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+# simbolos_NPN
+#
+DEF simbolos_NPN Q 0 40 Y Y 1 F N
+F0 "Q" 275 -200 100 H V L CNN
+F1 "simbolos_NPN" -75 -300 50 H I C CNN
+F2 "" 100 -200 50 H I C CNN
+F3 "" 100 -200 50 H I C CNN
+DRAW
+T 0 25 -150 60 0 0 0 B Normal 0 C C
+T 0 300 -50 60 0 0 0 C Normal 0 C C
+T 0 300 -350 60 0 0 0 E Normal 0 C C
+P 2 0 0 0 175 -275 100 -200 N
+P 4 0 0 0 250 -350 200 -250 150 -300 250 -350 N
+P 2 0 1 0 100 -200 250 -50 N
+P 2 0 1 0 100 -50 100 -350 N
+X ~ ~ 0 -200 100 R 45 50 1 1 I
+X ~ ~ 250 -400 50 U 45 50 1 1 I
+X ~ ~ 250 0 50 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_conector
+#
+DEF simbolos_conector o 0 40 Y Y 1 F N
+F0 "o" 150 -150 100 H I C CNN
+F1 "simbolos_conector" -75 -50 50 H I C CNN
+F2 "" 125 0 50 H I C CNN
+F3 "" 125 0 50 H I C CNN
+DRAW
+C 100 0 40 0 1 0 N
+X ~ ~ 0 0 60 R 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_logic_nand
+#
+DEF simbolos_logic_nand U 0 40 Y Y 4 F N
+F0 "U" 450 -250 100 H V L CNN
+F1 "simbolos_logic_nand" 300 100 50 H I C CNN
+F2 "" 100 -175 50 V I C CNN
+F3 "" 100 -175 50 V I C CNN
+DRAW
+A 300 -100 150 -899 899 0 1 0 N 300 -250 300 50
+P 4 0 1 0 300 50 100 50 100 -250 300 -250 N
+X A ~ 0 0 100 R 50 50 1 1 I
+X B ~ 0 -200 100 R 50 50 1 1 I
+X O ~ 600 -100 150 L 50 50 1 1 O I
+X A 4 0 0 100 R 50 50 2 1 I
+X B 5 0 -200 100 R 50 50 2 1 I
+X O 6 600 -100 150 L 50 50 2 1 O I
+X B 10 0 -200 100 R 50 50 3 1 I
+X O 8 600 -100 150 L 50 50 3 1 O I
+X A 9 0 0 100 R 50 50 3 1 I
+X O 11 600 -100 150 L 50 50 4 1 O I
+X A 12 0 0 100 R 50 50 4 1 I
+X B 13 0 -200 100 R 50 50 4 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_resistencia
+#
+DEF simbolos_resistencia R 0 40 Y Y 1 F N
+F0 "R" 75 -200 100 H V L CNN
+F1 "simbolos_resistencia" -100 -225 50 V I C CNN
+F2 "" 100 -100 50 H I C CNN
+F3 "" 100 -100 50 H I C CNN
+DRAW
+S -50 -75 50 -325 0 1 0 N
+X ~ ~ 0 -400 75 U 45 50 1 1 I
+X ~ ~ 0 0 75 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# simbolos_tierra
+#
+DEF simbolos_tierra V 0 40 Y Y 1 F N
+F0 "V" 25 -25 100 H I L CNN
+F1 "simbolos_tierra" -125 -25 50 H I C CNN
+F2 "" 300 -150 50 H I C CNN
+F3 "" 300 -150 50 H I C CNN
+DRAW
+P 2 0 0 0 -150 -100 150 -100 N
+P 2 0 0 0 -100 -150 100 -150 N
+P 2 0 0 0 -50 -200 50 -200 N
+X ~ ~ 0 0 100 D 45 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

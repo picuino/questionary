@@ -1,0 +1,199 @@
+﻿
+Category: Electricidad
+Title: Ley de Ohm. Fundamentos
+Copyright: 2021 por Carlos Pardo
+License: Creative Commons Attribution-ShareAlike 4.0
+LicenseLink: https://creativecommons.org/licenses/by-sa/4.0/
+Show_max: 0
+
+---
+
+#
+# Magnitudes y unidades de la ley de Ohm
+#
+
+- Title:
+  Question: ¿Qué mide la energía con la que se impulsan los electrones?
+  Choices:
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La intensidad de corriente
+    - La potencia eléctrica
+
+- Title:
+  Question: ¿Qué mide la cantidad de electrones que circulan por segundo?
+  Choices:
+    - La intensidad de corriente
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La potencia eléctrica
+
+- Title:
+  Question: ¿Qué mide la oposición al paso de la corriente eléctrica?
+  Choices:
+    - La resistencia eléctrica
+    - La tensión eléctrica
+    - La intensidad de corriente
+    - La potencia eléctrica
+
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10V?
+  Choices:
+    - Tensión eléctrica
+    - Resistencia eléctrica
+    - Intensidad de corriente
+    - Potencia eléctrica
+
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10A?
+  Choices:
+    - Intensidad de corriente
+    - Tensión eléctrica
+    - Resistencia eléctrica
+    - Potencia eléctrica
+
+- Title:
+  Question: ¿Qué magnitud está midiendo un valor de 10Ω?
+  Choices:
+    - Resistencia eléctrica
+    - Intensidad de corriente
+    - Tensión eléctrica
+    - Potencia eléctrica
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir tensión eléctrica?
+  Choices:
+    - Voltios
+    - Ohmios
+    - Amperios
+    - Vatios
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir intensidad de corriente?
+  Choices:
+    - Amperios
+    - Voltios
+    - Ohmios
+    - Vatios
+
+- Title:
+  Question: ¿Qué unidad se utiliza para medir resistencia eléctrica?
+  Choices:
+    - Ohmios
+    - Voltios
+    - Amperios
+    - Vatios
+
+#
+# Fórmula de la ley de Ohm
+#
+
+- Title:
+  Question: Según la ley de Ohm la intensidad de corriente es directamente proporcional a ...
+  Choices:
+    - La tensión eléctrica
+    - La resistencia eléctrica
+    - La potencia eléctrica
+    - La distancia
+
+- Title:
+  Question: Según la ley de Ohm la intensidad de corriente es inversamente proporcional a ...
+  Choices:
+    - La resistencia eléctrica
+    - La tensión eléctrica
+    - La potencia eléctrica
+    - La energía eléctrica
+
+- Title:
+  Question: Según la ley de Ohm la tensión eléctrica es directamente proporcional a ...
+  Choices:
+    - La intensidad de corriente por la resistencia
+    - La capacidad eléctrica
+    - La potencia eléctrica
+    - La distancia
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
+  Choices:
+    - I = V · R 
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
+  Choices:
+    - R = V · I 
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
+  Choices:
+    - I = R / V
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es incorrecta?
+  Choices:
+    - R = I / V
+    - V = I · R
+    - I = V / R
+    - R = V / I
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es correcta?
+  Choices:
+    - V = I · R
+    - I = V · R
+    - R = V · I
+    - R = I / V
+
+- Title:
+  Question: De las siguientes fórmulas de la ley de Ohm ¿cuál es correcta?
+  Choices:
+    - I = V / R
+    - I = R / V
+    - R = I / V
+    - R = V · I
+
+
+#
+# Variación de magnitudes 
+#
+
+- Title:
+  Question: En un circuito sustituyes la resistencia por otra de mayor valor. Si la tensión es fija, ¿Qué ocurrirá en el circuito?
+  Choices:
+    - La intensidad que pasa por la resistencia será menor
+    - La intensidad que pasa por la resistencia será mayor
+    - La intensidad que pasa por la resistencia no se verá afectada
+    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo aumentará
+
+- Title:
+  Question: En un circuito sustituyes la resistencia por otra de menor valor. Si la tensión es fija, ¿Qué ocurrirá en el circuito?
+  Choices:
+    - La intensidad que pasa por la resistencia será mayor
+    - La intensidad que pasa por la resistencia será menor
+    - La intensidad que pasa por la resistencia no se verá afectada
+    - La cantidad de electrones que van a pasar por la resistencia cada unidad de tiempo disminuirá
+
+- Title:
+  Question: En un circuito la corriente aumenta al doble. Si la resistencia no ha cambiado ¿Qué ha ocurrido en el circuito?
+  Choices:
+    - La tensión de la batería ha aumentado el doble
+    - La tensión de la batería ha disminuido a la mitad
+    - No se puede saber sin conocer el voltaje al que está conectado el circuito
+    - La cantidad de electrones que pasan por el circuito está reduciéndose por algún motivo
+
+- Title:
+  Question: En un circuito la corriente disminuye a la mitad. Si la resistencia no ha cambiado ¿Qué ha ocurrido en el circuito?
+  Choices:
+    - La tensión de la batería ha disminuido a la mitad
+    - La tensión de la batería ha aumentado el doble
+    - No se puede saber sin conocer el voltaje al que está conectado el circuito
+    - La cantidad de electrones que pasan por el circuito está aumentando por algún motivo

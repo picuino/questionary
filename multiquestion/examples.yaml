@@ -1,0 +1,87 @@
+﻿
+Title: El circuito eléctrico
+Author: Carlos Pardo
+License: Creative Commons Attribution-ShareAlike 4.0
+
+---
+
+- type: category
+  category: Ejemplos/El_circuito_eléctrico
+
+
+- type: description
+  name: Generadores
+  questiontext: |
+    <h3>Título 1</h3>
+    <p>Imagen de un circuito</p>
+    {{ image(file=1, alt="Circuito", width=240) }}
+  files:
+    - ../images/electric-serie-paralelo-c01.png
+
+
+- type: essay
+  name: Pregunta de generadores
+  questiontext: Dibuja una pila conectada a una bombilla
+  defaultgrade: 1.0
+  attachments: 1
+
+
+- type: cloze
+  name: Ejemplo de pregunta cloze
+  questiontext: |
+    <h3>Serie y Paralelo</h3>
+    {{ image(file=1, alt="Circuito", width=240) }}
+    <p>El circuito de la imagen está conectado en {1:SHORTANSWER:=paralelo}</p>
+  penalty: 0.25
+  files:
+    -  ../images/electric-serie-paralelo-c02.png
+
+
+- type: multichoice
+  name: Ejemplo de pregunta multichoice
+  questiontext: ¿Cuál es la resistencia de 120 Ohmios?
+  answers:
+    - fraction: -50
+      text: '{{ image(file=1, alt="Resistencia", width=240) }}'
+      feedback: Esta resistencia vale 100 Ohmios
+    - fraction: 100
+      text: '{{ image(file=2, alt="Resistencia", width=240) }}'
+    - fraction: -50
+      text: '{{ image(file=3, alt="Resistencia", width=240) }}'
+      feedback: Esta resistencia vale 150 Ohmios
+  files:
+    -  ../images/electric-resistencia-100.png
+    -  ../images/electric-resistencia-120.png
+    -  ../images/electric-resistencia-150.png
+
+
+- type: matching
+  name: Ejemplo de pregunta matching
+  questiontext: Empareja cada resistencia con su valor
+  subquestions:
+     - text: '{{ image(file=1, alt="Resistencia", width=240) }}'
+       answer: 100 Ohmios
+     - text: '{{ image(file=2, alt="Resistencia", width=240) }}'
+       answer: 120 Ohmios
+     - text: '{{ image(file=3, alt="Resistencia", width=240) }}'
+       answer: 150 Ohmios
+  files:
+    -  ../images/electric-resistencia-100.png
+    -  ../images/electric-resistencia-120.png
+    -  ../images/electric-resistencia-150.png
+
+
+- type: shortanswer
+  name: Ejemplo de pregunta shortanswer
+  questiontext: ¿Qué unidad mide la intensidad de corriente eléctrica?
+  defaultgrade: 1.0
+  answers:
+    - fraction: 100
+      text: Amperio
+      feedback:
+    - fraction: 80
+      text: amperio
+      feedback: Se escribe Amperio
+    - fraction: 0
+      text: voltio
+      feedback: No, esa es la unidad de tensión o voltaje eléctrico

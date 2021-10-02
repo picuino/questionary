@@ -1,0 +1,127 @@
+﻿
+Category: Electricidad
+Title: Breadboard
+Copyright: 2021 por Tucho Méndez
+CopyrightLink: https://github.com/procastino/bancosTecno
+License: Creative Commons CC0 1.0 Universal
+LicenseLink: https://creativecommons.org/publicdomain/zero/1.0/deed.es
+Show_max: 0
+
+---
+
+- Title: 
+  Question: ¿Cómo están conectadas las resistencias en la breadboard?
+  Image: ../images/electric-brboardSerieParalelo01.png
+  Choices:
+    - 1 en paralelo, 2 en serie
+    - Las dos en serie
+    - Las dos en paralelo
+    - 1 en serie, 2 en paralelo
+
+- Title: 
+  Question: ¿Cómo están conectadas las resistencias en la breadboard?
+  Image: ../images/electric-brboardSerieParalelo02.png
+  Choices:
+    - Las dos en serie
+    - 1 en serie, 2 en paralelo
+    - 1 en paralelo, 2 en serie
+    - Las dos en paralelo
+
+- Title: 
+  Question: ¿Por qué resistencias pasará corriente?
+  Image: ../images/electric-brboardBenConectadas01.png
+  Choices:
+    - Por 1 y 2
+    - Por todas
+    - Por 2 y 3
+    - Por ninguna
+
+- Title: 
+  Question: ¿Qué montajes se corresponden con el esquema?
+  Image: ../images/electric-brboardResisCircuito.png
+  Choices:
+    - 1
+    - 2
+    - 3
+    - Ninguno
+
+- Title: 
+  Question: ¿Cuándo encenderá el led verde?
+  Image: ../images/electric-brBoard2PulsXeralSecundario.png
+  Choices:
+    - Si tengo presionados los dos pulsadores
+    - Si presiono el pulsador de la derecha
+    - Si presiono el pulsador de la izquierda
+    - En ningún caso
+
+- Title: 
+  Question: ¿Cuál es falsa para el circuito de la figura?
+  Image: ../images/electric-brBoard2PulsXeralSecundario.png
+  Choices:
+    - Puedo encender el led verde sin que encienda el led rojo
+    - Para encender el led verde tengo que haber presionado el pulsador de la izquierda
+    - Para encender el led verde tengo que haber presionado el pulsador de la derecha
+    - El led rojo enciende cuando presiono el pulsador de la derecha
+
+- Title: 
+  Question: ¿A qué esquema se corresponde el circuito de la breadboard?
+  Image: ../images/electric-brBoard2PulsXeralSecEsquemas.png
+  Choices:
+    - Al rosa
+    - Al azul
+    - Al verde
+    - Al naranja
+
+- Title: 
+  Question: Quiero que el led encienda cuando presiono el pulsador. ¿Hay algún fallo?
+  Image: ../images/electric-brbrUnLedPulsadorTricky.png
+  Choices:
+    - Los cables no están en los terminales correctos del pulsador
+    - El led está puesto del revés
+    - La resistencia no está conectada al led
+    - No hay fallos, va a encender
+
+- Title: 
+  Question: Quiero que el led encienda solo cuando presiono los dos pulsadores. ¿Hay algún fallo?
+  Image: ../images/electric-brbr2pulsadoresSerieTricky.png
+  Choices:
+    - Ninguno
+    - El led encenderá cuando presione cualquiera de los interruptores
+    - El cable verde no conecta los terminales correctos de los interruptores
+    - La resistencia no está conectada en el terminal correcto del pulsador
+
+- Title: 
+  Question: ¿Cuál es falsa para el circuito de la figura?
+  Image: ../images/electric-brBr2IntParalelo.png
+  Choices:
+    - El led no encenderá nunca
+    - El led encenderá cuando presione el interruptor izquierdo
+    - El led encenderá si presiono el pulsador derecho
+    - Si tengo presionados los dos interruptores, el led encenderá
+
+- Title: 
+  Question: ¿Qué ledes se encenderán cuando presione el pulsador?
+  Image: ../images/electric-brBr3Led1intCalAcende.png
+  Choices:
+    - El verde y el rojo
+    - El azul y el rojo
+    - El rojo
+    - El azul y el verde
+
+- Title: 
+  Question: ¿Cuál es cierta para el circuito de la figura?
+  Image: ../images/electric-brBr2int2LedParalelo.png
+  Choices:
+    - Cada interruptor enciende un led
+    - No podré encender el led verde si no presiono el interruptor de la derecha
+    - Si presiono el pulsador de la derecha, encienden los dos leds
+    - El verde está siempre encendido, aunque no presione ningún pulsador
+
+- Title: 
+  Question: ¿Qué cable tengo que quitar para que el led encienda desde cualquiera de los dos pulsadores?
+  Image: ../images/electric-2pulsParaleloQuitaCable.png
+  Choices:
+    - El naranja
+    - El verde
+    - El azul
+    - El amarillo

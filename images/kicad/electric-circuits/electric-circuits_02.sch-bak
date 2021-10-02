@@ -1,0 +1,817 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 2 3
+Title "Circuitos eléctricos para Questionary"
+Date "16/02/2021"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2021 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L simbolos:diodo_led D?
+U 1 1 603CE5ED
+P 2200 1275
+F 0 "D?" H 2300 1225 100 0001 L CNN
+F 1 "diodo_led" H 2200 1325 50  0001 C CNN
+F 2 "" V 2200 1125 50  0001 C CNN
+F 3 "" V 2200 1125 50  0001 C CNN
+	1    2200 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 603CE5F3
+P 2200 750
+F 0 "R?" H 2277 550 100 0001 L CNN
+F 1 "resistencia" V 2100 525 50  0001 C CNN
+F 2 "" H 2300 650 50  0001 C CNN
+F 3 "" H 2300 650 50  0001 C CNN
+	1    2200 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 603CE5F9
+P 1600 750
+F 0 "S1" H 1700 875 100 0000 C CNN
+F 1 "interruptor" H 1850 650 50  0001 C CNN
+F 2 "" H 1900 750 50  0001 C CNN
+F 3 "" H 1900 750 50  0001 C CNN
+	1    1600 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 1575 2200 1650
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE600
+P 1500 1025
+F 0 "V?" H 1275 750 100 0001 L CNN
+F 1 "Pila" H 1600 950 50  0001 C CNN
+F 2 "" H 1500 900 50  0001 C CNN
+F 3 "" H 1500 900 50  0001 C CNN
+	1    1500 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 1325 1500 1650
+Wire Wire Line
+	2200 750  2100 750 
+Wire Wire Line
+	1500 750  1600 750 
+Wire Wire Line
+	1500 1650 2200 1650
+$Comp
+L simbolos:interruptor S2
+U 1 1 603CE60A
+P 2700 1150
+F 0 "S2" V 2800 1325 100 0000 C CNN
+F 1 "interruptor" H 2950 1050 50  0001 C CNN
+F 2 "" H 3000 1150 50  0001 C CNN
+F 3 "" H 3000 1150 50  0001 C CNN
+	1    2700 1150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 1150 2200 1150
+Wire Wire Line
+	2200 1150 2200 1275
+Wire Wire Line
+	2700 1650 2200 1650
+Connection ~ 2200 1650
+Connection ~ 2200 1150
+Wire Wire Line
+	1500 750  1500 1025
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE616
+P 5250 1000
+F 0 "V?" H 5025 725 100 0001 L CNN
+F 1 "Pila" H 5350 925 50  0001 C CNN
+F 2 "" H 5250 875 50  0001 C CNN
+F 3 "" H 5250 875 50  0001 C CNN
+	1    5250 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 603CE61C
+P 5575 750
+F 0 "S1" H 5675 925 100 0000 C CNN
+F 1 "interruptor" H 5825 650 50  0001 C CNN
+F 2 "" H 5875 750 50  0001 C CNN
+F 3 "" H 5875 750 50  0001 C CNN
+	1    5575 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 603CE622
+P 6500 925
+F 0 "S2" V 6600 1100 100 0000 C CNN
+F 1 "interruptor" H 6750 825 50  0001 C CNN
+F 2 "" H 6800 925 50  0001 C CNN
+F 3 "" H 6800 925 50  0001 C CNN
+	1    6500 925 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5250 1600 5250 1300
+Wire Wire Line
+	5250 1000 5250 750 
+Wire Wire Line
+	6500 925  6500 750 
+Wire Wire Line
+	5250 750  5575 750 
+Wire Wire Line
+	6500 1425 6500 1600
+$Comp
+L simbolos:resistencia R1
+U 1 1 603CE62D
+P 6025 1600
+F 0 "R1" V 5875 1300 100 0000 L CNN
+F 1 "resistencia" V 5925 1375 50  0001 C CNN
+F 2 "" H 6125 1500 50  0001 C CNN
+F 3 "" H 6125 1500 50  0001 C CNN
+	1    6025 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6025 1600 6500 1600
+Wire Wire Line
+	6075 750  6500 750 
+Wire Wire Line
+	5250 1600 5625 1600
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE636
+P 1250 2850
+F 0 "V?" H 1025 2575 100 0001 L CNN
+F 1 "2V" H 1400 2825 100 0000 C CNN
+F 2 "" H 1250 2725 50  0001 C CNN
+F 3 "" H 1250 2725 50  0001 C CNN
+	1    1250 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE63C
+P 2000 2850
+F 0 "V?" H 1775 2575 100 0001 L CNN
+F 1 "2V" H 2150 2825 100 0000 C CNN
+F 2 "" H 2000 2725 50  0001 C CNN
+F 3 "" H 2000 2725 50  0001 C CNN
+	1    2000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE642
+P 2725 2850
+F 0 "V?" H 2500 2575 100 0001 L CNN
+F 1 "2V" H 2875 2825 100 0000 C CNN
+F 2 "" H 2725 2725 50  0001 C CNN
+F 3 "" H 2725 2725 50  0001 C CNN
+	1    2725 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2850 1250 2725
+Wire Wire Line
+	1250 2725 2000 2725
+Wire Wire Line
+	2725 2850 2725 2725
+Connection ~ 2725 2725
+Wire Wire Line
+	2725 2725 3250 2725
+Wire Wire Line
+	2000 2850 2000 2725
+Connection ~ 2000 2725
+Wire Wire Line
+	2000 2725 2725 2725
+Wire Wire Line
+	2000 3150 2000 3250
+Wire Wire Line
+	2000 3250 2725 3250
+Wire Wire Line
+	2725 3150 2725 3250
+Connection ~ 2725 3250
+Wire Wire Line
+	2725 3250 3250 3250
+Wire Wire Line
+	1250 3150 1250 3250
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE658
+P 5500 3275
+F 0 "V?" H 5275 3000 100 0001 L CNN
+F 1 "2V" H 5650 3250 100 0000 C CNN
+F 2 "" H 5500 3150 50  0001 C CNN
+F 3 "" H 5500 3150 50  0001 C CNN
+	1    5500 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE65E
+P 5500 2925
+F 0 "V?" H 5275 2650 100 0001 L CNN
+F 1 "2V" H 5650 2900 100 0000 C CNN
+F 2 "" H 5500 2800 50  0001 C CNN
+F 3 "" H 5500 2800 50  0001 C CNN
+	1    5500 2925
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 603CE664
+P 5500 2575
+F 0 "V?" H 5275 2300 100 0001 L CNN
+F 1 "2V" H 5650 2550 100 0000 C CNN
+F 2 "" H 5500 2450 50  0001 C CNN
+F 3 "" H 5500 2450 50  0001 C CNN
+	1    5500 2575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2925 5500 2875
+Wire Wire Line
+	5500 3275 5500 3225
+Wire Wire Line
+	5500 3575 6500 3575
+Wire Wire Line
+	5500 2575 5500 2500
+Wire Wire Line
+	5500 2500 6500 2500
+Wire Notes Line
+	8100 200  8100 11450
+Wire Notes Line
+	200  11450 200  200 
+Wire Notes Line
+	8100 11450 200  11450
+Wire Notes Line
+	200  9575 8100 9575
+Wire Notes Line
+	8100 7700 200  7700
+Wire Notes Line
+	200  5825 8100 5825
+Wire Notes Line
+	8100 3950 200  3950
+Wire Notes Line
+	200  2075 8100 2075
+Wire Notes Line
+	200  200  8100 200 
+Wire Notes Line
+	4150 200  4150 11450
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 603DAF24
+P 3750 11500
+AR Path="/603DAF24" Ref="CP?"  Part="1" 
+AR Path="/5C6CFC33/603DAF24" Ref="CP?"  Part="1" 
+AR Path="/604A6274/603DAF24" Ref="CP?"  Part="1" 
+F 0 "CP?" H 4175 11825 40  0001 C CNN
+F 1 "CopyRight" H 3925 11825 40  0001 C CNN
+F 2 "" H 3650 11850 50  0001 C CNN
+F 3 "" H 3750 11700 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3750 11450 50  0000 C CNN "License"
+F 5 "" H 4325 11425 50  0000 C CNN "Author"
+F 6 "" H 3850 11425 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4500 11450 50  0000 C CNN "Web"
+	1    3750 11500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 3250 2000 3250
+Connection ~ 2000 3250
+$Comp
+L simbolos:Pila V?
+U 1 1 603052F9
+P 1175 4825
+F 0 "V?" H 950 4550 100 0001 L CNN
+F 1 "~" H 1325 4800 100 0000 C CNN
+F 2 "" H 1175 4700 50  0001 C CNN
+F 3 "" H 1175 4700 50  0001 C CNN
+	1    1175 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R1
+U 1 1 6030690E
+P 2175 5150
+F 0 "R1" H 1900 4875 100 0000 L CNN
+F 1 "2Ω" H 2000 5025 100 0000 C CNN
+F 2 "" H 2275 5050 50  0001 C CNN
+F 3 "" H 2275 5050 50  0001 C CNN
+	1    2175 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 60307631
+P 2925 5150
+F 0 "R2" H 2650 4875 100 0000 L CNN
+F 1 "4Ω" H 2750 5025 100 0000 C CNN
+F 2 "" H 3025 5050 50  0001 C CNN
+F 3 "" H 3025 5050 50  0001 C CNN
+	1    2925 5150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1175 4825 1175 4625
+Wire Wire Line
+	1175 4625 2175 4625
+Wire Wire Line
+	2175 4625 2175 4750
+Wire Wire Line
+	2175 4625 2925 4625
+Wire Wire Line
+	2925 4625 2925 4750
+Connection ~ 2175 4625
+Wire Wire Line
+	2925 5150 2925 5275
+Wire Wire Line
+	2925 5275 2175 5275
+Wire Wire Line
+	2175 5275 2175 5150
+Wire Wire Line
+	2175 5275 1175 5275
+Wire Wire Line
+	1175 5275 1175 5125
+Connection ~ 2175 5275
+$Comp
+L simbolos:resistencia R?
+U 1 1 6030D1B5
+P 6225 4750
+AR Path="/6030D1B5" Ref="R?"  Part="1" 
+AR Path="/604A6274/6030D1B5" Ref="R1"  Part="1" 
+F 0 "R1" V 6100 4475 100 0000 L CNN
+F 1 "3Ω" V 6350 4575 100 0000 C CNN
+F 2 "" H 6325 4650 50  0001 C CNN
+F 3 "" H 6325 4650 50  0001 C CNN
+	1    6225 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5775 4750 5775 5000
+Wire Wire Line
+	5775 5000 5525 5000
+Connection ~ 5775 5000
+Wire Wire Line
+	5775 5000 5775 5250
+Wire Wire Line
+	6275 4750 6225 4750
+Wire Wire Line
+	5825 4750 5775 4750
+Wire Wire Line
+	5825 5250 5775 5250
+Wire Wire Line
+	6275 5250 6225 5250
+Wire Wire Line
+	6275 4750 6275 5000
+Wire Wire Line
+	6525 5000 6275 5000
+Connection ~ 6275 5000
+Wire Wire Line
+	6275 5000 6275 5250
+$Comp
+L simbolos:resistencia R?
+U 1 1 6030DEE1
+P 6225 5250
+AR Path="/6030DEE1" Ref="R?"  Part="1" 
+AR Path="/604A6274/6030DEE1" Ref="R2"  Part="1" 
+F 0 "R2" V 6100 4975 100 0000 L CNN
+F 1 "6Ω" V 6350 5075 100 0000 C CNN
+F 2 "" H 6325 5150 50  0001 C CNN
+F 3 "" H 6325 5150 50  0001 C CNN
+	1    6225 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 6030E757
+P 1000 6625
+F 0 "V?" H 775 6350 100 0001 L CNN
+F 1 "~" H 1150 6600 100 0000 C CNN
+F 2 "" H 1000 6500 50  0001 C CNN
+F 3 "" H 1000 6500 50  0001 C CNN
+	1    1000 6625
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R1
+U 1 1 6030E901
+P 2000 6950
+F 0 "R1" H 1725 6675 100 0000 L CNN
+F 1 "4Ω" H 1825 6825 100 0000 C CNN
+F 2 "" H 2100 6850 50  0001 C CNN
+F 3 "" H 2100 6850 50  0001 C CNN
+	1    2000 6950
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 6030E90B
+P 3175 6950
+F 0 "R2" H 2900 6675 100 0000 L CNN
+F 1 "4Ω" H 3000 6825 100 0000 C CNN
+F 2 "" H 3275 6850 50  0001 C CNN
+F 3 "" H 3275 6850 50  0001 C CNN
+	1    3175 6950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6625 1000 6425
+Wire Wire Line
+	1000 6425 2000 6425
+Wire Wire Line
+	2000 6425 2000 6550
+Wire Wire Line
+	3175 6425 3175 6550
+Wire Wire Line
+	3175 6950 3175 7075
+Wire Wire Line
+	2000 7075 2000 6950
+Wire Wire Line
+	2000 7075 1000 7075
+Wire Wire Line
+	1000 7075 1000 6925
+$Comp
+L simbolos:interruptor S1
+U 1 1 60312DFB
+P 2325 6425
+F 0 "S1" H 2425 6600 100 0000 C CNN
+F 1 "interruptor" H 2575 6325 50  0001 C CNN
+F 2 "" H 2625 6425 50  0001 C CNN
+F 3 "" H 2625 6425 50  0001 C CNN
+	1    2325 6425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2825 6425 3175 6425
+Wire Wire Line
+	2325 6425 2000 6425
+Connection ~ 2000 6425
+Wire Wire Line
+	2000 7075 3175 7075
+Connection ~ 2000 7075
+$Comp
+L simbolos:Pila V?
+U 1 1 603182BD
+P 5400 6600
+F 0 "V?" H 5175 6325 100 0001 L CNN
+F 1 "~" H 5550 6575 100 0000 C CNN
+F 2 "" H 5400 6475 50  0001 C CNN
+F 3 "" H 5400 6475 50  0001 C CNN
+	1    5400 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R1
+U 1 1 603184B1
+P 6650 6750
+F 0 "R1" H 6375 6475 100 0000 L CNN
+F 1 "2Ω" H 6475 6625 100 0000 C CNN
+F 2 "" H 6750 6650 50  0001 C CNN
+F 3 "" H 6750 6650 50  0001 C CNN
+	1    6650 6750
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 603184BB
+P 6650 7150
+F 0 "R2" H 6375 6875 100 0000 L CNN
+F 1 "4Ω" H 6475 7025 100 0000 C CNN
+F 2 "" H 6750 7050 50  0001 C CNN
+F 3 "" H 6750 7050 50  0001 C CNN
+	1    6650 7150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6650 6350 6650 6250
+Wire Wire Line
+	6650 6250 5400 6250
+Wire Wire Line
+	5400 6250 5400 6600
+Wire Wire Line
+	6650 7150 6650 7250
+Wire Wire Line
+	6650 7250 5400 7250
+Wire Wire Line
+	5400 6900 5400 7250
+$Comp
+L simbolos:resistencia R?
+U 1 1 6032AB72
+P 2625 8500
+AR Path="/6032AB72" Ref="R?"  Part="1" 
+AR Path="/604A6274/6032AB72" Ref="R2"  Part="1" 
+F 0 "R2" V 2500 8225 100 0000 L CNN
+F 1 "2Ω" V 2750 8325 100 0000 C CNN
+F 2 "" H 2725 8400 50  0001 C CNN
+F 3 "" H 2725 8400 50  0001 C CNN
+	1    2625 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2175 8500 2175 8750
+Connection ~ 2175 8750
+Wire Wire Line
+	2175 8750 2175 9000
+Wire Wire Line
+	2675 8500 2625 8500
+Wire Wire Line
+	2225 8500 2175 8500
+Wire Wire Line
+	2225 9000 2175 9000
+Wire Wire Line
+	2675 9000 2625 9000
+Wire Wire Line
+	2675 8500 2675 8750
+Wire Wire Line
+	2925 8750 2675 8750
+Connection ~ 2675 8750
+Wire Wire Line
+	2675 8750 2675 9000
+$Comp
+L simbolos:resistencia R?
+U 1 1 6032ADA2
+P 2625 9000
+AR Path="/6032ADA2" Ref="R?"  Part="1" 
+AR Path="/604A6274/6032ADA2" Ref="R3"  Part="1" 
+F 0 "R3" V 2500 8725 100 0000 L CNN
+F 1 "2Ω" V 2750 8825 100 0000 C CNN
+F 2 "" H 2725 8900 50  0001 C CNN
+F 3 "" H 2725 8900 50  0001 C CNN
+	1    2625 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 6032FDE6
+P 1925 8750
+AR Path="/6032FDE6" Ref="R?"  Part="1" 
+AR Path="/604A6274/6032FDE6" Ref="R1"  Part="1" 
+F 0 "R1" V 1800 8475 100 0000 L CNN
+F 1 "4Ω" V 2050 8575 100 0000 C CNN
+F 2 "" H 2025 8650 50  0001 C CNN
+F 3 "" H 2025 8650 50  0001 C CNN
+	1    1925 8750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1925 8750 2175 8750
+$Comp
+L simbolos:resistencia R?
+U 1 1 60335BBA
+P 6450 8500
+AR Path="/60335BBA" Ref="R?"  Part="1" 
+AR Path="/604A6274/60335BBA" Ref="R2"  Part="1" 
+F 0 "R2" V 6325 8225 100 0000 L CNN
+F 1 "3Ω" V 6575 8325 100 0000 C CNN
+F 2 "" H 6550 8400 50  0001 C CNN
+F 3 "" H 6550 8400 50  0001 C CNN
+	1    6450 8500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 8500 6000 8750
+Connection ~ 6000 8750
+Wire Wire Line
+	6000 8750 6000 9000
+Wire Wire Line
+	6500 8500 6450 8500
+Wire Wire Line
+	6050 8500 6000 8500
+Wire Wire Line
+	6050 9000 6000 9000
+Wire Wire Line
+	6500 9000 6450 9000
+Wire Wire Line
+	6500 8500 6500 8750
+Wire Wire Line
+	6750 8750 6500 8750
+Connection ~ 6500 8750
+Wire Wire Line
+	6500 8750 6500 9000
+$Comp
+L simbolos:resistencia R?
+U 1 1 60335BCB
+P 6450 9000
+AR Path="/60335BCB" Ref="R?"  Part="1" 
+AR Path="/604A6274/60335BCB" Ref="R3"  Part="1" 
+F 0 "R3" V 6325 8725 100 0000 L CNN
+F 1 "6Ω" V 6575 8825 100 0000 C CNN
+F 2 "" H 6550 8900 50  0001 C CNN
+F 3 "" H 6550 8900 50  0001 C CNN
+	1    6450 9000
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 60335BD1
+P 5750 8750
+AR Path="/60335BD1" Ref="R?"  Part="1" 
+AR Path="/604A6274/60335BD1" Ref="R1"  Part="1" 
+F 0 "R1" V 5625 8475 100 0000 L CNN
+F 1 "4Ω" V 5875 8575 100 0000 C CNN
+F 2 "" H 5850 8650 50  0001 C CNN
+F 3 "" H 5850 8650 50  0001 C CNN
+	1    5750 8750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 8750 6000 8750
+Wire Wire Line
+	5350 8750 5100 8750
+$Comp
+L simbolos:Pila V?
+U 1 1 6033A8A8
+P 1000 10375
+F 0 "V?" H 775 10100 100 0001 L CNN
+F 1 "~" H 1150 10350 100 0000 C CNN
+F 2 "" H 1000 10250 50  0001 C CNN
+F 3 "" H 1000 10250 50  0001 C CNN
+	1    1000 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R1
+U 1 1 6033A8AE
+P 2000 11000
+F 0 "R1" H 1725 10800 100 0000 L CNN
+F 1 "4Ω" H 1825 10875 100 0001 C CNN
+F 2 "" H 2100 10900 50  0001 C CNN
+F 3 "" H 2100 10900 50  0001 C CNN
+	1    2000 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 6033A8C2
+P 2000 10100
+F 0 "S1" V 2100 10275 100 0000 C CNN
+F 1 "interruptor" H 2250 10000 50  0001 C CNN
+F 2 "" H 2300 10100 50  0001 C CNN
+F 3 "" H 2300 10100 50  0001 C CNN
+	1    2000 10100
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 60340C9F
+P 2500 11000
+F 0 "R2" H 2225 10800 100 0000 L CNN
+F 1 "4Ω" H 2325 10875 100 0001 C CNN
+F 2 "" H 2600 10900 50  0001 C CNN
+F 3 "" H 2600 10900 50  0001 C CNN
+	1    2500 11000
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:resistencia R3
+U 1 1 6034115C
+P 3000 11000
+F 0 "R3" H 2725 10800 100 0000 L CNN
+F 1 "4Ω" H 2825 10875 100 0001 C CNN
+F 2 "" H 3100 10900 50  0001 C CNN
+F 3 "" H 3100 10900 50  0001 C CNN
+	1    3000 11000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 11100 2000 11100
+Wire Wire Line
+	2000 11100 2000 11000
+Wire Wire Line
+	1000 10675 1000 11100
+Wire Wire Line
+	2000 11100 2500 11100
+Wire Wire Line
+	2500 11100 2500 11000
+Connection ~ 2000 11100
+Wire Wire Line
+	2500 11100 3000 11100
+Wire Wire Line
+	3000 11100 3000 11000
+Connection ~ 2500 11100
+Wire Wire Line
+	3000 10600 3000 10000
+Wire Wire Line
+	3000 10000 2500 10000
+Wire Wire Line
+	2000 10000 2000 10100
+Wire Wire Line
+	2000 10000 1000 10000
+Wire Wire Line
+	1000 10000 1000 10375
+Connection ~ 2000 10000
+Wire Wire Line
+	2500 10600 2500 10000
+Connection ~ 2500 10000
+Wire Wire Line
+	2500 10000 2000 10000
+$Comp
+L simbolos:Pila V?
+U 1 1 60356108
+P 4750 10500
+F 0 "V?" H 4525 10225 100 0001 L CNN
+F 1 "~" H 4900 10475 100 0000 C CNN
+F 2 "" H 4750 10375 50  0001 C CNN
+F 3 "" H 4750 10375 50  0001 C CNN
+	1    4750 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D1
+U 1 1 60356957
+P 5250 10000
+F 0 "D1" V 5350 9950 100 0000 L CNN
+F 1 "diodo_led" H 5250 10050 50  0001 C CNN
+F 2 "" V 5250 9850 50  0001 C CNN
+F 3 "" V 5250 9850 50  0001 C CNN
+	1    5250 10000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4750 10500 4750 10375
+Wire Wire Line
+	4750 10000 5250 10000
+Wire Wire Line
+	6500 10000 6500 10400
+Wire Wire Line
+	6500 10700 6500 11000
+Wire Wire Line
+	6500 11000 6000 11000
+Wire Wire Line
+	5250 11000 4750 11000
+Wire Wire Line
+	4750 11000 4750 10800
+Wire Wire Line
+	4750 10375 6000 10375
+Wire Wire Line
+	6000 10375 6000 10300
+Connection ~ 4750 10375
+Wire Wire Line
+	4750 10375 4750 10000
+Wire Wire Line
+	6000 10375 6000 11000
+Connection ~ 6000 10375
+Connection ~ 6000 11000
+Wire Wire Line
+	6000 11000 5550 11000
+Wire Wire Line
+	5550 10000 6000 10000
+$Comp
+L simbolos:diodo_led D2
+U 1 1 6037487E
+P 6000 10300
+F 0 "D2" H 6100 10275 100 0000 L CNN
+F 1 "diodo_led" H 6000 10350 50  0001 C CNN
+F 2 "" V 6000 10150 50  0001 C CNN
+F 3 "" V 6000 10150 50  0001 C CNN
+	1    6000 10300
+	-1   0    0    1   
+$EndComp
+Connection ~ 6000 10000
+Wire Wire Line
+	6000 10000 6500 10000
+$Comp
+L simbolos:diodo_led D3
+U 1 1 603750B6
+P 6500 10400
+F 0 "D3" H 6600 10350 100 0000 L CNN
+F 1 "diodo_led" H 6500 10450 50  0001 C CNN
+F 2 "" V 6500 10250 50  0001 C CNN
+F 3 "" V 6500 10250 50  0001 C CNN
+	1    6500 10400
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D4
+U 1 1 603757E3
+P 5550 11000
+F 0 "D4" V 5650 10950 100 0000 L CNN
+F 1 "diodo_led" H 5550 11050 50  0001 C CNN
+F 2 "" V 5550 10850 50  0001 C CNN
+F 3 "" V 5550 10850 50  0001 C CNN
+	1    5550 11000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1525 8750 1250 8750
+Text Notes -850 1250 0    300  ~ 0
+21
+Text Notes -900 3275 0    300  ~ 0
+22
+Text Notes 8575 1300 0    300  ~ 0
+27
+Text Notes 8600 3150 0    300  ~ 0
+28
+$EndSCHEMATC

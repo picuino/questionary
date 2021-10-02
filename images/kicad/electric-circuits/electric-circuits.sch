@@ -1,0 +1,1086 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 8268 11693 portrait
+encoding utf-8
+Sheet 1 3
+Title "Circuitos eléctricos para Questionary"
+Date "16/02/2021"
+Rev ""
+Comp "www.picuino.com"
+Comment1 "Copyright (c) 2021 by Carlos Pardo"
+Comment2 "License CC BY-SA 4.0"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L simbolos:CopyRight CP?
+U 1 1 602E50E7
+P 3775 11500
+AR Path="/602E50E7" Ref="CP?"  Part="1" 
+AR Path="/5C6CFC33/602E50E7" Ref="CP?"  Part="1" 
+F 0 "CP?" H 4200 11825 40  0001 C CNN
+F 1 "CopyRight" H 3950 11825 40  0001 C CNN
+F 2 "" H 3675 11850 50  0001 C CNN
+F 3 "" H 3775 11700 50  0001 C CNN
+F 4 "CC BY-SA 4.0" H 3775 11450 50  0000 C CNN "License"
+F 5 "" H 4350 11425 50  0000 C CNN "Author"
+F 6 "" H 3875 11425 50  0000 C CNN "Date"
+F 7 "www.picuino.com" H 4525 11450 50  0000 C CNN "Web"
+	1    3775 11500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D?
+U 1 1 602C946D
+P 1700 1275
+F 0 "D?" H 1800 1225 100 0001 L CNN
+F 1 "diodo_led" H 1700 1325 50  0001 C CNN
+F 2 "" V 1700 1125 50  0001 C CNN
+F 3 "" V 1700 1125 50  0001 C CNN
+	1    1700 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 602CA0E7
+P 1700 875
+F 0 "R?" H 1777 675 100 0001 L CNN
+F 1 "resistencia" V 1600 650 50  0001 C CNN
+F 2 "" H 1800 775 50  0001 C CNN
+F 3 "" H 1800 775 50  0001 C CNN
+	1    1700 875 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S?
+U 1 1 602C17AE
+P 1100 775
+F 0 "S?" H 1200 900 100 0001 C CNN
+F 1 "interruptor" H 1350 675 50  0001 C CNN
+F 2 "" H 1400 775 50  0001 C CNN
+F 3 "" H 1400 775 50  0001 C CNN
+	1    1100 775 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 602C36BC
+P 2500 1025
+F 0 "V?" H 2275 750 100 0001 L CNN
+F 1 "Pila" H 2600 950 50  0001 C CNN
+F 2 "" H 2500 900 50  0001 C CNN
+F 3 "" H 2500 900 50  0001 C CNN
+	1    2500 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D?
+U 1 1 602C3766
+P 3200 1275
+F 0 "D?" H 3300 1225 100 0001 L CNN
+F 1 "diodo_led" H 3200 1325 50  0001 C CNN
+F 2 "" V 3200 1125 50  0001 C CNN
+F 3 "" V 3200 1125 50  0001 C CNN
+	1    3200 1275
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 602C3770
+P 3200 875
+F 0 "R?" H 3277 675 100 0001 L CNN
+F 1 "resistencia" V 3100 650 50  0001 C CNN
+F 2 "" H 3300 775 50  0001 C CNN
+F 3 "" H 3300 775 50  0001 C CNN
+	1    3200 875 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 1575 3200 1650
+Wire Wire Line
+	2500 1325 2500 1650
+Wire Wire Line
+	2500 775  2500 1025
+Wire Wire Line
+	1700 1575 1700 1650
+$Comp
+L simbolos:Pila V?
+U 1 1 602C77EE
+P 1000 1025
+F 0 "V?" H 775 750 100 0001 L CNN
+F 1 "Pila" H 1100 950 50  0001 C CNN
+F 2 "" H 1000 900 50  0001 C CNN
+F 3 "" H 1000 900 50  0001 C CNN
+	1    1000 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1325 1000 1650
+Wire Wire Line
+	1700 875  1700 775 
+Wire Wire Line
+	1000 775  1000 1025
+Wire Wire Line
+	3200 775  3200 875 
+$Comp
+L simbolos:interruptor S?
+U 1 1 602C377C
+P 2600 1650
+F 0 "S?" H 2700 1775 100 0001 C CNN
+F 1 "interruptor" H 2850 1550 50  0001 C CNN
+F 2 "" H 2900 1650 50  0001 C CNN
+F 3 "" H 2900 1650 50  0001 C CNN
+	1    2600 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1650 3200 1650
+Wire Wire Line
+	2500 775  3200 775 
+Wire Wire Line
+	1700 775  1600 775 
+Wire Wire Line
+	1000 775  1100 775 
+Wire Wire Line
+	1000 1650 1700 1650
+Wire Wire Line
+	2500 1650 2600 1650
+Text Notes 1275 1325 0    150  ~ 30
+1
+Text Notes 2775 1325 0    150  ~ 30
+2
+$Comp
+L simbolos:Pila V?
+U 1 1 602D2665
+P 500 3050
+F 0 "V?" H 275 2775 100 0001 L CNN
+F 1 "Pila" H 600 2975 50  0001 C CNN
+F 2 "" H 500 2925 50  0001 C CNN
+F 3 "" H 500 2925 50  0001 C CNN
+	1    500  3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 602D2E0F
+P 500 2650
+F 0 "R?" H 577 2450 100 0001 L CNN
+F 1 "resistencia" V 400 2425 50  0001 C CNN
+F 2 "" H 600 2550 50  0001 C CNN
+F 3 "" H 600 2550 50  0001 C CNN
+	1    500  2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D1
+U 1 1 602D4368
+P 750 2600
+F 0 "D1" V 575 2325 100 0000 L CNN
+F 1 "diodo_led" H 750 2650 50  0001 C CNN
+F 2 "" V 750 2450 50  0001 C CNN
+F 3 "" V 750 2450 50  0001 C CNN
+	1    750  2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L simbolos:diodo_led D2
+U 1 1 602D4F8E
+P 1750 3200
+F 0 "D2" H 1525 3225 100 0000 L CNN
+F 1 "diodo_led" H 1750 3250 50  0001 C CNN
+F 2 "" V 1750 3050 50  0001 C CNN
+F 3 "" V 1750 3050 50  0001 C CNN
+	1    1750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:diodo_led D3
+U 1 1 602D7C77
+P 1050 3400
+F 0 "D3" V 875 3150 100 0000 L CNN
+F 1 "diodo_led" H 1050 3450 50  0001 C CNN
+F 2 "" V 1050 3250 50  0001 C CNN
+F 3 "" V 1050 3250 50  0001 C CNN
+	1    1050 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	500  2650 500  2600
+Wire Wire Line
+	500  2600 750  2600
+Wire Wire Line
+	750  3400 500  3400
+Wire Wire Line
+	1050 2600 1450 2600
+Wire Wire Line
+	1750 2600 1750 2900
+Wire Wire Line
+	1750 3200 1750 3400
+Wire Wire Line
+	1750 3400 1450 3400
+Wire Wire Line
+	1450 3400 1450 2600
+Connection ~ 1450 3400
+Wire Wire Line
+	1450 3400 1050 3400
+Connection ~ 1450 2600
+Wire Wire Line
+	1450 2600 1750 2600
+$Comp
+L simbolos:Pila V?
+U 1 1 602DCC6A
+P 2500 3050
+F 0 "V?" H 2275 2775 100 0001 L CNN
+F 1 "Pila" H 2600 2975 50  0001 C CNN
+F 2 "" H 2500 2925 50  0001 C CNN
+F 3 "" H 2500 2925 50  0001 C CNN
+	1    2500 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 602DCDAE
+P 2500 2650
+F 0 "R?" H 2577 2450 100 0001 L CNN
+F 1 "resistencia" V 2400 2425 50  0001 C CNN
+F 2 "" H 2600 2550 50  0001 C CNN
+F 3 "" H 2600 2550 50  0001 C CNN
+	1    2500 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:diodo_led D1
+U 1 1 602DCDB8
+P 2750 2600
+F 0 "D1" V 2575 2325 100 0000 L CNN
+F 1 "diodo_led" H 2750 2650 50  0001 C CNN
+F 2 "" V 2750 2450 50  0001 C CNN
+F 3 "" V 2750 2450 50  0001 C CNN
+	1    2750 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L simbolos:diodo_led D2
+U 1 1 602DCDC2
+P 3750 3200
+F 0 "D2" H 3525 3225 100 0000 L CNN
+F 1 "diodo_led" H 3750 3250 50  0001 C CNN
+F 2 "" V 3750 3050 50  0001 C CNN
+F 3 "" V 3750 3050 50  0001 C CNN
+	1    3750 3200
+	-1   0    0    1   
+$EndComp
+$Comp
+L simbolos:diodo_led D3
+U 1 1 602DCDCC
+P 3050 3400
+F 0 "D3" V 2875 3150 100 0000 L CNN
+F 1 "diodo_led" H 3050 3450 50  0001 C CNN
+F 2 "" V 3050 3250 50  0001 C CNN
+F 3 "" V 3050 3250 50  0001 C CNN
+	1    3050 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 2650 2500 2600
+Wire Wire Line
+	2500 2600 2750 2600
+Wire Wire Line
+	2750 3400 2500 3400
+Wire Wire Line
+	2500 3400 2500 3350
+Wire Wire Line
+	3750 2600 3750 2900
+Wire Wire Line
+	3750 3200 3750 3400
+Wire Wire Line
+	3050 3400 3750 3400
+Wire Wire Line
+	3050 2600 3750 2600
+Text Notes 1150 3100 0    150  ~ 30
+1
+Text Notes 3175 3100 0    150  ~ 30
+2
+$Comp
+L simbolos:Pila V?
+U 1 1 602DF2C7
+P 1250 4725
+F 0 "V?" H 1025 4450 100 0001 L CNN
+F 1 "Pila" H 1350 4650 50  0001 C CNN
+F 2 "" H 1250 4600 50  0001 C CNN
+F 3 "" H 1250 4600 50  0001 C CNN
+	1    1250 4725
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:zumbador Z?
+U 1 1 602DFE23
+P 1675 5325
+F 0 "Z?" H 1825 5665 100 0001 C CNN
+F 1 "zumbador" H 1825 5275 50  0001 C CNN
+F 2 "" H 1725 5225 50  0001 C CNN
+F 3 "" H 1725 5225 50  0001 C CNN
+	1    1675 5325
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 602E098B
+P 2500 4625
+F 0 "S1" V 2625 4800 100 0000 C CNN
+F 1 "interruptor" H 2750 4525 50  0001 C CNN
+F 2 "" H 2800 4625 50  0001 C CNN
+F 3 "" H 2800 4625 50  0001 C CNN
+	1    2500 4625
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 602E1295
+P 3000 4625
+F 0 "S2" V 3125 4800 100 0000 C CNN
+F 1 "interruptor" H 3250 4525 50  0001 C CNN
+F 2 "" H 3300 4625 50  0001 C CNN
+F 3 "" H 3300 4625 50  0001 C CNN
+	1    3000 4625
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1675 5325 1250 5325
+Wire Wire Line
+	1250 5325 1250 5025
+Wire Wire Line
+	1250 4725 1250 4475
+Wire Wire Line
+	3000 4625 3000 4475
+Wire Wire Line
+	1250 4475 2500 4475
+Wire Wire Line
+	2500 4625 2500 4475
+Connection ~ 2500 4475
+Wire Wire Line
+	2500 4475 3000 4475
+Wire Wire Line
+	2500 5125 2500 5325
+Wire Wire Line
+	2500 5325 1975 5325
+Wire Wire Line
+	3000 5125 3000 5325
+Wire Wire Line
+	3000 5325 2500 5325
+Connection ~ 2500 5325
+$Comp
+L simbolos:Pila V?
+U 1 1 602E5AF8
+P 1250 6575
+F 0 "V?" H 1025 6300 100 0001 L CNN
+F 1 "Pila" H 1350 6500 50  0001 C CNN
+F 2 "" H 1250 6450 50  0001 C CNN
+F 3 "" H 1250 6450 50  0001 C CNN
+	1    1250 6575
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 602E66A8
+P 1425 6250
+F 0 "S1" H 1700 6125 100 0000 C CNN
+F 1 "interruptor" H 1675 6150 50  0001 C CNN
+F 2 "" H 1725 6250 50  0001 C CNN
+F 3 "" H 1725 6250 50  0001 C CNN
+	1    1425 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 602E71ED
+P 2250 6300
+F 0 "S2" V 2450 6500 100 0000 C CNN
+F 1 "interruptor" H 2500 6200 50  0001 C CNN
+F 2 "" H 2550 6300 50  0001 C CNN
+F 3 "" H 2550 6300 50  0001 C CNN
+	1    2250 6300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 6250 1425 6250
+Wire Wire Line
+	2250 7200 1250 7200
+Wire Wire Line
+	1250 7200 1250 6875
+$Comp
+L simbolos:lampara L2
+U 1 1 602EBC9E
+P 3000 6400
+F 0 "L2" H 3160 6200 100 0000 L CNN
+F 1 "lampara" V 3050 5875 50  0001 C CNN
+F 2 "" V 3000 6225 50  0001 C CNN
+F 3 "" V 3000 6225 50  0001 C CNN
+	1    3000 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 6250 2250 6250
+Wire Wire Line
+	2250 6300 2250 6250
+Connection ~ 2250 6250
+Wire Wire Line
+	2250 6250 3000 6250
+Wire Wire Line
+	3000 6250 3000 6400
+Wire Wire Line
+	1250 6250 1250 6575
+$Comp
+L simbolos:Pila V?
+U 1 1 602F849F
+P 1250 8450
+F 0 "V?" H 1025 8175 100 0001 L CNN
+F 1 "Pila" H 1350 8375 50  0001 C CNN
+F 2 "" H 1250 8325 50  0001 C CNN
+F 3 "" H 1250 8325 50  0001 C CNN
+	1    1250 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 602F8A5F
+P 1500 9000
+F 0 "S2" H 1775 8875 100 0000 C CNN
+F 1 "interruptor" H 1750 8900 50  0001 C CNN
+F 2 "" H 1800 9000 50  0001 C CNN
+F 3 "" H 1800 9000 50  0001 C CNN
+	1    1500 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 602F95F0
+P 2500 8350
+F 0 "S1" V 2625 8525 100 0000 C CNN
+F 1 "interruptor" H 2750 8250 50  0001 C CNN
+F 2 "" H 2800 8350 50  0001 C CNN
+F 3 "" H 2800 8350 50  0001 C CNN
+	1    2500 8350
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:resistencia R?
+U 1 1 602FCED1
+P 3000 8425
+F 0 "R?" H 3077 8225 100 0001 L CNN
+F 1 "resistencia" V 2900 8200 50  0001 C CNN
+F 2 "" H 3100 8325 50  0001 C CNN
+F 3 "" H 3100 8325 50  0001 C CNN
+	1    3000 8425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 9000 1250 9000
+Wire Wire Line
+	1250 9000 1250 8750
+Wire Wire Line
+	1250 8225 2500 8225
+Wire Wire Line
+	2500 8850 2500 9000
+Wire Wire Line
+	2500 9000 2000 9000
+Wire Wire Line
+	2500 9000 3000 9000
+Wire Wire Line
+	3000 9000 3000 8825
+Connection ~ 2500 9000
+Wire Wire Line
+	3000 8225 2500 8225
+Connection ~ 2500 8225
+$Comp
+L simbolos:Pila V?
+U 1 1 6030381A
+P 1250 10375
+F 0 "V?" H 1025 10100 100 0001 L CNN
+F 1 "Pila" H 1350 10300 50  0001 C CNN
+F 2 "" H 1250 10250 50  0001 C CNN
+F 3 "" H 1250 10250 50  0001 C CNN
+	1    1250 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 60303AFE
+P 2500 10275
+F 0 "S1" V 2600 10450 100 0000 C CNN
+F 1 "interruptor" H 2750 10175 50  0001 C CNN
+F 2 "" H 2800 10275 50  0001 C CNN
+F 3 "" H 2800 10275 50  0001 C CNN
+	1    2500 10275
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 60303B08
+P 3000 10275
+F 0 "S2" V 3100 10450 100 0000 C CNN
+F 1 "interruptor" H 3250 10175 50  0001 C CNN
+F 2 "" H 3300 10275 50  0001 C CNN
+F 3 "" H 3300 10275 50  0001 C CNN
+	1    3000 10275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1250 10975 1250 10675
+Wire Wire Line
+	1250 10375 1250 10125
+Wire Wire Line
+	3000 10275 3000 10125
+Wire Wire Line
+	1250 10125 2500 10125
+Wire Wire Line
+	2500 10275 2500 10125
+Connection ~ 2500 10125
+Wire Wire Line
+	2500 10125 3000 10125
+Wire Wire Line
+	2500 10775 2500 10975
+Wire Wire Line
+	2500 10975 2025 10975
+Wire Wire Line
+	3000 10775 3000 10975
+Wire Wire Line
+	3000 10975 2500 10975
+Connection ~ 2500 10975
+$Comp
+L simbolos:resistencia R1
+U 1 1 6030BDCB
+P 2025 10975
+F 0 "R1" V 1875 10675 100 0000 L CNN
+F 1 "resistencia" V 1925 10750 50  0001 C CNN
+F 2 "" H 2125 10875 50  0001 C CNN
+F 3 "" H 2125 10875 50  0001 C CNN
+	1    2025 10975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1625 10975 1250 10975
+$Comp
+L simbolos:Pila V?
+U 1 1 60334BAC
+P 5375 1050
+F 0 "V?" H 5150 775 100 0001 L CNN
+F 1 "Pila" H 5475 975 50  0001 C CNN
+F 2 "" H 5375 925 50  0001 C CNN
+F 3 "" H 5375 925 50  0001 C CNN
+	1    5375 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 60334F94
+P 5700 800
+F 0 "S1" H 5800 975 100 0000 C CNN
+F 1 "interruptor" H 5950 700 50  0001 C CNN
+F 2 "" H 6000 800 50  0001 C CNN
+F 3 "" H 6000 800 50  0001 C CNN
+	1    5700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 60334F9E
+P 6625 975
+F 0 "S2" V 6725 1150 100 0000 C CNN
+F 1 "interruptor" H 6875 875 50  0001 C CNN
+F 2 "" H 6925 975 50  0001 C CNN
+F 3 "" H 6925 975 50  0001 C CNN
+	1    6625 975 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5375 1650 5375 1350
+Wire Wire Line
+	5375 1050 5375 800 
+Wire Wire Line
+	6625 975  6625 800 
+Wire Wire Line
+	5375 800  5700 800 
+Wire Wire Line
+	6625 1475 6625 1650
+Wire Wire Line
+	6150 1650 6625 1650
+Wire Wire Line
+	6200 800  6625 800 
+Wire Wire Line
+	5375 1650 5750 1650
+$Comp
+L simbolos:motor M1
+U 1 1 6033BF3D
+P 6150 1650
+F 0 "M1" V 5905 1450 100 0000 C CNN
+F 1 "motor" V 6200 1125 50  0001 C CNN
+F 2 "" V 6150 1425 50  0001 C CNN
+F 3 "" V 6150 1425 50  0001 C CNN
+	1    6150 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:Pila V?
+U 1 1 6033CC74
+P 5375 2900
+F 0 "V?" H 5150 2625 100 0001 L CNN
+F 1 "Pila" H 5475 2825 50  0001 C CNN
+F 2 "" H 5375 2775 50  0001 C CNN
+F 3 "" H 5375 2775 50  0001 C CNN
+	1    5375 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 6033D0AC
+P 5700 2650
+F 0 "S1" H 5800 2825 100 0000 C CNN
+F 1 "interruptor" H 5950 2550 50  0001 C CNN
+F 2 "" H 6000 2650 50  0001 C CNN
+F 3 "" H 6000 2650 50  0001 C CNN
+	1    5700 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 6033D0B6
+P 5700 3500
+F 0 "S2" H 5800 3675 100 0000 C CNN
+F 1 "interruptor" H 5950 3400 50  0001 C CNN
+F 2 "" H 6000 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+	1    5700 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5375 3500 5375 3200
+Wire Wire Line
+	5375 2900 5375 2650
+Wire Wire Line
+	5375 2650 5700 2650
+Wire Wire Line
+	6200 2650 6625 2650
+Wire Wire Line
+	5375 3500 5700 3500
+Wire Wire Line
+	6200 3500 6625 3500
+$Comp
+L simbolos:resistencia R1
+U 1 1 6034233B
+P 6625 2875
+F 0 "R1" H 6702 2675 100 0000 L CNN
+F 1 "resistencia" V 6525 2650 50  0001 C CNN
+F 2 "" H 6725 2775 50  0001 C CNN
+F 3 "" H 6725 2775 50  0001 C CNN
+	1    6625 2875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6625 2650 6625 2875
+Wire Wire Line
+	6625 3275 6625 3500
+$Comp
+L simbolos:Pila V?
+U 1 1 60349209
+P 5350 4800
+F 0 "V?" H 5125 4525 100 0001 L CNN
+F 1 "Pila" H 5450 4725 50  0001 C CNN
+F 2 "" H 5350 4675 50  0001 C CNN
+F 3 "" H 5350 4675 50  0001 C CNN
+	1    5350 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 60349691
+P 5675 4550
+F 0 "S1" H 5775 4725 100 0000 C CNN
+F 1 "interruptor" H 5925 4450 50  0001 C CNN
+F 2 "" H 5975 4550 50  0001 C CNN
+F 3 "" H 5975 4550 50  0001 C CNN
+	1    5675 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5400 5350 5100
+Wire Wire Line
+	5350 4800 5350 4550
+Wire Wire Line
+	5350 4550 5675 4550
+Wire Wire Line
+	6175 4550 6600 4550
+Connection ~ 2250 7200
+$Comp
+L simbolos:lampara L1
+U 1 1 602E808A
+P 2250 6800
+F 0 "L1" H 2410 6600 100 0000 L CNN
+F 1 "lampara" V 2300 6275 50  0001 C CNN
+F 2 "" V 2250 6625 50  0001 C CNN
+F 3 "" V 2250 6625 50  0001 C CNN
+	1    2250 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 7200 3000 7200
+$Comp
+L simbolos:lampara L3
+U 1 1 602ECBEB
+P 3000 6800
+F 0 "L3" H 3160 6600 100 0000 L CNN
+F 1 "lampara" V 3050 6275 50  0001 C CNN
+F 2 "" V 3000 6625 50  0001 C CNN
+F 3 "" V 3000 6625 50  0001 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L1
+U 1 1 6035FD05
+P 6600 4575
+F 0 "L1" H 6760 4375 100 0000 L CNN
+F 1 "lampara" V 6650 4050 50  0001 C CNN
+F 2 "" V 6600 4400 50  0001 C CNN
+F 3 "" V 6600 4400 50  0001 C CNN
+	1    6600 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L2
+U 1 1 603640BA
+P 6600 4975
+F 0 "L2" H 6760 4775 100 0000 L CNN
+F 1 "lampara" V 6650 4450 50  0001 C CNN
+F 2 "" V 6600 4800 50  0001 C CNN
+F 3 "" V 6600 4800 50  0001 C CNN
+	1    6600 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 5375 6600 5400
+Wire Wire Line
+	6600 4575 6600 4550
+Wire Wire Line
+	5350 5400 6600 5400
+$Comp
+L simbolos:resistencia R1
+U 1 1 60372164
+P 6200 6500
+F 0 "R1" V 6075 6225 100 0000 L CNN
+F 1 "resistencia" V 6100 6275 50  0001 C CNN
+F 2 "" H 6300 6400 50  0001 C CNN
+F 3 "" H 6300 6400 50  0001 C CNN
+	1    6200 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L simbolos:resistencia R2
+U 1 1 60372A0B
+P 6200 7000
+F 0 "R2" V 6075 6725 100 0000 L CNN
+F 1 "resistencia" V 6100 6775 50  0001 C CNN
+F 2 "" H 6300 6900 50  0001 C CNN
+F 3 "" H 6300 6900 50  0001 C CNN
+	1    6200 7000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 6500 5750 6750
+Wire Wire Line
+	5750 6750 5500 6750
+Connection ~ 5750 6750
+Wire Wire Line
+	5750 6750 5750 7000
+Wire Wire Line
+	6250 6500 6200 6500
+Wire Wire Line
+	5800 6500 5750 6500
+Wire Wire Line
+	5800 7000 5750 7000
+Wire Wire Line
+	6250 7000 6200 7000
+Wire Wire Line
+	6250 6500 6250 6750
+Wire Wire Line
+	6500 6750 6250 6750
+Connection ~ 6250 6750
+Wire Wire Line
+	6250 6750 6250 7000
+$Comp
+L simbolos:Pila V?
+U 1 1 603A0E95
+P 4975 8500
+F 0 "V?" H 4750 8225 100 0001 L CNN
+F 1 "Pila" H 5075 8425 50  0001 C CNN
+F 2 "" H 4975 8375 50  0001 C CNN
+F 3 "" H 4975 8375 50  0001 C CNN
+	1    4975 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 603A138F
+P 5225 8200
+F 0 "S1" H 5325 8325 100 0000 C CNN
+F 1 "interruptor" H 5475 8100 50  0001 C CNN
+F 2 "" H 5525 8200 50  0001 C CNN
+F 3 "" H 5525 8200 50  0001 C CNN
+	1    5225 8200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4975 8500 4975 8200
+Wire Wire Line
+	4975 8200 5225 8200
+Wire Wire Line
+	5725 8200 5975 8200
+$Comp
+L simbolos:lampara L1
+U 1 1 603A13A7
+P 5975 8700
+F 0 "L1" H 6135 8500 100 0000 L CNN
+F 1 "lampara" V 6025 8175 50  0001 C CNN
+F 2 "" V 5975 8525 50  0001 C CNN
+F 3 "" V 5975 8525 50  0001 C CNN
+	1    5975 8700
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 603AC75F
+P 5975 8200
+F 0 "S2" V 6100 8375 100 0000 C CNN
+F 1 "interruptor" H 6225 8100 50  0001 C CNN
+F 2 "" H 6275 8200 50  0001 C CNN
+F 3 "" H 6275 8200 50  0001 C CNN
+	1    5975 8200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4975 8800 4975 9100
+Wire Wire Line
+	5975 9100 4975 9100
+$Comp
+L simbolos:lampara L2
+U 1 1 603BD9C8
+P 6600 8450
+F 0 "L2" H 6760 8250 100 0000 L CNN
+F 1 "lampara" V 6650 7925 50  0001 C CNN
+F 2 "" V 6600 8275 50  0001 C CNN
+F 3 "" V 6600 8275 50  0001 C CNN
+	1    6600 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L3
+U 1 1 603BE087
+P 7225 8200
+F 0 "L3" H 7385 8000 100 0000 L CNN
+F 1 "lampara" V 7275 7675 50  0001 C CNN
+F 2 "" V 7225 8025 50  0001 C CNN
+F 3 "" V 7225 8025 50  0001 C CNN
+	1    7225 8200
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S3
+U 1 1 603BE746
+P 7225 8600
+F 0 "S3" V 7350 8775 100 0000 C CNN
+F 1 "interruptor" H 7475 8500 50  0001 C CNN
+F 2 "" H 7525 8600 50  0001 C CNN
+F 3 "" H 7525 8600 50  0001 C CNN
+	1    7225 8600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6600 8450 6600 8200
+Wire Wire Line
+	6600 8850 6600 9100
+Connection ~ 6600 8200
+Connection ~ 6600 9100
+Wire Wire Line
+	6600 8200 7225 8200
+Wire Wire Line
+	6600 9100 7225 9100
+Wire Wire Line
+	5975 8200 6600 8200
+Connection ~ 5975 8200
+Wire Wire Line
+	5975 9100 6600 9100
+Connection ~ 5975 9100
+$Comp
+L simbolos:Pila V?
+U 1 1 603E768F
+P 4550 10375
+F 0 "V?" H 4325 10100 100 0001 L CNN
+F 1 "Pila" H 4650 10300 50  0001 C CNN
+F 2 "" H 4550 10250 50  0001 C CNN
+F 3 "" H 4550 10250 50  0001 C CNN
+	1    4550 10375
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S1
+U 1 1 603E7C1B
+P 4800 10075
+F 0 "S1" H 4900 10200 100 0000 C CNN
+F 1 "interruptor" H 5050 9975 50  0001 C CNN
+F 2 "" H 5100 10075 50  0001 C CNN
+F 3 "" H 5100 10075 50  0001 C CNN
+	1    4800 10075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 10375 4550 10075
+Wire Wire Line
+	4550 10075 4800 10075
+Wire Wire Line
+	5300 10075 5550 10075
+$Comp
+L simbolos:lampara L1
+U 1 1 603E7C28
+P 5550 10575
+F 0 "L1" H 5710 10375 100 0000 L CNN
+F 1 "lampara" V 5600 10050 50  0001 C CNN
+F 2 "" V 5550 10400 50  0001 C CNN
+F 3 "" V 5550 10400 50  0001 C CNN
+	1    5550 10575
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S2
+U 1 1 603E7C32
+P 5550 10075
+F 0 "S2" V 5675 10250 100 0000 C CNN
+F 1 "interruptor" H 5800 9975 50  0001 C CNN
+F 2 "" H 5850 10075 50  0001 C CNN
+F 3 "" H 5850 10075 50  0001 C CNN
+	1    5550 10075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 10675 4550 10975
+Wire Wire Line
+	5550 10975 4550 10975
+$Comp
+L simbolos:lampara L2
+U 1 1 603E7C3E
+P 6175 10325
+F 0 "L2" H 6335 10125 100 0000 L CNN
+F 1 "lampara" V 6225 9800 50  0001 C CNN
+F 2 "" V 6175 10150 50  0001 C CNN
+F 3 "" V 6175 10150 50  0001 C CNN
+	1    6175 10325
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:lampara L3
+U 1 1 603E7C48
+P 7425 10075
+F 0 "L3" H 7585 9875 100 0000 L CNN
+F 1 "lampara" V 7475 9550 50  0001 C CNN
+F 2 "" V 7425 9900 50  0001 C CNN
+F 3 "" V 7425 9900 50  0001 C CNN
+	1    7425 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L simbolos:interruptor S4
+U 1 1 603E7C52
+P 7425 10475
+F 0 "S4" V 7550 10650 100 0000 C CNN
+F 1 "interruptor" H 7675 10375 50  0001 C CNN
+F 2 "" H 7725 10475 50  0001 C CNN
+F 3 "" H 7725 10475 50  0001 C CNN
+	1    7425 10475
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6175 10325 6175 10075
+Wire Wire Line
+	6175 10725 6175 10975
+Connection ~ 6175 10075
+Connection ~ 6175 10975
+Wire Wire Line
+	6175 10075 6800 10075
+Wire Wire Line
+	6175 10975 6800 10975
+Wire Wire Line
+	5550 10075 6175 10075
+Connection ~ 5550 10075
+Wire Wire Line
+	5550 10975 6175 10975
+Connection ~ 5550 10975
+$Comp
+L simbolos:interruptor S3
+U 1 1 603F9740
+P 6800 10275
+F 0 "S3" V 6925 10450 100 0000 C CNN
+F 1 "interruptor" H 7050 10175 50  0001 C CNN
+F 2 "" H 7100 10275 50  0001 C CNN
+F 3 "" H 7100 10275 50  0001 C CNN
+	1    6800 10275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6800 10275 6800 10075
+Wire Wire Line
+	6800 10775 6800 10975
+Wire Wire Line
+	6800 10075 7425 10075
+Connection ~ 6800 10075
+Wire Wire Line
+	7425 10975 6800 10975
+Connection ~ 6800 10975
+$Sheet
+S 10000 0    5000 1000
+U 604A6274
+F0 "electric-circuits_02" 300
+F1 "electric-circuits_02.sch" 300
+$EndSheet
+$Sheet
+S 10000 2500 5000 1000
+U 602E48FE
+F0 "electric-circuits_03" 300
+F1 "electric-circuits_03.sch" 300
+$EndSheet
+Wire Notes Line
+	4150 200  4150 11450
+Wire Notes Line
+	200  200  8100 200 
+Wire Notes Line
+	200  2075 8100 2075
+Wire Notes Line
+	8100 3950 200  3950
+Wire Notes Line
+	200  5825 8100 5825
+Wire Notes Line
+	8100 7700 200  7700
+Wire Notes Line
+	200  9575 8100 9575
+Wire Notes Line
+	8100 11450 200  11450
+Wire Notes Line
+	200  11450 200  200 
+Wire Notes Line
+	8100 200  8100 11450
+Wire Wire Line
+	500  3400 500  3350
+Wire Wire Line
+	3000 8225 3000 8425
+Wire Wire Line
+	2500 8225 2500 8350
+Wire Wire Line
+	1250 8225 1250 8450
+Text Notes -650 1150 0    300  ~ 0
+1\n
+Text Notes -650 3175 0    300  ~ 0
+2\n
+Text Notes 8525 1275 0    300  ~ 0
+7\n
+Text Notes 8500 3000 0    300  ~ 0
+8\n
+$EndSCHEMATC

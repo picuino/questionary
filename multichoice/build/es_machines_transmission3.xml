@@ -1,0 +1,921 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Máquinas/es_machines_transmission3</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se llama el mecanismo de la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Ruedas de fricción</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas deslizantes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas de contacto</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Poleas</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Si hay que transmitir gran potencia ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si hay que transmitir gran potencia ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Es más conveniente un engranaje</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es más conveniente un sistema de poleas y correa</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La rueda motriz se atasca</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La rueda conducida girará más lentamente</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Los ejes de los árboles de transmisión deben ser ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Los ejes de los árboles de transmisión deben ser ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Próximos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Perpendiculares</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Tangenciales</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Normales</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Exísten ruedas de fricción troncocónicas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Exísten ruedas de fricción troncocónicas?</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Si, pero no se usan tanto como las cilíndricas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>No, solo hay cilíndricas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Las ruedas troncocónicas son todas dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Si, pero hay que usar una correa</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>El material de contacto entre las dos ruedas ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>El material de contacto entre las dos ruedas ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Se desgasta con el tiempo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Debe permitir el deslizamiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Debe ser blando</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Evita que haya fricción</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cuál de estos aparatos incluye ruedas de fricción?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de estos aparatos incluye ruedas de fricción?</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Impresora</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Batidora</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Lavavajillas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ordenador</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Este mecanismo ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Este mecanismo ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Es muy silencioso</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Produce más ruido que un engranaje recto</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Produce más ruido que un piñón-cremallera</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Produce más ruido que las poleas</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>En unas ruedas de fricción, la rueda pequeña ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En unas ruedas de fricción, la rueda pequeña ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Gira más rápido que la rueda grande</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Es siempre motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Siempre va unida al árbol resistente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Se llama piñón</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>En unas ruedas de fricción, las ruedas giran ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En unas ruedas de fricción, las ruedas giran ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>En sentido contrario</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En el mismo sentido</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En el sentido horario</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En el sentido antihorario</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Las ruedas de fricción son ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las ruedas de fricción son ...</p> 
+         <p><img src="@@PLUGINFILE@@/4a293db68a57ec606dae.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="4a293db68a57ec606dae.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExUftj3LWAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAADkElEQVR42u3bMbKjMAwA0H/INZmhcc8lfIocIQWi4AicgkvQ0zBDtEX4CcGykY38P7sxvV9AkgnY4kslPf58ZT/72c9+9rOf/exn/1N8g4hjMl/j4+jT+N/8zg/E+hd8HSn8FY+zvG/Wvi/Jcf4F3w9pf8N7IhTl663vrqEo3+LdFxDjX2wfJX1D+KOcT52+8wIifE36vZhvSH+U8unwuAIU7muH3wv5xuGPMr4rPI4ABfva6fcivnH6o4jv5Ol7UKjvDj+dgFBfe/xewDcefxTwPTyZgEDfF34yAYG+9vr96X3j9cfDvpenEhzm+9NLJdjvFwCQ0C8BAODKTS+VYJ9fwOPgppdKsM8HaBARoGaml0qwxy+hRUTE4RUhUR+aZdTzAvbSSyTY7ZfQLYOm7wsQ9avmOQpuvPIhCsjpF8/TR5yAVz5EATn9slkNWwIk6VftathwY5UPUUAuv4D1sDtI+2/hWQK0Xz52Abn8t/AsAZL0V9WDiDjVsv57+JcEaIbfM/1mM07YL9vNuOHKKX97Ajj8qtuMm26iPmzH3WtRv7EG1pzpZU8w2i9sHyR9K72Iw1XS76yB05UzvawJRvsV4d8kfXvcXdIHwq81y+85fkMMFPQLygdBvyUGDgx/vhzwDefkzcjwifJHnLrf95XSZ/Arauz9A3xmfmmfNbnMLOjPyp5fHL9xC5vT1Xt/MDv+6P1Tpx7pwvze91A1U4/UYb73ofO4P3sf+kfqlSb72f+x+kw+v1LfH/ZeJkyUH33/P7XfMWP2//vRz1cf4kc/nx/y/533o9Tvd8nfTytE7E269+uqw3lzbxddHygJX3J9o2xx3Pz3ia7PFI3li64vKdsXXR9TsPWF1/eqbpNf4fXJst34wuurRbOZX9Lrz4nXt1OvzyffX0i9P/IeoKmW3t9JvT+lSlhXj/z+moLXBQy1/P6gquB1+gn2N1XxvIABUuz/qmopoen79IX9AqBFxGG1wS+6P760J6wbFGR9VQEAPKMj3p/wuIIru30mtL8iff/JT/up+3OS9xfpwPSezU/dn5a6vy55f6AOC//p+jNT95cm74/VQeGP6H8OCs/5+quT94erkPCcsD8/+fcFKiA8Ub7mn/4pv08hMjyK+hf26Ud+36SZ0Y/+/otXPPH+hRed+O/jNCs6B74fNPu1c8h//oCXP/T95k5qD/ucI/vZz372s5/97Gc/+8L+X9KUkIh/4NAlAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Un mecanismo de transmisión de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Un mecanismo de transformación de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Este mecanismo está formado por dos ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Este mecanismo está formado por dos ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Ruedas acanaladas simples y una doble</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas acanaladas compuestas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas acanaladas dobles</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas dentadas dobles</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>La rueda doble central gira ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La rueda doble central gira ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Si cualquiera de las otras ruedas giran</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>A la misma velocidad que la motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>A la misma velocidad que la conducida</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>A más velocidad que las otras dos</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>La figura nos muestra ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La figura nos muestra ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Un mecanismo de transmisión de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Un mecanismo de transformación de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Las ruedas acanaladas están unidas mediante ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las ruedas acanaladas están unidas mediante ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Correas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Cadenas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Hilos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Pegamento</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Cada una de las ruedas acanaladas se llama ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cada una de las ruedas acanaladas se llama ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExY4OBot8AAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAAFOUlEQVR42u2bO5KkMAyG95BrXEXivC/hU7DB5gSIgCP0KbhE5yRdxWgDXn7IMhjYmt412UzXfNOWZCFLv3+IW5+fPzI/8zM/8zM/8zM/8zM/8CAi9sFPHwBQn+ArRETEkf60gOlJ5mtcHurTEpanSuOrFU+t4AHbk8SXaDxD+NsDQJPCR+vpadvPT32cr2z+yOEdC+3iIzILcPH2AvbwtcsfA74lFrCD7+HNBZTwYBcQ5ysfvy2ggF/ALiDKl0g9q/HrkuBXB/gkftkDj0YQeHMPxPgaKfvMBirBj07HQBG+wp5eQC+EKKCiwsfyMM+XOMiggQqoBWke00A8H0cyfCYDQSMC5jEMxPI1hvyL2D8aenfZBuL4CvtAeCLiG8jk4BqI4UscRMg8+AWVCJtnMxDDx5FODoiICJ2X+cktFuZrDG8vfLXYM+bfHBDkK+yD2QHfMG3hIH51QIgvpxSgAvgn4siZf3VAiD9nAE37tptyXMnwK5avkcluEx57xvyrA2i+mt8gMuDbOUUw+MUBJF8u+VcFfDulCM78iwMovlzfT4oy/vMsf3s96aDxERFLll+F+BqZl9difETEF8uvA3y1VQcybHxERBY/O9jjS6O+lOTGOsc3iydFb6z1J4g72OVrZCorC4/vCL8i+MqqLXXYt2l8aRf3rnWcfxfh1z5fj0zp9gawFhDBTw62+No+nEjfHO0ZvnZOPwr9aOl2h88UQAZfubW3oqydzvcOD5oK9m5v+EwBtPEVIuKgjAVoMlhS+XNdbyyA3qvdzvCcAnTly5WPBN/4sm0aX8+232JUBvbSzvCcAnTl48YfPb4VK10KXxp89MLT8mW7MzwBDL4y+b3Lt22dwte4+Xd2gAqlgmcCH02+W7s5rG5f+ANUK3/x5aC24+2VfEWc/3XoTdIe52vi+Bx+k+zbXgD1Tr77d8/DfOp4fiFfEv0LGc703a7tC9D8Lb4i2gsyXIi0342vifaFZAqdK/iK5e9JPwALn2qPKKbQef5ffEk1CBVTSHUfwNcs/72LX/0dvqL6j5opBNtvyh80x29Kll/E+b3i+HXB8alWtMvfPE3xK8Hxa6Id5PDHbSdT/K2fR/Erop31j/Hvtv/t8XN3/H9ofvj0/Pzp78dc/0T4d9efd9fPsfq/Ke49Xzhz0vbq85fDv/x854yKDvNj51+H/7z6/H4z/+Xwj/cfIv0T278J/RNJyBuM/o/NT+j/CEJ9YPDt/ZXC17564tL+m/LlK5f2D6WvLrm0/yl8dcyl/VvTAbf0n6Uvvrm0fy588dCl/X+jiL5nfnH3/OX2+dHd86/b53fOdPb6+aM9XZ5mSaHhddL81BnQahzsLPQ8O1+2B8wOH19wmm+5wBNIWRPspPm75QLpCbCsCXySfsB0gc//Ml2Qxjdd4AvITIFFmn7DdIEevNLX8HGi/sRwgfL5uG6yZP2Mqf8RYQVNOp/XLy0+TtcvRfRXs49P6K94/di8zc7ox3j9G0J7Vv/G6/e+oDup34voD7/geVJ/GNFPTvLPM/pJXv+Jr+as/pPXrw7QnNSvRvS3BdSEA6qHZf4z+uECKs9AzfybK/TPogTPQDN/r/6Z12+LR+MaaFZc79VvR/TnwmgZW/yr9PMF1BT/gH4+ov8v4TfBP6L/5+8vuDt48u+F9y8cBzeiOHr/gu4uhu6nVI/D90d8F/Ts/ZrD91/4+zteEr36/pHjgoT7R5H7U4LMnBfe/ypC1vk299fWf3DX/bvb7w/m+5uZn/mZn/mZn/mZn/mZn/mfz/8D/ocug777XfEAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Polea</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Rueda dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Corona</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Rodillo</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo se llama este tipo de ruedas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se llama este tipo de ruedas?</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Acanaladas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Transversales</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Universales</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Todas las correas deben estar ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Todas las correas deben estar ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Tensas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ligadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Pegadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Deslizando</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Las dos ruedas acanaladas centrales ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las dos ruedas acanaladas centrales ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Giran a la misma velocidad</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Giran más rápido que las extremas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>No están pegadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Tienen el mismo diámetro</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>La rueda doble central gira ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>La rueda doble central gira ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>En el mismo sentido que la motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En sentido opuesto a la motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En sentido opuesto a la conducida</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>En sentido horario</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Si las correas no están suficientemente tensas ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Si las correas no están suficientemente tensas ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Habrá deslizamiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Se producirá mucho ruido</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Puede haber un accidente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Se tensarán solas</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo se pueden tensar las correas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se pueden tensar las correas?</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Con un rodillo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con una pinza</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con una cadena</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con un émbolo</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Este mecanismo suele usarse como ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Este mecanismo suele usarse como ...</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Reductor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Multiplicador</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Tensor</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Lubrificador</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo puede evitarse el deslizamiento?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo puede evitarse el deslizamiento?</p> 
+         <p><img src="@@PLUGINFILE@@/784a77c0917459f75ef0.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="784a77c0917459f75ef0.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Con ruedas y correas dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con lubrificación</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con ruedas acanaladas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con una cremallera</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Di un inconveniente de este mecanismo.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Di un inconveniente de este mecanismo.</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>La correa se desgasta y hay que sustituirla</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El mecanismo es muy ruidoso</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Los árboles de transmisión deben estar lejos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Los árboles de transmisión ser paralelos</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se llama el mecanismo de la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Poleas y correa</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas acanaladas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Ruedas dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Polea simple</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Es fácil ver poleas con correa en ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Es fácil ver poleas con correa en ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Una máquina de coser</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Un reloj digital</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Un sacacorchos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una tostadora</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué hay que hacerle a la correa para evitar el deslizamiento?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué hay que hacerle a la correa para evitar el deslizamiento?</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Tensarla</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Estirarla</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Pegarla</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Colocarla</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Con las ruedas acanaladas no se puede usar una correa ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Con las ruedas acanaladas no se puede usar una correa ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Dentada</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Trapezoidal</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>De sección triangular</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>De sección circular</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Cómo se llama la rueda pequeña del mecanismo de la figura?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se llama la rueda pequeña del mecanismo de la figura?</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Rueda acanalada</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Piñón</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Plato</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Di una ventaja de las poleas, en comparación con los engranajes rectos.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Di una ventaja de las poleas, en comparación con los engranajes rectos.</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Los árboles de transmisión pueden estar lejos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El mecanismo es síncrono</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Las ruedas no se rompen</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El sistema es más fiable</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Para que la transmisión entre las dos ruedas sea posible ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para que la transmisión entre las dos ruedas sea posible ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Los árboles de transmisión deben ser paralelos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Las dos ruedas deben tener el mismo paso</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El diámetro de las dos ruedas debe ser el mismo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Las ruedas deben girar en sentidos opuestos</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Para tensar bien la correa se puede usar ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Para tensar bien la correa se puede usar ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Un rodillo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una leva</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una rueda dentada</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Una grapa</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>Cuando hay que transmitir potencias elevadas ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Cuando hay que transmitir potencias elevadas ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Es mejor utilizar otro sistema de transmisión</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La rueda motriz debe girar rápidamente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El mecanismo funciona mejor que un engranaje</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La correa puede estar poco tensa</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>En un taladro de columna las poleas ...</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En un taladro de columna las poleas ...</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>Están situadas en dos conos de poleas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Giran muy lentamente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Están situadas perpendicularmente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Están muy cerca</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>En un sistema de poleas ¿Qué rueda gira más rápidamente?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>En un sistema de poleas ¿Qué rueda gira más rápidamente?</p> 
+         <p><img src="@@PLUGINFILE@@/11d24993696a753654af.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         width="379"></p>]]>
+      </text>
+      <file name="11d24993696a753654af.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExQNXJ+LUQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8ICCgp48MAAAABYktHRACIBR1IAAADm0lEQVR42u3bTZakIAwA4D7kwCJH4D4egYU55Sy0RCSEAMlUOw+X/bq+WOGnEMOPM73+/Cx/+ctf/vKXv3wb3yMiRjM/4HEZ+Xhdm4Ufko8GPtx43NV9j9kVtX18XJuuH57+ruoX/PMLzPkE//gCUz6S16bl03z+BSZ8rF06fpXPxsCwX+ezBI36iIhbLcA27SMibl6QoDH/uEkQJGjIP3NQb4Ftxven4CU9qN//8PX03BPU7V88OfkUQ6zXTzw3AlIDdPo+3Zzn/Djm33gu/bcG6PLvPJv+9F89fsaz6U8N0OHnvOf92O3nPJ/+1ABiHx6/HHz6r3+V+k++kf6rAYR+wTfS7z4NIPMLvuFHBz0+lOsyaPm73Cf4RvNuzqPYp/jm6PJnA7d9ktfzad63/SjyA8m3Rm90cH6q4Vd4Lb/Gt2eHz3hh/SrfnB2uGYLzQ+2hXMdneC/xI+8zvIbP8a3uc/uJqfj1DREdP/B+kPhY96F4TtD1y3V8f/c8bo/0oVzHq/rEOru/ex7tR/meWGdr+oFYB2v61Dq4v/sfHyZ8T62DFX0glmGafigmqbHhhUj75SSi6vtykKv6QPwKDQ1fxI3yA/Er8Saf+pUYGr6IkfA9NYu/yAdqFn+RH6hZdmj6Qdy/4JOz4PKZvvHPfen0jPj/+UDOsi/0N+jyo+/0U0uI/M31+XsaaSK/9tfl/07fuv+Y9/+Xzg9r/p/31/rH0C8a72Xr27c/X7z9+c76+ff1+wPW+ydXdiPQzau1f+UcWuxf3aoJ0WT/Da6OGUz2D/3dd/q+u/kW+7dnenfngs3+s0/t6yx8d/k2+/9nfiNYvb+wfv9i/v7I+v2XA5aff3/Hv35U8PkAL3g/yweQds9vvh/nAgRh9xTUJ8TBDiSur4iGfi2AF3afdn1LJYCweQX1OXQAPZ8OEGTdR1QfRQUAWfPK6ruIAF7WvML6tDKArk8EkDWvuD6wCBBEzSuvb3wG0K6ffBYzqdd/PgOI0t9VH5sHCJL099X3ZgEM6oezYj6L+ucsgCT93fXhtwBBkP7++vYUwKZ+PgUwqv9PAQTpHzof8Qlgdv7iDGB3fuQM0E7P6PmXIwA00zN8fgcQcffN9IyfPwJE3AM/uGZ8Ue+ZOv8F7dadO78G7dufO38HzdufPD8IrdufPf8IjdufPr8JTN/X8B8B9M/P5gGcvn8PsFn45uevzc+PM9fyl7/85S9/+cv/gv8Xwqt0VBWtr2kAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>La pequeña</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La grande</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>La conducida</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+
+
+</quiz>

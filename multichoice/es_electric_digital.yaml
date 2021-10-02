@@ -1,0 +1,319 @@
+
+Category: Electricidad
+Title: Electrónica digital
+Copyright: 2021 por Tucho Méndez, 2021 modificado por Carlos Pardo
+CopyrightLink: https://github.com/procastino/bancosTecno
+License: Creative Commons Attribution-ShareAlike 4.0
+LicenseLink: https://creativecommons.org/licenses/by-sa/4.0/
+Show_max: 0
+
+---
+
+- Title: Identificar puerta OR
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-or.png
+  Image_width: 180
+  Choices:
+    - Puerta OR
+    - Puerta AND
+    - Puerta XOR
+    - Puerta NOT
+
+- Title: Identificar puerta NOR
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-nor.png
+  Image_width: 180
+  Choices:
+    - Puerta NOR
+    - Puerta NAND
+    - Puerta XOR
+    - Puerta NOT
+
+- Title: Identificar puerta AND
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-and.png
+  Image_width: 180
+  Choices:
+    - Puerta AND
+    - Puerta OR
+    - Puerta XOR
+    - Puerta NOT
+
+- Title: Identificar puerta NAND
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-nand.png
+  Image_width: 180
+  Choices:
+    - Puerta NAND
+    - Puerta NOR
+    - Puerta XOR
+    - Puerta NOT
+
+- Title: Identificar puerta XOR
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-xor.png
+  Image_width: 180
+  Choices:
+    - Puerta XOR
+    - Puerta AND
+    - Puerta OR
+    - Puerta NOT
+
+- Title: Identificar puerta NOT
+  Question: ¿Qué puerta lógica tiene este símbolo?
+  Image: ../images/electric-simbolo-puerta-not.png
+  Image_width: 180
+  Choices:
+    - Puerta NOT
+    - Puerta NAND
+    - Puerta NOR
+    - Puerta XOR
+
+- Title:
+  Question: ¿Cuál es el componente fundamental de la electrónica digital?
+  Choices:
+    - El transistor
+    - La resistencia
+    - El condensador
+    - El transmisor
+
+- Title:
+  Question: ¿Cuál no es una puerta lógica?
+  Choices:
+    - TOR
+    - OR
+    - NOR
+    - XOR
+
+- Title: Identificar tabla de verdad NOT
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-not.png
+  Image_width: 120
+  Choices:
+    - NOT
+    - OR
+    - AND
+    - NOR
+
+- Title: Identificar tabla de verdad OR
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-or.png
+  Image_width: 180
+  Choices:
+    - OR
+    - AND
+    - NOR
+    - NOT
+
+- Title: Identificar Tabla de verdad AND
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-and.png
+  Image_width: 180
+  Choices:
+    - AND
+    - OR
+    - NOR
+    - XOR
+
+- Title: Identificar tabla de verdad NOR
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-nor.png
+  Image_width: 180
+  Choices:
+    - NOR
+    - XNOR
+    - OR
+    - NOT
+
+- Title: Identificar tabla de verdad NAND
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-nand.png
+  Image_width: 180
+  Choices:
+    - NAND
+    - Ninguna
+    - AND
+    - XOR
+
+- Title: Identificar tabla de verdad XOR
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-xor.png
+  Image_width: 180
+  Choices:
+    - XOR
+    - XNOR
+    - OR
+    - NAND
+
+- Title: Identificar tabla de verdad XNOR
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-xnor.png
+  Image_width: 180
+  Choices:
+    - XNOR
+    - Ninguna
+    - NAND
+    - XOR
+
+- Title: Identificar tabla de verdad Ninguna función
+  Question: ¿Qué función lógica se corresponde con esta tabla de verdad?
+  Image: ../images/electric-table-tricky.png
+  Image_width: 180
+  Choices:
+    - Ninguna
+    - XOR
+    - NOT
+    - AND
+
+- Question: ¿Quién publicó en 1854 "Las leyes del pensamiento", el libro con las bases de la lógica digital?
+  Choices:
+    - George Boole
+    - Charles Babbage
+    - William Shockley
+    - Bill Gates
+
+- Question: ¿En qué año publicó George Boole el libro "Las leyes del pensamiento", que consideramos el comienzo de la lógica digital? 
+  Image: 
+  Choices:
+    - 1854
+    - 1904
+    - 1934
+    - 1954
+
+- Title: Identificar transistores puerta AND
+  Question: ¿Qué puerta lógica se construye con este circuito?
+  Image: ../images/electric-digital-01.png
+  Image_width: 550
+  Choices:
+    - AND
+    - OR
+    - NOR
+    - NAND
+
+- Title: Identificar transistores puerta OR
+  Question: ¿Qué puerta lógica se construye con este circuito?
+  Image: ../images/electric-digital-02.png
+  Image_width: 550
+  Choices:
+    - OR
+    - AND
+    - NOR
+    - NAND
+
+- Title: Identificar transistores puerta NAND
+  Question: ¿Qué puerta lógica se construye con este circuito?
+  Image: ../images/electric-digital-03.png
+  Image_width: 550
+  Choices:
+    - NAND
+    - AND
+    - OR
+    - NOR
+
+- Title: Identificar transistores puerta NOR
+  Question: ¿Qué puerta lógica se construye con este circuito?
+  Image: ../images/electric-digital-04.png
+  Image_width: 550
+  Choices:
+    - NOR
+    - AND
+    - OR
+    - NAND
+
+- Title: Identificar transistores puerta NOT
+  Question: ¿Qué puerta lógica se construye con este circuito?
+  Image: ../images/electric-digital-05.png
+  Image_width: 550
+  Choices:
+    - NOT
+    - NOR
+    - NAND
+    - TOR
+
+- Title: "Identificar circuito equivalente con NAND: AND"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-06.png
+  Image_width: 550
+  Choices:
+    - AND
+    - NOT
+    - XOR
+    - OR
+
+- Title: "Identificar circuito equivalente con NAND: NOT"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-07.png
+  Image_width: 550
+  Choices:
+    - NOT
+    - AND
+    - XOR
+    - OR
+
+- Title: "Identificar circuito equivalente con NAND: OR"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-08.png
+  Image_width: 550
+  Choices:
+    - OR
+    - NOT
+    - AND
+    - XOR
+
+- Title: "Identificar circuito equivalente con NAND: XOR"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-09.png
+  Image_width: 550
+  Choices:
+    - XOR
+    - OR
+    - XNOR
+    - AND
+
+- Title: "Identificar circuito equivalente con NAND: XNOR"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-10.png
+  Image_width: 550
+  Choices:
+    - XNOR
+    - XOR
+    - OR
+    - AND
+
+- Title: "Identificar circuito equivalente con NAND: NOR"
+  Question: ¿Qué función lógica se construye con este circuito de puertas NAND?
+  Image: ../images/electric-digital-11.png
+  Image_width: 550
+  Choices:
+    - NOR
+    - XOR
+    - OR
+    - AND
+
+---
+
+# -------------------------------------------------------------------------------
+
+- Question: Queres facer unha alarma que salte cando se abre calquera fiestra dunha habitación. Que tipo de portas lóxicas serán a base do teu circuíto?
+  Image: 
+  Choices:
+    - OR
+    - AND
+    - NOT
+    - NAND
+
+- Question: Como funcionará un fecho SR, sabendo que S ven de set e R de reset?
+  Image: 
+  Choices:
+    - A entrada S a 1 fará que a saída se poña a 1 e a entrada R que se poña a 0
+    - A entrada R a 1 fará que a saída se poña a 1 e se está a 0 a saída será 0
+    - A entrada S a 1 fará que a saída se poña a 0 e a entrada R que se poña a 1
+    - A entrada S fará que a saída se poña a 1, independentemente da R
+
+- Question: Como funcionará un fecho D, sabendo que ten entradas D (data) e E (enable)?
+  Image: 
+  Choices:
+    - Cando E estea a 1, a saída será o estado de D. Se E está a 0, manterá o último estado
+    - Cando D estea a 1, a saída será o estado de E. Se D está a 0, manterá o último estado
+    - Cando E estea a 0, a saída será o estado de D. Se E está a 1, manterá o último estado
+    - Cando E estea a 1, a saída será 1 ou 0 dependendo de se D estaba antes a 1 ou se non estaba antes a 1 e si a 0, sempre e cando E siga a estar a 0 ou a 1

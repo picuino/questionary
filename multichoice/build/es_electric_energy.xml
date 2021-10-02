@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricidad/es_electric_energy</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué energía consume al mes un calentador de aire de 2000W si funciona durante 4 horas al día?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué energía consume al mes un calentador de aire de 2000W si funciona durante 4 horas al día?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>240kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>8000kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>500kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>120kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>240000kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué energía consume al mes una bombilla de bajo consumo de 15W si funciona durante 8 horas al día?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué energía consume al mes una bombilla de bajo consumo de 15W si funciona durante 8 horas al día?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>3.6kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>3600kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>240kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>120kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>8kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+    <question type="multichoice">
+    <name> <text>¿Qué energía consume al año un router de 20W si funciona durante 24 horas al día?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué energía consume al año un router de 20W si funciona durante 24 horas al día?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.25</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <answer fraction="100" format="html"> <text>175kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>8760kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>480kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>7300kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>438kWh</text> <feedback format="html"> <text></text> </feedback> </answer>
+  </question>
+
+
+</quiz>

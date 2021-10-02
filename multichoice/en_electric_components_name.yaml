@@ -1,0 +1,339 @@
+﻿
+Category: Electricity
+Title: Components name
+Copyright: 2021 por Carlos Pardo
+License: Creative Commons Attribution-ShareAlike 4.0
+LicenseLink: https://creativecommons.org/licenses/by-sa/4.0/
+Show_max: 0
+
+---
+
+- Title: Identify the Battery
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-pila.png
+  Image_width: 180
+  Choices:
+    - Battery
+    - Altern current source
+    - Motor
+    - Earth
+
+- Title: Identify the Altern current source
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-generador.png
+  Image_width: 180
+  Choices:
+    - Altern current source
+    - Battery
+    - Light Bulb
+    - Electric Motor
+
+- Title: Identify the Pushbutton n.o.
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-pulsador-na.png
+  Image_width: 180
+  Choices:
+    - Pushbutton n.o.
+    - Switch n.o.
+    - Two way Switch n.o.
+    - Battery
+
+- Title: Identify the Switch
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-interruptor.png
+  Image_width: 180
+  Choices:
+    - Switch
+    - Two way Switch
+    - Pushbutton
+    - Rele
+
+- Title: Identify the Two way Switch
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-conmutador.png
+  Image_width: 180
+  Choices:
+    - Two way Switch
+    - Switch
+    - Pushbutton
+    - Fuse
+
+- Title: Identify the Resistor 1
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-resistencia.png
+  Image_width: 180
+  Choices:
+    - Resistor
+    - Battery
+    - Light Bulb
+    - Switch
+
+- Title: Identify the Resistor 2
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-resistencia2.png
+  Image_width: 180
+  Choices:
+    - Resistor
+    - Light Bulb
+    - Battery
+    - Switch
+
+- Title: Identify the LED Diode
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-led.png
+  Image_width: 180
+  Choices:
+    - LED Diode
+    - Light Bulb
+    - Speaker
+    - Motor
+
+- Title: Identify the Light Bulb
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-lampara.png
+  Image_width: 180
+  Choices:
+    - Light Bulb
+    - LED Diode
+    - Motor
+    - X component
+
+- Title: Identify the Buzzer
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-zumbador.png
+  Image_width: 180
+  Choices:
+    - Buzzer
+    - Speaker
+    - Motor
+    - Altern current source
+
+- Title: Identify the Speaker
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-altavoz.png
+  Image_width: 180
+  Choices:
+    - Speaker
+    - Buzzer
+    - Altern current source
+    - Direct current source
+
+- Title: Identify the Motor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-motor.png
+  Image_width: 180
+  Choices:
+    - Motor
+    - Buzzer
+    - Wattmeter
+    - Light Bulb
+
+- Title: Identify the Earth
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-tierra.png
+  Image_width: 180
+  Choices:
+    - Earth
+    - Battery
+    - Antenna
+    - Receiver
+
+- Title: Identify the Diode
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-diodo.png
+  Image_width: 180
+  Choices:
+    - Diode
+    - LED Diode
+    - Battery
+    - Transistor
+
+- Title: Identify the Fuse
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-fusible.png
+  Image_width: 180
+  Choices:
+    - Fuse
+    - Resistor
+    - Generator
+    - Relay
+
+- Title: Identify the Pushbutton n.c.
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-pulsador-nc.png
+  Image_width: 180
+  Choices:
+    - Pushbutton n.c.
+    - Switch n.c.
+    - Distributor
+    - Battery
+
+- Title: Identify the Voltmeter
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-voltimetro.png
+  Image_width: 180
+  Choices:
+    - Voltmeter
+    - Power source
+    - Battery
+    - Light Bulb
+
+- Title: Identify the Ammeter
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-amperimetro.png
+  Image_width: 180
+  Choices:
+    - Ammeter
+    - Current source
+    - Battery
+    - Aluminum
+
+- Title: Identify the Transformer
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-transformador.png
+  Image_width: 180
+  Choices:
+    - Transformer
+    - Coil
+    - Double conductor
+    - Transistor
+
+- Title: Identify the Ground plane
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-masa.png
+  Image_width: 180
+  Choices:
+    - Ground plane
+    - Earth
+    - Battery
+    - Brush
+
+- Title: Identify the NPN Transistor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-npn.png
+  Image_width: 180
+  Choices:
+    - NPN Transistor
+    - PNP Transistor
+    - NPN Transformer
+    - PNP Transformer
+
+- Title: Identify the PNP Transistor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-pnp.png
+  Image_width: 180
+  Choices:
+    - PNP Transistor
+    - NPN Transistor
+    - NPN Transformer
+    - PNP Transformer
+
+- Title: Identify the Relay
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-rele.png
+  Image_width: 180
+  Choices:
+    - Relay
+    - Coil
+    - Double Switch
+    - Double Pushbutton
+
+- Title: Identify the Coil
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-inductancia.png
+  Image_width: 180
+  Choices:
+    - Coil
+    - Cable
+    - Round Pushbutton
+    - Fingers
+
+- Title: Identify the Capacitor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-condensador.png
+  Image_width: 180
+  Choices:
+    - Capacitor
+    - Battery
+    - Congregator
+    - Small Battery
+
+- Title: Identify the LDR Resistor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-resistencia-ldr.png
+  Image_width: 180
+  Choices:
+    - LDR Resistor
+    - NTC Resistor
+    - Resistor
+    - Variable Resistor
+
+- Title: Identify the NTC Resistor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-resistencia-ntc.png
+  Image_width: 180
+  Choices:
+    - NTC Resistor
+    - LDR Resistor
+    - Resistor
+    - Variable Resistor
+
+- Title: Identify the Variable Resistor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-resistencia-variable.png
+  Image_width: 180
+  Choices:
+    - Variable Resistor
+    - LDR Resistor
+    - NTC Resistor
+    - Resistor
+
+- Title: Identify the Limit Switch
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-final-carrera.png
+  Image_width: 180
+  Choices:
+    - Limit Switch
+    - Switch
+    - Pushbutton
+    - Pushbutton n.o.
+
+- Title: Identify the Crossover cable not connected
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-cable-cruzado.png
+  Image_width: 180
+  Choices:
+    - Crossover wire not connected
+    - Crossover wire connected
+    - Connected wire
+    - Cross
+
+- Title: Identify the Connected wire
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-cable-conectado.png
+  Image_width: 180
+  Choices:
+    - Connected wire
+    - Unconnected wire
+    - Connected and unconnected wire
+    - Mass
+
+- Title: Identify the Connector
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-conector.png
+  Image_width: 180
+  Choices:
+    - Connector
+    - Squared
+    - Ground plane
+    - Mass
+
+- Title: Identify the Polarized Capacitor
+  Question: What is the component of the image?
+  Image: ../images/electric-simbolo-condensador-pol.png
+  Image_width: 180
+  Choices:
+    - Polarized Capacitor
+    - Battery
+    - Capacitor
+    - Small Battery

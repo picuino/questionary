@@ -1,0 +1,166 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <!--
+   Copyright (c) 2021 Carlos Pardo
+
+   Copyright (c) 2021 James Q Quick
+   https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <meta name="description" content="Electricidad - Circuitos eléctricos - Questionary" />
+   <title>Circuitos eléctricos - Questionary</title>
+   <link rel="stylesheet" href="app.css" />
+   <link rel="stylesheet" href="game.css" />
+ 
+   <script>
+      sessionStorage.setItem('questionBank', "es_electric_circuits.json");
+      sessionStorage.setItem('questionBankMax', 0);
+      sessionStorage.setItem('questionBankTitle', "Electricidad. Circuitos eléctricos.");
+      sessionStorage.setItem('questionBankCopyright', "2021 por Tucho Méndez, con modificaciones de Carlos Pardo");
+      sessionStorage.setItem('questionBankLicense', "Creative Commons Attribution-ShareAlike 4.0");
+   </script>
+
+</head>
+
+<body>
+   <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item">
+            <p id="progressText" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <p class="hud-main-text" id="score">
+              0
+            </p>
+          </div>
+        </div>
+        
+        <h1 class="header">Electricidad. Circuitos eléctricos</h1>
+        
+        <h2 id="question">What is the answer to this question?</h2>
+        <p><img id="questionImage" src="" width=""></p>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">E</p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">F</p>
+          <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
+
+
+        <div class="cleaner"></div>
+
+   <!-- FOOTER -->
+   <div class="footer">
+   <a href="https://www.picuino.com/es/contacto.html" target=”_blank”>Contacto</a>
+   <a href="https://www.picuino.com/es/legal-aviso.html" target=”_blank”>Aviso legal</a>
+   <a href="https://www.picuino.com/es/legal-cookies.html" target=”_blank”>Política de Cookies</a>
+   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
+   <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
+   <a href="https://www.picuino.com/questionary/index.html">Índice</a>
+   <p>Copyright © <a href="https://github.com/procastino/bancosTecno" target="_blank">2021 por Tucho Méndez, con modificaciones de Carlos Pardo.</a></p>
+   <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
+   </div>
+
+   <!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Esta página web utiliza cookies propias y de terceros 
+   para propósitos funcionales y de análisis de navegación.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso.
+   <br />
+   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+   </div>
+   <script>
+   if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+   function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+   function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+   </script>
+
+   <!-- Matomo -->
+   <script type="text/javascript">
+   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+     var _paq = window._paq = window._paq || [];
+     _paq.push(['trackPageView']);
+     _paq.push(['enableLinkTracking']);
+     (function() {
+       var u="//www.picuino.com/matomo/";
+       _paq.push(['setTrackerUrl', u+'matomo.php']);
+       _paq.push(['setSiteId', '1']);
+       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+     })();
+   }
+   </script>
+   <!-- End Matomo Code -->
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>
+   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+     window.dataLayer=window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);} 
+     gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+   }
+   </script>
+
+      </div>
+   </div>
+   <!-- Game -->
+   <script src="game.js"></script>
+</body>
+
+</html>
