@@ -1,4 +1,4 @@
-﻿QUESTIONARY
+﻿Questionary
 ===========
 
 Test de respuesta múltiple guardados en formato 
@@ -7,20 +7,20 @@ desde este formato a otros útiles como son DOCX, CSV, XML de Moodle
 o formato de página WEB.
 
 
-PÁGINA WEB DE QUESTIONARY
+Página web de questionary
 =========================
 Creada automáticamente a partir de los cuestionarios:
 
 https://www.picuino.com/questionary
 
 
-CRÉDITOS Y LICENCIAS
+Créditos y licencias
 ====================
 
 https://github.com/picuino/questionary/blob/master/Licenses.md
 
 
-ESTRUCTURA DE DIRECTORIOS
+Estructura de directorios
 =========================
 
 ## Directorio multichoice
@@ -170,8 +170,7 @@ librerías de trabajo. Se puede prescindir de él si se instala Python
 en el ordenador junto con todas las librerías necesarias.
 
 
-
-INSTALACIÓN EN WINDOWS
+Instalación en Windows
 ======================
 
 ## INTERPRETE PYTHON

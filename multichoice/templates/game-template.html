@@ -29,7 +29,7 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="{{ header.Category }} - {{ header.Title }} - Questionary" />
+   <meta name="description" content="Test online de {{ header.Category }} - {{ header.Title }} - Questionary" />
    <title>{{ header.Title }} - Questionary</title>
    <link rel="stylesheet" href="app.css" />
    <link rel="stylesheet" href="game.css" />
@@ -106,12 +106,16 @@
    <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
    <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
    <a href="https://www.picuino.com/questionary/index.html">Índice</a>
-   {% if 'CopyrightLink' in header -%}
-      <p>Copyright © <a href="{{ header.CopyrightLink }}" target="_blank">{{ header.Copyright }}.</a></p>
+   {% if 'Copyright_link' in header -%}
+      <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
    {% else -%}
       <p>Copyright © {{ header.Copyright }}.</p>
    {% endif -%}
-   <p>Licencia: <a href={{ header.LicenseLink }} target=”_blank”>{{ header.License }}</a></p>
+   {% if 'License_link' in header -%}
+      <p>Licencia: <a href={{ header.License_link }} target=”_blank”>{{ header.License }}</a></p>
+   {% else -%}
+      <p>Licencia: {{ header.License }}</p>
+   {% endif -%}
    </div>
 
    <!-- Cookies Advise -->

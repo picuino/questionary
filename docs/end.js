@@ -28,6 +28,11 @@ const finalScore = document.getElementById('finalScore');
 const title = sessionStorage.getItem('mostRecentTitle');
 const mostRecentScore = sessionStorage.getItem('mostRecentScore');
 
-questionsTitle.innerText = title;
-finalScore.innerText = Number(mostRecentScore).toFixed(0) + "%";
+function setFinalScore() {
+  questionsTitle.innerText = title;
+  finalScore.innerText = Number(mostRecentScore).toFixed(0) + "%";
+};
 
+const result = setFinalScore();
+
+const interval = setInterval(setFinalScore, 3000);

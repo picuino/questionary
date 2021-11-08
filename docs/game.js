@@ -44,6 +44,7 @@ let availableQuestions = [];
 let correctAnswer = 0;
 let maxQuestions = 0;
 let questions = [];
+let suffleQuestions = true;
 
 questionBank = sessionStorage.getItem('questionBank');
 questionBankMax = sessionStorage.getItem('questionBankMax');
@@ -67,14 +68,20 @@ startGame = () => {
     score = 0;
     availableQuestions = [...questions];
 
-    if (questionBankMax <= 0 || questionBankMax > questions.length) {
-       questionBankMax = questions.length;
-    } 
-    console.log("Number of questions=", questionBankMax);
-    
     options = query_read();
     console.log("Options=", options);
-    
+    if (options.indexOf("maxQuestions") >= 0) {
+       questionBankMax = questions.length;
+    }
+    if (options.indexOf("noShuffle") >= 0) {
+       suffleQuestions = false;
+    }
+
+    if (questionBankMax <= 0 || questionBankMax > questions.length) {
+       questionBankMax = questions.length;
+    }
+    console.log("Number of questions=", questionBankMax);
+
     getNewQuestion();
 };
 
@@ -92,7 +99,7 @@ getNewQuestion = () => {
 
     //shuffle questions
     var questionIndex;
-    if (options.indexOf("noShuffle") < 0) {
+    if (suffleQuestions) {
       questionIndex = Math.floor(Math.random() * availableQuestions.length);
     }
     else {
@@ -165,7 +172,7 @@ choices.forEach((choice) => {
 
       if (classToApply === 'correct') {
           acceptingAnswers = false;
-          setTimeout(() => { 
+          setTimeout(() => {
              choicesClass.forEach(cleanClass);
              getNewQuestion();
           }, timeBeforeNextQuestion);
@@ -182,7 +189,7 @@ incrementScore = (num) => {
 
 function shuffle(numItems) {
   var array1, array2, index;
-  
+
   array1 = [];
   for(i = 1; i <= numItems; i++) {
      array1.push(i.toString());
