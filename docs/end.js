@@ -23,16 +23,25 @@
 // SOFTWARE.
 //
 
-const questionsTitle = document.getElementById('questionsTitle');
-const finalScore = document.getElementById('finalScore');
+const endDiv = document.getElementById('end');
 const title = sessionStorage.getItem('mostRecentTitle');
-const mostRecentScore = sessionStorage.getItem('mostRecentScore');
+const mostRecentScore = Number(sessionStorage.getItem('mostRecentScore')).toFixed(0) + "%";
+
+var watermarkLenght=3;
 
 function setFinalScore() {
-  questionsTitle.innerText = title;
-  finalScore.innerText = Number(mostRecentScore).toFixed(0) + "%";
+  if (watermarkLenght == 3) {
+     endDiv.innerHTML = "";
+     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + "</h1> <h1>- - -</h1>");
+     watermarkLenght = 4;
+  } 
+  else {
+     endDiv.innerHTML = "";
+     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + "</h1> <h1>- - - -</h1>");
+     watermarkLenght = 3;
+  }
 };
 
 const result = setFinalScore();
 
-const interval = setInterval(setFinalScore, 3000);
+const interval = setInterval(setFinalScore, 1000);
