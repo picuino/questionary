@@ -1,4 +1,4 @@
-//
+﻿//
 // Copyright (c) 2021 James Q Quick
 // https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 //
@@ -32,12 +32,14 @@ var watermarkLenght=3;
 function setFinalScore() {
   if (watermarkLenght == 3) {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + "</h1> <h1>- - -</h1>");
+     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + 
+        "</h1> <h1>- - -</h1><p style=\"margin-top:64px\"></p>  <a class=\"btn\" href=\"index.html\">Índice de los Test</a>");
      watermarkLenght = 4;
   } 
   else {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + "</h1> <h1>- - - -</h1>");
+     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore +
+        "</h1> <h1>- - - -</h1><p style=\"margin-top:64px\"></p>  <a class=\"btn\" href=\"index.html\">Índice de los Test</a>");
      watermarkLenght = 3;
   }
 };
