@@ -31,9 +31,8 @@ const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const timeBeforeNextQuestion = 1800;
-var questionBank = "yy";
-var options = [];
 
+var options = [];
 let currentQuestion = {};
 let acceptingAnswers = false;
 let acceptingScore = false;
@@ -46,7 +45,7 @@ let maxQuestions = 0;
 let questions = [];
 let suffleQuestions = true;
 
-questionBank = sessionStorage.getItem('questionBank');
+var questionBank = sessionStorage.getItem('questionBank');
 questionBankMax = sessionStorage.getItem('questionBankMax');
 
 
@@ -154,8 +153,7 @@ choices.forEach((choice) => {
       const selectedAnswer = selectedChoice.dataset['number'];
       console.log('Selected ' + selectedAnswer);
 
-      const classToApply =
-         selectedAnswer == correctAnswer ? 'correct' : 'incorrect';
+      const classToApply = selectedAnswer == correctAnswer ? 'correct' : 'incorrect';
       selectedChoice.parentElement.classList.add(classToApply);
       choicesClass.push([selectedChoice.parentElement, classToApply]);
 
@@ -166,7 +164,7 @@ choices.forEach((choice) => {
             incrementScore(100.0 / questionBankMax);
          }
          else {
-            incrementScore( -(100 / (currentQuestion.choices.length-1)) / questionBankMax);
+            incrementScore( -(100 / (currentQuestion.choices.length - 1)) / questionBankMax);
          }
       }
 
