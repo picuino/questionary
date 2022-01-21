@@ -15,10 +15,64 @@
     "question": "\u00bfLos materiales p\u00e9treos flotan?",
     "image": "",
     "choices": [
-       "Solo algunos como la piedra p\u00f3mez",
+       "La mayor\u00eda se hunden, solo la piedra p\u00f3mez flota",
        "Siempre flotan",
        "Siempre se hunden en el agua",
        "Los materiales p\u00e9treos no se deben mojar con agua"
+    ]
+  },
+  {
+    "title": "\u00bfQu\u00e9 respuesta a la luz tienen los materiales p\u00e9treos?",
+    "question": "\u00bfQu\u00e9 respuesta a la luz tienen los materiales p\u00e9treos?",
+    "image": "",
+    "choices": [
+       "La mayor\u00eda son opacos, con excepci\u00f3n del vidrio que es transparente",
+       "La mayor\u00eda son opacos",
+       "La mayor\u00eda son transparentes",
+       "Los materiales p\u00e9treos no responden bien a la luz"
+    ]
+  },
+  {
+    "title": "\u00bfQu\u00e9 resistencia a la luz del sol tienen los materiales p\u00e9treos?",
+    "question": "\u00bfQu\u00e9 resistencia a la luz del sol tienen los materiales p\u00e9treos?",
+    "image": "",
+    "choices": [
+       "Muy buena resistencia a la luz del sol porque no se degradan",
+       "Muy mala resistencia a la luz del sol porque se degradan",
+       "Tienen una resistencia media a la luz del sol porque a la larga se degradan"
+    ]
+  },
+  {
+    "title": "Maleabilibad y ductilidad de los p\u00e9treos naturales",
+    "question": "Los materiales p\u00e9treos naturales son ...",
+    "image": "",
+    "choices": [
+       "Nada maleables ni d\u00factiles",
+       "Maleables, pero poco d\u00factiles",
+       "D\u00factiles, pero poco maleables",
+       "D\u00factiles y maleables"
+    ]
+  },
+  {
+    "title": "Maleabilibad y ductilidad de los p\u00e9treos cer\u00e1micos",
+    "question": "Los materiales p\u00e9treos cer\u00e1micos son ...",
+    "image": "",
+    "choices": [
+       "Maleables, pero poco d\u00factiles",
+       "Nada maleables ni d\u00factiles",
+       "D\u00factiles, pero poco maleables",
+       "D\u00factiles y maleables"
+    ]
+  },
+  {
+    "title": "Maleabilibad y ductilidad del vidrio",
+    "question": "El vidrio es ...",
+    "image": "",
+    "choices": [
+       "Muy d\u00factil y maleable cuando est\u00e1 caliente",
+       "Maleable, pero poco d\u00factil",
+       "Nada maleable ni d\u00factil",
+       "D\u00factil, pero poco maleable"
     ]
   },
   {
@@ -30,6 +84,215 @@
        "Conducen bien el calor y la electricidad",
        "Conducen bien la electricidad pero mal el calor",
        "Conducen bien el calor pero mal la electricidad"
+    ]
+  },
+  {
+    "title": "\u00bfResisten bien los p\u00e9treos a la oxidaci\u00f3n?",
+    "question": "\u00bfResisten bien los p\u00e9treos a la oxidaci\u00f3n?",
+    "image": "",
+    "choices": [
+       "Si",
+       false,
+       "Algunos se oxidan, pero la mayor\u00eda resisten bien sin oxidarse",
+       "La mayor\u00eda se oxidan, pero algunos resisten bien sin oxidarse"
+    ]
+  },
+  {
+    "title": "\u00bfResisten bien los p\u00e9treos a los \u00e1cidos?",
+    "question": "\u00bfResisten bien los p\u00e9treos a los \u00e1cidos?",
+    "image": "",
+    "choices": [
+       "La mayor\u00eda resiste bien, pero el m\u00e1rmol y la caliza se disuelven",
+       "Si",
+       false,
+       "El m\u00e1rmol y la caliza resisten bien, pero el resto de p\u00e9treos se disuelven"
+    ]
+  },
+  {
+    "title": "\u00bfCu\u00e1les son p\u00e9treos naturales?",
+    "question": "\u00bfCu\u00e1les son p\u00e9treos naturales?",
+    "image": "",
+    "choices": [
+       "M\u00e1rmol, granito, pizarra, caliza, arenisca y arenas",
+       "Yeso, granito, pizarra, caliza, arenisca y arenas",
+       "M\u00e1rmol, cemento, pizarra, caliza, gres y arenas",
+       "M\u00e1rmol, granito, arcilla, caliza, arenisca y loza"
+    ]
+  },
+  {
+    "title": "\u00bfCu\u00e1les son p\u00e9treos aglomerantes?",
+    "question": "\u00bfCu\u00e1les son p\u00e9treos aglomerantes?",
+    "image": "",
+    "choices": [
+       "Yeso, escayola, cemento, hormig\u00f3n",
+       "M\u00e1rmol, escayola, Gres, hormig\u00f3n",
+       "Yeso, arcilla, cemento, loza",
+       "Yeso, escayola, cemento, porcelana"
+    ]
+  },
+  {
+    "title": "\u00bfCu\u00e1les son p\u00e9treos cer\u00e1micos?",
+    "question": "\u00bfCu\u00e1les son p\u00e9treos cer\u00e1micos?",
+    "image": "",
+    "choices": [
+       "Arcilla, loza, gres, porcelana",
+       "cemento, loza, gres, porcelana",
+       "Arcilla, yeso, gres, porcelana",
+       "Arcilla, loza, hormig\u00f3n, porcelana"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el m\u00e1rmol?",
+    "question": "\u00bfPara qu\u00e9 sirve el m\u00e1rmol?",
+    "image": "",
+    "choices": [
+       "Cubrir suelos o paredes de forma lujosa",
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Producir cal, un componente fundamental del cemento gris",
+       "Construir piedras de afilar"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el granito?",
+    "question": "\u00bfPara qu\u00e9 sirve el granito?",
+    "image": "",
+    "choices": [
+       "Fabricar encimeras de cocina",
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Producir cal, un componente fundamental del cemento gris",
+       "A\u00f1adirlo al cemento para formar hormig\u00f3n"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la pizarra?",
+    "question": "\u00bfPara qu\u00e9 sirve la pizarra?",
+    "image": "",
+    "choices": [
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Fabricar encimeras de cocina",
+       "Producir cal, un componente fundamental del cemento gris",
+       "Construir piedras de afilar"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la piedra caliza?",
+    "question": "\u00bfPara qu\u00e9 sirve la piedra caliza?",
+    "image": "",
+    "choices": [
+       "Producir cal, un componente fundamental del cemento gris",
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Fabricar encimeras de cocina",
+       "Construir piedras de afilar"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la piedra arenisca?",
+    "question": "\u00bfPara qu\u00e9 sirve la piedra arenisca?",
+    "image": "",
+    "choices": [
+       "Construir piedras de afilar",
+       "Producir cal, un componente fundamental del cemento gris",
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Fabricar encimeras de cocina"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la grava y las arenas?",
+    "question": "\u00bfPara qu\u00e9 sirve la grava y las arenas?",
+    "image": "",
+    "choices": [
+       "A\u00f1adirlos al cemento para formar hormig\u00f3n",
+       "Producir cal, un componente fundamental del cemento gris",
+       "Cubrir tejados y, antiguamente, para escribir",
+       "Construir piedras de afilar"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el yeso?",
+    "question": "\u00bfPara qu\u00e9 sirve el yeso?",
+    "image": "",
+    "choices": [
+       "Revestimiento y decoraci\u00f3n de paredes y techos",
+       "Cubrir tejados",
+       "Fabricar encimeras de cocina",
+       "Cubrir suelos o paredes de forma lujosa"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el cemento?",
+    "question": "\u00bfPara qu\u00e9 sirve el cemento?",
+    "image": "",
+    "choices": [
+       "Producir hormig\u00f3n",
+       "Cubrir tejados",
+       "Fabricar encimeras de cocina",
+       "Cubrir suelos o paredes de forma lujosa"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el hormig\u00f3n?",
+    "question": "\u00bfPara qu\u00e9 sirve el hormig\u00f3n?",
+    "image": "",
+    "choices": [
+       "Hacer vigas y suelos de edificios, carreteras, puentes, etc.",
+       "Cubrir tejados",
+       "Construir piedras de afilar",
+       "Cubrir suelos o paredes de forma lujosa"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la arcilla?",
+    "question": "\u00bfPara qu\u00e9 sirve la arcilla?",
+    "image": "",
+    "choices": [
+       "Fabricar ladrillos, tejas, recipientes y producir cemento",
+       "Fabricaci\u00f3n de baldosas para suelos",
+       "Cubrir suelos o paredes de forma lujosa",
+       "Hacer vigas y suelos de edificios, carreteras, puentes, etc."
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la loza?",
+    "question": "\u00bfPara qu\u00e9 sirve la loza?",
+    "image": "",
+    "choices": [
+       "Hacer vajillas",
+       "Fabricaci\u00f3n de baldosas para suelos",
+       "Fabricar ladrillos, tejas, recipientes y producir cemento",
+       "Cubrir tejados"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el gres?",
+    "question": "\u00bfPara qu\u00e9 sirve el gres?",
+    "image": "",
+    "choices": [
+       "Fabricaci\u00f3n de baldosas para suelos",
+       "Fabricar ladrillos, tejas, recipientes y producir cemento",
+       "Fabricar jarrones, aisladores el\u00e9ctricos, inodoros, lavabos, etc.",
+       "Hacer vigas y suelos de edificios, carreteras, puentes, etc."
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve la porcelana?",
+    "question": "\u00bfPara qu\u00e9 sirve la porcelana?",
+    "image": "",
+    "choices": [
+       "Fabricar jarrones, aisladores el\u00e9ctricos, inodoros, lavabos, etc.",
+       "Fabricaci\u00f3n de baldosas para suelos",
+       "Fabricar ladrillos, tejas, recipientes y producir cemento",
+       "Cubrir tejados"
+    ]
+  },
+  {
+    "title": "\u00bfPara qu\u00e9 sirve el vidrio?",
+    "question": "\u00bfPara qu\u00e9 sirve el vidrio?",
+    "image": "",
+    "choices": [
+       "Hacer vajillas, botellas, cerrar ventanas, espejos, lentes, etc.",
+       "Fabricaci\u00f3n de baldosas para suelos",
+       "Fabricar ladrillos, tejas, recipientes y producir cemento",
+       "Hacer vigas y suelos de edificios, carreteras, puentes, etc."
     ]
   }
 ]
