@@ -18,6 +18,15 @@ Show_max: 0
     - 240000kWh
 
 - Title: 
+  Question: ¿Qué energía consume al mes una nevera de 150W si funciona 15 horas al día?
+  Choices:
+    - 67kWh
+    - 75kWh
+    - 300kWh
+    - 60kWh
+    - 150kWh
+
+- Title: 
   Question: ¿Qué energía consume al mes una bombilla de bajo consumo de 15W si funciona durante 8 horas al día?
   Choices:
     - 3.6kWh
@@ -34,5 +43,41 @@ Show_max: 0
     - 480kWh
     - 7300kWh
     - 438kWh
+
+- Title: 
+  Question: ¿Qué energía consume al mes un secador de pelo de 2000W si funciona un cuarto de hora al día?
+  Choices:
+    - 15kWh
+    - 60kWh
+    - 240kWh
+    - 2kWh
+    - 66.6kWh
+
+- Title: 
+  Question: ¿Qué energía consume al mes un microondas de 800W si funciona media hora al día?
+  Choices:
+    - 12kWh
+    - 400kWh
+    - 13kWh
+    - 12000kWh
+    - 53kWh
+
+- Title: 
+  Question: ¿Qué energía consume al mes un ordenador gaming de 300W si funciona cuatro horas al día?
+  Choices:
+    - 36kWh
+    - 75kWh
+    - 2250kWh
+    - 40kWh
+    - 38kWh
+
+- Title: 
+  Question: ¿Qué energía consume al mes una videoconsola de 200W si funciona 3 horas al día?
+  Choices:
+    - 18kWh
+    - 6kWh
+    - 600kWh
+    - 66kWh
+    - 20kWh
 
 
