@@ -30,11 +30,12 @@
 }
 
 .correct {
-  background-color: #28a745;
+  background-color: #009e73;
 }
 
 .incorrect {
-  background-color: #dc3545;
+  background-color: #d02000;
+  text-decoration: line-through;
 }
 
 #questionImage {
