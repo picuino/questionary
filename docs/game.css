@@ -3,7 +3,6 @@
   margin-bottom: 6px;
   width: 100%;
   font-size: 18px;
-  border: 1px solid rgb(86, 165, 235, 0.25);
   background-color: white;
 }
 
@@ -30,11 +29,11 @@
 }
 
 .correct {
-  background-color: #009e73;
+  background-color: #00ff60;
 }
 
 .incorrect {
-  background-color: #d02000;
+  background-color: #ff2000;
   text-decoration: line-through;
 }
 
