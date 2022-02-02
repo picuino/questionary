@@ -34,26 +34,22 @@ import docx
 from docx.shared import Inches, Cm, Pt
 
 
+filename_output = 'es-material'
+yaml_files = [
+   'es-material-properties.yaml',
+   'es-material-wood.yaml',
+   'es-material-stone.yaml',
+   'es-material-metals.yaml',
+   'es-material-plastics.yaml',
+   ]
+multichoice_path = ''
+build_path = 'build'
+max_questions = 32
+
+
 def main():
    """Main program"""
-
-   moodle_template = 'moodle-multichoice-template.xml'
-   json_template = 'json-template.json'
-   html_template = 'game-template.html'
-   js_template = 'game-template.js'
-
-   multichoice_path = 'multichoice'
-   build_path = 'build'
-   html_path = 'docs'
-   images_path= 'images'
-   
    # Read yaml files
-   yaml_files = [yaml for yaml in os.listdir(multichoice_path) if yaml[-5:].lower() == '.yaml']
-   yaml_files = ['es_material_properties.yaml',
-                 'es_material_wood.yaml',
-                 'es_material_metals.yaml',
-                 'es_material_plastics.yaml' ]
-   
    questionary = Questionary()
    questions = []
    for yaml_file in yaml_files:
@@ -63,10 +59,9 @@ def main():
    # Write questions
    random.seed(1000)
    random.shuffle(questions)
-   max_questions = 33
    questions = questions[: max_questions]
    questionary = Questionary()
-   questionary.filename = 'es_material'
+   questionary.filename = filename_output
    questionary.header = {
       'Category': 'Materiales',
       'Title': 'Cuestionario global'
@@ -113,16 +108,16 @@ class Questionary():
       # Test errors in header
       if not 'Category' in self.header:
          print('   Warning: no Category value')
-         header['Category'] = 'General'
-      if not 'Author' in self.header:
+         self.header['Category'] = 'General'
+      if not 'Copyright' in self.header:
          print('   Warning: no Author value')
-         header['Author'] = 'Anonymous '
+         self.header['Copyright'] = ''
       if not 'Show_max' in self.header:
          print('   Warning: no Show_max value')
-         header['Show_max'] = 0
+         self.header['Show_max'] = 0
       if not 'Title' in self.header:
          print('   Warning: no Title value')
-         header['Title'] = 'No title available'
+         self.header['Title'] = 'No title available'
 
       # Test Questions
       safe_questions = []
@@ -147,32 +142,7 @@ class Questionary():
          if not 'Title' in question or not question['Title']:
             question['Title'] = question['Question']
    
-   
-   def write_csv(self, path='./'):
-      csv_filename = os.path.join(path, self.filename + '.csv')
-      if self.file_newer(csv_filename):
-         return
-      print('   Writing: ' + csv_filename)
 
-      csv_data = ['Question;Image;Image_width;Choice_1;Choice_2;Choice_3;Choice_4;Choice_5;Choice_6;Block']
-      for row in self.questions:
-         line = '"' + row['Question'] + '";"'
-         if row['Image']:
-            line = line + str(row['Image']['filename']) + '";"'
-            line = line + str(row['Image']['display_width']) + '";"'
-         else:
-            line = line + '";"";"'
-         for i in range(6):
-            if i < len(row['Choices']):
-               line = line + str(row['Choices'][i]) + '";"'
-            else:
-               line = line + '";"'
-         line = line + self.filename + '"'
-         csv_data.append(line)
-      with codecs.open(csv_filename, 'w', encoding='utf-8') as csv_file:
-         csv_file.write('\n'.join(csv_data))
-   
-   
    def read_b64(self, filename):
       """Read image and returns data in ascii base64 format"""
       data = open(filename, 'rb').read()
@@ -219,19 +189,6 @@ class Questionary():
       templateEnv = jinja2.Environment(loader=templateLoader)
       self.template = templateEnv.get_template(template_file)
       
-   
-   def moodle_generate(self, template_file, path='./'):
-      """Genera los cuestionarios en formato Moodle xml a partir de las
-         cuestiones. Se genera un archivo por cada bloque de cuestiones"""
-      xml_filename = os.path.join(path, self.filename + '.xml')
-      if self.file_newer(xml_filename):
-         return
-      print('   Writing: ' + xml_filename)
-      self.jinja_template(template_file)
-      xml_data = self.template.render(questions = self.questions, header = self.header, filename = self.filename)
-      with codecs.open(xml_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(xml_data)
-   
    
    def docx_make_head(self):
       self.docx = docx.Document()
@@ -320,38 +277,6 @@ class Questionary():
          if os.path.getmtime(filename) > os.path.getmtime(os.path.join(self.yaml_path, self.yaml_file)):
             return True
       return False
-
-
-   def json_generate(self, template_file, path='docs'):
-      """Genera los archivos json a partir de las cuestiones."""
-      # Copy json images
-      for question in self.questions:
-         if question['Image']:
-            dest = os.path.join(path, 'images', question['Image']['hashname'])
-            if not os.path.exists(dest):
-               shutil.copy2(question['Image']['filename'], dest)
-
-      # Generate json
-      json_filename = os.path.join(path, self.filename + '.json')
-      if self.file_newer(json_filename):
-         return
-      print('   Writing: ' + json_filename)
-      self.jinja_template(template_file)
-      json_data = self.template.render(questions = self.questions)
-      with codecs.open(json_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(json_data)
-
-
-   def html_generate(self, template_file, path='./'):
-      """Genera los archivos html para jugar con las cuestiones."""
-      html_filename = os.path.join(path, self.filename + '.html')
-      if self.file_newer(html_filename):
-         return
-      print('   Writing: ' + html_filename)
-      self.jinja_template(template_file)
-      html_data = self.template.render(filename=self.filename, header=self.header)
-      with codecs.open(html_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(html_data)
 
 
 if __name__ == "__main__":
