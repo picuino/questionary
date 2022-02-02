@@ -128,7 +128,7 @@ class Questionary():
          self.header['Category'] = 'General'
       if not 'Copyright' in self.header:
          print('   Warning: no Copyright value')
-         self.header['Copyright'] = 'Anonymous'
+         self.header['Copyright'] = ''
       if not 'Show_max' in self.header:
          print('   Warning: no Show_max value')
          self.header['Show_max'] = 0
