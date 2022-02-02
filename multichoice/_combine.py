@@ -21,21 +21,36 @@
 from _multichoice import Questionary
 import random
 
-
-project = {
+project_material = {
    'yaml_files': [
-       'es-material-properties.yaml',
-       'es-material-wood.yaml',
-       'es-material-stone.yaml',
-       'es-material-metals.yaml',
-       'es-material-plastics.yaml',
-       ],
+      'es-material-properties.yaml',
+      'es-material-wood.yaml',
+      'es-material-stone.yaml',
+      'es-material-metals.yaml',
+      'es-material-plastics.yaml',
+      ],
    'filename_output': 'es-material',
    'yaml_category': 'Materiales',
    'max_questions': 32,
    'random_seed': 1000,
 }
 
+project_machines = {
+   'yaml_files': [
+      'es-machines-simple.yaml',
+      'es-machines-transmission1.yaml',
+      'es-machines-transmission2.yaml',
+      'es-machines-transmission3.yaml',
+      'es-machines-transformation1.yaml',
+      'es-machines-transformation2.yaml',
+      ],
+   'filename_output': 'es-machines',
+   'yaml_category': 'Mecanismos',
+   'max_questions': 32,
+   'random_seed': 1000,
+}
+
+projects = [project_material, project_machines]
    
 multichoice_path = ''
 build_path = 'build'
@@ -44,27 +59,33 @@ build_path = 'build'
 def main():
    """Main program"""
    # Read yaml files
-   questionary = Questionary()
-   questions = []
-   for yaml_file in project['yaml_files']:
-      questionary.read_yaml(yaml_file, path=multichoice_path)
-      questions = questions + questionary.questions
+   for project in projects:
+      questionary = Questionary()
+      questions = []
+      for yaml_file in project['yaml_files']:
+         print(yaml_file)
+         questionary.read_yaml(yaml_file, path=multichoice_path)
+         questions = questions + questionary.questions
 
-   # Write questions
-   random.seed(project['random_seed'])
-   random.shuffle(questions)
-   if project['max_questions']:
-       questions = questions[: project['max_questions']]
-   questionary = Questionary()
-   questionary.yaml_path = ''
-   questionary.yaml_file = project['yaml_files'][0]
-   questionary.filename = project['filename_output']
-   questionary.header = {
-       'Category': project['yaml_category'],
-       'Title': 'Cuestionario global'
-       }
-   questionary.questions = questions
-   questionary.docx_generate(path=build_path)
+      # Write questions
+      if project['random_seed']:
+         random.seed(project['random_seed'])
+      else:
+         random.seed()
+      random.shuffle(questions)
+      if project['max_questions']:
+         questions = questions[: project['max_questions']]
+      questionary = Questionary()
+      questionary.yaml_path = ''
+      questionary.yaml_file = project['yaml_files'][0]
+      questionary.filename = project['filename_output']
+      questionary.header = {
+         'Category': project['yaml_category'],
+         'Title': 'Cuestionario global'
+         }
+      questionary.questions = questions
+      questionary.docx_generate(path=build_path)
+      print()
 
 
 if __name__ == "__main__":
