@@ -6,7 +6,7 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de carga eléctrica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de carga eléctrica?</p>]]></text>
@@ -28,7 +28,7 @@
     <answer fraction="0" format="html"> <text>El Joule (J)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Amperio (A)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de Voltaje (V)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de Voltaje (V)?</p>]]></text>
@@ -50,7 +50,7 @@
     <answer fraction="0" format="html"> <text>El Amperio (A)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Vatio (W)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de Intensidad de corriente (I)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de Intensidad de corriente (I)?</p>]]></text>
@@ -72,7 +72,7 @@
     <answer fraction="0" format="html"> <text>El Voltio (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Vatio (W)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de Resistencia (R)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de Resistencia (R)?</p>]]></text>
@@ -94,7 +94,7 @@
     <answer fraction="0" format="html"> <text>El Amperio (A)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Vatio (W)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de Potencia (P)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de Potencia (P)?</p>]]></text>
@@ -116,7 +116,7 @@
     <answer fraction="0" format="html"> <text>El Voltio (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Amperio (A)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es la unidad de Energía eléctrica (E)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es la unidad de Energía eléctrica (E)?</p>]]></text>
@@ -138,7 +138,7 @@
     <answer fraction="0" format="html"> <text>El Voltio (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El Amperio (A)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los Amperios (A)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los Amperios (A)?</p>]]></text>
@@ -160,7 +160,7 @@
     <answer fraction="0" format="html"> <text>Resistencia (R)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Voltaje (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los Voltios (V)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los Voltios (V)?</p>]]></text>
@@ -182,7 +182,7 @@
     <answer fraction="0" format="html"> <text>Potencia (P)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Resistencia (R)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los Ohmios (Ω)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los Ohmios (Ω)?</p>]]></text>
@@ -204,7 +204,7 @@
     <answer fraction="0" format="html"> <text>Potencia (P)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Voltaje (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los Vatios (W)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los Vatios (W)?</p>]]></text>
@@ -226,7 +226,7 @@
     <answer fraction="0" format="html"> <text>Resistencia (R)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Voltaje (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los kilovatios hora (kWh)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los kilovatios hora (kWh)?</p>]]></text>
@@ -248,7 +248,7 @@
     <answer fraction="0" format="html"> <text>Resistencia (R)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Voltaje (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué miden los Coulomb (C)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué miden los Coulomb (C)?</p>]]></text>
@@ -270,7 +270,7 @@
     <answer fraction="0" format="html"> <text>Resistencia (R)</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Voltaje (V)</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿A cuánto equivale un Coulomb (C)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿A cuánto equivale un Coulomb (C)?</p>]]></text>
@@ -292,7 +292,7 @@
     <answer fraction="0" format="html"> <text>6,2 x 10^6 electrones</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>6,2 x 10^3 electrones</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Sí por un circuito pasan 5.000.000 electrones en 1 segundo, ¿qué intensidad estará pasando?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Sí por un circuito pasan 5.000.000 electrones en 1 segundo, ¿qué intensidad estará pasando?</p>]]></text>
@@ -314,7 +314,7 @@
     <answer fraction="0" format="html"> <text>Pocos amperios</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Un amperio</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Si por un circuito pasa un amperio ¿Cuántos electrones estarán circulando por él?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Si por un circuito pasa un amperio ¿Cuántos electrones estarán circulando por él?</p>]]></text>
@@ -336,7 +336,7 @@
     <answer fraction="0" format="html"> <text>Millones cada segundo</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Billones cada segundo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué frase estaría bien expresada?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué frase estaría bien expresada?</p>]]></text>
@@ -358,7 +358,7 @@
     <answer fraction="0" format="html"> <text>Por favor, mide la resistencia que pasa por ese cable</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Por favor, mide la potencia que pasa por ese cable</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué frase estaría bien expresada?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué frase estaría bien expresada?</p>]]></text>
@@ -380,7 +380,7 @@
     <answer fraction="0" format="html"> <text>Por favor, mide la potencia que hay entre esas dos bornas</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Por favor, mide la energía que hay entre esas dos bornas</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué es la Intensidad de una corriente?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué es la Intensidad de una corriente?</p>]]></text>
@@ -402,7 +402,7 @@
     <answer fraction="0" format="html"> <text>La oposición que presenta un material a ser atravesado por los electrones</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La energía producida por los electrones al atravesar un componente determinado</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué es la Resistencia de un elemento?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué es la Resistencia de un elemento?</p>]]></text>
@@ -424,7 +424,7 @@
     <answer fraction="0" format="html"> <text>La cantidad de calor que genera al ser atravesado por la corriente eléctrica</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La energía que pierde al ser atravesado por una corriente</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué nos indica el Voltaje de un generador?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué nos indica el Voltaje de un generador?</p>]]></text>
@@ -446,7 +446,7 @@
     <answer fraction="0" format="html"> <text>La cantidad de electrones que pasan por unidad de tiempo</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La energía que proporciona por unidad de tiempo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué nos indica el Voltaje de una pila?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué nos indica el Voltaje de una pila?</p>]]></text>
@@ -468,6 +468,5 @@
     <answer fraction="0" format="html"> <text>La potencia eléctrica que desarrolla esa pila</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La cantidad de electrones que hay almacenados en esa pila</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-
 
 </quiz>

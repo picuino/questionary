@@ -6,7 +6,7 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -32,7 +32,7 @@
     <answer fraction="0" format="html"> <text>Puerta XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -58,7 +58,7 @@
     <answer fraction="0" format="html"> <text>Puerta XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -84,7 +84,7 @@
     <answer fraction="0" format="html"> <text>Puerta XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -110,7 +110,7 @@
     <answer fraction="0" format="html"> <text>Puerta XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -136,7 +136,7 @@
     <answer fraction="0" format="html"> <text>Puerta OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar puerta NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica tiene este símbolo?</p> 
@@ -162,7 +162,7 @@
     <answer fraction="0" format="html"> <text>Puerta NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Puerta XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es el componente fundamental de la electrónica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es el componente fundamental de la electrónica digital?</p>]]></text>
@@ -184,7 +184,7 @@
     <answer fraction="0" format="html"> <text>El condensador</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El transmisor</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál no es una puerta lógica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál no es una puerta lógica?</p>]]></text>
@@ -206,7 +206,7 @@
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -232,7 +232,7 @@
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -258,7 +258,7 @@
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar Tabla de verdad AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -284,7 +284,7 @@
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -310,7 +310,7 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -336,7 +336,7 @@
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -362,7 +362,7 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad XNOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -388,7 +388,7 @@
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar tabla de verdad Ninguna función</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se corresponde con esta tabla de verdad?</p> 
@@ -414,7 +414,7 @@
     <answer fraction="0" format="html"> <text>NOT</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Quién publicó en 1854 "Las leyes del pensamiento", el libro con las bases de la lógica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Quién publicó en 1854 "Las leyes del pensamiento", el libro con las bases de la lógica digital?</p>]]></text>
@@ -436,7 +436,7 @@
     <answer fraction="0" format="html"> <text>William Shockley</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Bill Gates</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿En qué año publicó George Boole el libro "Las leyes del pensamiento", que consideramos el comienzo de la lógica digital?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿En qué año publicó George Boole el libro "Las leyes del pensamiento", que consideramos el comienzo de la lógica digital?</p>]]></text>
@@ -458,7 +458,7 @@
     <answer fraction="0" format="html"> <text>1934</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>1954</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar transistores puerta AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica se construye con este circuito?</p> 
@@ -484,7 +484,7 @@
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar transistores puerta OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica se construye con este circuito?</p> 
@@ -510,7 +510,7 @@
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar transistores puerta NAND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica se construye con este circuito?</p> 
@@ -536,7 +536,7 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar transistores puerta NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica se construye con este circuito?</p> 
@@ -562,7 +562,7 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar transistores puerta NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué puerta lógica se construye con este circuito?</p> 
@@ -588,7 +588,7 @@
     <answer fraction="0" format="html"> <text>NAND</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>TOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: AND</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -614,7 +614,7 @@
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: NOT</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -640,7 +640,7 @@
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: OR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -666,7 +666,7 @@
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>XOR</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: XOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -692,7 +692,7 @@
     <answer fraction="0" format="html"> <text>XNOR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: XNOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -718,7 +718,7 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Identificar circuito equivalente con NAND: NOR</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué función lógica se construye con este circuito de puertas NAND?</p> 
@@ -744,6 +744,5 @@
     <answer fraction="0" format="html"> <text>OR</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>AND</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-
 
 </quiz>

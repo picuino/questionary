@@ -6,7 +6,7 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Pincha en el uno</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Pincha en el uno</p>]]></text>
@@ -30,7 +30,7 @@
     <answer fraction="0" format="html"> <text>Cinco</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Seis</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Arriba es la correcta</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Arriba es la correcta</p>]]></text>
@@ -50,6 +50,5 @@
     <answer fraction="100" format="html"> <text>Arriba</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Abajo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-
 
 </quiz>

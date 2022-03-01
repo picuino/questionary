@@ -116,7 +116,7 @@ que las preguntas estén demasiado divididas en muchos subtemas o
 que haya pocas preguntas para evaluar cada tema.
 
 Los alumnos tardan de 15 a 25 minutos en terminar un test de
-30 preguntas, repitiendolas si es necesario para obtener buena nota.
+30 preguntas, repitiéndolas si es necesario para obtener buena nota.
 
 
 ## Directorio multichoice/build

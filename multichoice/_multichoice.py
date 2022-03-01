@@ -40,14 +40,13 @@ def main():
    moodle_template = 'moodle-multichoice-template.xml'
    json_template = 'json-template.json'
    html_template = 'game-template.html'
-   js_template = 'game-template.js'
 
    multichoice_path = '.'
    build_path = 'build'
    html_path = '../docs'
-   images_path= '../images'
+   images_path = '../images'
    
-   questionary = Questionary()
+   questionary = Questionary(overwrite=False)
    
    # Process all yaml files of this directory
    questions_counter = DictCounter()
@@ -83,12 +82,13 @@ class DictCounter():
 
 class Questionary():
 
-   def __init__(self):
+   def __init__(self, overwrite=False):
       self.templates_path = 'templates'
       self.px_cm = 59    # Pixel per centimeter. Used in docx images. 59 px_cm = 150dpi
       self.hash_len = 20
       self.csv_delimiter = ','
       self.questions = []
+      self.overwrite = overwrite
       random.seed(1000)
       
       
@@ -162,7 +162,7 @@ class Questionary():
    
    def write_csv(self, path='./'):
       csv_filename = os.path.join(path, self.filename + '.csv')
-      if self.file_newer(csv_filename):
+      if not self.overwrite and not self.file_newer(csv_filename):
          return
       print('   Writing: ' + csv_filename)
 
@@ -236,7 +236,7 @@ class Questionary():
       """Genera los cuestionarios en formato Moodle xml a partir de las
          cuestiones. Se genera un archivo por cada bloque de cuestiones"""
       xml_filename = os.path.join(path, self.filename + '.xml')
-      if self.file_newer(xml_filename):
+      if not self.overwrite and not self.file_newer(xml_filename):
          return
       print('   Writing: ' + xml_filename)
       self.jinja_template(template_file)
@@ -319,7 +319,7 @@ class Questionary():
       """Genera un archivo docx con las preguntas y opciones de todas
          las cuestiones."""
       docx_filename = os.path.join(path, self.filename + '.docx')
-      if self.file_newer(docx_filename):
+      if not self.overwrite and not self.file_newer(docx_filename):
          return
       print('   Writing: ' + docx_filename)
       self.docx_make_head()
@@ -345,7 +345,7 @@ class Questionary():
 
       # Generate json
       json_filename = os.path.join(path, self.filename + '.json')
-      if self.file_newer(json_filename):
+      if not self.overwrite and not self.file_newer(json_filename):
          return
       print('   Writing: ' + json_filename)
       self.jinja_template(template_file)
@@ -357,7 +357,7 @@ class Questionary():
    def html_generate(self, template_file, path='./'):
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
-      if self.file_newer(html_filename):
+      if not self.overwrite and not self.file_newer(html_filename):
          return
       print('   Writing: ' + html_filename)
       self.jinja_template(template_file)

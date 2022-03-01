@@ -21,7 +21,18 @@
 from _multichoice import Questionary
 import random
 
-project_material = {
+multichoice_path = ''
+build_path = 'build'
+html_path = '../docs'
+images_path= '../images'
+
+moodle_template = 'moodle-multichoice-template.xml'
+json_template = 'json-template.json'
+html_template = 'game-template.html'
+
+
+projects = [
+{
    'yaml_files': [
       'es-material-properties.yaml',
       'es-material-wood.yaml',
@@ -31,11 +42,12 @@ project_material = {
       ],
    'filename_output': 'es-material',
    'yaml_category': 'Materiales',
-   'max_questions': 32,
-   'random_seed': 1000,
-}
+   'yaml_title': 'Cuestionario global de materiales',   
+   'max_questions': 35,
+   'random_seed': 2022,
+},
 
-project_machines = {
+{
    'yaml_files': [
       'es-machines-simple.yaml',
       'es-machines-transmission1.yaml',
@@ -46,45 +58,57 @@ project_machines = {
       ],
    'filename_output': 'es-machines',
    'yaml_category': 'Mecanismos',
-   'max_questions': 32,
-   'random_seed': 1000,
+   'yaml_title': 'Cuestionario global de mecanismos',   
+   'max_questions': 40,
+   'random_seed': 2022,
 }
-
-projects = [project_material, project_machines]
+]
    
-multichoice_path = ''
-build_path = 'build'
-
 
 def main():
    """Main program"""
-   # Read yaml files
    for project in projects:
+
+      # Read yaml files
       questionary = Questionary()
-      questions = []
+      all_questions = []
+      Copyrights = []
+      Licenses = []
+      License_links = []
       for yaml_file in project['yaml_files']:
          print(yaml_file)
          questionary.read_yaml(yaml_file, path=multichoice_path)
-         questions = questions + questionary.questions
-
-      # Write questions
+         all_questions += questionary.questions
+         Copyrights.append(questionary.header['Copyright'])
+         Licenses.append(questionary.header['License'])
+         License_links.append(questionary.header['License_link'])
+      
+      # Shuffle and select questions
       if project['random_seed']:
          random.seed(project['random_seed'])
       else:
          random.seed()
-      random.shuffle(questions)
-      if project['max_questions']:
-         questions = questions[: project['max_questions']]
-      questionary = Questionary()
+      random.shuffle(all_questions)
+
+      # Write questions
+      questionary = Questionary(overwrite=False)
       questionary.yaml_path = ''
       questionary.yaml_file = project['yaml_files'][0]
       questionary.filename = project['filename_output']
       questionary.header = {
          'Category': project['yaml_category'],
-         'Title': 'Cuestionario global'
+         'Title': project['yaml_title'],
+         'Copyright': Copyrights[0],
+         'License': Licenses[0],
+         'License_link': License_links[0],
+         'Show_max': project['max_questions'],
          }
-      questionary.questions = questions
+      questionary.questions = all_questions
       questionary.docx_generate(path=build_path)
+      questionary.moodle_generate(moodle_template, path=build_path)
+      questionary.json_generate(json_template, path=html_path)
+      questionary.html_generate(html_template, path=html_path)
+
       print()
 
 

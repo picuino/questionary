@@ -6,7 +6,7 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cómo están conectadas las resistencias en la breadboard?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cómo están conectadas las resistencias en la breadboard?</p> 
@@ -32,7 +32,7 @@
     <answer fraction="0" format="html"> <text>Las dos en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>1 en serie, 2 en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cómo están conectadas las resistencias en la breadboard?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cómo están conectadas las resistencias en la breadboard?</p> 
@@ -58,7 +58,7 @@
     <answer fraction="0" format="html"> <text>1 en paralelo, 2 en serie</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Las dos en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Por qué resistencias pasará corriente?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Por qué resistencias pasará corriente?</p> 
@@ -84,7 +84,7 @@
     <answer fraction="0" format="html"> <text>Por 2 y 3</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Por ninguna</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué montajes se corresponden con el esquema?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué montajes se corresponden con el esquema?</p> 
@@ -110,7 +110,7 @@
     <answer fraction="0" format="html"> <text>3</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Ninguno</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuándo encenderá el led verde?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuándo encenderá el led verde?</p> 
@@ -136,7 +136,7 @@
     <answer fraction="0" format="html"> <text>Si presiono el pulsador de la izquierda</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>En ningún caso</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es falsa para el circuito de la figura?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es falsa para el circuito de la figura?</p> 
@@ -162,7 +162,7 @@
     <answer fraction="0" format="html"> <text>Para encender el led verde tengo que haber presionado el pulsador de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El led rojo enciende cuando presiono el pulsador de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿A qué esquema se corresponde el circuito de la breadboard?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿A qué esquema se corresponde el circuito de la breadboard?</p> 
@@ -188,7 +188,7 @@
     <answer fraction="0" format="html"> <text>Al verde</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Al naranja</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Quiero que el led encienda cuando presiono el pulsador. ¿Hay algún fallo?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Quiero que el led encienda cuando presiono el pulsador. ¿Hay algún fallo?</p> 
@@ -214,7 +214,7 @@
     <answer fraction="0" format="html"> <text>La resistencia no está conectada al led</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>No hay fallos, va a encender</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>Quiero que el led encienda solo cuando presiono los dos pulsadores. ¿Hay algún fallo?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Quiero que el led encienda solo cuando presiono los dos pulsadores. ¿Hay algún fallo?</p> 
@@ -240,7 +240,7 @@
     <answer fraction="0" format="html"> <text>El cable verde no conecta los terminales correctos de los interruptores</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La resistencia no está conectada en el terminal correcto del pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es falsa para el circuito de la figura?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es falsa para el circuito de la figura?</p> 
@@ -266,7 +266,7 @@
     <answer fraction="0" format="html"> <text>El led encenderá si presiono el pulsador derecho</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si tengo presionados los dos interruptores, el led encenderá</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué ledes se encenderán cuando presione el pulsador?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué ledes se encenderán cuando presione el pulsador?</p> 
@@ -292,7 +292,7 @@
     <answer fraction="0" format="html"> <text>El rojo</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El azul y el verde</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Cuál es cierta para el circuito de la figura?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cuál es cierta para el circuito de la figura?</p> 
@@ -318,7 +318,7 @@
     <answer fraction="0" format="html"> <text>Si presiono el pulsador de la derecha, encienden los dos leds</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El verde está siempre encendido, aunque no presione ningún pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-    <question type="multichoice">
+  <question type="multichoice">
     <name> <text>¿Qué cable tengo que quitar para que el led encienda desde cualquiera de los dos pulsadores?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué cable tengo que quitar para que el led encienda desde cualquiera de los dos pulsadores?</p> 
@@ -344,6 +344,5 @@
     <answer fraction="0" format="html"> <text>El azul</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>El amarillo</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
-
 
 </quiz>
