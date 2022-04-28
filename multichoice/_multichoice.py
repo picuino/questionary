@@ -110,16 +110,28 @@ class Questionary():
       return len(self.questions)
 
 
+   def write_file(self, filename, data):
+      if self.overwrite or self.file_newer(filename):
+         print('   Writing: ' + filename)
+         if isinstance(data, docx.document.Document):
+            data.save(filename)
+         else:
+            with codecs.open(filename, 'w', encoding='utf-8') as outfile:
+               outfile.write(data)
+
+
    def not_key(self, dictionary, key):
       if key in dictionary and dictionary[key]:
          return False
       return True
+
 
    def clean_questions(self):
       for question in self.questions:
          new_text = question['Question'].strip('\n')
          if new_text != question['Question']:
             question['Question'] = new_text
+
 
    def test_errors(self):
       # Test errors in header
@@ -162,10 +174,6 @@ class Questionary():
    
    def write_csv(self, path='./'):
       csv_filename = os.path.join(path, self.filename + '.csv')
-      if not self.overwrite and not self.file_newer(csv_filename):
-         return
-      print('   Writing: ' + csv_filename)
-
       csv_data = ['Question;Image;Image_width;Choice_1;Choice_2;Choice_3;Choice_4;Choice_5;Choice_6;Block']
       for row in self.questions:
          line = '"' + row['Question'] + '";"'
@@ -181,8 +189,8 @@ class Questionary():
                line = line + '";"'
          line = line + self.filename + '"'
          csv_data.append(line)
-      with codecs.open(csv_filename, 'w', encoding='utf-8') as csv_file:
-         csv_file.write('\n'.join(csv_data))
+      csv_data = '\n'.join(csv_data)
+      self.write_file(csv_filename, csv_data)
    
    
    def read_b64(self, filename):
@@ -236,13 +244,9 @@ class Questionary():
       """Genera los cuestionarios en formato Moodle xml a partir de las
          cuestiones. Se genera un archivo por cada bloque de cuestiones"""
       xml_filename = os.path.join(path, self.filename + '.xml')
-      if not self.overwrite and not self.file_newer(xml_filename):
-         return
-      print('   Writing: ' + xml_filename)
       self.jinja_template(template_file)
       xml_data = self.template.render(questions = self.questions, header = self.header, filename = self.filename)
-      with codecs.open(xml_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(xml_data)
+      self.write_file(xml_filename, xml_data)
    
    
    def docx_make_head(self):
@@ -319,17 +323,15 @@ class Questionary():
       """Genera un archivo docx con las preguntas y opciones de todas
          las cuestiones."""
       docx_filename = os.path.join(path, self.filename + '.docx')
-      if not self.overwrite and not self.file_newer(docx_filename):
-         return
-      print('   Writing: ' + docx_filename)
       self.docx_make_head()
       self.docx_add_questions()
-      self.docx.save(docx_filename)
+      self.write_file(docx_filename, self.docx)
 
 
    def file_newer(self, filename):
       if os.path.exists(filename):
-         if os.path.getmtime(filename) > os.path.getmtime(os.path.join(self.yaml_path, self.yaml_file)):
+         yaml_file = os.path.join(self.yaml_path, self.yaml_file)
+         if os.path.getmtime(yaml_file) > os.path.getmtime(filename):
             return True
       return False
 
@@ -343,27 +345,19 @@ class Questionary():
             if not os.path.exists(dest):
                shutil.copy2(question['Image']['filename'], dest)
 
-      # Generate json
+      # Generate and save json
       json_filename = os.path.join(path, self.filename + '.json')
-      if not self.overwrite and not self.file_newer(json_filename):
-         return
-      print('   Writing: ' + json_filename)
       self.jinja_template(template_file)
       json_data = self.template.render(questions = self.questions)
-      with codecs.open(json_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(json_data)
+      self.write_file(json_filename, json_data)
 
 
    def html_generate(self, template_file, path='./'):
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
-      if not self.overwrite and not self.file_newer(html_filename):
-         return
-      print('   Writing: ' + html_filename)
       self.jinja_template(template_file)
       html_data = self.template.render(filename=self.filename, header=self.header)
-      with codecs.open(html_filename, 'w', encoding='utf-8') as outfile:
-         outfile.write(html_data)
+      self.write_file(html_filename, html_data)
 
 
 if __name__ == "__main__":

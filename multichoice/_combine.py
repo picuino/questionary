@@ -59,7 +59,7 @@ projects = [
    'filename_output': 'es-machines',
    'yaml_category': 'Mecanismos',
    'yaml_title': 'Cuestionario global de mecanismos',   
-   'max_questions': 40,
+   'max_questions': 35,
    'random_seed': 2022,
 }
 ]
