@@ -44,10 +44,9 @@ def main():
    multichoice_path = '.'
    build_path = 'build'
    html_path = '../docs'
-   images_path = '../images'
    
    questionary = Questionary(overwrite=False)
-   
+
    # Process all yaml files of this directory
    questions_counter = DictCounter()
    yaml_files = [yaml for yaml in os.listdir(multichoice_path) if yaml[-5:].lower() == '.yaml']
@@ -111,13 +110,25 @@ class Questionary():
 
 
    def write_file(self, filename, data):
-      if self.overwrite or self.file_newer(filename):
+      if self.overwrite or self.file_older(filename):
          print('   Writing: ' + filename)
          if isinstance(data, docx.document.Document):
             data.save(filename)
          else:
             with codecs.open(filename, 'w', encoding='utf-8') as outfile:
                outfile.write(data)
+
+
+   def file_older(self, filename1, filename2=False):
+      if not filename2:
+         filename2 = os.path.join(self.yaml_path, self.yaml_file)
+      if os.path.exists(filename1):
+         if os.path.getmtime(filename1) < os.path.getmtime(filename2):
+            return True
+         else:
+            return False
+      else:
+         return True
 
 
    def not_key(self, dictionary, key):
@@ -213,6 +224,7 @@ class Questionary():
             if os.path.exists(imagedict['filename']):
                imagedict['hashname'] = self.hashname(imagedict['filename'])
                imagedict['path'] = os.path.dirname(imagedict['filename'])
+               imagedict['mtime'] = os.path.getmtime(imagedict['filename'])
                imagedict['base64'] = self.read_b64(imagedict['filename'])
                width, height = Image.open(imagedict['filename']).size
                imagedict['width'] = width
@@ -328,22 +340,16 @@ class Questionary():
       self.write_file(docx_filename, self.docx)
 
 
-   def file_newer(self, filename):
-      if os.path.exists(filename):
-         yaml_file = os.path.join(self.yaml_path, self.yaml_file)
-         if os.path.getmtime(yaml_file) > os.path.getmtime(filename):
-            return True
-      return False
-
-
    def json_generate(self, template_file, path='docs'):
       """Genera los archivos json a partir de las cuestiones."""
       # Copy json images
       for question in self.questions:
          if question['Image']:
+            origin = question['Image']['filename']
             dest = os.path.join(path, 'images', question['Image']['hashname'])
-            if not os.path.exists(dest):
-               shutil.copy2(question['Image']['filename'], dest)
+            if self.file_older(dest, origin):
+               print('   Writing: ' + origin)
+               shutil.copy2(origin, dest)
 
       # Generate and save json
       json_filename = os.path.join(path, self.filename + '.json')
