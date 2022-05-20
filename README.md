@@ -9,9 +9,16 @@ o formato de página WEB.
 
 Página web de questionary
 =========================
-Creada automáticamente a partir de los cuestionarios:
+Creada automáticamente a partir de los cuestionarios.
 
-https://www.picuino.com/questionary
+Test alojados en picuino.com:
+
+   https://www.picuino.com/test
+
+
+Test alojados en GitHub:
+   
+   https://picuino.github.io/questionary/index.html
 
 
 Créditos y licencias

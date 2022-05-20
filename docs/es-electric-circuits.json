@@ -84,12 +84,12 @@
        "Cable",
        "Interruptor",
        "Pulsador",
-       "Aluminio"
+       "Pila"
     ]
   },
   {
-    "title": "\u00bfCu\u00e1l no ser\u00eda un receptor?",
-    "question": "\u00bfCu\u00e1l no ser\u00eda un receptor?",
+    "title": "\u00bfCu\u00e1l no es un receptor?",
+    "question": "\u00bfCu\u00e1l no es un receptor?",
     "image": "",
     "choices": [
        "Pila",
@@ -163,7 +163,7 @@
     "image": "images/0cb7ef8c4ba2792c65da.png",
     "image_width": 550,
     "choices": [
-       "La bombilla L1 encender\u00e1 un instante antes que la L2",
+       "La bombilla L1 se encender\u00e1 un instante antes que la L2",
        "La intensidad que circula por las dos bombillas es la misma",
        "Las dos bombillas se encender\u00e1n al presionar el interruptor",
        "Si la bombilla L1 se quema, la bombilla L2 no podr\u00e1 encender"
@@ -223,9 +223,9 @@
     "image": "images/d20f0462db07dea10520.png",
     "image_width": 550,
     "choices": [
-       "Solo pasar\u00e1 corriente por la resistencia con 1 y 2 cerrados",
-       "Si cierro el interruptor 1 pasar\u00e1 corriente por la resistencia",
-       "Se cierro el interruptor 2 pasar\u00e1 corriente por la resistencia",
+       "Solo pasar\u00e1 corriente por la resistencia con S1 y S2 cerrados",
+       "Si cierro el interruptor S1 pasar\u00e1 corriente por la resistencia",
+       "Se cierro el interruptor S2 pasar\u00e1 corriente por la resistencia",
        "Si cierro cualquiera de los dos interruptores, pasar\u00e1 corriente"
     ]
   },
@@ -235,10 +235,10 @@
     "image": "images/c1900224383c8240fb09.png",
     "image_width": 550,
     "choices": [
-       "Solo si 2 est\u00e1 cerrado y 1 abierto",
-       "Si cerramos 1 y 2",
-       "Cerrando el 2, independientemente de c\u00f3mo est\u00e9 1",
-       "Cerrando el 2 o el 1"
+       "Solo si el interruptor S2 est\u00e1 cerrado y S1 abierto",
+       "Si cerramos los interruptores S1 y S2",
+       "Cerrando el interruptor S2, independientemente de c\u00f3mo est\u00e9 S1",
+       "Cerrando el interruptor S2 o el S1"
     ]
   },
   {
@@ -248,8 +248,8 @@
     "image_width": 550,
     "choices": [
        "Puedo encender L1 sin encender L2 y L3",
-       "Con el interruptor 1 abierto, no encender\u00e1 nada",
-       "El interruptor 1 enciende L2 y L3",
+       "Con el interruptor S1 abierto, no se encender\u00e1 nada",
+       "El interruptor S1 enciende L2 y L3",
        "Con los dos interruptores presionados, encienden todas las bombillas"
     ]
   },
@@ -259,10 +259,10 @@
     "image": "images/3b4696a993229b1b75c4.png",
     "image_width": 550,
     "choices": [
-       "El led encender\u00e1 si \u00fanicamente est\u00e1 cerrado S1",
-       "El led no encender\u00e1 cuando S2 est\u00e9 abierto",
-       "El led encender\u00e1 cuando presione los dos interruptores",
-       "El led encender\u00e1 al presionar S1, est\u00e9 como est\u00e9 S2"
+       "El led se encender\u00e1 si \u00fanicamente est\u00e1 cerrado S1",
+       "El led no se encender\u00e1 cuando S2 est\u00e9 abierto",
+       "El led se encender\u00e1 cuando presione los dos interruptores",
+       "El led se encender\u00e1 al presionar S1, est\u00e9 como est\u00e9 S2"
     ]
   },
   {
@@ -314,8 +314,8 @@
     ]
   },
   {
-    "title": "\u00bfCu\u00e1ndo encender\u00e1 la bombilla L2?",
-    "question": "\u00bfCu\u00e1ndo encender\u00e1 la bombilla L2?",
+    "title": "\u00bfCu\u00e1ndo se encender\u00e1 la bombilla L2?",
+    "question": "\u00bfCu\u00e1ndo se encender\u00e1 la bombilla L2?",
     "image": "images/7b40e5e2b23f31ed6bc6.png",
     "image_width": 550,
     "choices": [

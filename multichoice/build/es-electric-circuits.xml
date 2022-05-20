@@ -180,12 +180,12 @@
     <answer fraction="100" format="html"> <text>Cable</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Interruptor</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Aluminio</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Pila</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál no sería un receptor?</text> </name>
+    <name> <text>¿Cuál no es un receptor?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál no sería un receptor?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál no es un receptor?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -351,7 +351,7 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>La bombilla L1 encenderá un instante antes que la L2</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>La bombilla L1 se encenderá un instante antes que la L2</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>La intensidad que circula por las dos bombillas es la misma</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Las dos bombillas se encenderán al presionar el interruptor</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si la bombilla L1 se quema, la bombilla L2 no podrá encender</text> <feedback format="html"> <text></text> </feedback> </answer>
@@ -481,9 +481,9 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Solo pasará corriente por la resistencia con 1 y 2 cerrados</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si cierro el interruptor 1 pasará corriente por la resistencia</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Se cierro el interruptor 2 pasará corriente por la resistencia</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>Solo pasará corriente por la resistencia con S1 y S2 cerrados</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Si cierro el interruptor S1 pasará corriente por la resistencia</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Se cierro el interruptor S2 pasará corriente por la resistencia</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Si cierro cualquiera de los dos interruptores, pasará corriente</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
@@ -507,10 +507,10 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Solo si 2 está cerrado y 1 abierto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si cerramos 1 y 2</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cerrando el 2, independientemente de cómo esté 1</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cerrando el 2 o el 1</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>Solo si el interruptor S2 está cerrado y S1 abierto</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Si cerramos los interruptores S1 y S2</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Cerrando el interruptor S2, independientemente de cómo esté S1</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Cerrando el interruptor S2 o el S1</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
     <name> <text>¿Cuál es falsa para el circuito de la figura?</text> </name>
@@ -534,8 +534,8 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
     <answer fraction="100" format="html"> <text>Puedo encender L1 sin encender L2 y L3</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Con el interruptor 1 abierto, no encenderá nada</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El interruptor 1 enciende L2 y L3</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>Con el interruptor S1 abierto, no se encenderá nada</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El interruptor S1 enciende L2 y L3</text> <feedback format="html"> <text></text> </feedback> </answer>
     <answer fraction="0" format="html"> <text>Con los dos interruptores presionados, encienden todas las bombillas</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
@@ -559,10 +559,10 @@
     <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El led encenderá si únicamente está cerrado S1</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led no encenderá cuando S2 esté abierto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led encenderá cuando presione los dos interruptores</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led encenderá al presionar S1, esté como esté S2</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="100" format="html"> <text>El led se encenderá si únicamente está cerrado S1</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El led no se encenderá cuando S2 esté abierto</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El led se encenderá cuando presione los dos interruptores</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <answer fraction="0" format="html"> <text>El led se encenderá al presionar S1, esté como esté S2</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
     <name> <text>¿Qué ledes se encenderán?</text> </name>
@@ -669,9 +669,9 @@
     <answer fraction="0" format="html"> <text>Ninguno</text> <feedback format="html"> <text></text> </feedback> </answer>
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuándo encenderá la bombilla L2?</text> </name>
+    <name> <text>¿Cuándo se encenderá la bombilla L2?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuándo encenderá la bombilla L2?</p> 
+      <text><![CDATA[<p>¿Cuándo se encenderá la bombilla L2?</p> 
          <p><img src="@@PLUGINFILE@@/7b40e5e2b23f31ed6bc6.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="550"></p>]]>
       </text>

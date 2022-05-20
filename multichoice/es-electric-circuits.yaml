@@ -71,10 +71,10 @@ Show_max: 0
     - Cable
     - Interruptor
     - Pulsador
-    - Aluminio
+    - Pila
 
 - Title: 
-  Question: ¿Cuál no sería un receptor?
+  Question: ¿Cuál no es un receptor?
   Choices:
     - Pila
     - Motor
@@ -134,7 +134,7 @@ Show_max: 0
   Image: ../images/electric-circuit-09.png
   Image_width: 550
   Choices:
-    - La bombilla L1 encenderá un instante antes que la L2
+    - La bombilla L1 se encenderá un instante antes que la L2
     - La intensidad que circula por las dos bombillas es la misma
     - Las dos bombillas se encenderán al presionar el interruptor
     - Si la bombilla L1 se quema, la bombilla L2 no podrá encender
@@ -184,9 +184,9 @@ Show_max: 0
   Image: ../images/electric-circuit-08.png
   Image_width: 550
   Choices:
-    - Solo pasará corriente por la resistencia con 1 y 2 cerrados
-    - Si cierro el interruptor 1 pasará corriente por la resistencia
-    - Se cierro el interruptor 2 pasará corriente por la resistencia
+    - Solo pasará corriente por la resistencia con S1 y S2 cerrados
+    - Si cierro el interruptor S1 pasará corriente por la resistencia
+    - Se cierro el interruptor S2 pasará corriente por la resistencia
     - Si cierro cualquiera de los dos interruptores, pasará corriente
 
 - Title: 
@@ -194,10 +194,10 @@ Show_max: 0
   Image: ../images/electric-circuit-05.png
   Image_width: 550
   Choices:
-    - Solo si 2 está cerrado y 1 abierto
-    - Si cerramos 1 y 2
-    - Cerrando el 2, independientemente de cómo esté 1
-    - Cerrando el 2 o el 1
+    - Solo si el interruptor S2 está cerrado y S1 abierto
+    - Si cerramos los interruptores S1 y S2
+    - Cerrando el interruptor S2, independientemente de cómo esté S1
+    - Cerrando el interruptor S2 o el S1
 
 - Title: 
   Question: ¿Cuál es falsa para el circuito de la figura?
@@ -205,8 +205,8 @@ Show_max: 0
   Image_width: 550
   Choices:
     - Puedo encender L1 sin encender L2 y L3
-    - Con el interruptor 1 abierto, no encenderá nada
-    - El interruptor 1 enciende L2 y L3
+    - Con el interruptor S1 abierto, no se encenderá nada
+    - El interruptor S1 enciende L2 y L3
     - Con los dos interruptores presionados, encienden todas las bombillas
 
 - Title: 
@@ -214,10 +214,10 @@ Show_max: 0
   Image: ../images/electric-circuit-21.png
   Image_width: 550
   Choices:
-    - El led encenderá si únicamente está cerrado S1
-    - El led no encenderá cuando S2 esté abierto
-    - El led encenderá cuando presione los dos interruptores
-    - El led encenderá al presionar S1, esté como esté S2
+    - El led se encenderá si únicamente está cerrado S1
+    - El led no se encenderá cuando S2 esté abierto
+    - El led se encenderá cuando presione los dos interruptores
+    - El led se encenderá al presionar S1, esté como esté S2
 
 - Title: 
   Question: ¿Qué ledes se encenderán?
@@ -260,7 +260,7 @@ Show_max: 0
     - Ninguno
 
 - Title: 
-  Question: ¿Cuándo encenderá la bombilla L2?
+  Question: ¿Cuándo se encenderá la bombilla L2?
   Image: ../images/electric-circuit-11.png
   Image_width: 550
   Choices:
