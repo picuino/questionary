@@ -32,46 +32,6 @@ Show_max: 0
     - 270A
     - 9V
 
-- Title: Ley de Ohm 07
-  Question: ¿Qué valor tiene la intensidad de corriente?
-  Image: ../images/electric-ley-ohm-07.png
-  Image_width: 302
-  Choices:
-    - 0.1A
-    - 10A
-    - 1440A
-    - 120Ω
-
-- Title: Ley de Ohm 08
-  Question: ¿Qué valor tiene la intensidad de corriente?
-  Image: ../images/electric-ley-ohm-08.png
-  Image_width: 302
-  Choices:
-    - 1.5A
-    - 0.66A
-    - 150A
-    - 15V
-
-- Title: Ley de Ohm 13
-  Question: ¿Qué valor tiene la intensidad de corriente?
-  Image: ../images/electric-ley-ohm-13.png
-  Image_width: 302
-  Choices:
-    - 2A
-    - 0.5A
-    - 162A
-    - 9Ω
-
-- Title: Ley de Ohm 14
-  Question: ¿Qué valor tiene la intensidad de corriente?
-  Image: ../images/electric-ley-ohm-14.png
-  Image_width: 302
-  Choices:
-    - 0.24A
-    - 4.16A
-    - 2400A
-    - 24V
-
 - Title: Ley de Ohm 03
   Question: ¿Qué valor tiene la tensión de la pila?
   Image: ../images/electric-ley-ohm-03.png
@@ -81,56 +41,6 @@ Show_max: 0
     - 15V
     - 0.06V
     - 2A
-
-- Title: Ley de Ohm 06
-  Question: ¿Qué valor tiene la tensión de la pila?
-  Image: ../images/electric-ley-ohm-06.png
-  Image_width: 302
-  Choices:
-    - 24V
-    - 2.6V
-    - 0.38V
-    - 8Ω
-
-- Title: Ley de Ohm 09
-  Question: ¿Qué valor tiene la tensión de la pila?
-  Image: ../images/electric-ley-ohm-09.png
-  Image_width: 302
-  Choices:
-    - 1.5V
-    - 0.006V
-    - 150V
-    - 0.1A
-
-- Title: Ley de Ohm 12
-  Question: ¿Qué valor tiene la tensión de la pila?
-  Image: ../images/electric-ley-ohm-12.png
-  Image_width: 302
-  Choices:
-    - 20V
-    - 500V
-    - 0.002V
-    - 100Ω
-
-- Title: Ley de Ohm 15
-  Question: ¿Qué valor tiene la tensión de la pila?
-  Image: ../images/electric-ley-ohm-15.png
-  Image_width: 302
-  Choices:
-    - 3V
-    - 1200V
-    - 8V
-    - 0.05A
-
-- Title: Ley de Ohm 18
-  Question: ¿Qué valor tiene la tensión de la pila?
-  Image: ../images/electric-ley-ohm-18.png
-  Image_width: 302
-  Choices:
-    - 5V
-    - 20V
-    - 0.05V
-    - 10Ω
 
 - Title: Ley de Ohm 04
   Question: ¿Qué valor tiene la resistencia?
@@ -152,6 +62,46 @@ Show_max: 0
     - 0.33Ω
     - 3A
 
+- Title: Ley de Ohm 06
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-06.png
+  Image_width: 302
+  Choices:
+    - 24V
+    - 2.6V
+    - 0.38V
+    - 8Ω
+
+- Title: Ley de Ohm 07
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-07.png
+  Image_width: 302
+  Choices:
+    - 0.1A
+    - 10A
+    - 1440A
+    - 120Ω
+
+- Title: Ley de Ohm 08
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-08.png
+  Image_width: 302
+  Choices:
+    - 1.5A
+    - 0.66A
+    - 150A
+    - 15V
+
+- Title: Ley de Ohm 09
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-09.png
+  Image_width: 302
+  Choices:
+    - 1.5V
+    - 0.006V
+    - 150V
+    - 0.1A
+
 - Title: Ley de Ohm 10
   Question: ¿Qué valor tiene la resistencia?
   Image: ../images/electric-ley-ohm-10.png
@@ -172,6 +122,46 @@ Show_max: 0
     - 15Ω
     - 0.03A
 
+- Title: Ley de Ohm 12
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-12.png
+  Image_width: 302
+  Choices:
+    - 20V
+    - 500V
+    - 0.002V
+    - 100Ω
+
+- Title: Ley de Ohm 13
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-13.png
+  Image_width: 302
+  Choices:
+    - 2A
+    - 0.5A
+    - 162A
+    - 9Ω
+
+- Title: Ley de Ohm 14
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-14.png
+  Image_width: 302
+  Choices:
+    - 0.24A
+    - 4.16A
+    - 2400A
+    - 24V
+
+- Title: Ley de Ohm 15
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-15.png
+  Image_width: 302
+  Choices:
+    - 3V
+    - 1200V
+    - 8V
+    - 0.05A
+
 - Title: Ley de Ohm 16
   Question: ¿Qué valor tiene la resistencia?
   Image: ../images/electric-ley-ohm-16.png
@@ -191,3 +181,197 @@ Show_max: 0
     - 0.16Ω
     - 96Ω
     - 4A
+
+- Title: Ley de Ohm 18
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-18.png
+  Image_width: 302
+  Choices:
+    - 5V
+    - 20V
+    - 0.05V
+    - 10Ω
+
+# 
+# Lámina 2
+#
+
+- Title: Ley de Ohm 21
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-21.png
+  Image_width: 302
+  Choices:
+    - 1.5mA
+    - 15mA
+    - 24mA
+    - 666mA
+
+- Title: Ley de Ohm 22
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-22.png
+  Image_width: 302
+  Choices:
+    - 0.6mA
+    - 0.06mA
+    - 135mA
+    - 1666mA
+
+- Title: Ley de Ohm 23
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-23.png
+  Image_width: 302
+  Choices:
+    - 100V
+    - 25V
+    - 0.04V
+    - 100000V
+
+- Title: Ley de Ohm 24
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-24.png
+  Image_width: 302
+  Choices:
+    - 30kΩ
+    - 3kΩ
+    - 1.2kΩ
+    - 33Ω
+
+- Title: Ley de Ohm 25
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-25.png
+  Image_width: 302
+  Choices:
+    - 1.5kΩ
+    - 15kΩ
+    - 0.666kΩ
+    - 1.5Ω
+
+- Title: Ley de Ohm 26
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-26.png
+  Image_width: 302
+  Choices:
+    - 60V
+    - 60000V
+    - 1666V
+    - 0.6V
+
+- Title: Ley de Ohm 27
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-27.png
+  Image_width: 302
+  Choices:
+    - 0.2mA
+    - 2mA
+    - 5mA
+    - 0.5mA
+
+- Title: Ley de Ohm 28
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-28.png
+  Image_width: 302
+  Choices:
+    - 3mA
+    - 3A
+    - 75mA
+    - 0.333mA
+
+- Title: Ley de Ohm 29
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-29.png
+  Image_width: 302
+  Choices:
+    - 3V
+    - 3mV
+    - 75V
+    - 30V
+
+- Title: Ley de Ohm 30
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-30.png
+  Image_width: 302
+  Choices:
+    - 30kΩ
+    - 3kΩ
+    - 4.8kΩ
+    - 33kΩ
+
+- Title: Ley de Ohm 31
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-31.png
+  Image_width: 302
+  Choices:
+    - 300kΩ
+    - 30kΩ
+    - 3kΩ
+    - 0.75kΩ
+
+- Title: Ley de Ohm 32
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-32.png
+  Image_width: 302
+  Choices:
+    - 36V
+    - 360V
+    - 3.6V
+    - 400V
+
+- Title: Ley de Ohm 33
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-33.png
+  Image_width: 302
+  Choices:
+    - 3mA
+    - 0.3mA
+    - 0.333mA
+    - 108mA
+
+- Title: Ley de Ohm 34
+  Question: ¿Qué valor tiene la intensidad de corriente?
+  Image: ../images/electric-ley-ohm-34.png
+  Image_width: 302
+  Choices:
+    - 0.48mA
+    - 4.8mA
+    - 2.08mA
+    - 1200mA
+
+- Title: Ley de Ohm 35
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-35.png
+  Image_width: 302
+  Choices:
+    - 20V
+    - 2V
+    - 320V
+    - 0.003V
+
+- Title: Ley de Ohm 36
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-36.png
+  Image_width: 302
+  Choices:
+    - 6kΩ
+    - 60kΩ
+    - 0.166kΩ
+    - 54kΩ
+
+- Title: Ley de Ohm 37
+  Question: ¿Qué valor tiene la resistencia?
+  Image: ../images/electric-ley-ohm-37.png
+  Image_width: 302
+  Choices:
+    - 3kΩ
+    - 30kΩ
+    - 192kΩ
+    - 0.333kΩ
+
+- Title: Ley de Ohm 38
+  Question: ¿Qué valor tiene la tensión de la pila?
+  Image: ../images/electric-ley-ohm-38.png
+  Image_width: 302
+  Choices:
+    - 6V
+    - 6000V
+    - 37.5V
+    - 0.026V
