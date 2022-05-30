@@ -27,23 +27,28 @@ const endDiv = document.getElementById('end');
 const title = sessionStorage.getItem('mostRecentTitle');
 const mostRecentScore = Number(sessionStorage.getItem('mostRecentScore')).toFixed(0) + "%";
 
-var watermarkLenght=3;
+var watermark=1;
 
 function setFinalScore() {
-  if (watermarkLenght == 3) {
+  if (watermark == 1) {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore + 
-        "</h1> <h1>- - -</h1><p style=\"margin-top:64px\"></p>  <a class=\"btn\" href=\"index.html\">Índice de los Test</a>");
-     watermarkLenght = 4;
+     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title
+     + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
+     + "</h1> <h1>- - - - - -</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\""
+     + "href=\"index.html\">Índice de los Test</a>");
+
+     watermark = 2;
   } 
-  else {
+  else if (watermark == 2) {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1>" + title + "</h1> <h1>" + mostRecentScore +
-        "</h1> <h1>- - - -</h1><p style=\"margin-top:64px\"></p>  <a class=\"btn\" href=\"index.html\">Índice de los Test</a>");
-     watermarkLenght = 3;
+     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title
+     + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
+     + "</h1> <h1>= = = = =</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\"" 
+     + "href=\"index.html\">Índice de los Test</a>");
+     watermark = 1;
   }
 };
 
 const result = setFinalScore();
 
-const interval = setInterval(setFinalScore, 1000);
+const interval = setInterval(setFinalScore, 500);
