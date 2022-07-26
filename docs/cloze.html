@@ -277,9 +277,13 @@
          border-radius: 16px;
          
       }
-      .question_image {
+      .question_image_div {
          text-align: center;
+      }      
+      .question_image {
          margin-bottom: 12px;
+         height: auto;
+         max-width:100%;
       }
       .question_text {
          font-size: 22px;
@@ -302,18 +306,22 @@
       .buttons {
          text-align: center;
          margin-top: 24px;
+         line-height: 50px;
       }
       
       button {
          font-family: Arial, Helvetica, sans-serif;
-         font-size: 22px;
-         padding: 8px;
-         margin: 0 12px;
+         font-size: 20px;
+         padding: 4px 8px;
+         margin-right: 12px;
          cursor: pointer;
          text-align: center;
          border: 1px solid #094070;
          border-radius: 8px;
          box-shadow: 0.2em 0.3em 0.2em #888;
+      }
+      button:last-child { 
+         margin-right: 0; 
       }
 
       .button:hover {background-color: #3e8e41}
@@ -383,9 +391,9 @@
       </div></div></div>
 
       <div class="question_frame">
-      <p class="question_image" id="question_image_id">
-         <img id="question_image_1" src="../docs/images/1e6947b4139a933bd94f.png" width="360px">
-      </p>
+      <div class="question_image_div" id="question_image_div_id">
+         <img src="">
+      </div>
       <p class="question_text" id="question_text_id"></p>
       </div>
 
@@ -460,14 +468,14 @@
             ]
          },
          {  "question": "Un {0} son 365 días.<br />Un día tiene {1} horas.",
-            "image": ["../docs/images/1e6947b4139a933bd94f.png", "360px"],
+            "image": ["images/1e6947b4139a933bd94f.png", "360"],
             "gaps": [
                ['año', 'añada'],
                ['24'],
             ]
          },
          {  "question": "Otro {0} para comprobar el paso de una página a la {1}.",
-            "image": ["../docs/images/5e403aa4c9505587ec7f.png", "240px"],
+            "image": ["images/5e403aa4c9505587ec7f.png", "240"],
             "gaps": [
                ['cuestionario'],
                ['siguiente'],
@@ -554,7 +562,7 @@
          var question_image_size = questions[page]["image"][1]
 
          // Image
-         image_code = '<img id="question_image_1" src="{0}"{1}>'
+         image_code = '<img class="question_image" src="{0}"{1}>'
          if (question_image_size) {
             var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
          }
@@ -562,7 +570,7 @@
             var image_values = [question_image, ''];
          };
          image_code_formatted = image_code.format(...image_values);
-         var question_image_element = document.getElementById("question_image_id");
+         var question_image_element = document.getElementById("question_image_div_id");
          if (question_image) {
             question_image_element.innerHTML = image_code_formatted;
          }
