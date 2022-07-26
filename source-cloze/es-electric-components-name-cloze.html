@@ -1,0 +1,660 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <!--
+   Copyright (c) 2022 Carlos Pardo
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <https://www.gnu.org/licenses/>.
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <meta name="description" content="Test online de Electricity - Color code 1 - Picuino" />
+   <title>Test Color code 1 - Electricity - Picuino</title>
+   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
+   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
+   <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
+
+   <style>
+      body {
+        background-color: #efefef;
+        font-size: 12px;
+        min-width: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 0;
+      }
+
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 32px;
+        text-align: center;
+        color: #094070;
+        margin: 32px 0 12px 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        font-weight: 700;
+      }
+
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+
+      .container > * {
+        width: 100%;
+      }
+
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+      }
+
+      .flex-center {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+
+      /* BUTTONS */
+
+      .btn {
+        font-size: 18px;
+        padding: 8px 0;
+        width: 240px;
+        text-align: center;
+        border: 1px solid #094070;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #094070;
+        background-color: white;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
+        transform: translateY(-1px);
+        transition: transform 150ms;
+      }
+
+      .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+
+
+      /* COOKIESBAR */
+
+      #cookiesbar {
+        font-size:16px;
+        line-height:1.5em;
+        display:block;
+        position:fixed;
+        bottom:0;
+        text-align:center;
+        max-width:760px;
+        padding:20px 20px;
+        margin-right:14px;
+        background-color: rgba(40,40,40,0.95);
+        color:#fff;
+        z-index: 1200;
+      }
+
+      #cookiesbar a {
+        display:inline-block;
+        padding:4px 8px;
+        color:#e0e000;
+        text-decoration:none;
+      }
+
+      #cookiesbar a:hover {
+        background-color: #444;
+      }
+
+
+      /* FOOTER */
+
+      .footer {
+        color: White;
+        background-color: #094070;
+        margin-top: 80px;
+        padding: 12px;
+        border-top: 2px solid #094070;
+        line-height: 200%;
+        text-align: center;
+      }
+
+      .footer a {
+        text-decoration: none;
+        font-size: 12px;
+        display: inline-block;
+        color: White;
+        padding: 0 2px 2px;
+        margin-right: 12px;
+      }
+
+      .footer a:hover {
+        color: #094070;
+        background-color: #ecf5ff;
+      }
+
+      .footer a:visited {
+        color: none;
+      }
+
+
+      .choice-container {
+        display: flex;
+        margin-bottom: 6px;
+        width: 100%;
+        font-size: 18px;
+        background-color: white;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .choice-container:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+          transform: translateY(1px);
+          transition: transform 150ms;
+        }
+      }
+
+      .choice-prefix {
+        padding: 10px 18px;
+        background-color: #094070;
+        color: white;
+        user-select: none;
+      }
+
+      .choice-text {
+        padding: 10px;
+        width: 100%;
+        user-select: none;
+      }
+
+      .correct {
+        background-color: #00ff60;
+      }
+
+      .incorrect {
+        background-color: #ff2000;
+        text-decoration: line-through;
+      }
+
+      #questionImage {
+        margin-bottom: 24px;
+        height: auto;
+        max-width:100%;
+      }
+
+      .header {
+         margin-top: 0;
+         font-size: 32;
+      }
+
+      /* HUD */
+
+      #hud {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 24px;
+      }
+
+      .hud-prefix {
+        text-align: center;
+        font-size: 24px;
+      }
+
+      .hud-main-text {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #094070;
+        margin-top: 12px;
+      }
+
+      #progressBar {
+        width: 200px;
+        height: 40px;
+        border: 3px solid #094070;
+        margin-top: 15px;
+      }
+
+      #progressBarFull {
+        height: 40px;
+        background-color: #094070;
+        width: 0%;
+      }
+
+
+
+      /* CLOZE QUESTIONS */
+
+      .question_frame {
+         margin: 12px 0px;
+         padding: 12px 8px;
+         background-color: white;
+         border: 2px solid #094070;
+         border-radius: 16px;
+         
+      }
+      .question_image {
+         text-align: center;
+         margin-bottom: 12px;
+      }
+      .question_text {
+         font-size: 22px;
+         line-height: 200%;
+         padding-bottom: 12px;
+         min-height: 80px;
+      }
+      .gap_span, .gap_box {
+         font-weight: bold;
+      }
+      input {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 22px;
+         padding: 4px;
+         width: 150px;
+         border: 1px solid #094070;
+         box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      }
+      
+      .buttons {
+         text-align: center;
+         margin-top: 24px;
+      }
+      
+      button {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 22px;
+         padding: 8px;
+         margin: 0 12px;
+         cursor: pointer;
+         text-align: center;
+         border: 1px solid #094070;
+         border-radius: 8px;
+         box-shadow: 0.2em 0.3em 0.2em #888;
+      }
+
+      .button:hover {background-color: #3e8e41}
+
+      .button:active {
+         background-color: #3e8e41;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+      }
+      
+      .message {
+         display: none;
+         z-index: 10;
+         height: 0;
+         max-width: 85%;
+         min-width: 320px;
+         padding: 0;
+         margin: 0 auto;
+      }
+      .message2 {
+         padding: 8px;
+         height: auto;       
+         background-color: rgba(255,255,255,0.9);
+         border-radius: 16px;
+         position: relative;
+         top: 14px;
+      }
+      .message3 {
+         text-align: center;
+         border: 2px solid #094070;
+         border-radius: 1rem;
+         padding: 8px 20px 20px 20px;
+         margin: 0px auto;
+         background-color: #eef;
+      }
+
+      #message_text_id {
+         padding-bottom: 1rem;
+         min-height: 6;
+      }
+   </style>
+
+</head>
+
+<body>
+   <div class="container"> <div class="justify-center flex-column">
+
+      <!-- HUD -->
+      <div id="hud">
+         <div>
+            <p id="progressText" class="hud-prefix">Question</p>
+            <div id="progressBar"><div id="progressBarFull"></div></div>
+         </div>
+         <div>
+            <p class="hud-prefix">Score</p>
+            <p class="hud-main-text" id="score">0</p>
+         </div>
+      </div>
+
+
+      <!-- Main content -->
+      <h1 class="header">Electricidad. Nombre de los componentes.</h1>
+
+      <div class="message" id="message_id"><div class="message2"><div class="message3">
+      <div class="question_text" id="message_text_id"> Mensaje.</div>
+      <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
+      </div></div></div>
+
+      <div class="question_frame">
+      <p class="question_image" id="question_image_id">
+         <img id="question_image_1" src="../docs/images/1e6947b4139a933bd94f.png" width="360px">
+      </p>
+      <p class="question_text" id="question_text_id"></p>
+      </div>
+
+      <p class="buttons">
+      <button class="func_button" onclick="check_answers()">Comprobar</button>
+      <button class="func_button" onclick="show_clue()">Pista</button>
+      <button class="func_button" onclick="next_page()">Siguiente</button>
+      </p>
+
+
+      <!-- Footer -->
+      <div class="footer">
+      <a href="https://www.picuino.com/es/contacto.html" target=”_blank”>Contacto</a>
+      <a href="https://www.picuino.com/es/legal-aviso.html" target=”_blank”>Aviso legal</a>
+      <a href="https://www.picuino.com/es/legal-cookies.html" target=”_blank”>Política de Cookies</a>
+      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
+      <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
+      <a href="https://www.picuino.com/test/index.html">Índice</a>
+      <p>Copyright © 2022 por Carlos Pardo.</p>
+      <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
+      </div>
+
+      <!-- Cookies Advise -->
+      <div id="cookiesbar" style="display: none">
+      Esta página web utiliza cookies propias y de terceros
+      para propósitos funcionales y de análisis de navegación.
+      Puedes obtener más información en nuestra
+      <a href="https://www.picuino.com/es/legal-cookies.html"
+      target="_blank">política de Cookies.</a> <br />
+      Si continúas navegando, aceptas su uso.
+      <br />
+      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+      </div>
+      <script>
+      if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+      function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+      function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+      function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+      </script>
+
+      <!-- Matomo -->
+      <script type="text/javascript">
+      if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//www.picuino.com/matomo/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      }
+      </script>
+
+   </div> </div>
+
+   <script>
+      sessionStorage.setItem('questionBankMax', 20);
+      sessionStorage.setItem('questionBankTitle', "Electricity. Color code 1.");
+      sessionStorage.setItem('questionBankCopyright', "2021 por Carlos Pardo");
+      sessionStorage.setItem('questionBankLicense', "Creative Commons Attribution-ShareAlike 4.0");
+
+      var questions = [
+         {  "question": "Primer {0}.",
+            "image": ["", ""],
+            "gaps": [
+               ['texto',],
+            ]
+         },
+         {  "question": "Un {0} son 365 días.<br />Un día tiene {1} horas.",
+            "image": ["../docs/images/1e6947b4139a933bd94f.png", "360px"],
+            "gaps": [
+               ['año', 'añada'],
+               ['24'],
+            ]
+         },
+         {  "question": "Otro {0} para comprobar el paso de una página a la {1}.",
+            "image": ["../docs/images/5e403aa4c9505587ec7f.png", "240px"],
+            "gaps": [
+               ['cuestionario'],
+               ['siguiente'],
+            ]
+         },
+      ]
+
+      var questions_pages = questions.length;
+      var gap_selected = 0;
+      var page = 0;
+      var score = 0;
+      var gaps_not_solved = 0;
+
+      if (!String.prototype.format) {
+         String.prototype.format = function() {
+            var args = arguments;
+            return this.replace(/{(\d+)}/g, function(match, number) {
+               return typeof args[number] != 'undefined'
+                  ? args[number]
+                  : match
+               ;
+            });
+         };
+      }
+
+
+      fill_question_text(page);
+
+
+      function message_show(message) {
+         var message_element = document.getElementById("message_id");
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = message;
+         message_element.style.display = "inline";
+         console.log("Ok show");
+      }
+      
+      function message_hide() {
+         var message_element = document.getElementById("message_id");
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = "";
+         message_element.style.display = "none";
+      }
+      
+      function next_page() {
+         // Check if all gaps are filled
+         if (gaps_not_solved > 0) {
+            message_show("Los huecos no están resueltos todavía.");
+            return;
+         };
+
+         // Add punctuation
+
+         // Go to next page or final page
+         page++;
+         if (page < questions.length) {
+            fill_question_text(page);
+         }
+         else {
+            fill_final_score();
+         }
+         
+         // Init variables
+         var gap_selected = 0;
+      };
+
+      function fill_final_score() {
+         gaps_not_solved = 0;
+      };
+
+      function questions_gaps() {
+         var gaps = 0;
+         for(var i=0; i<questions.length; i++) {
+            gaps += questions[i]["gaps"].length;
+         };
+         return gaps;
+      };
+
+
+      function fill_question_text(page) {
+         // read variables
+         var question_text = questions[page]["question"];
+         var question_image = questions[page]["image"][0]
+         var question_image_size = questions[page]["image"][1]
+
+         // Image
+         image_code = '<img id="question_image_1" src="{0}"{1}>'
+         if (question_image_size) {
+            var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
+         }
+         else {
+            var image_values = [question_image, ''];
+         };
+         image_code_formatted = image_code.format(...image_values);
+         var question_image_element = document.getElementById("question_image_id");
+         if (question_image) {
+            question_image_element.innerHTML = image_code_formatted;
+         }
+         else {
+            question_image_element.innerHTML = "";         
+         };
+
+         // Question text
+         gaps_length = questions[page]["gaps"].length;
+         gaps_not_solved = gaps_length;
+         gap_span = new Array(gaps_length);
+         gap_span_code = '<span class="gap_span" id="gap_span_{0}"> <input type="text" autocomplete="off" class="gap_box" id="gap_{0}" size="12" onfocus="select_gap({0})"> </span>'
+         for (var i=0; i<=gaps_length; i++) {
+            gap_span[i] = gap_span_code.format(i);
+         };
+         var question_text_formatted = question_text.format(...gap_span);
+         var question_text_element = document.getElementById("question_text_id");
+         question_text_element.innerHTML = question_text_formatted;
+      }
+
+
+      function check_answers() {
+         // Leer gaps y comprobar que son correctos
+         gaps_length = questions[page]["gaps"].length;
+         for (var i=0; i<gaps_length; i++) {
+            var gap_element = document.getElementById("gap_{0}".format(i));
+            if (gap_element === null || gap_element === 'undefined' ) {
+               continue;
+            };
+            var gap_text = gap_element.value.toLowerCase();
+            num_answers = questions[page]["gaps"][i].length;
+            for (var j=0; j<num_answers; j++) {
+               answer = questions[page]["gaps"][i][j];
+               if (gap_text === questions[page]["gaps"][i][j].toLowerCase()) {
+                  var gap_span_element = document.getElementById("gap_span_{0}".format(i));
+                  gap_span_element.innerHTML = questions[page]["gaps"][i][0];
+                  gaps_not_solved -= 1;
+                  break;
+               };
+               answer = "";
+            };
+            gap_text = "";
+         };
+         if (gaps_not_solved > 0) {
+            message_show("Todavía no están resueltos todos los huecos.");
+         }
+         else {
+            message_show("Todos los huecos están resueltos. <br /> Puedes pulsar <strong>Siguiente</strong>");         
+         }
+         
+      };
+
+
+      function select_gap(num) {
+         gap_selected = num;
+      };
+
+
+      function show_clue() {
+         gaps_length = questions[page]["gaps"].length;
+         if (gap_selected < 0 || gap_selected >= gaps_length) {
+            gap_selected = 0;
+         };
+         while (true) {
+            var correct_answer = questions[page]["gaps"][gap_selected][0];
+            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+            var gap_text = gap_element.value.toLowerCase();
+            var i = 0;
+            while (true) {
+               if (i >= correct_answer.length) {
+                  gap_selected++;
+                  if (gap_selected >= gaps_length) {
+                     return; // No gap to fill
+                  };
+                  break;
+               };
+               if (i >= gap_text.length) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  return;
+               };
+               if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  return;
+               };
+               i++;
+            };
+         };
+      };
+
+   </script>
+
+</body>
+</html>
