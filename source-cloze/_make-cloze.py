@@ -1,8 +1,8 @@
 #
-#  Program to convert cloze test in YAML format to html format and
+#  Program to convert cloze test from YAML format to html format and
 #  Moodle XML format.
 #
-#  Test de Tecnología Copyright (c) 2022 Carlos Pardo
+#  Tests de tecnología tipo cloze Copyright (c) 2022 Carlos Pardo
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -30,37 +30,29 @@ import shutil
 import yaml
 import jinja2
 from PIL import Image
-import docx
-from docx.shared import Inches, Cm, Pt
 
 
 def main():
    """Main program"""
 
-   moodle_template = 'moodle-multichoice-template.xml'
-   json_template = 'json-template.json'
-   html_template = 'game-template.html'
+   moodle_template = 'template-cloze-moodle.xml'
+   html_template = 'template-cloze.html'
 
-   multichoice_path = '.'
    build_path = 'build'
    html_path = '../docs'
    
-   questionary = Questionary(overwrite=False)
+   cloze = Cloze()
 
    # Process all yaml files of this directory
    questions_counter = DictCounter()
-   yaml_files = [yaml for yaml in os.listdir(multichoice_path) if yaml[-5:].lower() == '.yaml']
+   yaml_files = [yaml for yaml in os.listdir('.') if yaml[-5:].lower() == '.yaml']
    for yaml_file in yaml_files:
-      print('\nFile: %s/%s' % (multichoice_path, yaml_file))
-      questions = questionary.read_yaml(yaml_file, path=multichoice_path)
+      print('\nFile: %s' % yaml_file)
+      questions = cloze.read_yaml(yaml_file, path='.')
       questions_counter.add(questions, yaml_file)
-      questionary.write_csv(path=build_path)
-      questionary.docx_generate(path=build_path)
-      questionary.moodle_generate(moodle_template, path=build_path)
-      questionary.json_generate(json_template, path=html_path)
-      questionary.html_generate(html_template, path=html_path)
+      cloze.html_generate(html_template, path=html_path)
+      # cloze.moodle_generate(moodle_template, path=build_path)
    print('\nTotal questions= %s' % str(questions_counter))
-
 
 
 class DictCounter():
@@ -79,18 +71,14 @@ class DictCounter():
 
 
 
-class Questionary():
+class Cloze():
 
-   def __init__(self, overwrite=False):
-      self.templates_path = 'templates'
-      self.px_cm = 59    # Pixel per centimeter. Used in docx images. 59 px_cm = 150dpi
+   def __init__(self):
+      self.templates_path = '.'
       self.hash_len = 20
-      self.csv_delimiter = ','
       self.questions = []
-      self.overwrite = overwrite
       random.seed(1000)
-      
-      
+
    def read_yaml(self, filename, path='./'):
       """Read questions from Yaml file"""
       with codecs.open(os.path.join(path, filename), 'r', encoding='utf-8') as yamlfile:
@@ -100,6 +88,7 @@ class Questionary():
       self.questions = yaml_files[1]
       self.clean_questions()
       self.test_errors()
+      self.extract_gaps()
       self.yaml_path = path
       self.yaml_file = filename
       self.filename = os.path.splitext(os.path.basename(filename))[0]
@@ -110,25 +99,14 @@ class Questionary():
 
 
    def write_file(self, filename, data):
-      if self.overwrite or self.file_older(filename):
-         print('   Writing: ' + filename)
-         if isinstance(data, docx.document.Document):
-            data.save(filename)
-         else:
-            with codecs.open(filename, 'w', encoding='utf-8') as outfile:
-               outfile.write(data)
-
-
-   def file_older(self, filename1, filename2=False):
-      if not filename2:
-         filename2 = os.path.join(self.yaml_path, self.yaml_file)
-      if os.path.exists(filename1):
-         if os.path.getmtime(filename1) < os.path.getmtime(filename2):
-            return True
-         else:
-            return False
-      else:
-         return True
+      if os.path.exists(filename):
+         with codecs.open(filename, 'r', encoding='utf-8') as infile:
+            old_data = infile.read()
+         if old_data == data:
+            return
+      print('   Writing: ' + filename)
+      with codecs.open(filename, 'w', encoding='utf-8') as outfile:
+         outfile.write(data)
 
 
    def not_key(self, dictionary, key):
@@ -139,9 +117,9 @@ class Questionary():
 
    def clean_questions(self):
       for question in self.questions:
-         new_text = question['Question'].strip('\n')
-         if new_text != question['Question']:
-            question['Question'] = new_text
+         new_text = question['Cloze'].strip('\n')
+         if new_text != question['Cloze']:
+            question['Cloze'] = new_text
 
 
    def test_errors(self):
@@ -149,30 +127,27 @@ class Questionary():
       if not 'Category' in self.header:
          print('   Warning: no Category value')
          self.header['Category'] = 'General'
+      if not 'Title' in self.header:
+         print('   Warning: no Title value')
+         self.header['Title'] = 'No title available'
       if not 'Copyright' in self.header:
          print('   Warning: no Copyright value')
          self.header['Copyright'] = ''
       if not 'Show_max' in self.header:
          print('   Warning: no Show_max value')
          self.header['Show_max'] = 0
-      if not 'Title' in self.header:
-         print('   Warning: no Title value')
-         self.header['Title'] = 'No title available'
 
-      # Test Questions
+      # Test Cloze
       safe_questions = []
       for question in self.questions:
          if not question:
             print('   Error: question empty ')
             continue
-         if not 'Question' in question:
-            print('   Error: question without text ' + str(question))
+         if not 'Cloze' in question:
+            print('   Error: cloze question without text ' + str(question))
             continue
-         if not 'Choices' in question:
-            print('   Error: question without Choices ' + str(question))
-            continue
-
          safe_questions.append(question)
+
       self.questions = safe_questions
 
 
@@ -180,30 +155,34 @@ class Questionary():
       """Add Title to every question if does not exists"""
       for question in self.questions:
          if not 'Title' in question or not question['Title']:
-            question['Title'] = question['Question']
-   
-   
-   def write_csv(self, path='./'):
-      csv_filename = os.path.join(path, self.filename + '.csv')
-      csv_data = ['Question;Image;Image_width;Choice_1;Choice_2;Choice_3;Choice_4;Choice_5;Choice_6;Block']
-      for row in self.questions:
-         line = '"' + row['Question'] + '";"'
-         if row['Image']:
-            line = line + str(row['Image']['filename']) + '";"'
-            line = line + str(row['Image']['display_width']) + '";"'
-         else:
-            line = line + '";"";"'
-         for i in range(6):
-            if i < len(row['Choices']):
-               line = line + str(row['Choices'][i]) + '";"'
-            else:
-               line = line + '";"'
-         line = line + self.filename + '"'
-         csv_data.append(line)
-      csv_data = '\n'.join(csv_data)
-      self.write_file(csv_filename, csv_data)
-   
-   
+            question['Title'] = question['Cloze']
+
+
+   def extract_gaps(self):
+      """Extract gaps from cloze text"""
+      gap_pattern = re.compile('{[^}]*}')
+      for question in self.questions:
+         cloze = question['Cloze']
+         match = gap_pattern.findall(cloze)
+         gaps = []
+         for gap in match:
+            gap = gap.strip('{}')
+            if '|' in gap:
+               gap = re.split('\|', gap)
+               print(gap)
+            gaps.append(gap)
+         question['Gaps'] = gaps
+         
+         new_cloze = gap_pattern.split(cloze + '.')
+         cloze_gaps = []
+         for i in range(len(new_cloze)-1):
+            cloze_gaps = cloze_gaps + [new_cloze[i]] + ['{%d}' % i]
+         cloze_gaps = cloze_gaps + [new_cloze[-1]]
+         new_cloze = ''.join(cloze_gaps)
+         new_cloze = new_cloze[:-1]
+         question['Cloze'] = new_cloze
+
+
    def read_b64(self, filename):
       """Read image and returns data in ascii base64 format"""
       data = open(filename, 'rb').read()
@@ -261,108 +240,17 @@ class Questionary():
       self.write_file(xml_filename, xml_data)
    
    
-   def docx_make_head(self):
-      self.docx = docx.Document()
-   
-      # Define page properties
-      sections = self.docx.sections
-      for section in sections:
-          section.top_margin = Cm(1)
-          section.bottom_margin = Cm(1)
-          section.left_margin = Cm(1)
-          section.right_margin = Cm(1)
-      section = self.docx.sections[0]
-      sectPr = section._sectPr
-      cols = sectPr.xpath('./w:cols')[0]
-      cols.set(docx.oxml.ns.qn('w:num'),'2')
-   
-      # Define Choice style
-      style = self.docx.styles.add_style('Choice', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
-      paragraph_format = style.paragraph_format
-      paragraph_format.left_indent = Cm(1)
-      paragraph_format.first_line_indent = Cm(-0.5)
-      paragraph_format.line_spacing = 1
-      paragraph_format.space_before = Pt(0)
-      paragraph_format.space_after = Pt(0)
-      tab_stops = paragraph_format.tab_stops
-      tab_stops.add_tab_stop(Cm(4.75))
-      tab_stops.add_tab_stop(Cm(5.25))
-      paragraph_format.widow_control = True
-   
-      # Define Image style
-      style = self.docx.styles.add_style('Image', docx.enum.style.WD_STYLE_TYPE.PARAGRAPH)
-      paragraph_format = style.paragraph_format
-      paragraph_format.line_spacing = 1
-      paragraph_format.space_before = Pt(2)
-      paragraph_format.space_after = Pt(2)
-      paragraph_format.alignment = docx.enum.text.WD_ALIGN_PARAGRAPH.CENTER
-   
-      # Redefine List Number style
-      style = self.docx.styles['List Number']
-      paragraph_format = style.paragraph_format
-      paragraph_format.space_before = Pt(12)
-      paragraph_format.space_after = Pt(0)
-      paragraph_format.left_indent = Cm(0.6)
-      paragraph_format.first_line_indent = Cm(-0.6)
-   
-   
-   def docx_add_image(self, question):
-      """Add image to question in docx document"""
-      image_width = question['Image']['display_width']
-      par = self.docx.add_paragraph(style='Image')
-      par.add_run().add_picture(question['Image']['filename'], width=Cm(image_width / self.px_cm))
-   
-   
    def suffle_choices(self, question):
        choices = copy.copy(question['Choices'])
        random.shuffle(choices)
        return choices
    
    
-   def docx_add_questions(self):
-      """Create docx questions"""
-      self.docx.add_heading('%s. %s.' % (self.header['Category'], self.header['Title']), level=1)      
-      for question in self.questions:      
-         self.docx.add_paragraph(question['Question'], style='List Number')
-         if question['Image']:
-            self.docx_add_image(question)
-         choices = self.suffle_choices(question)
-         for i in range(len(choices)):
-            self.docx.add_paragraph('abcdefg'[i] + ')\t' + str(choices[i]), style='Choice')
-            
-   
-   def docx_generate(self, path='./'):
-      """Genera un archivo docx con las preguntas y opciones de todas
-         las cuestiones."""
-      docx_filename = os.path.join(path, self.filename + '.docx')
-      self.docx_make_head()
-      self.docx_add_questions()
-      self.write_file(docx_filename, self.docx)
-
-
-   def json_generate(self, template_file, path='docs'):
-      """Genera los archivos json a partir de las cuestiones."""
-      # Copy json images
-      for question in self.questions:
-         if question['Image']:
-            origin = question['Image']['filename']
-            dest = os.path.join(path, 'images', question['Image']['hashname'])
-            if self.file_older(dest, origin):
-               print('   Writing: ' + origin)
-               shutil.copy2(origin, dest)
-
-      # Generate and save json
-      json_filename = os.path.join(path, self.filename + '.json')
-      self.jinja_template(template_file)
-      json_data = self.template.render(questions = self.questions)
-      self.write_file(json_filename, json_data)
-
-
    def html_generate(self, template_file, path='./'):
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
       self.jinja_template(template_file)
-      html_data = self.template.render(filename=self.filename, header=self.header)
+      html_data = self.template.render(filename=self.filename, header=self.header, questions = self.questions)
       self.write_file(html_filename, html_data)
 
 

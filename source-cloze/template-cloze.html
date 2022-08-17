@@ -22,8 +22,8 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Electricity - Color code 1 - Picuino" />
-   <title>Test Color code 1 - Electricity - Picuino</title>
+   <meta name="description" content="Test online de {{ header.Category }} - {{ header.Title }} - Picuino" />
+   <title>Test {{ header.Title }} - {{ header.Category }} - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
    <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
@@ -228,12 +228,12 @@
 
       .header {
          margin-top: 0;
-         font-size: 32;
+         font-size: 32px;
       }
 
       /* HUD */
 
-      #hud {
+      #hud_id {
         display: flex;
         justify-content: space-between;
         margin-bottom: 24px;
@@ -252,19 +252,18 @@
         margin-top: 12px;
       }
 
-      #progressBar {
+      #progress_bar_id {
         width: 200px;
         height: 40px;
         border: 3px solid #094070;
         margin-top: 15px;
       }
 
-      #progressBarFull {
+      #progress_bar_full_id {
         height: 40px;
         background-color: #094070;
         width: 0%;
       }
-
 
 
       /* CLOZE QUESTIONS */
@@ -275,40 +274,45 @@
          background-color: white;
          border: 2px solid #094070;
          border-radius: 16px;
-         
       }
+
       .question_image_div {
          text-align: center;
-      }      
+      }
+
       .question_image {
          margin-bottom: 12px;
          height: auto;
          max-width:100%;
       }
+
       .question_text {
          font-size: 22px;
          line-height: 200%;
          padding-bottom: 12px;
          min-height: 80px;
       }
+
       .gap_span, .gap_box {
          font-weight: bold;
       }
+
       input {
          font-family: Arial, Helvetica, sans-serif;
          font-size: 22px;
          padding: 4px;
          width: 150px;
          border: 1px solid #094070;
+         border-radius: 8px;
          box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
       }
-      
+
       .buttons {
          text-align: center;
          margin-top: 24px;
          line-height: 50px;
       }
-      
+
       button {
          font-family: Arial, Helvetica, sans-serif;
          font-size: 20px;
@@ -320,8 +324,9 @@
          border-radius: 8px;
          box-shadow: 0.2em 0.3em 0.2em #888;
       }
-      button:last-child { 
-         margin-right: 0; 
+
+      button:last-child {
+         margin-right: 0;
       }
 
       .button:hover {background-color: #3e8e41}
@@ -331,31 +336,28 @@
          box-shadow: 0 5px #666;
          transform: translateY(4px);
       }
-      
+
       .message {
          display: none;
          z-index: 10;
          height: 0;
-         max-width: 85%;
+         max-width: 75%;
          min-width: 320px;
          padding: 0;
          margin: 0 auto;
       }
       .message2 {
-         padding: 8px;
-         height: auto;       
-         background-color: rgba(255,255,255,0.9);
+         background-color: #eef;
+         padding: 8px 20px 20px 20px;
+         height: auto;
+         box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
          border-radius: 16px;
          position: relative;
-         top: 14px;
-      }
-      .message3 {
+         top: 8px;
          text-align: center;
          border: 2px solid #094070;
          border-radius: 1rem;
-         padding: 8px 20px 20px 20px;
          margin: 0px auto;
-         background-color: #eef;
       }
 
       #message_text_id {
@@ -370,38 +372,28 @@
    <div class="container"> <div class="justify-center flex-column">
 
       <!-- HUD -->
-      <div id="hud">
+      <div id="hud_id">
          <div>
-            <p id="progressText" class="hud-prefix">Question</p>
-            <div id="progressBar"><div id="progressBarFull"></div></div>
+            <p class="hud-prefix" id="hud_page_id">Page</p>
+            <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
          </div>
          <div>
-            <p class="hud-prefix">Score</p>
+            <p class="hud-prefix">Puntos</p>
             <p class="hud-main-text" id="score">0</p>
          </div>
       </div>
 
-
       <!-- Main content -->
-      <h1 class="header">Electricidad. Nombre de los componentes.</h1>
+      <h1 class="header" id="header_id">Electricidad. Nombre de los componentes.</h1>
 
-      <div class="message" id="message_id"><div class="message2"><div class="message3">
+      <div class="message" id="message_id"><div class="message2">
       <div class="question_text" id="message_text_id"> Mensaje.</div>
       <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
-      </div></div></div>
+      </div></div>
 
-      <div class="question_frame">
-      <div class="question_image_div" id="question_image_div_id">
-         <img src="">
-      </div>
-      <p class="question_text" id="question_text_id"></p>
-      </div>
+      <div class="question_frame" id="question_frame_id"></div>
 
-      <p class="buttons">
-      <button class="func_button" onclick="check_answers()">Comprobar</button>
-      <button class="func_button" onclick="show_clue()">Pista</button>
-      <button class="func_button" onclick="next_page()">Siguiente</button>
-      </p>
+      <div class="buttons" id="buttons_id"></div>
 
 
       <!-- Footer -->
@@ -433,7 +425,7 @@
       function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
       function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
       function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none";}
       </script>
 
       <!-- Matomo -->
@@ -451,43 +443,46 @@
         })();
       }
       </script>
+   <!-- End Matomo Code -->
 
    </div> </div>
 
    <script>
-      sessionStorage.setItem('questionBankMax', 20);
-      sessionStorage.setItem('questionBankTitle', "Electricity. Color code 1.");
-      sessionStorage.setItem('questionBankCopyright', "2021 por Carlos Pardo");
-      sessionStorage.setItem('questionBankLicense', "Creative Commons Attribution-ShareAlike 4.0");
+      sessionStorage.setItem('score', 0);
 
-      var questions = [
-         {  "question": "Primer {0}.",
-            "image": ["", ""],
-            "gaps": [
-               ['texto',],
+      const questions_title = "{{ header.Title }}. {{ header.Category }}.";
+      const questions = [
+         {%- for question in questions %}
+         {% raw %}{{% endraw %}
+            {%- if question.Image %}
+            "Image": ["images/{{ question.Image.hashname }}", "{{ question.Image.display_width }}"],
+            {%- else %}
+            "Image": ["", ""],
+            {%- endif %}            
+            "Cloze": "{{ question.Cloze }}",
+            "Gaps": [
+               {%- for Gap in question.Gaps %}
+               {%- if Gap is string %}
+               ['{{ Gap }}'],
+               {%- else %}
+               [{% for word in Gap %}'{{ word }}', {% endfor %}],
+               {%- endif %}
+               {%- endfor %}
             ]
-         },
-         {  "question": "Un {0} son 365 días.<br />Un día tiene {1} horas.",
-            "image": ["images/1e6947b4139a933bd94f.png", "360"],
-            "gaps": [
-               ['año', 'añada'],
-               ['24'],
-            ]
-         },
-         {  "question": "Otro {0} para comprobar el paso de una página a la {1}.",
-            "image": ["images/5e403aa4c9505587ec7f.png", "240"],
-            "gaps": [
-               ['cuestionario'],
-               ['siguiente'],
-            ]
-         },
+         {% raw %}},{% endraw %}
+         {% endfor %}
       ]
 
-      var questions_pages = questions.length;
+      const time_between_clues = 2000;
+      var questions_pages = 0;
       var gap_selected = 0;
       var page = 0;
-      var score = 0;
+      var gaps_total = 0;
+      var gaps_values = [];
+      var points_total = 0;
       var gaps_not_solved = 0;
+      var watermark = 0;
+      var interval;
 
       if (!String.prototype.format) {
          String.prototype.format = function() {
@@ -501,68 +496,211 @@
          };
       }
 
+      page_reset();
 
-      fill_question_text(page);
+      function page_reset() {
+         page = 0;
+         points_total = 0;
+         questions_sorted = questions_sort(questions.length);
+         question_pages = questions_sorted.length;
+         gaps_total = questions_gaps();
+         gaps_values = get_gaps_values();
+         gaps_not_solved = 0;
+         fill_question_text(page);
+         message_hide();
+         hud_show();
+      }
 
+      function questions_sort(len) {
+         new_questions = [...questions];
+         questions_sorted = [];
+         for(i=0; i<len; i++) {
+            rnd = Math.floor(Math.random() * new_questions.length);
+            questions_sorted[i] = new_questions[rnd];
+            new_questions.splice(rnd, 1);
+         }
+         return questions_sorted;
+      }
+
+      function get_gaps_values() {
+         var gaps_values = [];
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps_values[page] = [];
+            for(var i=0; i<questions_sorted[page]["Gaps"].length; i++) {
+               gaps_values[page][i] = string_to_binary_array(questions_sorted[page]["Gaps"][i][0]);
+            };
+         };
+         return gaps_values;
+      }
+
+      function string_to_binary_array(str, chr) {
+         array = [];
+         if (str.length == 1) {
+            array[0] = 1;
+            return array;
+         }
+
+         // Valor de las sucesivas letras de una palabra
+         for(var i=0; i<str.length; i++) {
+            // Exponencial
+            //array[i] = 100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1);
+            // Lineal
+            array[i] = 100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length);
+         };
+         return array;
+      }
+
+      function add_terms(array) {
+         sum = 0;
+         for(var i=0; i<array.length; i++) {
+            sum += array[i];
+         }
+         return sum;
+      }
+
+      function questions_gaps() {
+         var gaps = 0;
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps += questions_sorted[page]["Gaps"].length;
+         };
+         return gaps;
+      };
+
+      function final_score_fill() {
+         // Load values
+         title = sessionStorage.getItem("last_questions_title");
+         if (title === null) {
+            title = "Puntuación no almacenada";
+         }
+         points = sessionStorage.getItem("last_questions_points");
+         if (points === null) {
+            points = 0;
+         }
+
+         // Hide HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "none";
+
+         // Big header
+         var header_element = document.getElementById("header_id");
+         header_element.innerHTML = title;
+         header_element.style.fontSize = "48px";
+         header_element.style.paddingTop = "32px";
+
+         // Show points
+         var question_frame_element = document.getElementById("question_frame_id");
+         if (watermark == 1) {
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>- - - - - - -</h1>");
+            watermark = 2;
+         }
+         else {
+            question_frame_element.innerHTML = "";
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>= = = = = =</h1>");
+            watermark = 1;
+         }
+         buttons_final_score_fill();
+      };
+
+      function buttons_questions_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = ''
+         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
+         + '<button class="func_button" onclick="show_clue()">Pista</button>'
+         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
+         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+      }
+
+      function buttons_final_score_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
+      }
 
       function message_show(message) {
-         var message_element = document.getElementById("message_id");
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = message;
+         var message_element = document.getElementById("message_id");
          message_element.style.display = "inline";
-         console.log("Ok show");
+         var button_element = document.getElementById("message_button_id");
+         button_element.focus();
       }
-      
+
       function message_hide() {
          var message_element = document.getElementById("message_id");
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
       }
-      
+
       function next_page() {
+         message_hide();
+
+         // Check gaps
+         var gaps_not_solved = count_blank_answers();
+
          // Check if all gaps are filled
          if (gaps_not_solved > 0) {
-            message_show("Los huecos no están resueltos todavía.");
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
             return;
          };
 
-         // Add punctuation
-
          // Go to next page or final page
          page++;
-         if (page < questions.length) {
+         if (page < questions_sorted.length) {
+            hud_show();
             fill_question_text(page);
          }
          else {
-            fill_final_score();
+            sessionStorage.setItem('last_questions_title', questions_title);
+            sessionStorage.setItem('last_questions_points', points_total);
+            interval = setInterval(final_score_fill, 500);
          }
-         
+
          // Init variables
-         var gap_selected = 0;
+         gap_selected = 0;
       };
 
-      function fill_final_score() {
-         gaps_not_solved = 0;
-      };
+      function last_score() {
+         interval = setInterval(final_score_fill, 500);
+      }
 
-      function questions_gaps() {
-         var gaps = 0;
-         for(var i=0; i<questions.length; i++) {
-            gaps += questions[i]["gaps"].length;
-         };
-         return gaps;
-      };
-
+      function questions_page_gaps(page) {
+         return questions_sorted[page]["Gaps"].length;
+      }
 
       function fill_question_text(page) {
+         message_hide();
+         points_page = 0;
+
+         // Fill header
+         var header_element = document.getElementById("header_id");
+         header_element.style.innerHTML = questions_title;
+         header_element.style.fontSize = "32px";
+         header_element.style.paddingTop = "0px";
+
+         // Fill question frame HTML
+         var question_frame_element = document.getElementById("question_frame_id");
+         question_frame_element.innerHTML = ''
+         + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
+         + '<p class="question_text" id="question_text_id"></p>';
+
          // read variables
-         var question_text = questions[page]["question"];
-         var question_image = questions[page]["image"][0]
-         var question_image_size = questions[page]["image"][1]
+         var question_text = questions_sorted[page]["Cloze"];
+         var question_image = questions_sorted[page]["Image"][0];
+         var question_image_size = questions_sorted[page]["Image"][1];
 
          // Image
-         image_code = '<img class="question_image" src="{0}"{1}>'
+         image_code = '<img class="question_image" src="{0}"{1}>';
          if (question_image_size) {
             var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
          }
@@ -575,38 +713,94 @@
             question_image_element.innerHTML = image_code_formatted;
          }
          else {
-            question_image_element.innerHTML = "";         
+            question_image_element.innerHTML = "";
          };
 
          // Question text
-         gaps_length = questions[page]["gaps"].length;
+         gaps_length = questions_sorted[page]["Gaps"].length;
          gaps_not_solved = gaps_length;
          gap_span = new Array(gaps_length);
-         gap_span_code = '<span class="gap_span" id="gap_span_{0}"> <input type="text" autocomplete="off" class="gap_box" id="gap_{0}" size="12" onfocus="select_gap({0})"> </span>'
+         gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
+         + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
+         + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
          for (var i=0; i<=gaps_length; i++) {
             gap_span[i] = gap_span_code.format(i);
          };
          var question_text_formatted = question_text.format(...gap_span);
          var question_text_element = document.getElementById("question_text_id");
          question_text_element.innerHTML = question_text_formatted;
+
+         // Buttons
+         buttons_questions_fill();
+         clearInterval(interval);
       }
 
+      function hud_show() {
+         // Show HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "flex";
+
+         // Page HUD
+         var hud_page_element = document.getElementById("hud_page_id");
+         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+
+         var progress_bar_full_element = document.getElementById("progress_bar_full_id");
+         var width = ((page + 1) / questions_sorted.length) * 100;
+         progress_bar_full_element.style.width = `${width}%`;
+
+         // Points
+         var score_element = document.getElementById("score");
+         score_element.innerHTML = Math.round(points_total);
+      };
+
+      function onkeypress_handle(gap, event) {
+         if (event.keyCode == 13) {
+            event.preventDefault();
+            check_answers();
+         };
+      };
 
       function check_answers() {
+         message_hide();
+
+         gaps_not_solved = count_blank_answers();
+         
+         if (gaps_not_solved > 0) {
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
+         }
+         else {
+            message_show("Todos los huecos están resueltos."
+            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+         }
+      };
+
+      function count_blank_answers() {
          // Leer gaps y comprobar que son correctos
-         gaps_length = questions[page]["gaps"].length;
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_not_solved = gaps_length;
+         
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
+               gaps_not_solved -= 1;
                continue;
             };
-            var gap_text = gap_element.value.toLowerCase();
-            num_answers = questions[page]["gaps"][i].length;
+            var gap_text = gap_element.value.toLowerCase().trim();
+            gap_text.replace(/\s\s+/g, ' ');
+            num_answers = questions_sorted[page]["Gaps"][i].length;
             for (var j=0; j<num_answers; j++) {
-               answer = questions[page]["gaps"][i][j];
-               if (gap_text === questions[page]["gaps"][i][j].toLowerCase()) {
+               answer = questions_sorted[page]["Gaps"][i][j];
+               if (gap_text === answer.toLowerCase()) {
                   var gap_span_element = document.getElementById("gap_span_{0}".format(i));
-                  gap_span_element.innerHTML = questions[page]["gaps"][i][0];
+                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][i][0];
+
+                  points_total += add_terms(gaps_values[page][i]) / gaps_total;
+                  hud_show();
                   gaps_not_solved -= 1;
                   break;
                };
@@ -614,47 +808,81 @@
             };
             gap_text = "";
          };
-         if (gaps_not_solved > 0) {
-            message_show("Todavía no están resueltos todos los huecos.");
-         }
-         else {
-            message_show("Todos los huecos están resueltos. <br /> Puedes pulsar <strong>Siguiente</strong>");         
-         }
-         
-      };
-
+         return gaps_not_solved;         
+      }
 
       function select_gap(num) {
          gap_selected = num;
       };
 
+      var timeout_clue = 0;
+
+      function reset_timeout_clue() {
+         timeout_clue = 0;
+      }
 
       function show_clue() {
-         gaps_length = questions[page]["gaps"].length;
+         message_hide();
+         if (timeout_clue !== 0) {
+            return;
+         }
+         timeout_clue = 1;
+         setTimeout(reset_timeout_clue, time_between_clues);
+
+         var gaps_visited = 0;
+         gaps_length = questions_sorted[page]["Gaps"].length;
          if (gap_selected < 0 || gap_selected >= gaps_length) {
             gap_selected = 0;
          };
          while (true) {
-            var correct_answer = questions[page]["gaps"][gap_selected][0];
-            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+            while (true) {
+               if (gaps_visited >= gaps_length) {
+                  message_show("Todos los huecos están resueltos."
+                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  return;
+               }
+               if (gap_selected >= gaps_length) {
+                  gap_selected = 0;
+               }
+               var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
+               var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+               if (gap_element === null) {
+                  gap_selected += 1;
+                  gaps_visited += 1;
+                  continue;
+               }
+               else {
+                  break;
+               };
+            }
             var gap_text = gap_element.value.toLowerCase();
             var i = 0;
             while (true) {
                if (i >= correct_answer.length) {
+                  if (gap_text.length > correct_answer.length) {
+                     // Correct gap answer with more letters
+                     gap_element.value = gap_element.value.substr(0, correct_answer.length);
+                     gap_selected++;
+                     return;
+                  }
+                  // next gap
                   gap_selected++;
                   if (gap_selected >= gaps_length) {
                      return; // No gap to fill
                   };
+                  // Go to next gap
                   break;
                };
                if (i >= gap_text.length) {
                   gap_text = correct_answer.substr(0, i+1);
                   gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
                   return;
                };
                if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
                   gap_text = correct_answer.substr(0, i+1);
                   gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
                   return;
                };
                i++;

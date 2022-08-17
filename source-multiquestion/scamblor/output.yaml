@@ -1,0 +1,3841 @@
+
+Filename: electricidad_scanblor.xml
+
+---
+
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: description
+  name: "conmutadores"
+  questiontext: "<p><h3>Conmutadores</h3><div>Los conmutadores son elementos de maniobra que tienen tres contactos.</div><div>Su símbolo es el siguiente:</div><div>{{ image(file=1, alt='conmutador', width=160, height=120) }}<br></div><h3>Contactos</h3><div>Los contactos son diferentes y tienen nombre:</div><div>{{ image(file=2, alt='contactos conmutador', width=463, height=230) }}<br></div><div>El contacto com viene marcado por un punto relleno y los otros por un punto hueco. Es importante diferenciarlos.</div><div><br></div><h3>Funcionamiento.</h3><div>La  electricidad puede pasar entre el contacto COM y el contacto cerrado.  Al pulsarse el contacto A se transforma en el C y viceversa porque la  palanca cambia de posición</div><div>{{ image(file=3, alt='funcionamiento conmutador', width=520, height=262) }}</div><div><br></div><h3>Pulsador de conmutación</h3><div>Existe  un elemento de maniobra llamado pulsador de conmutación que se  diferencia del anterior en que cuando se sulta recupera la posición en  que está dibujado. Los contactos se llamarán entonces NA (normalmente  abierto) y NC ( normalmente cerrado). El símbolo se diferencia del otro  en que tiene botón.</div><div>{{ image(file=4, alt='pulsador de conmutación', width=527, height=225) }}</div><br></p>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s3.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/contactos_conmutador.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/conmutador.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/pulsador_conmutacion.gif
+
+- type: description
+  name: "El. generadores"
+  questiontext: "<p></p><h3>Elementos generadores:</h3>Son los elementos que empujan las cargas en el circuito.<br><p></p><h1 style=\"text-align: center;\">Símbolo de una pila</h1><div>El símbolo de una pila son dos líneas paralelas una larga y fina y la otra corta y más gruesa.&nbsp;</div><div style=\"text-align: center;\">{{ image(file=1, alt='pila', width=100, height=110) }}</div><div style=\"text-align: left;\">Como ves, el símbolo no se parece en nada a una pila de verdad, pero cualquiera que sepa de electricidad entenderá ese dibujo como una pila.</div><div><br></div><div>La línea fina representa el polo positivo y la corta el negativo.</div><div style=\"text-align: center;\">{{ image(file=2, alt='pila', width=416, height=227) }}<br></div><div><br></div>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s6.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/pila.gif
+
+- type: description
+  name: "El. maniobra"
+  questiontext: "<p></p><h3>Elementos de maniobra:</h3><p>Los elementos de maniobra son los que permiten controlar el circuito.</p><br><p></p><div style=\"text-align: center; \">Elementos de maniobra</div><div><table style=\"text-align: center; \" width=\"100%\" border=\"0\" align=\"middle\"><tbody><tr><td width=\"33%\" valign=\"top\">{{ image(file=1, alt='interruptor', width=170, height=94) }}<br></td><td width=\"33%\" valign=\"top\">{{ image(file=2, alt='conmutador', width=170, height=120) }}<br></td><td width=\"33%\" valign=\"top\">{{ image(file=3, alt='pulsador', width=170, height=106) }}<br></td></tr><tr><td width=\"33%\" valign=\"top\">Interruptor</td><td width=\"33%\" valign=\"top\">Conmutador</td><td width=\"33%\" valign=\"top\">Pulsador</td></tr></tbody></table><div style=\"text-align: left; \"><br></div></div><div style=\"text-align: left; \">Los puntos rellenos representan un contacto permanente, mientras que los puntos huecos representan un contacto que puede establecerse o no dependiendo de que se accione o no el elemento de maniobra en cuestión.</div><div style=\"text-align: left; \">La situación de reposo es tal y como están dibujados los contactos, mientras que cuando se acciona los contactos cambian.</div><div style=\"text-align: left; \"><br></div>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s11.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s3.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s8.gif
+
+- type: description
+  name: "El. receptores"
+  questiontext: "<p></p><h3>Elementos receptores:</h3><p>En los elementos receptores, la electricidad se trasforma en algo útil.&nbsp;</p><br><p></p><h1 style=\"text-align: center;\">Símbolos de receptores</h1><div><br></div><div><table width=\"100%\" border=\"0\"><tbody><tr><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">{{ image(file=1, alt='Bombilla', width=170, height=120) }}<br></td><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">{{ image(file=2, alt='timbre', width=155, height=140) }}<br></td></tr><tr><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">Bombilla<br>       </td><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">Timbre<br>       </td></tr><tr><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">{{ image(file=3, alt='motor', width=160, height=120) }}<br></td><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">{{ image(file=4, alt='resistencia', width=150, height=75) }}<br></td></tr><tr><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">Motor<br>       </td><td style=\"text-align: center;\" width=\"50%\" valign=\"top\">Resistencia<br>       </td></tr></tbody></table> Como ves, no se parecen en nada a los elementos reales.</div><div><br><br></div>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s1.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s12.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s4.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/resistencia.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/dibujo de circuitos"
+
+- type: description
+  name: "instrucciones de dibujo de esquemas"
+  questiontext: "<h2>Los siguientes ejercicios debes realizarlos en una hoja con tu nombre.<br />Debes escribir el enunciado ya que en distintos exámenes pueden salir diferentes ejercicios.</h2>"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: description
+  name: "Lo que hay que hacer(esq_electr)"
+  questiontext: "<p>Lee esta lección y responde a las preguntas. A la vez que haces la lección, dibuja en tu cuaderno los símbolos que te pedimos en la siguiente tarea.<b>&nbsp;Dibuja una tabla y ve rellenándola a la vez que realizas la lección</b>.<br><br><table width=\"100%\" border=\"1\"><tbody><tr><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br><div>pila</div></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>bombilla<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>motor<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>timbre<br></td></tr><tr><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>resistencia<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>interruptor A<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>interruptor C<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>pulsador NA<br></td></tr><tr><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>pulsador NC<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>conmutador<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br><br><br><br>pulsador de conmutación<br></td><td width=\"25%\" valign=\"top\" align=\"center\"><br></td></tr></tbody></table><br><br></p>"
+
+- type: description
+  name: "Pulsadores e interruptores"
+  questiontext: "<p><h1>Pulsadores e interruptores</h1><h3>Diferencia en el funcionamiento</h3><div>Tanto  los pulsadores como los interruptores cambian de posición cuando se  pulsan; pero los interruptores permanecen en esa posición al soltar,  mientras que los pulsadores recuperan la posición inicial (en la que  están dibujados).</div><h3>Diferencia en el símbolo</h3><div>La diferencia en el símbolo entre un pulsador y un interruptor está en que el pulsador tiene botón y el interruptor no.</div><div>{{ image(file=1, alt='pulsador/interruptor', width=479, height=198) }}</div><br></p>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/int_pul.gif
+
+- type: description
+  name: "Símbolos"
+  questiontext: "<p><h1>Esquema eléctrico</h1><div>Para  representar un circuito eléctrico se hace mediante un esquema.&nbsp;Un  esquema es un dibujo simplificado en el que los distintos elementos del  circuito se representan mediante símbolos.</div><div>Los elementos se unen con líneas que representan los cables.</div><div><br></div><h3>Los símbolos</h3><div><div>Los símbolos son dibujos simples ya acordados (no tienes que inventarlos tú).</div><div>No  necesariamente se parecen al elemento que representan.&nbsp;Son como las  palabras de un idioma internacional técnico. &nbsp;El esquema que realices  con ellos lo entenderán gente que haya estudiado tecnología en España,  Alemania, &nbsp;Argentina, etc.</div></div><br></p>"
+
+- type: description
+  name: "tipos de pulsadores e interruptores"
+  questiontext: "<p><h3>Tipos de pulsadores</h3><div>Hay diferentes tipos de pulsador dependiendo de si dejan o no pasar la electricidad en reposo</div><div><table width=\"100%\" border=\"0\"><tbody><tr><td width=\"50%\" valign=\"top\">{{ image(file=1, alt='Pulsador NA', width=160, height=100) }}<br></td><td width=\"50%\" valign=\"top\">{{ image(file=2, alt='Pulsador NC', width=160, height=100) }}<br></td></tr><tr><td width=\"50%\" valign=\"top\">Pulsador NA<br>       </td><td width=\"50%\" valign=\"top\">Pulsador NC<br>       </td></tr><tr><td width=\"50%\" valign=\"top\"><br></td><td width=\"50%\" valign=\"top\"><br></td></tr><tr><td width=\"50%\" valign=\"top\"><br></td><td width=\"50%\" valign=\"top\"><br></td></tr></tbody></table>Un  pulsador NA (Normalmente Abierto) no deja pasar electricidad, pero si  se pulsa sí deja Por ejemplo el pulsador que acciona el timbre de tu  casa es un pulsador NA.</div><div>Un pulsador NC (Normalmente Cerrado)  deja pasar la electricidad cuando no se pulsa, pero cuando se pulsa no  deja. Es muy poco frecuente. Imágínate cómo sería el timbre de tu casa  si el dulsador fuera de ese tipo, estaría siempre sonando menos cuando  se pulsara. Sería horrible. Sin embargo, tienen su utilidad y los usarás  en automatismos que construyas en 3º de la ESO.</div><div><br></div><h3>Tipos de interruptores</h3><div>También tenemos dos tipos de interruptores:</div><div><table width=\"100%\" border=\"0\" align=\"middle\"><tbody><tr><td width=\"50%\" valign=\"top\">{{ image(file=3, alt='Interruptor A', width=170, height=100) }}<br></td><td width=\"50%\" valign=\"top\">{{ image(file=4, alt='Interruptor C', width=180, height=100) }}<br></td></tr><tr><td width=\"50%\" valign=\"top\">Interruptor A<br>       </td><td width=\"50%\" valign=\"top\">Interruptor C<br>       </td></tr></tbody></table>Un interruptor A (abierto) no deja pasar  la electricidad tal y como está dibujado, pero si se pulsa sí deja. El  interruptor C (cerrado) funciona al contrario, deja pasar la  electricidad tal y como está dibujado, peor si se pulsa no. Un  interruptor C se transforma en uno A al ser pulsado y viceversa.</div><div><br></div><br></p>"
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s8.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s10.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s11.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s2.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/dibujo de circuitos"
+
+- type: essay
+  name: "Bombilla pulsador NA"
+  questiontext: "Dibuja el esquema de un circuito eléctrico en el que una pila alimenta una bombilla y hay un pulsador NA para controlarla. El dibujo debe entregarse en una hoja con nombre y debe llevar escrito en enunciado."
+  defaultgrade: 2.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "Bombilla timbre conmutador"
+  questiontext: "Dibuja el esquema de un circuito eléctrico con una pila, una bombilla, un timbre y un conmutador. Dependiendo de que se accione o no el conmutador, funcionará la bombilla o el timbre."
+  defaultgrade: 2.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "dibujo esquema 1"
+  questiontext: "<span class=\"Apple-style-span\" style=\"font-family: arial, verdana, helvetica, sans-serif; font-size: 16px; background-color: rgb(250, 250, 250);\">Dibuja el esquema de un circuito en el que una pila alimenta a un motor y una bombilla en paralelo controlados por un pulsador NA.</span>"
+  defaultgrade: 4.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "dibujo esquema 2"
+  questiontext: "<span class=\"Apple-style-span\" style=\"font-family: arial, verdana, helvetica, sans-serif; font-size: 16px; background-color: rgb(250, 250, 250); \">Dibuja el esquema de un circuito en el que una pila alimenta a dos bombillas en paralelo controladas de manera independiente cada una por un interruptor A. (4 puntos)</span>"
+  defaultgrade: 4.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "Dibujo esquema 3"
+  questiontext: "<span class=\"Apple-style-span\" style=\"font-family: 'times new roman'; \"><div style=\"background-color: rgb(255, 255, 255); font-family: 'trebuchet ms', verdana, arial, helvetica, sans-serif; direction: ltr; \">Dibuja el esquema de un circuito en el que una pila alimenta a un timbre y una bombilla están en serie y están controlados por un pulsador NA. (3 puntos)</div></span>"
+  defaultgrade: 3.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "dibujo esquema 4"
+  questiontext: "<span class=\"Apple-style-span\" style=\"font-family: arial, verdana, helvetica, sans-serif; font-size: 16px; background-color: rgb(250, 250, 250); \">Dibuja el esquema de un circuito en el que una pila alimenta un motor y una bombilla controlados por un conmutador. Debe funcionar el motor o la bombilla dependiendo de la posición del conmutador, pero no pueden funcionar los dos a la vez. (4 puntos)</span>"
+  defaultgrade: 4.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "motor interruptor"
+  questiontext: "Dibuja un esquema de un circuito eléctrico en el que una pila alimenta un motor y hay un interruptor A que permite accionar ese motor.&nbsp;El dibujo debe entregarse en una hoja con nombre y debe llevar escrito en enunciado."
+  defaultgrade: 2.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: essay
+  name: "timbre pulsador NA"
+  questiontext: "Dibuja el esquema de un circuito eléctrico en el que una pila alimenta un timbre y Hay un pulsador NA para controlarlo. El dibujo debe entregarse en una hoja con nombre y debe llevar escrito en enunciado."
+  defaultgrade: 2.0000000
+  penalty: 0.0000000
+  attachments: 0
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/asociacion"
+
+- type: matching
+  name: "asociación"
+  questiontext: "¿Cómo están asociadas las resistencias?<br /><table width=\"100%\" border=\"0\"><tbody><tr><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=1, alt='', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">A<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=2, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">F<br /></td></tr><tr><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=3, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">B<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=4, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">G<br /></td></tr><tr><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=5, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">C<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=6, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">H<br /></td></tr><tr><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=7, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">D<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=8, alt='4', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">I<br /></td></tr><tr><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=9, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">E<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: center;\">{{ image(file=10, alt='s', width=150, height=70) }}<br /></td><td width=\"25%\" valign=\"top\" style=\"text-align: left; color: rgb(255, 0, 0); font-weight: bold;\">J<br /></td></tr></tbody></table><br />"
+  defaultgrade: 5.0000000
+  penalty: 1.0000000
+  subquestions: 
+    - text: "{{ image(file=11, alt='A') }}"
+      answer: serie
+    - text: "{{ image(file=12, alt='B') }}"
+      answer: paralelo
+    - text: "{{ image(file=13, alt='C') }}"
+      answer: serie
+    - text: "{{ image(file=14, alt='D') }}"
+      answer: mixto
+    - text: "{{ image(file=15, alt='E') }}"
+      answer: mixto
+    - text: "{{ image(file=16, alt='F') }}"
+      answer: mixto
+    - text: "{{ image(file=17, alt='G') }}"
+      answer: paralelo
+    - text: "{{ image(file=18, alt='H') }}"
+      answer: serie
+    - text: "{{ image(file=19, alt='I') }}"
+      answer: paralelo
+    - text: "{{ image(file=20, alt='J') }}"
+      answer: mixto
+  files:
+    - images/electricidad-serie_paralelo-spm1.gif
+    - images/electricidad-serie_paralelo-spm6.gif
+    - images/electricidad-serie_paralelo-spm2.gif
+    - images/electricidad-serie_paralelo-spm7.gif
+    - images/electricidad-serie_paralelo-spm3.gif
+    - images/electricidad-serie_paralelo-spm8.gif
+    - images/electricidad-serie_paralelo-spm4.gif
+    - images/electricidad-serie_paralelo-spm9.gif
+    - images/electricidad-serie_paralelo-spm5.gif
+    - images/electricidad-serie_paralelo-spm10.gif
+    - images/electricidad-serie_paralelo-spm1.gif
+    - images/electricidad-serie_paralelo-spm2.gif
+    - images/electricidad-serie_paralelo-spm3.gif
+    - images/electricidad-serie_paralelo-spm4.gif
+    - images/electricidad-serie_paralelo-spm5.gif
+    - images/electricidad-serie_paralelo-spm6.gif
+    - images/electricidad-serie_paralelo-spm7.gif
+    - images/electricidad-serie_paralelo-spm8.gif
+    - images/electricidad-serie_paralelo-spm9.gif
+    - images/electricidad-serie_paralelo-spm10.gif
+
+- type: matching
+  name: "asociación 2"
+  questiontext: "Indica si se trata de una asociación en serie, en paralelo o mixta"
+  defaultgrade: 5.0000000
+  penalty: 1.0000000
+  subquestions: 
+    - text: "{{ image(file=1, alt='', width=150, height=70) }}"
+      answer: serie
+    - text: "{{ image(file=2, alt='') }}"
+      answer: paralelo
+    - text: "{{ image(file=3, alt='') }}"
+      answer: serie
+    - text: "{{ image(file=4, alt='') }}"
+      answer: mixto
+    - text: "{{ image(file=5, alt='') }}"
+      answer: mixto
+    - text: "{{ image(file=6, alt='') }}"
+      answer: mixto
+    - text: "{{ image(file=7, alt='') }}"
+      answer: paralelo
+    - text: "{{ image(file=8, alt='') }}"
+      answer: serie
+    - text: "{{ image(file=9, alt='') }}"
+      answer: paralelo
+    - text: "{{ image(file=10, alt='') }}"
+      answer: mixto
+    - text: "Los elementos asociados son independientes"
+      answer: paralelo
+    - text: "Tengo dos bombillas asociadas, se funde una y la otra sigue funionando"
+      answer: paralelo
+    - text: "Tengo dos bombillas asociadas, se funde una y la otra ya no luce funionando"
+      answer: serie
+    - text: "Los elementos asociados son independientes"
+      answer: paralelo
+  files:
+    - images/electricidad-serie_paralelo-spm1.gif
+    - images/electricidad-serie_paralelo-spm2.gif
+    - images/electricidad-serie_paralelo-spm3.gif
+    - images/electricidad-serie_paralelo-spm4.gif
+    - images/electricidad-serie_paralelo-spm5.gif
+    - images/electricidad-serie_paralelo-spm6.gif
+    - images/electricidad-serie_paralelo-spm7.gif
+    - images/electricidad-serie_paralelo-spm8.gif
+    - images/electricidad-serie_paralelo-spm9.gif
+    - images/electricidad-serie_paralelo-spm10.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: matching
+  name: "diferencia pulsador-interruptor"
+  questiontext: "<p>Selecciona la opción correcta:<br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>Al pulsar el pulsador<br></p>"
+      answer: Cambia de posición
+    - text: "<p>Al pulsar el interruptor<br></p>"
+      answer: Cambia de posición
+    - text: "<p>Al pulsar y luego soltar el pulsador<br></p>"
+      answer: Recupera la posición en que está dibujado
+    - text: "<p>Al pulsar y luego soltar un interruptor<br></p>"
+      answer: Cambia de posición y permanece en ella
+    - text: "<p>El símbolo del pulsador<br></p>"
+      answer: Tiene botón
+    - text: "<p>El símbolo de un interruptor<br></p>"
+      answer: No tiene botón
+
+- type: matching
+  name: "errores frecuentes"
+  questiontext: "<p></p><h2><span style=\"color: inherit; font-family: inherit; font-size: 2rem;\">Errores frecuentes</span><br></h2><div>Algunos de los errores frecuentes al dibujar esquemas eléctricos son:</div><div><ul><li>Hacer cortocircuitos. Esto es, dibujar caminos que permiten en reposo o al pulsar elementos de maniobra recorrer el circuito sin pasar por elementos receptores. Este es el peor de los errores. En la práctica el generador se estropea y si este es potente puede ser peligroso.</li><li>Dibujar mal los elementos eléctricos</li><li>No conectar bien los elementos.</li></ul><div><br> </div></div><br><p></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>{{ image(file=1, alt='1', width=164, height=175) }}<br></p>"
+      answer: Cortocircuito
+    - text: "<p>{{ image(file=2, alt='2', width=155, height=167) }}<br></p>"
+      answer: Mal dibujados los símbolos
+    - text: "<p>{{ image(file=3, alt='2', width=212, height=208) }}<br></p>"
+      answer: Cortocircuito
+    - text: "<p>{{ image(file=4, alt='1', width=189, height=177) }}<br></p>"
+      answer: Está bien
+    - text: "<p>{{ image(file=5, alt='1', width=169, height=169) }}<br></p>"
+      answer: Está bien
+    - text: "<p>{{ image(file=6, alt='1', width=155, height=165) }}<br></p>"
+      answer: Está bien
+    - text: "<p>{{ image(file=7, alt='1', width=165, height=178) }}<br></p>"
+      answer: Cortocircuito
+    - text: "<p>{{ image(file=8, alt='1', width=162, height=166) }}<br></p>"
+      answer: Mala conexión
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo6.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo10.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo3.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo5.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo7.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo8.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo9.png
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo4.png
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: matching
+  name: "fuerzas"
+  questiontext: "¿Qué sucede si a tenemos cerca ..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  subquestions: 
+    - text: "dos cargas positivas"
+      answer: se repelen
+    - text: "dos cargas negativas"
+      answer: se repelen
+    - text: "una carga negativa y una positiva"
+      answer: se atraen
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: matching
+  name: "funcionamiento pulsadores e interruptores"
+  questiontext: "<p>Selecciona la opción correcta<br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>Interruptor A<br></p>"
+      answer: No deja pasar la electricidad
+    - text: "<p>Pulsador NA<br></p>"
+      answer: No deja pasar la electricidad
+    - text: "<p>Interruptor NC<br></p>"
+      answer: el nombre no es correcto
+    - text: "<p>Interruptor C<br></p>"
+      answer: deja pasar la electricidad
+    - text: "<p>Pulsador NC<br></p>"
+      answer: deja pasar la electricidad
+    - text: "<p>Pulsador A<br></p>"
+      answer: el nombre no es correcto
+
+- type: matching
+  name: "receptores 1"
+  questiontext: "<br><div><div>¿En qué transforman la energía eléctrica los diferentes receptores?</div></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>Motor</p>"
+      answer: en movimiento
+    - text: "<p>Bombilla</p>"
+      answer: en luz
+    - text: "<p>Resistencia</p>"
+      answer: en calor
+    - text: "<p>Timbre</p>"
+      answer: en sonido
+
+- type: matching
+  name: "Receptores 2"
+  questiontext: "<p>Empareja:<br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>pila<br></p>"
+      answer: generador
+    - text: "<p>motor<br></p>"
+      answer: receptor
+    - text: "<p>bombilla<br></p>"
+      answer: receptor
+    - text: "<p>timbre<br></p>"
+      answer: receptor
+    - text: "<p>pulsador<br></p>"
+      answer: elemento de maniobra
+    - text: "<p>interruptor<br></p>"
+      answer: elemento de maniobra
+    - text: "<p>conmutador<br></p>"
+      answer: elemento de maniobra
+
+- type: matching
+  name: "símbolos 1"
+  questiontext: "<p>Identifica los símbolos:<br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  subquestions: 
+    - text: "<p>{{ image(file=1, alt='s1', width=84, height=54) }}<br></p>"
+      answer: motor
+    - text: "<p>{{ image(file=2, alt='s1', width=84, height=54) }}<br></p>"
+      answer: bombilla
+    - text: "<p>{{ image(file=3, alt='s', width=76, height=70) }}<br></p>"
+      answer: timbre
+    - text: "<p>{{ image(file=4, alt='s', width=47, height=55) }}<br></p>"
+      answer: pila
+    - text: "<p>{{ image(file=5, alt='s', width=100, height=40) }}<br></p>"
+      answer: resistencia
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s4.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s1.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s12.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/s6.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/resistencia.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: matching
+  name: "tipo de material"
+  questiontext: "Indica si es conductor o aislante"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  subquestions: 
+    - text: "Cobre"
+      answer: conductor
+    - text: "Mina del lápiz"
+      answer: conductor
+    - text: "Plástico"
+      answer: aislante
+    - text: "papel de alumnio"
+      answer: conductor
+    - text: "Hierro"
+      answer: conductor
+    - text: "Madera"
+      answer: aislante
+    - text: "Papel"
+      answer: aislante
+    - text: "Yeso"
+      answer: aislante
+    - text: "Plomo"
+      answer: conductor
+
+- type: matching
+  name: "tipo elemento"
+  questiontext: "Inica de qué tipo de elemento se trata"
+  defaultgrade: 3.0000000
+  penalty: 1.0000000
+  subquestions: 
+    - text: "Bombilla"
+      answer: receptor
+    - text: "Motor"
+      answer: receptor
+    - text: "Timbre"
+      answer: receptor
+    - text: "Resistencia"
+      answer: receptor
+    - text: "Pila"
+      answer: generador
+    - text: "Dinamo"
+      answer: generador
+    - text: "Pulsador"
+      answer: elemento de maniobra
+    - text: "Interruptor"
+      answer: elemento de maniobra
+    - text: "Conmutador"
+      answer: elemento de maniobra
+
+- type: matching
+  name: "tipo elemento nombre"
+  questiontext: "¿Qué tipo de elemento son?"
+  defaultgrade: 2.0000000
+  penalty: 0.1000000
+  subquestions: 
+    - text: "Pila"
+      answer: elemento generador
+    - text: "Motor"
+      answer: elemento receptor
+    - text: "Bombilla"
+      answer: elemento receptor
+    - text: "timbre"
+      answer: elemento receptor
+    - text: "Interruptor"
+      answer: elemento de maniobra
+    - text: "Pulsador"
+      answer: elemento de maniobra
+
+- type: matching
+  name: "transformación en receptores"
+  questiontext: "En qué transforman los siguientes receptores la energía eléctrica"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  subquestions: 
+    - text: "Motor"
+      answer: Movimiento
+    - text: "Bombilla"
+      answer: Luz
+    - text: "Timbre"
+      answer: Sonido
+    - text: "Resistencia"
+      answer: Calor
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: multichoice
+  name: "¿esquema?"
+  questiontext: "<p><p>¿El siguiente dibujo es un esquema?</p><p>{{ image(file=1, alt='1', width=150, height=119) }}</p><p><br> </p><br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: 100
+      text: "<p>No</p>"
+      feedback: 
+    - fraction: -100
+      text: "<p>Sí</p>"
+      feedback: 
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/simbolos/dibujo1.png
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2"
+
+- type: multichoice
+  name: "2 bombillas dependientes interruptor"
+  questiontext: "Qué esquema representa un circuito en el que dos bombillas se controlan simultáneamente mediante un interruptor<br><br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 60
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: Mientras no haya razones de peso, los receptores deben ponerse en paralelo.
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=7, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d49.gif
+    - images/electricidad-diseno-d48.gif
+    - images/electricidad-diseno-d38.gif
+    - images/electricidad-diseno-d51.gif
+    - images/electricidad-diseno-d52.gif
+    - images/electricidad-diseno-d53.gif
+    - images/electricidad-diseno-d56.gif
+
+- type: multichoice
+  name: "2 bombillas dependientes pulsador"
+  questiontext: "Qué esquema representa un circuito en el que dos bombillas se controlan simultáneamente mediante un pulsador NA<br><br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 60
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: Los receptores deben poner se en paralelo excepto si el diseño exige que no sea así.
+  files:
+    - images/electricidad-diseno-d49.gif
+    - images/electricidad-diseno-d48.gif
+    - images/electricidad-diseno-d38.gif
+    - images/electricidad-diseno-d51.gif
+    - images/electricidad-diseno-d52.gif
+    - images/electricidad-diseno-d53.gif
+
+- type: multichoice
+  name: "2 bombillas independientes interruptor"
+  questiontext: "Qué esquema representa un circuito en el que dos bombillas se pueden encender de manera independiente con interruptores<br><br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d49.gif
+    - images/electricidad-diseno-d48.gif
+    - images/electricidad-diseno-d38.gif
+    - images/electricidad-diseno-d51.gif
+    - images/electricidad-diseno-d52.gif
+    - images/electricidad-diseno-d53.gif
+
+- type: multichoice
+  name: "2 bombillas independientes pulsador NA"
+  questiontext: "Qué esquema representa un circuito en el que dos bombillas se pueden encender de manera independiente pulsadores NA.<br><br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d49.gif
+    - images/electricidad-diseno-d48.gif
+    - images/electricidad-diseno-d38.gif
+    - images/electricidad-diseno-d51.gif
+    - images/electricidad-diseno-d52.gif
+    - images/electricidad-diseno-d53.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3"
+
+- type: multichoice
+  name: "2 bombillas serie"
+  questiontext: "Qué esquema representa un circuito en que dos bombillas están en serie y se controlan con un pulsador NA"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d53.gif
+    - images/electricidad-diseno-d52.gif
+    - images/electricidad-diseno-d51.gif
+    - images/electricidad-diseno-d49.gif
+    - images/electricidad-diseno-d56.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2"
+
+- type: multichoice
+  name: "2 motores dependientes"
+  questiontext: "Qué esquema representa un circuito en el que dos motores se controlan de manera simultanea con elementos de maniobra"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=7, alt='d') }}"
+      feedback: Mientras el enunciado no exija lo contrario, los receptores deben ponerse en paralelo
+  files:
+    - images/electricidad-diseno-d46.gif
+    - images/electricidad-diseno-d47.gif
+    - images/electricidad-diseno-d46.gif
+    - images/electricidad-diseno-d50.gif
+    - images/electricidad-diseno-d57.gif
+    - images/electricidad-diseno-d40.gif
+    - images/electricidad-diseno-d54.gif
+
+- type: multichoice
+  name: "2 motores independientes"
+  questiontext: "Qué esquema representa un circuito en el que dos motores se controlan independientemente con elementos de maniobra"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=7, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d46.gif
+    - images/electricidad-diseno-d47.gif
+    - images/electricidad-diseno-d55.gif
+    - images/electricidad-diseno-d50.gif
+    - images/electricidad-diseno-d57.gif
+    - images/electricidad-diseno-d50.gif
+    - images/electricidad-diseno-d40.gif
+
+- type: multichoice
+  name: "2 motores serie"
+  questiontext: "Qué esquema representa un circuito en el que dos motores controlados por un interruptor están en serie."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d54.gif
+    - images/electricidad-diseno-d55.gif
+    - images/electricidad-diseno-d50.gif
+    - images/electricidad-diseno-d57.gif
+    - images/electricidad-diseno-d47.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2/reconocer circuitos nivel 1"
+
+- type: multichoice
+  name: "bombilla Interruptor A"
+  questiontext: "Qué esquema representa&nbsp;un circuito con una bombilla alimentada por una pila y controlada por un interruptor A<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d6.gif
+    - images/electricidad-diseno-d9.gif
+    - images/electricidad-diseno-d12.gif
+    - images/electricidad-diseno-d15.gif
+
+- type: multichoice
+  name: "bombilla Interruptor C"
+  questiontext: "Qué esquema representa un circuito con una bombilla alimentada por una pila y controlada por un interruptor C<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d6.gif
+    - images/electricidad-diseno-d9.gif
+    - images/electricidad-diseno-d12.gif
+    - images/electricidad-diseno-d15.gif
+
+- type: multichoice
+  name: "bombilla motor conmutador"
+  questiontext: "Qué esquema representa un circuito con un motor y una bombilla controlados por un conmutador. Cuando se acciona el conmutador cambia el receptor que funciona.<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d18.gif
+    - images/electricidad-diseno-d30.gif
+    - images/electricidad-diseno-d21.gif
+    - images/electricidad-diseno-d24.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3"
+
+- type: multichoice
+  name: "bombilla NA motor NC"
+  questiontext: "Qué esquema representa un circuito en el que un motor está siempre encendida exepto cuando se pulsa un pulsador. Además hay una bombilla que funciona únicamente cuando se pulsa otro pulsador<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d58.gif
+    - images/electricidad-diseno-d33.gif
+    - images/electricidad-diseno-d21.gif
+    - images/electricidad-diseno-d24.gif
+    - images/electricidad-diseno-d27.gif
+    - images/electricidad-diseno-d30.gif
+
+- type: multichoice
+  name: "bombilla NC motor NA"
+  questiontext: "Qué esquema representa un circuito en el que una bombilla está siempre encendida excepto cuando se pulsa un pulsador. Además hay un motor que funciona únicamente cuando se pulsa otro pulsador<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=5, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=6, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d58.gif
+    - images/electricidad-diseno-d33.gif
+    - images/electricidad-diseno-d21.gif
+    - images/electricidad-diseno-d24.gif
+    - images/electricidad-diseno-d27.gif
+    - images/electricidad-diseno-d30.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2/reconocer circuitos nivel 1"
+
+- type: multichoice
+  name: "bombilla pulsador NA"
+  questiontext: "Qué esquema representa un circuito con una bombilla alimentada por una pila y controlada por un pulsador NA<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d6.gif
+    - images/electricidad-diseno-d9.gif
+    - images/electricidad-diseno-d12.gif
+    - images/electricidad-diseno-d15.gif
+
+- type: multichoice
+  name: "bombilla pulsador NC"
+  questiontext: "Qué esquema representa un circuito con una bombilla alimentada por una pila y controlada por un pulsador NC<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d6.gif
+    - images/electricidad-diseno-d9.gif
+    - images/electricidad-diseno-d12.gif
+    - images/electricidad-diseno-d15.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3"
+
+- type: multichoice
+  name: "bombilla timbre conmutador"
+  questiontext: "Qué esquema representa un circuito en el que una bombilla está encendida, pero al accionar un elemento de maniobra se apaga y suena un timbre<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='') }}<br />"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='') }}<br />"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='') }}<br />"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='') }}<br />"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d17.gif
+    - images/electricidad-diseno-d20.gif
+    - images/electricidad-diseno-d26.gif
+    - images/electricidad-diseno-d29.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2/interpretación de circuitos nivel 1"
+
+- type: multichoice
+  name: "c1 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c1 funcionamiento pulsar B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2"
+
+- type: multichoice
+  name: "c1 funcionamiento pulsar B y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B y soltar?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2/interpretación de circuitos nivel 1"
+
+- type: multichoice
+  name: "c1 funcionamiento pulsar E y B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E y B?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 50
+      text: "C"
+      feedback: 
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c1 funcionamiento pulsar E y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E y luego soltar?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c1 funcionar bombilla"
+  questiontext: "<div>¿Qué elementos de maniobra hay que accionar para que Funcione la bombilla</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "A"
+      feedback: A no es un elemento de maniobra
+    - fraction: 100
+      text: "B"
+      feedback: 
+    - fraction: 0
+      text: "C"
+      feedback: C no es un elemento de maniobra
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: 0
+      text: "E"
+      feedback: 
+    - fraction: 0
+      text: "Ninguno, ya está funcionando"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c1 funcionar motor"
+  questiontext: "<div>¿Qué elementos de maniobra hay que accionar para que Funcione la bombilla</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "A"
+      feedback: A no es un elemento de maniobra
+    - fraction: 100
+      text: "B"
+      feedback: 
+    - fraction: 0
+      text: "C"
+      feedback: C no es un elemento de maniobra
+    - fraction: 0
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: 0
+      text: "Ninguno, ya está funcionando"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c1 uncionamiento pulsar E"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E?</div>{{ image(file=1, alt='circuito 1', width=300, height=264) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c1.gif
+
+- type: multichoice
+  name: "c2 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: multichoice
+  name: "c2 funcionamiento Pulsar B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2"
+
+- type: multichoice
+  name: "c2 funcionamiento Pulsar B y E"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B y E?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: multichoice
+  name: "c2 funcionamiento Pulsar B y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B y luego soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2/interpretación de circuitos nivel 1"
+
+- type: multichoice
+  name: "c2 funcionamiento pulsar E"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 50
+      text: "C"
+      feedback: 
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2"
+
+- type: multichoice
+  name: "c2 funcionamiento pulsar E y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E y luego soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B  no es un receptor
+    - fraction: 100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c2.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2/interpretación de circuitos nivel 1"
+
+- type: multichoice
+  name: "c3 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: No es un receptor
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c3.gif
+
+- type: multichoice
+  name: "c3 funcionamiento pulsar C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: No es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c3.gif
+
+- type: multichoice
+  name: "c4 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: multichoice
+  name: "c4 funcionamiento pulsar C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 50
+      text: "B"
+      feedback: 
+    - fraction: -50
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: -50
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -50
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2"
+
+- type: multichoice
+  name: "c4 funcionamiento pulsar C y E"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C y  E?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: multichoice
+  name: "c4 funcionamiento pulsar C y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C y soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 50
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2/interpretación de circuitos nivel 1"
+
+- type: multichoice
+  name: "c4 funcionamiento pulsar E"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3/interpretación de circuitos nivel 2"
+
+- type: multichoice
+  name: "c4 funcionamiento pulsar E y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar E y luego soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c4.gif
+
+- type: multichoice
+  name: "c5 funcionamiento  pulsar  F y G"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar F y G?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -25
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 25
+      text: "B"
+      feedback: 
+    - fraction: 25
+      text: "C"
+      feedback: 
+    - fraction: 25
+      text: "D"
+      feedback: 
+    - fraction: 25
+      text: "E"
+      feedback: 
+    - fraction: -25
+      text: "F"
+      feedback: F no es un receptor
+    - fraction: -25
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: -25
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: multichoice
+  name: "c5 funcionamiento  pulsar G"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar G?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -50
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -50
+      text: "B"
+      feedback: 
+    - fraction: -50
+      text: "C"
+      feedback: 
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: 50
+      text: "E"
+      feedback: 
+    - fraction: -50
+      text: "F"
+      feedback: F no es un receptor
+    - fraction: -50
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: -50
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: multichoice
+  name: "c5 funcionamiento  pulsar G y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar G y soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: 50
+      text: "D"
+      feedback: 
+    - fraction: 50
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un receptor
+    - fraction: -100
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: -100
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: multichoice
+  name: "c5 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E&nbsp; <br>
+    - fraction: -100
+      text: "<br>"
+      feedback: F no es un receptor
+    - fraction: -100
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: 100
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: multichoice
+  name: "c5 funcionamiento pulsar F"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar F?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 50
+      text: "B"
+      feedback: 
+    - fraction: 50
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "F"
+      feedback: F no es un receptor
+    - fraction: -100
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: -100
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: multichoice
+  name: "c5 funcionamiento pulsar F y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar F y soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 50
+      text: "B"
+      feedback: 
+    - fraction: 50
+      text: "C"
+      feedback: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: E  no es un receptor
+    - fraction: -100
+      text: "F"
+      feedback: F no es un receptor
+    - fraction: -100
+      text: "G"
+      feedback: G no es un receptor
+    - fraction: -100
+      text: "ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/interpretación circuitos nivel 3"
+
+- type: multichoice
+  name: "c6 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -33.33333
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -33.33333
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -33.33333
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: 33.33333
+      text: "F"
+      feedback: 
+    - fraction: -33.33333
+      text: "G"
+      feedback: 
+    - fraction: -33.33333
+      text: "H"
+      feedback: 
+    - fraction: -33.33333
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -33.33333
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar A"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: 100
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar A y B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A y B?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: 
+    - fraction: 100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar A y C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A y C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -50
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -50
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -50
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -50
+      text: "D"
+      feedback: 
+    - fraction: -50
+      text: "E"
+      feedback: 
+    - fraction: 50
+      text: "F"
+      feedback: 
+    - fraction: -50
+      text: "G"
+      feedback: 
+    - fraction: 50
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -50
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar A, B y C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A y C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: 50
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: 50
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -33.33333
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -33.33333
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -33.33333
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: -33.33333
+      text: "F"
+      feedback: 
+    - fraction: 33.33333
+      text: "G"
+      feedback: 
+    - fraction: -33.33333
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -33.33333
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C y soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: 33.33333
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c6 funcionamiento pulsar C y soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar c y soltar?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: B no es un receptor
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: 33.33333
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+    - fraction: 0
+      text: "J"
+      feedback: J no es un receptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "c7 para que funcione el  timbre"
+  questiontext: "¿Qué elementos de maniobra hay que pulsar para que funcione el timbre?<div>{{ image(file=1, alt='circuito', width=265, height=270) }}<br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "Nada ya está funcionando"
+      feedback: 
+    - fraction: -100
+      text: "el pulsador"
+      feedback: 
+    - fraction: -100
+      text: "el conmutador"
+      feedback: 
+    - fraction: -100
+      text: "Es imposible"
+      feedback: 
+    - fraction: 100
+      text: "el pulsador y el conmutador"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c7.gif
+
+- type: multichoice
+  name: "c7 para que funcione el moto y el timbrer"
+  questiontext: "¿Qué elementos de maniobra hay que pulsar para que funcione el motor y el timbre a la vez?<div>{{ image(file=1, alt='circuito', width=265, height=270) }}<br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "Nada ya están funcionando"
+      feedback: 
+    - fraction: -100
+      text: "el pulsador"
+      feedback: 
+    - fraction: -100
+      text: "el conmutador"
+      feedback: 
+    - fraction: 100
+      text: "Es imposible"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c7.gif
+
+- type: multichoice
+  name: "c7 para que funcione el motor"
+  questiontext: "¿Qué elementos de maniobra hay que pulsar para que funcione el motor?<div>{{ image(file=1, alt='circuito', width=265, height=270) }}<br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: 100
+      text: "Nada ya está funcionando"
+      feedback: 
+    - fraction: -100
+      text: "el pulsador"
+      feedback: 
+    - fraction: -100
+      text: "el conmutador"
+      feedback: 
+    - fraction: -100
+      text: "Es imposible"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c7.gif
+
+- type: multichoice
+  name: "c8 funcionamiento en reposo"
+  questiontext: "<div>¿Qué receptores funcionan sin pulsar nada?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: multichoice
+  name: "c8 funcionamiento pulsar A"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: multichoice
+  name: "c8 funcionamiento pulsar A y C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A y C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: 100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: multichoice
+  name: "c8 funcionamiento pulsar C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: multichoice
+  name: "c8 funcionamiento pulsar D"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar D?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: 100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: multichoice
+  name: "c8 funcionamiento pulsar F"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar F?</div>{{ image(file=1, alt='circuito 1') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "A"
+      feedback: A no es un receptor
+    - fraction: -100
+      text: "B"
+      feedback: 
+    - fraction: -100
+      text: "C"
+      feedback: C no es un receptor
+    - fraction: -100
+      text: "D"
+      feedback: D no es un receptor
+    - fraction: 100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: F no es un  reeptor
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c8.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: multichoice
+  name: "Dibujo de esquemas"
+  questiontext: "<p>¿Qué esquema cumple las siguientes condiciones?</p><p><span style=\"font-size: 1rem;\">Tiene una pila, un motor y un pulsador NA&nbsp;</span></p><p><span style=\"font-size: 1rem;\">Si pulsamos el pulsador, el motor se mueve y si no lo pulsamos no.</span></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: 100
+      text: "<p>{{ image(file=1, alt='sol?') }}<br></p>"
+      feedback: <p>Bien</p>
+    - fraction: -100
+      text: "<p>{{ image(file=2, alt='sol?') }}<br></p>"
+      feedback: <p>Mal. Este pulsador es NC</p>
+    - fraction: -100
+      text: "<p>{{ image(file=3, alt='sol?') }}<br></p>"
+      feedback: <p>Mal. Ese elemento de maniobra es un interruptor.<br></p>
+    - fraction: 100
+      text: "<p>{{ image(file=4, alt='sol?') }}<br></p>"
+      feedback: <p>Bien</p>
+    - fraction: -100
+      text: "<p>{{ image(file=5, alt='sol?') }}<br></p>"
+      feedback: <p>El receptor no es un motor sino un timbre.</p>
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/circuitos_simples/d1.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/circuitos_simples/d2.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/circuitos_simples/d3.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/circuitos_simples/d4.gif
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/circuitos_simples/d5.gif
+
+- type: multichoice
+  name: "Interpretación de esquemas 1"
+  questiontext: "<p><h2>Interpretación de esquemas</h2><div>Para interpretar un esquema hay que recorrer el circuito &nbsp;saliendo de un extremo de la pila &nbsp;e intentar llegar al otro extremo. Si lo conseguimos, todos los receptores que hayamos atravesado funcionarán y los que no, no lo harán.</div><div><br></div><div>Indica en el siguiente esquema qué receptores funcionarán sin pulsar nada</div><h2>{{ image(file=1, alt='4', width=300, height=263) }}</h2><br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: -100
+      text: "<p>El B</p>"
+      feedback: 
+    - fraction: 100
+      text: "<p>El D</p>"
+      feedback: 
+    - fraction: -100
+      text: "<p>El B y el D</p>"
+      feedback: 
+    - fraction: -100
+      text: "<p>Ninguno</p>"
+      feedback: 
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/c4.gif
+
+- type: multichoice
+  name: "interpretación esquemas 2"
+  questiontext: "<p><h2>Interpretación de esquemas</h2><div>Cuando se pulsan elementos de maniobra, su posición será la contraria a la que tienen en el dibujo.</div><div><br></div><div>Indica en el siguiente esquema qué receptores funcionarán al pulsar E</div><h2>{{ image(file=1, alt='4', width=300, height=263) }}</h2><br></p>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: -100
+      text: "<p>El B</p>"
+      feedback: 
+    - fraction: -100
+      text: "<p>El D</p>"
+      feedback: 
+    - fraction: -100
+      text: "<p>El B y el D</p>"
+      feedback: 
+    - fraction: 100
+      text: "<p>Ninguno</p>"
+      feedback: 
+  files:
+    - http://51.254.221.51/html/av33/file.php/44/electricidad/circuitos/c4.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2/reconocer circuitos nivel 1"
+
+- type: multichoice
+  name: "motor Interruptor A"
+  questiontext: "Qué esquema representa un circuito con un motor alimentado por una pila y controlado por un interruptor A<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d4.gif
+    - images/electricidad-diseno-d7.gif
+    - images/electricidad-diseno-d10.gif
+    - images/electricidad-diseno-d13.gif
+
+- type: multichoice
+  name: "motor Interruptor C"
+  questiontext: "Qué esquema representa un circuito con un motor alimentado por una pila y controlado por un interruptor C<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d4.gif
+    - images/electricidad-diseno-e5.gif
+    - images/electricidad-diseno-d10.gif
+    - images/electricidad-diseno-d7.gif
+
+- type: multichoice
+  name: "motor pulsador NA"
+  questiontext: "Qué esquema representa un circuito con un motor alimentado por una pila y controlado por un pulsador NA<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d4.gif
+    - images/electricidad-diseno-d7.gif
+    - images/electricidad-diseno-d10.gif
+    - images/electricidad-diseno-e5.gif
+
+- type: multichoice
+  name: "motor pulsador NC"
+  questiontext: "Qué esquema representa un circuito con un motor alimentado por una pila y controlado por un pulsador NC<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d4.gif
+    - images/electricidad-diseno-d7.gif
+    - images/electricidad-diseno-d10.gif
+    - images/electricidad-diseno-e5.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: multichoice
+  name: "pila"
+  questiontext: "<br><div>¿Que tipo de elemento es una pila?</div>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: 100
+      text: "<p>Un generador</p>"
+      feedback: 
+    - fraction: 0
+      text: "<p>Un receptor</p>"
+      feedback: 
+    - fraction: 0
+      text: "<p>Un elemento de maniobra</p>"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 6"
+
+- type: multichoice
+  name: "pulsar A"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A? Indica la letra que acompaña al símbolo en el esquema.</div><div><br /></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: 100
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "pulsar A y B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar A y B? </div><div><br /></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: -100
+      text: "F"
+      feedback: 
+    - fraction: 100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "pulsar B"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar B?</div><div><br></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: -33.33333
+      text: "F"
+      feedback: 
+    - fraction: 33.33333
+      text: "G"
+      feedback: 
+    - fraction: -33.33333
+      text: "H"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "pulsar C"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C?</div><div><br /></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: -100
+      text: "D"
+      feedback: 
+    - fraction: -100
+      text: "E"
+      feedback: 
+    - fraction: 50
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: 50
+      text: "H"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "pulsar C y luego soltar"
+  questiontext: "<div>¿Qué receptores funcionan al pulsar C y luego soltar?</div><div><br /></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: 33.33333
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: multichoice
+  name: "reposo"
+  questiontext: "<div>¿Qué receptores en situación de reposo, sin pulsar nada?</div><div><br /></div>{{ image(file=1, alt='1', width=456, height=275) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  single: false
+  answers: 
+    - fraction: 33.33333
+      text: "D"
+      feedback: 
+    - fraction: 33.33333
+      text: "E"
+      feedback: 
+    - fraction: 33.33333
+      text: "F"
+      feedback: 
+    - fraction: -100
+      text: "G"
+      feedback: 
+    - fraction: -100
+      text: "H"
+      feedback: 
+    - fraction: -100
+      text: "Ninguno"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/reconocer  circuitos nivel 3/reconocer circuitos nivel2/reconocer circuitos nivel 1"
+
+- type: multichoice
+  name: "timbre interruptor A"
+  questiontext: "Qué esquema representa un circuito con un timbre alimentado por una pila y controlada por un interruptor A<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 100
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d2.gif
+    - images/electricidad-diseno-d5.gif
+    - images/electricidad-diseno-d8.gif
+    - images/electricidad-diseno-d11.gif
+
+- type: multichoice
+  name: "timbre interruptor C"
+  questiontext: "¿Qué esquema representa un circuito con un timbre alimentado por una pila y controlada por un interruptor C?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d2.gif
+    - images/electricidad-diseno-d5.gif
+    - images/electricidad-diseno-d8.gif
+    - images/electricidad-diseno-d11.gif
+
+- type: multichoice
+  name: "timbre pulsador NA"
+  questiontext: "Qué esquema representa un circuito con un timbre alimentado por una pila y controlada por un pulsador NA<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d2.gif
+    - images/electricidad-diseno-d5.gif
+    - images/electricidad-diseno-d8.gif
+    - images/electricidad-diseno-d11.gif
+
+- type: multichoice
+  name: "timbre pulsador NC"
+  questiontext: "Qué esquema representa un circuito con un timbre alimentado por una pila y controlada por un pulsador NC<br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  single: true
+  answers: 
+    - fraction: 0
+      text: "{{ image(file=1, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=2, alt='d') }}"
+      feedback: 
+    - fraction: 0
+      text: "{{ image(file=3, alt='d') }}"
+      feedback: 
+    - fraction: 100
+      text: "{{ image(file=4, alt='d') }}"
+      feedback: 
+  files:
+    - images/electricidad-diseno-d2.gif
+    - images/electricidad-diseno-d5.gif
+    - images/electricidad-diseno-d8.gif
+    - images/electricidad-diseno-d11.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/Esquema eléctrico"
+
+- type: multichoice
+  name: "unidad tensión"
+  questiontext: "<br><div>¿Cómo se llama la magnitud que indica la \"fuerza\" con la que se empujan las cargas por un circuito?</div>"
+  defaultgrade: 1.0000000
+  penalty: 0.3333333
+  single: true
+  answers: 
+    - fraction: 100
+      text: "<p>Tensión</p>"
+      feedback: 
+    - fraction: 0
+      text: "<p>Intensidad</p>"
+      feedback: 
+    - fraction: 0
+      text: "<p>Resistencia</p>"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 3"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 5"
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "aislantes"
+  questiontext: "¿Cómo se llaman los materiales que no dejan pasar la electricidad?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "aislantes"
+      feedback: 
+    - fraction: 100
+      text: "materiales aislantes"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "asociacion B y C"
+  questiontext: "B y C están asociados en..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "serie"
+      feedback: 
+
+- type: shortanswer
+  name: "asociacion b y d"
+  questiontext: "B y D están asociados en..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "paralelo"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "cables"
+  questiontext: "Los distintos elementos de un circuito eléctrico se unen con..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "cables"
+      feedback: 
+    - fraction: 100
+      text: "conductores"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/asociacion"
+
+- type: shortanswer
+  name: "circuito 5  dependientes"
+  questiontext: "¿D y E son dependientes o independientes?<br />{{ image(file=1, alt='c', width=400, height=279) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "dependientes"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: shortanswer
+  name: "circuito 5 independientes"
+  questiontext: "¿B y C son dependientes o independientes?<br />{{ image(file=1, alt='c', width=400, height=279) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "independientes"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: shortanswer
+  name: "circuito 5 paralelo"
+  questiontext: "<br /><br />¿Cómo están asociados B y C?<br />{{ image(file=1, alt='c', width=400, height=279) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "en paralelo"
+      feedback: 
+    - fraction: 100
+      text: "paralelo"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: shortanswer
+  name: "circuito 5 serie"
+  questiontext: "<br /><br />¿Cómo están asociados D y E?<br />{{ image(file=1, alt='c', width=400, height=279) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "en serie"
+      feedback: 
+    - fraction: 100
+      text: "serie"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c5.gif
+
+- type: shortanswer
+  name: "circuito 6  dependientes"
+  questiontext: "¿D y E son dependientes o independientes?<br />{{ image(file=1, alt='c') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "dependientes"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: shortanswer
+  name: "circuito 6  dependientes 2"
+  questiontext: "¿B y F son dependientes o independientes?<br />{{ image(file=1, alt='c') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "dependientes"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: shortanswer
+  name: "circuito 6  independientes"
+  questiontext: "¿D y F son dependientes o independientes?<br />{{ image(file=1, alt='c') }}"
+  defaultgrade: 1.0000000
+  penalty: 1.0000000
+  answers: 
+    - fraction: 100
+      text: "independientes"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: shortanswer
+  name: "circuito 6  serie"
+  questiontext: "¿cómo están asociados D y E?<br />{{ image(file=1, alt='c') }}"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "en serie"
+      feedback: 
+  files:
+    - images/electricidad-circuitos-c6.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "Conductores"
+  questiontext: "¿Cómo se llaman los materiales que dejen pasar la electricidad?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "conductores"
+      feedback: 
+    - fraction: 100
+      text: "materiales conductores"
+      feedback: 
+
+- type: shortanswer
+  name: "electrones"
+  questiontext: "¿Cómo se llaman las partículas atómicas que tienen carga negativa?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "electrones"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: shortanswer
+  name: "elemento int A"
+  questiontext: "¿Cómo se llama el elemento de maniobra que deja pasar la electricidad si se pulsa y una vez soltado continúa dejando pasar la electricidad?<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Interruptor A"
+      feedback: 
+
+- type: shortanswer
+  name: "elemento int c"
+  questiontext: "¿Cómo se llama el elemento B?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Interruptor C"
+      feedback: 
+
+- type: shortanswer
+  name: "elemento pulsador na"
+  questiontext: "¿Cómo se llama el elemento E?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Pulsador NA"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "elemeto bombilla"
+  questiontext: "¿Cómo se llama el elemento C?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "bombilla"
+      feedback: 
+
+- type: shortanswer
+  name: "elemeto int A"
+  questiontext: "¿Cómo se llama el elemento B?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "interruptor A"
+      feedback: 
+    - fraction: 100
+      text: "Interruptor abierto"
+      feedback: 
+    - fraction: 60
+      text: "interruptor"
+      feedback: ¿Abierto o cerrado?
+
+- type: shortanswer
+  name: "elemeto motor"
+  questiontext: "¿Cómo se llama el elemento D?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "motor"
+      feedback: 
+
+- type: shortanswer
+  name: "elemeto pila"
+  questiontext: "¿Cómo se llama el elemento A?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "pila"
+      feedback: 
+
+- type: shortanswer
+  name: "elemeto pul NA"
+  questiontext: "¿Cómo se llama el elemento E?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Pulsador NA"
+      feedback: 
+    - fraction: 100
+      text: "Pulsador normalmente abierto"
+      feedback: 
+    - fraction: 60
+      text: "pulsador"
+      feedback: ¿Normalmente abierto o normalmente cerrado?
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: shortanswer
+  name: "Funcionamiento B"
+  questiontext: "¿Qué receptores funcionan si se pulsa B? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+
+- type: shortanswer
+  name: "Funcionamiento B2"
+  questiontext: "¿Qué receptores funcionan si se pulsa B y luego se suelta? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+
+- type: shortanswer
+  name: "Funcionamiento B2 E"
+  questiontext: "¿Qué receptores funcionan si se pulsa B, luego se suelta y se pulsa E? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "funcionamiento c"
+  questiontext: "¿Qué receptores funcionan si se pulsa C? <div><br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B y D"
+      feedback: 
+    - fraction: 100
+      text: "D y B"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "funcionamiento c"
+  questiontext: "¿Qué elementos funcionan si se pulsa B? Indica la letra.<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "C"
+      feedback: 
+    - fraction: 100
+      text: "bombilla"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 3"
+
+- type: shortanswer
+  name: "Funcionamiento C"
+  questiontext: "¿Qué receptores funcionan al pulsar C? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "funcionamiento C pulsar y soltar"
+  questiontext: "¿Qué receptores funcionan si se pulsa C y luego se suelta? Indica la letra que acompaña al símbolo en el esquema. <div><br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B y D"
+      feedback: 
+    - fraction: 100
+      text: "D y B"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "funcionamiento c2"
+  questiontext: "¿Qué elementos funcionan si se pulsa B y luego se suelta?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "C"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "Funcionamiento D pulsar y soltar"
+  questiontext: "¿Que receptores funcionan si se pulsa E y luego se suelta? Indica la letra que acompaña al símbolo en el esquema. <div><br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+
+- type: shortanswer
+  name: "Funcionamiento E"
+  questiontext: "¿Que receptores funcionan si se pulsa E? Indica la letra que acompaña al símbolo en el esquema. <div><br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "funcionamiento e"
+  questiontext: "¿Qué elementos funcionan si se pulsa E? Indica la letra.<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: 100
+      text: "motor"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: shortanswer
+  name: "Funcionamiento E"
+  questiontext: "¿Qué receptores funcionan si se pulsa E? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "C y D"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "funcionamiento e2"
+  questiontext: "¿Qué elementos funcionan si se pulsa E y luego se suelta?<br><br>"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "ninguno"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: shortanswer
+  name: "Funcionamiento E2"
+  questiontext: "¿Qué receptores funcionan si se pulsa E y luego se suelta? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "C"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "funcionamiento en reposo"
+  questiontext: "¿Qué receptores funcionan sin pulsar nada? Indica la letra que acompaña al símbolo en el esquema. <div><br /></div>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+    - fraction: 100
+      text: "el motor"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 5"
+
+- type: shortanswer
+  name: "Funcionamiento en reposo"
+  questiontext: "¿Qué receptores funcionan en reposo, sin pulsar nada? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "Ninguno"
+      feedback: 
+
+- type: shortanswer
+  name: "funcionamiento F"
+  questiontext: "¿Que receptores funcionan si se pulsa F? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B y C"
+      feedback: 
+    - fraction: 100
+      text: "C y B"
+      feedback: 
+
+- type: shortanswer
+  name: "funcionamiento F pulsar y soltar"
+  questiontext: "¿Que receptores funcionan si se pulsa F? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B y C"
+      feedback: 
+    - fraction: 100
+      text: "C y B"
+      feedback: 
+
+- type: shortanswer
+  name: "funcionamiento F y G"
+  questiontext: "<span style=\"font-family: arial; font-size: small;\" class=\"Apple-style-span\">¿Qué receptores funcionan si se pulsa F y G? </span>Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B, C, D y E"
+      feedback: 
+
+- type: shortanswer
+  name: "funcionamiento F y G pulsar y soltar"
+  questiontext: "<span style=\"font-family: arial; font-size: small;\" class=\"Apple-style-span\">¿Qué receptores funcionan si se pulsa F y G? </span>Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B, C, D y E"
+      feedback: 
+
+- type: shortanswer
+  name: "Funcionamiento G"
+  questiontext: "<span style=\"font-family: arial; font-size: small;\" class=\"Apple-style-span\">¿Qué receptores funcionan si se pulsa G? </span>Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D y E"
+      feedback: 
+    - fraction: 100
+      text: "E y D"
+      feedback: 
+
+- type: shortanswer
+  name: "Funcionamiento G pulsar y soltar"
+  questiontext: "<span style=\"font-family: arial; font-size: small;\" class=\"Apple-style-span\">¿Qué receptores funcionan si se pulsa G? </span>Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D y E"
+      feedback: 
+    - fraction: 100
+      text: "E y D"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 1"
+
+- type: shortanswer
+  name: "funcionamiento reposo"
+  questiontext: "¿Qué elementos funcionan si no se pulsa ningún elemento de maniobra?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "ninguno"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 2"
+
+- type: shortanswer
+  name: "Funcionamiento reposo"
+  questiontext: "¿Qué receptores funcionan en reposo (sin pulsar nada)? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "C"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 3"
+
+- type: shortanswer
+  name: "Funcionamiento reposo"
+  questiontext: "¿Qué receptores funcionan en reposo (sin pulsar nada)? Indica la letra que acompaña al símbolo en el esquema."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "D"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "la corriente eléctrica es..."
+  questiontext: "La corriente eléctrica es..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "un movimiento de cargas"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 3"
+
+- type: shortanswer
+  name: "nombre conmutador"
+  questiontext: "¿Cómo se llama el elemento C?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "conmutador"
+      feedback: 
+
+- type: shortanswer
+  name: "otros elementos de maniobra"
+  questiontext: "¿Cuál es el nombre de algún otro elemento de maniobra diferente de los mostrados en el esquema?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "interruptor"
+      feedback: 
+    - fraction: 100
+      text: "pulsador"
+      feedback: 
+    - fraction: 100
+      text: "conmutador"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 5"
+
+- type: shortanswer
+  name: "paralelo"
+  questiontext: "B y C están asociados en..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "paralelo"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "protones"
+  questiontext: "¿Cómo se llaman las partículas atómicas que tienen carga positiva?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "protones"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 4"
+
+- type: shortanswer
+  name: "pulsar C y E"
+  questiontext: "<p>¿Que receptores funcionan si se pulsan C y E?</p><p> Indica la letra que acompaña al símbolo en el esquema.</p>"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "B"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/simbolos"
+
+- type: shortanswer
+  name: "s_bombilla"
+  questiontext: "<br /> ¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s1', width=85, height=61) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "bombilla"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s1.gif
+
+- type: shortanswer
+  name: "s_conmutador"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=86, height=61) }}"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Conmutador"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s3.gif
+
+- type: shortanswer
+  name: "s_interruptor A"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=85, height=47) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Interruptor A"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s11.gif
+
+- type: shortanswer
+  name: "s_interuptorC"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=88, height=50) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Interruptor C"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s2.gif
+
+- type: shortanswer
+  name: "s_motor"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=84, height=54) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "motor"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s4.gif
+
+- type: shortanswer
+  name: "s_pila"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=47, height=55) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "pila"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s6.gif
+
+- type: shortanswer
+  name: "s_pulsador na"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=86, height=53) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "pulsador NA"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s8.gif
+
+- type: shortanswer
+  name: "s_pulsador NC"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=82, height=53) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "pulsador NC"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s10.gif
+
+- type: shortanswer
+  name: "s_timbre"
+  questiontext: "¿Qué elemento representa este símbolo?<br />{{ image(file=1, alt='s', width=76, height=70) }}<br />"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Timbre"
+      feedback: 
+  files:
+    - images/electricidad-simbolos-s12.gif
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 5"
+
+- type: shortanswer
+  name: "serie"
+  questiontext: "D y E están asociados en..."
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "serie"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "Tensión"
+  questiontext: "¿Cómo se llama la magnitud eléctrica que indica la fuerza que empuja las cargas en un circuito?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Tensión"
+      feedback: 
+    - fraction: 80
+      text: "tension"
+      feedback: Lleva acento
+
+- type: shortanswer
+  name: "Tensión"
+  questiontext: "¿Cómo se llama la magnitud eléctrica que indica la fuerza que empuja las cargas en un circuito?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Tensión"
+      feedback: 
+    - fraction: 80
+      text: "tension"
+      feedback: Lleva acento
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad/circuito 3"
+
+- type: shortanswer
+  name: "tipo elemento Bombilla"
+  questiontext: "¿Qué tipo de elemento es el elemento B?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "receptor"
+      feedback: 
+
+- type: shortanswer
+  name: "tipo elemento conmutador"
+  questiontext: "¿Qué tipo de elemento es el elemento C?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "de maniobra"
+      feedback: 
+
+- type: shortanswer
+  name: "tipo elemento motor"
+  questiontext: "¿Qué tipo de elemento es el elemento D?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "receptor"
+      feedback: 
+
+- type: shortanswer
+  name: "tipo elemento pila"
+  questiontext: "¿Qué tipo de elemento es el elemento A?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "generador"
+      feedback: 
+
+- type: category
+  category: "Valor por defecto para Tecnologias 1ºESO/electricidad"
+
+- type: shortanswer
+  name: "V"
+  questiontext: "Escribe el símbolo del voltio (la letra con que se representa)."
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "V"
+      feedback: 
+    - fraction: 0
+      text: "v"
+      feedback: El voltio se representa con una V mayúscula, no minúscula.
+
+- type: shortanswer
+  name: "voltio"
+  questiontext: "¿Cuál es la unidad de tensión?"
+  defaultgrade: 1.0000000
+  penalty: 0.5000000
+  answers: 
+    - fraction: 100
+      text: "voltio"
+      feedback: 
+    - fraction: 100
+      text: "el voltio"
+      feedback: 
+    - fraction: 100
+      text: "V"
+      feedback: 
+
+- type: shortanswer
+  name: "voltio"
+  questiontext: "¿Cómo se llama la unidad de tensión?"
+  defaultgrade: 1.0000000
+  penalty: 0.1000000
+  answers: 
+    - fraction: 100
+      text: "Voltio"
+      feedback: 
+    - fraction: 100
+      text: "V"
+      feedback: 
+    - fraction: 100
+      text: "voltios"
+      feedback: 
