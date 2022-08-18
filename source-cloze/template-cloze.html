@@ -425,7 +425,7 @@
       function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
       function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
       function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none";}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
       </script>
 
       <!-- Matomo -->
@@ -517,6 +517,12 @@
          for(i=0; i<len; i++) {
             rnd = Math.floor(Math.random() * new_questions.length);
             questions_sorted[i] = new_questions[rnd];
+            questions_sorted[i]["Cloze"] = atob(questions_sorted[i]["Cloze"]);
+            for(var j=0; j<questions_sorted[i]["Gaps"].length; j++) {
+               for(var k=0; k<questions_sorted[i]["Gaps"][j].length; k++) {
+                  questions_sorted[i]["Gaps"][j][k] = atob(questions_sorted[i]["Gaps"][j][k]);
+               };
+            };
             new_questions.splice(rnd, 1);
          }
          return questions_sorted;

@@ -168,8 +168,9 @@ class Cloze():
          for gap in match:
             gap = gap.strip('{}')
             if '|' in gap:
-               gap = re.split('\|', gap)
-               print(gap)
+               gap = [self.b64encode(word) for word in re.split('\|', gap)]
+            else:
+               gap = self.b64encode(gap)
             gaps.append(gap)
          question['Gaps'] = gaps
          
@@ -180,13 +181,19 @@ class Cloze():
          cloze_gaps = cloze_gaps + [new_cloze[-1]]
          new_cloze = ''.join(cloze_gaps)
          new_cloze = new_cloze[:-1]
-         question['Cloze'] = new_cloze
+         question['Cloze'] = self.b64encode(new_cloze)
+
+
+   def b64encode(self, data):
+      if isinstance(data, str):
+         data = bytearray(data, 'utf-8')
+      return base64.b64encode(data).decode('ascii')
 
 
    def read_b64(self, filename):
       """Read image and returns data in ascii base64 format"""
       data = open(filename, 'rb').read()
-      return base64.b64encode(data).decode('ascii')
+      return self.b64encode(data)
 
 
    def hashname(self, filename):
