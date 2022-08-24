@@ -32,15 +32,15 @@ import jinja2
 from PIL import Image
 
 
+build_path = 'build'
+html_path = '../docs'
+
 def main():
    """Main program"""
 
    moodle_template = 'template-cloze-moodle.xml'
    html_template = 'template-cloze.html'
 
-   build_path = 'build'
-   html_path = '../docs'
-   
    cloze = Cloze()
 
    # Process all yaml files of this directory
@@ -226,10 +226,29 @@ class Cloze():
             else:
                print('Image file does not exists: ' + imagedict['filename'])
                question['Image'] = {}
+
+            # Save image to disk
+            origin = question['Image']['filename']
+            dest = os.path.join(html_path, 'images', question['Image']['hashname'])
+            if self.file_older(dest, origin):
+               print('   Writing: ' + origin)
+               shutil.copy2(origin, dest)   
          else:
             question['Image'] = {}
    
-   
+
+   def file_older(self, filename1, filename2=False):
+      if not filename2:
+         filename2 = os.path.join(self.yaml_path, self.yaml_file)
+      if os.path.exists(filename1):
+         if os.path.getmtime(filename1) < os.path.getmtime(filename2):
+            return True
+         else:
+            return False
+      else:
+         return True
+
+
    def jinja_template(self, template_file):
       """Load jinja environment and template file.
          return a jinja template object"""

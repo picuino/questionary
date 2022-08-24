@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -425,7 +425,7 @@
       function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
       function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
       function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none";}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
       </script>
 
       <!-- Matomo -->
@@ -450,8 +450,8 @@
    <script>
       sessionStorage.setItem('score', 0);
 
-      const questions_title = "Nombre de los componentes. Electricidad.";
-      const questions = [
+      const questions_title = "Electricidad. Nombre de los componentes.";
+      const questions_encoded = [
          {
             "Image": ["images/59cbf40bc06826749038.png", "180"],            
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfS4=",
@@ -759,7 +759,7 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions.length);
+         questions_sorted = questions_sort(questions_encoded.length);
          question_pages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
@@ -769,16 +769,22 @@
          hud_show();
       }
 
+      function bin_atob(str) {
+         return decodeURIComponent(atob(str).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+      }
+
       function questions_sort(len) {
-         new_questions = [...questions];
-         questions_sorted = [];
+         new_questions = JSON.parse(JSON.stringify(questions_encoded));
+         questions_sorted = new Array;
          for(i=0; i<len; i++) {
             rnd = Math.floor(Math.random() * new_questions.length);
             questions_sorted[i] = new_questions[rnd];
-            questions_sorted[i]["Cloze"] = atob(questions_sorted[i]["Cloze"]);
-            for(var j=0; j<questions_sorted[i]["Gaps"].length; j++) {
-               for(var k=0; k<questions_sorted[i]["Gaps"][j].length; k++) {
-                  questions_sorted[i]["Gaps"][j][k] = atob(questions_sorted[i]["Gaps"][j][k]);
+            questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
+            for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
+               for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
+                  questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
                };
             };
             new_questions.splice(rnd, 1);

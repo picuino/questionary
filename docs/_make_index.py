@@ -198,6 +198,12 @@ index_data = [
        ]
    },
    {
+      "header" : ["hardware", "Hardware y Software"],
+      "links": [
+           ["es-hardware-intro-I.html", "Introducción al hardware I"],
+       ]
+   },
+   {
       "header" : ["controladores", "Control Automático"],
       "links": [
            ["es-control-introduction.html", "Introducción al control automático"],
