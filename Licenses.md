@@ -16,12 +16,9 @@ Autores de los cuestionarios:
  - [Tucho Méndez](https://github.com/procastino/bancosTecno)
 
 El texto de los cuestionarios en los archivos .yaml (preguntas y opciones de respuesta) 
-se distribuyen bajo licencia Creative Commons CC0 1.0 Universal
-o bajo licencia Creative Commons Attribution-ShareAlike 4.0.
+se distribuyen bajo licencia Creative Commons Attribution-ShareAlike 4.0.
 Cada uno de los archivos tiene en las primeras líneas de la cabecera 
 información sobre la licencia con la que se distribuyen.
-
-Se puede leer el texto de la licencia CC0 en el enlace: https://creativecommons.org/publicdomain/zero/1.0/deed.es_ES
 
 Se puede leer el texto de la licencia CC BY-SA 4.0 en el enlace: https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
