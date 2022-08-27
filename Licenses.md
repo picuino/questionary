@@ -15,8 +15,9 @@ Autores de los cuestionarios:
  - Carlos Pardo
  - [Tucho Méndez](https://github.com/procastino/bancosTecno)
 
-El texto de los cuestionarios en los archivos .yaml (preguntas y opciones de respuesta) 
-se distribuyen bajo licencia Creative Commons Attribution-ShareAlike 4.0.
+El texto de los cuestionarios en los archivos .yaml (preguntas y opciones 
+de respuesta) se distribuyen bajo licencia Creative Commons 
+Attribution-ShareAlike 4.0.
 Cada uno de los archivos tiene en las primeras líneas de la cabecera 
 información sobre la licencia con la que se distribuyen.
 
@@ -31,9 +32,10 @@ licencias. Por defecto la licencia de las imágenes será
 lo contrario.
 
 Las siguientes imágenes creadas por Carlos Pardo y que se pueden encontrar 
-en el repositorio  https://github.com/picuino/questionary
+en el repositorio  https://github.com/picuino/questionary/images
 se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
-Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Se puede leer el texto de la licencia en el enlace: 
+https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 
 ![](images/thumbs/img-0098b.jpg)
@@ -569,4 +571,20 @@ href="https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_6.jpg">
 <a title="Evan-Amos, Public Domain, via Wikimedia Commons."
 href="https://commons.wikimedia.org/wiki/File:Raspberry-Pi-2-Bare-BR.jpg">
 <img alt="Apple Watch" src="images/thumbs/informatica-raspberry-pi.jpg"></a>
+
+<a title="PAG DEV, CC BY-SA 4.0 International, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Amazon_Fire_TV_4k.jpg">
+<img alt="Amazon Fire TV 4K" src="images/thumbs/informatica-fire-tv.jpg"></a>
+
+<a title="Pixabay CC0 1.0 Public Domain"
+href="https://commons.wikimedia.org/wiki/File:Black_laptop_computer_open_frontal.svg">
+<img alt="Laptop" src="images/thumbs/informatica-laptop.png"></a>
+
+<a title="SimonWaldherr, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg">
+<img alt="iPhone 13" src="images/thumbs/informatica-iphone-13.jpg"></a>
+
+<a title="Imagen de OpenClipart-Vectors en Pixabay"
+href="https://pixabay.com/es/vectors/computadora-escritorio-158675/">
+<img alt="Computadora de escritorio" src="images/thumbs/informatica-computer-02.png"></a>
 
