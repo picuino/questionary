@@ -38,6 +38,14 @@ Se puede leer el texto de la licencia en el enlace:
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 
+![](images/thumbs/informatica-placa-base-04a.jpg)
+![](images/thumbs/informatica-placa-base-04b.jpg)
+![](images/thumbs/informatica-placa-base-04c.jpg)
+![](images/thumbs/informatica-placa-base-04d.jpg)
+![](images/thumbs/informatica-placa-base-04e.jpg)
+![](images/thumbs/informatica-placa-base-04f.jpg)
+![](images/thumbs/informatica-esquema-ordenador-02.png)
+![](images/thumbs/informatica-esquema-ordenador.png)
 ![](images/thumbs/img-0098b.jpg)
 
 ![](images/thumbs/neumatic-simbolo-compresor.png)
@@ -587,4 +595,8 @@ href="https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg">
 <a title="Imagen de OpenClipart-Vectors en Pixabay"
 href="https://pixabay.com/es/vectors/computadora-escritorio-158675/">
 <img alt="Computadora de escritorio" src="images/thumbs/informatica-computer-02.png"></a>
+
+<a title="Evan-Amos CC BY-SA 3.0 Unported via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg">
+<img alt="Placa base ASRock A70GXH-128M" src="images/thumbs/informatica-placa-base-02.jpg"></a>
 

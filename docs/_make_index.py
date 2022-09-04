@@ -63,6 +63,7 @@ index_data = [
       "links": [
            ["es-hardware-intro.html", "Introducción al hardware"],
            ["es-hardware-pc.html", "Hardware del ordenador personal"],
+           ["es-hardware-placa-base.html", "Placa base"],
        ]
    },
    {

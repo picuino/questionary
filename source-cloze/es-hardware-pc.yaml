@@ -62,3 +62,59 @@ Show_max: 0
   Image_width: 480
   Cloze: El elemento (10) es el {ratón}.
 
+
+#
+# Esquema general de un ordenador
+#
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     La memoria {ROM}, es la encargada de almacenar a largo plazo los
+     programas y los datos, aunque el ordenador esté apagado.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     La memoria {RAM} es la encargada de almacenar los programas y
+     los datos para que el procesador pueda trabajar con ellos.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     La {CPU} o unidad central de {proceso} que es el "cerebro" del
+     ordenador, el elemento que procesa los programas y los datos.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     El {bus de CPU} se encarga de transportar los datos
+     entre la CPU, la memoria y el sistema de entrada/salida.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     El sistema de {entrada/salida} conecta el ordenador con el
+     exterior y se encarga de transportar información entre el
+     bus de CPU y varios buses de conexión secundarios, que
+     suelen ser estándar, como {USB}, HDMI o Ethernet.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Cloze:
+     Los {periféricos} se encargan de realizar 3 tareas
+     fundamentales.
+     <br />
+     <ul>
+     <li>{Entrada} de datos al ordenador (por ejemplo un teclado)</li>
+     <li>{Salida} de datos del ordenador (por ejemplo una pantalla)</li>
+     <li>{Almacenamiento} externo (por ejemplo una memoria USB)</li>
+     </ul>
+
+
