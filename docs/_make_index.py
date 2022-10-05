@@ -64,6 +64,8 @@ index_data = [
            ["es-hardware-intro.html", "Introducción al hardware"],
            ["es-hardware-pc.html", "Hardware del ordenador personal"],
            ["es-hardware-placa-base.html", "Placa base"],
+           ["es-hardware-unidades.html", "Unidades de medida"],
+           ["es-hardware-ley-moore.html", "Ley de Moore"],
        ]
    },
    {
@@ -95,6 +97,15 @@ index_data = [
       "links": [
            ["es-technology-society-history.html", "Historia de la tecnología"],
            ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
+       ]
+   },
+   {
+      "header" : ["Valores", "Valores Éticos"],
+      "links": [
+           ["es-valores-derechos-humanos-1.html", "Declaración Derechos Humanos (1)"],
+           ["es-valores-derechos-humanos-2.html", "Declaración Derechos Humanos (2)"],
+           ["es-valores-derechos-humanos-3.html", "Declaración Derechos Humanos (3)"],
+           ["es-valores-derechos-humanos-4.html", "Declaración Derechos Humanos (4)"],
        ]
    },
 ]
