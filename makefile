@@ -7,8 +7,9 @@ all:
 	make all -C images/kicad
 	make all -C images/libreoffice
 	make all -C images/thumbs
-	cd multichoice; python _multichoice.py
-	cd multiquestion; python _multiquestion.py
+	cd source-cloze; python _make_cloze.py
+	cd source-multichoice; python _make_multichoice.py
+	cd source-multichoice; python _make_multichoice_combine.py
 
 clean-web:
 	rm -f docs/*.json
