@@ -62,10 +62,10 @@ index_data = [
       "header" : ["hardware", "Hardware y Software"],
       "links": [
            ["es-hardware-intro.html", "Introducción al hardware"],
-           ["es-hardware-pc.html", "Hardware del ordenador personal"],
-           ["es-hardware-placa-base.html", "Placa base"],
            ["es-hardware-unidades.html", "Unidades de medida"],
            ["es-hardware-ley-moore.html", "Ley de Moore"],
+           ["es-hardware-pc.html", "Hardware del ordenador personal"],
+           ["es-hardware-placa-base.html", "Placa base"],
        ]
    },
    {
@@ -89,7 +89,8 @@ index_data = [
    {
       "header" : ["neumatica", "Neumática"],
       "links": [
-           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos"],
+           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
+           ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
        ]
    },
    {

@@ -102,6 +102,7 @@ https://creativecommons.org/licenses/by-sa/4.0/deed.es
 ![](images/thumbs/electric-simbolo-npn.png)
 ![](images/thumbs/electric-simbolo-pila.png)
 ![](images/thumbs/electric-simbolo-pnp.png)
+![](images/thumbs/electric-simbolo-potenciometro.png)
 ![](images/thumbs/electric-simbolo-pulsador-na.png)
 ![](images/thumbs/electric-simbolo-pulsador-nc.png)
 ![](images/thumbs/electric-simbolo-rele.png)
