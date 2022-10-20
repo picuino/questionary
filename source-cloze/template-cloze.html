@@ -647,6 +647,20 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
+         
+         // Focus first empty gap
+         var num_gap = 0;
+         while (1) {
+            var gap_element = document.getElementById("gap_{0}".format(num_gap));
+            if (gap_element) {
+               gap_element.focus();
+               break;
+            }
+            num_gap += 1;
+            if (num_gap > 100) {
+               break;
+            }
+         }
       }
 
       function next_page() {
@@ -745,6 +759,12 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
+         
+         // Focus first gap
+         var gap_element = document.getElementById("gap_0");
+         if (gap_element) {
+            gap_element.focus();
+         }
       }
 
       function hud_show() {
@@ -809,7 +829,7 @@
                answer = questions_sorted[page]["Gaps"][i][j];
                if (gap_text === answer.toLowerCase()) {
                   var gap_span_element = document.getElementById("gap_span_{0}".format(i));
-                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][i][0];
+                  gap_span_element.innerHTML = answer;
 
                   points_total += add_terms(gaps_values[page][i]) / gaps_total;
                   hud_show();

@@ -100,15 +100,6 @@ index_data = [
            ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
        ]
    },
-   {
-      "header" : ["Valores", "Valores Éticos"],
-      "links": [
-           ["es-valores-derechos-humanos-1.html", "Declaración Derechos Humanos (1)"],
-           ["es-valores-derechos-humanos-2.html", "Declaración Derechos Humanos (2)"],
-           ["es-valores-derechos-humanos-3.html", "Declaración Derechos Humanos (3)"],
-           ["es-valores-derechos-humanos-4.html", "Declaración Derechos Humanos (4)"],
-       ]
-   },
 ]
 
 
