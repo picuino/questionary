@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Test/test-cloze</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Título de la pregunta</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Encabezado</strong><br /> Frase con respuesta uno {1:SHORTANSWER:=uno}<br /> Frase con respuesta dos, tres o cuatro {1:SHORTANSWER:=dos~%100%tres~%100%cuatro}]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

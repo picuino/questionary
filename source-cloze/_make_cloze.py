@@ -51,7 +51,7 @@ def main():
       questions = cloze.read_yaml(yaml_file, path='.')
       questions_counter.add(questions, yaml_file)
       cloze.html_generate(html_template, path=html_path)
-      # cloze.moodle_generate(moodle_template, path=build_path)
+      cloze.moodle_generate(moodle_template, path=build_path)
    print('\nTotal questions= %s' % str(questions_counter))
 
 
@@ -160,28 +160,64 @@ class Cloze():
 
    def extract_gaps(self):
       """Extract gaps from cloze text"""
-      gap_pattern = re.compile('{[^}]*}')
       for question in self.questions:
-         cloze = question['Cloze']
-         match = gap_pattern.findall(cloze)
-         gaps = []
-         for gap in match:
-            gap = gap.strip('{}')
-            if '|' in gap:
-               gap = [self.b64encode(word) for word in re.split('\|', gap)]
-            else:
-               gap = self.b64encode(gap)
-            gaps.append(gap)
-         question['Gaps'] = gaps
-         
-         new_cloze = gap_pattern.split(cloze + '.')
-         cloze_gaps = []
-         for i in range(len(new_cloze)-1):
-            cloze_gaps = cloze_gaps + [new_cloze[i]] + ['{%d}' % i]
-         cloze_gaps = cloze_gaps + [new_cloze[-1]]
-         new_cloze = ''.join(cloze_gaps)
-         new_cloze = new_cloze[:-1]
-         question['Cloze'] = self.b64encode(new_cloze)
+         cloze_b64, gaps_b64 = self.cloze_html(question['Cloze'])
+         question['Cloze_b64'] = cloze_b64
+         question['Gaps_b64'] = gaps_b64
+
+         cloze_xml = self.cloze_xml(question['Cloze'])
+         question['Cloze_xml'] = cloze_xml
+
+
+   def cloze_xml(self, cloze):
+      gap_pattern = re.compile('{[^}]*}')
+      match = gap_pattern.findall(cloze)
+      
+      gaps = []
+      for words in match:
+         words = words.strip('{}')
+         if '|' in words:
+            words = re.split('\|', words)
+            gap = '{1:SHORTANSWER:=%s' % words[0]
+            for word in words[1:]:
+               gap = gap + '~%100%{0}'.format(word)
+            gap = gap + '}'
+         else:
+            gap = '{1:SHORTANSWER:=%s}' % words
+         gaps.append(gap)
+      
+      new_cloze = gap_pattern.split(cloze + '.')
+      cloze_gaps = []
+      for i in range(len(new_cloze)-1):
+         cloze_gaps.append(new_cloze[i] +  gaps[i])
+      new_cloze = ''.join(cloze_gaps + new_cloze[-1:])
+      new_cloze = new_cloze[:-1]
+
+      return new_cloze
+      
+
+   def cloze_html(self, cloze):
+      gap_pattern = re.compile('{[^}]*}')
+      match = gap_pattern.findall(cloze)
+      
+      gaps = []
+      for gap in match:
+         gap = gap.strip('{}')
+         if '|' in gap:
+            gap = [self.b64encode(word) for word in re.split('\|', gap)]
+         else:
+            gap = self.b64encode(gap)
+         gaps.append(gap)
+      
+      new_cloze = gap_pattern.split(cloze + '.')
+      cloze_gaps = []
+      for i in range(len(new_cloze)-1):
+         cloze_gaps = cloze_gaps + [new_cloze[i]] + ['{%d}' % i]
+      cloze_gaps = cloze_gaps + [new_cloze[-1]]
+      new_cloze = ''.join(cloze_gaps)
+      new_cloze = self.b64encode(new_cloze[:-1])
+
+      return new_cloze, gaps
 
 
    def b64encode(self, data):
@@ -264,8 +300,8 @@ class Cloze():
       self.jinja_template(template_file)
       xml_data = self.template.render(questions = self.questions, header = self.header, filename = self.filename)
       self.write_file(xml_filename, xml_data)
-   
-   
+
+
    def suffle_choices(self, question):
        choices = copy.copy(question['Choices'])
        random.shuffle(choices)
@@ -276,7 +312,7 @@ class Cloze():
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
       self.jinja_template(template_file)
-      html_data = self.template.render(filename=self.filename, header=self.header, questions = self.questions)
+      html_data = self.template.render(questions = self.questions, header=self.header, filename=self.filename)
       self.write_file(html_filename, html_data)
 
 

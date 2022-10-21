@@ -459,9 +459,9 @@
             {%- else %}
             "Image": ["", ""],
             {%- endif %}            
-            "Cloze": "{{ question.Cloze }}",
+            "Cloze": "{{ question.Cloze_b64 }}",
             "Gaps": [
-               {%- for Gap in question.Gaps %}
+               {%- for Gap in question.Gaps_b64 %}
                {%- if Gap is string %}
                ['{{ Gap }}'],
                {%- else %}
