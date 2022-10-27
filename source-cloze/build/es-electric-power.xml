@@ -7,9 +7,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {V*I|V·I|I*V|I·V}<br> Donde<br> P = {potencia} eléctrica en Vatios (W)<br> V = {tensión} eléctrica en Voltios (V)<br> I = {corriente} eléctrica en Amperios (A)<br></text> </name>
+    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {V*I|V·I|I*V|I·V}<br> Donde<br> P = {potencia} eléctrica en vatios (W)<br> V = {tensión} eléctrica en voltios (V)<br> I = {corriente} eléctrica en amperios (A)<br></text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {1:SHORTANSWER:=V*I~%100%V·I~%100%I*V~%100%I·V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en Vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en Voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en Amperios (A)<br>]]></text>
+      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {1:SHORTANSWER:=V*I~%100%V·I~%100%I*V~%100%I·V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -19,9 +19,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la corriente eléctrica es I = {P/V}<br> Donde<br> P = {potencia} eléctrica en Vatios (W)<br> V = {tensión} eléctrica en Voltios (V)<br> I = {corriente} eléctrica en Amperios (A)<br></text> </name>
+    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la corriente eléctrica es I = {P/V}<br> Donde<br> P = {potencia} eléctrica en vatios (W)<br> V = {tensión} eléctrica en voltios (V)<br> I = {corriente} eléctrica en amperios (A)<br></text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la corriente eléctrica es I = {1:SHORTANSWER:=P/V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en Vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en Voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en Amperios (A)<br>]]></text>
+      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la corriente eléctrica es I = {1:SHORTANSWER:=P/V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -31,9 +31,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la tensión eléctrica es V = {P/I}<br> Donde<br> P = {potencia} eléctrica en Vatios (W)<br> V = {tensión} eléctrica en Voltios (V)<br> I = {corriente} eléctrica en Amperios (A)<br></text> </name>
+    <name> <text><strong>Potencia eléctrica</strong><br> La fórmula de la tensión eléctrica es V = {P/I}<br> Donde<br> P = {potencia} eléctrica en vatios (W)<br> V = {tensión} eléctrica en voltios (V)<br> I = {corriente} eléctrica en amperios (A)<br></text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la tensión eléctrica es V = {1:SHORTANSWER:=P/I}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en Vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en Voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en Amperios (A)<br>]]></text>
+      <text><![CDATA[<strong>Potencia eléctrica</strong><br> La fórmula de la tensión eléctrica es V = {1:SHORTANSWER:=P/I}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -43,9 +43,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 1.5 Amperios a 230 Voltios?<br><br> P = {345} W</text> </name>
+    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 1.5 amperios a 230 voltios?<br><br> P = {345} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 1.5 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=345} W]]></text>
+      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 1.5 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=345} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -55,9 +55,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.8 Amperios a 230 Voltios?<br><br> P = {184} W</text> </name>
+    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.8 amperios a 230 voltios?<br><br> P = {184} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.8 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=184} W]]></text>
+      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.8 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=184} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -67,9 +67,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.4 Amperios a 230 Voltios?<br><br> P = {92} W</text> </name>
+    <name> <text><strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.4 amperios a 230 voltios?<br><br> P = {92} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.4 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=92} W]]></text>
+      <text><![CDATA[<strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0.4 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=92} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -79,9 +79,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.10 Amperios a 230 Voltios?<br><br> P = {23} W</text> </name>
+    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.10 amperios a 230 voltios?<br><br> P = {23} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.10 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=23} W]]></text>
+      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.10 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=23} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -91,9 +91,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.05 Amperios a 230 Voltios?<br><br> P = {11.5|11,5} W</text> </name>
+    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.05 amperios a 230 voltios?<br><br> P = {11.5|11,5} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.05 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=11.5~%100%11,5} W]]></text>
+      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.05 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=11.5~%100%11,5} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -103,9 +103,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.03 Amperios a 230 Voltios?<br><br> P = {6.9|6,9} W</text> </name>
+    <name> <text><strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.03 amperios a 230 voltios?<br><br> P = {6.9|6,9} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.03 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=6.9~%100%6,9} W]]></text>
+      <text><![CDATA[<strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0.03 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=6.9~%100%6,9} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -115,9 +115,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 15 Amperios a 230 Voltios?<br><br> P = {3450} W</text> </name>
+    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 15 amperios a 230 voltios?<br><br> P = {3450} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 15 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]></text>
+      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 15 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -127,9 +127,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 10 Amperios a 230 Voltios?<br><br> P = {2300} W</text> </name>
+    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 10 amperios a 230 voltios?<br><br> P = {2300} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 10 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=2300} W]]></text>
+      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 10 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=2300} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -139,9 +139,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 8 Amperios a 230 Voltios?<br><br> P = {1840} W</text> </name>
+    <name> <text><strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 8 amperios a 230 voltios?<br><br> P = {1840} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 8 Amperios a 230 Voltios?<br><br> P = {1:SHORTANSWER:=1840} W]]></text>
+      <text><![CDATA[<strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 8 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=1840} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -151,9 +151,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 5 Amperios a 120 Voltios?<br><br> P = {600} W</text> </name>
+    <name> <text><strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 5 amperios a 120 voltios?<br><br> P = {600} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 5 Amperios a 120 Voltios?<br><br> P = {1:SHORTANSWER:=600} W]]></text>
+      <text><![CDATA[<strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 5 amperios a 120 voltios?<br><br> P = {1:SHORTANSWER:=600} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -163,9 +163,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 4 Amperios a 125 Voltios?<br><br> P = {500} W</text> </name>
+    <name> <text><strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 4 amperios a 125 voltios?<br><br> P = {500} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 4 Amperios a 125 Voltios?<br><br> P = {1:SHORTANSWER:=500} W]]></text>
+      <text><![CDATA[<strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 4 amperios a 125 voltios?<br><br> P = {1:SHORTANSWER:=500} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -175,9 +175,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.5 Amperios a 5 Voltios?<br><br> P = {2.5|2,5} W</text> </name>
+    <name> <text><strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.5 amperios a 5 voltios?<br><br> P = {2.5|2,5} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.5 Amperios a 5 Voltios?<br><br> P = {1:SHORTANSWER:=2.5~%100%2,5} W]]></text>
+      <text><![CDATA[<strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.5 amperios a 5 voltios?<br><br> P = {1:SHORTANSWER:=2.5~%100%2,5} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -187,9 +187,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.8 Amperios a 5 Voltios?<br><br> P = {4} W</text> </name>
+    <name> <text><strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.8 amperios a 5 voltios?<br><br> P = {4} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.8 Amperios a 5 Voltios?<br><br> P = {1:SHORTANSWER:=4} W]]></text>
+      <text><![CDATA[<strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0.8 amperios a 5 voltios?<br><br> P = {1:SHORTANSWER:=4} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -199,9 +199,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 25 Amperios si la tensión de red es de 230 Voltios?<br><br> P = {5750} W</text> </name>
+    <name> <text><strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 25 amperios si la tensión de red es de 230 voltios?<br><br> P = {5750} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 25 Amperios si la tensión de red es de 230 Voltios?<br><br> P = {1:SHORTANSWER:=5750} W]]></text>
+      <text><![CDATA[<strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 25 amperios si la tensión de red es de 230 voltios?<br><br> P = {1:SHORTANSWER:=5750} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -211,9 +211,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 15 Amperios si la tensión de red es de 230 Voltios?<br><br> P = {3450} W</text> </name>
+    <name> <text><strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 15 amperios si la tensión de red es de 230 voltios?<br><br> P = {3450} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 15 Amperios si la tensión de red es de 230 Voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]></text>
+      <text><![CDATA[<strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 15 amperios si la tensión de red es de 230 voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -223,9 +223,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 Voltios y consume 2.5 Amperios?<br><br> P = {30} W</text> </name>
+    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 2.5 amperios?<br><br> P = {30} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 Voltios y consume 2.5 Amperios?<br><br> P = {1:SHORTANSWER:=30} W]]></text>
+      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 2.5 amperios?<br><br> P = {1:SHORTANSWER:=30} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -235,9 +235,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 Voltios y consume 1.5 Amperios?<br><br> P = {18} W</text> </name>
+    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 1.5 amperios?<br><br> P = {18} W</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 Voltios y consume 1.5 Amperios?<br><br> P = {1:SHORTANSWER:=18} W]]></text>
+      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 1.5 amperios?<br><br> P = {1:SHORTANSWER:=18} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -247,9 +247,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 2300 Vatios si se conecta a la tensión de red de 230 Voltios?<br><br> I = {10} A</text> </name>
+    <name> <text><strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 2300 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {10} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 2300 Vatios si se conecta a la tensión de red de 230 Voltios?<br><br> I = {1:SHORTANSWER:=10} A]]></text>
+      <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 2300 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=10} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -259,9 +259,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 1840 Vatios si se conecta a la tensión de red de 230 Voltios?<br><br> I = {8} A</text> </name>
+    <name> <text><strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 1840 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {8} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 1840 Vatios si se conecta a la tensión de red de 230 Voltios?<br><br> I = {1:SHORTANSWER:=8} A]]></text>
+      <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 1840 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=8} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -271,9 +271,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 18.4 Vatios y se conecta a la tensión de red de 230 Voltios?<br><br> I = {0.08|0,08} A</text> </name>
+    <name> <text><strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 18.4 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {0.08|0,08} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 18.4 Vatios y se conecta a la tensión de red de 230 Voltios?<br><br> I = {1:SHORTANSWER:=0.08~%100%0,08} A]]></text>
+      <text><![CDATA[<strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 18.4 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=0.08~%100%0,08} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -283,9 +283,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 13.8 Vatios y se conecta a la tensión de red de 230 Voltios?<br><br> I = {0.06|0,06} A</text> </name>
+    <name> <text><strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 13.8 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {0.06|0,06} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 13.8 Vatios y se conecta a la tensión de red de 230 Voltios?<br><br> I = {1:SHORTANSWER:=0.06~%100%0,06} A]]></text>
+      <text><![CDATA[<strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 13.8 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=0.06~%100%0,06} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -295,9 +295,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por una bombilla de automóvil si sabemos que tiene una potencia de 36 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {3} A</text> </name>
+    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por una bombilla de automóvil si sabemos que tiene una potencia de 36 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {3} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por una bombilla de automóvil si sabemos que tiene una potencia de 36 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {1:SHORTANSWER:=3} A]]></text>
+      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por una bombilla de automóvil si sabemos que tiene una potencia de 36 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=3} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -307,9 +307,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por la bombilla de freno de un automóvil si sabemos que tiene una potencia de 12 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {2} A</text> </name>
+    <name> <text><strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por la bombilla de freno de un automóvil si sabemos que tiene una potencia de 12 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {2} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por la bombilla de freno de un automóvil si sabemos que tiene una potencia de 12 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {1:SHORTANSWER:=2} A]]></text>
+      <text><![CDATA[<strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por la bombilla de freno de un automóvil si sabemos que tiene una potencia de 12 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=2} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -319,9 +319,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1080 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {90} A</text> </name>
+    <name> <text><strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1080 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {90} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1080 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {1:SHORTANSWER:=90} A]]></text>
+      <text><![CDATA[<strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1080 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=90} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -331,9 +331,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1020 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {85} A</text> </name>
+    <name> <text><strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1020 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {85} A</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1020 Vatios y la tensión de alimentación es de 12 Voltios?<br><br> I = {1:SHORTANSWER:=85} A]]></text>
+      <text><![CDATA[<strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1020 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=85} A]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -343,9 +343,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 250 Vatios y que consume 2 Amperios?<br><br> V = {125} V</text> </name>
+    <name> <text><strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 250 vatios y que consume 2 amperios?<br><br> V = {125} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 250 Vatios y que consume 2 Amperios?<br><br> V = {1:SHORTANSWER:=125} V]]></text>
+      <text><![CDATA[<strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 250 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=125} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -355,9 +355,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 300 Vatios y que consume 2.5 Amperios?<br><br> V = {120} V</text> </name>
+    <name> <text><strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 300 vatios y que consume 2.5 amperios?<br><br> V = {120} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 300 Vatios y que consume 2.5 Amperios?<br><br> V = {1:SHORTANSWER:=120} V]]></text>
+      <text><![CDATA[<strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 300 vatios y que consume 2.5 amperios?<br><br> V = {1:SHORTANSWER:=120} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -367,9 +367,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 36 Vatios y que consume 2 Amperios?<br><br> V = {18} V</text> </name>
+    <name> <text><strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 36 vatios y que consume 2 amperios?<br><br> V = {18} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 36 Vatios y que consume 2 Amperios?<br><br> V = {1:SHORTANSWER:=18} V]]></text>
+      <text><![CDATA[<strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 36 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=18} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -379,9 +379,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 40 Vatios y que consume 2 Amperios?<br><br> V = {20} V</text> </name>
+    <name> <text><strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 40 vatios y que consume 2 amperios?<br><br> V = {20} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 40 Vatios y que consume 2 Amperios?<br><br> V = {1:SHORTANSWER:=20} V]]></text>
+      <text><![CDATA[<strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 40 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=20} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -391,9 +391,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 2 Vatios y que genera 0.001 Amperios?<br><br> V = {2000} V</text> </name>
+    <name> <text><strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 2 vatios y que genera 0.001 amperios?<br><br> V = {2000} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 2 Vatios y que genera 0.001 Amperios?<br><br> V = {1:SHORTANSWER:=2000} V]]></text>
+      <text><![CDATA[<strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 2 vatios y que genera 0.001 amperios?<br><br> V = {1:SHORTANSWER:=2000} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -403,9 +403,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 3 Vatios y que genera 0.002 Amperios?<br><br> V = {1500} V</text> </name>
+    <name> <text><strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 3 vatios y que genera 0.002 amperios?<br><br> V = {1500} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 3 Vatios y que genera 0.002 Amperios?<br><br> V = {1:SHORTANSWER:=1500} V]]></text>
+      <text><![CDATA[<strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 3 vatios y que genera 0.002 amperios?<br><br> V = {1:SHORTANSWER:=1500} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -415,9 +415,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 18 Vatios con una corriente de 2 Amperios?<br><br> V = {9} V</text> </name>
+    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 18 vatios con una corriente de 2 amperios?<br><br> V = {9} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 18 Vatios con una corriente de 2 Amperios?<br><br> V = {1:SHORTANSWER:=9} V]]></text>
+      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 18 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=9} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -427,9 +427,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 36 Vatios con una corriente de 2 Amperios?<br><br> V = {18} V</text> </name>
+    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 36 vatios con una corriente de 2 amperios?<br><br> V = {18} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 36 Vatios con una corriente de 2 Amperios?<br><br> V = {1:SHORTANSWER:=18} V]]></text>
+      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 36 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=18} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -439,9 +439,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 10 Vatios con una corriente de 2 Amperios?<br><br> V = {5} V</text> </name>
+    <name> <text><strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 10 vatios con una corriente de 2 amperios?<br><br> V = {5} V</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 10 Vatios con una corriente de 2 Amperios?<br><br> V = {1:SHORTANSWER:=5} V]]></text>
+      <text><![CDATA[<strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 10 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=5} V]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>

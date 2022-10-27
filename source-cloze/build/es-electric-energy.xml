@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricidad/es-electric-energy</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {240} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {1:SHORTANSWER:=240} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Frigorífico</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {67} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Frigorífico</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {1:SHORTANSWER:=67} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {3.6|3,6} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3.6~%100%3,6} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Router</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {175} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Router</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {1:SHORTANSWER:=175} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Secador de pelo</strong><br> ¿Qué energía consume al mes un secador de pelo de 2000 vatios si funciona un cuarto de hora al día?<br><br> E = {15} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Secador de pelo</strong><br> ¿Qué energía consume al mes un secador de pelo de 2000 vatios si funciona un cuarto de hora al día?<br><br> E = {1:SHORTANSWER:=15} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Horno microondas</strong><br> ¿Qué energía consume al mes un horno microondas de 800 vatios si funciona media hora al día?<br><br> E = {12} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Horno microondas</strong><br> ¿Qué energía consume al mes un horno microondas de 800 vatios si funciona media hora al día?<br><br> E = {1:SHORTANSWER:=12} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>PC gaming</strong><br> ¿Qué energía consume al mes un ordenador gaming de 300 vatios si funciona cuatro horas al día?<br><br> E = {36} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>PC gaming</strong><br> ¿Qué energía consume al mes un ordenador gaming de 300 vatios si funciona cuatro horas al día?<br><br> E = {1:SHORTANSWER:=36} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {18} kWh</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {1:SHORTANSWER:=18} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>
