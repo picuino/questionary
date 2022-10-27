@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Hardware - Unidades de medida - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Hardware - Unidades de medida - Picuino">
    <title>Test Unidades de medida - Hardware - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,13 +444,12 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Hardware. Unidades de medida.";
       const questions_encoded = [
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnIgLz4gezB9LiBFcyBsYSB1bmlkYWQgbcOtbmltYSBkZSBpbmZvcm1hY2nDs24geSBlcXVpdmFsZSBhIHVuIGTDrWdpdG8gezF9IHF1ZSBwdWVkZSB2YWxlciAwIMOzIDEu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnI+IHswfS4gRXMgbGEgdW5pZGFkIG3DrW5pbWEgZGUgaW5mb3JtYWNpw7NuIHkgZXF1aXZhbGUgYSB1biBkw61naXRvIHsxfSBxdWUgcHVlZGUgdmFsZXIgMCDDsyAxLg==",
             "Gaps": [
                ['Qml0'],
                ['YmluYXJpbw=='],
@@ -462,8 +457,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnIgLz4gezB9LiBFcyB1biBjb25qdW50byBkZSA4IGJpdHMuIFB1ZWRlIGNvbnRlbmVyIHVuIGNhcsOhY3RlciB5IHB1ZWRlIHRvbWFyIHZhbG9yZXMgZW50ZXJvcyBlbnRyZSAwIHkgezF9Lg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnI+IHswfS4gRXMgdW4gY29uanVudG8gZGUgOCBiaXRzLiBQdWVkZSBjb250ZW5lciB1biBjYXLDoWN0ZXIgeSBwdWVkZSB0b21hciB2YWxvcmVzIGVudGVyb3MgZW50cmUgMCB5IHsxfS4=",
             "Gaps": [
                ['Qnl0ZQ=='],
                ['MjU1'],
@@ -471,8 +466,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnIgLz4gezB9LiBVbmEgcGFsYWJyYSBwdWVkZSB0ZW5lciB1biBuw7ptZXJvIHZhcmlhYmxlIGRlIHsxfSBkZXBlbmRpZW5kbyBkZWwgc2lzdGVtYSBpbmZvcm3DoXRpY28gY29uIGVsIHF1ZSBlc3RlbW9zIHRyYXRhbmRvLiBFbiBsb3Mgb3JkZW5hZG9yZXMgYWN0dWFsZXMgdmFyw61hIGRlc2RlIDE2IGJpdHMgaGFzdGEgMTI4IGJpdHMu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYW50aWRhZCBkZSBpbmZvcm1hY2nDs248L3N0cm9uZz48YnI+IHswfS4gVW5hIHBhbGFicmEgcHVlZGUgdGVuZXIgdW4gbsO6bWVybyB2YXJpYWJsZSBkZSB7MX0gZGVwZW5kaWVuZG8gZGVsIHNpc3RlbWEgaW5mb3Jtw6F0aWNvIGNvbiBlbCBxdWUgZXN0ZW1vcyB0cmF0YW5kby4gRW4gbG9zIG9yZGVuYWRvcmVzIGFjdHVhbGVzIHZhcsOtYSBkZXNkZSAxNiBiaXRzIGhhc3RhIDEyOCBiaXRzLg==",
             "Gaps": [
                ['V29yZA=='],
                ['Yml0cw=='],
@@ -480,8 +475,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5WZWxvY2lkYWQgZGUgdHJhbnNwb3J0ZSBvIGNhdWRhbDwvc3Ryb25nPjxiciAvPiBCaXQvcy4gVW4gezB9IHRyYW5zbWl0aWRvIGNhZGEgezF9LjxiciAvPiB7Mn0uIFVuIGJ5dGUgdHJhbnNtaXRpZG8gY2FkYSBzZWd1bmRvLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5WZWxvY2lkYWQgZGUgdHJhbnNwb3J0ZSBvIGNhdWRhbDwvc3Ryb25nPjxicj4gQml0L3MuIFVuIHswfSB0cmFuc21pdGlkbyBjYWRhIHsxfS48YnI+IHsyfS4gVW4gYnl0ZSB0cmFuc21pdGlkbyBjYWRhIHNlZ3VuZG8u",
             "Gaps": [
                ['Yml0'],
                ['c2VndW5kbw=='],
@@ -490,8 +485,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5QcmVmaWpvcyBkZWwgU2lzdGVtYSBJbnRlcm5hY2lvbmFsIGRlIHVuaWRhZGVzPC9zdHJvbmc+PGJyIC8+IHswfSwgbGV0cmEgRywgY2FudGlkYWQgMTBeezF9LiA8YnIgLz4gezJ9LCBsZXRyYSBNLCBjYW50aWRhZCAxMF57M30uIDxiciAvPiB7NH0sIGxldHJhIGssIGNhbnRpZGFkIDEwXns1fS4gPGJyIC8+",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5QcmVmaWpvcyBkZWwgU2lzdGVtYSBJbnRlcm5hY2lvbmFsIGRlIHVuaWRhZGVzPC9zdHJvbmc+PGJyPiB7MH0sIGxldHJhIEcsIGNhbnRpZGFkIDEwXnsxfS4gPGJyPiB7Mn0sIGxldHJhIE0sIGNhbnRpZGFkIDEwXnszfS4gPGJyPiB7NH0sIGxldHJhIGssIGNhbnRpZGFkIDEwXns1fS4gPGJyPg==",
             "Gaps": [
                ['R2lnYQ=='],
                ['OQ=='],
@@ -503,8 +498,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5QcmVmaWpvcyBkZWwgU2lzdGVtYSBJbnRlcm5hY2lvbmFsIGRlIHVuaWRhZGVzPC9zdHJvbmc+PGJyIC8+IHswfSwgbGV0cmEgRSwgY2FudGlkYWQgMTBeezF9LiA8YnIgLz4gezJ9LCBsZXRyYSBQLCBjYW50aWRhZCAxMF57M30uIDxiciAvPiB7NH0sIGxldHJhIFQsIGNhbnRpZGFkIDEwXns1fS4gPGJyIC8+",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5QcmVmaWpvcyBkZWwgU2lzdGVtYSBJbnRlcm5hY2lvbmFsIGRlIHVuaWRhZGVzPC9zdHJvbmc+PGJyPiB7MH0sIGxldHJhIEUsIGNhbnRpZGFkIDEwXnsxfS4gPGJyPiB7Mn0sIGxldHJhIFAsIGNhbnRpZGFkIDEwXnszfS4gPGJyPiB7NH0sIGxldHJhIFQsIGNhbnRpZGFkIDEwXns1fS4gPGJyPg==",
             "Gaps": [
                ['RXhh'],
                ['MTg='],
@@ -516,8 +511,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuIG1lbnNhamUgZGUgdGV4dG8gYXBlbmFzIG9jdXBhcsOhIGFsZ3VuYXMgZGVjZW5hcyBkZSB7MH0gKHVub3MgYnl0ZXMgbcOhcyBxdWUgZWwgbsO6bWVybyBkZSBjYXJhY3RlcmVzIG8gbGV0cmFzIGRlbCB7MX0pLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbiBtZW5zYWplIGRlIHRleHRvIGFwZW5hcyBvY3VwYXLDoSBhbGd1bmFzIGRlY2VuYXMgZGUgezB9ICh1bm9zIGJ5dGVzIG3DoXMgcXVlIGVsIG7Dum1lcm8gZGUgY2FyYWN0ZXJlcyBvIGxldHJhcyBkZWwgezF9KS4=",
             "Gaps": [
                ['Ynl0ZXM='],
                ['dGV4dG8='],
@@ -525,8 +520,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuYSBjb25leGnDs24gZGUgezB9IGEgdHJhdsOpcyBkZSBXaGF0c2FwcCBuZWNlc2l0YSB1bm9zIDYwIHsxfSBwYXJhIGZ1bmNpb25hci4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbmEgY29uZXhpw7NuIGRlIHswfSBhIHRyYXbDqXMgZGUgV2hhdHNhcHAgbmVjZXNpdGEgdW5vcyA2MCB7MX0gcGFyYSBmdW5jaW9uYXIu",
             "Gaps": [
                ['YXVkaW8='],
                ['a2JpdC9z'],
@@ -534,8 +529,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuYSBmb3RvZ3JhZsOtYSBvIHVuYSBjYW5jacOzbiBtcDMgb2N1cGFuIHVub3MgY2llbnRvcyBkZSB7MH0gbyBwb2NvcyB7MX0gZGVwZW5kaWVuZG8gZGUgc3UgY2FsaWRhZCBvIHRhbWHDsW8u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbmEgZm90b2dyYWbDrWEgbyB1bmEgY2FuY2nDs24gbXAzIG9jdXBhbiB1bm9zIGNpZW50b3MgZGUgezB9IG8gcG9jb3MgezF9IGRlcGVuZGllbmRvIGRlIHN1IGNhbGlkYWQgbyB0YW1hw7FvLg==",
             "Gaps": [
                ['a2lsb2J5dGVz'],
                ['bWVnYWJ5dGVz'],
@@ -543,8 +538,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuYSBjb25leGnDs24gYSBpbnRlcm5ldCBwb3IgZmlicmEgezB9IHRpZW5lIGFscmVkZWRvciBkZSAxMDAgezF9IGRlIHZlbG9jaWRhZCBkZSBjb25leGnDs24gKGVxdWl2YWxlbnRlIGEgdW5vcyAxMiBNYnl0ZS9zKS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbmEgY29uZXhpw7NuIGEgaW50ZXJuZXQgcG9yIGZpYnJhIHswfSB0aWVuZSBhbHJlZGVkb3IgZGUgMTAwIHsxfSBkZSB2ZWxvY2lkYWQgZGUgY29uZXhpw7NuIChlcXVpdmFsZW50ZSBhIHVub3MgMTIgTWJ5dGUvcyku",
             "Gaps": [
                ['w7NwdGljYQ=='],
                ['TWJpdC9z'],
@@ -552,8 +547,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuYSBjb25leGnDs24gcG9yIEV0aGVybmV0IGNvbiBlbCB7MH0gc3VlbGUgdGVuZXIgMSB7MX0gZGUgdmVsb2NpZGFkIGRlIGNvbmV4acOzbiAoZXF1aXZhbGVudGUgYSAxMjUgTWJ5dGUvcyku",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbmEgY29uZXhpw7NuIHBvciBFdGhlcm5ldCBjb24gZWwgezB9IHN1ZWxlIHRlbmVyIDEgezF9IGRlIHZlbG9jaWRhZCBkZSBjb25leGnDs24gKGVxdWl2YWxlbnRlIGEgMTI1IE1ieXRlL3MpLg==",
             "Gaps": [
                ['cm91dGVy'],
                ['R2JpdC9z'],
@@ -561,8 +556,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuYSBwZWzDrWN1bGEgZW4gezB9IG9jdXBhcsOhIGRlIDQgYSA4IHsxfSBkZSBlc3BhY2lvLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbmEgcGVsw61jdWxhIGVuIHswfSBvY3VwYXLDoSBkZSA0IGEgOCB7MX0gZGUgZXNwYWNpby4=",
             "Gaps": [
                ['RFZE'],
                ['R2lnYWJ5dGVz'],
@@ -570,8 +565,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuIHswfSBkdXJvIHTDrXBpY28gdGllbmUgdW5hIGNhcGFjaWRhZCBkZSB2YXJpb3MgezF9Lg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbiB7MH0gZHVybyB0w61waWNvIHRpZW5lIHVuYSBjYXBhY2lkYWQgZGUgdmFyaW9zIHsxfS4=",
             "Gaps": [
                ['ZGlzY28='],
                ['VGVyYWJ5dGVz'],
@@ -579,8 +574,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFVuIHswfSBkZSBvcmRlbmFkb3JlcyBwdWVkZSBhbGNhbnphciB2YXJpb3MgezF9IGRlIGNhcGFjaWRhZC4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBVbiB7MH0gZGUgb3JkZW5hZG9yZXMgcHVlZGUgYWxjYW56YXIgdmFyaW9zIHsxfSBkZSBjYXBhY2lkYWQu",
             "Gaps": [
                ['Q2x1c3Rlcg=='],
                ['UGV0YWJ5dGVz'],
@@ -588,8 +583,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyIC8+IFNlIGNhbGN1bGEgcXVlIGVuIDIwMjAgbGEgY2FwYWNpZGFkIGRlIGFsbWFjZW5hbWllbnRvIHRvdGFsIGRlIHswfSBlcmEgZGUgdW5vcyAyMDAwIHsxfS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DYXBhY2lkYWRlcyB5IHZlbG9jaWRhZGVzIHTDrXBpY2FzPC9zdHJvbmc+PGJyPiBTZSBjYWxjdWxhIHF1ZSBlbiAyMDIwIGxhIGNhcGFjaWRhZCBkZSBhbG1hY2VuYW1pZW50byB0b3RhbCBkZSB7MH0gZXJhIGRlIHVub3MgMjAwMCB7MX0u",
             "Gaps": [
                ['aW50ZXJuZXQ='],
                ['RXhhYnl0ZXM='],
@@ -626,8 +621,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -750,7 +750,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -772,7 +772,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -884,7 +884,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -921,7 +921,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -932,7 +932,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -940,7 +940,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -965,7 +965,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -995,7 +995,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1050,4 +1050,5 @@
    </script>
 
 </body>
+
 </html>

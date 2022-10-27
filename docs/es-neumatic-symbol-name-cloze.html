@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Neumática - Nombre de símbolos - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Neumática - Nombre de símbolos - Picuino">
    <title>Test Nombre de símbolos - Neumática - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,12 +444,11 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Neumática. Nombre de símbolos.";
       const questions_encoded = [
          {
-            "Image": ["images/1e8e0cc3f4d63ea83143.png", "220"],            
+            "Image": ["images/1e8e0cc3f4d63ea83143.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBuZXVtw6F0aWNvLg==",
             "Gaps": [
                ['Y29tcHJlc29y'],
@@ -461,7 +456,7 @@
          },
          
          {
-            "Image": ["images/2073e6da1a80b3d473d9.png", "220"],            
+            "Image": ["images/2073e6da1a80b3d473d9.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBvIHsxfS4=",
             "Gaps": [
                ['ZGVww7NzaXRv'],
@@ -470,7 +465,7 @@
          },
          
          {
-            "Image": ["images/f50288c9b0e56a48fb21.png", "220"],            
+            "Image": ["images/f50288c9b0e56a48fb21.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
             "Gaps": [
                ['ZXNjYXBl'],
@@ -478,7 +473,7 @@
          },
          
          {
-            "Image": ["images/d995506023cfd5c70d59.png", "220"],            
+            "Image": ["images/d995506023cfd5c70d59.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBjb24gezF9Lg==",
             "Gaps": [
                ['ZXNjYXBl'],
@@ -487,7 +482,7 @@
          },
          
          {
-            "Image": ["images/0aa28c135a509a566e2d.png", "220"],            
+            "Image": ["images/0aa28c135a509a566e2d.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
             "Gaps": [
                ['ZmlsdHJv'],
@@ -496,7 +491,7 @@
          },
          
          {
-            "Image": ["images/e97cd00a36910b8f4958.png", "220"],            
+            "Image": ["images/e97cd00a36910b8f4958.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
             "Gaps": [
                ['ZnVlbnRl'],
@@ -505,7 +500,7 @@
          },
          
          {
-            "Image": ["images/dd62cf6618eaa9dd9bf8.png", "220"],            
+            "Image": ["images/dd62cf6618eaa9dd9bf8.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
             "Gaps": [
                ['bHVicmljYWRvcg=='],
@@ -513,7 +508,7 @@
          },
          
          {
-            "Image": ["images/0d37c15505cea922f993.png", "220"],            
+            "Image": ["images/0d37c15505cea922f993.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfS4=",
             "Gaps": [
                ['bWFuw7NtZXRybw=='],
@@ -521,7 +516,7 @@
          },
          
          {
-            "Image": ["images/4c45ad13fed677d2e818.png", "220"],            
+            "Image": ["images/4c45ad13fed677d2e818.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBuZXVtw6F0aWNvIHsxfS4=",
             "Gaps": [
                ['bW90b3I='],
@@ -530,7 +525,7 @@
          },
          
          {
-            "Image": ["images/6d2c6f61740980473a14.png", "220"],            
+            "Image": ["images/6d2c6f61740980473a14.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0u",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -539,7 +534,7 @@
          },
          
          {
-            "Image": ["images/95f623788e7f84e8558c.png", "220"],            
+            "Image": ["images/95f623788e7f84e8558c.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBjb24gezF9Lg==",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -548,7 +543,7 @@
          },
          
          {
-            "Image": ["images/9d8283848a80f4f72278.png", "220"],            
+            "Image": ["images/9d8283848a80f4f72278.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0u",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -557,7 +552,7 @@
          },
          
          {
-            "Image": ["images/d63883cc199e102d2073.png", "220"],            
+            "Image": ["images/d63883cc199e102d2073.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -566,7 +561,7 @@
          },
          
          {
-            "Image": ["images/c2fa41692d69db2af124.png", "220"],            
+            "Image": ["images/c2fa41692d69db2af124.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -575,7 +570,7 @@
          },
          
          {
-            "Image": ["images/6a839dd6e4211934e349.png", "220"],            
+            "Image": ["images/6a839dd6e4211934e349.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -584,7 +579,7 @@
          },
          
          {
-            "Image": ["images/d6b438900d46a7862e36.png", "220"],            
+            "Image": ["images/d6b438900d46a7862e36.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
             "Gaps": [
                ['cGlsb3RhamU='],
@@ -593,7 +588,7 @@
          },
          
          {
-            "Image": ["images/ac14c3a7ac606191d4ad.png", "220"],            
+            "Image": ["images/ac14c3a7ac606191d4ad.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0gZWZlY3RvLg==",
             "Gaps": [
                ['cGlzdMOzbg=='],
@@ -602,7 +597,7 @@
          },
          
          {
-            "Image": ["images/28069d02c6c3fe1d8519.png", "220"],            
+            "Image": ["images/28069d02c6c3fe1d8519.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0gZWZlY3RvLg==",
             "Gaps": [
                ['cGlzdMOzbg=='],
@@ -611,7 +606,7 @@
          },
          
          {
-            "Image": ["images/4a07eb6defe985d38bcb.png", "220"],            
+            "Image": ["images/4a07eb6defe985d38bcb.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBjb25kZW5zYWRvcy4=",
             "Gaps": [
                ['cHVyZ2Fkb3I='],
@@ -619,7 +614,7 @@
          },
          
          {
-            "Image": ["images/8752c3395f13636f77e8.png", "220"],            
+            "Image": ["images/8752c3395f13636f77e8.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBwcmVzacOzbi4=",
             "Gaps": [
                ['cmVndWxhZG9y'],
@@ -627,7 +622,7 @@
          },
          
          {
-            "Image": ["images/bbe7b4879cae92524114.png", "220"],            
+            "Image": ["images/bbe7b4879cae92524114.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBwb3IgezF9Lg==",
             "Gaps": [
                ['cmV0b3Jubw=='],
@@ -636,7 +631,7 @@
          },
          
          {
-            "Image": ["images/52f5a85cbaf32ad2cdec.png", "220"],            
+            "Image": ["images/52f5a85cbaf32ad2cdec.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSBhaXJlLg==",
             "Gaps": [
                ['c2VjYWRvcg=='],
@@ -644,7 +639,7 @@
          },
          
          {
-            "Image": ["images/6d33875e5fb8474bddc2.png", "220"],            
+            "Image": ["images/6d33875e5fb8474bddc2.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSBkZSB7MX0u",
             "Gaps": [
                ['dW5pZGFk'],
@@ -653,7 +648,7 @@
          },
          
          {
-            "Image": ["images/be4111a079ec4b42a2db.png", "220"],            
+            "Image": ["images/be4111a079ec4b42a2db.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
             "Gaps": [
                ['dsOhbHZ1bGE='],
@@ -662,7 +657,7 @@
          },
          
          {
-            "Image": ["images/ed68e3fbe949d8236023.png", "220"],            
+            "Image": ["images/ed68e3fbe949d8236023.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
             "Gaps": [
                ['dsOhbHZ1bGE='],
@@ -671,7 +666,7 @@
          },
          
          {
-            "Image": ["images/2c8e2038d7ae4c5db09c.png", "220"],            
+            "Image": ["images/2c8e2038d7ae4c5db09c.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
             "Gaps": [
                ['dsOhbHZ1bGE='],
@@ -680,7 +675,7 @@
          },
          
          {
-            "Image": ["images/6c7fb546565e38756c91.png", "220"],            
+            "Image": ["images/6c7fb546565e38756c91.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHswfSB7MX0=",
             "Gaps": [
                ['dsOhbHZ1bGE='],
@@ -689,7 +684,7 @@
          },
          
          {
-            "Image": ["images/c8419538220ad5a55191.png", "220"],            
+            "Image": ["images/c8419538220ad5a55191.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfS4=",
             "Gaps": [
                ['YW50aXJyZXRvcm5v'],
@@ -697,7 +692,7 @@
          },
          
          {
-            "Image": ["images/182e1e3ca316cc9b750e.png", "220"],            
+            "Image": ["images/182e1e3ca316cc9b750e.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfSB1bmlkaXJlY2Npb25hbC4=",
             "Gaps": [
                ['ZXN0cmFuZ3VsYWRvcmE='],
@@ -705,7 +700,7 @@
          },
          
          {
-            "Image": ["images/70139a502e9031ff69e4.png", "220"],            
+            "Image": ["images/70139a502e9031ff69e4.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfS4=",
             "Gaps": [
                ['ZXN0cmFuZ3VsYWRvcmE='],
@@ -713,7 +708,7 @@
          },
          
          {
-            "Image": ["images/196f755761bf9d3254f9.png", "220"],            
+            "Image": ["images/196f755761bf9d3254f9.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIHswfS4=",
             "Gaps": [
                ['T1I='],
@@ -721,7 +716,7 @@
          },
          
          {
-            "Image": ["images/9d35e30e8c259d93db74.png", "220"],            
+            "Image": ["images/9d35e30e8c259d93db74.png", "220"],
             "Cloze": "RXN0ZSBjb21wb25lbnRlIHNlIGxsYW1hIHbDoWx2dWxhIGRlIHswfS4=",
             "Gaps": [
                ['c2ltdWx0YW5laWRhZA=='],
@@ -758,8 +753,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -882,7 +882,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -904,7 +904,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -1016,7 +1016,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -1053,7 +1053,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -1064,7 +1064,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -1072,7 +1072,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -1097,7 +1097,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -1127,7 +1127,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1182,4 +1182,5 @@
    </script>
 
 </body>
+
 </html>

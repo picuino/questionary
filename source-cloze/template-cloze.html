@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de {{ header.Category }} - {{ header.Title }} - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de {{ header.Category }} - {{ header.Title }} - Picuino">
    <title>Test {{ header.Title }} - {{ header.Category }} - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,8 +399,19 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
-      <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
+
+      {% if 'Copyright_link' in header -%}
+      <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
+      {% else -%}
+      <p>Copyright © {{ header.Copyright }}.</p>
+      {% endif -%}
+
+      {% if 'License_link' in header -%}
+      <p>Licencia: <a href={{ header.License_link }} target=”_blank”>{{ header.License }}</a></p>
+      {% else -%}
+      <p>Licencia: {{ header.License }}</p>
+      {% endif -%}
+
       </div>
 
       <!-- Cookies Advise -->
@@ -414,9 +420,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +435,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,8 +454,7 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = {{ header.Show_max }};
       const questions_title = "{{ header.Category }}. {{ header.Title }}.";
       const questions_encoded = [
          {%- for question in questions %}
@@ -458,7 +463,7 @@
             "Image": ["images/{{ question.Image.hashname }}", "{{ question.Image.display_width }}"],
             {%- else %}
             "Image": ["", ""],
-            {%- endif %}            
+            {%- endif %}
             "Cloze": "{{ question.Cloze_b64 }}",
             "Gaps": [
                {%- for Gap in question.Gaps_b64 %}
@@ -501,8 +506,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -625,7 +635,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -647,7 +657,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -759,7 +769,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -796,7 +806,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -807,7 +817,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -815,7 +825,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -840,7 +850,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -870,7 +880,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -925,4 +935,5 @@
    </script>
 
 </body>
+
 </html>

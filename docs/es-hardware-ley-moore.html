@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Hardware - Ley de Moore - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Hardware - Ley de Moore - Picuino">
    <title>Test Ley de Moore - Hardware - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,13 +444,12 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Hardware. Ley de Moore.";
       const questions_encoded = [
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnIgLz4gTGEgbGV5IGRlIE1vb3JlIGZ1ZSBmb3JtdWxhZGEgZW4gZWwgYcOxbyB7MH0gcG9yIEdvcmRvbiBNb29yZSwgY29mdW5kYWRvciBkZSB7MX0sIHkgZXhwcmVzYSBxdWUgY2FkYSAyIGHDsW9zIHNlIHsyfSBlbCBuw7ptZXJvIGRlIHszfSBkZSB1biBtaWNyb3Byb2Nlc2Fkb3Iu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnI+IExhIGxleSBkZSBNb29yZSBmdWUgZm9ybXVsYWRhIGVuIGVsIGHDsW8gezB9IHBvciBHb3Jkb24gTW9vcmUsIGNvZnVuZGFkb3IgZGUgezF9LCB5IGV4cHJlc2EgcXVlIGNhZGEgMiBhw7FvcyBzZSB7Mn0gZWwgbsO6bWVybyBkZSB7M30gZGUgdW4gbWljcm9wcm9jZXNhZG9yLg==",
             "Gaps": [
                ['MTk2NQ=='],
                ['SW50ZWw='],
@@ -464,8 +459,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnIgLz4gR3JhY2lhcyBhIGVzdGEgdGVuZGVuY2lhIGEgYXVtZW50YXIgZWwgbsO6bWVybyBkZSB7MH0sIGxhIHBvdGVuY2lhIHkgY2FwYWNpZGFkIGRlIGPDoWxjdWxvIGhhbiBhdW1lbnRhZG8gZGUgZm9ybWEgezF9IGRlc2RlIGVsIGHDsW8gMTk2NSBoYXN0YSBsYSBhY3R1YWxpZGFkLiA8YnIgLz4gU2UgZXNwZXJhIHF1ZSB0b2RhdsOtYSBzaWdhIGF1bWVudGFuZG8gdW5vcyBhw7FvcyBtw6FzLCBoYXN0YSBxdWUgbGEgdGVjbm9sb2fDrWEgc2UgdG9wZSBjb24gbG9zIGVmZWN0b3MgezJ9LCBxdWUgbm8gcGVybWl0aXLDoW4gc2VndWlyIGZhYnJpY2FuZG8gdHJhbnNpc3RvcmVzIG3DoXMgezN9Lg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnI+IEdyYWNpYXMgYSBlc3RhIHRlbmRlbmNpYSBhIGF1bWVudGFyIGVsIG7Dum1lcm8gZGUgezB9LCBsYSBwb3RlbmNpYSB5IGNhcGFjaWRhZCBkZSBjw6FsY3VsbyBoYW4gYXVtZW50YWRvIGRlIGZvcm1hIHsxfSBkZXNkZSBlbCBhw7FvIDE5NjUgaGFzdGEgbGEgYWN0dWFsaWRhZC4gPGJyPiBTZSBlc3BlcmEgcXVlIHRvZGF2w61hIHNpZ2EgYXVtZW50YW5kbyB1bm9zIGHDsW9zIG3DoXMsIGhhc3RhIHF1ZSBsYSB0ZWNub2xvZ8OtYSBzZSB0b3BlIGNvbiBsb3MgZWZlY3RvcyB7Mn0sIHF1ZSBubyBwZXJtaXRpcsOhbiBzZWd1aXIgZmFicmljYW5kbyB0cmFuc2lzdG9yZXMgbcOhcyB7M30u",
             "Gaps": [
                ['dHJhbnNpc3RvcmVz'],
                ['ZXhwb25lbmNpYWw='],
@@ -475,8 +470,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnIgLz4gRXN0YSBsZXkgdGFtYmnDqW4gZXMgdsOhbGlkYSBwYXJhIG90cm9zIGRpc3Bvc2l0aXZvcyBiYXNhZG9zIGVuIHswfSBjb21vIHB1ZWRlbiBzZXIgbGEgbWVtb3JpYSB7MX0gbyBsYSBtZW1vcmlhIHsyfS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5MZXkgZGUgTW9vcmU8L3N0cm9uZz48YnI+IEVzdGEgbGV5IHRhbWJpw6luIGVzIHbDoWxpZGEgcGFyYSBvdHJvcyBkaXNwb3NpdGl2b3MgYmFzYWRvcyBlbiB7MH0gY29tbyBwdWVkZW4gc2VyIGxhIG1lbW9yaWEgezF9IG8gbGEgbWVtb3JpYSB7Mn0u",
             "Gaps": [
                ['dHJhbnNpc3RvcmVz'],
                ['UkFN'],
@@ -485,8 +480,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxiciAvPiBMb3MgZGlzcG9zaXRpdm9zIGRlIHswfSBpbmZvcm3DoXRpY28gc3VmcmVuIHVuYSBmdWVydGUgZGVmbGFjacOzbiBkZSB7MX0gY29uIGVsIHRpZW1wbywgbG8gcXVlIHByb3ZvY2EgcXVlIHVuIGRpc3Bvc2l0aXZvIG11eSBjYXJvLCBkZSB7Mn0gZGUgZ2FtYSwgcGFzZSBlbiBwb2NvcyBhw7FvcyBhIHNlciB1biBkaXNwb3NpdGl2byB7M30sIGVuIGVsIHJhbmdvIGRlIHByZWNpb3MgbcOhcyBiYXJhdG9zLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxicj4gTG9zIGRpc3Bvc2l0aXZvcyBkZSB7MH0gaW5mb3Jtw6F0aWNvIHN1ZnJlbiB1bmEgZnVlcnRlIGRlZmxhY2nDs24gZGUgezF9IGNvbiBlbCB0aWVtcG8sIGxvIHF1ZSBwcm92b2NhIHF1ZSB1biBkaXNwb3NpdGl2byBtdXkgY2FybywgZGUgezJ9IGRlIGdhbWEsIHBhc2UgZW4gcG9jb3MgYcOxb3MgYSBzZXIgdW4gZGlzcG9zaXRpdm8gezN9LCBlbiBlbCByYW5nbyBkZSBwcmVjaW9zIG3DoXMgYmFyYXRvcy4=",
             "Gaps": [
                ['aGFyZHdhcmU='],
                ['cHJlY2lvcw=='],
@@ -496,15 +491,15 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxiciAvPiBVbmEgYnVlbmEgcGF1dGEgYSBsYSBob3JhIGRlIGNvbXByYXIgaGFyZHdhcmUgZXMgbm8gY29tcHJhciBsbyBtw6FzIGJhcmF0byBkZWwgbWVyY2FkbywgcHVlc3RvIHF1ZSBzdWVsZSB0ZW5lciB1bmEgYmFqYSByZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpby4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxicj4gVW5hIGJ1ZW5hIHBhdXRhIGEgbGEgaG9yYSBkZSBjb21wcmFyIGhhcmR3YXJlIGVzIG5vIGNvbXByYXIgbG8gbcOhcyBiYXJhdG8gZGVsIG1lcmNhZG8sIHB1ZXN0byBxdWUgc3VlbGUgdGVuZXIgdW5hIGJhamEgcmVsYWNpw7NuIGNhcGFjaWRhZC1wcmVjaW8u",
             "Gaps": [
             ]
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxiciAvPiBQb3Igb3RybyBsYWRvLCBsb3MgZGlzcG9zaXRpdm9zIG3DoXMgezB9IGRlbCBtZXJjYWRvIHNlIHN1ZWxlbiBsYW56YXIgY29uIHVub3MgcHJlY2lvcyBtdXkgezF9IGRlYmlkbyBhIHF1ZSBzb24gcHJvZHVjdG9zIGRlIGxhIG1heW9yIGNhcGFjaWRhZCBvIHJlbmRpbWllbnRvIHkgZXNvIGxlcyBoYWNlIHNlciBtw6FzIHsyfS4gPGJyIC8+IEVsIHJlc3VsdGFkbyBlcyBxdWUgZXN0b3MgZGlzcG9zaXRpdm9zIGRlIGdhbWEgezN9IHN1ZWxlbiB0ZW5lciB0YW1iacOpbiB1bmEgcG9icmUgcmVsYWNpw7NuIHs0fS1wcmVjaW8gbyByZW5kaW1pZW50by1wcmVjaW8u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxicj4gUG9yIG90cm8gbGFkbywgbG9zIGRpc3Bvc2l0aXZvcyBtw6FzIHswfSBkZWwgbWVyY2FkbyBzZSBzdWVsZW4gbGFuemFyIGNvbiB1bm9zIHByZWNpb3MgbXV5IHsxfSBkZWJpZG8gYSBxdWUgc29uIHByb2R1Y3RvcyBkZSBsYSBtYXlvciBjYXBhY2lkYWQgbyByZW5kaW1pZW50byB5IGVzbyBsZXMgaGFjZSBzZXIgbcOhcyB7Mn0uIDxicj4gRWwgcmVzdWx0YWRvIGVzIHF1ZSBlc3RvcyBkaXNwb3NpdGl2b3MgZGUgZ2FtYSB7M30gc3VlbGVuIHRlbmVyIHRhbWJpw6luIHVuYSBwb2JyZSByZWxhY2nDs24gezR9LXByZWNpbyBvIHJlbmRpbWllbnRvLXByZWNpby4=",
             "Gaps": [
                ['bnVldm9z'],
                ['YWx0b3M='],
@@ -515,8 +510,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxiciAvPiBFbiBsYXMgbWVtb3JpYXMgVVNCLCBsYSByZWxhY2nDs24gZGUgcHJlY2lvIHBvciB7MH0gbWVqb3JhIGNvbnN0YW50ZW1lbnRlIGN1YW5kbyBhdW1lbnRhIGxhIHsxfSwgaGFzdGEgcXVlIGxsZWdhbW9zIGFsIGRpc3Bvc2l0aXZvIG3DoXMgbnVldm8geSBkZSBnYW1hIG3DoXMgezJ9LCBxdWUgdGllbmUgdW4gcHJlY2lvIG11eSB7M30gYWwgcmVzdG8gZHVyYW50ZSBlbCBwZXJpb2RvIGRlIGxhbnphbWllbnRvLCBwb3IgbG8gcXVlIG5vIG1lcmVjZSBsYSBwZW5hIHs0fSBwb3Igc3UgbWVub3IgezV9IGNhcGFjaWRhZC1wcmVjaW8u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gY2FwYWNpZGFkLXByZWNpbzwvc3Ryb25nPjxicj4gRW4gbGFzIG1lbW9yaWFzIFVTQiwgbGEgcmVsYWNpw7NuIGRlIHByZWNpbyBwb3IgezB9IG1lam9yYSBjb25zdGFudGVtZW50ZSBjdWFuZG8gYXVtZW50YSBsYSB7MX0sIGhhc3RhIHF1ZSBsbGVnYW1vcyBhbCBkaXNwb3NpdGl2byBtw6FzIG51ZXZvIHkgZGUgZ2FtYSBtw6FzIHsyfSwgcXVlIHRpZW5lIHVuIHByZWNpbyBtdXkgezN9IGFsIHJlc3RvIGR1cmFudGUgZWwgcGVyaW9kbyBkZSBsYW56YW1pZW50bywgcG9yIGxvIHF1ZSBubyBtZXJlY2UgbGEgcGVuYSB7NH0gcG9yIHN1IG1lbm9yIHs1fSBjYXBhY2lkYWQtcHJlY2lvLg==",
             "Gaps": [
                ['R2lnYWJ5dGU='],
                ['Y2FwYWNpZGFk'],
@@ -528,8 +523,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gcmVuZGltaWVudG8tcHJlY2lvPC9zdHJvbmc+PGJyIC8+IExvcyBtb2RlbG9zIGRlIHByb2Nlc2Fkb3JlcyBjb24gbWVub3IgezB9IG5vIGVzdMOhbiBhIGxhIHZlbnRhIGNvbW8gcHJvY2VzYWRvcmVzIGluZGVwZW5kaWVudGVzLCBwZXJvIHNlIHNpZ3VlbiB7MX0gZW4gZXF1aXBvcyB5YSBtb250YWRvcywgYSBwZXNhciBkZSBzZXIgezJ9IHkgdGVuZXIgdW5hIGJhamEgcmVsYWNpw7NuIHJlbmRpbWllbnRvL3ByZWNpby4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gcmVuZGltaWVudG8tcHJlY2lvPC9zdHJvbmc+PGJyPiBMb3MgbW9kZWxvcyBkZSBwcm9jZXNhZG9yZXMgY29uIG1lbm9yIHswfSBubyBlc3TDoW4gYSBsYSB2ZW50YSBjb21vIHByb2Nlc2Fkb3JlcyBpbmRlcGVuZGllbnRlcywgcGVybyBzZSBzaWd1ZW4gezF9IGVuIGVxdWlwb3MgeWEgbW9udGFkb3MsIGEgcGVzYXIgZGUgc2VyIHsyfSB5IHRlbmVyIHVuYSBiYWphIHJlbGFjacOzbiByZW5kaW1pZW50by9wcmVjaW8u",
             "Gaps": [
                ['cmVuZGltaWVudG8='],
                ['dmVuZGllbmRv'],
@@ -538,8 +533,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gcmVuZGltaWVudG8tcHJlY2lvPC9zdHJvbmc+PGJyIC8+IFBvZGVtb3Mgb2JzZXJ2YXIgZGUgbnVldm8gcXVlIGxvcyBlcXVpcG9zIG3DoXMgezB9IHRpZW5lbiB1bmEgcG9icmUgezF9IHJlbmRpbWllbnRvL3ByZWNpbywgYWwgaWd1YWwgcXVlIGxvcyBtw6FzIGNhcm9zIHkgZGUgZ2FtYSB7Mn0uIExhIG1lam9yIGNvbXByYSBlc3TDoSBlbiB1biBlcXVpcG8gezN9LCBjb24gbGEgbWVqb3IgcmVsYWNpw7NuIHJlbmRpbWllbnRvL3ByZWNpby4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5SZWxhY2nDs24gcmVuZGltaWVudG8tcHJlY2lvPC9zdHJvbmc+PGJyPiBQb2RlbW9zIG9ic2VydmFyIGRlIG51ZXZvIHF1ZSBsb3MgZXF1aXBvcyBtw6FzIHswfSB0aWVuZW4gdW5hIHBvYnJlIHsxfSByZW5kaW1pZW50by9wcmVjaW8sIGFsIGlndWFsIHF1ZSBsb3MgbcOhcyBjYXJvcyB5IGRlIGdhbWEgezJ9LiBMYSBtZWpvciBjb21wcmEgZXN0w6EgZW4gdW4gZXF1aXBvIHszfSwgY29uIGxhIG1lam9yIHJlbGFjacOzbiByZW5kaW1pZW50by9wcmVjaW8u",
             "Gaps": [
                ['YmFyYXRvcw=='],
                ['cmVsYWNpw7Nu'],
@@ -578,8 +573,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -702,7 +702,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -724,7 +724,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -836,7 +836,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -873,7 +873,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -884,7 +884,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -892,7 +892,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -917,7 +917,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -947,7 +947,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1002,4 +1002,5 @@
    </script>
 
 </body>
+
 </html>

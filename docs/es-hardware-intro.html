@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Hardware - Introducción al hardware - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Hardware - Introducción al hardware - Picuino">
    <title>Test Introducción al hardware - Hardware - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,12 +444,11 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Hardware. Introducción al hardware.";
       const questions_encoded = [
          {
-            "Image": ["", ""],            
+            "Image": ["", ""],
             "Cloze": "RWwgezB9IGVzIGVsIGNvbmp1bnRvIGRlIGxhcyBwYXJ0ZXMgezF9IGRlIHVuIHNpc3RlbWEgaW5mb3Jtw6F0aWNvLiBTb24gbG9zIGNvbXBvbmVudGVzIGVsw6ljdHJpY29zLCBlbGVjdHLDs25pY29zIHkgbWVjw6FuaWNvc+KAiyBkZSB1biBvcmRlbmFkb3IgdGFsZXMgY29tbyBjYWJsZXMsIGNhamFzLCBwZXJpZsOpcmljb3MsIGV0Yy4=",
             "Gaps": [
                ['aGFyZHdhcmU='],
@@ -462,7 +457,7 @@
          },
          
          {
-            "Image": ["", ""],            
+            "Image": ["", ""],
             "Cloze": "UG9yIGVsIGNvbnRyYXJpbyBsb3MgcHJvZ3JhbWFzIHkgZGF0b3MgZGUgdW4gb3JkZW5hZG9yIHNvbiBpbnRhbmdpYmxlcyB5IHNlIGRlbm9taW5hbiB7MH0u",
             "Gaps": [
                ['c29mdHdhcmU='],
@@ -470,16 +465,16 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz57MH0gcHJvZ3JhbWFibGVzPC9zdHJvbmc+IDxiciAvPiBTb24gcGVxdWXDsW9zIG9yZGVuYWRvcmVzIGRlIGJhamEgcG90ZW5jaWEsIGRlc3RpbmFkb3MgYSBjb250cm9sYXIgZGUgZm9ybWEgaW50ZWxpZ2VudGUgYXBhcmF0b3MgZG9tw6lzdGljb3MsIGVsZW1lbnRvcyBkZSB1biBhdXRvbcOzdmlsLCBldGMuIFBlcm1pdGVuIHJlYWxpemFyIHByb2dyYW1hcyBhIHVuYSBsYXZhZG9yYSwgdGVtcG9yaXphciBkaWdpdGFsbWVudGUgdW4gaG9ybm8gbWljcm9vbmRhcywgYWN0aXZhciBlbCBmcmVubyBBQlMgZGUgdW4gYXV0b23Ds3ZpbCwgcmVhbGl6YXIgbWVkaWNpb25lcyBkZSBjb25zdW1vIGVsw6ljdHJpY28gYSBkaXN0YW5jaWEsIHZhbGlkYXIgdW5hIHRhcmpldGEgZGUgdHJhbnNwb3J0ZSBlbiBlbCBhdXRvYsO6cywgZW5jZW5kZXIgdW5hIGJvbWJpbGxhIG1lZGlhbnRlIGNvbmV4acOzbiB3aWZpLCBjb250cm9sYXIgdW5hIG3DoXF1aW5hIGV4cGVuZGVkb3JhLCBldGMu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz57MH0gcHJvZ3JhbWFibGVzPC9zdHJvbmc+IDxicj4gU29uIHBlcXVlw7FvcyBvcmRlbmFkb3JlcyBkZSBiYWphIHBvdGVuY2lhLCBkZXN0aW5hZG9zIGEgY29udHJvbGFyIGRlIGZvcm1hIGludGVsaWdlbnRlIGFwYXJhdG9zIGRvbcOpc3RpY29zLCBlbGVtZW50b3MgZGUgdW4gYXV0b23Ds3ZpbCwgZXRjLiBQZXJtaXRlbiByZWFsaXphciBwcm9ncmFtYXMgYSB1bmEgbGF2YWRvcmEsIHRlbXBvcml6YXIgZGlnaXRhbG1lbnRlIHVuIGhvcm5vIG1pY3Jvb25kYXMsIGFjdGl2YXIgZWwgZnJlbm8gQUJTIGRlIHVuIGF1dG9tw7N2aWwsIHJlYWxpemFyIG1lZGljaW9uZXMgZGUgY29uc3VtbyBlbMOpY3RyaWNvIGEgZGlzdGFuY2lhLCB2YWxpZGFyIHVuYSB0YXJqZXRhIGRlIHRyYW5zcG9ydGUgZW4gZWwgYXV0b2LDunMsIGVuY2VuZGVyIHVuYSBib21iaWxsYSBtZWRpYW50ZSBjb25leGnDs24gd2lmaSwgY29udHJvbGFyIHVuYSBtw6FxdWluYSBleHBlbmRlZG9yYSwgZXRjLg==",
             "Gaps": [
                ['Q29udHJvbGFkb3Jlcw=='],
             ]
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5Db250cm9sYWRvcmVzIHByb2dyYW1hYmxlczwvc3Ryb25nPiA8YnIgLz4gRW4gbGEgaW5kdXN0cmlhIHNlIHV0aWxpemFuIGNvbnRyb2xhZG9yZXMgcHJvZ3JhbWFibGVzIGVzcGVjaWFsaXphZG9zIHBhcmEgbW92ZXIgbcOhcXVpbmFzIGRlIGZvcm1hIGF1dG9tw6F0aWNhIG8gcGFyYSByZWNvZ2VyIGRhdG9zIHkgY29udHJvbGFyIHByb2Nlc29zIGluZHVzdHJpYWxlcy4gRXN0b3MgY29udHJvbGFkb3JlcyBzZSBkZW5vbWluYW4gezB9IHkgezF9Lg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5Db250cm9sYWRvcmVzIHByb2dyYW1hYmxlczwvc3Ryb25nPiA8YnI+IEVuIGxhIGluZHVzdHJpYSBzZSB1dGlsaXphbiBjb250cm9sYWRvcmVzIHByb2dyYW1hYmxlcyBlc3BlY2lhbGl6YWRvcyBwYXJhIG1vdmVyIG3DoXF1aW5hcyBkZSBmb3JtYSBhdXRvbcOhdGljYSBvIHBhcmEgcmVjb2dlciBkYXRvcyB5IGNvbnRyb2xhciBwcm9jZXNvcyBpbmR1c3RyaWFsZXMuIEVzdG9zIGNvbnRyb2xhZG9yZXMgc2UgZGVub21pbmFuIHswfSB5IHsxfS4=",
             "Gaps": [
                ['UExD'],
                ['U0NBREE='],
@@ -487,7 +482,7 @@
          },
          
          {
-            "Image": ["", ""],            
+            "Image": ["", ""],
             "Cloze": "QSBtZWRpZGEgcXVlIHNlIGFiYXJhdGFuIGxvcyBwcmVjaW9zIGRlIGxvcyBjb21wb25lbnRlcyBlbGVjdHLDs25pY29zLCBjYWRhIHZleiBtw6FzIGFwYXJhdG9zIGluY29ycG9yYW4gcGVxdWXDsW9zIG9yZGVuYWRvcmVzIHF1ZSBsZXMgYcOxYWRlbiBpbnRlbGlnZW5jaWEuIEVzdG9zIHBlcXVlw7FvcyBjb250cm9sYWRvcmVzIGHDsWFkaWRvcyBhIGxvcyBvYmpldG9zIGNvdGlkaWFub3MgeSBjb25lY3RhZG9zIGEgaW50ZXJuZXQgZXMgbG8gcXVlIHNlIGRlbm9taW5hIHswfSBkZSBsYXMgezF9IG8gSW9ULg==",
             "Gaps": [
                ['SW50ZXJuZXQ='],
@@ -496,7 +491,7 @@
          },
          
          {
-            "Image": ["images/3feb88577ab0e6b1aba5.jpg", "340"],            
+            "Image": ["images/3feb88577ab0e6b1aba5.jpg", "340"],
             "Cloze": "VW5vIGRlIGxvcyBjb250cm9sYWRvcmVzIHBhcmEgdXNvIGRvbcOpc3RpY28geSBkZSBlbnRyZXRlbmltaWVudG8gbcOhcyBjb25vY2lkbyBlcyBsYSBwbGFjYSB7MH0gVU5PLCBjb24gYXJxdWl0ZWN0dXJhIGRlIDggYml0cy4=",
             "Gaps": [
                ['QXJkdWlubw=='],
@@ -504,8 +499,8 @@
          },
          
          {
-            "Image": ["images/82801b7733bca340dd59.jpg", "340"],            
-            "Cloze": "VW4gezB9IG8gdGVjbm9sb2fDrWEgdmVzdGlibGUgZXMgdW4gcGVxdWXDsW8gb3JkZW5hZG9yIGluY29ycG9yYWRvIGEgcHJlbmRhcyBkZSB2ZXN0aXIuIEluY2x1eWUgYSBsb3MgcmVsb2plcyBpbnRlbGlnZW50ZXMgbyB7MX0sIGdhZmFzIGludGVsaWdlbnRlcywgZXRjLiA8YnIgLz4gRXN0YSB0ZWNub2xvZ8OtYSBwdWVkZSBzZXIgdXRpbGl6YWRhIHBhcmEgbW9uaXRvcml6YXIgbGEgc2FsdWQgZGUgbG9zIHVzdWFyaW9zLg==",
+            "Image": ["images/82801b7733bca340dd59.jpg", "340"],
+            "Cloze": "VW4gezB9IG8gdGVjbm9sb2fDrWEgdmVzdGlibGUgZXMgdW4gcGVxdWXDsW8gb3JkZW5hZG9yIGluY29ycG9yYWRvIGEgcHJlbmRhcyBkZSB2ZXN0aXIuIEluY2x1eWUgYSBsb3MgcmVsb2plcyBpbnRlbGlnZW50ZXMgbyB7MX0sIGdhZmFzIGludGVsaWdlbnRlcywgZXRjLiA8YnI+IEVzdGEgdGVjbm9sb2fDrWEgcHVlZGUgc2VyIHV0aWxpemFkYSBwYXJhIG1vbml0b3JpemFyIGxhIHNhbHVkIGRlIGxvcyB1c3Vhcmlvcy4=",
             "Gaps": [
                ['d2VhcmFibGU='],
                ['c21hcnR3YXRjaA=='],
@@ -513,8 +508,8 @@
          },
          
          {
-            "Image": ["images/ea4bee7fdcfe8fc1c922.jpg", "340"],            
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgZGUgdW5hIHNvbGEgcGxhY2EgKHswfSk8L3N0cm9uZz4gPGJyIC8+IExvcyBvcmRlbmFkb3JlcyBkZSB1bmEgc29sYSBwbGFjYSBzb24gb3JkZW5hZG9yZXMgY29tcGxldG9zIGVuIHVuYSBzb2xhIHBsYWNhIGRlIGNpcmN1aXRvIGltcHJlc28gZGUgdGFtYcOxbyByZWR1Y2lkbyBxdWUgaW5jbHV5ZSB1bmEgezF9LCBtZW1vcmlhIFJBTSwgcGVyaWbDqXJpY29zLCBjb25lY3RvcmVzIHkgZGVtw6FzIGNvbXBvbmVudGVzIHTDrXBpY29zIGRlIHVuIG9yZGVuYWRvciBwZXJzb25hbC4=",
+            "Image": ["images/ea4bee7fdcfe8fc1c922.jpg", "340"],
+            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgZGUgdW5hIHNvbGEgcGxhY2EgKHswfSk8L3N0cm9uZz4gPGJyPiBMb3Mgb3JkZW5hZG9yZXMgZGUgdW5hIHNvbGEgcGxhY2Egc29uIG9yZGVuYWRvcmVzIGNvbXBsZXRvcyBlbiB1bmEgc29sYSBwbGFjYSBkZSBjaXJjdWl0byBpbXByZXNvIGRlIHRhbWHDsW8gcmVkdWNpZG8gcXVlIGluY2x1eWUgdW5hIHsxfSwgbWVtb3JpYSBSQU0sIHBlcmlmw6lyaWNvcywgY29uZWN0b3JlcyB5IGRlbcOhcyBjb21wb25lbnRlcyB0w61waWNvcyBkZSB1biBvcmRlbmFkb3IgcGVyc29uYWwu",
             "Gaps": [
                ['U0JD'],
                ['Q1BV'],
@@ -522,8 +517,8 @@
          },
          
          {
-            "Image": ["images/c080438863602bd27437.jpg", "340"],            
-            "Cloze": "PHN0cm9uZz5TbWFydFRWPC9zdHJvbmc+IDxiciAvPiBTb24gcGVxdWXDsW9zIHswfSBwZW5zYWRvcyBwYXJhIGHDsWFkaXIgaW50ZWxpZ2VuY2lhIChzbWFydCkgYSB1bmEgezF9IHRyYWRpY2lvbmFsLiBQZXJtaXRlbiBkZXNkZSBkZWNvZGlmaWNhciBsYXMgc2XDsWFsZXMgZGlnaXRhbGVzIHbDrWEgc2F0w6lsaXRlIGhhc3RhIGHDsWFkaXIgY2FwYWNpZGFkZXMgY29tbyBjb25lY3RhcnNlIGEgezJ9IHkgdmVyIHNlcnZpY2lvcyBkZSBzdHJlYW1pbmcgY29tbyBOZXRmbGl4LCBIQk8gbyBBbWF6b24gUHJpbWUuIDxiciAvPiBBbGd1bm9zIGRlIGxvcyBtw6FzIGNvbm9jaWRvcyBzb24gR29vZ2xlIHszfSwgQW1hem9uIEZpcmUgVFYgeSBBcHBsZSBUViwgPGJyIC8+IE11Y2hvcyB0ZWxldmlzb3JlcyBhY3R1YWxlcyAoc21hcnRUVikgeWEgbGxldmFuIGluY29ycG9yYWRvcyBvcmRlbmFkb3JlcyBxdWUgcGVybWl0ZW4gcmVhbGl6YXIgZXN0YXMgdGFyZWFzLCBhbCBpZ3VhbCBxdWUgY29uZWN0YXJzZSBwb3IgaW50ZXJuZXQgYSBsYXMgZW1wcmVzYXMgZmFicmljYW50ZXMuIEVzdG8gaGEgb2Nhc2lvbmFkbyBwb2zDqW1pY2FzIGRlYmlkbyBhIHF1ZSBlc3RvcyB0ZWxldmlzb3JlcyBwdWVkZW4gZ3JhYmFyIGxhcyB7NH0gZGUgc3UgYWxyZWRlZG9yIHkgZW52aWFybGFzIGFsIGZhYnJpY2FudGUu",
+            "Image": ["images/c080438863602bd27437.jpg", "340"],
+            "Cloze": "PHN0cm9uZz5TbWFydFRWPC9zdHJvbmc+IDxicj4gU29uIHBlcXVlw7FvcyB7MH0gcGVuc2Fkb3MgcGFyYSBhw7FhZGlyIGludGVsaWdlbmNpYSAoc21hcnQpIGEgdW5hIHsxfSB0cmFkaWNpb25hbC4gUGVybWl0ZW4gZGVzZGUgZGVjb2RpZmljYXIgbGFzIHNlw7FhbGVzIGRpZ2l0YWxlcyB2w61hIHNhdMOpbGl0ZSBoYXN0YSBhw7FhZGlyIGNhcGFjaWRhZGVzIGNvbW8gY29uZWN0YXJzZSBhIHsyfSB5IHZlciBzZXJ2aWNpb3MgZGUgc3RyZWFtaW5nIGNvbW8gTmV0ZmxpeCwgSEJPIG8gQW1hem9uIFByaW1lLiA8YnI+IEFsZ3Vub3MgZGUgbG9zIG3DoXMgY29ub2NpZG9zIHNvbiBHb29nbGUgezN9LCBBbWF6b24gRmlyZSBUViB5IEFwcGxlIFRWLCA8YnI+IE11Y2hvcyB0ZWxldmlzb3JlcyBhY3R1YWxlcyAoc21hcnRUVikgeWEgbGxldmFuIGluY29ycG9yYWRvcyBvcmRlbmFkb3JlcyBxdWUgcGVybWl0ZW4gcmVhbGl6YXIgZXN0YXMgdGFyZWFzLCBhbCBpZ3VhbCBxdWUgY29uZWN0YXJzZSBwb3IgaW50ZXJuZXQgYSBsYXMgZW1wcmVzYXMgZmFicmljYW50ZXMuIEVzdG8gaGEgb2Nhc2lvbmFkbyBwb2zDqW1pY2FzIGRlYmlkbyBhIHF1ZSBlc3RvcyB0ZWxldmlzb3JlcyBwdWVkZW4gZ3JhYmFyIGxhcyB7NH0gZGUgc3UgYWxyZWRlZG9yIHkgZW52aWFybGFzIGFsIGZhYnJpY2FudGUu",
             "Gaps": [
                ['b3JkZW5hZG9yZXM='],
                ['dGVsZXZpc2nDs24='],
@@ -534,8 +529,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5WaWRlb2NvbnNvbGFzPC9zdHJvbmc+IDxiciAvPiBMYXMgdmlkZW9jb25zb2xhcyBzb24gb3JkZW5hZG9yZXMgb3JpZW50YWRvcyBhIGVqZWN1dGFyIHswfS4gUHVlZGVuIHRlbmVyIHVuYSBwb3RlbmNpYSByZWxhdGl2YW1lbnRlIGVsZXZhZGEuIDxiciAvPiBTdSB1c28gc2UgcmVkdWNlIGV4Y2x1c2l2YW1lbnRlIGFsIGp1ZWdvIHkgbGEgZGlzcG9uaWJpbGlkYWQgZGUgbXVjaG9zIGRlIGVzdG9zIGp1ZWdvcyBlc3TDoSBsaW1pdGFkYSBhIHVuYSBzb2xhIHsxfSwgcG9yIGxvIHF1ZSBtdWNob3MgdXN1YXJpb3MgZGUgdmlkZW9qdWVnb3MgcHJlZmllcmVuIHVzYXIgdW4gb3JkZW5hZG9yIHBlcnNvbmFsICh7Mn0pIGRlIGFsdGFzIGNhcmFjdGVyw61zdGljYXMgZW4gc3UgbHVnYXIuIExhIGRpZmVyZW5jaWEgZW50cmUgbG9zIGRvcyB0aXBvcyBkZSBvcmRlbmFkb3JlcyByZXNpZGUgZW4gZWwgcHJlY2lvLiBQYXJhIHVuYSBtaXNtYSBwb3RlbmNpYSBkZSB7M30sIHVuIFBDIHB1ZWRlIGNvc3RhciBlbCBkb2JsZSBxdWUgdW5hIHZpZGVvY29uc29sYSBkZSDDumx0aW1hIGdlbmVyYWNpw7NuIGVxdWl2YWxlbnRlLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5WaWRlb2NvbnNvbGFzPC9zdHJvbmc+IDxicj4gTGFzIHZpZGVvY29uc29sYXMgc29uIG9yZGVuYWRvcmVzIG9yaWVudGFkb3MgYSBlamVjdXRhciB7MH0uIFB1ZWRlbiB0ZW5lciB1bmEgcG90ZW5jaWEgcmVsYXRpdmFtZW50ZSBlbGV2YWRhLiA8YnI+IFN1IHVzbyBzZSByZWR1Y2UgZXhjbHVzaXZhbWVudGUgYWwganVlZ28geSBsYSBkaXNwb25pYmlsaWRhZCBkZSBtdWNob3MgZGUgZXN0b3MganVlZ29zIGVzdMOhIGxpbWl0YWRhIGEgdW5hIHNvbGEgezF9LCBwb3IgbG8gcXVlIG11Y2hvcyB1c3VhcmlvcyBkZSB2aWRlb2p1ZWdvcyBwcmVmaWVyZW4gdXNhciB1biBvcmRlbmFkb3IgcGVyc29uYWwgKHsyfSkgZGUgYWx0YXMgY2FyYWN0ZXLDrXN0aWNhcyBlbiBzdSBsdWdhci4gTGEgZGlmZXJlbmNpYSBlbnRyZSBsb3MgZG9zIHRpcG9zIGRlIG9yZGVuYWRvcmVzIHJlc2lkZSBlbiBlbCBwcmVjaW8uIFBhcmEgdW5hIG1pc21hIHBvdGVuY2lhIGRlIHszfSwgdW4gUEMgcHVlZGUgY29zdGFyIGVsIGRvYmxlIHF1ZSB1bmEgdmlkZW9jb25zb2xhIGRlIMO6bHRpbWEgZ2VuZXJhY2nDs24gZXF1aXZhbGVudGUu",
             "Gaps": [
                ['dmlkZW9qdWVnb3M='],
                ['cGxhdGFmb3JtYQ=='],
@@ -545,8 +540,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3JlcyBkZWRpY2Fkb3M8L3N0cm9uZz4gPGJyIC8+IEV4aXN0ZW4gbcOhcyB0aXBvcyBkZSBvcmRlbmFkb3JlcyBkZWRpY2Fkb3MgcmVhbGl6YXIgdW5hIHNvbGEgZnVuY2nDs24gZGUgZm9ybWEgZXNwZWNpYWxpemFkYS4gU29uIG9yZGVuYWRvcmVzIG3DoXMgcG90ZW50ZXMgcXVlIGxvcyBjb250cm9sYWRvcmVzIHByb2dyYW1hYmxlcy4gPGJyIC8+IEVqZW1wbG9zIGRlIGVzdGUgdGlwbyBkZSBvcmRlbmFkb3JlcyBzb24gbG9zIHNlcnZpZG9yZXMgZGUgZGF0b3MgezB9IHF1ZSBwZXJtaXRlbiBjb21wYXJ0aXIgYXJjaGl2b3MgZGUgZGF0b3MgZW4gdW5hIHJlZCBkZSBvcmRlbmFkb3JlcywgZm90b2NvcGlhZG9yYXMsIHJvdXRlcnMsIGNhamVyb3MgezF9LCBldGMu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3JlcyBkZWRpY2Fkb3M8L3N0cm9uZz4gPGJyPiBFeGlzdGVuIG3DoXMgdGlwb3MgZGUgb3JkZW5hZG9yZXMgZGVkaWNhZG9zIHJlYWxpemFyIHVuYSBzb2xhIGZ1bmNpw7NuIGRlIGZvcm1hIGVzcGVjaWFsaXphZGEuIFNvbiBvcmRlbmFkb3JlcyBtw6FzIHBvdGVudGVzIHF1ZSBsb3MgY29udHJvbGFkb3JlcyBwcm9ncmFtYWJsZXMuIDxicj4gRWplbXBsb3MgZGUgZXN0ZSB0aXBvIGRlIG9yZGVuYWRvcmVzIHNvbiBsb3Mgc2Vydmlkb3JlcyBkZSBkYXRvcyB7MH0gcXVlIHBlcm1pdGVuIGNvbXBhcnRpciBhcmNoaXZvcyBkZSBkYXRvcyBlbiB1bmEgcmVkIGRlIG9yZGVuYWRvcmVzLCBmb3RvY29waWFkb3Jhcywgcm91dGVycywgY2FqZXJvcyB7MX0sIGV0Yy4=",
             "Gaps": [
                ['TkFT'],
                ['YXV0b23DoXRpY29z'],
@@ -554,8 +549,8 @@
          },
          
          {
-            "Image": ["images/8c679777e41213598a82.jpg", "340"],            
-            "Cloze": "PHN0cm9uZz5UZWzDqWZvbm8gaW50ZWxpZ2VudGU8L3N0cm9uZz4gPGJyIC8+IFVuIHRlbMOpZm9ubyBpbnRlbGlnZW50ZSBvIHswfSBlcyB1biBkaXNwb3NpdGl2byBxdWUgY29tYmluYSBsYXMgZnVuY2lvbmVzIGRlIHVuIHRlbMOpZm9ubyBtw7N2aWwgY29uIGxhcyBkZSB1biBvcmRlbmFkb3IgZGUgYm9sc2lsbG8uIDxiciAvPiBBY3R1YWxtZW50ZSBzb24gbG9zIG9yZGVuYWRvcmVzIGRlIHVzbyBtw6FzIGhhYml0dWFsIHBhcmEgbGEgbWF5b3LDrWEgZGUgbGFzIHBlcnNvbmFzLiA8YnIgLz4gU3Ugc2lzdGVtYSBvcGVyYXRpdm8gc3VlbGUgc2VyIHsxfSAoZGUgR29vZ2xlKSBvIHsyfSAoZGUgQXBwbGUpLg==",
+            "Image": ["images/8c679777e41213598a82.jpg", "340"],
+            "Cloze": "PHN0cm9uZz5UZWzDqWZvbm8gaW50ZWxpZ2VudGU8L3N0cm9uZz4gPGJyPiBVbiB0ZWzDqWZvbm8gaW50ZWxpZ2VudGUgbyB7MH0gZXMgdW4gZGlzcG9zaXRpdm8gcXVlIGNvbWJpbmEgbGFzIGZ1bmNpb25lcyBkZSB1biB0ZWzDqWZvbm8gbcOzdmlsIGNvbiBsYXMgZGUgdW4gb3JkZW5hZG9yIGRlIGJvbHNpbGxvLiA8YnI+IEFjdHVhbG1lbnRlIHNvbiBsb3Mgb3JkZW5hZG9yZXMgZGUgdXNvIG3DoXMgaGFiaXR1YWwgcGFyYSBsYSBtYXlvcsOtYSBkZSBsYXMgcGVyc29uYXMuIDxicj4gU3Ugc2lzdGVtYSBvcGVyYXRpdm8gc3VlbGUgc2VyIHsxfSAoZGUgR29vZ2xlKSBvIHsyfSAoZGUgQXBwbGUpLg==",
             "Gaps": [
                ['c21hcnRwaG9uZQ=='],
                ['QW5kcm9pZA=='],
@@ -564,8 +559,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5UYWJsZXRhPC9zdHJvbmc+IDxiciAvPiBVbmEgdGFibGV0YSBvIHRhYmxldCBlcyB1biBwZXF1ZcOxbyBvcmRlbmFkb3IgYmFzYWRvIGVuIHVuYSBwYW50YWxsYSB7MH0gcXVlIGdlbmVyYWxtZW50ZSBmdW5jaW9uYSBjb24gbG9zIG1pc21vcyBzaXN0ZW1hcyBvcGVyYXRpdm9zIHF1ZSBsb3MgdGVsw6lmb25vcyBtw7N2aWxlcyAoQW5kcm9pZCBlIGlPUykuIDxiciAvPiBFbiBjaWVydG9zIGNhc29zIHB1ZWRlbiBpbmNsdWlyIHBlcmlmw6lyaWNvcyBjb21vIHVuIHsxfSBvIHJhdMOzbiwgYXVucXVlIGxhIG1heW9yw61hIGRlIGxhcyB2ZWNlcyBzb2xvIHNlIG1hbmVqYW4gbWVkaWFudGUgbGEgcGFudGFsbGEgdMOhY3RpbC4gPGJyIC8+IEhheSB0ZWzDqWZvbm9zIGludGVsaWdlbnRlcyBjb24gdW4gdGFtYcOxbyBtYXlvciBkZWwgaGFiaXR1YWwgKG1heW9yIGRlIDYgcHVsZ2FkYXMgZGUgZGlhZ29uYWwpIHNlIGxlcyBkZW5vbWluYSB7Mn0gbyBwaGFibGV0Lg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5UYWJsZXRhPC9zdHJvbmc+IDxicj4gVW5hIHRhYmxldGEgbyB0YWJsZXQgZXMgdW4gcGVxdWXDsW8gb3JkZW5hZG9yIGJhc2FkbyBlbiB1bmEgcGFudGFsbGEgezB9IHF1ZSBnZW5lcmFsbWVudGUgZnVuY2lvbmEgY29uIGxvcyBtaXNtb3Mgc2lzdGVtYXMgb3BlcmF0aXZvcyBxdWUgbG9zIHRlbMOpZm9ub3MgbcOzdmlsZXMgKEFuZHJvaWQgZSBpT1MpLiA8YnI+IEVuIGNpZXJ0b3MgY2Fzb3MgcHVlZGVuIGluY2x1aXIgcGVyaWbDqXJpY29zIGNvbW8gdW4gezF9IG8gcmF0w7NuLCBhdW5xdWUgbGEgbWF5b3LDrWEgZGUgbGFzIHZlY2VzIHNvbG8gc2UgbWFuZWphbiBtZWRpYW50ZSBsYSBwYW50YWxsYSB0w6FjdGlsLiA8YnI+IEhheSB0ZWzDqWZvbm9zIGludGVsaWdlbnRlcyBjb24gdW4gdGFtYcOxbyBtYXlvciBkZWwgaGFiaXR1YWwgKG1heW9yIGRlIDYgcHVsZ2FkYXMgZGUgZGlhZ29uYWwpIHNlIGxlcyBkZW5vbWluYSB7Mn0gbyBwaGFibGV0Lg==",
             "Gaps": [
                ['dMOhY3RpbA=='],
                ['dGVjbGFkbw=='],
@@ -574,8 +569,8 @@
          },
          
          {
-            "Image": ["images/fedf8b015232694f440e.png", "340"],            
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcG9ydMOhdGlsPC9zdHJvbmc+IDxiciAvPiBVbiBvcmRlbmFkb3IgcG9ydMOhdGlsIGVzIHVuIG9yZGVuYWRvciBwZXJzb25hbCAoUEMpIGNhcGF6IGRlIHJlYWxpemFyIHRvZGFzIGxhcyB0YXJlYXMgZGUgdW4gb3JkZW5hZG9yIGRlIGVzY3JpdG9yaW8sIHBlcm8gY29uIHVuIHBlcXVlw7FvIHRhbWHDsW8geSBiYXRlcsOtYSBpbmNsdWlkYSBwb3IgbG8gcXVlIHNlIHB1ZWRlIHswfSBmw6FjaWxtZW50ZSBwYXJhIHNlciB1c2FkbyBlbiBjdWFscXVpZXIgbHVnYXIuIDxiciAvPiBMb3MgcG9ydMOhdGlsZXMgdGlwbyB7MX0gc29uIG9yZGVuYWRvcmVzIHBlbnNhZG9zIHBhcmEgY29uZWN0YXJzZSBhIGludGVybmV0IHkgdGllbmVuIHsyfSBjYXBhY2lkYWRlcyBxdWUgdW4gcG9ydMOhdGlsIGhhYml0dWFsLiBTdWVsZW4gbGxldmFyIHVuIHNpc3RlbWEgb3BlcmF0aXZvIGxpZ2VybyBiYXNhZG8gZW4gezN9IHkgdGllbmVuIHVuIHByZWNpbyByZWR1Y2lkby4gTG9zIG1vZGVsb3MgbcOhcyBjb25vY2lkb3Mgc29uIGxvcyB7NH0gZGUgR29vZ2xlLg==",
+            "Image": ["images/fedf8b015232694f440e.png", "340"],
+            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcG9ydMOhdGlsPC9zdHJvbmc+IDxicj4gVW4gb3JkZW5hZG9yIHBvcnTDoXRpbCBlcyB1biBvcmRlbmFkb3IgcGVyc29uYWwgKFBDKSBjYXBheiBkZSByZWFsaXphciB0b2RhcyBsYXMgdGFyZWFzIGRlIHVuIG9yZGVuYWRvciBkZSBlc2NyaXRvcmlvLCBwZXJvIGNvbiB1biBwZXF1ZcOxbyB0YW1hw7FvIHkgYmF0ZXLDrWEgaW5jbHVpZGEgcG9yIGxvIHF1ZSBzZSBwdWVkZSB7MH0gZsOhY2lsbWVudGUgcGFyYSBzZXIgdXNhZG8gZW4gY3VhbHF1aWVyIGx1Z2FyLiA8YnI+IExvcyBwb3J0w6F0aWxlcyB0aXBvIHsxfSBzb24gb3JkZW5hZG9yZXMgcGVuc2Fkb3MgcGFyYSBjb25lY3RhcnNlIGEgaW50ZXJuZXQgeSB0aWVuZW4gezJ9IGNhcGFjaWRhZGVzIHF1ZSB1biBwb3J0w6F0aWwgaGFiaXR1YWwuIFN1ZWxlbiBsbGV2YXIgdW4gc2lzdGVtYSBvcGVyYXRpdm8gbGlnZXJvIGJhc2FkbyBlbiB7M30geSB0aWVuZW4gdW4gcHJlY2lvIHJlZHVjaWRvLiBMb3MgbW9kZWxvcyBtw6FzIGNvbm9jaWRvcyBzb24gbG9zIHs0fSBkZSBHb29nbGUu",
             "Gaps": [
                ['ZGVzcGxhemFy'],
                ['TmV0Ym9va3M='],
@@ -586,8 +581,8 @@
          },
          
          {
-            "Image": ["images/96676c370443a0ca9769.png", "340"],            
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcGVyc29uYWwgZGUgZXNjcml0b3Jpbzwvc3Ryb25nPiA8YnIgLz4gQ29uIG9yZGVuYWRvciBwZXJzb25hbCBvIFBDIHNlIHN1ZWxlIGRlbm9taW5hciBhIHVuIHswfSBkZSBlc2NyaXRvcmlvLCBkZSB1c28gZ2VuZXJhbCwgcGFyYSBzZXIgdXNhZG8gcG9yIHVuYSBwZXJzb25hLiBMb3Mgb3JkZW5hZG9yZXMgcGVyc29uYWxlcyBhY3R1YWxlcyBjb21lbnphcm9uIGEgdmVuZGVyc2UgZW4gezF9IHBvciBJQk0gYXVucXVlIHByb250byBhcGFyZWNpZXJvbiBvcmRlbmFkb3JlcyBjb24gdW4gZnVuY2lvbmFtaWVudG8gc2VtZWphbnRlICh7Mn0pIGZhYnJpY2Fkb3MgcG9yIG90cmFzIGVtcHJlc2FzLiA8YnIgLz4gU3Ugc2lzdGVtYSBvcGVyYXRpdm8gc3VlbGUgc2VyIHszfSwgTWFjT1MgbyBMaW51eC4gPGJyIC8+IExvcyBvcmRlbmFkb3JlcyBwZXJzb25hbGVzIGRlIGFsdGFzIHByZXN0YWNpb25lcyB0YW1iacOpbiBzZSBkZW5vbWluYW4gZXN0YWNpw7NuIGRlIHs0fS4gVGllbmVuIG11Y2hhIG3DoXMgcG90ZW5jaWEgZGUgY8OhbGN1bG8geSBjYXBhY2lkYWQgZGUgYWxtYWNlbmFtaWVudG8gcXVlIHVuIG9yZGVuYWRvciBwZXJzb25hbCBoYWJpdHVhbC4=",
+            "Image": ["images/96676c370443a0ca9769.png", "340"],
+            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcGVyc29uYWwgZGUgZXNjcml0b3Jpbzwvc3Ryb25nPiA8YnI+IENvbiBvcmRlbmFkb3IgcGVyc29uYWwgbyBQQyBzZSBzdWVsZSBkZW5vbWluYXIgYSB1biB7MH0gZGUgZXNjcml0b3JpbywgZGUgdXNvIGdlbmVyYWwsIHBhcmEgc2VyIHVzYWRvIHBvciB1bmEgcGVyc29uYS4gTG9zIG9yZGVuYWRvcmVzIHBlcnNvbmFsZXMgYWN0dWFsZXMgY29tZW56YXJvbiBhIHZlbmRlcnNlIGVuIHsxfSBwb3IgSUJNIGF1bnF1ZSBwcm9udG8gYXBhcmVjaWVyb24gb3JkZW5hZG9yZXMgY29uIHVuIGZ1bmNpb25hbWllbnRvIHNlbWVqYW50ZSAoezJ9KSBmYWJyaWNhZG9zIHBvciBvdHJhcyBlbXByZXNhcy4gPGJyPiBTdSBzaXN0ZW1hIG9wZXJhdGl2byBzdWVsZSBzZXIgezN9LCBNYWNPUyBvIExpbnV4LiA8YnI+IExvcyBvcmRlbmFkb3JlcyBwZXJzb25hbGVzIGRlIGFsdGFzIHByZXN0YWNpb25lcyB0YW1iacOpbiBzZSBkZW5vbWluYW4gZXN0YWNpw7NuIGRlIHs0fS4gVGllbmVuIG11Y2hhIG3DoXMgcG90ZW5jaWEgZGUgY8OhbGN1bG8geSBjYXBhY2lkYWQgZGUgYWxtYWNlbmFtaWVudG8gcXVlIHVuIG9yZGVuYWRvciBwZXJzb25hbCBoYWJpdHVhbC4=",
             "Gaps": [
                ['bWljcm9vcmRlbmFkb3I='],
                ['MTk4MQ=='],
@@ -598,8 +593,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5NYWluZnJhbWU8L3N0cm9uZz4gPGJyIC8+IFVuIG1haW5mcmFtZSBvIHVuaWRhZCBjZW50cmFsIGVzIHVuIG9yZGVuYWRvciB1dGlsaXphZG8gcHJpbmNpcGFsbWVudGUgcG9yIGdyYW5kZXMgezB9IHBhcmEgYXBsaWNhY2lvbmVzIGNyw610aWNhcyBxdWUgcmVxdWllcmVuIG9yZGVuYWRvcmVzIG11eSB7MX0geSBjb24gZ3JhbiBjYXBhY2lkYWQgZGUgYWxtYWNlbmFtaWVudG8uCkVzdG9zIG9yZGVuYWRvcmVzIHNlIHV0aWxpemFuIHBhcmEgcmVhbGl6YXIgb3BlcmFjaW9uZXMgezJ9LCBjZW5zb3MsIHNlcnZpZG9yZXMgZGUgaW50ZXJuZXQsIGV0Yy4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5NYWluZnJhbWU8L3N0cm9uZz4gPGJyPiBVbiBtYWluZnJhbWUgbyB1bmlkYWQgY2VudHJhbCBlcyB1biBvcmRlbmFkb3IgdXRpbGl6YWRvIHByaW5jaXBhbG1lbnRlIHBvciBncmFuZGVzIHswfSBwYXJhIGFwbGljYWNpb25lcyBjcsOtdGljYXMgcXVlIHJlcXVpZXJlbiBvcmRlbmFkb3JlcyBtdXkgezF9IHkgY29uIGdyYW4gY2FwYWNpZGFkIGRlIGFsbWFjZW5hbWllbnRvLgpFc3RvcyBvcmRlbmFkb3JlcyBzZSB1dGlsaXphbiBwYXJhIHJlYWxpemFyIG9wZXJhY2lvbmVzIHsyfSwgY2Vuc29zLCBzZXJ2aWRvcmVzIGRlIGludGVybmV0LCBldGMu",
             "Gaps": [
                ['b3JnYW5pemFjaW9uZXM='],
                ['ZmlhYmxlcw=='],
@@ -608,8 +603,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5DbMO6c3RlciBkZSBvcmRlbmFkb3Jlczwvc3Ryb25nPiA8YnIgLz4gVW4gY2zDunN0ZXIgZGUgb3JkZW5hZG9yZXMgZXMgdW4gZ3JhbiBvcmRlbmFkb3IgY29tcHVlc3RvIHBvciB1biBjb25qdW50byBkZSBvcmRlbmFkb3JlcyB7MH0gZW50cmUgc8OtIHBvciB1bmEgcmVkIGRlIGFsdGEgdmVsb2NpZGFkIHkgezF9IHBvciB1biBzaXN0ZW1hIG9wZXJhdGl2bywgcXVlIHN1ZWxlIHNlciB7Mn0sIHBhcmEgcXVlIHNlIGNvbXBvcnRlbiBjb21vIHVuIHNvbG8gb3JkZW5hZG9yLiA8YnIgLz4gQWN0dWFsbWVudGUgZXN0ZSB0aXBvIGRlIG9yZGVuYWRvcmVzIGVzdMOhIHN1c3RpdHV5ZW5kbyBwb2NvIGEgcG9jbyBhIGxvcyB7M30gZW4gc3VzIGZ1bmNpb25lcy4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5DbMO6c3RlciBkZSBvcmRlbmFkb3Jlczwvc3Ryb25nPiA8YnI+IFVuIGNsw7pzdGVyIGRlIG9yZGVuYWRvcmVzIGVzIHVuIGdyYW4gb3JkZW5hZG9yIGNvbXB1ZXN0byBwb3IgdW4gY29uanVudG8gZGUgb3JkZW5hZG9yZXMgezB9IGVudHJlIHPDrSBwb3IgdW5hIHJlZCBkZSBhbHRhIHZlbG9jaWRhZCB5IHsxfSBwb3IgdW4gc2lzdGVtYSBvcGVyYXRpdm8sIHF1ZSBzdWVsZSBzZXIgezJ9LCBwYXJhIHF1ZSBzZSBjb21wb3J0ZW4gY29tbyB1biBzb2xvIG9yZGVuYWRvci4gPGJyPiBBY3R1YWxtZW50ZSBlc3RlIHRpcG8gZGUgb3JkZW5hZG9yZXMgZXN0w6Egc3VzdGl0dXllbmRvIHBvY28gYSBwb2NvIGEgbG9zIHszfSBlbiBzdXMgZnVuY2lvbmVzLg==",
             "Gaps": [
                ['dW5pZG9z'],
                ['c2luY3Jvbml6YWRvcw=='],
@@ -619,8 +614,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5TdXBlcm9yZGVuYWRvcjwvc3Ryb25nPiA8YnIgLz4gVW4gc3VwZXJvcmRlbmFkb3IgZXMgdW4gb3JkZW5hZG9yIHV0aWxpemFkbyBwYXJhIHJlYWxpemFyIGdyYW5kZXMgY8OhbGN1bG9zIHRhbGVzIGNvbW8gcHJlZGVjaXIgZWwgdGllbXBvIHswfSwgaW52ZXN0aWdhY2lvbmVzIHNvYnJlIGVsIGdlbm9tYSwgbnVldm9zIG1lZGljYW1lbnRvcywgZXRjLiBNYW5lamFuIGdyYW5kZXMgY2FudGlkYWRlcyBkZSB7MX0gcmVhbGl6YW5kbyB1bmEgZ3JhbiBjYW50aWRhZCBkZSBjw6FsY3Vsb3MgcG9yIHNlZ3VuZG8uIDxiciAvPiBFbiB1biBwcmluY2lwaW8gc2UgdXRpbGl6YWJhbiBtYWluZnJhbWVzIGRlZGljYWRvcyBhIGPDoWxjdWxvIGludGVuc2l2bywgcGVybyBhY3R1YWxtZW50ZSBlc3TDoW4gYmFzYWRvcyBlbiBsYSB0ZWNub2xvZ8OtYSBkZSB7Mn0gZGUgb3JkZW5hZG9yZXMuIDxiciAvPiBFbiBFc3Bhw7FhIGVsIHN1cGVyb3JkZW5hZG9yIG3DoXMgZmFtb3NvIGVzIGVsIHszfS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5TdXBlcm9yZGVuYWRvcjwvc3Ryb25nPiA8YnI+IFVuIHN1cGVyb3JkZW5hZG9yIGVzIHVuIG9yZGVuYWRvciB1dGlsaXphZG8gcGFyYSByZWFsaXphciBncmFuZGVzIGPDoWxjdWxvcyB0YWxlcyBjb21vIHByZWRlY2lyIGVsIHRpZW1wbyB7MH0sIGludmVzdGlnYWNpb25lcyBzb2JyZSBlbCBnZW5vbWEsIG51ZXZvcyBtZWRpY2FtZW50b3MsIGV0Yy4gTWFuZWphbiBncmFuZGVzIGNhbnRpZGFkZXMgZGUgezF9IHJlYWxpemFuZG8gdW5hIGdyYW4gY2FudGlkYWQgZGUgY8OhbGN1bG9zIHBvciBzZWd1bmRvLiA8YnI+IEVuIHVuIHByaW5jaXBpbyBzZSB1dGlsaXphYmFuIG1haW5mcmFtZXMgZGVkaWNhZG9zIGEgY8OhbGN1bG8gaW50ZW5zaXZvLCBwZXJvIGFjdHVhbG1lbnRlIGVzdMOhbiBiYXNhZG9zIGVuIGxhIHRlY25vbG9nw61hIGRlIHsyfSBkZSBvcmRlbmFkb3Jlcy4gPGJyPiBFbiBFc3Bhw7FhIGVsIHN1cGVyb3JkZW5hZG9yIG3DoXMgZmFtb3NvIGVzIGVsIHszfS4=",
             "Gaps": [
                ['YXRtb3Nmw6lyaWNv'],
                ['ZGF0b3M='],
@@ -659,8 +654,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -783,7 +783,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -805,7 +805,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -917,7 +917,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -954,7 +954,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -965,7 +965,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -973,7 +973,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -998,7 +998,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -1028,7 +1028,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1083,4 +1083,5 @@
    </script>
 
 </body>
+
 </html>

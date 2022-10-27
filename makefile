@@ -13,16 +13,16 @@ all:
 
 clean-web:
 	rm -f docs/*.json
-	rm -f docs/es_*.html
-	rm -f docs/en_*.html
-	rm -f docs/gal_*.html
+	rm -f docs/es-*.html
+	rm -f docs/en-*.html
+	rm -f docs/test*.html
 
 clean-all:
 	rm -f docs/images/*
 	rm -f docs/*.json
-	rm -f docs/es_*.html
-	rm -f docs/en_*.html
-	rm -f docs/gal_*.html
+	rm -f docs/es-*.html
+	rm -f docs/en-*.html
+	rm -f docs/test*.html
 	rm -f multichoice/build/*.xml
 	rm -f multichoice/build/*.csv
 	rm -f multichoice/build/*.docx

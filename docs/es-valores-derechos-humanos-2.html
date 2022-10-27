@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Valores - Declaración de Derechos Humanos (2) - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Valores - Declaración de Derechos Humanos (2) - Picuino">
    <title>Test Declaración de Derechos Humanos (2) - Valores - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,13 +444,12 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Valores. Declaración de Derechos Humanos (2).";
       const questions_encoded = [
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTwvc3Ryb25nPjxiciAvPiBUb2RvcyBsb3Mgc2VyZXMgezB9IG5hY2VuIGxpYnJlcyBlIGlndWFsZXMgZW4gezF9IHkgZGVyZWNob3MgeSwgZG90YWRvcyBjb21vIGVzdMOhbiBkZSByYXrDs24geSB7Mn0sIGRlYmVuIGNvbXBvcnRhcnNlIHszfSBsb3MgdW5vcyBjb24gbG9zIG90cm9zLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTwvc3Ryb25nPjxicj4gVG9kb3MgbG9zIHNlcmVzIHswfSBuYWNlbiBsaWJyZXMgZSBpZ3VhbGVzIGVuIHsxfSB5IGRlcmVjaG9zIHksIGRvdGFkb3MgY29tbyBlc3TDoW4gZGUgcmF6w7NuIHkgezJ9LCBkZWJlbiBjb21wb3J0YXJzZSB7M30gbG9zIHVub3MgY29uIGxvcyBvdHJvcy4=",
             "Gaps": [
                ['aHVtYW5vcw=='],
                ['ZGlnbmlkYWQ='],
@@ -464,8 +459,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMjwvc3Ryb25nPjxiciAvPiBUb2RhIHBlcnNvbmEgdGllbmUgbG9zIGRlcmVjaG9zIHkgbGliZXJ0YWRlcyBwcm9jbGFtYWRvcyBlbiBlc3RhIERlY2xhcmFjacOzbiwgc2luIGRpc3RpbmNpw7NuIGFsZ3VuYSBkZSB7MH0sIGNvbG9yLCB7MX0sIGlkaW9tYSwgezJ9LCBvcGluacOzbiBwb2zDrXRpY2EgbyBkZSBjdWFscXVpZXIgb3RyYSDDrW5kb2xlLCBvcmlnZW4gbmFjaW9uYWwgbyB7M30sIHBvc2ljacOzbiBlY29uw7NtaWNhLCB7NH0gbyBjdWFscXVpZXIgb3RyYSBjb25kaWNpw7NuLjxiciAvPiBBZGVtw6FzLCBubyBzZSBoYXLDoSBkaXN0aW5jacOzbiBhbGd1bmEgZnVuZGFkYSBlbiBsYSBjb25kaWNpw7NuIHBvbMOtdGljYSwganVyw61kaWNhIG8gaW50ZXJuYWNpb25hbCBkZWwgezV9IG8gdGVycml0b3JpbyBkZSBjdXlhIGp1cmlzZGljY2nDs24gZGVwZW5kYSB1bmEgcGVyc29uYSwgdGFudG8gc2kgc2UgdHJhdGEgZGUgdW4gcGHDrXMgaW5kZXBlbmRpZW50ZSwgY29tbyBkZSB1biB0ZXJyaXRvcmlvIGJham8gYWRtaW5pc3RyYWNpw7NuIGZpZHVjaWFyaWEsIG5vIGF1dMOzbm9tbyBvIHNvbWV0aWRvIGEgY3VhbHF1aWVyIG90cmEgbGltaXRhY2nDs24gZGUgc29iZXJhbsOtYS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMjwvc3Ryb25nPjxicj4gVG9kYSBwZXJzb25hIHRpZW5lIGxvcyBkZXJlY2hvcyB5IGxpYmVydGFkZXMgcHJvY2xhbWFkb3MgZW4gZXN0YSBEZWNsYXJhY2nDs24sIHNpbiBkaXN0aW5jacOzbiBhbGd1bmEgZGUgezB9LCBjb2xvciwgezF9LCBpZGlvbWEsIHsyfSwgb3BpbmnDs24gcG9sw610aWNhIG8gZGUgY3VhbHF1aWVyIG90cmEgw61uZG9sZSwgb3JpZ2VuIG5hY2lvbmFsIG8gezN9LCBwb3NpY2nDs24gZWNvbsOzbWljYSwgezR9IG8gY3VhbHF1aWVyIG90cmEgY29uZGljacOzbi48YnI+IEFkZW3DoXMsIG5vIHNlIGhhcsOhIGRpc3RpbmNpw7NuIGFsZ3VuYSBmdW5kYWRhIGVuIGxhIGNvbmRpY2nDs24gcG9sw610aWNhLCBqdXLDrWRpY2EgbyBpbnRlcm5hY2lvbmFsIGRlbCB7NX0gbyB0ZXJyaXRvcmlvIGRlIGN1eWEganVyaXNkaWNjacOzbiBkZXBlbmRhIHVuYSBwZXJzb25hLCB0YW50byBzaSBzZSB0cmF0YSBkZSB1biBwYcOtcyBpbmRlcGVuZGllbnRlLCBjb21vIGRlIHVuIHRlcnJpdG9yaW8gYmFqbyBhZG1pbmlzdHJhY2nDs24gZmlkdWNpYXJpYSwgbm8gYXV0w7Nub21vIG8gc29tZXRpZG8gYSBjdWFscXVpZXIgb3RyYSBsaW1pdGFjacOzbiBkZSBzb2JlcmFuw61hLg==",
             "Gaps": [
                ['cmF6YQ=='],
                ['c2V4bw=='],
@@ -477,8 +472,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMzwvc3Ryb25nPjxiciAvPiBUb2RvIGluZGl2aWR1byB0aWVuZSBkZXJlY2hvIGEgbGEgezB9LCBhIGxhIHsxfSB5IGEgbGEgc2VndXJpZGFkIGRlIHN1IHBlcnNvbmEu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMzwvc3Ryb25nPjxicj4gVG9kbyBpbmRpdmlkdW8gdGllbmUgZGVyZWNobyBhIGxhIHswfSwgYSBsYSB7MX0geSBhIGxhIHNlZ3VyaWRhZCBkZSBzdSBwZXJzb25hLg==",
             "Gaps": [
                ['dmlkYQ=='],
                ['bGliZXJ0YWQ='],
@@ -486,8 +481,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNDwvc3Ryb25nPjxiciAvPiBOYWRpZSBlc3RhcsOhIHNvbWV0aWRvIGEgezB9IG5pIGEgc2VydmlkdW1icmU7IGxhIGVzY2xhdml0dWQgeSBsYSB0cmF0YSBkZSBlc2NsYXZvcyBlc3TDoW4gezF9IGVuIHRvZGFzIHN1cyBmb3JtYXMu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNDwvc3Ryb25nPjxicj4gTmFkaWUgZXN0YXLDoSBzb21ldGlkbyBhIHswfSBuaSBhIHNlcnZpZHVtYnJlOyBsYSBlc2NsYXZpdHVkIHkgbGEgdHJhdGEgZGUgZXNjbGF2b3MgZXN0w6FuIHsxfSBlbiB0b2RhcyBzdXMgZm9ybWFzLg==",
             "Gaps": [
                ['ZXNjbGF2aXR1ZA=='],
                ['cHJvaGliaWRhcw=='],
@@ -495,24 +490,24 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNTwvc3Ryb25nPjxiciAvPiBOYWRpZSBzZXLDoSBzb21ldGlkbyBhIHswfSBuaSBhIHBlbmFzIG8gdHJhdG9zIGNydWVsZXMsIGluaHVtYW5vcyBvIGRlZ3JhZGFudGVzLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNTwvc3Ryb25nPjxicj4gTmFkaWUgc2Vyw6Egc29tZXRpZG8gYSB7MH0gbmkgYSBwZW5hcyBvIHRyYXRvcyBjcnVlbGVzLCBpbmh1bWFub3MgbyBkZWdyYWRhbnRlcy4=",
             "Gaps": [
                ['dG9ydHVyYXM='],
             ]
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNjwvc3Ryb25nPjxiciAvPiBUb2RvIHNlciBodW1hbm8gdGllbmUgZGVyZWNobywgZW4gdG9kYXMgcGFydGVzLCBhbCByZWNvbm9jaW1pZW50byBkZSBzdSB7MH0ganVyw61kaWNhLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNjwvc3Ryb25nPjxicj4gVG9kbyBzZXIgaHVtYW5vIHRpZW5lIGRlcmVjaG8sIGVuIHRvZGFzIHBhcnRlcywgYWwgcmVjb25vY2ltaWVudG8gZGUgc3UgezB9IGp1csOtZGljYS4=",
             "Gaps": [
                ['cGVyc29uYWxpZGFk'],
             ]
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNzwvc3Ryb25nPjxiciAvPiBUb2RvcyBzb24gaWd1YWxlcyBhbnRlIGxhIHswfSB5IHRpZW5lbiwgc2luIGRpc3RpbmNpw7NuLCBkZXJlY2hvIGEgaWd1YWwgcHJvdGVjY2nDs24gZGUgbGEgbGV5LiBUb2RvcyB0aWVuZW4gZGVyZWNobyBhIGlndWFsIHByb3RlY2Npw7NuIGNvbnRyYSB0b2RhIHsxfSBxdWUgaW5mcmluamEgZXN0YSBEZWNsYXJhY2nDs24geSBjb250cmEgdG9kYSBwcm92b2NhY2nDs24gYSB0YWwgZGlzY3JpbWluYWNpw7NuLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gNzwvc3Ryb25nPjxicj4gVG9kb3Mgc29uIGlndWFsZXMgYW50ZSBsYSB7MH0geSB0aWVuZW4sIHNpbiBkaXN0aW5jacOzbiwgZGVyZWNobyBhIGlndWFsIHByb3RlY2Npw7NuIGRlIGxhIGxleS4gVG9kb3MgdGllbmVuIGRlcmVjaG8gYSBpZ3VhbCBwcm90ZWNjacOzbiBjb250cmEgdG9kYSB7MX0gcXVlIGluZnJpbmphIGVzdGEgRGVjbGFyYWNpw7NuIHkgY29udHJhIHRvZGEgcHJvdm9jYWNpw7NuIGEgdGFsIGRpc2NyaW1pbmFjacOzbi4=",
             "Gaps": [
                ['bGV5'],
                ['ZGlzY3JpbWluYWNpw7Nu'],
@@ -520,8 +515,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gODwvc3Ryb25nPjxiciAvPiBUb2RhIHBlcnNvbmEgdGllbmUgZGVyZWNobyBhIHVuIHswfSBlZmVjdGl2bywgYW50ZSBsb3MgezF9IG5hY2lvbmFsZXMgY29tcGV0ZW50ZXMsIHF1ZSBsYSBhbXBhcmUgY29udHJhIGFjdG9zIHF1ZSB2aW9sZW4gc3VzIGRlcmVjaG9zIHsyfSByZWNvbm9jaWRvcyBwb3IgbGEgY29uc3RpdHVjacOzbiBvIHBvciBsYSBsZXku",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gODwvc3Ryb25nPjxicj4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSB1biB7MH0gZWZlY3Rpdm8sIGFudGUgbG9zIHsxfSBuYWNpb25hbGVzIGNvbXBldGVudGVzLCBxdWUgbGEgYW1wYXJlIGNvbnRyYSBhY3RvcyBxdWUgdmlvbGVuIHN1cyBkZXJlY2hvcyB7Mn0gcmVjb25vY2lkb3MgcG9yIGxhIGNvbnN0aXR1Y2nDs24gbyBwb3IgbGEgbGV5Lg==",
             "Gaps": [
                ['cmVjdXJzbw=='],
                ['dHJpYnVuYWxlcw=='],
@@ -530,16 +525,16 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gOTwvc3Ryb25nPjxiciAvPiBOYWRpZSBwb2Ryw6Egc2VyIGFyYml0cmFyaWFtZW50ZSB7MH0sIHByZXNvIG5pIGRlc3RlcnJhZG8u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gOTwvc3Ryb25nPjxicj4gTmFkaWUgcG9kcsOhIHNlciBhcmJpdHJhcmlhbWVudGUgezB9LCBwcmVzbyBuaSBkZXN0ZXJyYWRvLg==",
             "Gaps": [
                ['ZGV0ZW5pZG8='],
             ]
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTA8L3N0cm9uZz48YnIgLz4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8sIGVuIGNvbmRpY2lvbmVzIGRlIHBsZW5hIHswfSwgYSBzZXIgezF9IHDDumJsaWNhbWVudGUgeSBjb24ganVzdGljaWEgcG9yIHVuIHRyaWJ1bmFsIGluZGVwZW5kaWVudGUgZSB7Mn0sIHBhcmEgbGEgZGV0ZXJtaW5hY2nDs24gZGUgc3VzIGRlcmVjaG9zIHkgb2JsaWdhY2lvbmVzIG8gcGFyYSBlbCBleGFtZW4gZGUgY3VhbHF1aWVyIHszfSBjb250cmEgZWxsYSBlbiBtYXRlcmlhIHBlbmFsLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTA8L3N0cm9uZz48YnI+IFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvLCBlbiBjb25kaWNpb25lcyBkZSBwbGVuYSB7MH0sIGEgc2VyIHsxfSBww7pibGljYW1lbnRlIHkgY29uIGp1c3RpY2lhIHBvciB1biB0cmlidW5hbCBpbmRlcGVuZGllbnRlIGUgezJ9LCBwYXJhIGxhIGRldGVybWluYWNpw7NuIGRlIHN1cyBkZXJlY2hvcyB5IG9ibGlnYWNpb25lcyBvIHBhcmEgZWwgZXhhbWVuIGRlIGN1YWxxdWllciB7M30gY29udHJhIGVsbGEgZW4gbWF0ZXJpYSBwZW5hbC4=",
             "Gaps": [
                ['aWd1YWxkYWQ='],
                ['b8OtZGE='],
@@ -578,8 +573,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -702,7 +702,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -724,7 +724,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -836,7 +836,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -873,7 +873,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -884,7 +884,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -892,7 +892,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -917,7 +917,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -947,7 +947,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1002,4 +1002,5 @@
    </script>
 
 </body>
+
 </html>

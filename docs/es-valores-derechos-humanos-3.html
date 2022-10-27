@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2022 Carlos Pardo
@@ -20,9 +20,9 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Valores - Declaración de Derechos Humanos (3) - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Valores - Declaración de Derechos Humanos (3) - Picuino">
    <title>Test Declaración de Derechos Humanos (3) - Valores - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -162,7 +162,7 @@
         text-align: center;
       }
 
-      .footer a {
+      .footer a, .footer a:visited {
         text-decoration: none;
         font-size: 12px;
         display: inline-block;
@@ -175,11 +175,6 @@
         color: #094070;
         background-color: #ecf5ff;
       }
-
-      .footer a:visited {
-        color: none;
-      }
-
 
       .choice-container {
         display: flex;
@@ -362,7 +357,7 @@
 
       #message_text_id {
          padding-bottom: 1rem;
-         min-height: 6;
+         min-height: 6px;
       }
    </style>
 
@@ -404,7 +399,8 @@
       <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
       <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
       <a href="https://www.picuino.com/test/index.html">Índice</a>
-      <p>Copyright © 2022 por Carlos Pardo.</p>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
       <p>Licencia: <a href=https://creativecommons.org/licenses/by-sa/4.0/ target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
@@ -414,9 +410,9 @@
       para propósitos funcionales y de análisis de navegación.
       Puedes obtener más información en nuestra
       <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a> <br />
+      target="_blank">política de Cookies.</a><br>
       Si continúas navegando, aceptas su uso.
-      <br />
+      <br>
       <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
       <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
       </div>
@@ -429,7 +425,7 @@
       </script>
 
       <!-- Matomo -->
-      <script type="text/javascript">
+      <script>
       if (document.cookie.indexOf("noAnalyticalCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
@@ -448,13 +444,12 @@
    </div> </div>
 
    <script>
-      sessionStorage.setItem('score', 0);
-
+      const show_max = 0;
       const questions_title = "Valores. Declaración de Derechos Humanos (3).";
       const questions_encoded = [
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTE8L3N0cm9uZz48YnIgLz4gMS4gVG9kYSBwZXJzb25hIGFjdXNhZGEgZGUgezB9IHRpZW5lIGRlcmVjaG8gYSBxdWUgc2UgcHJlc3VtYSBzdSBpbm9jZW5jaWEgbWllbnRyYXMgbm8gc2UgcHJ1ZWJlIHN1IHsxfSwgY29uZm9ybWUgYSBsYSBsZXkgeSBlbiBqdWljaW8gcMO6YmxpY28gZW4gZWwgcXVlIHNlIGxlIGhheWFuIGFzZWd1cmFkbyB0b2RhcyBsYXMgZ2FyYW50w61hcyBuZWNlc2FyaWFzIHBhcmEgc3UgezJ9LjxiciAvPiAyLiBOYWRpZSBzZXLDoSBjb25kZW5hZG8gcG9yIGFjdG9zIHUgb21pc2lvbmVzIHF1ZSBlbiBlbCBtb21lbnRvIGRlIGNvbWV0ZXJzZSBubyBmdWVyb24gezN9IHNlZ8O6biBlbCBEZXJlY2hvIG5hY2lvbmFsIG8gaW50ZXJuYWNpb25hbC4gVGFtcG9jbyBzZSBpbXBvbmRyw6EgcGVuYSBtw6FzIHs0fSBxdWUgbGEgYXBsaWNhYmxlIGVuIGVsIG1vbWVudG8gZGUgbGEgY29taXNpw7NuIGRlbCBkZWxpdG8u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTE8L3N0cm9uZz48YnI+IDEuIFRvZGEgcGVyc29uYSBhY3VzYWRhIGRlIHswfSB0aWVuZSBkZXJlY2hvIGEgcXVlIHNlIHByZXN1bWEgc3UgaW5vY2VuY2lhIG1pZW50cmFzIG5vIHNlIHBydWViZSBzdSB7MX0sIGNvbmZvcm1lIGEgbGEgbGV5IHkgZW4ganVpY2lvIHDDumJsaWNvIGVuIGVsIHF1ZSBzZSBsZSBoYXlhbiBhc2VndXJhZG8gdG9kYXMgbGFzIGdhcmFudMOtYXMgbmVjZXNhcmlhcyBwYXJhIHN1IHsyfS48YnI+IDIuIE5hZGllIHNlcsOhIGNvbmRlbmFkbyBwb3IgYWN0b3MgdSBvbWlzaW9uZXMgcXVlIGVuIGVsIG1vbWVudG8gZGUgY29tZXRlcnNlIG5vIGZ1ZXJvbiB7M30gc2Vnw7puIGVsIERlcmVjaG8gbmFjaW9uYWwgbyBpbnRlcm5hY2lvbmFsLiBUYW1wb2NvIHNlIGltcG9uZHLDoSBwZW5hIG3DoXMgezR9IHF1ZSBsYSBhcGxpY2FibGUgZW4gZWwgbW9tZW50byBkZSBsYSBjb21pc2nDs24gZGVsIGRlbGl0by4=",
             "Gaps": [
                ['ZGVsaXRv'],
                ['Y3VscGFiaWxpZGFk'],
@@ -465,8 +460,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTI8L3N0cm9uZz48YnIgLz4gTmFkaWUgc2Vyw6Egb2JqZXRvIGRlIHswfSBhcmJpdHJhcmlhcyBlbiBzdSB2aWRhIHByaXZhZGEsIHN1IGZhbWlsaWEsIHN1IHsxfSBvIHN1IGNvcnJlc3BvbmRlbmNpYSwgbmkgZGUgYXRhcXVlcyBhIHN1IGhvbnJhIG8gYSBzdSB7Mn0uPGJyIC8+IFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgbGEgcHJvdGVjY2nDs24gZGUgbGEgbGV5IGNvbnRyYSB0YWxlcyBpbmplcmVuY2lhcyBvIHszfS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTI8L3N0cm9uZz48YnI+IE5hZGllIHNlcsOhIG9iamV0byBkZSB7MH0gYXJiaXRyYXJpYXMgZW4gc3UgdmlkYSBwcml2YWRhLCBzdSBmYW1pbGlhLCBzdSB7MX0gbyBzdSBjb3JyZXNwb25kZW5jaWEsIG5pIGRlIGF0YXF1ZXMgYSBzdSBob25yYSBvIGEgc3UgezJ9Ljxicj4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSBsYSBwcm90ZWNjacOzbiBkZSBsYSBsZXkgY29udHJhIHRhbGVzIGluamVyZW5jaWFzIG8gezN9Lg==",
             "Gaps": [
                ['aW5qZXJlbmNpYXM='],
                ['ZG9taWNpbGlv'],
@@ -476,8 +471,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTM8L3N0cm9uZz48YnIgLz4gMS4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSBjaXJjdWxhciB7MH0geSBhIGVsZWdpciBzdSByZXNpZGVuY2lhIGVuIGVsIHRlcnJpdG9yaW8gZGUgdW4gRXN0YWRvLjxiciAvPiAyLiBUb2RhIHBlcnNvbmEgdGllbmUgZGVyZWNobyBhIHNhbGlyIGRlIGN1YWxxdWllciB7MX0sIGluY2x1c28gZWwgcHJvcGlvLCB5IGEgcmVncmVzYXIgYSBzdSBwYcOtcy4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTM8L3N0cm9uZz48YnI+IDEuIFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgY2lyY3VsYXIgezB9IHkgYSBlbGVnaXIgc3UgcmVzaWRlbmNpYSBlbiBlbCB0ZXJyaXRvcmlvIGRlIHVuIEVzdGFkby48YnI+IDIuIFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgc2FsaXIgZGUgY3VhbHF1aWVyIHsxfSwgaW5jbHVzbyBlbCBwcm9waW8sIHkgYSByZWdyZXNhciBhIHN1IHBhw61zLg==",
             "Gaps": [
                ['bGlicmVtZW50ZQ=='],
                ['cGHDrXM='],
@@ -485,8 +480,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTQ8L3N0cm9uZz48YnIgLz4gMS4gRW4gY2FzbyBkZSBwZXJzZWN1Y2nDs24sIHRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgYnVzY2FyIHswfSwgeSBhIGRpc2ZydXRhciBkZSDDqWwsIGVuIGN1YWxxdWllciBwYcOtcy48YnIgLz4gMi4gRXN0ZSBkZXJlY2hvIG5vIHBvZHLDoSBzZXIgezF9IGNvbnRyYSB1bmEgYWNjacOzbiBqdWRpY2lhbCByZWFsbWVudGUgb3JpZ2luYWRhIHBvciBkZWxpdG9zIGNvbXVuZXMgbyBwb3IgYWN0b3Mgb3B1ZXN0b3MgYSBsb3MgcHJvcMOzc2l0b3MgeSBwcmluY2lwaW9zIGRlIGxhcyBOYWNpb25lcyB7Mn0u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTQ8L3N0cm9uZz48YnI+IDEuIEVuIGNhc28gZGUgcGVyc2VjdWNpw7NuLCB0b2RhIHBlcnNvbmEgdGllbmUgZGVyZWNobyBhIGJ1c2NhciB7MH0sIHkgYSBkaXNmcnV0YXIgZGUgw6lsLCBlbiBjdWFscXVpZXIgcGHDrXMuPGJyPiAyLiBFc3RlIGRlcmVjaG8gbm8gcG9kcsOhIHNlciB7MX0gY29udHJhIHVuYSBhY2Npw7NuIGp1ZGljaWFsIHJlYWxtZW50ZSBvcmlnaW5hZGEgcG9yIGRlbGl0b3MgY29tdW5lcyBvIHBvciBhY3RvcyBvcHVlc3RvcyBhIGxvcyBwcm9ww7NzaXRvcyB5IHByaW5jaXBpb3MgZGUgbGFzIE5hY2lvbmVzIHsyfS4=",
             "Gaps": [
                ['YXNpbG8='],
                ['aW52b2NhZG8='],
@@ -495,8 +490,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTU8L3N0cm9uZz48YnIgLz4gMS4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSB1bmEgezB9LjxiciAvPiAyLiBBIG5hZGllIHNlIHsxfSBhcmJpdHJhcmlhbWVudGUgZGUgc3UgbmFjaW9uYWxpZGFkIG5pIGRlbCBkZXJlY2hvIGEgY2FtYmlhciBkZSBuYWNpb25hbGlkYWQuPGJyIC8+",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTU8L3N0cm9uZz48YnI+IDEuIFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgdW5hIHswfS48YnI+IDIuIEEgbmFkaWUgc2UgezF9IGFyYml0cmFyaWFtZW50ZSBkZSBzdSBuYWNpb25hbGlkYWQgbmkgZGVsIGRlcmVjaG8gYSBjYW1iaWFyIGRlIG5hY2lvbmFsaWRhZC48YnI+",
             "Gaps": [
                ['bmFjaW9uYWxpZGFk'],
                ['cHJpdmFyw6E='],
@@ -504,8 +499,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTY8L3N0cm9uZz48YnIgLz4gMS4gTG9zIGhvbWJyZXMgeSBsYXMgbXVqZXJlcywgYSBwYXJ0aXIgZGUgbGEgZWRhZCB7MH0sIHRpZW5lbiBkZXJlY2hvLCBzaW4gcmVzdHJpY2Npw7NuIGFsZ3VuYSBwb3IgbW90aXZvcyBkZSByYXphLCBuYWNpb25hbGlkYWQgbyByZWxpZ2nDs24sIGEgezF9IHkgZnVuZGFyIHVuYSBmYW1pbGlhOyB5IGRpc2ZydXRhcsOhbiBkZSBpZ3VhbGVzIHsyfSBlbiBjdWFudG8gYWwgbWF0cmltb25pbywgZHVyYW50ZSBlbCBtYXRyaW1vbmlvIHkgZW4gY2FzbyBkZSBkaXNvbHVjacOzbiBkZWwgbWF0cmltb25pby48YnIgLz4gMi4gU8OzbG8gbWVkaWFudGUgbGlicmUgeSBwbGVubyB7M30gZGUgbG9zIGZ1dHVyb3MgZXNwb3NvcyBwb2Ryw6EgY29udHJhZXJzZSBlbCBtYXRyaW1vbmlvLjxiciAvPiAzLiBMYSBmYW1pbGlhIGVzIGVsIGVsZW1lbnRvIHs0fSB5IGZ1bmRhbWVudGFsIGRlIGxhIHNvY2llZGFkIHkgdGllbmUgZGVyZWNobyBhIGxhIHByb3RlY2Npw7NuIGRlIGxhIHNvY2llZGFkIHkgZGVsIHs1fS4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTY8L3N0cm9uZz48YnI+IDEuIExvcyBob21icmVzIHkgbGFzIG11amVyZXMsIGEgcGFydGlyIGRlIGxhIGVkYWQgezB9LCB0aWVuZW4gZGVyZWNobywgc2luIHJlc3RyaWNjacOzbiBhbGd1bmEgcG9yIG1vdGl2b3MgZGUgcmF6YSwgbmFjaW9uYWxpZGFkIG8gcmVsaWdpw7NuLCBhIHsxfSB5IGZ1bmRhciB1bmEgZmFtaWxpYTsgeSBkaXNmcnV0YXLDoW4gZGUgaWd1YWxlcyB7Mn0gZW4gY3VhbnRvIGFsIG1hdHJpbW9uaW8sIGR1cmFudGUgZWwgbWF0cmltb25pbyB5IGVuIGNhc28gZGUgZGlzb2x1Y2nDs24gZGVsIG1hdHJpbW9uaW8uPGJyPiAyLiBTw7NsbyBtZWRpYW50ZSBsaWJyZSB5IHBsZW5vIHszfSBkZSBsb3MgZnV0dXJvcyBlc3Bvc29zIHBvZHLDoSBjb250cmFlcnNlIGVsIG1hdHJpbW9uaW8uPGJyPiAzLiBMYSBmYW1pbGlhIGVzIGVsIGVsZW1lbnRvIHs0fSB5IGZ1bmRhbWVudGFsIGRlIGxhIHNvY2llZGFkIHkgdGllbmUgZGVyZWNobyBhIGxhIHByb3RlY2Npw7NuIGRlIGxhIHNvY2llZGFkIHkgZGVsIHs1fS4=",
             "Gaps": [
                ['bsO6Ymls'],
                ['Y2FzYXJzZQ=='],
@@ -517,8 +512,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTc8L3N0cm9uZz48YnIgLz4gMS4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSBsYSB7MH0sIGluZGl2aWR1YWwgeSBjb2xlY3RpdmFtZW50ZS48YnIgLz4gMi4gTmFkaWUgc2Vyw6EgcHJpdmFkbyB7MX0gZGUgc3UgcHJvcGllZGFkLg==",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTc8L3N0cm9uZz48YnI+IDEuIFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgbGEgezB9LCBpbmRpdmlkdWFsIHkgY29sZWN0aXZhbWVudGUuPGJyPiAyLiBOYWRpZSBzZXLDoSBwcml2YWRvIHsxfSBkZSBzdSBwcm9waWVkYWQu",
             "Gaps": [
                ['cHJvcGllZGFk'],
                ['YXJiaXRyYXJpYW1lbnRl'],
@@ -526,8 +521,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTg8L3N0cm9uZz48YnIgLz4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSBsYSBsaWJlcnRhZCBkZSB7MH0sIGRlIGNvbmNpZW5jaWEgeSBkZSB7MX07IGVzdGUgZGVyZWNobyBpbmNsdXllIGxhIGxpYmVydGFkIGRlIGNhbWJpYXIgZGUgcmVsaWdpw7NuIG8gZGUgY3JlZW5jaWEsIGFzw60gY29tbyBsYSBsaWJlcnRhZCBkZSB7Mn0gc3UgcmVsaWdpw7NuIG8gc3UgY3JlZW5jaWEsIGluZGl2aWR1YWwgeSBjb2xlY3RpdmFtZW50ZSwgdGFudG8gZW4gcMO6YmxpY28gY29tbyBlbiB7M30sIHBvciBsYSBlbnNlw7FhbnphLCBsYSBwcsOhY3RpY2EsIGVsIGN1bHRvIHkgbGEgb2JzZXJ2YW5jaWEu",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTg8L3N0cm9uZz48YnI+IFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgbGEgbGliZXJ0YWQgZGUgezB9LCBkZSBjb25jaWVuY2lhIHkgZGUgezF9OyBlc3RlIGRlcmVjaG8gaW5jbHV5ZSBsYSBsaWJlcnRhZCBkZSBjYW1iaWFyIGRlIHJlbGlnacOzbiBvIGRlIGNyZWVuY2lhLCBhc8OtIGNvbW8gbGEgbGliZXJ0YWQgZGUgezJ9IHN1IHJlbGlnacOzbiBvIHN1IGNyZWVuY2lhLCBpbmRpdmlkdWFsIHkgY29sZWN0aXZhbWVudGUsIHRhbnRvIGVuIHDDumJsaWNvIGNvbW8gZW4gezN9LCBwb3IgbGEgZW5zZcOxYW56YSwgbGEgcHLDoWN0aWNhLCBlbCBjdWx0byB5IGxhIG9ic2VydmFuY2lhLg==",
             "Gaps": [
                ['cGVuc2FtaWVudG8='],
                ['cmVsaWdpw7Nu'],
@@ -537,8 +532,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTk8L3N0cm9uZz48YnIgLz4gVG9kbyBpbmRpdmlkdW8gdGllbmUgZGVyZWNobyBhIGxhIGxpYmVydGFkIGRlIHswfSB5IGRlIHsxfTsgZXN0ZSBkZXJlY2hvIGluY2x1eWUgZWwgbm8gc2VyIG1vbGVzdGFkbyBhIGNhdXNhIGRlIHN1cyBvcGluaW9uZXMsIGVsIGRlIHsyfSB5IHJlY2liaXIgaW5mb3JtYWNpb25lcyB5IG9waW5pb25lcywgeSBlbCBkZSBkaWZ1bmRpcmxhcywgc2luIHszfSBkZSBmcm9udGVyYXMsIHBvciBjdWFscXVpZXIgbWVkaW8gZGUgZXhwcmVzacOzbi4=",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMTk8L3N0cm9uZz48YnI+IFRvZG8gaW5kaXZpZHVvIHRpZW5lIGRlcmVjaG8gYSBsYSBsaWJlcnRhZCBkZSB7MH0geSBkZSB7MX07IGVzdGUgZGVyZWNobyBpbmNsdXllIGVsIG5vIHNlciBtb2xlc3RhZG8gYSBjYXVzYSBkZSBzdXMgb3BpbmlvbmVzLCBlbCBkZSB7Mn0geSByZWNpYmlyIGluZm9ybWFjaW9uZXMgeSBvcGluaW9uZXMsIHkgZWwgZGUgZGlmdW5kaXJsYXMsIHNpbiB7M30gZGUgZnJvbnRlcmFzLCBwb3IgY3VhbHF1aWVyIG1lZGlvIGRlIGV4cHJlc2nDs24u",
             "Gaps": [
                ['b3BpbmnDs24='],
                ['ZXhwcmVzacOzbg=='],
@@ -548,8 +543,8 @@
          },
          
          {
-            "Image": ["", ""],            
-            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMjA8L3N0cm9uZz48YnIgLz4gMS4gVG9kYSBwZXJzb25hIHRpZW5lIGRlcmVjaG8gYSBsYSBsaWJlcnRhZCBkZSB7MH0geSBkZSBhc29jaWFjacOzbiBwYWPDrWZpY2FzLjxiciAvPiAyLiBOYWRpZSBwb2Ryw6Egc2VyIG9ibGlnYWRvIGEgcGVydGVuZWNlciBhIHVuYSB7MX0u",
+            "Image": ["", ""],
+            "Cloze": "PHN0cm9uZz5BcnTDrWN1bG8gMjA8L3N0cm9uZz48YnI+IDEuIFRvZGEgcGVyc29uYSB0aWVuZSBkZXJlY2hvIGEgbGEgbGliZXJ0YWQgZGUgezB9IHkgZGUgYXNvY2lhY2nDs24gcGFjw61maWNhcy48YnI+IDIuIE5hZGllIHBvZHLDoSBzZXIgb2JsaWdhZG8gYSBwZXJ0ZW5lY2VyIGEgdW5hIHsxfS4=",
             "Gaps": [
                ['cmV1bmnDs24='],
                ['YXNvY2lhY2nDs24='],
@@ -586,8 +581,13 @@
       function page_reset() {
          page = 0;
          points_total = 0;
-         questions_sorted = questions_sort(questions_encoded.length);
-         question_pages = questions_sorted.length;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
          gaps_not_solved = 0;
@@ -710,7 +710,7 @@
          + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
          + '<button class="func_button" onclick="show_clue()">Pista</button>'
          + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br /><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
       }
 
       function buttons_final_score_fill() {
@@ -732,7 +732,7 @@
          var message_text_element = document.getElementById("message_text_id");
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
-         
+
          // Focus first empty gap
          var num_gap = 0;
          while (1) {
@@ -844,7 +844,7 @@
          // Buttons
          buttons_questions_fill();
          clearInterval(interval);
-         
+
          // Focus first gap
          var gap_element = document.getElementById("gap_0");
          if (gap_element) {
@@ -881,7 +881,7 @@
          message_hide();
 
          gaps_not_solved = count_blank_answers();
-         
+
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
                message_show("Aún falta 1 hueco por resolver.");
@@ -892,7 +892,7 @@
          }
          else {
             message_show("Todos los huecos están resueltos."
-            + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
          }
       };
 
@@ -900,7 +900,7 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-         
+
          for (var i=0; i<gaps_length; i++) {
             var gap_element = document.getElementById("gap_{0}".format(i));
             if (gap_element === null || gap_element === 'undefined' ) {
@@ -925,7 +925,7 @@
             };
             gap_text = "";
          };
-         return gaps_not_solved;         
+         return gaps_not_solved;
       }
 
       function select_gap(num) {
@@ -955,7 +955,7 @@
             while (true) {
                if (gaps_visited >= gaps_length) {
                   message_show("Todos los huecos están resueltos."
-                  + "<br />Pulsa <strong>Siguiente</strong> para continuar.");
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
                   return;
                }
                if (gap_selected >= gaps_length) {
@@ -1010,4 +1010,5 @@
    </script>
 
 </body>
+
 </html>

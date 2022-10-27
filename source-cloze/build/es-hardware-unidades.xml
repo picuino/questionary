@@ -7,9 +7,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Cantidad de información</strong><br /> {Bit}. Es la unidad mínima de información y equivale a un dígito {binario} que puede valer 0 ó 1.</text> </name>
+    <name> <text><strong>Cantidad de información</strong><br> {Bit}. Es la unidad mínima de información y equivale a un dígito {binario} que puede valer 0 ó 1.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Cantidad de información</strong><br /> {1:SHORTANSWER:=Bit}. Es la unidad mínima de información y equivale a un dígito {1:SHORTANSWER:=binario} que puede valer 0 ó 1.]]></text>
+      <text><![CDATA[<strong>Cantidad de información</strong><br> {1:SHORTANSWER:=Bit}. Es la unidad mínima de información y equivale a un dígito {1:SHORTANSWER:=binario} que puede valer 0 ó 1.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -19,9 +19,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Cantidad de información</strong><br /> {Byte}. Es un conjunto de 8 bits. Puede contener un carácter y puede tomar valores enteros entre 0 y {255}.</text> </name>
+    <name> <text><strong>Cantidad de información</strong><br> {Byte}. Es un conjunto de 8 bits. Puede contener un carácter y puede tomar valores enteros entre 0 y {255}.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Cantidad de información</strong><br /> {1:SHORTANSWER:=Byte}. Es un conjunto de 8 bits. Puede contener un carácter y puede tomar valores enteros entre 0 y {1:SHORTANSWER:=255}.]]></text>
+      <text><![CDATA[<strong>Cantidad de información</strong><br> {1:SHORTANSWER:=Byte}. Es un conjunto de 8 bits. Puede contener un carácter y puede tomar valores enteros entre 0 y {1:SHORTANSWER:=255}.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -31,9 +31,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Cantidad de información</strong><br /> {Word}. Una palabra puede tener un número variable de {bits} dependiendo del sistema informático con el que estemos tratando. En los ordenadores actuales varía desde 16 bits hasta 128 bits.</text> </name>
+    <name> <text><strong>Cantidad de información</strong><br> {Word}. Una palabra puede tener un número variable de {bits} dependiendo del sistema informático con el que estemos tratando. En los ordenadores actuales varía desde 16 bits hasta 128 bits.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Cantidad de información</strong><br /> {1:SHORTANSWER:=Word}. Una palabra puede tener un número variable de {1:SHORTANSWER:=bits} dependiendo del sistema informático con el que estemos tratando. En los ordenadores actuales varía desde 16 bits hasta 128 bits.]]></text>
+      <text><![CDATA[<strong>Cantidad de información</strong><br> {1:SHORTANSWER:=Word}. Una palabra puede tener un número variable de {1:SHORTANSWER:=bits} dependiendo del sistema informático con el que estemos tratando. En los ordenadores actuales varía desde 16 bits hasta 128 bits.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -43,9 +43,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Velocidad de transporte o caudal</strong><br /> Bit/s. Un {bit} transmitido cada {segundo}.<br /> {Byte/s}. Un byte transmitido cada segundo.</text> </name>
+    <name> <text><strong>Velocidad de transporte o caudal</strong><br> Bit/s. Un {bit} transmitido cada {segundo}.<br> {Byte/s}. Un byte transmitido cada segundo.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Velocidad de transporte o caudal</strong><br /> Bit/s. Un {1:SHORTANSWER:=bit} transmitido cada {1:SHORTANSWER:=segundo}.<br /> {1:SHORTANSWER:=Byte/s}. Un byte transmitido cada segundo.]]></text>
+      <text><![CDATA[<strong>Velocidad de transporte o caudal</strong><br> Bit/s. Un {1:SHORTANSWER:=bit} transmitido cada {1:SHORTANSWER:=segundo}.<br> {1:SHORTANSWER:=Byte/s}. Un byte transmitido cada segundo.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -55,9 +55,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Prefijos del Sistema Internacional de unidades</strong><br /> {Giga}, letra G, cantidad 10^{9}. <br /> {Mega}, letra M, cantidad 10^{6}. <br /> {kilo}, letra k, cantidad 10^{3}. <br /></text> </name>
+    <name> <text><strong>Prefijos del Sistema Internacional de unidades</strong><br> {Giga}, letra G, cantidad 10^{9}. <br> {Mega}, letra M, cantidad 10^{6}. <br> {kilo}, letra k, cantidad 10^{3}. <br></text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Prefijos del Sistema Internacional de unidades</strong><br /> {1:SHORTANSWER:=Giga}, letra G, cantidad 10^{1:SHORTANSWER:=9}. <br /> {1:SHORTANSWER:=Mega}, letra M, cantidad 10^{1:SHORTANSWER:=6}. <br /> {1:SHORTANSWER:=kilo}, letra k, cantidad 10^{1:SHORTANSWER:=3}. <br />]]></text>
+      <text><![CDATA[<strong>Prefijos del Sistema Internacional de unidades</strong><br> {1:SHORTANSWER:=Giga}, letra G, cantidad 10^{1:SHORTANSWER:=9}. <br> {1:SHORTANSWER:=Mega}, letra M, cantidad 10^{1:SHORTANSWER:=6}. <br> {1:SHORTANSWER:=kilo}, letra k, cantidad 10^{1:SHORTANSWER:=3}. <br>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -67,9 +67,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Prefijos del Sistema Internacional de unidades</strong><br /> {Exa}, letra E, cantidad 10^{18}. <br /> {Peta}, letra P, cantidad 10^{15}. <br /> {Tera}, letra T, cantidad 10^{12}. <br /></text> </name>
+    <name> <text><strong>Prefijos del Sistema Internacional de unidades</strong><br> {Exa}, letra E, cantidad 10^{18}. <br> {Peta}, letra P, cantidad 10^{15}. <br> {Tera}, letra T, cantidad 10^{12}. <br></text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Prefijos del Sistema Internacional de unidades</strong><br /> {1:SHORTANSWER:=Exa}, letra E, cantidad 10^{1:SHORTANSWER:=18}. <br /> {1:SHORTANSWER:=Peta}, letra P, cantidad 10^{1:SHORTANSWER:=15}. <br /> {1:SHORTANSWER:=Tera}, letra T, cantidad 10^{1:SHORTANSWER:=12}. <br />]]></text>
+      <text><![CDATA[<strong>Prefijos del Sistema Internacional de unidades</strong><br> {1:SHORTANSWER:=Exa}, letra E, cantidad 10^{1:SHORTANSWER:=18}. <br> {1:SHORTANSWER:=Peta}, letra P, cantidad 10^{1:SHORTANSWER:=15}. <br> {1:SHORTANSWER:=Tera}, letra T, cantidad 10^{1:SHORTANSWER:=12}. <br>]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -79,9 +79,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Un mensaje de texto apenas ocupará algunas decenas de {bytes} (unos bytes más que el número de caracteres o letras del {texto}).</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Un mensaje de texto apenas ocupará algunas decenas de {bytes} (unos bytes más que el número de caracteres o letras del {texto}).</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Un mensaje de texto apenas ocupará algunas decenas de {1:SHORTANSWER:=bytes} (unos bytes más que el número de caracteres o letras del {1:SHORTANSWER:=texto}).]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Un mensaje de texto apenas ocupará algunas decenas de {1:SHORTANSWER:=bytes} (unos bytes más que el número de caracteres o letras del {1:SHORTANSWER:=texto}).]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -91,9 +91,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Una conexión de {audio} a través de Whatsapp necesita unos 60 {kbit/s} para funcionar.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Una conexión de {audio} a través de Whatsapp necesita unos 60 {kbit/s} para funcionar.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Una conexión de {1:SHORTANSWER:=audio} a través de Whatsapp necesita unos 60 {1:SHORTANSWER:=kbit/s} para funcionar.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Una conexión de {1:SHORTANSWER:=audio} a través de Whatsapp necesita unos 60 {1:SHORTANSWER:=kbit/s} para funcionar.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -103,9 +103,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Una fotografía o una canción mp3 ocupan unos cientos de {kilobytes} o pocos {megabytes} dependiendo de su calidad o tamaño.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Una fotografía o una canción mp3 ocupan unos cientos de {kilobytes} o pocos {megabytes} dependiendo de su calidad o tamaño.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Una fotografía o una canción mp3 ocupan unos cientos de {1:SHORTANSWER:=kilobytes} o pocos {1:SHORTANSWER:=megabytes} dependiendo de su calidad o tamaño.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Una fotografía o una canción mp3 ocupan unos cientos de {1:SHORTANSWER:=kilobytes} o pocos {1:SHORTANSWER:=megabytes} dependiendo de su calidad o tamaño.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -115,9 +115,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Una conexión a internet por fibra {óptica} tiene alrededor de 100 {Mbit/s} de velocidad de conexión (equivalente a unos 12 Mbyte/s).</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Una conexión a internet por fibra {óptica} tiene alrededor de 100 {Mbit/s} de velocidad de conexión (equivalente a unos 12 Mbyte/s).</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Una conexión a internet por fibra {1:SHORTANSWER:=óptica} tiene alrededor de 100 {1:SHORTANSWER:=Mbit/s} de velocidad de conexión (equivalente a unos 12 Mbyte/s).]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Una conexión a internet por fibra {1:SHORTANSWER:=óptica} tiene alrededor de 100 {1:SHORTANSWER:=Mbit/s} de velocidad de conexión (equivalente a unos 12 Mbyte/s).]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -127,9 +127,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Una conexión por Ethernet con el {router} suele tener 1 {Gbit/s} de velocidad de conexión (equivalente a 125 Mbyte/s).</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Una conexión por Ethernet con el {router} suele tener 1 {Gbit/s} de velocidad de conexión (equivalente a 125 Mbyte/s).</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Una conexión por Ethernet con el {1:SHORTANSWER:=router} suele tener 1 {1:SHORTANSWER:=Gbit/s} de velocidad de conexión (equivalente a 125 Mbyte/s).]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Una conexión por Ethernet con el {1:SHORTANSWER:=router} suele tener 1 {1:SHORTANSWER:=Gbit/s} de velocidad de conexión (equivalente a 125 Mbyte/s).]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -139,9 +139,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Una película en {DVD} ocupará de 4 a 8 {Gigabytes} de espacio.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Una película en {DVD} ocupará de 4 a 8 {Gigabytes} de espacio.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Una película en {1:SHORTANSWER:=DVD} ocupará de 4 a 8 {1:SHORTANSWER:=Gigabytes} de espacio.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Una película en {1:SHORTANSWER:=DVD} ocupará de 4 a 8 {1:SHORTANSWER:=Gigabytes} de espacio.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -151,9 +151,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Un {disco} duro típico tiene una capacidad de varios {Terabytes}.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Un {disco} duro típico tiene una capacidad de varios {Terabytes}.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Un {1:SHORTANSWER:=disco} duro típico tiene una capacidad de varios {1:SHORTANSWER:=Terabytes}.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Un {1:SHORTANSWER:=disco} duro típico tiene una capacidad de varios {1:SHORTANSWER:=Terabytes}.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -163,9 +163,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Un {Cluster} de ordenadores puede alcanzar varios {Petabytes} de capacidad.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Un {Cluster} de ordenadores puede alcanzar varios {Petabytes} de capacidad.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Un {1:SHORTANSWER:=Cluster} de ordenadores puede alcanzar varios {1:SHORTANSWER:=Petabytes} de capacidad.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Un {1:SHORTANSWER:=Cluster} de ordenadores puede alcanzar varios {1:SHORTANSWER:=Petabytes} de capacidad.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -175,9 +175,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Capacidades y velocidades típicas</strong><br /> Se calcula que en 2020 la capacidad de almacenamiento total de {internet} era de unos 2000 {Exabytes}.</text> </name>
+    <name> <text><strong>Capacidades y velocidades típicas</strong><br> Se calcula que en 2020 la capacidad de almacenamiento total de {internet} era de unos 2000 {Exabytes}.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br /> Se calcula que en 2020 la capacidad de almacenamiento total de {1:SHORTANSWER:=internet} era de unos 2000 {1:SHORTANSWER:=Exabytes}.]]></text>
+      <text><![CDATA[<strong>Capacidades y velocidades típicas</strong><br> Se calcula que en 2020 la capacidad de almacenamiento total de {1:SHORTANSWER:=internet} era de unos 2000 {1:SHORTANSWER:=Exabytes}.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>

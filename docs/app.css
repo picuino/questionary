@@ -130,7 +130,7 @@ h2 {
   text-align: center;
 }
 
-.footer a {
+.footer a, .footer a:visited {
   text-decoration: none;
   font-size: 12px;
   display: inline-block;
@@ -143,9 +143,4 @@ h2 {
   color: #094070;
   background-color: #ecf5ff;
 }
-
-.footer a:visited {
-  color: none;
-}
-
 

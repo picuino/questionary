@@ -78,11 +78,11 @@ index_data = [
       "header" : ["maquinas", "Máquinas y Mecanismos"],
       "links": [
            ["es-machines-simple.html", "Máquinas simples"],
-           ["es-machines-transmission1.html", "Mecanismos de<br /> transmisión I"],
-           ["es-machines-transmission2.html", "Mecanismos de<br /> transmisión II"],
-           ["es-machines-transmission3.html", "Mecanismos de<br /> transmisión III"],
-           ["es-machines-transformation1.html", "Mecanismos de<br /> transformación I"],
-           ["es-machines-transformation2.html", "Mecanismos de<br /> transformación II"],
+           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
+           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
+           ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
+           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
+           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
            ["es-machines.html", "Test global de Máquinas y Mecanismos"],
        ]
    },
@@ -104,9 +104,9 @@ index_data = [
 
 
 index_template = """<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2021 Carlos Pardo
@@ -133,9 +133,9 @@ index_template = """<!DOCTYPE html>
    SOFTWARE.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad." />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad.">
    <title>Test de Tecnología - Picuino</title>
    <link rel="stylesheet" href="app.css">
    
@@ -194,9 +194,9 @@ index_template = """<!DOCTYPE html>
    para propósitos funcionales y de análisis de navegación.
    Puedes obtener más información en nuestra 
    <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a> <br />
+   target="_blank">política de Cookies.</a><br>
    Si continúas navegando, aceptas su uso.
-   <br />
+   <br>
    <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
    <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
    </div>
@@ -209,7 +209,7 @@ index_template = """<!DOCTYPE html>
    </script>
 
    <!-- Matomo -->
-   <script type="text/javascript">
+   <script>
    if (document.cookie.indexOf("noAnalyticalCookies")<0) {
      var _paq = window._paq = window._paq || [];
      _paq.push(['trackPageView']);

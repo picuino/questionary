@@ -1,6 +1,7 @@
-﻿<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html lang="es-es">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
    Copyright (c) 2021 Carlos Pardo
@@ -27,9 +28,9 @@
    SOFTWARE.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test online de Electricidad - Calcular resistencia equivalente - Picuino" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Electricidad - Calcular resistencia equivalente - Picuino">
    <title>Test Calcular resistencia equivalente - Electricidad - Picuino</title>
    <link rel="stylesheet" href="app.css">
    <link rel="stylesheet" href="game.css">
@@ -52,7 +53,7 @@
    <div class="container">
       <div id="game" class="justify-center flex-column">
         <div id="hud">
-          <div id="hud-item">
+          <div id="hud-item1">
             <p id="progressText" class="hud-prefix">
               Question
             </p>
@@ -60,7 +61,7 @@
               <div id="progressBarFull"></div>
             </div>
           </div>
-          <div id="hud-item">
+          <div id="hud-item2">
             <p class="hud-prefix">
               Score
             </p>
@@ -73,7 +74,7 @@
         <h1 class="header">Electricidad. Calcular resistencia equivalente</h1>
         
         <h2 id="question">What is the answer to this question?</h2>
-        <p><img id="questionImage" src="" width=""></p>
+        <p><img id="questionImage" src="example.png" width="600"></p>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
           <p class="choice-text" data-number="1">Choice 1</p>
@@ -120,9 +121,9 @@
    para propósitos funcionales y de análisis de navegación.
    Puedes obtener más información en nuestra 
    <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a> <br />
+   target="_blank">política de Cookies.</a> <br>
    Si continúas navegando, aceptas su uso.
-   <br />
+   <br>
    <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
    <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
    </div>
@@ -131,11 +132,11 @@
    function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
    function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
    function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none";}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
    </script>
 
    <!-- Matomo -->
-   <script type="text/javascript">
+   <script>
    if (document.cookie.indexOf("noAnalyticalCookies")<0) {
      var _paq = window._paq = window._paq || [];
      _paq.push(['trackPageView']);
