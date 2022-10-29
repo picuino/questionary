@@ -74,7 +74,7 @@
         <h1 class="header">Materiales. Cuestionario global de materiales</h1>
         
         <h2 id="question">What is the answer to this question?</h2>
-        <p><img id="questionImage" src="example.png" width="600"></p>
+        <p><img id="questionImage" src="" width="2"></p>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
           <p class="choice-text" data-number="1">Choice 1</p>
@@ -132,7 +132,7 @@
    function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
    function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
    function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
    </script>
 
    <!-- Matomo -->
