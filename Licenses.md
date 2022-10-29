@@ -1,9 +1,10 @@
 ﻿Programas de ordenador
 ======================
-Los programas de ordenador tales como los programas Python o las macros
-makefile se distribuyen por defecto bajo licencia GPL v3. 
+Los programas de ordenador tales como los programas Python,
+los programas en JavaScript o las macros makefile se 
+distribuyen por defecto bajo licencia GPL v3. 
 
-La página web y sus ficheros en JavaScript están basados, con cambios, 
+Los test de tipo opción múltiple están basados, con cambios, 
 en el proyecto de James Q. Quick
 https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 con licencia [MIT](https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript/blob/master/LICENSE).
@@ -21,7 +22,8 @@ Attribution-ShareAlike 4.0.
 Cada uno de los archivos tiene en las primeras líneas de la cabecera 
 información sobre la licencia con la que se distribuyen.
 
-Se puede leer el texto de la licencia CC BY-SA 4.0 en el enlace: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Se puede leer el texto de la licencia CC BY-SA 4.0 en el enlace:
+https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 
 Imágenes del proyecto
