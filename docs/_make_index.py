@@ -42,16 +42,21 @@ index_data = [
          ["es-electric-components-type.html", "Tipos de componentes"],
          ["es-electric-components-name.html", "Nombre de componentes (test)"],
          ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
-         ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
+
          ["es-electric-color-code-1.html", "Código de colores 1"],
          ["es-electric-color-code-2.html", "Código de colores 2"],
-         ["es-electric-circuits.html", "Circuitos eléctricos"],
+
          ["es-electric-units-change.html", "Cambio de unidades"],
          ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
+         ["es-electric-circuits.html", "Circuitos eléctricos"],
+
          ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
          ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
+
+         ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
          ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
          ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
+
          ["es-electric-power.html", "Potencia"],
          ["es-electric-energy.html", "Energía"],
          ["es-electric-breadboard.html", "Breadboard"],

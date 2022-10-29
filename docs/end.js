@@ -30,9 +30,14 @@ const mostRecentScore = Number(sessionStorage.getItem('mostRecentScore')).toFixe
 var watermark=1;
 
 function setFinalScore() {
+  var title2 = title;
+  if (title2 === null) {
+     var title2 = "Test no realizado.";
+  } 
+
   if (watermark == 1) {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title
+     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title2
      + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
      + "</h1> <h1>- - - - - -</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\""
      + "href=\"index.html\">Índice de los Test</a>");
@@ -41,7 +46,7 @@ function setFinalScore() {
   } 
   else if (watermark == 2) {
      endDiv.innerHTML = "";
-     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title
+     endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title2
      + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
      + "</h1> <h1>= = = = =</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\"" 
      + "href=\"index.html\">Índice de los Test</a>");
