@@ -71,6 +71,8 @@ index_data = [
            ["es-hardware-ley-moore.html", "Ley de Moore"],
            ["es-hardware-pc.html", "Hardware del ordenador personal"],
            ["es-hardware-placa-base.html", "Placa base"],
+           ["es-hardware-procesadores-1.html", "Procesadores I"],
+           ["es-hardware-procesadores-2.html", "Procesadores II"],
        ]
    },
    {

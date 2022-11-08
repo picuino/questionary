@@ -907,16 +907,25 @@
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
 
-         // Focus first empty gap
-         var num_gap = 0;
+         focus_empty_gap();
+      }
+
+      function focus_empty_gap() {
+         var num_gaps = 0;
+         var gaps_length = questions_sorted[page]["Gaps"].length; 
+
          while (1) {
-            var gap_element = document.getElementById("gap_{0}".format(num_gap));
+            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
             if (gap_element) {
                gap_element.focus();
                break;
             }
-            num_gap += 1;
-            if (num_gap > 100) {
+            gap_selected += 1;
+            if (gap_selected > gaps_length) {
+               gap_selected = 0;
+            }
+            num_gaps += 1;
+            if (num_gaps > 100) {
                break;
             }
          }

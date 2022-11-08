@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Hardware/es-hardware-procesadores</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Procesadores</strong><br> Los procesadores son el "{cerebro}" de los ordenadores, los componentes que realizan las operaciones dictadas por los {programas} o aplicaciones.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Procesadores</strong><br> Los procesadores son el "{1:SHORTANSWER:=cerebro}" de los ordenadores, los componentes que realizan las operaciones dictadas por los {1:SHORTANSWER:=programas} o aplicaciones.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Unidad central de procesamiento</strong><br> Una {CPU} o unidad central de procesamiento, también llamada {microprocesador}, es un componente de ordenador dedicado a interpretar las instrucciones de los {programas} informáticos. Pueden realizar operaciones {lógicas}, {aritméticas} y de movimiento de datos.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Unidad central de procesamiento</strong><br> Una {1:SHORTANSWER:=CPU} o unidad central de procesamiento, también llamada {1:SHORTANSWER:=microprocesador}, es un componente de ordenador dedicado a interpretar las instrucciones de los {1:SHORTANSWER:=programas} informáticos. Pueden realizar operaciones {1:SHORTANSWER:=lógicas}, {1:SHORTANSWER:=aritméticas} y de movimiento de datos.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Unidad central de procesamiento</strong><br> Las CPU más conocidas y usadas en la actualidad son las de la empresa {Intel} (i3, i5, i7, i9, Xeon) o las de la empresa {AMD} (Ryzen) para ordenadores personales y {servidores}. <br><br> Los teléfonos inteligentes, tabletas, televisores y otros dispositivos {inteligentes} (smart) utilizan CPU basadas en arquitectura {ARM} (Dimensity, Snapdragon, Kirin, etc.)</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Unidad central de procesamiento</strong><br> Las CPU más conocidas y usadas en la actualidad son las de la empresa {1:SHORTANSWER:=Intel} (i3, i5, i7, i9, Xeon) o las de la empresa {1:SHORTANSWER:=AMD} (Ryzen) para ordenadores personales y {1:SHORTANSWER:=servidores}. <br><br> Los teléfonos inteligentes, tabletas, televisores y otros dispositivos {1:SHORTANSWER:=inteligentes} (smart) utilizan CPU basadas en arquitectura {1:SHORTANSWER:=ARM} (Dimensity, Snapdragon, Kirin, etc.)]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Coprocesador matemático</strong><br> El coprocesador matemático o {FPU} es un tipo de procesador que está especializado en realizar operaciones {matemáticas} en coma flotante (con decimales), tales como multiplicaciones divisiones, operaciones {trigonométricas}, logaritmos y exponenciales. <br><br> En sus comienzos eran {circuitos} separados de la CPU, pero hoy en día se encuentran {integradas} dentro del mismo chip de las CPU más potentes.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Coprocesador matemático</strong><br> El coprocesador matemático o {1:SHORTANSWER:=FPU} es un tipo de procesador que está especializado en realizar operaciones {1:SHORTANSWER:=matemáticas} en coma flotante (con decimales), tales como multiplicaciones divisiones, operaciones {1:SHORTANSWER:=trigonométricas}, logaritmos y exponenciales. <br><br> En sus comienzos eran {1:SHORTANSWER:=circuitos} separados de la CPU, pero hoy en día se encuentran {1:SHORTANSWER:=integradas} dentro del mismo chip de las CPU más potentes.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Coprocesador matemático</strong><br> Este coprocesador o {FPU} permite acelerar los programas que necesitan realizar gran cantidad de operaciones matemáticas tales como los programas de {diseño} por ordenador en 2 y en 3 {dimensiones}, los programas de hojas de {cálculo} o el software {científico}. <br><br> Hay coprocesadores especializados en realizar operaciones matemáticas orientadas a {multimedia} (MMX) que aceleran la compresión y descompresión de audio y {vídeo}. Gracias a estos {coprocesadores}, los programas de edición o de visualización de vídeo pueden trabajar velozmente y sin problemas en alta {definición}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Coprocesador matemático</strong><br> Este coprocesador o {1:SHORTANSWER:=FPU} permite acelerar los programas que necesitan realizar gran cantidad de operaciones matemáticas tales como los programas de {1:SHORTANSWER:=diseño} por ordenador en 2 y en 3 {1:SHORTANSWER:=dimensiones}, los programas de hojas de {1:SHORTANSWER:=cálculo} o el software {1:SHORTANSWER:=científico}. <br><br> Hay coprocesadores especializados en realizar operaciones matemáticas orientadas a {1:SHORTANSWER:=multimedia} (MMX) que aceleran la compresión y descompresión de audio y {1:SHORTANSWER:=vídeo}. Gracias a estos {1:SHORTANSWER:=coprocesadores}, los programas de edición o de visualización de vídeo pueden trabajar velozmente y sin problemas en alta {1:SHORTANSWER:=definición}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

@@ -467,9 +467,12 @@
          
          {
             "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz57MH0gcHJvZ3JhbWFibGVzPC9zdHJvbmc+IDxicj4gU29uIHBlcXVlw7FvcyBvcmRlbmFkb3JlcyBkZSBiYWphIHBvdGVuY2lhLCBkZXN0aW5hZG9zIGEgY29udHJvbGFyIGRlIGZvcm1hIGludGVsaWdlbnRlIGFwYXJhdG9zIGRvbcOpc3RpY29zLCBlbGVtZW50b3MgZGUgdW4gYXV0b23Ds3ZpbCwgZXRjLiBQZXJtaXRlbiByZWFsaXphciBwcm9ncmFtYXMgYSB1bmEgbGF2YWRvcmEsIHRlbXBvcml6YXIgZGlnaXRhbG1lbnRlIHVuIGhvcm5vIG1pY3Jvb25kYXMsIGFjdGl2YXIgZWwgZnJlbm8gQUJTIGRlIHVuIGF1dG9tw7N2aWwsIHJlYWxpemFyIG1lZGljaW9uZXMgZGUgY29uc3VtbyBlbMOpY3RyaWNvIGEgZGlzdGFuY2lhLCB2YWxpZGFyIHVuYSB0YXJqZXRhIGRlIHRyYW5zcG9ydGUgZW4gZWwgYXV0b2LDunMsIGVuY2VuZGVyIHVuYSBib21iaWxsYSBtZWRpYW50ZSBjb25leGnDs24gd2lmaSwgY29udHJvbGFyIHVuYSBtw6FxdWluYSBleHBlbmRlZG9yYSwgZXRjLg==",
+            "Cloze": "PHN0cm9uZz57MH0gcHJvZ3JhbWFibGVzPC9zdHJvbmc+IDxicj4gU29uIHBlcXVlw7FvcyBvcmRlbmFkb3JlcyBkZSBiYWphIHBvdGVuY2lhLCBkZXN0aW5hZG9zIGEgY29udHJvbGFyIGRlIGZvcm1hIGludGVsaWdlbnRlIGFwYXJhdG9zIGRvbcOpc3RpY29zLCBlbGVtZW50b3MgZGUgdW4gYXV0b23Ds3ZpbCwgZXRjLiBQZXJtaXRlbiByZWFsaXphciBwcm9ncmFtYXMgYSB1bmEgbGF2YWRvcmEsIHsxfSBkaWdpdGFsbWVudGUgdW4gaG9ybm8gbWljcm9vbmRhcywgYWN0aXZhciBlbCBmcmVubyB7Mn0gZGUgdW4gYXV0b23Ds3ZpbCwgcmVhbGl6YXIgbWVkaWNpb25lcyBkZSBjb25zdW1vIGVsw6ljdHJpY28gYSBkaXN0YW5jaWEsIHZhbGlkYXIgdW5hIHRhcmpldGEgZGUgdHJhbnNwb3J0ZSBlbiBlbCBhdXRvYsO6cywgZW5jZW5kZXIgdW5hIHszfSBtZWRpYW50ZSBjb25leGnDs24gd2lmaSwgY29udHJvbGFyIHVuYSBtw6FxdWluYSBleHBlbmRlZG9yYSwgZXRjLg==",
             "Gaps": [
                ['Q29udHJvbGFkb3Jlcw=='],
+               ['dGVtcG9yaXphcg=='],
+               ['QUJT'],
+               ['Ym9tYmlsbGE='],
             ]
          },
          
@@ -807,16 +810,25 @@
          message_text_element.innerHTML = "";
          message_element.style.display = "none";
 
-         // Focus first empty gap
-         var num_gap = 0;
+         focus_empty_gap();
+      }
+
+      function focus_empty_gap() {
+         var num_gaps = 0;
+         var gaps_length = questions_sorted[page]["Gaps"].length; 
+
          while (1) {
-            var gap_element = document.getElementById("gap_{0}".format(num_gap));
+            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
             if (gap_element) {
                gap_element.focus();
                break;
             }
-            num_gap += 1;
-            if (num_gap > 100) {
+            gap_selected += 1;
+            if (gap_selected > gaps_length) {
+               gap_selected = 0;
+            }
+            num_gaps += 1;
+            if (num_gaps > 100) {
                break;
             }
          }
