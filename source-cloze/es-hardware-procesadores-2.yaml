@@ -101,40 +101,36 @@ Show_max: 0
      de ellos. Una CPU típica de un ordenador personal en 2022 suele
      tener un tamaño de memoria caché en torno a los {6} Megabytes.
 
-
-
-
-
 - Title:
   Cloze:
      <strong>Número de bits</strong><br> 
      Cada procesador puede manejar a la vez un número concreto de
-     bits. El número de bits determina la cantidad de memoria a la
-     que se puede acceder y la rapidez con la que se ejecutarán
+     bits. El número de bits determina la cantidad de {memoria} a la
+     que se puede acceder y la {rapidez} con la que se ejecutarán
      ciertas operaciones. Un procesador de 8 bits tratará la
-     información cuatro veces más lento que uno de 32 bits.<br> 
+     información cuatro veces más lento que uno de {32} bits.<br> 
      Los procesadores más simples, como los que incorpora un teclado
-     de ordenador o un horno microondas, son de 8 bits.<br> 
+     de ordenador o un horno microondas, son de {8} bits.<br> 
      Por encima de ellas están las CPU de 32 bits, mucho más potentes
      y rápidas. Son las utilizadas en smartphones, smartTV,
      impresoras, etc.<br> 
      Los ordenadores personales actuales utilizan, en la mayoría
-     de los casos, procesadores y software de 64 bits.
+     de los casos, procesadores y software de {64} bits.
  
 - Title:
   Cloze:
      "<strong>Tipo de buses</strong><br>
-     Es el tipo de comunicación con el que se transfiere información
-     entre el procesador y el resto de elementos del ordenador.
+     Es el tipo de comunicación con el que se {transfiere} información
+     entre el {procesador} y el resto de elementos del ordenador.
      Cuantos más buses tenga un procesador y más rápidos sean,
-     mayor será su rendimiento.<br>
+     mayor será su {rendimiento}.<br>
      Actualmente los procesadores de ordenador personal tienen tres
      buses de comunicaciones con el exterior, para mejorar la
      velocidad de transferencia:<br>
      <ul>
-     <li>Bus directo con la memoria RAM.</li>
-     <li>Bus directo con los puertos PCI Express.</li>
-     <li>Bus DMI para conectar con el resto de dispositivos
+     <li>Bus directo con la memoria {RAM}.</li>
+     <li>Bus directo con los puertos {PCI} Express.</li>
+     <li>Bus {DMI} para conectar con el resto de dispositivos
      (USB, PCI, Sata, Ethernet, etc).</li>
      </ul>
      "
@@ -142,47 +138,47 @@ Show_max: 0
 - Title:
   Cloze:
      <strong>Pruebas de rendimiento</strong><br> 
-     Las pruebas de rendimiento, también llamadas benchmark, son
+     Las pruebas de rendimiento, también llamadas {benchmark}, son
      una técnica para medir el rendimiento de un sistema informático
-     o de sus componentes por separado.<br> 
+     o de sus {componentes} por separado.<br> 
      Son pruebas muy útiles a la hora de comparar procesadores entre
      sí. Debido a la gran cantidad de parámetros o características
      que definen a un procesador, no es sencillo calcular su
      rendimiento final. Sin embargo las pruebas benchmark darán un
-     simple número que representa aproximadamente la potencia de
-     cálculo del procesador.
+     simple número que representa aproximadamente la {potencia} de
+     un procesador.
 
 - Title:
   Cloze:
      <strong>MIPS</strong><br> 
-     Los MIPS o millones de instrucciones por segundo.<br> 
+     Los MIPS o  {millones} de instrucciones por segundo.<br> 
      Es un test muy útil para comparar de forma relativa procesadores
-     a lo largo de la historia y ver cómo crece la potencia de
-     cómputo de forma exponencial con el tiempo. A pesar de todo es
+     a lo largo de la {historia} y ver cómo crece la potencia de
+     cómputo de forma {exponencial} con el tiempo. A pesar de todo es
      un test con ciertos problemas a la hora de comparar diferentes
-     arquitecturas, por lo que ha caído en desuso.<br> 
+     arquitecturas, por lo que ha caído en {desuso}.<br> 
      Un ordenador personal típico de 2022 tiene aproximadamente
-     200 000 MIPS.
+     {200} 000 MIPS.
 
 - Title:
   Cloze:
      <strong>FLOPS</strong><br> 
-     Los FLOPS u operaciones de coma flotante por segundo, mide
+     Los FLOPS u operaciones de coma {flotante} por segundo, mide
      cuántas operaciones matemáticas con decimales es capaz de
      realizar un ordenador. Son habituales los múltiplos, así un
-     MFLOPS es igual a 1 millón de operaciones por segundo.<br> 
+     {MFLOPS} es igual a 1 millón de operaciones por segundo.<br> 
      Esta medida es útil para conocer cómo es de rápida una máquina
-     para resolver problemas científicos y de cálculo intensivo.<br> 
+     para resolver problemas científicos y de cálculo {intensivo}.<br> 
      Un ordenador personal típico de 2022 tiene aproximadamente
-     50 000 MFLOPS.
+     {50} 000 MFLOPS.
 
 - Title:
   Cloze:
      "<strong>SPECint y SPECfp</strong><br>
      Standard Performance Evaluation Corporation (SPEC) es un
-     consorcio sin fines de lucro que incluye a vendedores de
+     consorcio sin fines de {lucro} que incluye a vendedores de
      computadoras, integradores de sistemas, universidades, grupos
      de investigación, publicadores y consultores de todo el mundo.<br>
-     Tiene dos objetivos: crear un benchmark estándar para medir
-     el rendimiento de computadoras y controlar y publicar los
+     Tiene dos objetivos: crear un benchmark {estándar} para medir
+     el rendimiento de computadoras y controlar y {publicar} los
      resultados de estos tests."

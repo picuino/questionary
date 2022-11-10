@@ -93,6 +93,10 @@
         display: none;
       }
 
+      ul, ol {
+        padding-left: 24px;
+      }
+
 
       /* BUTTONS */
 
@@ -911,7 +915,7 @@
 
       function focus_empty_gap() {
          var num_gaps = 0;
-         var gaps_length = questions_sorted[page]["Gaps"].length; 
+         var gaps_length = questions_sorted[page]["Gaps"].length;
 
          while (1) {
             var gap_element = document.getElementById("gap_{0}".format(gap_selected));

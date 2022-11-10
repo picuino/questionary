@@ -45,14 +45,17 @@ def main():
 
    # Process all yaml files of this directory
    questions_counter = DictCounter()
+   gaps_counter = DictCounter()
    yaml_files = [yaml for yaml in os.listdir('.') if yaml[-5:].lower() == '.yaml']
    for yaml_file in yaml_files:
       print('\nFile: %s' % yaml_file)
-      questions = cloze.read_yaml(yaml_file, path='.')
-      questions_counter.add(questions, yaml_file)
+      num_questions, num_gaps = cloze.read_yaml(yaml_file, path='.')
+      questions_counter.add(num_questions, yaml_file)
+      gaps_counter.add(num_gaps, yaml_file)
       cloze.html_generate(html_template, path=html_path)
       cloze.moodle_generate(moodle_template, path=build_path)
    print('\nTotal questions= %s' % str(questions_counter))
+   print('Total gaps=      %s' % str(gaps_counter))
 
 
 class DictCounter():
@@ -94,8 +97,8 @@ class Cloze():
       self.filename = os.path.splitext(os.path.basename(filename))[0]
       self.add_image_info()
       self.add_title()
-      print('   Readed %d questions' % len(self.questions))
-      return len(self.questions)
+      print('   Readed %d questions and %d gaps' % (len(self.questions), self.count_gaps()))
+      return len(self.questions), self.count_gaps()
 
 
    def write_file(self, filename, data):
@@ -156,6 +159,13 @@ class Cloze():
       for question in self.questions:
          if not 'Title' in question or not question['Title']:
             question['Title'] = question['Cloze']
+
+
+   def count_gaps(self):
+      num_gaps = 0
+      for question in self.questions:
+         num_gaps += len(question['Gaps_b64'])
+      return num_gaps
 
 
    def extract_gaps(self):
