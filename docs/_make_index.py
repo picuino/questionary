@@ -36,6 +36,24 @@ index_data = [
       ]
    },
    {
+      "header" : ["maquinas", "Máquinas y Mecanismos"],
+      "links": [
+           ["es-machines-simple.html", "Máquinas simples"],
+           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
+           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
+           ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
+           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
+           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
+           ["es-machines.html", "Test global de Máquinas y Mecanismos"],
+       ]
+   },
+   {
+      "header" : ["neumatica", "Neumática"],
+      "links": [
+           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
+           ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
+       ]
+   },   {
       "header" : ["electricidad", "Electricidad"],
       "links": [
          ["es-electric-introduction.html", "Fundamentos"],
@@ -64,6 +82,12 @@ index_data = [
        ]
    },
    {
+      "header" : ["controladores", "Control Automático"],
+      "links": [
+           ["es-control-introduction.html", "Introducción al control automático"],
+       ]
+   },
+   {
       "header" : ["hardware", "Hardware y Software"],
       "links": [
            ["es-hardware-intro.html", "Introducción al hardware"],
@@ -73,31 +97,10 @@ index_data = [
            ["es-hardware-placa-base.html", "Placa base"],
            ["es-hardware-procesadores-1.html", "Procesadores I"],
            ["es-hardware-procesadores-2.html", "Procesadores II"],
-       ]
-   },
-   {
-      "header" : ["controladores", "Control Automático"],
-      "links": [
-           ["es-control-introduction.html", "Introducción al control automático"],
-       ]
-   },
-   {
-      "header" : ["maquinas", "Máquinas y Mecanismos"],
-      "links": [
-           ["es-machines-simple.html", "Máquinas simples"],
-           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
-           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
-           ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
-           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
-           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
-           ["es-machines.html", "Test global de Máquinas y Mecanismos"],
-       ]
-   },
-   {
-      "header" : ["neumatica", "Neumática"],
-      "links": [
-           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
-           ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
+           ["es-hardware-procesadores-3.html", "Procesadores III"],
+           ["es-hardware-procesadores-4.html", "Procesadores IV"],
+           ["es-hardware-perifericos-1.html", "Periféricos I"],
+           ["es-hardware-perifericos-2.html", "Periféricos II"],
        ]
    },
    {
@@ -167,14 +170,16 @@ index_template = """<!DOCTYPE html>
 	     <a class="btn" href="https://www.picuino.com/">Picuino</a>
 		  <hr style="margin:20px 0 80px 0">
 
-        {% set sp = namespace(counter = 1) %}
+        {% set sp = namespace(section = 1, numtest = 1) %}
         {%- for section in data %}
 
         <h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
         {%- for link in section.links %}
-        <a class="btn" href="{{ link[0] }}">{{ sp.counter }}. {{ link[1] }}</a>
-        {%- set sp.counter = sp.counter + 1 %}
+        <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
+        {%- set sp.numtest = sp.numtest + 1 %}
         {%- endfor %}
+        {%- set sp.section = sp.section + 1 %}
+        {%- set sp.numtest = 1 %}
         {%- endfor %}
 
         <p style="margin-top:80px"></p>

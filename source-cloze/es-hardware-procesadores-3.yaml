@@ -1,0 +1,103 @@
+﻿
+Category: Hardware
+Title: Procesadores III
+Copyright: 2022 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-cpu.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Consumo energético</strong><br>
+     El consumo de un procesador es cada vez más importante.<br>
+     Por una parte, cuanto menor consumo tenga un procesador, más tiempo
+     va a durar la {batería} del dispositivo que lo contiene.<br>
+     Por otro lado, en los ordenadores conectados a la red {eléctrica},
+     cuanto menor sea el consumo de electricidad menor será el costo 
+     de mantener el ordenador {funcionando}. 
+     Este consumo eléctrico es tan elevado para los ordenadores de alto
+     {rendimiento}, que la electricidad llega a costar anualmente más que
+     el precio del propio procesador. 
+     Esa es la razón por la que se cambian los procesadores de los 
+     servidores antes de que acabe su vida útil. 
+     Es más barato instalar un procesador nuevo más {eficiente}, 
+     que mantener el antiguo funcionando.<br>
+     El consumo de potencia, también llamado {TDP}, se mide en {vatios}.
+     Una CPU típica de un ordenador personal consume alrededor de {100}
+     vatios en funcionamiento normal.
+     Por el contrario una CPU típica de un teléfono inteligente 
+     consume alrededor de {5} vatios.
+
+- Title:
+  Cloze:
+     <strong>Frecuencia de reloj</strong><br>
+     Es la frecuencia a la que funciona un {procesador} y determina la
+     cantidad de instrucciones que podrá ejecutar en un {segundo}.
+     Las frecuencias típicas de los procesadores actuales para 
+     ordenadores personales y teléfonos inteligentes varían desde
+     los {1000} MHz hasta los {4000}MHz. Cuanto mayor sea la velocidad
+     de reloj, más rápido será un procesador, si el resto de
+     {parámetros} se mantienen iguales.<br>
+     <br>
+     El {overclocking} es una técnica que consiste en hacer funcionar
+     a un procesador a una frecuencia más elevada que la frecuencia
+     para la que está {diseñado}. Se usa para acelerar el funcionamiento
+     del ordenador y que procese información más {rápido}.
+     Muchos procesadores admiten trabajar a mayor frecuencia
+     que la nominal, pero esta técnica conlleva un mayor consumo
+     energético y la posibilidad de {fallos} en el sistema.
+
+- Title:
+  Cloze:
+     <strong>Número de núcleos</strong><br>
+     Los procesadores actuales están compuestos por varios procesadores
+     individuales llamados {núcleos}.
+     Cuantos más núcleos tenga un procesador, más operaciones podrá 
+     realizar en {paralelo}.<br>
+     Los procesadores pueden dividir el cálculo de algunas tareas
+     entre varios núcleos. Por lo tanto, cuantos más núcleos tenga 
+     el procesador, más {rápida} será la ejecución de estas tareas.
+     Por otro lado, la realización de ciertas tareas no se puede 
+     compartir entre varios núcleos y la {velocidad} final no será
+     mayor por muchos núcleos que tenga el procesador.<br> 
+     En 2022 un procesador de tamaño medio para ordenador personal
+     suele tener de 6 a {12} núcleos.
+
+- Title:
+  Cloze:
+     <strong>Número de hilos de ejecución</strong><br> 
+     Los {hilos} de ejecución son la cantidad de programas diferentes
+     que se pueden ejecutar a la vez por parte del procesador.
+     En realidad un procesador solo podrá ejecutar un programa
+     por núcleo, pero los hilos permiten duplicar de forma virtual
+     el número de tareas y acelerar un poco más la velocidad de
+     ejecución.<br> 
+     En 2022 un procesador típico de Intel suele tener dos hilos de
+     ejecución por núcleo. Es decir, una CPU de 8 núcleos tendrá
+     {16} hilos de ejecución.
+
+- Title:
+  Cloze:
+     <strong>Memoria caché</strong><br> 
+     Es una memoria {intermedia} que permite acceder a los datos y
+     programas de manera más {rápida} cuando el procesador tiene que
+     acceder repetidamente a los mismos {datos} de la memoria RAM.<br> 
+     Los procesadores deben leer información de la memoria RAM para
+     realizar su tarea, tanto información del {programa} a ejecutar
+     como de los {datos} a procesar.
+     La velocidad de transferencia de la memoria RAM suele ser más
+     {lenta} que la velocidad de proceso del procesador. 
+     La memoria caché se utiliza como una memoria
+     intermedia que almacena los contenidos de la memoria {RAM} que
+     se leen de forma repetida. De esta forma se puede disponer de
+     los datos más {rápido} mientras se están procesando.<br> 
+     Cuanto mayor sea el tamaño de la memoria caché mayor será la
+     velocidad final del procesador.<br> 
+     La mayoría de las CPU tienen varios niveles de memoria caché
+     incluidos. Cada nivel de memoria caché es más lento que el
+     anterior, pero de mayor tamaño. Se suele dar el valor del mayor
+     de ellos. Una CPU típica de un ordenador personal en 2022 suele
+     tener un tamaño de memoria caché en torno a los {6} Megabytes.
