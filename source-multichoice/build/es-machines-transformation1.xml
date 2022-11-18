@@ -24,13 +24,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un mecanismo de transformación del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mecanismo de transmisión del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un mecanismo de transformación del movimiento</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mecanismo de transmisión del movimiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina compuesta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Cuando la manivela gira, el movimiento del pistón ...</text> </name>
@@ -50,13 +66,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es alternativo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es circular</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Se efectúa a velocidad constante</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es rectilíneo, sin límites</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es alternativo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es circular</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Se efectúa a velocidad constante</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es rectilíneo, sin límites</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué pieza conecta la manivela con el pistón?</text> </name>
@@ -76,13 +108,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>La biela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La bujía</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El trinquete</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El cigüeñal</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La biela</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La bujía</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El trinquete</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El cigüeñal</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El volante de inercia ...</text> </name>
@@ -102,13 +150,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Ayuda a conservar el movimiento de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Va unido a la biela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Bloquea la manivela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Sirve para conducir</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ayuda a conservar el movimiento de giro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Va unido a la biela</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Bloquea la manivela</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Sirve para conducir</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde hay mecanismos biela-manivela?</text> </name>
@@ -128,13 +192,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En una sierra de calar eléctrica</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un automóvil eléctrico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una taladradora</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una lavadora</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En una sierra de calar eléctrica</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un automóvil eléctrico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una taladradora</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una lavadora</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Si movemos al pistón con un movimiento alternativo ...</text> </name>
@@ -154,13 +234,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Podemos hacer girar la manivela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No podemos hacer girar la manivela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La manivela se bloqueará</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El trinquete no funcionará</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Podemos hacer girar la manivela</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No podemos hacer girar la manivela</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La manivela se bloqueará</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El trinquete no funcionará</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En algunas máquinas el pistón se llama ...</text> </name>
@@ -180,13 +276,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Émbolo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cigüeñal</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Volante de inercia</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Piñón</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Émbolo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cigüeñal</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Volante de inercia</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Piñón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
@@ -206,13 +318,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Biela-manivela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Motor de dos tiempos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Locomotora</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Piñón-cremallera</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Biela-manivela</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Motor de dos tiempos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Locomotora</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Piñón-cremallera</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El émbolo de un motor de explosión se mueve ...</text> </name>
@@ -232,13 +360,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Dentro de un cilindro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Por una guía</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En el interior de una caja</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Solidario al cigüeñal</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Dentro de un cilindro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Por una guía</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En el interior de una caja</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Solidario al cigüeñal</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué nombre se le da a la manivela en un motor de explosión?</text> </name>
@@ -258,13 +402,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cigüeñal</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Diferencial</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Leva</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Corona</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cigüeñal</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Diferencial</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Leva</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corona</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama el recorrido máximo del pistón?</text> </name>
@@ -284,13 +444,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Carrera</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Vuelta</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Paso</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Empuje</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Carrera</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Vuelta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Paso</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Empuje</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde es mínima la velocidad del pistón?</text> </name>
@@ -310,13 +486,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En los extremos de su recorrido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Justo a la mitad de su recorrido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cuando está más cerca del cilindro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La velocidad es siempre constante</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En los extremos de su recorrido</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Justo a la mitad de su recorrido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cuando está más cerca del cilindro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La velocidad es siempre constante</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde es máxima la velocidad del pistón?</text> </name>
@@ -336,13 +528,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cerca de la mitad de su recorrido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Justo a la mitad de su recorrido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En los extremos de su recorrido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La velocidad es siempre constante</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cerca de la mitad de su recorrido</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Justo a la mitad de su recorrido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En los extremos de su recorrido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La velocidad es siempre constante</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Cuando la manivela completa una vuelta ...</text> </name>
@@ -362,13 +570,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El pistón completa dos carreras</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El pistón completa una carrera</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La biela gira dos veces</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El mecanismo se detiene</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El pistón completa dos carreras</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El pistón completa una carrera</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La biela gira dos veces</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El mecanismo se detiene</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cuánto mide el brazo (radio) de la manivela?</text> </name>
@@ -388,13 +612,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>La mitad que la carrera del pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La longitud de la carrera del pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El doble que la carrera del pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Depende de la longitud de la biela</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La mitad que la carrera del pistón</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La longitud de la carrera del pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El doble que la carrera del pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Depende de la longitud de la biela</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se mide el brazo (radio) de la manivela?</text> </name>
@@ -414,13 +654,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>De su centro al punto de unión de la biela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Coincide con la longitud de la biela</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Igual que la longitud del pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Coincide con la carrera del pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>De su centro al punto de unión de la biela</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Coincide con la longitud de la biela</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Igual que la longitud del pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Coincide con la carrera del pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El mecanismo tornillo-tuerca transforma ...</text> </name>
@@ -440,13 +696,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El giro del tornillo en el avance de la tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El giro del tornillo en el giro de la tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El giro de la tuerca en movimiento alternativo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El avance del tornillo en movimiento alternativo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El giro del tornillo en el avance de la tuerca</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El giro del tornillo en el giro de la tuerca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El giro de la tuerca en movimiento alternativo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El avance del tornillo en movimiento alternativo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Este mecanismo se utiliza para ...</text> </name>
@@ -466,13 +738,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Posicionar una pieza con precisión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Ejercer tracción</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Impedir el giro de la tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Evitar el ruido</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Posicionar una pieza con precisión</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ejercer tracción</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Impedir el giro de la tuerca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Evitar el ruido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Este mecanismo se puede utilizar para ...</text> </name>
@@ -492,13 +780,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Elevar y bajar el asiento de una silla</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Taladrar objetos muy duros</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Mover una hoja de sierra con movimiento alternativo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Mover una sierra circular</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Elevar y bajar el asiento de una silla</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Taladrar objetos muy duros</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mover una hoja de sierra con movimiento alternativo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mover una sierra circular</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El rendimiento del mecanismo se reduce ...</text> </name>
@@ -518,13 +822,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cuando falta lubricante</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cuando hay deslizamiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>A la mitad cuando se para la tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cuando se reduce el ruido</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cuando falta lubricante</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cuando hay deslizamiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>A la mitad cuando se para la tuerca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cuando se reduce el ruido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Por cada vuelta del tornillo, la tuerca ...</text> </name>
@@ -544,13 +864,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Avanza una distancia igual al paso de rosca por el número de entradas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Avanza una distancia igual al paso de rosca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Avanza una distancia igual a su diámetro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Efectúa dos vueltas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Avanza una distancia igual al paso de rosca por el número de entradas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Avanza una distancia igual al paso de rosca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Avanza una distancia igual a su diámetro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Efectúa dos vueltas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El tornillo en algunas máquinas también se llama ...</text> </name>
@@ -570,13 +906,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Husillo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Piñón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Dientes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Husillo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Piñón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Dientes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El tornillo-tuerca se puede considerar también ...</text> </name>
@@ -596,13 +948,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mecanismo de transmisión del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un engranaje compuesto</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una máquina simple</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina compuesta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mecanismo de transmisión del movimiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un engranaje compuesto</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde podemos encontrar este mecanismo de transformación?</text> </name>
@@ -622,13 +990,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En un gato elevador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una radio</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un exprimidor eléctrico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una lavadora</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En un gato elevador</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una radio</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un exprimidor eléctrico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una lavadora</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En este mecanismo, el tornillo puede ...</text> </name>
@@ -648,13 +1032,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Ejercer una gran presión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Romperse con facilidad</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Deslizar</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Impedir el movimiento de la tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ejercer una gran presión</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Romperse con facilidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Deslizar</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Impedir el movimiento de la tuerca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>La velocidad entre la tuerca y el tornillo ...</text> </name>
@@ -674,13 +1074,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Aumenta cuando el tornillo gira rápidamente</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No depende del giro del tornillo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Suele ser bastante grande</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es mayor que la velocidad de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Aumenta cuando el tornillo gira rápidamente</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No depende del giro del tornillo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Suele ser bastante grande</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es mayor que la velocidad de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
 
 </quiz>

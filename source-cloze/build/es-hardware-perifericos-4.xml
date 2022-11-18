@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Hardware/es-hardware-perifericos-4</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Periféricos de entrada/salida</strong><br> Estos periféricos agrupan varios dispositivos en uno y permiten tanto la {entrada} como la salida de {datos} del ordenador.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Periféricos de entrada/salida</strong><br> Estos periféricos agrupan varios dispositivos en uno y permiten tanto la {1:SHORTANSWER:=entrada} como la salida de {1:SHORTANSWER:=datos} del ordenador.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Pantalla táctil</strong><br> La pantalla táctil es una pantalla informática que tiene {detectores} que permiten conocer la {posición} del dedo cuando toca o cuando se desplaza sobre su {superficie}. Esto hace que la pantalla sea {interactiva} y permite tanto la salida como la entrada de datos. Con la pantalla {táctil} se pueden dar órdenes a un dispositivo.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Pantalla táctil</strong><br> La pantalla táctil es una pantalla informática que tiene {1:SHORTANSWER:=detectores} que permiten conocer la {1:SHORTANSWER:=posición} del dedo cuando toca o cuando se desplaza sobre su {1:SHORTANSWER:=superficie}. Esto hace que la pantalla sea {1:SHORTANSWER:=interactiva} y permite tanto la salida como la entrada de datos. Con la pantalla {1:SHORTANSWER:=táctil} se pueden dar órdenes a un dispositivo.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Impresora multifunción</strong><br> La impresora {multifunción} es una combinación de impresora con {escáner}, por lo que permite la entrada y la salida de datos. Estas dos funciones le permiten actuar como una {fotocopiadora} o como un {fax}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Impresora multifunción</strong><br> La impresora {1:SHORTANSWER:=multifunción} es una combinación de impresora con {1:SHORTANSWER:=escáner}, por lo que permite la entrada y la salida de datos. Estas dos funciones le permiten actuar como una {1:SHORTANSWER:=fotocopiadora} o como un {1:SHORTANSWER:=fax}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Casco de realidad virtual</strong><br> El casco de realidad virtual también llamado {gafas} de realidad virtual, es un dispositivo que permite reproducir {imágenes} creadas por ordenador sobre una pantalla muy cercana a los {ojos}, por lo que las imágenes parecen mucho mayores que las de las pantallas normales. También se reproduce sonido estéreo por los {auriculares} incorporados. <br> El casco de realidad virtual tiene sensores de {posición} y movimiento que permiten conocer dónde mira el usuario, para acompasar las imágenes presentadas a los movimientos de {cabeza}, de manera que al usuario le parece encontrarse {inmerso} en la realidad virtual que muestra el {dispositivo}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Casco de realidad virtual</strong><br> El casco de realidad virtual también llamado {1:SHORTANSWER:=gafas} de realidad virtual, es un dispositivo que permite reproducir {1:SHORTANSWER:=imágenes} creadas por ordenador sobre una pantalla muy cercana a los {1:SHORTANSWER:=ojos}, por lo que las imágenes parecen mucho mayores que las de las pantallas normales. También se reproduce sonido estéreo por los {1:SHORTANSWER:=auriculares} incorporados. <br> El casco de realidad virtual tiene sensores de {1:SHORTANSWER:=posición} y movimiento que permiten conocer dónde mira el usuario, para acompasar las imágenes presentadas a los movimientos de {1:SHORTANSWER:=cabeza}, de manera que al usuario le parece encontrarse {1:SHORTANSWER:=inmerso} en la realidad virtual que muestra el {1:SHORTANSWER:=dispositivo}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Tarjeta de sonido</strong><br> La tarjeta de sonido es un dispositivo de entrada y salida que traduce entre señales {analógicas} y señales {digitales}. <br> Las señales de entrada al ordenador desde un micrófono, desde una guitarra eléctrica o desde un reproductor de sonido son {analógicas}. La tarjeta de sonido transforma estas entradas analógicas mediante un {ADC} en señales digitales que pueden ser procesadas por el ordenador. <br> Cuando queremos que el ordenador reproduzca un sonido, es necesario convertir las señales digitales del ordenador en señales analógicas que pueden {amplificarse} y enviarse a unos altavoces. La tarjeta de sonido tiene un {DAC} que realiza esta conversión de señales digitales a señales analógicas.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Tarjeta de sonido</strong><br> La tarjeta de sonido es un dispositivo de entrada y salida que traduce entre señales {1:SHORTANSWER:=analógicas} y señales {1:SHORTANSWER:=digitales}. <br> Las señales de entrada al ordenador desde un micrófono, desde una guitarra eléctrica o desde un reproductor de sonido son {1:SHORTANSWER:=analógicas}. La tarjeta de sonido transforma estas entradas analógicas mediante un {1:SHORTANSWER:=ADC} en señales digitales que pueden ser procesadas por el ordenador. <br> Cuando queremos que el ordenador reproduzca un sonido, es necesario convertir las señales digitales del ordenador en señales analógicas que pueden {1:SHORTANSWER:=amplificarse} y enviarse a unos altavoces. La tarjeta de sonido tiene un {1:SHORTANSWER:=DAC} que realiza esta conversión de señales digitales a señales analógicas.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

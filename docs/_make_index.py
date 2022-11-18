@@ -101,6 +101,8 @@ index_data = [
            ["es-hardware-procesadores-4.html", "Procesadores IV"],
            ["es-hardware-perifericos-1.html", "Periféricos I"],
            ["es-hardware-perifericos-2.html", "Periféricos II"],
+           ["es-hardware-perifericos-3.html", "Periféricos III"],
+           ["es-hardware-perifericos-4.html", "Periféricos IV"],
        ]
    },
    {
@@ -159,9 +161,11 @@ index_template = """<!DOCTYPE html>
    <div class="container">
       <div id="home" class="flex-center flex-column">
 
-        <h1>TEST DE TECNOLOGÍA</h1>
+        <h1 id="index">TEST DE TECNOLOGÍA</h1>
+        {% set sp = namespace(section = 1) %}
         {% for section in data %}
-        <a class="btn" href="#{{section.header[0]}}">{{ section.header[1] }}</a>
+        <a class="btn" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
+        {%- set sp.section = sp.section + 1 %}
         {%- endfor %}
       
 		  <hr style="margin:20px 0 20px 0">
@@ -178,6 +182,7 @@ index_template = """<!DOCTYPE html>
         <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
         {%- set sp.numtest = sp.numtest + 1 %}
         {%- endfor %}
+        <a class="btn" href="#index">Volver al índice</a>
         {%- set sp.section = sp.section + 1 %}
         {%- set sp.numtest = 1 %}
         {%- endfor %}

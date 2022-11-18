@@ -24,13 +24,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>1 en paralelo, 2 en serie</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Las dos en serie</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Las dos en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>1 en serie, 2 en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>1 en paralelo, 2 en serie</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las dos en serie</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las dos en paralelo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>1 en serie, 2 en paralelo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo están conectadas las resistencias en la breadboard?</text> </name>
@@ -50,13 +66,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Las dos en serie</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>1 en serie, 2 en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>1 en paralelo, 2 en serie</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Las dos en paralelo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Las dos en serie</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>1 en serie, 2 en paralelo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>1 en paralelo, 2 en serie</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las dos en paralelo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Por qué resistencias pasará corriente?</text> </name>
@@ -76,13 +108,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Por 1 y 2</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Por todas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Por 2 y 3</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Por ninguna</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Por 1 y 2</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Por todas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Por 2 y 3</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Por ninguna</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué montajes se corresponden con el esquema?</text> </name>
@@ -102,13 +150,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>1</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>2</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>3</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Ninguno</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>1</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>2</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>3</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ninguno</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cuándo encenderá el led verde?</text> </name>
@@ -128,13 +192,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Si tengo presionados los dos pulsadores</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si presiono el pulsador de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si presiono el pulsador de la izquierda</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En ningún caso</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Si tengo presionados los dos pulsadores</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si presiono el pulsador de la derecha</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si presiono el pulsador de la izquierda</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En ningún caso</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cuál es falsa para el circuito de la figura?</text> </name>
@@ -154,13 +234,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Puedo encender el led verde sin que encienda el led rojo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Para encender el led verde tengo que haber presionado el pulsador de la izquierda</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Para encender el led verde tengo que haber presionado el pulsador de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led rojo enciende cuando presiono el pulsador de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Puedo encender el led verde sin que encienda el led rojo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para encender el led verde tengo que haber presionado el pulsador de la izquierda</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para encender el led verde tengo que haber presionado el pulsador de la derecha</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El led rojo enciende cuando presiono el pulsador de la derecha</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿A qué esquema se corresponde el circuito de la breadboard?</text> </name>
@@ -180,13 +276,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Al rosa</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Al azul</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Al verde</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Al naranja</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Al rosa</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Al azul</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Al verde</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Al naranja</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Quiero que el led encienda cuando presiono el pulsador. ¿Hay algún fallo?</text> </name>
@@ -206,13 +318,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Los cables no están en los terminales correctos del pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led está puesto del revés</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La resistencia no está conectada al led</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No hay fallos, va a encender</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Los cables no están en los terminales correctos del pulsador</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El led está puesto del revés</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La resistencia no está conectada al led</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No hay fallos, va a encender</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Quiero que el led encienda solo cuando presiono los dos pulsadores. ¿Hay algún fallo?</text> </name>
@@ -232,13 +360,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Ninguno</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led encenderá cuando presione cualquiera de los interruptores</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El cable verde no conecta los terminales correctos de los interruptores</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La resistencia no está conectada en el terminal correcto del pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ninguno</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El led encenderá cuando presione cualquiera de los interruptores</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El cable verde no conecta los terminales correctos de los interruptores</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La resistencia no está conectada en el terminal correcto del pulsador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cuál es falsa para el circuito de la figura?</text> </name>
@@ -258,13 +402,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El led no encenderá nunca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led encenderá cuando presione el interruptor izquierdo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El led encenderá si presiono el pulsador derecho</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si tengo presionados los dos interruptores, el led encenderá</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El led no encenderá nunca</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El led encenderá cuando presione el interruptor izquierdo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El led encenderá si presiono el pulsador derecho</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si tengo presionados los dos interruptores, el led encenderá</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué ledes se encenderán cuando presione el pulsador?</text> </name>
@@ -284,13 +444,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El verde y el rojo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El azul y el rojo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El rojo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El azul y el verde</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El verde y el rojo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El azul y el rojo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El rojo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El azul y el verde</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cuál es cierta para el circuito de la figura?</text> </name>
@@ -310,13 +486,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cada interruptor enciende un led</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No podré encender el led verde si no presiono el interruptor de la derecha</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si presiono el pulsador de la derecha, encienden los dos leds</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El verde está siempre encendido, aunque no presione ningún pulsador</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cada interruptor enciende un led</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No podré encender el led verde si no presiono el interruptor de la derecha</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si presiono el pulsador de la derecha, encienden los dos leds</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El verde está siempre encendido, aunque no presione ningún pulsador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué cable tengo que quitar para que el led encienda desde cualquiera de los dos pulsadores?</text> </name>
@@ -336,13 +528,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El naranja</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El verde</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El azul</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El amarillo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El naranja</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El verde</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El azul</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El amarillo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
 
 </quiz>

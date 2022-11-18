@@ -20,13 +20,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.2 Ohms</text> </name>
@@ -42,13 +58,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.5 Ohms</text> </name>
@@ -64,13 +96,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.8 Ohms</text> </name>
@@ -86,13 +134,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.2 Ohms</text> </name>
@@ -108,13 +172,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.7 Ohms</text> </name>
@@ -130,13 +210,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.3 Ohms</text> </name>
@@ -152,13 +248,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.9 Ohms</text> </name>
@@ -174,13 +286,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 4.7 Ohms</text> </name>
@@ -196,13 +324,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 5.6 Ohms</text> </name>
@@ -218,13 +362,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 6.8 Ohms</text> </name>
@@ -240,13 +400,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 8.2 Ohms</text> </name>
@@ -262,13 +438,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 10 Ohms</text> </name>
@@ -284,13 +476,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 12 Ohms</text> </name>
@@ -306,13 +514,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 15 Ohms</text> </name>
@@ -328,13 +552,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 18 Ohms</text> </name>
@@ -350,13 +590,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 22 Ohms</text> </name>
@@ -372,13 +628,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 27 Ohms</text> </name>
@@ -394,13 +666,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 33 Ohms</text> </name>
@@ -416,13 +704,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 39 Ohms</text> </name>
@@ -438,13 +742,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 47 Ohms</text> </name>
@@ -460,13 +780,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 56 Ohms</text> </name>
@@ -482,13 +818,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 68 Ohms</text> </name>
@@ -504,13 +856,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 82 Ohms</text> </name>
@@ -526,13 +894,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Gold, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Black, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Gold, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 100 Ohms</text> </name>
@@ -548,13 +932,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 120 Ohms</text> </name>
@@ -570,13 +970,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 150 Ohms</text> </name>
@@ -592,13 +1008,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 180 Ohms</text> </name>
@@ -614,13 +1046,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 220 Ohms</text> </name>
@@ -636,13 +1084,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 270 Ohms</text> </name>
@@ -658,13 +1122,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 330 Ohms</text> </name>
@@ -680,13 +1160,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 390 Ohms</text> </name>
@@ -702,13 +1198,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 470 Ohms</text> </name>
@@ -724,13 +1236,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 560 Ohms</text> </name>
@@ -746,13 +1274,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 680 Ohms</text> </name>
@@ -768,13 +1312,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 820 Ohms</text> </name>
@@ -790,13 +1350,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.0k Ohms</text> </name>
@@ -812,13 +1388,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.2k Ohms</text> </name>
@@ -834,13 +1426,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.5k Ohms</text> </name>
@@ -856,13 +1464,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.8k Ohms</text> </name>
@@ -878,13 +1502,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.2k Ohms</text> </name>
@@ -900,13 +1540,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.7k Ohms</text> </name>
@@ -922,13 +1578,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.3k Ohms</text> </name>
@@ -944,13 +1616,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.9k Ohms</text> </name>
@@ -966,13 +1654,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 4.7k Ohms</text> </name>
@@ -988,13 +1692,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 5.6k Ohms</text> </name>
@@ -1010,13 +1730,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 6.8k Ohms</text> </name>
@@ -1032,13 +1768,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 8.2k Ohms</text> </name>
@@ -1054,13 +1806,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Red, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 10k Ohms</text> </name>
@@ -1076,13 +1844,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 12k Ohms</text> </name>
@@ -1098,13 +1882,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 15k Ohms</text> </name>
@@ -1120,13 +1920,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 18k Ohms</text> </name>
@@ -1142,13 +1958,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 22k Ohms</text> </name>
@@ -1164,13 +1996,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 27k Ohms</text> </name>
@@ -1186,13 +2034,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 33k Ohms</text> </name>
@@ -1208,13 +2072,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 39k Ohms</text> </name>
@@ -1230,13 +2110,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 47k Ohms</text> </name>
@@ -1252,13 +2148,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 56k Ohms</text> </name>
@@ -1274,13 +2186,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 68k Ohms</text> </name>
@@ -1296,13 +2224,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 82k Ohms</text> </name>
@@ -1318,13 +2262,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Black, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Black, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Green, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 100k Ohms</text> </name>
@@ -1340,13 +2300,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 120k Ohms</text> </name>
@@ -1362,13 +2338,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 150k Ohms</text> </name>
@@ -1384,13 +2376,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 180k Ohms</text> </name>
@@ -1406,13 +2414,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 220k Ohms</text> </name>
@@ -1428,13 +2452,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 270k Ohms</text> </name>
@@ -1450,13 +2490,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 330k Ohms</text> </name>
@@ -1472,13 +2528,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 390k Ohms</text> </name>
@@ -1494,13 +2566,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 470k Ohms</text> </name>
@@ -1516,13 +2604,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 560k Ohms</text> </name>
@@ -1538,13 +2642,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 680k Ohms</text> </name>
@@ -1560,13 +2680,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 820k Ohms</text> </name>
@@ -1582,13 +2718,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Brown, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Brown, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.0M Ohms</text> </name>
@@ -1604,13 +2756,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Black, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Black, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Black, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Black, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.2M Ohms</text> </name>
@@ -1626,13 +2794,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Red, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.5M Ohms</text> </name>
@@ -1648,13 +2832,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Green, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Green, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Green, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Green, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 1.8M Ohms</text> </name>
@@ -1670,13 +2870,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Brown, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Brown, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Brown, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Brown, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.2M Ohms</text> </name>
@@ -1692,13 +2908,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Red, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 2.7M Ohms</text> </name>
@@ -1714,13 +2946,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Red, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Red, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Red, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Red, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.3M Ohms</text> </name>
@@ -1736,13 +2984,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, Orange, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, Orange, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, Orange, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, Orange, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 3.9M Ohms</text> </name>
@@ -1758,13 +3022,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Orange, White, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Orange, White, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Orange, White, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Orange, White, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 4.7M Ohms</text> </name>
@@ -1780,13 +3060,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Yellow, Violet, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Yellow, Violet, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Yellow, Violet, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Yellow, Violet, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 5.6M Ohms</text> </name>
@@ -1802,13 +3098,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Green, Blue, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Green, Blue, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Green, Blue, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Green, Blue, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 6.8M Ohms</text> </name>
@@ -1824,13 +3136,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Blue, Gray, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Blue, Gray, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Blue, Gray, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Blue, Gray, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Color code 8.2M Ohms</text> </name>
@@ -1846,13 +3174,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gray, Red, Green, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Yellow, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Orange, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gray, Red, Red, Gold</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gray, Red, Green, Gold</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Yellow, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Orange, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gray, Red, Red, Gold</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
 
 </quiz>

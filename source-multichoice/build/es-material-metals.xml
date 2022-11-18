@@ -20,13 +20,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Mucho mayor que la densidad del agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Parecida a la densidad del agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Mucho menor que la densidad del agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Los metales no tienen densidad</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Mucho mayor que la densidad del agua</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Parecida a la densidad del agua</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mucho menor que la densidad del agua</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los metales no tienen densidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Los metales flotan?</text> </name>
@@ -42,13 +58,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Los metales siempre se hunden en el agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Algunos metales flotan y otros se hunden</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Los metales siempre flotan en el agua</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Los metales no se deben mojar con agua</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Los metales siempre se hunden en el agua</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Algunos metales flotan y otros se hunden</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los metales siempre flotan en el agua</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los metales no se deben mojar con agua</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué conductividad tienen los metales?</text> </name>
@@ -64,13 +96,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Conducen bien el calor y la electricidad</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Son buenos aislantes eléctricos y térmicos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Conducen bien la electricidad pero mal el calor</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Conducen bien el calor pero mal la electricidad</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Conducen bien el calor y la electricidad</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son buenos aislantes eléctricos y térmicos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Conducen bien la electricidad pero mal el calor</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Conducen bien el calor pero mal la electricidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Son tenaces los metales?</text> </name>
@@ -86,13 +134,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Si, porque soportan bien los golpes sin romperse</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si, porque soportan bien que los intenten rayar</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Si, porque tienen buena resistencia mecánica</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No, son duros</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Si, porque soportan bien los golpes sin romperse</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si, porque soportan bien que los intenten rayar</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Si, porque tienen buena resistencia mecánica</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No, son duros</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo soportan las deformaciones los metales?</text> </name>
@@ -108,13 +172,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Suelen ser dúctiles y maleables</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Suelen ser dúctiles, pero no maleables</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Suelen ser maleables, pero no dúctiles</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No son ni dúctiles ni maleables</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Suelen ser dúctiles y maleables</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Suelen ser dúctiles, pero no maleables</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Suelen ser maleables, pero no dúctiles</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No son ni dúctiles ni maleables</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué son los metales nobles?</text> </name>
@@ -130,13 +210,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Metales que no se oxidan con facilidad, como el oro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Metales que se usan en joyería para ricos, como el oro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Metales que tienen propiedades superiores, como el platino</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Metales que antes utilizaban los nobles, como la plata</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Metales que no se oxidan con facilidad, como el oro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Metales que se usan en joyería para ricos, como el oro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Metales que tienen propiedades superiores, como el platino</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Metales que antes utilizaban los nobles, como la plata</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué propiedades tienen los metales pesados?</text> </name>
@@ -152,13 +248,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tienen alta densidad y suelen ser muy tóxicos para las personas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tienen alta densidad y están formados por mezcla de varios metales</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tienen alta densidad y no reaccionan con el oxígeno</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Son imprescindibles para fabricar baterías y termómetros</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tienen alta densidad y suelen ser muy tóxicos para las personas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tienen alta densidad y están formados por mezcla de varios metales</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tienen alta densidad y no reaccionan con el oxígeno</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son imprescindibles para fabricar baterías y termómetros</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué es una aleación?</text> </name>
@@ -174,13 +286,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Una fusión de un metal con otro elemento. Por ejemplo el acero o el bronce</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una capa de protección que se aplica a un metal para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un tipo de metal de alta densidad que no se oxida con facilidad</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una unión entre piezas de metal que se realiza aplicando calor y presión</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una fusión de un metal con otro elemento. Por ejemplo el acero o el bronce</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una capa de protección que se aplica a un metal para que no se oxide</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un tipo de metal de alta densidad que no se oxida con facilidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una unión entre piezas de metal que se realiza aplicando calor y presión</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué material es la Fundición?</text> </name>
@@ -196,13 +324,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es hierro aleado con más de 1.76% de carbono. Se utiliza para hacer tapas de alcantarilla</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es hierro aleado con menos de 1.76% de carbono. Se utiliza para hacer engranajes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es hierro fundido con carbón. Se utiliza para hacer cuberterías</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es un acero inoxidable, con mejores propiedades que el hierro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es hierro aleado con más de 1.76% de carbono. Se utiliza para hacer tapas de alcantarilla</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es hierro aleado con menos de 1.76% de carbono. Se utiliza para hacer engranajes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es hierro fundido con carbón. Se utiliza para hacer cuberterías</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es un acero inoxidable, con mejores propiedades que el hierro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué es el acero?</text> </name>
@@ -218,13 +362,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es una aleación de hierro con menos del 1.76% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de hierro con más del 1.76% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de hierro con menos del 6.67% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de hierro con más del 6.67% de carbono para mejorar sus propiedades</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es una aleación de hierro con menos del 1.76% de carbono para mejorar sus propiedades</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de hierro con más del 1.76% de carbono para mejorar sus propiedades</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de hierro con menos del 6.67% de carbono para mejorar sus propiedades</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de hierro con más del 6.67% de carbono para mejorar sus propiedades</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué es el acero inoxidable?</text> </name>
@@ -240,13 +400,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Una aleación de hierro y cromo, muy resistente a la oxidación</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una aleación de cobre y estaño, muy resistente a la oxidación</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una aleación de cobre y cinc, muy resistente a la oxidación</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una aleación de hierro y carbono, muy resistente a la oxidación</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una aleación de hierro y cromo, muy resistente a la oxidación</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una aleación de cobre y estaño, muy resistente a la oxidación</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una aleación de cobre y cinc, muy resistente a la oxidación</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una aleación de hierro y carbono, muy resistente a la oxidación</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el acero inoxidable?</text> </name>
@@ -262,13 +438,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cables eléctricos, monedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hélices de barcos, campanas, cojinetes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cables eléctricos, monedas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hélices de barcos, campanas, cojinetes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿De qué color es el cobre?</text> </name>
@@ -284,13 +476,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Rojizo y cuando se oxida, de color verdoso</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Amarillento y cuando se oxida, de color verdoso</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Amarillento y cuando se oxida, de color rojizo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Plateado y cuando se oxida, de color rojizo</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojizo y cuando se oxida, de color verdoso</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Amarillento y cuando se oxida, de color verdoso</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Amarillento y cuando se oxida, de color rojizo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Plateado y cuando se oxida, de color rojizo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el cobre?</text> </name>
@@ -306,13 +514,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tuberías, cables eléctricos, monedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Monedas, tornillos, pomos, cerrojos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tuberías, cables eléctricos, monedas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Monedas, tornillos, pomos, cerrojos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿De qué está hecho el bronce?</text> </name>
@@ -328,13 +552,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es una aleación de cobre y estaño</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de hierro y cromo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de cobre y cinc</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es un metal puro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es una aleación de cobre y estaño</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de hierro y cromo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de cobre y cinc</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es un metal puro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el bronce?</text> </name>
@@ -350,13 +590,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Hélices de barcos, campanas, cojinetes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cables eléctricos, monedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Hélices de barcos, campanas, cojinetes</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cables eléctricos, monedas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿De qué está hecho el latón?</text> </name>
@@ -372,13 +628,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es una aleación de cobre y cinc</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de cobre y estaño</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es una aleación de hierro y cromo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es un metal puro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es una aleación de cobre y cinc</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de cobre y estaño</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es una aleación de hierro y cromo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es un metal puro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el latón?</text> </name>
@@ -394,13 +666,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Monedas, tornillos, pomos, cerrojos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cables eléctricos, monedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Monedas, tornillos, pomos, cerrojos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cables eléctricos, monedas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué propiedades tiene el aluminio?</text> </name>
@@ -416,13 +704,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Muy resistente a la oxidación, ligero y muy maleable</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Resiste poco a la oxidación, ligero y muy maleable</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Resiste poco  a la oxidación, ligero y poco maleable</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Muy resistente a la oxidación, pesado y poco maleable</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Muy resistente a la oxidación, ligero y muy maleable</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Resiste poco a la oxidación, ligero y muy maleable</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Resiste poco  a la oxidación, ligero y poco maleable</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Muy resistente a la oxidación, pesado y poco maleable</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el aluminio?</text> </name>
@@ -438,13 +742,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hélices de barcos, campanas, cojinetes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Baterías, protector de radiaciones, para hacer vidrio</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hélices de barcos, campanas, cojinetes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Baterías, protector de radiaciones, para hacer vidrio</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué es la galvanización?</text> </name>
@@ -460,13 +780,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Recubrir hierro con una capa de cinc para protegerle de la corrosión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Fundir dos metales distintos para protegerles de la corrosión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Recubrir hierro con una capa de cromo para protegerle de la corrosión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El proceso de obtención del aluminio con corrientes eléctricas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Recubrir hierro con una capa de cinc para protegerle de la corrosión</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Fundir dos metales distintos para protegerles de la corrosión</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Recubrir hierro con una capa de cromo para protegerle de la corrosión</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El proceso de obtención del aluminio con corrientes eléctricas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué es la hojalata?</text> </name>
@@ -482,13 +818,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Una lámina de acero recubierta de estaño para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una lámina de acero recubierta de cinc para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una lámina de acero recubierta de plomo para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una lámina de acero recubierta de latón para que no se oxide</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una lámina de acero recubierta de estaño para que no se oxide</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una lámina de acero recubierta de cinc para que no se oxide</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una lámina de acero recubierta de plomo para que no se oxide</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una lámina de acero recubierta de latón para que no se oxide</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Qué propiedades tiene el plomo?</text> </name>
@@ -504,13 +856,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Es muy denso, buen conductor, muy maleable y muy tóxico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es muy denso, mal conductor, muy maleable y muy tóxico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es muy denso, buen conductor, muy maleable y no es tóxico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es muy denso, buen conductor, poco maleable y muy tóxico</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Es muy denso, buen conductor, muy maleable y muy tóxico</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es muy denso, mal conductor, muy maleable y muy tóxico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es muy denso, buen conductor, muy maleable y no es tóxico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es muy denso, buen conductor, poco maleable y muy tóxico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Para qué se utiliza el plomo?</text> </name>
@@ -526,13 +894,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Baterías, protector de radiaciones, para hacer vidrio</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Latas, cables eléctricos, ventanas, aviones</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tuberías, cubertería, fregaderos, cuchillos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hélices de barcos, campanas, cojinetes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Baterías, protector de radiaciones, para hacer vidrio</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Latas, cables eléctricos, ventanas, aviones</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tuberías, cubertería, fregaderos, cuchillos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hélices de barcos, campanas, cojinetes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
 
 </quiz>

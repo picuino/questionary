@@ -31,11 +31,21 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
 	 {%- for Choice in question.Choices %}
-    <answer fraction="{% if loop.index == 1 %}100{% else %}0{% endif %}" format="html"> <text>{{ Choice }}</text> <feedback format="html"> <text></text> </feedback> </answer>
+    {% if loop.index == 1 -%}
+    <answer fraction="100" format="html">
+       <text>{{ Choice }}</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    {% else -%}
+    <answer fraction="0" format="html">
+       <text>{{ Choice }}</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    {% endif -%}
     {%- endfor %}
   </question>
 

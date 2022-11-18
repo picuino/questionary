@@ -24,13 +24,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cónico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Recto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Perpendicular</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Normal</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cónico</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Recto</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perpendicular</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Normal</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo son las ruedas en este mecanismo de transmisión?</text> </name>
@@ -50,13 +66,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Troncocónicas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Cilíndricas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Oblicuas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Acanaladas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Troncocónicas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cilíndricas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Oblicuas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acanaladas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Con este mecanismo el movimiento se transmite entre ...</text> </name>
@@ -76,13 +108,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Árboles de ejes que se cruzan</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Árboles lejanos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Árboles de ejes paralelos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Árboles cercanos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Árboles de ejes que se cruzan</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Árboles lejanos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Árboles de ejes paralelos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Árboles cercanos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El ángulo que forman los ejes de los árboles de transmisión ...</text> </name>
@@ -102,13 +150,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Determina el tipo de ruedas que hay que usar</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Debe ser pequeño</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Debe ser de 90º</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Debe ser de 180º</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Determina el tipo de ruedas que hay que usar</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Debe ser pequeño</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Debe ser de 90º</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Debe ser de 180º</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El paso de las ruedas troncocónicas ...</text> </name>
@@ -128,13 +192,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Depende de cómo es la sección transversal</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Sólo depende del número de dientes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Debe ser diferente para las dos ruedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es el mismo que para las ruedas cilíndricas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Depende de cómo es la sección transversal</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Sólo depende del número de dientes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Debe ser diferente para las dos ruedas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es el mismo que para las ruedas cilíndricas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Podemos usar un engranaje cónico para ...</text> </name>
@@ -154,13 +234,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cambiar la broca de un taladro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Unir un tornillo con una tuerca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Fijar un remache</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tender la ropa</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cambiar la broca de un taladro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unir un tornillo con una tuerca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Fijar un remache</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tender la ropa</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El engranaje cónico es ...</text> </name>
@@ -180,13 +276,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un mecanismo de transmisión del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mecanismo de transformación del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un mecanismo de transmisión del movimiento</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina compuesta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mecanismo de transformación del movimiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
@@ -206,13 +318,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Engranaje recto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Ruedas dentadas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Embrague con dientes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Embrague simple</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Engranaje recto</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ruedas dentadas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Embrague con dientes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Embrague simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Si en un engranaje recto la rueda pequeña es la rueda motriz ...</text> </name>
@@ -232,13 +360,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>La rueda grande gira más lentamente</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La rueda grande no puede girar</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La rueda grande es la rueda conductora</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>El mecanismo es multiplicador</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La rueda grande gira más lentamente</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La rueda grande no puede girar</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La rueda grande es la rueda conductora</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El mecanismo es multiplicador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El engranaje recto es ...</text> </name>
@@ -258,13 +402,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un mecanismo de transmisión de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mecanismo de transformación del movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un mecanismo de transmisión de movimiento</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina compuesta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mecanismo de transformación del movimiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>A diferencia de los sistemas con poleas, los engranajes permiten una transmisión ...</text> </name>
@@ -284,13 +444,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Síncrona</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Poco ruidosa</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Con deslizamiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Libre</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Síncrona</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Poco ruidosa</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Con deslizamiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Libre</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Para que dos ruedas engranen correctamente ...</text> </name>
@@ -310,13 +486,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>El paso de los dientes debe ser el mismo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>La velocidad de giro debe ser igual</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Deben tener el mismo diámetro primitivo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Deben tener el mismo número de dientes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El paso de los dientes debe ser el mismo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La velocidad de giro debe ser igual</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Deben tener el mismo diámetro primitivo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Deben tener el mismo número de dientes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Un engranaje recto puede transmitir una potencia más elevada que ...</text> </name>
@@ -336,13 +528,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un sistema de poleas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un árbol de transmisión</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una junta de Cardan</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un tren de engranajes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un sistema de poleas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un árbol de transmisión</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una junta de Cardan</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un tren de engranajes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Para minimizar el rozamiento, hay que ...</text> </name>
@@ -362,13 +570,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Lubrificar los engranajes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Acelerar la rueda motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Añadir una correa</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Situar los ejes horizontalmente</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Lubricar los engranajes</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acelerar la rueda motriz</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Añadir una correa</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Situar los ejes horizontalmente</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En un engranaje recto, las dos ruedas giran ...</text> </name>
@@ -388,13 +612,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En sentidos opuestos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En el mismo sentido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En sentidos aleatorios</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hasta que las para el trinquete</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En sentidos opuestos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En el mismo sentido</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En sentidos aleatorios</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hasta que las para el trinquete</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama la rueda pequeña en un engranaje recto?</text> </name>
@@ -414,13 +654,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Piñon</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Émbolo</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Pistón</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Rueda acanalada</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Piñon</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Émbolo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pistón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Rueda acanalada</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde se puede encontrar un engranaje recto?</text> </name>
@@ -440,13 +696,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En un reloj de manillas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un sacacorchos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una radio</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En el claxon de un automóvil</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En un reloj de manillas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un sacacorchos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una radio</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En el claxon de un automóvil</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Las ruedas dentadas de un engranaje recto son ...</text> </name>
@@ -466,13 +738,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Cilíndricas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Redondas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Trapezoidales</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Troncocónicas</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cilíndricas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Redondas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Trapezoidales</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Troncocónicas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
@@ -492,13 +780,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tren de engranajes compuesto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tren de engranajes simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Engranaje recto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Engranaje cónico</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tren de engranajes compuesto</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tren de engranajes simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Engranaje recto</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Engranaje cónico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En el tren de engranajes compuesto hay ...</text> </name>
@@ -518,13 +822,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Al menos una rueda dentada compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mínimo de dos ruedas dentadas dobles</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Al menos una rueda loca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Solo ruedas dentadas simples</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Al menos una rueda dentada compuesta</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mínimo de dos ruedas dentadas dobles</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Al menos una rueda loca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Solo ruedas dentadas simples</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde podemos encontrar este mecanismo?</text> </name>
@@ -544,13 +864,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Junto al motor de un juguete</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un ordenador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un horno</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una antena</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Junto al motor de un juguete</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un ordenador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un horno</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una antena</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Gracias a la rueda central, la conducida ...</text> </name>
@@ -570,13 +906,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Varía la velocidad y el sentido de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No invierte el sentido de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Simplemente invierte el sentido de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Simplemente varía la velocidad de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Varía la velocidad y el sentido de giro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No invierte el sentido de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Simplemente invierte el sentido de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Simplemente varía la velocidad de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En una rueda dentada doble, las dos ruedas ...</text> </name>
@@ -596,13 +948,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Están unidas entre sí</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Giran a velocidades diferentes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tienen el mismo diámetro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tienen el mismo número de dientes</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Están unidas entre sí</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Giran a velocidades diferentes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tienen el mismo diámetro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tienen el mismo número de dientes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El mecanismo se suele utilizar como ...</text> </name>
@@ -622,13 +990,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Reductor</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Multiplicador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Transformador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Actuador</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Reductor</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Multiplicador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Transformador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Actuador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>La rueda doble central ...</text> </name>
@@ -648,13 +1032,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Gira en sentido opuesto a las otras dos ruedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gira en sentido horario</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gira en el mismo sentido que la conducida</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Gira en el mismo sentido que la motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Gira en sentido opuesto a las otras dos ruedas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gira en sentido horario</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gira en el mismo sentido que la conducida</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Gira en el mismo sentido que la motriz</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Gracias a este mecanismo, obtenemos reductores ...</text> </name>
@@ -674,13 +1074,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Compactos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Silenciosos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Deslizantes</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Sin necesidad de aceite</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Compactos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Silenciosos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Deslizantes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Sin necesidad de aceite</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama el mecanismo de la figura?</text> </name>
@@ -700,22 +1116,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tren de engranajes simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Tren de engranajes compuesto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Engranaje recto</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Engranaje cónico</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tren de engranajes simple</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tren de engranajes compuesto</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Engranaje recto</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Engranaje cónico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Cómo se llama la rueda central?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Cómo se llama la rueda central?</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -726,22 +1158,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Rueda loca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Rueda coja</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Corona central</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Piñón</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rueda loca</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Rueda coja</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corona central</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Piñón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Para que el mecanismo funcione bien ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Para que el mecanismo funcione bien ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -752,22 +1200,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Hay que lubrificar</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hay que cambiar a menudo la rueda loca</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hay que arrancarlo lentamente</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Hay que colocar pantallas protectoras</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Hay que lubricar</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hay que cambiar a menudo la rueda loca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hay que arrancarlo lentamente</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hay que colocar pantallas protectoras</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Normalmente la rueda loca va unida a ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Normalmente la rueda loca va unida a ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -778,22 +1242,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un eje</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un árbol</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Otra rueda</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>A la rueda motriz</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un eje</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un árbol</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Otra rueda</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>A la rueda motriz</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>La rueda motriz y la rueda conducida giran ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>La rueda motriz y la rueda conducida giran ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -804,22 +1284,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En el mismo sentido</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En sentidos opuestos</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En sentido horario</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>A la misma velocidad de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En el mismo sentido</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En sentidos opuestos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En sentido horario</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>A la misma velocidad de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>¿Dónde podemos encontrar un tren de engranajes simple?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Dónde podemos encontrar un tren de engranajes simple?</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -830,22 +1326,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>En un reloj mecánico</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un ordenador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En una plancha</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>En un sacacorchos</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En un reloj mecánico</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un ordenador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En una plancha</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>En un sacacorchos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>Un tren de engranajes simple ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>Un tren de engranajes simple ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -856,22 +1368,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Puede tener cualquier relación de velocidades</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es siempre reductor</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Es siempre multiplicador</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No varía la velocidad de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Puede tener cualquier relación de velocidades</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es siempre reductor</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Es siempre multiplicador</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No varía la velocidad de giro</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>La rueda central hace que la rueda conducida ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>La rueda central hace que la rueda conducida ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExkgrO6paQAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAMUExURQAAAMb//9a9vf8AADf5kL8AAAABYktHRACIBR1IAAAFz0lEQVR42u3bO86kOBAA4DnkGEudOOcSPgVzAwKKgBtsnwJNuDk5GqklujaAbhtcLsoYdjeg43++gXLZ+FH+oS79/fxx+7d/+7d/+7f/X/pmutZH7JVSdoz+QQE5vkYcldKI0b8ooc7wDeKklJnfYvuDSikF0GT7FpEI0AMapQoAyPAtIsb8EiDH1/j1EZFIIwCo1AMAKqXKOtm3OM4+YtwvAQAqVWxeQuJ/Ih/zC/j+1AOgSvQ1Ijqe9wFgnaVC36DvazzT92xERBznBon6TaaPvRekApQqT/YR3ShRQr15/HN9gKa8wu/J0C9Jmp4/SX593vM/gHwBN0gIfJvs/3Ix2vE10uHhfXCDxI5vcSTDg2rHr2U+4oSHnl/m07GZB4l4/vid4Kg/neKbqI+9HVUw9Jzo/0Gcv1wX+YjYx8Nzij/G00eYP7w/1CVclZ+I+Abm1+T7L84Haf9lwsP61cV+nR0flv80QEb+8D5c7c/fMN63Gf78BpxvR8zyK8L3lj/bxn21KfmzpNDGN9702ATP+8z2rbc+tMFw0CX03yVFnW/HuT/1Ef8F0Gb488rW95H0XZDSfIPYK43e+pAYDhBf7iWGJN8ijrt+iwOAOD8D3+KODy24LIKk/NnObLa++5o8BZ8Xie/lz9B50e5krbvpv+H60/rP7j1tJ4tOzP8mqIlkeieLTtSflkFIR0aCThiedfy9aH8Goav8ZXqvIyPxU9S5tvkfTu9jfnfE16FvIn4r9cHzTbh8iPmQ7mNvE/yn1G8W3wSrrHHV4kPYAJL8Aahm35LLqxP8evbJ5Rv3pZL1X4Am5verBg+C3YnGn4+vKd9yM51W2MAQ89fvFP67U/035UOer3n/men3mp/oJPnqMj+an6Pm55lpvuV8sic93yn91xDbI/w0U9h/q8/4Gb4APw2Xpn/UR8v57RtSfGoZ+jc3zexe2f7I+kO+b0/wq7g/sT4k+SbVb0/0h3w/DDrpNw/WL2K+e/zehL5LRXdS0ZJjTcy31LD/fZW399dff6DGmjIyvvlLCyJUg8vmkvErajcx7v8OBzjPfwn96ucPLya+bzkf/jrke/Efic+Xiz/Vgan4Q732Xf78JnzvpIsIEJU/W981KuW7/CcboNj3ieE58gETDtD1Kn/+Rd/s7DML/Wrdf0n/lesb3ie/JdIPcGR+hZrfh2yT1hfhfzCd48fnP4pvXuEHOD7/cQtWen6YNH9gJ6Dv/PkVuUDVjC9ePi4+NcFl/Fa4/BX5eIKv0/zu1Ocf8n1Lnb/Gx5+nePuByR8V78DP1PzZ2eAYDm5vcP3Xf6lXuEGW669y6h36Q874NtlxlVPvcAMua/wct21ObPC9U3xLFDfY+AZTrh9suL4yfUPUNuz4mJI/2p/PLicMcb9N9pX1N0xk/pDQf9fent9J/dr3zca3Uf8pPYBZnz8yvn/68jlGfQmyh/MN7cuPT7fny5sDHk3ugHby42XSH90Bkv3jd+B5S6ZNOL5uQn9anQCvRtA54K2sOoT059pa/wQ7PIHsEvya9P0TeJvlVxs/rG0OT7CfGX5Ym22CI1TM8MPa8u20a+hSyx/4+o2M8haifRP9Id83x8uX8n2EX7k+Wz6DU3GtP6rc/LE75XvlpT5T/fkdnvP8Ynf4zMmfnimfhGYpgLvKF9Uf6sPlmcL64dU+VpIvq382k84rL92v3z6WP/L6cHPIl9e3a65C+QRfcRXWlz3/NF8hKa/yx+/Fpmt8dzHrcYU/RS+/bNL/oD+uL2fl+GrPL7judYVf+1eo9n272owW+OrRpNxPMf5hucBPvr+21FUSty++t9fIpk253+d9iaeL/VUN7ZKgj9P8ab2C+tx+LCLhP+Kr7TIHqqWX1eVR33x2RGOXaB8AjQpuDyb69O1Nzy+CK5xCf749y/jFHJmyPnj/FLGP3p5dsrTKuV9sJsXf/n00J9y/Zm4v/+/vd9/+7d/+7d/+7d/+7d++yP8HWfqLtl4cAOgAAAAASUVORK5CYII=</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -882,22 +1410,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Invierta el sentido de giro</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Aumente la velocidad</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Reduzca la velocidad</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Se bloquee</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Invierta el sentido de giro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumente la velocidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Reduzca la velocidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Se bloquee</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>En un tren de engranajes simple ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>En un tren de engranajes simple ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -908,22 +1452,38 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Tiene que haber más de dos ruedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No puede haber más de tres ruedas</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Debe haber alguna rueda dentada doble</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>No puede haber más de una rueda loca</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tiene que haber más de dos ruedas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No puede haber más de tres ruedas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Debe haber alguna rueda dentada doble</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No puede haber más de una rueda loca</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
   <question type="multichoice">
     <name> <text>El tren de engranajes simple es ...</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>El tren de engranajes simple es ...</p> 
-         <p><img src="@@PLUGINFILE@@/1c26d4e8595d21292a9f.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
+         <p><img src="@@PLUGINFILE@@/695a51ef551d41ebeb42.png" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="379"></p>]]>
       </text>
-      <file name="1c26d4e8595d21292a9f.png" path="/" encoding="base64">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</file>
+      <file name="695a51ef551d41ebeb42.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAXsAAADQAgMAAACb/CkBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAB3RJTUUH5QkYExoh8MTKPAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR0lNUFeBDhcAAAAJUExURQAAAMb///8AAO4r4fkAAAABYktHRACIBR1IAAAEkklEQVR42u3bS5LjIAwA0D7kwEJH4D70Inu6Cp1y4v8HAZIRXekqspiayTgvtiLEx/jLdH39+xr+8Ic//OEP/6N99F19wNjLn8/cIXbylzNHpAKk4S9nvvgW9f1Ztu8/w/RdoauPt19ZwZ9lwNmf/t7DX1++s798yfBP9tS8+vlTumNH/53u99PXzJ976LXPn/TjuQi1+YDkBZyKUOq70OqHUxFKfEt2EyL//CMnPpDdhJ7vEIOC71V8K/Jh7UZjbrDR6M/vLj492GiLj107uIl2vCxyEh+Wpjf7yMsilOQP7MUqMn0r8m8XW80iiPnwRwUfS6923xZ93+xD0Q+d/UjmT7YbEuX+/Fr7mPz5N/prAA7foiw+VT9efcil8FMfT/47WsnxSz3V8R3+UN2oL8wPoer7w69kMTU/lPi2VkaI+aFV9u8pK/GhVqb6++v87Rj6gSB/+P4x9HP6Pp7nn5L2W/GnoNi1au3fiYL6U8mf6yyF63u2f52leN6ve6mfxfZrifNCFd/nfMvwYz0+IdexwQf4jPyPlM9rXL/gT5e/+K7YviD9Tp6Pm19uI/bp+b8/PvmFZHtFOj+Zfph9V2vlaVKBxK+2wvRHZ/px8m2tldwPgMhqv4/9KWgCH2o5BkTQQNF3xOfcR/iB5VNvKvr43PeM/IEG3zB8x76oXP0sH4PPfW8Y9YfOO4lfClC0/B/liR8sP2h6/ndfP7LL/+yDNP5B0TfsNvH7PlK+z1ZKW/R9tv+FQmmJx/8el0L6VDONafuN16+LR/kI+4GRpKgwp/Ut3P59dLV+F6j8DGSap/X/flxs8v3bd+XjCJ9qv1w/iaNP44+RG//Jr+SBp5oCMLs0wvfZWmmLBY7sKAifVYu/uQ34of+j6Lvn/tx+K8Xqp+H8A8N/NXSQhjF+w+e+Z4yv0LFHLY/GPxGbfSMeX8nGb6Z4SPv4Su577vD5kR+NQZHvpLOjvn7gTn9ZPjz3t/UZkM6u2dN3hm/cT3JNTB858Uk1sV9ZnjHpe0zfV/1A3xkT+bbmQ/Ke1vrYsppnEx9UfVNb0tL3jSB/HsSHvYJby5+YW6B3gvZbyx/KB0H9cTLfcH1TrT/JAnHcbkNaztnv68+vUv05B9Ab+qZG2c9cQdz2St3SVXz/KHM24XTv1B6fEdx+3O+P54/Y7v3aq8+7/bj7Lh/87d41tPiQrQ2XiEi3D+y+LYX/kR+k/nXvrv75X/ceO/X4X/dOd/AfbE/4XN929mX1h5U/9+1jff1qCl33L91niq/6DiaQ+O66KhsZ+1itoP3Ojcdd5i31baCC+nM7Id4W08IPsLX16/5VoS/bf6jpBxXflXM/9d02OWz1TcHnbl4t+DHjwzb56eQvjcpxt4iL47M0KubmZM72cHp/PncH+lO/fXu40vMF2YVirecXMjc6o97zNdDZN9TaelD0032v5+ap7/vLvld1P2o/f/fXffsLvunom+2BjeVeblD33bZgZvr481AH1sda7qVd6/lc2NZ6TR9/eXgmHVSqPV+cGROo+ZnN9uP58eEPf/jDH/7whz/8P+b/B5jXTFNY+JsyAAAAAElFTkSuQmCC</file>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -934,13 +1494,29 @@
     <shuffleanswers>true</shuffleanswers>
     <answernumbering>abc</answernumbering>
     <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text></text> </correctfeedback>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text></text> </incorrectfeedback>
-    <answer fraction="100" format="html"> <text>Un mecanismo de transmisión de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Un mecanismo de transformación de movimiento</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina simple</text> <feedback format="html"> <text></text> </feedback> </answer>
-    <answer fraction="0" format="html"> <text>Una máquina compuesta</text> <feedback format="html"> <text></text> </feedback> </answer>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Un mecanismo de transmisión de movimiento</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Un mecanismo de transformación de movimiento</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina simple</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una máquina compuesta</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
   </question>
 
 </quiz>

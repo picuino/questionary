@@ -32,15 +32,12 @@
    <style>
       body {
         background-color: #efefef;
+        margin: 0;
+        padding: 0;
         font-size: 12px;
         min-width: 320px;
         font-family: Arial, Helvetica, sans-serif;
         z-index: 0;
-      }
-
-      * {
-        margin: 0;
-        padding: 0;
       }
 
       h1 {
@@ -73,7 +70,7 @@
       .flex-column {
         display: flex;
         flex-direction: column;
-        padding: 8px;
+        padding: 0 12px;
       }
 
       .flex-center {
@@ -160,11 +157,15 @@
       .footer {
         color: White;
         background-color: #094070;
-        margin-top: 80px;
+        margin-top: 64px;
         padding: 12px;
         border-top: 2px solid #094070;
         line-height: 200%;
         text-align: center;
+      }
+
+      .footer p {
+         margin: 4px 0;
       }
 
       .footer a, .footer a:visited {
@@ -236,12 +237,13 @@
       #hud_id {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
       }
 
       .hud-prefix {
         text-align: center;
         font-size: 24px;
+        margin: 12px 0;
       }
 
       .hud-main-text {
@@ -249,7 +251,7 @@
         font-size: 40px;
         font-weight: bold;
         color: #094070;
-        margin-top: 12px;
+        margin: 12px 0;
       }
 
       #progress_bar_id {
@@ -269,7 +271,7 @@
       /* CLOZE QUESTIONS */
 
       .question_frame {
-         margin: 12px 0px;
+         margin: 0 0 12px 0;
          padding: 12px 8px;
          background-color: white;
          border: 2px solid #094070;
@@ -286,6 +288,10 @@
          max-width:100%;
       }
 
+      br {
+         margin-bottom: 12px; 
+      }
+
       .question_text {
          font-size: 22px;
          line-height: 180%;
@@ -300,7 +306,7 @@
       input {
          font-family: Arial, Helvetica, sans-serif;
          font-size: 22px;
-         padding: 4px;
+         padding: 2px;
          width: 150px;
          border: 1px solid #094070;
          border-radius: 8px;
@@ -513,7 +519,7 @@
          
          {
             "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5TUEVDaW50IHkgU1BFQ2ZwPC9zdHJvbmc+PGJyPiBTdGFuZGFyZCBQZXJmb3JtYW5jZSBFdmFsdWF0aW9uIENvcnBvcmF0aW9uIChTUEVDKSBlcyB1biBjb25zb3JjaW8gc2luIGZpbmVzIGRlIHswfSBxdWUgaW5jbHV5ZSBhIHZlbmRlZG9yZXMgZGUgY29tcHV0YWRvcmFzLCBpbnRlZ3JhZG9yZXMgZGUgc2lzdGVtYXMsIHVuaXZlcnNpZGFkZXMsIGdydXBvcyBkZSBpbnZlc3RpZ2FjacOzbiwgcHVibGljYWRvcmVzIHkgY29uc3VsdG9yZXMgZGUgdG9kbyBlbCBtdW5kby48YnI+IFRpZW5lIGRvcyBvYmpldGl2b3M6IGNyZWFyIHVuIGJlbmNobWFyayB7MX0gcGFyYSBtZWRpciBlbCByZW5kaW1pZW50byBkZSBjb21wdXRhZG9yYXMgeSBjb250cm9sYXIgeSB7Mn0gbG9zIHJlc3VsdGFkb3MgZGUgZXN0b3MgdGVzdHMu",
+            "Cloze": "PHN0cm9uZz5TUEVDaW50IHkgU1BFQ2ZwPC9zdHJvbmc+PGJyPiBTdGFuZGFyZCBQZXJmb3JtYW5jZSBFdmFsdWF0aW9uIENvcnBvcmF0aW9uIChTUEVDKSBlcyB1biBjb25zb3JjaW8gc2luIGZpbmVzIGRlIHswfSBxdWUgaW5jbHV5ZSBhIHZlbmRlZG9yZXMgZGUgY29tcHV0YWRvcmFzLCBpbnRlZ3JhZG9yZXMgZGUgc2lzdGVtYXMsIHVuaXZlcnNpZGFkZXMsIGdydXBvcyBkZSBpbnZlc3RpZ2FjacOzbiwgcHVibGljYWRvcmVzIHkgY29uc3VsdG9yZXMgZGUgdG9kbyBlbCBtdW5kby4gPGJyPiBUaWVuZSBkb3Mgb2JqZXRpdm9zOiBjcmVhciB1biBiZW5jaG1hcmsgezF9IHBhcmEgbWVkaXIgZWwgcmVuZGltaWVudG8gZGUgY29tcHV0YWRvcmFzIHkgY29udHJvbGFyIHkgezJ9IGxvcyByZXN1bHRhZG9zIGRlIGVzdG9zIHRlc3RzLg==",
             "Gaps": [
                ['bHVjcm8='],
                ['ZXN0w6FuZGFy'],
