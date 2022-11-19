@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Hardware/es-hardware-almacenamiento-1</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Clasificación de dispositivos de almacenamiento</strong><br> Almacenamiento primario <ul> <li>Memoria {RAM}</li> <li>Memoria {caché}</li> <li>{Búfer} de datos</li> </ul> <br> Almacenamiento secundario <ul> <li>Memoria {ROM}</li> <li>Disco de estado sólido {SSD}</li> <li>Disco duro magnético {HDD}</li> </ul> <br> Almacenamiento externo <ul> <li>Unidades ópticas CD-ROM, {DVD}, Blu-ray</li> <li>Memoria {USB}</li> <li>Tarjetas {SD}</li> <li>Cinta magnética</li> <li>Discos flexibles</li> </ul> <br> Almacenamiento virtual <ul> <li>Equipos {NAS}</li> <li>Almacenamiento en la {nube}</li> </ul></text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Clasificación de dispositivos de almacenamiento</strong><br> Almacenamiento primario <ul> <li>Memoria {1:SHORTANSWER:=RAM}</li> <li>Memoria {1:SHORTANSWER:=caché}</li> <li>{1:SHORTANSWER:=Búfer} de datos</li> </ul> <br> Almacenamiento secundario <ul> <li>Memoria {1:SHORTANSWER:=ROM}</li> <li>Disco de estado sólido {1:SHORTANSWER:=SSD}</li> <li>Disco duro magnético {1:SHORTANSWER:=HDD}</li> </ul> <br> Almacenamiento externo <ul> <li>Unidades ópticas CD-ROM, {1:SHORTANSWER:=DVD}, Blu-ray</li> <li>Memoria {1:SHORTANSWER:=USB}</li> <li>Tarjetas {1:SHORTANSWER:=SD}</li> <li>Cinta magnética</li> <li>Discos flexibles</li> </ul> <br> Almacenamiento virtual <ul> <li>Equipos {1:SHORTANSWER:=NAS}</li> <li>Almacenamiento en la {1:SHORTANSWER:=nube}</li> </ul>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Clasificación de dispositivos de almacenamiento</strong><br> Dispositivos de estado sólido <ul> <li>Memoria {RAM}</li> <li>Memoria {ROM}</li> <li>Unidad de estado sólido {SSD}</li> <li>Memorias {USB}</li> <li>Tarjetas {SD}</li> </ul> <br> Dispositivos de almacenamiento magnético <ul> <li>Discos duros {HDD}</li> <li>Cinta magnética</li> <li>Discos flexibles</li> </ul> <br> Dispositivos de almacenamiento óptico <ul> <li>Discos CD-ROM</li> <li>Discos {DVD}</li> <li>Discos Blu-ray</li> </ul></text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Clasificación de dispositivos de almacenamiento</strong><br> Dispositivos de estado sólido <ul> <li>Memoria {1:SHORTANSWER:=RAM}</li> <li>Memoria {1:SHORTANSWER:=ROM}</li> <li>Unidad de estado sólido {1:SHORTANSWER:=SSD}</li> <li>Memorias {1:SHORTANSWER:=USB}</li> <li>Tarjetas {1:SHORTANSWER:=SD}</li> </ul> <br> Dispositivos de almacenamiento magnético <ul> <li>Discos duros {1:SHORTANSWER:=HDD}</li> <li>Cinta magnética</li> <li>Discos flexibles</li> </ul> <br> Dispositivos de almacenamiento óptico <ul> <li>Discos CD-ROM</li> <li>Discos {1:SHORTANSWER:=DVD}</li> <li>Discos Blu-ray</li> </ul>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Almacenamiento primario</strong><br> Las memorias de almacenamiento {primario} son los dispositivos que contienen la información con la que el {procesador} está trabajando. Son las memorias más {rápidas} y cercanas al procesador.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Almacenamiento primario</strong><br> Las memorias de almacenamiento {1:SHORTANSWER:=primario} son los dispositivos que contienen la información con la que el {1:SHORTANSWER:=procesador} está trabajando. Son las memorias más {1:SHORTANSWER:=rápidas} y cercanas al procesador.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Memoria RAM</strong><br> La memoria RAM o memoria de acceso {aleatorio} es una memoria de almacenamiento {temporal} para los programas y datos que maneja la {CPU}.
+La memoria RAM debe ser muy {rápida} para no ralentizar la velocidad de la unidad central de proceso (CPU). Una memoria RAM actual puede transferir más de 20 {gigabytes} por segundo.
+También debe tener suficiente tamaño para contener todos los {programas}, apps y datos que se estén ejecutando de forma {simultanea} en el ordenador.
+En 2022, un smartphone medio suele tener de {4} a {8} gigabytes de RAM y un ordenador personal, de {8} a {16} gigabytes de RAM.
+La desventaja de la memoria RAM consiste en que {pierde} sus datos cuando se apaga la {alimentación} del ordenador. Además suele ser mucho más cara que las memorias de almacenamiento {secundario}, 5€/gigabyte de una memoria RAM frente a 0,02€/gigabyte de un disco {duro|HDD} en 2022.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Memoria RAM</strong><br> La memoria RAM o memoria de acceso {1:SHORTANSWER:=aleatorio} es una memoria de almacenamiento {1:SHORTANSWER:=temporal} para los programas y datos que maneja la {1:SHORTANSWER:=CPU}.
+La memoria RAM debe ser muy {1:SHORTANSWER:=rápida} para no ralentizar la velocidad de la unidad central de proceso (CPU). Una memoria RAM actual puede transferir más de 20 {1:SHORTANSWER:=gigabytes} por segundo.
+También debe tener suficiente tamaño para contener todos los {1:SHORTANSWER:=programas}, apps y datos que se estén ejecutando de forma {1:SHORTANSWER:=simultanea} en el ordenador.
+En 2022, un smartphone medio suele tener de {1:SHORTANSWER:=4} a {1:SHORTANSWER:=8} gigabytes de RAM y un ordenador personal, de {1:SHORTANSWER:=8} a {1:SHORTANSWER:=16} gigabytes de RAM.
+La desventaja de la memoria RAM consiste en que {1:SHORTANSWER:=pierde} sus datos cuando se apaga la {1:SHORTANSWER:=alimentación} del ordenador. Además suele ser mucho más cara que las memorias de almacenamiento {1:SHORTANSWER:=secundario}, 5€/gigabyte de una memoria RAM frente a 0,02€/gigabyte de un disco {1:SHORTANSWER:=duro~%100%HDD} en 2022.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Memoria caché</strong><br> La memoria caché es un tipo de memoria {rápida} que almacena temporalmente los contenidos leídos de la memoria {RAM} para que las posteriores peticiones de {lectura} se puedan atender con mayor rapidez.
+Funciona de manera semejante a la memoria RAM, pero es de {menor} tamaño y de acceso más {rápido}. Surgió cuando la memoria RAM ya no fue capaz de trabajar a la misma velocidad del {procesador} y sirve para que el procesador reduzca el tiempo de acceso a los {datos} y {programas} ubicados en la memoria RAM que se utilizan con más {frecuencia}.
+Hoy en día la memoria {caché} de la RAM suele estar integrada dentro del propio procesador y suele tener un tamaño de varios {megabytes}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Memoria caché</strong><br> La memoria caché es un tipo de memoria {1:SHORTANSWER:=rápida} que almacena temporalmente los contenidos leídos de la memoria {1:SHORTANSWER:=RAM} para que las posteriores peticiones de {1:SHORTANSWER:=lectura} se puedan atender con mayor rapidez.
+Funciona de manera semejante a la memoria RAM, pero es de {1:SHORTANSWER:=menor} tamaño y de acceso más {1:SHORTANSWER:=rápido}. Surgió cuando la memoria RAM ya no fue capaz de trabajar a la misma velocidad del {1:SHORTANSWER:=procesador} y sirve para que el procesador reduzca el tiempo de acceso a los {1:SHORTANSWER:=datos} y {1:SHORTANSWER:=programas} ubicados en la memoria RAM que se utilizan con más {1:SHORTANSWER:=frecuencia}.
+Hoy en día la memoria {1:SHORTANSWER:=caché} de la RAM suele estar integrada dentro del propio procesador y suele tener un tamaño de varios {1:SHORTANSWER:=megabytes}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

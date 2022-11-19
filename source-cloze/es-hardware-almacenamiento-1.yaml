@@ -1,0 +1,119 @@
+﻿
+Category: Hardware
+Title: Almacenamiento I
+Copyright: 2022 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-almacenamiento.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Clasificación de dispositivos de almacenamiento</strong><br>
+     Almacenamiento primario
+     <ul>
+     <li>Memoria {RAM}</li>
+     <li>Memoria {caché}</li>
+     <li>{Búfer} de datos</li>
+     </ul>
+     <br>
+     Almacenamiento secundario
+     <ul>
+     <li>Memoria {ROM}</li>
+     <li>Disco de estado sólido {SSD}</li>
+     <li>Disco duro magnético {HDD}</li>
+     </ul>
+     <br>
+     Almacenamiento externo
+     <ul>
+     <li>Unidades ópticas CD-ROM, {DVD}, Blu-ray</li>
+     <li>Memoria {USB}</li>
+     <li>Tarjetas {SD}</li>
+     <li>Cinta magnética</li>
+     <li>Discos flexibles</li>
+     </ul>
+     <br>
+     Almacenamiento virtual
+     <ul>
+     <li>Equipos {NAS}</li>
+     <li>Almacenamiento en la {nube}</li>
+     </ul>
+
+- Title:
+  Cloze:
+     <strong>Clasificación de dispositivos de almacenamiento</strong><br>
+     Dispositivos de estado sólido
+     <ul>
+     <li>Memoria {RAM}</li>
+     <li>Memoria {ROM}</li>
+     <li>Unidad de estado sólido {SSD}</li>
+     <li>Memorias {USB}</li>
+     <li>Tarjetas {SD}</li>
+     </ul>
+     <br>
+     Dispositivos de almacenamiento magnético
+     <ul>
+     <li>Discos duros {HDD}</li>
+     <li>Cinta magnética</li>
+     <li>Discos flexibles</li>
+     </ul>
+     <br>
+     Dispositivos de almacenamiento óptico
+     <ul>
+     <li>Discos CD-ROM</li>
+     <li>Discos {DVD}</li>
+     <li>Discos Blu-ray</li>
+     </ul>
+
+- Title:
+  Cloze:
+     <strong>Almacenamiento primario</strong><br>
+     Las memorias de almacenamiento {primario} son los dispositivos
+     que contienen la información con la que el {procesador} está
+     trabajando.
+     Son las memorias más {rápidas} y cercanas al procesador.
+
+- Title:
+  Cloze:
+     <strong>Memoria RAM</strong><br>
+     La memoria RAM o memoria de acceso {aleatorio} es una memoria de
+     almacenamiento {temporal} para los programas y datos que maneja la
+     {CPU}.
+
+     La memoria RAM debe ser muy {rápida} para no ralentizar la velocidad
+     de la unidad central de proceso (CPU). Una memoria RAM actual
+     puede transferir más de 20 {gigabytes} por segundo.
+
+     También debe tener suficiente tamaño para contener todos los
+     {programas}, apps y datos que se estén ejecutando de forma
+     {simultanea} en el ordenador.
+     
+     En 2022, un smartphone medio suele tener de {4} a {8} gigabytes de
+     RAM y un ordenador personal, de {8} a {16} gigabytes de RAM.
+
+     La desventaja de la memoria RAM consiste en que {pierde} sus datos
+     cuando se apaga la {alimentación} del ordenador.
+     Además suele ser mucho más cara que las memorias de almacenamiento
+     {secundario}, 5€/gigabyte de una memoria RAM frente a 0,02€/gigabyte
+     de un disco {duro|HDD} en 2022.
+
+- Title:
+  Cloze:
+     <strong>Memoria caché</strong><br>
+     La memoria caché es un tipo de memoria {rápida} que almacena
+     temporalmente los contenidos leídos de la memoria {RAM} para
+     que las posteriores peticiones de {lectura} se puedan atender
+     con mayor rapidez.
+
+     Funciona de manera semejante a la memoria RAM, pero es de
+     {menor} tamaño y de acceso más {rápido}. Surgió cuando la memoria
+     RAM ya no fue capaz de trabajar a la misma velocidad del 
+     {procesador} y sirve para que el procesador reduzca 
+     el tiempo de acceso a los {datos} y {programas} ubicados en la
+     memoria RAM que se utilizan con más {frecuencia}.
+
+     Hoy en día la memoria {caché} de la RAM suele estar integrada 
+     dentro del propio procesador y suele tener un tamaño de 
+     varios {megabytes}.

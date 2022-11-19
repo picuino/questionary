@@ -95,14 +95,19 @@ index_data = [
            ["es-hardware-ley-moore.html", "Ley de Moore"],
            ["es-hardware-pc.html", "Hardware del ordenador personal"],
            ["es-hardware-placa-base.html", "Placa base"],
+
            ["es-hardware-procesadores-1.html", "Procesadores I"],
            ["es-hardware-procesadores-2.html", "Procesadores II"],
            ["es-hardware-procesadores-3.html", "Procesadores III"],
            ["es-hardware-procesadores-4.html", "Procesadores IV"],
+
            ["es-hardware-perifericos-1.html", "Periféricos I"],
            ["es-hardware-perifericos-2.html", "Periféricos II"],
            ["es-hardware-perifericos-3.html", "Periféricos III"],
            ["es-hardware-perifericos-4.html", "Periféricos IV"],
+
+           ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
+           ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
        ]
    },
    {
