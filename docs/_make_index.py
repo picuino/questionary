@@ -45,6 +45,7 @@ index_data = [
            ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
            ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
            ["es-machines.html", "Test global de Máquinas y Mecanismos"],
+           ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
        ]
    },
    {
