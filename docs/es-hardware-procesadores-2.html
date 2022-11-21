@@ -70,7 +70,7 @@
       .flex-column {
         display: flex;
         flex-direction: column;
-        padding: 0 12px;
+        padding: 0 6px;
       }
 
       .flex-center {
@@ -273,10 +273,10 @@
 
       .question_frame {
          margin: 0 0 12px 0;
-         padding: 12px 8px;
+         padding: 8px 6px;
          background-color: white;
          border: 2px solid #094070;
-         border-radius: 16px;
+         border-radius: 12px;
       }
 
       .question_image_div {
@@ -294,8 +294,8 @@
       }
 
       .question_text {
-         font-size: 22px;
-         line-height: 180%;
+         font-size: 20px;
+         line-height: 160%;
          padding-bottom: 12px;
          min-height: 80px;
       }
@@ -306,9 +306,9 @@
 
       input {
          font-family: Arial, Helvetica, sans-serif;
-         font-size: 22px;
-         padding: 2px;
-         width: 150px;
+         font-size: 20px;
+         padding: 1px;
+         width: 125px;
          border: 1px solid #094070;
          border-radius: 8px;
          box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
@@ -336,7 +336,9 @@
          margin-right: 0;
       }
 
-      .button:hover {background-color: #3e8e41}
+      .button:hover {
+         background-color: #3e8e41
+      }
 
       .button:active {
          background-color: #3e8e41;
@@ -349,13 +351,14 @@
          z-index: 10;
          height: 0;
          max-width: 75%;
-         min-width: 320px;
-         padding: 0;
+         min-width: 300px;
+         padding: 0 6px;
          margin: 0 auto;
       }
+
       .message2 {
          background-color: #eef;
-         padding: 8px 20px 20px 20px;
+         padding: 12px;
          height: auto;
          box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
          border-radius: 16px;
@@ -488,12 +491,17 @@
          
          {
             "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Qcm9jZXNhZG9yIGRlIHNlw7FhbGVzIGRpZ2l0YWxlczwvc3Ryb25nPjxicj4gVW4gezB9IG8gcHJvY2VzYWRvciBkZSBzZcOxYWxlcyBkaWdpdGFsZXMgZXMgdW4gcHJvY2VzYWRvciBlc3BlY2lhbGl6YWRvIGVuIGVqZWN1dGFyIG9wZXJhY2lvbmVzIG51bcOpcmljYXMgcmVsYWNpb25hZGFzIGNvbiBlbCB0cmF0YW1pZW50byBkZSB7MX0sIGEgbXV5IGFsdGEgdmVsb2NpZGFkLiA8YnI+PGJyPiBTdXMgYXBsaWNhY2lvbmVzIHTDrXBpY2FzIHNvbiBlbCB0cmF0YW1pZW50byBlbiB0aWVtcG8gcmVhbCBkZSBzZcOxYWxlcyBkZSB7Mn0sIHZveiwgaW1hZ2VuLCB7M30sIGV0Yy4gQ29uIGVzdGFzIGFwbGljYWNpb25lcyBzZSBwdWVkZSBlbGltaW5hciBlbCBlY28gZW4gbGFzIGzDrW5lYXMgZGUgY29tdW5pY2FjacOzbiwgaGFjZXIgbcOhcyBjbGFyYXMgbGFzIGltw6FnZW5lcyBkZSDDs3JnYW5vcyBlbiBsb3MgZXF1aXBvcyBkZSBkaWFnbsOzc3RpY28gbcOpZGljbyBwb3IgdWx0cmFzb25pZG9zIG8gcG9yIHJlc29uYW5jaWEgbWFnbsOpdGljYSwgcmVhbGl6YXIgYWp1c3RlcyBkZSBhdXRvLXR1bmUgZW4gbGEgdm96IGRlIGxvcyBjYW50YW50ZXMsIGRlY29kaWZpY2FyIGNhbmNpb25lcyBlbiBsb3MgcmVwcm9kdWN0b3JlcyBkaWdpdGFsZXMgZGUgYXVkaW8sIGNvbXByaW1pciBmb3RvZ3JhZsOtYXMgZW4gY8OhbWFyYXMgZGlnaXRhbGVzLCB5IHVuYSBsYXJnYSBsaXN0YSBkZSBhcGxpY2FjaW9uZXMgcXVlIHB1ZWRlbiBzZXIgcmVsYWNpb25hZGFzIGNvbiBlbCBwcm9jZXNvIGRlIHNlw7FhbGVzLg==",
+            "Cloze": "PHN0cm9uZz5Qcm9jZXNhZG9yIGRlIHNlw7FhbGVzIGRpZ2l0YWxlczwvc3Ryb25nPjxicj4gVW4gezB9IG8gcHJvY2VzYWRvciBkZSBzZcOxYWxlcyBkaWdpdGFsZXMgZXMgdW4gcHJvY2VzYWRvciBlc3BlY2lhbGl6YWRvIGVuIGVqZWN1dGFyIG9wZXJhY2lvbmVzIG51bcOpcmljYXMgcmVsYWNpb25hZGFzIGNvbiBlbCB0cmF0YW1pZW50byBkZSB7MX0sIGEgbXV5IGFsdGEgdmVsb2NpZGFkLiA8YnI+PGJyPiBTdXMgYXBsaWNhY2lvbmVzIHTDrXBpY2FzIHNvbiBlbCB0cmF0YW1pZW50byBlbiB0aWVtcG8gcmVhbCBkZSBzZcOxYWxlcyBkZSB7Mn0sIHZveiwgaW1hZ2VuLCB7M30sIGV0Yy4gQ29uIGVzdGFzIGFwbGljYWNpb25lcyBzZSBwdWVkZSBlbGltaW5hciBlbCBlY28gZW4gbGFzIGzDrW5lYXMgZGUgY29tdW5pY2FjacOzbiwgaGFjZXIgbcOhcyBjbGFyYXMgbGFzIGltw6FnZW5lcyBkZSDDs3JnYW5vcyBlbiBsb3MgZXF1aXBvcyBkZSBkaWFnbsOzc3RpY28gbcOpZGljbyBwb3IgezR9IG8gcG9yIHJlc29uYW5jaWEgbWFnbsOpdGljYSwgcmVhbGl6YXIgYWp1c3RlcyBkZSBhdXRvLXR1bmUgZW4gbGEgezV9IGRlIGxvcyBjYW50YW50ZXMsIGRlY29kaWZpY2FyIGNhbmNpb25lcyBlbiBsb3MgcmVwcm9kdWN0b3JlcyB7Nn0sIGNvbXByaW1pciBmb3RvZ3JhZsOtYXMgZW4gY8OhbWFyYXMgezd9LCB5IHVuYSBsYXJnYSBsaXN0YSBkZSBhcGxpY2FjaW9uZXMgcXVlIGVzdMOhbiByZWxhY2lvbmFkYXMgY29uIGVsIHByb2Nlc28gZGUgezh9Lg==",
             "Gaps": [
                ['RFNQ'],
                ['c2XDsWFsZXM='],
                ['YXVkaW8='],
                ['dsOtZGVv'],
+               ['dWx0cmFzb25pZG9z'],
+               ['dm96'],
+               ['bXAz'],
+               ['ZGlnaXRhbGVz'],
+               ['c2XDsWFsZXM='],
             ]
          },
          

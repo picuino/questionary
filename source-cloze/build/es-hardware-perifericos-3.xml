@@ -103,9 +103,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Línea braille</strong><br> La línea braille es un periférico de salida que transforma texto del ordenador en una serie de puntos braille para que las personas con discapacidad visual puedan leer en ella.</text> </name>
+    <name> <text><strong>Línea braille</strong><br> La línea braille es un periférico de {salida} que transforma texto del ordenador en una serie de {puntos} braille para que las personas con discapacidad {visual} puedan leer en ella.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Línea braille</strong><br> La línea braille es un periférico de salida que transforma texto del ordenador en una serie de puntos braille para que las personas con discapacidad visual puedan leer en ella.]]></text>
+      <text><![CDATA[<strong>Línea braille</strong><br> La línea braille es un periférico de {1:SHORTANSWER:=salida} que transforma texto del ordenador en una serie de {1:SHORTANSWER:=puntos} braille para que las personas con discapacidad {1:SHORTANSWER:=visual} puedan leer en ella.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>

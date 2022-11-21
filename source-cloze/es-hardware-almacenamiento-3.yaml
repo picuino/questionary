@@ -1,0 +1,114 @@
+﻿
+Category: Hardware
+Title: Almacenamiento III
+Copyright: 2022 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-almacenamiento.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>SMART</strong>
+     <br>
+     SMART es una tecnología que implementan los {discos} duros y las
+     unidades de estado {sólido}. Es un sistema de detección temprana
+     de {fallos} que permite conocer con antelación si un disco duro
+     da señales de fallar próximamente.
+     <br>
+     La tecnología {SMART} monitoriza parámetros de la unidad como su
+     {temperatura}, sectores defectuosos, cantidad de datos escritos,
+     errores de {lectura}, tiempo de funcionamiento, número de arranques,
+     etc. Aunque no es capaz de detectar todos los fallos posibles,
+     sí permite avisar ante la mayoría de los fallos debidos a una
+     {degradación} de la unidad.
+
+- Title:
+  Cloze:
+     <strong>RAID</strong>
+     <br>
+     Un sistema RAID (matriz {redundante} de discos independientes)
+     es una tecnología que permite unir varias unidades de disco
+     duro (HDD) o unidades de estado sólido (SSD) para conseguir
+     aumentar sus {prestaciones}. Se utiliza en {servidores} de
+     datos y en ordenadores de altas prestaciones.
+     Se necesita una controladora RAID especializada para conectar
+     los discos al ordenador.
+     <br>
+     En un primer nivel {RAID}, el sistema operativo ve una sola
+     unidad donde en realidad hay varios discos duros. La velocidad
+     de transferencia total {aumenta} al unir las velocidades de
+     transferencia de cada uno de los discos.
+     <br>
+     En niveles RAID posteriores, se utiliza un disco para almacenar
+     datos {redundantes} de paridad. Esto permite que los datos no se
+     {pierdan} ante el fallo de una de las unidades. Al detectar una
+     unidad dañada, ésta se puede cambiar por otra nueva y el sistema
+     {recuperará} automáticamente los datos perdidos a partir de los
+     datos redundantes.
+
+- Title:
+  Cloze:
+     <strong>Búfer de datos</strong>
+     <br>
+     Un búfer de datos es un espacio de memoria temporal que almacena
+     datos de lectura o de escritura que se dirigen a un {periférico}.
+     De esta forma se acelera el funcionamiento del procesador y se
+     evita que un dispositivo pierda datos durante una transferencia
+     de datos {irregular}.
+     <br>
+     Los búfer de escritura para un dispositivo más lento que el
+     procesador, como un disco {duro} o un pendrive, almacenan varios
+     {megabytes} de datos que son enviados en ráfagas {rápidas} por el
+     procesador para, más tarde, escribirlos en el dispositivo de
+     almacenamiento a menor velocidad y de manera {continua}.
+     <br>
+     Los dispositivos de entrada, como los {teclados} o ratones,
+     también tienen un búfer de lectura que va almacenando los datos
+     que envían los periféricos hasta que el procesador los lee
+     {rápidamente}. De esta manera el procesador principal no
+     tiene que estar {atendiendo} continuamente a un dispositivo lento,
+     sino que lo atiende a ráfagas rápidas y sin esperas.
+     <br>
+     Los búfer de datos suelen encontrarse {dentro} de los periféricos
+     de entrada/salida y de los medios de almacenamiento.
+
+- Title:
+  Cloze:
+     <strong>Almacenamiento externo</strong>
+     <br>
+     Los dispositivos de almacenamiento externo se pueden {desconectar}
+     con facilidad del ordenador para ser transportados.
+     <br>
+     Su velocidad suele ser más lenta que la de los métodos de
+     almacenamiento {interno}, pero presentan la ventaja de su
+     mayor movilidad y facilidad de transporte.
+
+- Title:
+  Cloze:
+     <strong>Memoria USB</strong>
+     <br>
+     La memoria USB es una memoria externa basada en tecnología {flash}
+     con conexión al ordenador de tipo USB.
+     <br>
+     Su capacidad máxima aumenta con los años debido a la ley de {Moore}.
+     En 2022 se puede comprar una memoria USB de 512 gigabytes por un
+     precio de unos {40} Euros.
+     <br>
+     La velocidad de {lectura} suele ser menor que la de un disco duro
+     y la velocidad de escritura suele ser mucho {menor} en la mayoría
+     de los dispositivos.
+
+- Title:
+  Cloze:
+     <strong>Tarjeta SD</strong>
+     <br>
+     La memoria en tarjeta SD se basa en la misma {tecnología} que
+     las unidades de memoria USB y tiene rendimientos semejantes.
+     <br>
+     El estándar de conexión de la tarjeta SD es más {sencillo} que
+     el estándar USB. Además el tamaño físico de las tarjetas SD suele
+     ser menor que el de los {pendrive}, especialmente en las
+     tarjetas microSD.
