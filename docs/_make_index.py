@@ -27,96 +27,97 @@ index_data = [
    {
       "header" : ["materiales", "Materiales"],
       "links": [
-         ["es-material-properties.html", "Propiedades de los materiales"],
-         ["es-material-wood.html", "La madera"],
-         ["es-material-metals.html", "Los metales"],
-         ["es-material-plastics.html", "Los plásticos"],
-         ["es-material-stone.html", "Los materiales pétreos"],
-         ["es-material.html", "Test global de materiales"],
+          ["es-material-properties.html", "Propiedades de los materiales"],
+          ["es-material-wood.html", "La madera"],
+          ["es-material-metals.html", "Los metales"],
+          ["es-material-plastics.html", "Los plásticos"],
+          ["es-material-stone.html", "Los materiales pétreos"],
+          ["es-material.html", "Test global de materiales"],
       ]
    },
    {
-      "header" : ["maquinas", "Máquinas y Mecanismos"],
+      "header" : ["mecanica", "Mecánica"],
       "links": [
-           ["es-machines-simple.html", "Máquinas simples"],
-           ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
-           ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
-           ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
-           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
-           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
-           ["es-machines.html", "Test global de Máquinas y Mecanismos"],
-           ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
+          ["es-machines-simple.html", "Máquinas simples"],
+          ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
+          ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
+          ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
+          ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
+          ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
+          ["es-machines.html", "Test global de Máquinas y Mecanismos"],
+          ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
+          ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
        ]
    },
    {
       "header" : ["neumatica", "Neumática"],
       "links": [
-           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
-           ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
+          ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
+          ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
        ]
    },   {
       "header" : ["electricidad", "Electricidad"],
       "links": [
-           ["es-electric-introduction.html", "Fundamentos"],
-           ["es-electric-components-type.html", "Tipos de componentes"],
-           ["es-electric-components-name.html", "Nombre de componentes (test)"],
-           ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
+          ["es-electric-introduction.html", "Fundamentos"],
+          ["es-electric-components-type.html", "Tipos de componentes"],
+          ["es-electric-components-name.html", "Nombre de componentes (test)"],
+          ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
 
-           ["es-electric-color-code-1.html", "Código de colores 1"],
-           ["es-electric-color-code-2.html", "Código de colores 2"],
+          ["es-electric-color-code-1.html", "Código de colores 1"],
+          ["es-electric-color-code-2.html", "Código de colores 2"],
 
-           ["es-electric-units-change.html", "Cambio de unidades"],
-           ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
-           ["es-electric-circuits.html", "Circuitos eléctricos"],
+          ["es-electric-units-change.html", "Cambio de unidades"],
+          ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
+          ["es-electric-circuits.html", "Circuitos eléctricos"],
 
-           ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
-           ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
+          ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
+          ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
 
-           ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
-           ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
-           ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
+          ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
+          ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
+          ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
 
-           ["es-electric-power.html", "Potencia"],
-           ["es-electric-energy.html", "Energía"],
-           ["es-electric-breadboard.html", "Breadboard"],
-           ["es-electric-digital.html", "Electrónica digital"],
+          ["es-electric-power.html", "Potencia"],
+          ["es-electric-energy.html", "Energía"],
+          ["es-electric-breadboard.html", "Breadboard"],
+          ["es-electric-digital.html", "Electrónica digital"],
        ]
    },
    {
       "header" : ["controladores", "Control Automático"],
       "links": [
-           ["es-control-introduction.html", "Introducción al control automático"],
+          ["es-control-introduction.html", "Introducción al control automático"],
        ]
    },
    {
       "header" : ["hardware", "Hardware y Software"],
       "links": [
-           ["es-hardware-intro.html", "Introducción al hardware"],
-           ["es-hardware-unidades.html", "Unidades de medida"],
-           ["es-hardware-ley-moore.html", "Ley de Moore"],
-           ["es-hardware-pc.html", "Hardware del ordenador personal"],
-           ["es-hardware-placa-base.html", "Placa base"],
+          ["es-hardware-intro.html", "Introducción al hardware"],
+          ["es-hardware-unidades.html", "Unidades de medida"],
+          ["es-hardware-ley-moore.html", "Ley de Moore"],
+          ["es-hardware-pc.html", "Hardware del ordenador personal"],
+          ["es-hardware-placa-base.html", "Placa base"],
 
-           ["es-hardware-procesadores-1.html", "Procesadores I"],
-           ["es-hardware-procesadores-2.html", "Procesadores II"],
-           ["es-hardware-procesadores-3.html", "Procesadores III"],
-           ["es-hardware-procesadores-4.html", "Procesadores IV"],
+          ["es-hardware-procesadores-1.html", "Procesadores I"],
+          ["es-hardware-procesadores-2.html", "Procesadores II"],
+          ["es-hardware-procesadores-3.html", "Procesadores III"],
+          ["es-hardware-procesadores-4.html", "Procesadores IV"],
 
-           ["es-hardware-perifericos-1.html", "Periféricos I"],
-           ["es-hardware-perifericos-2.html", "Periféricos II"],
-           ["es-hardware-perifericos-3.html", "Periféricos III"],
-           ["es-hardware-perifericos-4.html", "Periféricos IV"],
+          ["es-hardware-perifericos-1.html", "Periféricos I"],
+          ["es-hardware-perifericos-2.html", "Periféricos II"],
+          ["es-hardware-perifericos-3.html", "Periféricos III"],
+          ["es-hardware-perifericos-4.html", "Periféricos IV"],
 
-           ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
-           ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
-           ["es-hardware-almacenamiento-3.html", "Almacenamiento III"],
+          ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
+          ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
+          ["es-hardware-almacenamiento-3.html", "Almacenamiento III"],
        ]
    },
    {
       "header" : ["tecnologia", "Tecnología y Sociedad"],
       "links": [
-           ["es-technology-society-history.html", "Historia de la tecnología"],
-           ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
+          ["es-technology-society-history.html", "Historia de la tecnología"],
+          ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
        ]
    },
 ]

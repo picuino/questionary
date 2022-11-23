@@ -1,0 +1,3342 @@
+﻿<!DOCTYPE html>
+<html lang="es-es">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <!--
+   Copyright (c) 2022 Carlos Pardo
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Mecánica - Medidas con calibre - Picuino">
+   <title>Test Medidas con calibre - Mecánica - Picuino</title>
+   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
+   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
+   <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
+
+   <style>
+      body {
+        background-color: #efefef;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        min-width: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 0;
+      }
+
+      h1 {
+        font-size: 32px;
+        text-align: center;
+        color: #094070;
+        margin: 32px 0 12px 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        font-weight: 700;
+      }
+
+      .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding-bottom: 20px;
+      }
+
+      .container > * {
+        width: 100%;
+      }
+
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+        padding: 0 6px;
+      }
+
+      .flex-center {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      ul, ol {
+        padding: 0 0 0 40px;
+        margin: 0;
+      }
+
+
+      /* BUTTONS */
+
+      .btn {
+        font-size: 18px;
+        padding: 8px 0;
+        width: 240px;
+        text-align: center;
+        border: 1px solid #094070;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #094070;
+        background-color: white;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
+        transform: translateY(-1px);
+        transition: transform 150ms;
+      }
+
+      .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+
+
+      /* COOKIESBAR */
+
+      #cookiesbar {
+        font-size:16px;
+        line-height:1.5em;
+        display:block;
+        position:fixed;
+        bottom:0;
+        text-align:center;
+        max-width:760px;
+        padding:20px 20px;
+        margin-right:14px;
+        background-color: rgba(40,40,40,0.95);
+        color:#fff;
+        z-index: 1200;
+      }
+
+      #cookiesbar a {
+        display:inline-block;
+        padding:4px 8px;
+        color:#e0e000;
+        text-decoration:none;
+      }
+
+      #cookiesbar a:hover {
+        background-color: #444;
+      }
+
+
+      /* FOOTER */
+
+      .footer {
+        color: White;
+        background-color: #094070;
+        margin-top: 64px;
+        padding: 12px;
+        border-top: 2px solid #094070;
+        line-height: 200%;
+        text-align: center;
+      }
+
+      .footer p {
+         margin: 4px 0;
+      }
+
+      .footer a, .footer a:visited {
+        text-decoration: none;
+        font-size: 12px;
+        display: inline-block;
+        color: White;
+        padding: 0 2px 2px;
+        margin-right: 12px;
+      }
+
+      .footer a:hover {
+        color: #094070;
+        background-color: #ecf5ff;
+      }
+
+      .choice-container {
+        display: flex;
+        margin-bottom: 6px;
+        width: 100%;
+        font-size: 18px;
+        background-color: white;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .choice-container:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+          transform: translateY(1px);
+          transition: transform 150ms;
+        }
+      }
+
+      .choice-prefix {
+        padding: 10px 18px;
+        background-color: #094070;
+        color: white;
+        user-select: none;
+      }
+
+      .choice-text {
+        padding: 10px;
+        width: 100%;
+        user-select: none;
+      }
+
+      .correct {
+        background-color: #00ff60;
+      }
+
+      .incorrect {
+        background-color: #ff2000;
+        text-decoration: line-through;
+      }
+
+      #questionImage {
+        margin-bottom: 24px;
+        height: auto;
+        max-width:100%;
+      }
+
+      .header {
+         margin-top: 0;
+         font-size: 32px;
+      }
+
+      /* HUD */
+
+      #hud_id {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 12px;
+      }
+
+      .hud-prefix {
+        text-align: center;
+        font-size: 24px;
+        margin: 12px 0;
+      }
+
+      .hud-main-text {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #094070;
+        margin: 12px 0;
+      }
+
+      #progress_bar_id {
+        width: 200px;
+        height: 40px;
+        border: 3px solid #094070;
+        margin-top: 15px;
+      }
+
+      #progress_bar_full_id {
+        height: 40px;
+        background-color: #094070;
+        width: 0%;
+      }
+
+
+      /* CLOZE QUESTIONS */
+
+      .question_frame {
+         margin: 0 0 12px 0;
+         padding: 8px 6px;
+         background-color: white;
+         border: 2px solid #094070;
+         border-radius: 12px;
+      }
+
+      .question_image_div {
+         text-align: center;
+      }
+
+      .question_image {
+         margin-bottom: 12px;
+         height: auto;
+         max-width:100%;
+      }
+
+      br {
+         margin: 0; 
+      }
+
+      .question_text {
+         font-size: 20px;
+         line-height: 160%;
+         padding-bottom: 12px;
+         min-height: 80px;
+      }
+
+      .gap_span, .gap_box {
+         font-weight: bold;
+      }
+
+      input {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         padding: 1px;
+         width: 125px;
+         border: 1px solid #094070;
+         border-radius: 8px;
+         box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      }
+
+      .buttons {
+         text-align: center;
+         margin-top: 24px;
+         line-height: 50px;
+      }
+
+      button {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         padding: 4px 8px;
+         margin-right: 12px;
+         cursor: pointer;
+         text-align: center;
+         border: 1px solid #094070;
+         border-radius: 8px;
+         box-shadow: 0.2em 0.3em 0.2em #888;
+      }
+
+      button:last-child {
+         margin-right: 0;
+      }
+
+      .button:hover {
+         background-color: #3e8e41
+      }
+
+      .button:active {
+         background-color: #3e8e41;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+      }
+
+      .message {
+         display: none;
+         z-index: 10;
+         height: 0;
+         max-width: 75%;
+         min-width: 300px;
+         padding: 0 6px;
+         margin: 0 auto;
+      }
+
+      .message2 {
+         background-color: #eef;
+         padding: 12px;
+         height: auto;
+         box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
+         border-radius: 16px;
+         position: relative;
+         top: 32px;
+         text-align: center;
+         border: 2px solid #094070;
+         border-radius: 1rem;
+         margin: 0px auto;
+      }
+
+      #message_text_id {
+         padding-bottom: 1rem;
+         min-height: 6px;
+      }
+   </style>
+
+</head>
+
+<body>
+   <div class="container"> <div class="justify-center flex-column">
+
+      <!-- HUD -->
+      <div id="hud_id">
+         <div>
+            <p class="hud-prefix" id="hud_page_id">Page</p>
+            <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
+         </div>
+         <div>
+            <p class="hud-prefix">Puntos</p>
+            <p class="hud-main-text" id="score">0</p>
+         </div>
+      </div>
+
+      <!-- Main content -->
+      <h1 class="header" id="header_id">Título</h1>
+
+      <div class="message" id="message_id"><div class="message2">
+      <div class="question_text" id="message_text_id">Mensaje.</div>
+      <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
+      </div></div>
+
+      <div class="question_frame" id="question_frame_id"></div>
+
+      <div class="buttons" id="buttons_id"></div>
+
+
+      <!-- Footer -->
+      <div class="footer">
+      <a href="https://www.picuino.com/es/contacto.html" target=”_blank”>Contacto</a>
+      <a href="https://www.picuino.com/es/legal-aviso.html" target=”_blank”>Aviso legal</a>
+      <a href="https://www.picuino.com/es/legal-cookies.html" target=”_blank”>Política de Cookies</a>
+      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target=”_blank”>Créditos</a>
+      <a href="https://github.com/picuino/questionary/" target=”_blank”>GitHub</a>
+      <a href="https://www.picuino.com/test/index.html">Índice</a>
+
+      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
+      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target=”_blank”>Creative Commons Attribution-ShareAlike 4.0</a></p>
+      </div>
+
+      <!-- Cookies Advise -->
+      <div id="cookiesbar" style="display: none">
+      Esta página web utiliza cookies propias y de terceros
+      para propósitos funcionales y de análisis de navegación.
+      Puedes obtener más información en nuestra
+      <a href="https://www.picuino.com/es/legal-cookies.html"
+      target="_blank">política de Cookies.</a><br>
+      Si continúas navegando, aceptas su uso.
+      <br>
+      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+      </div>
+      <script>
+      if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+      function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+      function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+      function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
+      </script>
+
+      <!-- Matomo -->
+      <script>
+      if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//www.picuino.com/matomo/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      }
+      </script>
+   <!-- End Matomo Code -->
+
+   </div> </div>
+
+   <script>
+      const show_max = 30;
+      const questions_title = "Mecánica. Medidas con calibre.";
+      const questions_encoded = [
+         {
+            "Image": ["images/d616337923b0f8df1638.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/60b99398c0f643e378dc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/30fbd336640decde2fe9.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/cea3a34beb0504ab9cbf.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/f463122176e8b12fb334.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/81779dba04d960f6ce8b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c86b30c5738480e3b8f3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/3b46095e66b5f1551f7f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/54fb487f17eac6db3f1e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/44988e3f799dd190dd0c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MC45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/a310fd6e8d56196902ed.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/20e70c61b5c4e3e8cfaa.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1f4492a2f4b49007699d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c810ef93dd666ea65016.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/9ae64dcc96b23fa9538e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/a069fa9a9b7f7d8a6096.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/3c6320aa357b325464d5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/ab354728c9c466c22638.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/82b963d92dfb3c6f086e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/b5b7ad8a865d8e46f2d8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MS45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/d5bdb0a02ac3b6c60c05.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/5fc4982db61bced5e697.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/9f6e3d802950a11f6c3e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/130350f799b93d8e2a46.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c43d644ce474310bdac2.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/deb95c511bfd88ef689f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/291bc901a48bd91b6b8e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/8366cacf40239f104bc0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/05572d7ae350a0e9e061.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/b855419631689b61de00.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Mi45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/4bc728772ffc7571da01.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/43f0f8607a7a592063c9.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1db3c326bea875f5f5e6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/639a04527a1cfe1a4051.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/fcb7a18ce4f5dd8edd93.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/0d572e9f38be55f68ad4.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/b3a873bba3bf85224112.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/19e05cbf6332cab89586.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1d602c49933b395afd17.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/cef2a460208de6b0794e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['My45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/21b5bd299b865b30f9bd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/f55b1fe3d9bc5569a340.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/67a463d6ae83505f6815.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/0296037ebfd600fb8824.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/11bbf4acc1acee0653d8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/28a1b2cdb125ca45878e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/388dd07e37dab02040e6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/94dc4574465960123b3f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1c6942be66ddcd930cf0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/556f12526aec1a2ae526.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NC45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/f1970d37ba289e6884d0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/a098c83b0d27daceb0b8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/6a77f2c0958199bec9a6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/9c0be4210925671ed365.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/cb63a2e802fc85effa03.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/f7eaad82980ced42a532.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/fba68957a7de15a2caa4.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/8cec0a096a19dc4d558a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/7205c77d5981f17fc6dc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/5d312ac448cbc2ff7470.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['NS45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/3e7b6244ed042b1d8f7a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/a82a296c0260881aeaed.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/a19b4d8847d0e509ac85.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/6069025e3139078d95a6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/e436d93e0319121e4c1c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/ca89eeba7549acb73e81.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/ad1f7e16285fd3043d5f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/cd5fbf851ec575ceb1e5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/209f06911002db398467.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/ed1c43bca58cdf455d69.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ni45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c2cda4f95920280d26e8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/7a90b9ed6e66a6276097.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/40f4113fac389bc9f245.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/e7a17a10f86f3cfabc9b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1d4d178d82ef025058d1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c799efe9c4eaa855915f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/476164a11b6f8f6b11f2.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/74d8d6f4f5dde57d1e25.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/7d1b16c87953470da4dd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/b723c25d681bba719d53.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['Ny45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/2b4294988686dd6b2ae4.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/2e3d15c18bfaa4b179f0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/58e7107d962ee2b18987.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/922c97f4100dcc9854a5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/60e34550c885864d6d41.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/02bc421960e2b7698cd0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/5a9afc9bac4c035dc01a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/ca170e357602075984fb.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/8a7b0806c60288a861e0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/646632f221137e8906e0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OC45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/2974daec55a18762aaf3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS4w'],
+            ]
+         },
+         
+         {
+            "Image": ["images/edcdc1d81da00134790d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS4x'],
+            ]
+         },
+         
+         {
+            "Image": ["images/4c52e91c150eab332d1e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS4y'],
+            ]
+         },
+         
+         {
+            "Image": ["images/fd8459e7c76f18836179.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS4z'],
+            ]
+         },
+         
+         {
+            "Image": ["images/fa7e0420f43f24a6934d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS40'],
+            ]
+         },
+         
+         {
+            "Image": ["images/26c5c504b3a668006bd8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS41'],
+            ]
+         },
+         
+         {
+            "Image": ["images/20b8403c5d495a806a4e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS42'],
+            ]
+         },
+         
+         {
+            "Image": ["images/7f32991992163a924b9a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS43'],
+            ]
+         },
+         
+         {
+            "Image": ["images/876eddcc2080c996565f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS44'],
+            ]
+         },
+         
+         {
+            "Image": ["images/1d42d03da4708031dcdc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['OS45'],
+            ]
+         },
+         
+         {
+            "Image": ["images/0bd9cda961f53176d8e3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/559a779bb66ca63fa420.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e62eb7816abf27fd0b4b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/41e6d4e8f8e1cc76c5df.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9420f525ab180010b79d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/dd83535ee43a746d84ec.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c471a2200908dd769f7d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c0c0b38785d85b109997.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7f890f83e9bec2ffeefe.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/3ee40f7ebcdd084854b6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTAuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/80cb408454259e3783a8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9c62f8f011127ec3eb65.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/57374fb02aec8797b149.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5f7b73b2a3caecd1a2f9.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/880ddccc4e1a33bf9349.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8f55a9505664708d57bf.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a928437c06dfd2bc3964.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/901585aa9c40c19ccba8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/493efbb46a90f86f8b69.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f602ff0e0e2b5baef096.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTEuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9dcbe77e1b8b4a101570.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/bf54a36a5490e9042556.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/faac602102c2fcb8a794.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/aa715005cbb34b1a2ef0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/09475038eb2dbdbee297.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a4e4532d726bb2b2f72f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c62a53a415e7c5f7b7f0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d6f6bb8966b73dcfa641.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8013a73256f7c5b0e377.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7dc0f3672dffeeee08da.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTIuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a1466a2393c25c57eb2a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/6ecec472916fc9fca2e5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/0760dbe784a648497118.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8f3bf83b68d69bae05aa.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c147c58cd9713bf30aaf.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5f8bb19b57f8cf64ab5a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5e40416ef9a466c25cbd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/42bc6ffbb9c602cc25dc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/b4a5c2234dae2be25b7c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1d820f88884afe84f11b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTMuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1a4b5fe1b53c3a0880c3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c94863d4abc85b6a9d94.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a4018cf27c2ea29ed1d6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/82d14100b7f89ea2302c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9de1974e08a307632846.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d80c37959478515837d4.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/6371b24711c23d6d632f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/ab5efd4a6a934afbed57.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/feaacc389cbef5e7dad3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c3e02846f5b99a928c96.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTQuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c194b69ad516f7828040.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8136f3664ab82d5fdc7e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/39fde7316592ee1dad3d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c66ae62f8e2e6ab218aa.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/cdab425f30330aa3869b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/31f9981e7a1a3c2a6c5f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/6a9699a9451e07ebd08f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/416b87c6ac4e71080990.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/35a4f33803b574581d3e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a331ec185f3750b6e30b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTUuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/742d0aef737d0bb3e5eb.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a1531b7fc6e51ed5d81d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9c699454c434e4ccd37b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/2781a60eb3e73e6dc707.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/007f8a3a30a5c0e6fffc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/35e8d6108fc487c9b951.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f02bc8d7362f809301eb.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/803c65b9a9df2ee1ba99.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/51b8655f46cf63bbd031.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f796cd0c5403487e08ac.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTYuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/24ea2d7ab87e84c8be44.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/340d3292329d18fb3ebc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/ef0edd78eeb3a2d77c5c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c4f70086f5b02c9d8f6a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/47a8c2cb9d1361dba09a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/95bcc1f371ac77c4ef54.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d7358e937ef56cbaa890.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/42db4ea26e857dc1324b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/387256cff634a7049d14.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/dfc052d15c9fee04139d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTcuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/79c4a4a4c7d07e441a9c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/924d2f85f4decbd592bc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d272219cd8b8fdad6a6b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/940b89824d6319c440e4.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e5b06d74afec6c75d27a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/443f456acb9ead5a7be8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/35340a11473398adcbc3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/34d986627497ede94bea.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7f3d152acc36a4806835.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/009e9d06de38cc8ceedd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTguOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/22c6506db44488ad64d5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/21729c2939a468247a81.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/bbb127a927b778f6550d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/77550c7796ed26cf2ffc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/b4de3821ef1da6b2be27.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/3a30be0f24dfdbe385d5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/14b05f0423b157671a55.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7dff1b4975966cc47172.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e20a29c901030c597095.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/262a9d2dbb4ea0421469.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MTkuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d1615cc0c7918997fbda.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/0e898fd087e181343376.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/329a0d3409e0ca73088b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d33f64756ae387a9d038.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/2c3039065cd3938e3cba.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/46d949d49c51b30fb2f1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/731d503ea21a82d77652.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/babf8ba685862cad17ba.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/47ce0d5d4f7a72907b18.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9428ec258043b45bba76.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjAuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a2ba76b1872aae030df0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/cab2b85c183f9f5112b3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/36e9b2c668cd484c95a1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8706c8acdcb3b92912e5.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8c0ede2f9962d6c90682.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5be2995b859446d37926.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/55d9c2cef41a7bf8596a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c25d54613dc104f1643a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/989f469dc469002c2a9f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/26f9219a6af8dfbdad01.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjEuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/bf3eaa0d6c5727699bec.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e316fb0142b7767306c7.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/50e77259e3d456f10b46.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7d4d27668e6062803b32.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/11bc2131c34f4b59c526.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8e0df11ce676622ca014.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7ed98ca820c0ccb50668.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/4d43d5385255dc975005.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/11fbe17294580940a3e7.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/fea2aaffeb83ddf87428.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjIuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/70997f9e90f677a2affc.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/beef3588c00611c61665.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1e31b297ff91bd8331ec.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9938234f49fc4541b47b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5bd7b9c426477202adc3.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/9a6ab3e60ebbdb7a2376.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/21857fdb195a10dd845d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e0b88ef48fb63672c5aa.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1656cf6ad369530549d0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/0d1248f3f46e6eb88322.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjMuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/830d94cf1bae8c3f6d40.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7c937bdffa3213be3741.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/ae9b719dc930ace14210.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/69df803e132ef6e910a1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7a482b497c046d31e050.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d8d036638ef3323e0c09.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e577d22369b08ecc309b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f09e2562758ae2dc10a8.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/71b126ee7a6d1d2b8181.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/de36a031d86ef7bc51ae.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjQuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f5d2981a3b914921d625.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7faf8f2559c698b7c41b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/ed9a492c818b83e9f29a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5e49c938b64fa846138c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e57f59616f3d57380d89.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8eb068dffcef85e140cf.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/113a21a36d63af07462b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8e57168baa36ed6e9c38.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d85ba672bb022bf46544.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d1711c9fed3c68d7f6dd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjUuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/996fe260b3db2f21161d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c12ce68be4a4ce51a377.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1d5082042461d260ca3a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1ec4831846fcfb9a5eba.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/3bc10015aab4e7b2caae.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/2699ceb75bb50acbf26a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5ee8a762579d58cb5b7a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/3b1e559ed91b944cc2bd.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d513d2221f7353949f1a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/32217eb7ce59bc9bede7.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjYuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f8b7783f73b6f05bf577.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/134eb39a39dfe3d17e4f.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/505e20730579f3b2d5d1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/5069f1dd99d18758a13c.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c57385f47c7fe48c6bb1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/80aa773c21af1e7f78b2.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d22842e13876d27b1185.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/033d644eceae148351c0.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/ce91451707fec2c1bfd2.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/a3a6d3ac897d9abdfa90.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjcuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/c72b18e29d1ceac6ad18.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/2d67ed28e9e3173bdb7a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e16df04cceaf1f8ca566.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/0117a15cbab7587fcd7a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/7b2b149214fee635d963.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/d70093eac569733c18d7.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/1e4dc8561b13e513df85.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/82bd7088b7559329bbd6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/b3e7562097c7bcc702c1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/99a1e6b38af7edba2444.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjguOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/31fe87595c305a247d82.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/bcd831b207a7534c788a.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuMQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/fd7872a207e6b36b5307.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuMg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/3386ccaa1a75fcada553.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuMw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/8d34c3cc9ac0a6a40c3d.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/6a88bdffb8fb7e0a67f1.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuNQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/427be236e811613d3d2b.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuNg=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/e494c1db009af4bd7018.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuNw=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/21db621da074d614cde6.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuOA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/0e008b5af9f8dabf1f23.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MjkuOQ=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/86600d5ea0c20c94fd0e.png", "800"],
+            "Cloze": "wr9RdcOpIG1lZGlkYSBlc3TDoSB0b21hbmRvIGVzdGUgY2FsaWJyZT8gPGJyPjxicj4gTWVkaWRhID0gezB9IG1t",
+            "Gaps": [
+               ['MzAuMA=='],
+            ]
+         },
+         
+      ]
+
+      const time_between_clues = 2000;
+      var questions_pages = 0;
+      var gap_selected = 0;
+      var page = 0;
+      var gaps_total = 0;
+      var gaps_values = [];
+      var points_total = 0;
+      var gaps_not_solved = 0;
+      var watermark = 0;
+      var interval;
+
+      if (!String.prototype.format) {
+         String.prototype.format = function() {
+            var args = arguments;
+            return this.replace(/{(\d+)}/g, function(match, number) {
+               return typeof args[number] != 'undefined'
+                  ? args[number]
+                  : match
+               ;
+            });
+         };
+      }
+
+      page_reset();
+
+      function page_reset() {
+         page = 0;
+         points_total = 0;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
+         gaps_total = questions_gaps();
+         gaps_values = get_gaps_values();
+         gaps_not_solved = 0;
+         fill_question_text(page);
+         message_hide();
+         hud_show();
+      }
+
+      function bin_atob(str) {
+         return decodeURIComponent(atob(str).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+      }
+
+      function questions_sort(len) {
+         new_questions = JSON.parse(JSON.stringify(questions_encoded));
+         questions_sorted = new Array;
+         for(i=0; i<len; i++) {
+            rnd = Math.floor(Math.random() * new_questions.length);
+            questions_sorted[i] = new_questions[rnd];
+            questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
+            for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
+               for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
+                  questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
+               };
+            };
+            new_questions.splice(rnd, 1);
+         }
+         return questions_sorted;
+      }
+
+      function get_gaps_values() {
+         var gaps_values = [];
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps_values[page] = [];
+            for(var i=0; i<questions_sorted[page]["Gaps"].length; i++) {
+               gaps_values[page][i] = string_to_binary_array(questions_sorted[page]["Gaps"][i][0]);
+            };
+         };
+         return gaps_values;
+      }
+
+      function string_to_binary_array(str, chr) {
+         array = [];
+         if (str.length == 1) {
+            array[0] = 1;
+            return array;
+         }
+
+         // Valor de las sucesivas letras de una palabra
+         for(var i=0; i<str.length; i++) {
+            // Exponencial
+            //array[i] = 100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1);
+            // Lineal
+            array[i] = 100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length);
+         };
+         return array;
+      }
+
+      function add_terms(array) {
+         sum = 0;
+         for(var i=0; i<array.length; i++) {
+            sum += array[i];
+         }
+         return sum;
+      }
+
+      function questions_gaps() {
+         var gaps = 0;
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps += questions_sorted[page]["Gaps"].length;
+         };
+         return gaps;
+      };
+
+      function final_score_fill() {
+         // Load values
+         title = sessionStorage.getItem("last_questions_title");
+         if (title === null) {
+            title = "Puntuación no almacenada";
+         }
+         points = sessionStorage.getItem("last_questions_points");
+         if (points === null) {
+            points = 0;
+         }
+
+         // Hide HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "none";
+
+         // Big header
+         var header_element = document.getElementById("header_id");
+         header_element.innerHTML = title;
+         header_element.style.fontSize = "48px";
+         header_element.style.paddingTop = "32px";
+
+         // Show points
+         var question_frame_element = document.getElementById("question_frame_id");
+         if (watermark == 1) {
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>- - - - - - -</h1>");
+            watermark = 2;
+         }
+         else {
+            question_frame_element.innerHTML = "";
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>= = = = = =</h1>");
+            watermark = 1;
+         }
+         buttons_final_score_fill();
+      };
+
+      function buttons_questions_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = ''
+         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
+         + '<button class="func_button" onclick="show_clue()">Pista</button>'
+         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+      }
+
+      function buttons_final_score_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
+      }
+
+      function message_show(message) {
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = message;
+         var message_element = document.getElementById("message_id");
+         message_element.style.display = "inline";
+         var button_element = document.getElementById("message_button_id");
+         button_element.focus();
+      }
+
+      function message_hide() {
+         var message_element = document.getElementById("message_id");
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = "";
+         message_element.style.display = "none";
+
+         focus_empty_gap();
+      }
+
+      function focus_empty_gap() {
+         var num_gaps = 0;
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+
+         while (1) {
+            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+            if (gap_element) {
+               gap_element.focus();
+               break;
+            }
+            gap_selected += 1;
+            if (gap_selected > gaps_length) {
+               gap_selected = 0;
+            }
+            num_gaps += 1;
+            if (num_gaps > 100) {
+               break;
+            }
+         }
+      }
+
+      function next_page() {
+         message_hide();
+
+         // Check gaps
+         var gaps_not_solved = count_blank_answers();
+
+         // Check if all gaps are filled
+         if (gaps_not_solved > 0) {
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
+            return;
+         };
+
+         // Go to next page or final page
+         page++;
+         if (page < questions_sorted.length) {
+            hud_show();
+            fill_question_text(page);
+         }
+         else {
+            sessionStorage.setItem('last_questions_title', questions_title);
+            sessionStorage.setItem('last_questions_points', points_total);
+            interval = setInterval(final_score_fill, 500);
+         }
+
+         // Init variables
+         gap_selected = 0;
+      };
+
+      function last_score() {
+         interval = setInterval(final_score_fill, 500);
+      }
+
+      function questions_page_gaps(page) {
+         return questions_sorted[page]["Gaps"].length;
+      }
+
+      function fill_question_text(page) {
+         message_hide();
+         points_page = 0;
+
+         // Fill header
+         var header_element = document.getElementById("header_id");
+         header_element.innerHTML = questions_title;
+         header_element.style.fontSize = "32px";
+         header_element.style.paddingTop = "0px";
+
+         // Fill question frame HTML
+         var question_frame_element = document.getElementById("question_frame_id");
+         question_frame_element.innerHTML = ''
+         + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
+         + '<div class="question_text" id="question_text_id"></div>';
+
+         // read variables
+         var question_text = questions_sorted[page]["Cloze"];
+         var question_image = questions_sorted[page]["Image"][0];
+         var question_image_size = questions_sorted[page]["Image"][1];
+
+         // Image
+         image_code = '<img class="question_image" src="{0}"{1}>';
+         if (question_image_size) {
+            var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
+         }
+         else {
+            var image_values = [question_image, ''];
+         };
+         image_code_formatted = image_code.format(...image_values);
+         var question_image_element = document.getElementById("question_image_div_id");
+         if (question_image) {
+            question_image_element.innerHTML = image_code_formatted;
+         }
+         else {
+            question_image_element.innerHTML = "";
+         };
+
+         // Question text
+         gaps_length = questions_sorted[page]["Gaps"].length;
+         gaps_not_solved = gaps_length;
+         gap_span = new Array(gaps_length);
+         gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
+         + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
+         + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
+         for (var i=0; i<=gaps_length; i++) {
+            gap_span[i] = gap_span_code.format(i);
+         };
+         var question_text_formatted = question_text.format(...gap_span);
+         var question_text_element = document.getElementById("question_text_id");
+         question_text_element.innerHTML = question_text_formatted;
+
+         // Buttons
+         buttons_questions_fill();
+         clearInterval(interval);
+
+         // Focus first gap
+         var gap_element = document.getElementById("gap_0");
+         if (gap_element) {
+            gap_element.focus();
+         }
+      }
+
+      function hud_show() {
+         // Show HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "flex";
+
+         // Page HUD
+         var hud_page_element = document.getElementById("hud_page_id");
+         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+
+         var progress_bar_full_element = document.getElementById("progress_bar_full_id");
+         var width = ((page + 1) / questions_sorted.length) * 100;
+         progress_bar_full_element.style.width = `${width}%`;
+
+         // Points
+         var score_element = document.getElementById("score");
+         score_element.innerHTML = Math.round(points_total);
+      };
+
+      function onkeypress_handle(gap, event) {
+         if (event.keyCode == 13) {
+            event.preventDefault();
+            check_answers();
+         };
+      };
+
+      function check_answers() {
+         message_hide();
+
+         gaps_not_solved = count_blank_answers();
+
+         if (gaps_not_solved > 0) {
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
+         }
+         else {
+            message_show("Todos los huecos están resueltos."
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+         }
+      };
+
+      function count_blank_answers() {
+         // Leer gaps y comprobar que son correctos
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_not_solved = gaps_length;
+
+         for (var i=0; i<gaps_length; i++) {
+            var gap_element = document.getElementById("gap_{0}".format(i));
+            if (gap_element === null || gap_element === 'undefined' ) {
+               gaps_not_solved -= 1;
+               continue;
+            };
+            var gap_text = gap_element.value.toLowerCase().trim();
+            gap_text.replace(/\s\s+/g, ' ');
+            num_answers = questions_sorted[page]["Gaps"][i].length;
+            for (var j=0; j<num_answers; j++) {
+               answer = questions_sorted[page]["Gaps"][i][j];
+               if (gap_text === answer.toLowerCase()) {
+                  var gap_span_element = document.getElementById("gap_span_{0}".format(i));
+                  gap_span_element.innerHTML = answer;
+
+                  points_total += add_terms(gaps_values[page][i]) / gaps_total;
+                  hud_show();
+                  gaps_not_solved -= 1;
+                  break;
+               };
+               answer = "";
+            };
+            gap_text = "";
+         };
+         return gaps_not_solved;
+      }
+
+      function select_gap(num) {
+         gap_selected = num;
+      };
+
+      var timeout_clue = 0;
+
+      function reset_timeout_clue() {
+         timeout_clue = 0;
+      }
+
+      function show_clue() {
+         message_hide();
+         if (timeout_clue !== 0) {
+            return;
+         }
+         timeout_clue = 1;
+         setTimeout(reset_timeout_clue, time_between_clues);
+
+         var gaps_visited = 0;
+         gaps_length = questions_sorted[page]["Gaps"].length;
+         if (gap_selected < 0 || gap_selected >= gaps_length) {
+            gap_selected = 0;
+         };
+         while (true) {
+            while (true) {
+               if (gaps_visited >= gaps_length) {
+                  message_show("Todos los huecos están resueltos."
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+                  return;
+               }
+               if (gap_selected >= gaps_length) {
+                  gap_selected = 0;
+               }
+               var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
+               var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+               if (gap_element === null) {
+                  gap_selected += 1;
+                  gaps_visited += 1;
+                  continue;
+               }
+               else {
+                  break;
+               };
+            }
+            var gap_text = gap_element.value.toLowerCase();
+            var i = 0;
+            while (true) {
+               if (i >= correct_answer.length) {
+                  if (gap_text.length > correct_answer.length) {
+                     // Correct gap answer with more letters
+                     gap_element.value = gap_element.value.substr(0, correct_answer.length);
+                     gap_selected++;
+                     return;
+                  }
+                  // next gap
+                  gap_selected++;
+                  if (gap_selected >= gaps_length) {
+                     return; // No gap to fill
+                  };
+                  // Go to next gap
+                  break;
+               };
+               if (i >= gap_text.length) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
+                  return;
+               };
+               if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
+                  return;
+               };
+               i++;
+            };
+         };
+      };
+
+   </script>
+
+</body>
+
+</html>

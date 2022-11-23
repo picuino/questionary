@@ -39,7 +39,14 @@ se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
 Se puede leer el texto de la licencia en el enlace: 
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
-![](images/thumbs/mecan-poleas-01br.png)
+![](images/thumbs/mecan-calibre-0000n.png)
+![](images/thumbs/mecan-calibre-0050n.png)
+![](images/thumbs/mecan-calibre-0100n.png)
+![](images/thumbs/mecan-calibre-0150n.png)
+![](images/thumbs/mecan-calibre-0200n.png)
+![](images/thumbs/mecan-calibre-0250n.png)
+![](images/thumbs/mecan-calibre-0300n.png)
+
 ![](images/thumbs/mecan-poleas-01r.png)
 ![](images/thumbs/mecan-poleas-02br.png)
 ![](images/thumbs/mecan-poleas-02r.png)
