@@ -111,6 +111,8 @@ index_data = [
           ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
           ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
           ["es-hardware-almacenamiento-3.html", "Almacenamiento III"],
+          ["es-hardware-almacenamiento-4.html", "Almacenamiento IV"],
+          ["es-hardware-almacenamiento-5.html", "Almacenamiento V"],
        ]
    },
    {

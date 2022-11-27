@@ -23,7 +23,7 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="description" content="Test online de {{ header.Category }} - {{ header.Title }} - Picuino">
+   <meta name="description" content="Test online de educación secundaria y ESO de {{ header.Category }} - {{ header.Title }} - Picuino">
    <title>Test {{ header.Title }} - {{ header.Category }} - Picuino</title>
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -474,6 +474,7 @@
 
    <script>
       const show_max = {{ header.Show_max }};
+      const num_tries = {% if  header.Num_tries %}{{ header.Num_tries }}{% else %}0{% endif %};
       const questions_title = "{{ header.Category }}. {{ header.Title }}.";
       const questions_encoded = [
          {%- for question in questions %}
@@ -514,8 +515,7 @@
             return this.replace(/{(\d+)}/g, function(match, number) {
                return typeof args[number] != 'undefined'
                   ? args[number]
-                  : match
-               ;
+                  : match;
             });
          };
       }
@@ -534,6 +534,7 @@
          question_numpages = questions_sorted.length;
          gaps_total = questions_gaps();
          gaps_values = get_gaps_values();
+         gaps_tries = get_gaps_tries();
          gaps_not_solved = 0;
          fill_question_text(page);
          message_hide();
@@ -567,24 +568,35 @@
          var gaps_values = [];
          for(var page=0; page<questions_sorted.length; page++) {
             gaps_values[page] = [];
-            for(var i=0; i<questions_sorted[page]["Gaps"].length; i++) {
-               gaps_values[page][i] = string_to_binary_array(questions_sorted[page]["Gaps"][i][0]);
+            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+               gaps_values[page][num_gap] = string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]);
             };
          };
          return gaps_values;
       }
 
+      function get_gaps_tries() {
+         var gaps_tries = [];
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps_tries[page] = [];
+            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+               gaps_tries[page][num_gap] = num_tries;
+            };
+         };
+         return gaps_tries;         
+      }
+
       function string_to_binary_array(str, chr) {
          array = [];
          if (str.length == 1) {
-            array[0] = 1;
+            array[0] = 100;
             return array;
          }
 
          // Valor de las sucesivas letras de una palabra
          for(var i=0; i<str.length; i++) {
             // Exponencial
-            //array[i] = 100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1);
+            // array[i] = 100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1);
             // Lineal
             array[i] = 100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length);
          };
@@ -758,7 +770,7 @@
          + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
          + '<div class="question_text" id="question_text_id"></div>';
 
-         // read variables
+         // Read variables
          var question_text = questions_sorted[page]["Cloze"];
          var question_image = questions_sorted[page]["Image"][0];
          var question_image_size = questions_sorted[page]["Image"][1];
@@ -781,9 +793,9 @@
          };
 
          // Question text
-         gaps_length = questions_sorted[page]["Gaps"].length;
-         gaps_not_solved = gaps_length;
-         gap_span = new Array(gaps_length);
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_not_solved = gaps_length;
+         var gap_span = new Array(gaps_length);
          gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
          + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
          + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
@@ -853,32 +865,48 @@
          // Leer gaps y comprobar que son correctos
          var gaps_length = questions_sorted[page]["Gaps"].length;
          var gaps_not_solved = gaps_length;
-
-         for (var i=0; i<gaps_length; i++) {
-            var gap_element = document.getElementById("gap_{0}".format(i));
+         for (var num_gap=0; num_gap<gaps_length; num_gap++) {
+            var gap_element = document.getElementById("gap_{0}".format(num_gap));
             if (gap_element === null || gap_element === 'undefined' ) {
                gaps_not_solved -= 1;
                continue;
             };
             var gap_text = gap_element.value.toLowerCase().trim();
             gap_text.replace(/\s\s+/g, ' ');
-            num_answers = questions_sorted[page]["Gaps"][i].length;
-            for (var j=0; j<num_answers; j++) {
-               answer = questions_sorted[page]["Gaps"][i][j];
-               if (gap_text === answer.toLowerCase()) {
-                  var gap_span_element = document.getElementById("gap_span_{0}".format(i));
-                  gap_span_element.innerHTML = answer;
-
-                  points_total += add_terms(gaps_values[page][i]) / gaps_total;
-                  hud_show();
-                  gaps_not_solved -= 1;
-                  break;
-               };
-               answer = "";
+            if (gap_text === "") {
+               continue;
             };
-            gap_text = "";
+            var answer = test_answer_correct(page, num_gap, gap_text);
+            if (answer !== false) {
+               var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+               gap_span_element.innerHTML = answer;
+               points_total += add_terms(gaps_values[page][num_gap]) / gaps_total;
+               hud_show();
+               gaps_not_solved -= 1;
+            }
+            else {
+               if (gaps_tries[page][num_gap] === 1) {
+                  var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][num_gap][0];
+                  gaps_not_solved -= 1;   
+               }
+               else if (gaps_tries[page][num_gap] > 1) {
+                  gaps_tries[page][num_gap] -= 1;
+               }
+            }
          };
          return gaps_not_solved;
+      }
+
+      function test_answer_correct(page, num_gap, gap_text) {
+         var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
+         for (var j=0; j<num_answers; j++) {
+            var answer = questions_sorted[page]["Gaps"][num_gap][j];
+            if (gap_text === answer.toLowerCase()) {
+               return answer;
+            };
+         };
+         return false;
       }
 
       function select_gap(num) {
@@ -900,7 +928,7 @@
          setTimeout(reset_timeout_clue, time_between_clues);
 
          var gaps_visited = 0;
-         gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_length = questions_sorted[page]["Gaps"].length;
          if (gap_selected < 0 || gap_selected >= gaps_length) {
             gap_selected = 0;
          };

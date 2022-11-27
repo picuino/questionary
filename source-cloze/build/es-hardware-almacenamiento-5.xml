@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Hardware/es-hardware-almacenamiento-5</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Almacenamiento en red</strong> <br> Los dispositivos de almacenamiento en {red} son dispositivos especializados en el almacenamiento de {datos} a los que se accede a través de una red local {Ethernet} o a través de internet, dando la impresión de que se está trabajando con una unidad de almacenamiento {local}. <br> El almacenamiento en red permite que la información y los recursos de almacenamiento se puedan optimizar y {compartir} entre varios ordenadores.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Almacenamiento en red</strong> <br> Los dispositivos de almacenamiento en {1:SHORTANSWER:=red} son dispositivos especializados en el almacenamiento de {1:SHORTANSWER:=datos} a los que se accede a través de una red local {1:SHORTANSWER:=Ethernet} o a través de internet, dando la impresión de que se está trabajando con una unidad de almacenamiento {1:SHORTANSWER:=local}. <br> El almacenamiento en red permite que la información y los recursos de almacenamiento se puedan optimizar y {1:SHORTANSWER:=compartir} entre varios ordenadores.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Servidor NAS</strong> <br> El servidor {NAS} (Network Attached Storage) es un ordenador dedicado a almacenar {datos} en sus unidades de {disco} o de estado sólido y enviar o recibir estos datos a través de la red {local}. Permite {almacenar}, recuperar y compartir los datos en un punto centralizado para todos los {ordenadores} de una red local. <br> Normalmente los servidores NAS son equipos diseñados para atender exclusivamente a esta {función}. Contienen varias bahías para añadir unidades de almacenamiento (HDD o SSD) en conexión {RAID} para aumentar sus prestaciones.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Servidor NAS</strong> <br> El servidor {1:SHORTANSWER:=NAS} (Network Attached Storage) es un ordenador dedicado a almacenar {1:SHORTANSWER:=datos} en sus unidades de {1:SHORTANSWER:=disco} o de estado sólido y enviar o recibir estos datos a través de la red {1:SHORTANSWER:=local}. Permite {1:SHORTANSWER:=almacenar}, recuperar y compartir los datos en un punto centralizado para todos los {1:SHORTANSWER:=ordenadores} de una red local. <br> Normalmente los servidores NAS son equipos diseñados para atender exclusivamente a esta {1:SHORTANSWER:=función}. Contienen varias bahías para añadir unidades de almacenamiento (HDD o SSD) en conexión {1:SHORTANSWER:=RAID} para aumentar sus prestaciones.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Almacenamiento en la nube</strong> <br> La nube es el nombre comercial que se le ha dado a los {centros} de datos, compuestos por multitud de ordenadores que pueden actuar como servidores de datos o como servidores de {aplicaciones} online. <br> Estos centros de datos pertenecen a grandes compañías como {Amazon} (Amazon Web Services), {Microsoft} (Azure), {Google} (Google Cloud Platform) u otras compañías menores. <br> La nube puede ser utilizada por usuarios particulares, por ejemplo cuando almacenamos nuestros datos en Google {Drive}, o puede ser usada por grandes compañías como Netflix, que almacena sus series y películas en los servidores de Amazon (AWS) para servirlos por {streaming}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Almacenamiento en la nube</strong> <br> La nube es el nombre comercial que se le ha dado a los {1:SHORTANSWER:=centros} de datos, compuestos por multitud de ordenadores que pueden actuar como servidores de datos o como servidores de {1:SHORTANSWER:=aplicaciones} online. <br> Estos centros de datos pertenecen a grandes compañías como {1:SHORTANSWER:=Amazon} (Amazon Web Services), {1:SHORTANSWER:=Microsoft} (Azure), {1:SHORTANSWER:=Google} (Google Cloud Platform) u otras compañías menores. <br> La nube puede ser utilizada por usuarios particulares, por ejemplo cuando almacenamos nuestros datos en Google {1:SHORTANSWER:=Drive}, o puede ser usada por grandes compañías como Netflix, que almacena sus series y películas en los servidores de Amazon (AWS) para servirlos por {1:SHORTANSWER:=streaming}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

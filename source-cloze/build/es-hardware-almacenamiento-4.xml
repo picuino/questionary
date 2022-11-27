@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Hardware/es-hardware-almacenamiento-4</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Dispositivos de almacenamiento óptico</strong> <br> El {CD-ROM}, el DVD y el {Blu-ray} son unidades ópticas de almacenamiento de datos. <br> Todas ellas se basan en una lámina de material {metálico} plateado que refleja un fino haz de luz {láser} o no la refleja dependiendo de las marcas que se graban en un surco en forma de espiral a lo largo del {disco}. <br> La diferencia fundamental entre las distintas tecnologías es la creciente {capacidad} de almacenamiento y mayor {velocidad} de transferencia de los dispositivos más modernos.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Dispositivos de almacenamiento óptico</strong> <br> El {1:SHORTANSWER:=CD-ROM}, el DVD y el {1:SHORTANSWER:=Blu-ray} son unidades ópticas de almacenamiento de datos. <br> Todas ellas se basan en una lámina de material {1:SHORTANSWER:=metálico} plateado que refleja un fino haz de luz {1:SHORTANSWER:=láser} o no la refleja dependiendo de las marcas que se graban en un surco en forma de espiral a lo largo del {1:SHORTANSWER:=disco}. <br> La diferencia fundamental entre las distintas tecnologías es la creciente {1:SHORTANSWER:=capacidad} de almacenamiento y mayor {1:SHORTANSWER:=velocidad} de transferencia de los dispositivos más modernos.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text> <strong>Dispositivos de almacenamiento óptico</strong> <br> Las características típicas de los distintos dispositivos de almacenamiento óptico son las siguientes: <br> <strong>Capacidad de almacenamiento.<strong><br> CD-ROM: {0.75} gigabytes<br> DVD: {4.7} gigabytes<br> Blu-ray: {25} gigabytes<br> <br> <strong>Máxima velocidad de transferencia.<strong><br> CD-ROM: {7.2} megabytes/s<br> DVD: {33} megabytes/s<br> Blu-ray: {54} megabytes<br> <br> <strong>Color del láser de lectura/escritura.<strong><br> CD-ROM: {Infrarrojo}<br> DVD: {rojo}<br> Blu-ray: {violeta}<br> <br> </text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Dispositivos de almacenamiento óptico</strong> <br> Las características típicas de los distintos dispositivos de almacenamiento óptico son las siguientes: <br> <strong>Capacidad de almacenamiento.<strong><br> CD-ROM: {1:SHORTANSWER:=0.75} gigabytes<br> DVD: {1:SHORTANSWER:=4.7} gigabytes<br> Blu-ray: {1:SHORTANSWER:=25} gigabytes<br> <br> <strong>Máxima velocidad de transferencia.<strong><br> CD-ROM: {1:SHORTANSWER:=7.2} megabytes/s<br> DVD: {1:SHORTANSWER:=33} megabytes/s<br> Blu-ray: {1:SHORTANSWER:=54} megabytes<br> <br> <strong>Color del láser de lectura/escritura.<strong><br> CD-ROM: {1:SHORTANSWER:=Infrarrojo}<br> DVD: {1:SHORTANSWER:=rojo}<br> Blu-ray: {1:SHORTANSWER:=violeta}<br> <br> ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text> <strong>Dispositivos de almacenamiento óptico</strong> <br> Las características típicas de los distintos dispositivos de almacenamiento óptico son las siguientes: <br> <strong>Costo aproximado de la unidad de lectura / escritura.<strong><br> CD-ROM: {18} €<br> DVD: {18} €<br> Blu-ray: {100} €<br> <br> <strong>Costo del disco.<strong><br> CD-ROM: {0,40} €<br> DVD: {0,90} €<br> Blu-ray: {0,90} €<br> <br> <strong>Costo por gigabyte.<strong><br> CD-ROM: {0,53} €/GB<br> DVD: {0,19} €/GB<br> Blu-ray: {0,036} €/GB<br> <br> </text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Dispositivos de almacenamiento óptico</strong> <br> Las características típicas de los distintos dispositivos de almacenamiento óptico son las siguientes: <br> <strong>Costo aproximado de la unidad de lectura / escritura.<strong><br> CD-ROM: {1:SHORTANSWER:=18} €<br> DVD: {1:SHORTANSWER:=18} €<br> Blu-ray: {1:SHORTANSWER:=100} €<br> <br> <strong>Costo del disco.<strong><br> CD-ROM: {1:SHORTANSWER:=0,40} €<br> DVD: {1:SHORTANSWER:=0,90} €<br> Blu-ray: {1:SHORTANSWER:=0,90} €<br> <br> <strong>Costo por gigabyte.<strong><br> CD-ROM: {1:SHORTANSWER:=0,53} €/GB<br> DVD: {1:SHORTANSWER:=0,19} €/GB<br> Blu-ray: {1:SHORTANSWER:=0,036} €/GB<br> <br> ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Dispositivos de almacenamiento óptico</strong> <br> En el momento en el que salieron al mercado, estas unidades de almacenamiento óptico tenían más {capacidad} que los propios discos duros, por lo que era un método de almacenamiento muy barato para realizar backup o copias de {seguridad}. Hoy en día, la capacidad de los discos duros ha crecido tanto que su costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB, por lo que ya no son {rentables} estas unidades ópticas para almacenar grandes cantidades de datos. <br> Las memorias USB también han crecido {exponencialmente} en su capacidad y en 2022 una unidad con mayor capacidad que un Blu-ray es relativamente barata (5€). Aunque el precio por {gigabyte} siga siendo algo mayor en las memorias USB (0,12 - 0,05€/gigabyte), su mayor versatilidad y facilidad de lectura/escritura han hecho que asuman muchas aplicaciones que antes se realizaban con discos ópticos, tales como los reproductores de {música}. <br> Hace años era frecuente que los programas se vendieran {grabados} en discos ópticos. Hoy en día, gracias a las redes de fibra {óptica}, se ha popularizado la descarga de programas por {internet} y los discos de almacenamiento virtual como medio de transmisión de datos entre particulares. <br> Por todas estas razones el uso de discos {ópticos} ha decaído poco a poco y hoy en día son muy pocas las aplicaciones en las que tienen alguna {ventaja}.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Dispositivos de almacenamiento óptico</strong> <br> En el momento en el que salieron al mercado, estas unidades de almacenamiento óptico tenían más {1:SHORTANSWER:=capacidad} que los propios discos duros, por lo que era un método de almacenamiento muy barato para realizar backup o copias de {1:SHORTANSWER:=seguridad}. Hoy en día, la capacidad de los discos duros ha crecido tanto que su costo de almacenamiento ha bajado muchísimo, hasta los 0,023 €/GB, por lo que ya no son {1:SHORTANSWER:=rentables} estas unidades ópticas para almacenar grandes cantidades de datos. <br> Las memorias USB también han crecido {1:SHORTANSWER:=exponencialmente} en su capacidad y en 2022 una unidad con mayor capacidad que un Blu-ray es relativamente barata (5€). Aunque el precio por {1:SHORTANSWER:=gigabyte} siga siendo algo mayor en las memorias USB (0,12 - 0,05€/gigabyte), su mayor versatilidad y facilidad de lectura/escritura han hecho que asuman muchas aplicaciones que antes se realizaban con discos ópticos, tales como los reproductores de {1:SHORTANSWER:=música}. <br> Hace años era frecuente que los programas se vendieran {1:SHORTANSWER:=grabados} en discos ópticos. Hoy en día, gracias a las redes de fibra {1:SHORTANSWER:=óptica}, se ha popularizado la descarga de programas por {1:SHORTANSWER:=internet} y los discos de almacenamiento virtual como medio de transmisión de datos entre particulares. <br> Por todas estas razones el uso de discos {1:SHORTANSWER:=ópticos} ha decaído poco a poco y hoy en día son muy pocas las aplicaciones en las que tienen alguna {1:SHORTANSWER:=ventaja}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Cinta magnética</strong> <br> La cinta magnética es un soporte de almacenamiento basado en una cinta de {plástico} impregnada en su superficie con material magnético y enrollada en un {cartucho}. Ha sido uno de los primeros medios de almacenamiento masivo de datos desde el origen de la {informática}. <br> Tiene algunas desventajas, como es su acceso {secuencial} a la información y por lo tanto su lentitud. Su mayor ventaja es su bajo precio por gigabyte, pudiendo almacenar la misma información que un {disco} duro por menos precio. <br> Hoy en día su uso se limita a realizar copias de respaldo de grandes cantidades de datos. La tecnología más conocida es la {LTO} (Linear Tape Open), que en su versión LTO-9 es capaz de almacenar hasta {18} terabytes de datos en un solo cartucho.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Cinta magnética</strong> <br> La cinta magnética es un soporte de almacenamiento basado en una cinta de {1:SHORTANSWER:=plástico} impregnada en su superficie con material magnético y enrollada en un {1:SHORTANSWER:=cartucho}. Ha sido uno de los primeros medios de almacenamiento masivo de datos desde el origen de la {1:SHORTANSWER:=informática}. <br> Tiene algunas desventajas, como es su acceso {1:SHORTANSWER:=secuencial} a la información y por lo tanto su lentitud. Su mayor ventaja es su bajo precio por gigabyte, pudiendo almacenar la misma información que un {1:SHORTANSWER:=disco} duro por menos precio. <br> Hoy en día su uso se limita a realizar copias de respaldo de grandes cantidades de datos. La tecnología más conocida es la {1:SHORTANSWER:=LTO} (Linear Tape Open), que en su versión LTO-9 es capaz de almacenar hasta {1:SHORTANSWER:=18} terabytes de datos en un solo cartucho.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>
