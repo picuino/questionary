@@ -7,6 +7,42 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
+    <name> <text><strong>Energía eléctrica</strong><br> La fórmula de la energía eléctrica es E = {P*T|P·T|T*P|T·P}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula de la energía eléctrica es E = {1:SHORTANSWER:=P*T~%100%P·T~%100%T*P~%100%T·P}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Energía eléctrica</strong><br> La fórmula del tiempo es T = {E/P}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula del tiempo es T = {1:SHORTANSWER:=E/P}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Energía eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {E/T}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {1:SHORTANSWER:=E/T}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
     <name> <text><strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {240} kWh</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {1:SHORTANSWER:=240} kWh]]></text>
@@ -31,9 +67,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {3.6|3,6} kWh</text> </name>
+    <name> <text><strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {3,6} kWh</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3.6~%100%3,6} kWh]]></text>
+      <text><![CDATA[<strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3,6} kWh]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -94,6 +130,30 @@
     <name> <text><strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {18} kWh</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {1:SHORTANSWER:=18} kWh]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Linterna a pilas</strong><br> ¿Qué potencia consume una linterna sabiendo que tiene dos pilas con un total de 5 vatios-hora de energía eléctrica que duran 10 horas? <br><br> P = {0,5} W</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Linterna a pilas</strong><br> ¿Qué potencia consume una linterna sabiendo que tiene dos pilas con un total de 5 vatios-hora de energía eléctrica que duran 10 horas? <br><br> P = {1:SHORTANSWER:=0,5} W]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text><strong>Calentador de aire</strong><br> Sabiendo que la factura eléctrica de invierno ha subido un mes en 300 kWh por encender un calentador de 2000 vatios. ¿Cuánto tiempo ha estado encendido el calentador durante ese mes? <br><br> T = {150} horas</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Calentador de aire</strong><br> Sabiendo que la factura eléctrica de invierno ha subido un mes en 300 kWh por encender un calentador de 2000 vatios. ¿Cuánto tiempo ha estado encendido el calentador durante ese mes? <br><br> T = {1:SHORTANSWER:=150} horas]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>

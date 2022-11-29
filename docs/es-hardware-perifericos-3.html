@@ -628,7 +628,7 @@
 
       function questions_sort(len) {
          new_questions = JSON.parse(JSON.stringify(questions_encoded));
-         questions_sorted = new Array;
+         questions_sorted = new Array(len);
          for(i=0; i<len; i++) {
             rnd = Math.floor(Math.random() * new_questions.length);
             questions_sorted[i] = new_questions[rnd];
@@ -646,9 +646,9 @@
       function get_gaps_values() {
          var gaps_values = [];
          for(var page=0; page<questions_sorted.length; page++) {
-            gaps_values[page] = [];
+            gaps_values.push([]);
             for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_values[page][num_gap] = string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]);
+               gaps_values[page].push(string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]));
             };
          };
          return gaps_values;
@@ -657,9 +657,9 @@
       function get_gaps_tries() {
          var gaps_tries = [];
          for(var page=0; page<questions_sorted.length; page++) {
-            gaps_tries[page] = [];
+            gaps_tries.push([]);
             for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_tries[page][num_gap] = num_tries;
+               gaps_tries[page].push(num_tries);
             };
          };
          return gaps_tries;         
@@ -668,16 +668,21 @@
       function string_to_binary_array(str, chr) {
          array = [];
          if (str.length == 1) {
-            array[0] = 100;
+            array.push(100);
             return array;
          }
 
          // Valor de las sucesivas letras de una palabra
          for(var i=0; i<str.length; i++) {
-            // Exponencial
-            // array[i] = 100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1);
-            // Lineal
-            array[i] = 100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length);
+            const func = "Lineal";
+            if (func === "Exponencial") {
+               // Exponencial
+               array.push(100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1));
+            }
+            else {
+               // Lineal
+               array.push(100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length));
+            };
          };
          return array;
       }

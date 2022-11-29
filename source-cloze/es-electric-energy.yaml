@@ -12,9 +12,36 @@ Show_max: 0
 #     Fórmula de energía
 # ****************************
 
+- Title:
+  Cloze:
+     <strong>Energía eléctrica</strong><br>
+     La fórmula de la energía eléctrica es E = {P*T|P·T|T*P|T·P}<br>
+     Donde<br>
+     E = {energía} eléctrica en {kilovatios}-hora (kWh)<br>
+     P = {potencia} eléctrica en kilovatios (kW)<br>
+     T = {tiempo} en segundos (s)<br>
+
+- Title:
+  Cloze:
+     <strong>Energía eléctrica</strong><br>
+     La fórmula del tiempo es T = {E/P}<br>
+     Donde<br>
+     E = {energía} eléctrica en {kilovatios}-hora (kWh)<br>
+     P = {potencia} eléctrica en kilovatios (kW)<br>
+     T = {tiempo} en segundos (s)<br>
+
+- Title:
+  Cloze:
+     <strong>Energía eléctrica</strong><br>
+     La fórmula de la potencia eléctrica es P = {E/T}<br>
+     Donde<br>
+     E = {energía} eléctrica en {kilovatios}-hora (kWh)<br>
+     P = {potencia} eléctrica en kilovatios (kW)<br>
+     T = {tiempo} en segundos (s)<br>
+
 
 # ****************************
-# Cálculo de energía consumida
+#  E = P · T
 # ****************************
 
 - Title:
@@ -36,7 +63,7 @@ Show_max: 0
      <strong>Bombilla de bajo consumo</strong><br>
      ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios
      si funciona durante 8 horas al día?<br><br>
-     E = {3.6|3,6} kWh
+     E = {3,6} kWh
 
 - Title:
   Cloze:
@@ -72,4 +99,31 @@ Show_max: 0
      ¿Qué energía consume al mes una videoconsola de 200 vatios
      si funciona 3 horas al día?<br><br>
      E = {18} kWh
+
+
+# ****************************
+#  P = E / T
+# ****************************
+
+- Title:
+  Cloze:
+     <strong>Linterna a pilas</strong><br>
+     ¿Qué potencia consume una linterna sabiendo que tiene dos pilas
+     con un total de 5 vatios-hora de energía eléctrica que duran 10 
+     horas?
+     <br><br>
+     P = {0,5} W
+
+# ****************************
+#  T = E / P
+# ****************************
+
+- Title:
+  Cloze:
+     <strong>Calentador de aire</strong><br>
+     Sabiendo que la factura eléctrica de invierno ha subido 
+     un mes en 300 kWh por encender un calentador de 2000 vatios.
+     ¿Cuánto tiempo ha estado encendido el calentador durante ese mes?
+     <br><br>
+     T = {150} horas
 

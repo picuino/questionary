@@ -176,7 +176,7 @@ class Cloze():
          question['Cloze_b64'] = cloze_b64
          question['Gaps_b64'] = gaps_b64
          if len(gaps_b64) == 0:
-            print("Error: Question %d without gaps" % i)
+            print("Error: Question %d without gaps" % (i+1))
 
          cloze_xml = self.cloze_xml(question['Cloze'])
          question['Cloze_xml'] = cloze_xml

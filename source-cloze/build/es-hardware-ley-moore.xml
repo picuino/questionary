@@ -55,9 +55,9 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Relación capacidad-precio</strong><br> Una buena pauta a la hora de comprar hardware es no comprar lo más barato del mercado, puesto que suele tener una baja relación capacidad-precio.</text> </name>
+    <name> <text><strong>Relación capacidad-precio</strong><br> Una buena pauta a la hora de comprar hardware es no comprar lo más {barato} del mercado, puesto que suele tener una baja relación {capacidad}-precio.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Relación capacidad-precio</strong><br> Una buena pauta a la hora de comprar hardware es no comprar lo más barato del mercado, puesto que suele tener una baja relación capacidad-precio.]]></text>
+      <text><![CDATA[<strong>Relación capacidad-precio</strong><br> Una buena pauta a la hora de comprar hardware es no comprar lo más {1:SHORTANSWER:=barato} del mercado, puesto que suele tener una baja relación {1:SHORTANSWER:=capacidad}-precio.]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
