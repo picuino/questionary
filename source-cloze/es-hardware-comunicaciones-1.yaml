@@ -1,0 +1,154 @@
+﻿
+Category: Hardware
+Title: Comunicaciones I
+Copyright: 2022 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-comunicaciones.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Comunicaciones</strong>
+     <br>
+     Las comunicaciones de los ordenadores permiten el {movimiento} de
+     los datos entre diferentes dispositivos y {componentes} del ordenador.
+     Son elementos fundamentales que se encuentran en todos los
+     {niveles} de la informática, desde las líneas de comunicación
+     interna de un microprocesador hasta las líneas de comunicación
+     de internet a nivel {mundial}.
+
+- Title:
+  Cloze:
+     <strong>Conectores macho y hembra</strong>
+     <br>
+     Los conectores sirven para poder {unir} físicamente los cables
+     con los ordenadores y el resto de {equipos} electrónicos.
+     <br>
+     Normalmente los cables suelen tener los pines de conexión
+     salientes (conectores de tipo {macho}) y los ordenadores y el
+     resto de equipos electrónicos tienen los agujeros (conectores
+     de tipo {hembra}) donde se conectan los pines de conexión macho.
+     <br>
+     La razón para esta elección es que los {pines} macho de los
+     cables se pueden romper o doblar con mayor facilidad que los
+     {agujeros} hembra de los equipos.
+     Si se estropean los pines de un cable, este se puede reemplazar
+     a un costo {reducido|bajo}, mientras que si se estropea el conector
+     de un ordenador sería mucho más costoso de reemplazar.
+     <br>
+     Otros conectores macho y hembra, como los conectores {USB},
+     no tienen pines de conexión, sino superficies de contacto y
+     son mucho más {robustos} que los conectores con pines.
+     Pero la elección de clavija macho para el {cable} y hembra
+     para el equipo se suele mantener.
+
+- Title:
+  Image: ../images/informatica-motherboard-bus.jpg
+  Image_width: 480
+  Cloze:
+     <strong>Buses de placa base</strong>
+     <br>
+     Son las pistas del circuito {impreso} que llevan los datos entre
+     la CPU y el resto de los dispositivos conectados a la placa {base}.
+     <br>
+     Tiene muchas más {líneas} de datos que cualquier otro cable de
+     comunicación y es el medio de transmisión más {rápido} con diferencia.
+     Las distancias que recorren las líneas de datos son muy cortas,
+     de pocos {centímetros}.
+
+- Title:
+  Image: ../images/informatica-sata-hdd.jpg
+  Image_width: 480
+  Cloze:
+     <strong>SATA</strong>
+     <br>
+     El bus serial ATA conecta las unidades de almacenamiento del
+     ordenador (HDD, SSD, discos ópticos) con el procesador.
+     El bus SATA lleva en el mercado desde {2003} y actualmente se
+     encuentra en funcionamiento la versión {3.0}.
+     <br>
+     El cable de conexión desde la placa base hasta la unidad de
+     almacenamiento puede llegar a tener hasta 1 {metro} de longitud,
+     aunque la mayoría de los cables fabricados tienen una longitud menor.
+     Esto es así porque SATA es un estándar pensado para conectar
+     dispositivos dentro de la caja o {carcasa} del ordenador.
+     <br>
+     <table>
+     <thead><tr><th>Versión</th><th>Año</th><th>Velocidad</th></tr></thead>
+     <tbody>
+     <tr><td>SATA 1.0</td><td>2003</td><td>{150} megabyte/s</td></tr>
+     <tr><td>SATA 2.0</td><td>2004</td><td>{300} megabyte/s</td></tr>
+     <tr><td>SATA 3.0</td><td>2008</td><td>{600} megabyte/s</td></tr>
+     </tbody>
+     </table>
+
+- Title:
+  Image: ../images/informatica-pci-express.jpg
+  Image_width: 480
+  Cloze:
+     <strong>PCI Express</strong>
+     <br>
+     PCI Express abrevidado {PCIe} o PCI-e es un conjunto de conectores
+     internos de la placa base, que sirve para conectar tarjetas de
+     {expansión} al ordenador.
+     Estas tarjetas de expansión pueden ser tarjetas {gráficas},
+     controladoras {RAID}, tarjetas de red {Ethernet},
+     tarjetas de sonido, etc.
+     <br>
+     Existen 4 tamaños de conector dependiendo del número de {canales}
+     de comunicación que contengan.
+
+     <table>
+     <thead>
+     <tr><th>Versión</th><th>Pines</th><th>Tamaño</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>PCI-E x1</td><td>18</td><td>25 mm</td></tr>
+     <tr><td>PCI-E x4</td><td>32</td><td>39 mm</td></tr>
+     <tr><td>PCI-E {x8}</td><td>49</td><td>56 mm</td></tr>
+     <tr><td>PCI-E {x16}</td><td>82</td><td>89 mm</td></tr>
+     </tbody>
+     </table>
+
+
+- Title:
+  Image: ../images/informatica-pci-express.jpg
+  Image_width: 480
+  Cloze:
+     <strong>PCI Express</strong>
+     <br>
+     La velocidad de {transferencia} depende de la versión de PCI Express
+     (aumenta cada pocos años) y del número de canales de {comunicación}
+     del conector.
+
+     <table>
+     <thead>
+     <tr><th>Versión</th><th>Año</th><th>Velocidad x1</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>PCI-E 1.0</td><td>2003</td><td>0.25 GB/s</td></tr>
+     <tr><td>PCI-E 2.0</td><td>2007</td><td>{0.50} GB/s</td></tr>
+     <tr><td>PCI-E 3.0</td><td>2010</td><td>1.0 GB/s</td></tr>
+     <tr><td>PCI-E 4.0</td><td>2017</td><td>{2.0} GB/s</td></tr>
+     <tr><td>PCI-E 5.0</td><td>2019</td><td>3.9 GB/s</td></tr>
+     <tr><td>PCI-E 6.0</td><td>2019</td><td>{7.9} GB/s</td></tr>
+     </tbody>
+     </table>
+
+     La aplicación más conocida de los conectores PCI-E x16 es la
+     conexión de tarjetas {gráficas} a la placa base.
+     <br>
+     Existe un conector llamado {M.2} que está basado en el conector
+     PCI Express 3.0 x4. Este conector se utiliza para conectar 
+     unidades {SSD} muy rápidas y compactas a velocidades muy 
+     superiores a las que permite el conector tradicional {SATA} III.
+     <br>
+     Los ordenadores personales más antiguos no incorporaban en la
+     {placa} base muchas de las funciones actuales (entrada y salida
+     de {sonido}, comunicaciones por Ethernet, buses {USB}, etc) y estas
+     funciones tenían que ser suministradas por tarjetas de expansión
+     especializadas, conectadas a conectores de {expansión} semejantes
+     al actual PCI.

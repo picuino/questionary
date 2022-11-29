@@ -634,3 +634,22 @@ href="https://pixabay.com/es/vectors/computadora-escritorio-158675/">
 href="https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg">
 <img alt="Placa base ASRock A70GXH-128M" src="images/thumbs/informatica-placa-base-02.jpg"></a>
 
+<a title="Chrihern, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg">
+<img alt="Bus de placa base." src="images/thumbs/informatica-motherboard-bus.jpg"></a>
+
+<a title="Dsimic, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg">
+<img alt="Conectores SATA de datos y de alimentación de dos discos duros."
+src="images/thumbs/informatica-sata-hdd.jpg"></a>
+
+<a title="Jona, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg">
+<img alt="Conectores PCI Express x4, x16, x1, x16."
+src="images/thumbs/informatica-pci-express.jpg"></a>
+
+<a title="Wagner51, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg">
+<img alt="Módulo de memoria DIMM DDR y módulo DDR2."
+src="images/thumbs/informatica-dimm-ddr2.jpg"></a>
+
