@@ -183,11 +183,11 @@ index_template = """<!DOCTYPE html>
         {%- set sp.section = sp.section + 1 %}
         {%- endfor %}
       
-		  <hr style="margin:20px 0 20px 0">
-        <a class="btn" href="end.html">Última puntuación</a>
-	     <a class="btn" href="index_en.html">Test in English</a>
-	     <a class="btn" href="https://www.picuino.com/">Picuino</a>
-		  <hr style="margin:20px 0 80px 0">
+	<hr style="margin:20px 0 20px 0">
+        <a class="btn" href="end.html" target="_blank">Última puntuación</a>
+	<a class="btn" href="index_en.html" target="_blank">Test in English</a>
+	<a class="btn" href="https://www.picuino.com/" target="_blank">Picuino</a>
+	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section = 1, numtest = 1) %}
         {%- for section in data %}
@@ -212,12 +212,12 @@ index_template = """<!DOCTYPE html>
    
    <!-- FOOTER -->
    <div class="footer">
-   <a href="https://www.picuino.com/es/contacto.html">Contacto</a>
-   <a href="https://www.picuino.com/es/legal-aviso.html">Aviso legal</a>
-   <a href="https://www.picuino.com/es/legal-cookies.html">Política de Cookies</a>
-   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md">Créditos</a>
-   <a href="https://github.com/picuino/questionary/">GitHub</a>
-   <a href="https://www.picuino.com/test/index.html">Índice</a>
+   <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
+   <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
+   <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
+   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
+   <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
+   <a href="https://www.picuino.com/test/index.html" target="_blank">Índice</a>
    </div>
 
    <!-- Cookies Advise -->
