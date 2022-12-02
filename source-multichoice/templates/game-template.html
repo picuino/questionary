@@ -111,16 +111,22 @@
    <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
    <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
    <a href="https://www.picuino.com/test/index.html">Índice</a>
+
+   {% if header.Source_link -%}
+   <p><a href="{{ header.Source_link }}" target="_blank">Fuente de los cuestionarios.</a></p>
+   {% endif -%}
+
    {% if 'Copyright_link' in header -%}
-      <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
+   <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
    {% else -%}
-      <p>Copyright © {{ header.Copyright }}.</p>
+   <p>Copyright © {{ header.Copyright }}.</p>
    {% endif -%}
    {% if 'License_link' in header -%}
-      <p>Licencia: <a href={{ header.License_link }} target="_blank">{{ header.License }}</a></p>
+   <p>Licencia: <a href="{{ header.License_link }}" target="_blank">{{ header.License }}</a></p>
    {% else -%}
-      <p>Licencia: {{ header.License }}</p>
+   <p>Licencia: {{ header.License }}</p>
    {% endif -%}
+
    </div>
 
    <!-- Cookies Advise -->
