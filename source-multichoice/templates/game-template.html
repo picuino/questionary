@@ -116,12 +116,12 @@
    <p><a href="{{ header.Source_link }}" target="_blank">Fuente de los cuestionarios.</a></p>
    {% endif -%}
 
-   {% if 'Copyright_link' in header -%}
+   {% if header.Copyright_link -%}
    <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
    {% else -%}
    <p>Copyright © {{ header.Copyright }}.</p>
    {% endif -%}
-   {% if 'License_link' in header -%}
+   {% if header.License_link -%}
    <p>Licencia: <a href="{{ header.License_link }}" target="_blank">{{ header.License }}</a></p>
    {% else -%}
    <p>Licencia: {{ header.License }}</p>

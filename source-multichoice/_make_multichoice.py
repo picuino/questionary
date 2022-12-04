@@ -97,6 +97,7 @@ class Questionary():
          yamldata = yamlfile.read()
       yaml_files = list(yaml.load_all(yamldata, Loader=yaml.SafeLoader))
       self.header = yaml_files[0]
+      self.header['Filename'] = os.path.splitext(filename)[0]
       self.questions = yaml_files[1]
       self.clean_questions()
       self.test_errors()
