@@ -10,6 +10,73 @@ Show_max: 0
 ---
 
 - Title:
+  Image: ../images/informatica-pci-express.jpg
+  Image_width: 480
+  Cloze:
+     <strong>PCI Express</strong>
+     <br>
+     PCI Express abrevidado {PCIe} o PCI-e es un conjunto de conectores
+     internos de la placa base, que sirve para conectar tarjetas de
+     {expansión} al ordenador.
+     Estas tarjetas de expansión pueden ser tarjetas {gráficas},
+     controladoras {RAID}, tarjetas de red {Ethernet},
+     tarjetas de sonido, etc.
+     <br>
+     Existen 4 tamaños de conector dependiendo del número de {canales}
+     de comunicación que contengan.
+
+     <table>
+     <thead>
+     <tr><th>Versión</th><th>Pines</th><th>Tamaño</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>PCI-E x1</td><td>18</td><td>25 mm</td></tr>
+     <tr><td>PCI-E x4</td><td>32</td><td>39 mm</td></tr>
+     <tr><td>PCI-E {x8}</td><td>49</td><td>56 mm</td></tr>
+     <tr><td>PCI-E {x16}</td><td>82</td><td>89 mm</td></tr>
+     </tbody>
+     </table>
+
+- Title:
+  Image: ../images/informatica-pci-express.jpg
+  Image_width: 480
+  Cloze:
+     <strong>PCI Express</strong>
+     <br>
+     La velocidad de {transferencia} depende de la versión de PCI Express
+     (aumenta cada pocos años) y del número de canales de {comunicación}
+     del conector.
+
+     <table>
+     <thead>
+     <tr><th>Versión</th><th>Año</th><th>Velocidad x1</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>PCI-E 1.0</td><td>2003</td><td>0.25 GB/s</td></tr>
+     <tr><td>PCI-E 2.0</td><td>2007</td><td>{0.50} GB/s</td></tr>
+     <tr><td>PCI-E 3.0</td><td>2010</td><td>1.0 GB/s</td></tr>
+     <tr><td>PCI-E 4.0</td><td>2017</td><td>{2.0} GB/s</td></tr>
+     <tr><td>PCI-E 5.0</td><td>2019</td><td>3.9 GB/s</td></tr>
+     <tr><td>PCI-E 6.0</td><td>2019</td><td>{7.9} GB/s</td></tr>
+     </tbody>
+     </table>
+
+     La aplicación más conocida de los conectores PCI-E x16 es la
+     conexión de tarjetas {gráficas} a la placa base.
+     <br>
+     Existe un conector llamado {M.2} que está basado en el conector
+     PCI Express 3.0 x4. Este conector se utiliza para conectar 
+     unidades {SSD} muy rápidas y compactas a velocidades muy 
+     superiores a las que permite el conector tradicional {SATA} III.
+     <br>
+     Los ordenadores personales más antiguos no incorporaban en la
+     {placa} base muchas de las funciones actuales (entrada y salida
+     de {sonido}, comunicaciones por Ethernet, buses {USB}, etc) y estas
+     funciones tenían que ser suministradas por tarjetas de expansión
+     especializadas, conectadas a conectores de {expansión} semejantes
+     al actual PCI.
+
+- Title:
   Image: ../images/informatica-dimm-ddr2.jpg
   Image_width: 480
   Cloze:
@@ -27,3 +94,26 @@ Show_max: 0
      tener diferente número de {contactos}, diferente tamaño y
      diferente posición de la ranura central para evitar la
      conexión por {error} de módulos no compatibles.
+
+- Title:
+  Image: ../images/informatica-zocalo-1151.jpg
+  Image_width: 480
+  Cloze:
+     <strong>Zócalo para CPU</strong>
+     <br>
+     El zócalo de CPU permite conectar el microprocesador o {CPU} a la
+     placa base. En placas base de alto rendimiento puede haber más de
+     un {zócalo} para poder conectar varios microprocesadores en una
+     misma placa base.
+     <br>
+     Cada zócalo de CPU sirve para conectar microprocesadores de una
+     misma {familia}. Los zócalos cambian de forma y número de conexiones
+     entre familias de microprocesadores y entre fabricantes de CPU
+     (Intel o {AMD}).
+     <br>
+     El zócalo de CPU permite {aumentar} la potencia del ordenador
+     cambiando el microprocesador antiguo por otro más potente de
+     una familia compatible con la del microprocesador anterior.
+     Esta operación suele ser {sencilla} de realizar y cuesta solo
+     una pequeña fracción de lo que costaría comprar un ordenador
+     nuevo.

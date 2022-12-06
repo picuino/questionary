@@ -653,3 +653,28 @@ href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR
 <img alt="Módulo de memoria DIMM DDR y módulo DDR2."
 src="images/thumbs/informatica-dimm-ddr2.jpg"></a>
 
+<a title="Xaar, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg">
+<img alt="Zócalo para CPU de tipo LGA 1151."
+src="images/thumbs/informatica-zocalo-1151.jpg"></a>
+
+<a title="Viljo Viitanen, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG">
+<img alt="Conectores USB. Micro tipo B, UC-E6, mini tipo B, hembra tipo A, macho tipo A, macho tipo B."
+src="images/thumbs/informatica-usb-connectors.jpg"></a>
+
+<a title="Jud McCranie, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg">
+<img alt="Conectores de audio analógico de 3.5 mm de un ordenador personal."
+src="images/thumbs/informatica-computer-audio.jpg"></a>
+
+<a title="Norman Rogers, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg">
+<img alt="Puertos PS/2 para teclado (morado) y para ratón (verde)."
+src="images/thumbs/informatica-puertos-ps2.jpg"></a>
+
+<a title="Faxe, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:RS-232.jpeg">
+<img alt="Conector RS-232 (DB-9 hembra)."
+src="images/thumbs/informatica-rs232-connector.jpg"></a>
+
