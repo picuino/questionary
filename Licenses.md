@@ -678,3 +678,23 @@ href="https://commons.wikimedia.org/wiki/File:RS-232.jpeg">
 <img alt="Conector RS-232 (DB-9 hembra)."
 src="images/thumbs/informatica-rs232-connector.jpg"></a>
 
+<a title="Afrank99, CC BY-SA 2.5, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg">
+<img alt="Conector VGA macho."
+src="images/thumbs/informatica-conector-vga.jpg"></a>
+
+<a title="Greg Ebdon, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg">
+<img alt="Conector DVI macho."
+src="images/thumbs/informatica-conector-dvi.jpg"></a>
+
+<a title="Evan-Amos, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg">
+<img alt="Conector HDMI macho."
+src="images/thumbs/informatica-conector-hdmi.jpg"></a>
+
+<a title="David Monniaux, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg">
+<img alt="Cable UTP de Ethernet con conector RJ-45 macho."
+src="images/thumbs/informatica-ethernet-cable.jpg"></a>
+

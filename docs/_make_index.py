@@ -121,6 +121,7 @@ index_data = [
           ["es-hardware-comunicaciones-1.html", "Comunicaciones I"],
           ["es-hardware-comunicaciones-2.html", "Comunicaciones II"],
           ["es-hardware-comunicaciones-3.html", "Comunicaciones III"],
+          ["es-hardware-comunicaciones-4.html", "Comunicaciones IV"],
        ]
    },
    {
