@@ -13,7 +13,7 @@ Show_max: 0
   Image: ../images/informatica-conector-vga.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector VGA</strong>
+     <strong>Conexión VGA</strong>
      <br>
      El conector VGA (Video Graphics Array) es un estándar para
      comunicar la tarjeta {gráfica} del ordenador con el monitor de
@@ -30,7 +30,7 @@ Show_max: 0
   Image: ../images/informatica-conector-dvi.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector VGA</strong>
+     <strong>Conexión DVI</strong>
      <br>
      El conector DVI (Digital Visual {Interface}) es un estándar para
      comunicar {vídeo} que utiliza señales tanto analógicas como digitales.
@@ -42,7 +42,7 @@ Show_max: 0
   Image: ../images/informatica-conector-hdmi.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector HDMI</strong>
+     <strong>Conexión HDMI</strong>
      <br>
      El conector HDMI (High-Definition Multimedia {Interface}) es
      un estándar que permite transferir tanto vídeo como {audio} 
@@ -60,7 +60,7 @@ Show_max: 0
   Cloze:
      <strong>Comparación entre conexiones de vídeo</strong>
      <br>
-     <table>
+     <div class="table"><table>
      <thead>
      <tr><th>Estándar</th><th>Señal</th><th>Conector</th><th>Contenido</th></tr>
      </thead>
@@ -69,13 +69,13 @@ Show_max: 0
      <tr><td>{DVI}</td><td>Analógica y digital</td><td>Robusto</td><td>Vídeo</td></tr>
      <tr><td>{HDMI}</td><td>Digital</td><td>Débil</td><td>Audio y Vídeo</td></tr>
      </tbody>
-     </table>
+     </table></div>
 
 - Title:
   Image: ../images/informatica-ethernet-cable.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector de red Ethernet</strong>
+     <strong>Conexión de red Ethernet</strong>
      <br>
      El estándar de red local {Ethernet} se utiliza para conectar
      ordenadores en redes de área local, que suelen unir entre sí
@@ -95,7 +95,7 @@ Show_max: 0
      cercanas, de {decenas} de metros.
      <br>
      Estándares de comunicaciones Ethernet más usados con cable de cobre.
-     <table>
+     <div class="table"><table>
      <thead>
      <tr><th>Estándar</th><th>Año</th><th>Cables</th><th>Velocidad</th></tr>
      </thead>
@@ -109,4 +109,4 @@ Show_max: 0
      <tr><td>10GBase T</td><td>2006</td><td>UTP Categoría 6A</td>
          <td>{10000} Mbit/s</td></tr>
      </tbody>
-     </table>
+     </table></div>

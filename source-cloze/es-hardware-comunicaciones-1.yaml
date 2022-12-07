@@ -63,7 +63,7 @@ Show_max: 0
   Image: ../images/informatica-sata-hdd.jpg
   Image_width: 480
   Cloze:
-     <strong>SATA</strong>
+     <strong>Conexión SATA</strong>
      <br>
      El bus serial ATA conecta las unidades de almacenamiento del
      ordenador (HDD, SSD, discos ópticos) con el procesador.
@@ -76,12 +76,12 @@ Show_max: 0
      Esto es así porque SATA es un estándar pensado para conectar
      dispositivos dentro de la caja o {carcasa} del ordenador.
      <br>
-     <table>
+     <div class="table"><table>
      <thead><tr><th>Versión</th><th>Año</th><th>Velocidad</th></tr></thead>
      <tbody>
      <tr><td>SATA 1.0</td><td>2003</td><td>{150} megabyte/s</td></tr>
      <tr><td>SATA 2.0</td><td>2004</td><td>{300} megabyte/s</td></tr>
      <tr><td>SATA 3.0</td><td>2008</td><td>{600} megabyte/s</td></tr>
      </tbody>
-     </table>
+     </table></div>
 

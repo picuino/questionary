@@ -13,7 +13,7 @@ Show_max: 0
   Image: ../images/informatica-usb-connectors.jpg
   Image_width: 480
   Cloze:
-     <strong>USB</strong>
+     <strong>Conexión USB</strong>
      <br>
      El USB (Universal Serial Bus) es un {estándar} para dar conexión de
      datos y alimentación a computadoras, periféricos y dispositivos
@@ -21,7 +21,7 @@ Show_max: 0
      <br>
      Actualmente existen 4 grandes estándares USB con las 
      características que aparecen en la siguiente tabla.
-     <table>
+     <div class="table"><table>
      <thead>
      <tr><th>Estándar</th><th>Año</th><th>Velocidad</th><th>Corriente</th><th>Otros</th></tr>
      </thead>
@@ -35,7 +35,7 @@ Show_max: 0
      <tr><td>USB 4.0</td><td>2019</td><td>4000 MB/s</td>
          <td>3.0 A</td><td>Solo conector C</td></tr>
      </tbody>
-     </table>
+     </table></div>
      El conector USB C es el más {moderno} y el único compatible con la
      especificación de USB 4. Además de permitir comunicaciones de alta
      {velocidad}, con la tecnología Power Delivery puede alimentar 
@@ -46,7 +46,7 @@ Show_max: 0
   Image: ../images/informatica-computer-audio.jpg
   Image_width: 320
   Cloze: "
-     <strong>Conectores de audio analógico</strong>
+     <strong>Conexión de audio analógico</strong>
      <br>
      Los conectores de audio {analógicos} se utilizan para conectar
      micrófonos, {auriculares} y otros sistemas de audio analógico a
@@ -58,7 +58,7 @@ Show_max: 0
      <br>
      Códigos de colores para conectores de audio de 3,5 mm en
      ordenadores personales:
-     <table>
+     <div class=\"table\"><table>
      <thead>
      <tr><th>Color</th><th>Función</th></tr>
      </thead>
@@ -70,14 +70,14 @@ Show_max: 0
      <tr><td>Gris</td><td>Salida de audio. Canales laterales.</td></tr>
      <tr><td>Naranja</td><td>Salida de audio. Canal central y Subwoofer.</td></tr>
      </tbody>
-     </table>
+     </table></div>
      "
 
 - Title:
   Image: ../images/informatica-puertos-ps2.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector PS/2</strong>
+     <strong>Conexión PS/2</strong>
      <br>
      El conector PS/2 toma su nombre de las computadoras IBM Personal
      System/2, creada por {IBM} en 1987. Este conector se emplea para 
@@ -94,7 +94,7 @@ Show_max: 0
   Image: ../images/informatica-rs232-connector.jpg
   Image_width: 320
   Cloze:
-     <strong>Conector RS-232</strong>
+     <strong>Conexión RS-232</strong>
      <br>
      El estándar de comunicaciones RS-{232} es una interfaz para
      intercambio de datos vía serie de {baja} velocidad.
