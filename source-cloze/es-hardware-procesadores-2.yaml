@@ -10,6 +10,8 @@ Show_max: 0
 ---
 
 - Title:
+  Image: ../images/informatica-tarjeta-video.jpg
+  Image_width: 480
   Cloze:
      <strong>Tarjeta gráfica</strong><br>
      La mayoría de las CPUs actuales tienen ya integradas pequeñas
@@ -41,8 +43,7 @@ Show_max: 0
      <strong>Procesador de señales digitales</strong><br>
      Un {DSP} o procesador de señales digitales es un procesador
      especializado en ejecutar operaciones numéricas relacionadas
-     con el tratamiento de {señales}, a muy alta velocidad.
-     <br><br>
+     con el tratamiento de {señales}, a muy alta velocidad.<br>
      Sus aplicaciones típicas son el tratamiento en tiempo real de
      señales de {audio}, voz, imagen, {vídeo}, etc.
      Con estas aplicaciones se puede eliminar el eco en las líneas
@@ -63,7 +64,7 @@ Show_max: 0
      precio.<br>
      Estos procesadores se utilizan para controlar periféricos tales
      como el {teclado}, el ratón, la cámara web, el {monitor}, los
-     discos duros, etc. <br>
+     discos duros, etc.<br>
      Gracias a los microcontroladores, la CPU principal del ordenador
      se descarga de las tareas de {control} de los periféricos,
      que serían muy costosas en tiempo y recursos si tuviera que

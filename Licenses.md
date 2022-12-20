@@ -26,6 +26,146 @@ Se puede leer el texto de la licencia CC BY-SA 4.0 en el enlace:
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
 
+Imágenes Externas
+=====================
+Las siguientes imágenes están tomadas de **wikimedia**.
+Cada una de ellas tiene un enlace a la página de donde fueron tomadas y 
+un título con el autor y la licencia.
+
+<a title="Evan-Amos, Public domain, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
+<img alt="Claw-hammer" src="images/thumbs/material-hammer.jpg"></a>
+<a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
+<img alt="Screwdriver" src="images/thumbs/material-screwdriver.jpg"></a>
+<a title="Lysippos, Creative Commons Attribution-Share Alike 2.0 DE, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Milv.jpg">
+<img alt="Mármol" src="images/thumbs/material-marmol.jpg"></a>
+<a title="Rojinegro81, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG">
+<img alt="Granito" src="images/thumbs/material-granito.jpg"></a>
+<a title="Dontworry, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg">
+<img alt="Pizarra" src="images/thumbs/material-pizarra.jpg"></a>
+<a title="Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg">
+<img alt="Caliza" src="images/thumbs/material-caliza.jpg"></a>
+<a title="Sarranpa, CC BY-SA 4.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Arenisca.jpg">
+<img alt="Arenisca" src="images/thumbs/material-arenisca.jpg"></a>
+<a title="Joseph Rose, CC0 Public Domain, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Tapestry_Room_from_Croome_Court_MET_DP341270.jpg">
+<img alt="Escayola" src="images/thumbs/material-escayola.jpg"></a>
+<a title="Anónimo, CC0 Public Domain, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:USMC-110806-M-IX060-148.jpg">
+<img alt="Cemento" src="images/thumbs/material-cemento.jpg"></a>
+<a title="Dafran, CC BY-SA 4.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png">
+<img alt="Hormigón" src="images/thumbs/material-hormigon.jpg"></a>
+<a title="Siim Sepp, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg">
+<img alt="Arcilla" src="images/thumbs/material-arcilla.jpg"></a>
+<a title="Patrick Charpiat, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Beau_021.jpg">
+<img alt="Gres" src="images/thumbs/material-gres.jpg"></a>
+<a title="Klausbo, Public Domain, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Transparent_porcelain.jpg">
+<img alt="Porcelana" src="images/thumbs/material-porcelana.jpg"></a>
+<a title="Matthew Bowden, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg">
+<img alt="Vidrio" src="images/thumbs/material-vidrio.jpg"></a>
+<a title="Lourdes Cardenal, CC BY-SA 3.0, via Wikimedia Commons"
+href="https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg">
+<img alt="Loza" src="images/thumbs/material-loza.jpg"></a>
+<a title="Gustavb, CC BY-SA 3.0 Unported, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded_5.svg">
+<img alt="PC exploded" src="images/thumbs/informatica-pc-exploded.png"></a>
+<a title="Avia Husk, CC BY-SA 4.0 International, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_6.jpg">
+<img alt="Apple Watch" src="images/thumbs/informatica-apple-watch.jpg"></a>
+<a title="Evan-Amos, Public Domain, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Raspberry-Pi-2-Bare-BR.jpg">
+<img alt="Apple Watch" src="images/thumbs/informatica-raspberry-pi.jpg"></a>
+<a title="PAG DEV, CC BY-SA 4.0 International, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Amazon_Fire_TV_4k.jpg">
+<img alt="Amazon Fire TV 4K" src="images/thumbs/informatica-fire-tv.jpg"></a>
+<a title="Pixabay CC0 1.0 Public Domain"
+href="https://commons.wikimedia.org/wiki/File:Black_laptop_computer_open_frontal.svg">
+<img alt="Laptop" src="images/thumbs/informatica-laptop.png"></a>
+<a title="SimonWaldherr, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg">
+<img alt="iPhone 13" src="images/thumbs/informatica-iphone-13.jpg"></a>
+<a title="Imagen de OpenClipart-Vectors en Pixabay"
+href="https://pixabay.com/es/vectors/computadora-escritorio-158675/">
+<img alt="Computadora de escritorio" src="images/thumbs/informatica-computer-02.png"></a>
+<a title="Evan-Amos CC BY-SA 3.0 Unported via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg">
+<img alt="Placa base ASRock A70GXH-128M" src="images/thumbs/informatica-placa-base-02.jpg"></a>
+<a title="Chrihern, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg">
+<img alt="Bus de placa base." src="images/thumbs/informatica-motherboard-bus.jpg"></a>
+<a title="Dsimic, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg">
+<img alt="Conectores SATA de datos y de alimentación de dos discos duros."
+src="images/thumbs/informatica-sata-hdd.jpg"></a>
+<a title="Jona, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg">
+<img alt="Conectores PCI Express x4, x16, x1, x16."
+src="images/thumbs/informatica-pci-express.jpg"></a>
+<a title="Wagner51, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg">
+<img alt="Módulo de memoria DIMM DDR y módulo DDR2."
+src="images/thumbs/informatica-dimm-ddr2.jpg"></a>
+<a title="Xaar, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg">
+<img alt="Zócalo para CPU de tipo LGA 1151."
+src="images/thumbs/informatica-zocalo-1151.jpg"></a>
+<a title="Viljo Viitanen, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG">
+<img alt="Conectores USB. Micro tipo B, UC-E6, mini tipo B, hembra tipo A, macho tipo A, macho tipo B."
+src="images/thumbs/informatica-usb-connectors.jpg"></a>
+<a title="Jud McCranie, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg">
+<img alt="Conectores de audio analógico de 3.5 mm de un ordenador personal."
+src="images/thumbs/informatica-computer-audio.jpg"></a>
+<a title="Norman Rogers, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg">
+<img alt="Puertos PS/2 para teclado (morado) y para ratón (verde)."
+src="images/thumbs/informatica-puertos-ps2.jpg"></a>
+<a title="Faxe, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:RS-232.jpeg">
+<img alt="Conector RS-232 (DB-9 hembra)."
+src="images/thumbs/informatica-rs232-connector.jpg"></a>
+<a title="Afrank99, CC BY-SA 2.5, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg">
+<img alt="Conector VGA macho."
+src="images/thumbs/informatica-conector-vga.jpg"></a>
+<a title="Greg Ebdon, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg">
+<img alt="Conector DVI macho."
+src="images/thumbs/informatica-conector-dvi.jpg"></a>
+<a title="Evan-Amos, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg">
+<img alt="Conector HDMI macho."
+src="images/thumbs/informatica-conector-hdmi.jpg"></a>
+<a title="David Monniaux, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg">
+<img alt="Cable UTP de Ethernet con conector RJ-45 macho."
+src="images/thumbs/informatica-ethernet-cable.jpg"></a>
+<a title="Solipsist, CC BY-SA 2.0 Generic, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Intel_80486DX2_bottom.jpg">
+<img alt="CPU 80486DX típica de los PC de mediados de los años 90."
+src="images/thumbs/informatica-cpu-486dx2-b.jpg"></a>
+<a title="Evan-Amos, Public Domain, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg">
+<img alt="Tarjeta gráfica Radeon HD 5570."
+src="images/thumbs/informatica-tarjeta-video.jpg"></a>
+
+
+
+
+
+
 Imágenes del proyecto
 =====================
 Las imágenes de los cuestionarios se distribuyen bajo diferentes 
@@ -532,134 +672,3 @@ Se puede leer el texto de la licencia en el enlace: https://creativecommons.org/
 ![](images/thumbs/electric-transistorOr.png)
 ![](images/thumbs/electric-xnorGate.jpg)
 ![](images/thumbs/electric-xorGate.png)
-
-
-
-Imágenes Externas
-=====================
-
-Las siguientes imágenes están tomadas de **wikimedia**.
-Cada una de ellas tiene un enlace a la página de donde fueron tomadas y 
-un título con el autor y la licencia.
-
-<a title="Evan-Amos, Public domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Claw-hammer.jpg">
-<img alt="Claw-hammer" src="images/thumbs/material-hammer.jpg"></a>
-<a title="Iainf, Creative Commons Attribution-Share Alike 3.0 Unported, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Yellow-flathead-screwdriver.jpg">
-<img alt="Screwdriver" src="images/thumbs/material-screwdriver.jpg"></a>
-<a title="Lysippos, Creative Commons Attribution-Share Alike 2.0 DE, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Milv.jpg">
-<img alt="Mármol" src="images/thumbs/material-marmol.jpg"></a>
-<a title="Rojinegro81, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Roca_Granito.JPG">
-<img alt="Granito" src="images/thumbs/material-granito.jpg"></a>
-<a title="Dontworry, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:St.leonhard-ffm002.jpg">
-<img alt="Pizarra" src="images/thumbs/material-pizarra.jpg"></a>
-<a title="Berthold Werner, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Gizeh_Cheops_BW_1.jpg">
-<img alt="Caliza" src="images/thumbs/material-caliza.jpg"></a>
-<a title="Sarranpa, CC BY-SA 4.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Arenisca.jpg">
-<img alt="Arenisca" src="images/thumbs/material-arenisca.jpg"></a>
-<a title="Joseph Rose, CC0 Public Domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Tapestry_Room_from_Croome_Court_MET_DP341270.jpg">
-<img alt="Escayola" src="images/thumbs/material-escayola.jpg"></a>
-<a title="Anónimo, CC0 Public Domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:USMC-110806-M-IX060-148.jpg">
-<img alt="Cemento" src="images/thumbs/material-cemento.jpg"></a>
-<a title="Dafran, CC BY-SA 4.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Hormigon-autonivelante.png">
-<img alt="Hormigón" src="images/thumbs/material-hormigon.jpg"></a>
-<a title="Siim Sepp, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Clay-ss-2005.jpg">
-<img alt="Arcilla" src="images/thumbs/material-arcilla.jpg"></a>
-<a title="Patrick Charpiat, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Beau_021.jpg">
-<img alt="Gres" src="images/thumbs/material-gres.jpg"></a>
-<a title="Klausbo, Public Domain, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Transparent_porcelain.jpg">
-<img alt="Porcelana" src="images/thumbs/material-porcelana.jpg"></a>
-<a title="Matthew Bowden, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Colorful_bottle.jpg">
-<img alt="Vidrio" src="images/thumbs/material-vidrio.jpg"></a>
-<a title="Lourdes Cardenal, CC BY-SA 3.0, via Wikimedia Commons"
-href="https://commons.wikimedia.org/wiki/File:Cuenco_barro_ceramica_popular_lou.jpg">
-<img alt="Loza" src="images/thumbs/material-loza.jpg"></a>
-<a title="Gustavb, CC BY-SA 3.0 Unported, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Personal_computer,_exploded_5.svg">
-<img alt="PC exploded" src="images/thumbs/informatica-pc-exploded.png"></a>
-<a title="Avia Husk, CC BY-SA 4.0 International, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Apple_Watch_Series_6.jpg">
-<img alt="Apple Watch" src="images/thumbs/informatica-apple-watch.jpg"></a>
-<a title="Evan-Amos, Public Domain, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Raspberry-Pi-2-Bare-BR.jpg">
-<img alt="Apple Watch" src="images/thumbs/informatica-raspberry-pi.jpg"></a>
-<a title="PAG DEV, CC BY-SA 4.0 International, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Amazon_Fire_TV_4k.jpg">
-<img alt="Amazon Fire TV 4K" src="images/thumbs/informatica-fire-tv.jpg"></a>
-<a title="Pixabay CC0 1.0 Public Domain"
-href="https://commons.wikimedia.org/wiki/File:Black_laptop_computer_open_frontal.svg">
-<img alt="Laptop" src="images/thumbs/informatica-laptop.png"></a>
-<a title="SimonWaldherr, CC BY-SA 4.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:IPhone_13_Pro.jpg">
-<img alt="iPhone 13" src="images/thumbs/informatica-iphone-13.jpg"></a>
-<a title="Imagen de OpenClipart-Vectors en Pixabay"
-href="https://pixabay.com/es/vectors/computadora-escritorio-158675/">
-<img alt="Computadora de escritorio" src="images/thumbs/informatica-computer-02.png"></a>
-<a title="Evan-Amos CC BY-SA 3.0 Unported via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:A790GXH-128M-Motherboard.jpg">
-<img alt="Placa base ASRock A70GXH-128M" src="images/thumbs/informatica-placa-base-02.jpg"></a>
-<a title="Chrihern, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Motherboard_bus.jpg">
-<img alt="Bus de placa base." src="images/thumbs/informatica-motherboard-bus.jpg"></a>
-<a title="Dsimic, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:2.5-inch_SATA_drive_on_top_of_a_3.5-inch_SATA_drive,_close-up_of_data_and_power_connectors.jpg">
-<img alt="Conectores SATA de datos y de alimentación de dos discos duros."
-src="images/thumbs/informatica-sata-hdd.jpg"></a>
-<a title="Jona, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:PCI-E_%26_PCI_slots_on_DFI_LanParty_nF4_SLI-DR_20050531.jpg">
-<img alt="Conectores PCI Express x4, x16, x1, x16."
-src="images/thumbs/informatica-pci-express.jpg"></a>
-<a title="Wagner51, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Notch_position_between_DDR_and_DDR2.jpg">
-<img alt="Módulo de memoria DIMM DDR y módulo DDR2."
-src="images/thumbs/informatica-dimm-ddr2.jpg"></a>
-<a title="Xaar, CC BY-SA 4.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Socket_1151_closed_01.jpg">
-<img alt="Zócalo para CPU de tipo LGA 1151."
-src="images/thumbs/informatica-zocalo-1151.jpg"></a>
-<a title="Viljo Viitanen, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Usb_connectors.JPG">
-<img alt="Conectores USB. Micro tipo B, UC-E6, mini tipo B, hembra tipo A, macho tipo A, macho tipo B."
-src="images/thumbs/informatica-usb-connectors.jpg"></a>
-<a title="Jud McCranie, CC BY-SA 4.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Computer_mike,_audio_out,_and_audio_in_jacks.jpg">
-<img alt="Conectores de audio analógico de 3.5 mm de un ordenador personal."
-src="images/thumbs/informatica-computer-audio.jpg"></a>
-<a title="Norman Rogers, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Ps-2-ports.jpg">
-<img alt="Puertos PS/2 para teclado (morado) y para ratón (verde)."
-src="images/thumbs/informatica-puertos-ps2.jpg"></a>
-<a title="Faxe, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:RS-232.jpeg">
-<img alt="Conector RS-232 (DB-9 hembra)."
-src="images/thumbs/informatica-rs232-connector.jpg"></a>
-<a title="Afrank99, CC BY-SA 2.5, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:VGA_Stecker.jpg">
-<img alt="Conector VGA macho."
-src="images/thumbs/informatica-conector-vga.jpg"></a>
-<a title="Greg Ebdon, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:DVI_Connector.jpg">
-<img alt="Conector DVI macho."
-src="images/thumbs/informatica-conector-dvi.jpg"></a>
-<a title="Evan-Amos, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:HDMI-Connector.jpg">
-<img alt="Conector HDMI macho."
-src="images/thumbs/informatica-conector-hdmi.jpg"></a>
-<a title="David Monniaux, CC BY-SA 3.0, via Wikimedia Commons."
-href="https://commons.wikimedia.org/wiki/File:Ethernet_RJ45_connector_p1160054.jpg">
-<img alt="Cable UTP de Ethernet con conector RJ-45 macho."
-src="images/thumbs/informatica-ethernet-cable.jpg"></a>
-
