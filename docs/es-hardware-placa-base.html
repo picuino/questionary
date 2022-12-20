@@ -691,7 +691,7 @@
          
       ]
 
-      const time_between_clues = 2000;
+      const time_between_clues = 1500;
       var questions_pages = 0;
       var gap_selected = 0;
       var page = 0;
@@ -701,6 +701,9 @@
       var gaps_not_solved = 0;
       var watermark = 0;
       var interval;
+      var timeout_clue = 0;
+      var timeout_last_score = 0;
+      var final_score_interval;
 
       if (!String.prototype.format) {
          String.prototype.format = function() {
@@ -716,6 +719,9 @@
       page_reset();
 
       function page_reset() {
+         if (final_score_interval) {
+            clearInterval(final_score_interval);
+         }
          page = 0;
          points_total = 0;
          if (show_max > 0 && show_max < questions_encoded.length) {
@@ -937,7 +943,7 @@
          else {
             sessionStorage.setItem('last_questions_title', questions_title);
             sessionStorage.setItem('last_questions_points', points_total);
-            interval = setInterval(final_score_fill, 500);
+            final_score_interval = setInterval(final_score_fill, 500);
          }
 
          // Init variables
@@ -945,7 +951,18 @@
       };
 
       function last_score() {
-         interval = setInterval(final_score_fill, 500);
+         if (timeout_last_score === 1) {
+            final_score_interval = setInterval(final_score_fill, 500);
+         }
+         else {
+            timeout_last_score = 1;
+            setTimeout(reset_timeout_last_score, 400);
+            return;
+         }
+      }
+
+      function reset_timeout_last_score() {
+         timeout_last_score = 0;
       }
 
       function questions_page_gaps(page) {
@@ -1110,8 +1127,6 @@
       function select_gap(num) {
          gap_selected = num;
       };
-
-      var timeout_clue = 0;
 
       function reset_timeout_clue() {
          timeout_clue = 0;
