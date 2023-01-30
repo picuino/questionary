@@ -7,7 +7,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Almacenamiento secundario</strong><br> Los dispositivos de almacenamiento secundario de un {ordenador} son memorias no {volátiles}, es decir, que almacenan datos a pesar de que el ordenador no tenga alimentación. Se suelen instalar de forma {permanente} en el interior del ordenador para que almacenen el sistema {operativo} y los diferentes {programas} y datos de uso habitual. <br> Los dispositivos de almacenamiento secundario son más {lentos} que los de almacenamiento primario. Como contrapartida tienen {mayor|más} capacidad de almacenamiento.</text> </name>
+    <name> <text>Hardware. Almacenamiento II. Pregunta 01.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Almacenamiento secundario</strong><br> Los dispositivos de almacenamiento secundario de un {1:SHORTANSWER:=ordenador} son memorias no {1:SHORTANSWER:=volátiles}, es decir, que almacenan datos a pesar de que el ordenador no tenga alimentación. Se suelen instalar de forma {1:SHORTANSWER:=permanente} en el interior del ordenador para que almacenen el sistema {1:SHORTANSWER:=operativo} y los diferentes {1:SHORTANSWER:=programas} y datos de uso habitual. <br> Los dispositivos de almacenamiento secundario son más {1:SHORTANSWER:=lentos} que los de almacenamiento primario. Como contrapartida tienen {1:SHORTANSWER:=mayor~%100%más} capacidad de almacenamiento.]]></text>
     </questiontext>
@@ -19,7 +19,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Memoria ROM</strong><br> La memoria ROM (Read Only Memory) o memoria de solo {lectura} es una memoria de almacenamiento {permanente} de programas y datos del ordenador. En esta memoria se almacena el denominado {Firmware}, programas de solo lectura que manejan un dispositivo. <br> Muchas memorias ROM que se utilizan hoy en día no son realmente de solo {lectura}. Suelen estar basadas en tecnología {Flash} y se pueden reescribir {múltiples|muchas} veces. Por esta razón, hoy en día a esta memoria también se la denomina memoria Flash. <br> Las memorias Flash suelen ser más lentas, más sencillas y de menor capacidad que las memorias incluidas en las unidades {SSD}, aunque ambas estén basadas internamente en una tecnología similar. <br> Ejemplos de memoria ROM son la memoria del {BIOS} (Sistema Básico de Entrada Salida) de un ordenador personal, o el programa interno de dispositivos como un {router}, un mando a distancia, etc.</text> </name>
+    <name> <text>Hardware. Almacenamiento II. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Memoria ROM</strong><br> La memoria ROM (Read Only Memory) o memoria de solo {1:SHORTANSWER:=lectura} es una memoria de almacenamiento {1:SHORTANSWER:=permanente} de programas y datos del ordenador. En esta memoria se almacena el denominado {1:SHORTANSWER:=Firmware}, programas de solo lectura que manejan un dispositivo. <br> Muchas memorias ROM que se utilizan hoy en día no son realmente de solo {1:SHORTANSWER:=lectura}. Suelen estar basadas en tecnología {1:SHORTANSWER:=Flash} y se pueden reescribir {1:SHORTANSWER:=múltiples~%100%muchas} veces. Por esta razón, hoy en día a esta memoria también se la denomina memoria Flash. <br> Las memorias Flash suelen ser más lentas, más sencillas y de menor capacidad que las memorias incluidas en las unidades {1:SHORTANSWER:=SSD}, aunque ambas estén basadas internamente en una tecnología similar. <br> Ejemplos de memoria ROM son la memoria del {1:SHORTANSWER:=BIOS} (Sistema Básico de Entrada Salida) de un ordenador personal, o el programa interno de dispositivos como un {1:SHORTANSWER:=router}, un mando a distancia, etc.]]></text>
     </questiontext>
@@ -31,7 +31,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Unidad de disco duro (HDD)</strong><br> La unidad de disco duro es un tipo de memoria {secundaria} basada en un disco giratorio impregnado con una sustancia {magnética} que permite almacenar información de forma {permanente}. <br> Los discos duros son los encargados de almacenar los programas y los datos para que se mantengan mientras el ordenador está {apagado}. <br> Cuando un usuario de ordenador quiere utilizar un {programa} o visualizar un archivo de datos, la información se lee desde el disco duro y pasa a escribirse en la memoria {RAM} para que la CPU pueda trabajar con ellos. <br> Los discos duros llevan muchos años en el mercado (desde {1956}) por lo que se basan en tecnologías asentadas y muy optimizadas. A pesar de ello, se van sustituyendo poco a poco por los {SSD} por las múltiples ventajas que presentan estos últimos.</text> </name>
+    <name> <text>Hardware. Almacenamiento II. Pregunta 03.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Unidad de disco duro (HDD)</strong><br> La unidad de disco duro es un tipo de memoria {1:SHORTANSWER:=secundaria} basada en un disco giratorio impregnado con una sustancia {1:SHORTANSWER:=magnética} que permite almacenar información de forma {1:SHORTANSWER:=permanente}. <br> Los discos duros son los encargados de almacenar los programas y los datos para que se mantengan mientras el ordenador está {1:SHORTANSWER:=apagado}. <br> Cuando un usuario de ordenador quiere utilizar un {1:SHORTANSWER:=programa} o visualizar un archivo de datos, la información se lee desde el disco duro y pasa a escribirse en la memoria {1:SHORTANSWER:=RAM} para que la CPU pueda trabajar con ellos. <br> Los discos duros llevan muchos años en el mercado (desde {1:SHORTANSWER:=1956}) por lo que se basan en tecnologías asentadas y muy optimizadas. A pesar de ello, se van sustituyendo poco a poco por los {1:SHORTANSWER:=SSD} por las múltiples ventajas que presentan estos últimos.]]></text>
     </questiontext>
@@ -43,8 +43,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Unidad de estado sólido (SSD)</strong><br> La unidad de estado sólido es un tipo de memoria secundaria basada en chips de tecnología Flash que almacenan información de forma {permanente}.
-Son más modernos en el mercado (desde {2009}) que los discos duros y tienen menos capacidad a igualdad de {precio}, pero van mejorando rápidamente con los años y están sustituyendo poco a poco a los discos {duros} tradicionales.</text> </name>
+    <name> <text>Hardware. Almacenamiento II. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Unidad de estado sólido (SSD)</strong><br> La unidad de estado sólido es un tipo de memoria secundaria basada en chips de tecnología Flash que almacenan información de forma {1:SHORTANSWER:=permanente}.
 Son más modernos en el mercado (desde {1:SHORTANSWER:=2009}) que los discos duros y tienen menos capacidad a igualdad de {1:SHORTANSWER:=precio}, pero van mejorando rápidamente con los años y están sustituyendo poco a poco a los discos {1:SHORTANSWER:=duros} tradicionales.]]></text>
@@ -57,7 +56,7 @@ Son más modernos en el mercado (desde {1:SHORTANSWER:=2009}) que los discos dur
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Comparativa entre HDD y SSD</strong><br> Ventajas de los SSD: <ul> <li>Mayor {velocidad} de transferencia. Más de 600 megabytes/s de un SSD frente a 100 megabytes/s de un HDD.</li> <li>Menor tiempo de {acceso}. 0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.</li> <li>Mayor resistencia a los {golpes} y a las vibraciones.</li> <li>Menor tasa de fallos de los SSD al no tener partes {móviles}.</li> <li>Menor consumo eléctrico. 4W ó 5W de un SSD a máximo rendimiento frente a 6W a 10W de un HDD.</li> <li>Menor {tamaño} físico.</li> <li>Menor {ruido} generado.</li> </ul> <br> Desventajas de los SSD: <ul> <li>Menor resistencia a un gran número de {escrituras}.</li> <li>Mayor {precio} por gigabyte. 0,08€ de un SSD frente a 0,02€ de un HDD en 2022.</li> </ul></text> </name>
+    <name> <text>Hardware. Almacenamiento II. Pregunta 05.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Comparativa entre HDD y SSD</strong><br> Ventajas de los SSD: <ul> <li>Mayor {1:SHORTANSWER:=velocidad} de transferencia. Más de 600 megabytes/s de un SSD frente a 100 megabytes/s de un HDD.</li> <li>Menor tiempo de {1:SHORTANSWER:=acceso}. 0,1 milisegundos de un SSD frente a 10 milisegundos de un HDD.</li> <li>Mayor resistencia a los {1:SHORTANSWER:=golpes} y a las vibraciones.</li> <li>Menor tasa de fallos de los SSD al no tener partes {1:SHORTANSWER:=móviles}.</li> <li>Menor consumo eléctrico. 4W ó 5W de un SSD a máximo rendimiento frente a 6W a 10W de un HDD.</li> <li>Menor {1:SHORTANSWER:=tamaño} físico.</li> <li>Menor {1:SHORTANSWER:=ruido} generado.</li> </ul> <br> Desventajas de los SSD: <ul> <li>Menor resistencia a un gran número de {1:SHORTANSWER:=escrituras}.</li> <li>Mayor {1:SHORTANSWER:=precio} por gigabyte. 0,08€ de un SSD frente a 0,02€ de un HDD en 2022.</li> </ul>]]></text>
     </questiontext>

@@ -7,7 +7,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Comunicaciones</strong> <br> Las comunicaciones de los ordenadores permiten el {movimiento} de los datos entre diferentes dispositivos y {componentes} del ordenador. Son elementos fundamentales que se encuentran en todos los {niveles} de la informática, desde las líneas de comunicación interna de un microprocesador hasta las líneas de comunicación de internet a nivel {mundial}.</text> </name>
+    <name> <text>Hardware. Comunicaciones I. Pregunta 01.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Comunicaciones</strong> <br> Las comunicaciones de los ordenadores permiten el {1:SHORTANSWER:=movimiento} de los datos entre diferentes dispositivos y {1:SHORTANSWER:=componentes} del ordenador. Son elementos fundamentales que se encuentran en todos los {1:SHORTANSWER:=niveles} de la informática, desde las líneas de comunicación interna de un microprocesador hasta las líneas de comunicación de internet a nivel {1:SHORTANSWER:=mundial}.]]></text>
     </questiontext>
@@ -19,7 +19,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Conectores macho y hembra</strong> <br> Los conectores sirven para poder {unir} físicamente los cables con los ordenadores y el resto de {equipos} electrónicos. <br> Normalmente los cables suelen tener los pines de conexión salientes (conectores de tipo {macho}) y los ordenadores y el resto de equipos electrónicos tienen los agujeros (conectores de tipo {hembra}) donde se conectan los pines de conexión macho. <br> La razón para esta elección es que los {pines} macho de los cables se pueden romper o doblar con mayor facilidad que los {agujeros} hembra de los equipos. Si se estropean los pines de un cable, este se puede reemplazar a un costo {reducido|bajo}, mientras que si se estropea el conector de un ordenador sería mucho más costoso de reemplazar. <br> Otros conectores macho y hembra, como los conectores {USB}, no tienen pines de conexión, sino superficies de contacto y son mucho más {robustos} que los conectores con pines. Pero la elección de clavija macho para el {cable} y hembra para el equipo se suele mantener.</text> </name>
+    <name> <text>Hardware. Comunicaciones I. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Conectores macho y hembra</strong> <br> Los conectores sirven para poder {1:SHORTANSWER:=unir} físicamente los cables con los ordenadores y el resto de {1:SHORTANSWER:=equipos} electrónicos. <br> Normalmente los cables suelen tener los pines de conexión salientes (conectores de tipo {1:SHORTANSWER:=macho}) y los ordenadores y el resto de equipos electrónicos tienen los agujeros (conectores de tipo {1:SHORTANSWER:=hembra}) donde se conectan los pines de conexión macho. <br> La razón para esta elección es que los {1:SHORTANSWER:=pines} macho de los cables se pueden romper o doblar con mayor facilidad que los {1:SHORTANSWER:=agujeros} hembra de los equipos. Si se estropean los pines de un cable, este se puede reemplazar a un costo {1:SHORTANSWER:=reducido~%100%bajo}, mientras que si se estropea el conector de un ordenador sería mucho más costoso de reemplazar. <br> Otros conectores macho y hembra, como los conectores {1:SHORTANSWER:=USB}, no tienen pines de conexión, sino superficies de contacto y son mucho más {1:SHORTANSWER:=robustos} que los conectores con pines. Pero la elección de clavija macho para el {1:SHORTANSWER:=cable} y hembra para el equipo se suele mantener.]]></text>
     </questiontext>
@@ -31,7 +31,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Buses de placa base</strong> <br> Son las pistas del circuito {impreso} que llevan los datos entre la CPU y el resto de los dispositivos conectados a la placa {base}. <br> Tiene muchas más {líneas} de datos que cualquier otro cable de comunicación y es el medio de transmisión más {rápido} con diferencia. Las distancias que recorren las líneas de datos son muy cortas, de pocos {centímetros}.</text> </name>
+    <name> <text>Hardware. Comunicaciones I. Pregunta 03.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/915aaba5d8789c3f2e94.jpg" alt="" role="presentation" width="480"></div>
@@ -48,7 +48,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Conexión SATA</strong> <br> El bus serial ATA conecta las unidades de almacenamiento del ordenador (HDD, SSD, discos ópticos) con el procesador. El bus SATA lleva en el mercado desde {2003} y actualmente se encuentra en funcionamiento la versión {3.0}. <br> El cable de conexión desde la placa base hasta la unidad de almacenamiento puede llegar a tener hasta 1 {metro} de longitud, aunque la mayoría de los cables fabricados tienen una longitud menor. Esto es así porque SATA es un estándar pensado para conectar dispositivos dentro de la caja o {carcasa} del ordenador. <br> <div class="table"><table> <thead><tr><th>Versión</th><th>Año</th><th>Velocidad</th></tr></thead> <tbody> <tr><td>SATA 1.0</td><td>2003</td><td>{150} megabyte/s</td></tr> <tr><td>SATA 2.0</td><td>2004</td><td>{300} megabyte/s</td></tr> <tr><td>SATA 3.0</td><td>2008</td><td>{600} megabyte/s</td></tr> </tbody> </table></div></text> </name>
+    <name> <text>Hardware. Comunicaciones I. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/42e187cc79e34eb7a6b0.jpg" alt="" role="presentation" width="480"></div>

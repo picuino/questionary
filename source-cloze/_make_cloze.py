@@ -157,9 +157,12 @@ class Cloze():
 
    def add_title(self):
       """Add Title to every question if does not exists"""
-      for question in self.questions:
+      for i in range(len(self.questions)):
+         question = self.questions[i]
          if not 'Title' in question or not question['Title']:
-            question['Title'] = question['Cloze']
+            question['Title'] = self.header['Category'] + '. ' + \
+                                self.header['Title'] + '. ' + \
+                                'Pregunta %02d.' % (i + 1)
 
 
    def count_gaps(self):

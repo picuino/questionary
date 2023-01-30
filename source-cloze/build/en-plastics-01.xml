@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Plásticos/en-plastics-01</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 A</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Plastic is a material widely used in almost everything. In brief, the word means "pliable and easily {1:SHORTANSWER:=shaped}."<br> This material’s plasticity or plastic deformation makes it possible to be pressed, {1:SHORTANSWER:=moulded}, or extruded into solid objects of various {1:SHORTANSWER:=shapes}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 B</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[3D printers used two main technologies:<br> {1:SHORTANSWER:=Powder} bed fusion: the printers that use this technology compact masses of powder in layers.<br> Extrusion {1:SHORTANSWER:=deposition}: with this technology, the desire shape is created by adding the material in layers on a print bed.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 C</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Plastics are materials formed by chains of {1:SHORTANSWER:=carbon} and hydrogen atoms. We call these chains {1:SHORTANSWER:=polymers}, while the atoms that form them are called {1:SHORTANSWER:=monomers}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 D</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Thermoplastic materials are plastics that are {1:SHORTANSWER:=softened} by heating, and can be formed and {1:SHORTANSWER:=melted} as many times as we like.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 E</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Elastomers are very {1:SHORTANSWER:=flexible} materials that recover their shape and {1:SHORTANSWER:=dimensions} when external forces stop acting on them.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 F</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Elastomers degrade easily with the {1:SHORTANSWER:=heat} and cannot be re-melted once they have been {1:SHORTANSWER:=formed}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 G</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Thermoset plastics can be {1:SHORTANSWER:=shaped} using heat; however, once they have been formed, they cannot be re-melted to {1:SHORTANSWER:=create} different forms.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 H</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[{1:SHORTANSWER:=Extrusion}: this procedure is used with thermoplastics to obtain long products, {1:SHORTANSWER:=pipes}, profiles, etc.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 I</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Plastics are extremely useful but they generate large quantities of {1:SHORTANSWER:=waste} that build up on the surface of the Earth.<br> Unlike other materials (such as wood), plastics are mainly {1:SHORTANSWER:=non-biodegradable}; this means that they do not degrade over time.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 J</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Thermoplastics are washed, ground up and fed into an {1:SHORTANSWER:=extruder}, which uses heat to {1:SHORTANSWER:=melt} them in order to make new parts. We call this process mechanical {1:SHORTANSWER:=recycling}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 K</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[Plastics used in 3D printing, PLA or ABS:<br> {1:SHORTANSWER:=PLA}: this plastic is created from natural materials such as corn, starch and sugar cane.<br> {1:SHORTANSWER:=ABS}: a very tough, hard and rigid plastic. It can withstand high temperatures and is easy to paint.<br> {1:SHORTANSWER:=ABS}: it has a very high melting point and must be heated to 230-260ºC for use in additive manufacturing.<br> {1:SHORTANSWER:=PLA}: it is biodegradable and does not release toxic gases when it is used in printing. This material is also much more difficult to machine and paint than {1:SHORTANSWER:=ABS}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Plastics 01 L</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[A 3D printer is a machine that can print figures with {1:SHORTANSWER:=volume} from a computer design.<br> Because {1:SHORTANSWER:=thermoplastic} materials are easy to mould and form they are used in 3D printing, also called additive manufacturing.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>

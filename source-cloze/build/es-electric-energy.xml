@@ -7,7 +7,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Energía eléctrica</strong><br> La fórmula de la energía eléctrica es E = {P*T|P·T|T*P|T·P}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 01.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula de la energía eléctrica es E = {1:SHORTANSWER:=P*T~%100%P·T~%100%T*P~%100%T·P}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
     </questiontext>
@@ -19,7 +19,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Energía eléctrica</strong><br> La fórmula del tiempo es T = {E/P}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula del tiempo es T = {1:SHORTANSWER:=E/P}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
     </questiontext>
@@ -31,7 +31,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Energía eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {E/T}<br> Donde<br> E = {energía} eléctrica en {kilovatios}-hora (kWh)<br> P = {potencia} eléctrica en kilovatios (kW)<br> T = {tiempo} en segundos (s)<br></text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 03.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Energía eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {1:SHORTANSWER:=E/T}<br> Donde<br> E = {1:SHORTANSWER:=energía} eléctrica en {1:SHORTANSWER:=kilovatios}-hora (kWh)<br> P = {1:SHORTANSWER:=potencia} eléctrica en kilovatios (kW)<br> T = {1:SHORTANSWER:=tiempo} en segundos (s)<br>]]></text>
     </questiontext>
@@ -43,7 +43,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {240} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Calentador de aire</strong><br> ¿Qué energía consume al mes un calentador de aire de 2000 vatios si funciona durante 4 horas al día?<br><br> E = {1:SHORTANSWER:=240} kWh]]></text>
     </questiontext>
@@ -55,7 +55,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Frigorífico</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {67} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 05.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Frigorífico</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {1:SHORTANSWER:=67} kWh]]></text>
     </questiontext>
@@ -67,7 +67,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {3,6} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 06.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Bombilla de bajo consumo</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3,6} kWh]]></text>
     </questiontext>
@@ -79,7 +79,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Router</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {175} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 07.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Router</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {1:SHORTANSWER:=175} kWh]]></text>
     </questiontext>
@@ -91,7 +91,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Secador de pelo</strong><br> ¿Qué energía consume al mes un secador de pelo de 2000 vatios si funciona un cuarto de hora al día?<br><br> E = {15} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 08.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Secador de pelo</strong><br> ¿Qué energía consume al mes un secador de pelo de 2000 vatios si funciona un cuarto de hora al día?<br><br> E = {1:SHORTANSWER:=15} kWh]]></text>
     </questiontext>
@@ -103,7 +103,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Horno microondas</strong><br> ¿Qué energía consume al mes un horno microondas de 800 vatios si funciona media hora al día?<br><br> E = {12} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 09.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Horno microondas</strong><br> ¿Qué energía consume al mes un horno microondas de 800 vatios si funciona media hora al día?<br><br> E = {1:SHORTANSWER:=12} kWh]]></text>
     </questiontext>
@@ -115,7 +115,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>PC gaming</strong><br> ¿Qué energía consume al mes un ordenador gaming de 300 vatios si funciona cuatro horas al día?<br><br> E = {36} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 10.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>PC gaming</strong><br> ¿Qué energía consume al mes un ordenador gaming de 300 vatios si funciona cuatro horas al día?<br><br> E = {1:SHORTANSWER:=36} kWh]]></text>
     </questiontext>
@@ -127,7 +127,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {18} kWh</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 11.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>PC gaming</strong><br> ¿Qué energía consume al mes una videoconsola de 200 vatios si funciona 3 horas al día?<br><br> E = {1:SHORTANSWER:=18} kWh]]></text>
     </questiontext>
@@ -139,7 +139,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Linterna a pilas</strong><br> ¿Qué potencia consume una linterna sabiendo que tiene dos pilas con un total de 5 vatios-hora de energía eléctrica que duran 10 horas? <br><br> P = {0,5} W</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 12.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Linterna a pilas</strong><br> ¿Qué potencia consume una linterna sabiendo que tiene dos pilas con un total de 5 vatios-hora de energía eléctrica que duran 10 horas? <br><br> P = {1:SHORTANSWER:=0,5} W]]></text>
     </questiontext>
@@ -151,7 +151,7 @@
     <idnumber></idnumber>
   </question>
   <question type="cloze">
-    <name> <text><strong>Calentador de aire</strong><br> Sabiendo que la factura eléctrica de invierno ha subido un mes en 300 kWh por encender un calentador de 2000 vatios. ¿Cuánto tiempo ha estado encendido el calentador durante ese mes? <br><br> T = {150} horas</text> </name>
+    <name> <text>Electricidad. Energía eléctrica. Pregunta 13.</text> </name>
     <questiontext format="html">
       <text><![CDATA[<strong>Calentador de aire</strong><br> Sabiendo que la factura eléctrica de invierno ha subido un mes en 300 kWh por encender un calentador de 2000 vatios. ¿Cuánto tiempo ha estado encendido el calentador durante ese mes? <br><br> T = {1:SHORTANSWER:=150} horas]]></text>
     </questiontext>
