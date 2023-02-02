@@ -160,10 +160,22 @@ src="images/thumbs/informatica-cpu-486dx2-b.jpg"></a>
 href="https://commons.wikimedia.org/wiki/File:Sapphire-Radeon-HD-5570-Video-Card.jpg">
 <img alt="Tarjeta gráfica Radeon HD 5570."
 src="images/thumbs/informatica-tarjeta-video.jpg"></a>
-
-
-
-
+<a title="AnthDaniel, CC BY-SA 3.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:UPSAPC.jpg">
+<img alt="Vista delantera y trasera de un SAI marca APC."
+src="images/thumbs/informatica-sai.jpg"></a>
+<a title="Llama roja, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Refrigeraci%C3%B3n_l%C3%ADquida_en_un_computador.jpg">
+<img alt="Interior de un ordenador personal con refrigeración líquida."
+src="images/thumbs/informatica-refrigeracion-liquida.jpg"></a>
+<a title="Krzysztof Woźnica, Public Domain, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:Battery-lithium-cr2032.jpg">
+<img alt="Pila botón CR-2032, la más común en las placas base."
+src="images/thumbs/informatica-cr-2032.jpg"></a>
+<a title="Acuantico, CC BY-SA 4.0, via Wikimedia Commons."
+href="https://commons.wikimedia.org/wiki/File:For_the_Horde_Mod_by_Acu%C3%A1ntico_Power.jpg">
+<img alt="Modificación del chasis con aluminio, acrílico y leds RGB."
+src="images/thumbs/informatica-modding.jpg"></a>
 
 
 Imágenes del proyecto
