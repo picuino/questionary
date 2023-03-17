@@ -39,7 +39,6 @@ def main():
    """Main program"""
 
    moodle_template = 'template-cloze-moodle.xml'
-   html_template = 'template-cloze.html'
 
    cloze = Cloze()
 
@@ -52,7 +51,7 @@ def main():
       num_questions, num_gaps = cloze.read_yaml(yaml_file, path='.')
       questions_counter.add(num_questions, yaml_file)
       gaps_counter.add(num_gaps, yaml_file)
-      cloze.html_generate(html_template, path=html_path)
+      cloze.html_generate(path=html_path)
       cloze.moodle_generate(moodle_template, path=build_path)
    print('\nTotal questions= %s' % str(questions_counter))
    print('Total gaps=      %s' % str(gaps_counter))
@@ -325,9 +324,13 @@ class Cloze():
        return choices
    
    
-   def html_generate(self, template_file, path='./'):
+   def html_generate(self, path='./'):
       """Genera los archivos html para jugar con las cuestiones."""
       html_filename = os.path.join(path, self.filename + '.html')
+      if 'Language' in self.header and self.header['Language'] == 'en':
+         template_file = 'en-template-cloze.html'
+      else:
+         template_file = 'es-template-cloze.html'
       self.jinja_template(template_file)
       html_data = self.template.render(questions = self.questions, header=self.header, filename=self.filename)
       self.write_file(html_filename, html_data)

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
 <head>
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
-   Copyright (c) 2021 Carlos Pardo
+   Copyright (c) 2021 Carlos Pardo Martín
 
    Copyright (c) 2021 James Q Quick
    https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
@@ -28,9 +28,9 @@
    SOFTWARE.
    -->
 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad." />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad.">
    <title>Test de Tecnología - Picuino</title>
    <link rel="stylesheet" href="app.css">
    
@@ -44,20 +44,26 @@
    <div class="container">
       <div id="home" class="flex-center flex-column">
 
-        <h1>TEST DE TECNOLOGÍA</h1>
+        <h1 id="index">TECHNOLOGY TEST</h1>
         
-        <a class="btn" href="#Valores">Valores Éticos</a>
+        
+        <a class="btn" href="#electricity">1. Electricity</a>
       
-		  <hr style="margin:20px 0 20px 0">
-        <a class="btn" href="end.html">Última puntuación</a>
-	     <a class="btn" href="https://www.picuino.com/">Picuino</a>
-		  <hr style="margin:20px 0 80px 0">
+	<hr style="margin:20px 0 20px 0">
+        <a class="btn" href="end.html" target="_blank">Last Score</a>
+	<a class="btn" href="index.html" target="_blank">Test en Español</a>
+	<a class="btn" href="https://www.picuino.com/en/" target="_blank">Picuino</a>
+	<hr style="margin:20px 0 80px 0">
 
-        <h1 id="Valores">Valores Éticos</h1>
-        <a class="btn" href="es-valores-derechos-humanos-1.html">1. Declaración Derechos Humanos (1)</a>
-        <a class="btn" href="es-valores-derechos-humanos-2.html">2. Declaración Derechos Humanos (2)</a>
-        <a class="btn" href="es-valores-derechos-humanos-3.html">3. Declaración Derechos Humanos (3)</a>
-        <a class="btn" href="es-valores-derechos-humanos-4.html">4. Declaración Derechos Humanos (4)</a>
+        
+
+        <h1 id="electricity">Electricity</h1>
+        <a class="btn" href="en-electric-components-name.html">1.1 Name of components (test)</a>
+        <a class="btn" href="en-electric-color-code-1.html">1.2 Color code 1</a>
+        <a class="btn" href="en-electric-color-code-1.html">1.3 Color code 2</a>
+        <a class="btn" href="en-electric-series-parallel-identify.html">1.4 Series and parallel identification</a>
+        <a class="btn" href="en-electric-energy.html">1.5 Electrical power calculations</a>
+        <a class="btn" href="#index">Volver al índice</a>
 
         <p style="margin-top:80px"></p>
 
@@ -69,36 +75,35 @@
    
    <!-- FOOTER -->
    <div class="footer">
-   <a href="https://www.picuino.com/es/contacto.html">Contacto</a>
-   <a href="https://www.picuino.com/es/legal-aviso.html">Aviso legal</a>
-   <a href="https://www.picuino.com/es/legal-cookies.html">Política de Cookies</a>
-   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md">Créditos</a>
-   <a href="https://github.com/picuino/questionary/">GitHub</a>
-   <a href="https://www.picuino.com/test/index.html">Índice</a>
+   <a href="https://www.picuino.com/en/contacto.html" target="_blank">Contact</a>
+   <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Terms Of Service</a>
+   <a href="https://www.picuino.com/en/legal-cookies.html" target="_blank">Cookie policy</a>
+   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Credits</a>
+   <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
+   <a href="https://www.picuino.com/test/index.html" target="_blank">Index</a>
+   <p>Copyright © 2021 by Carlos Pardo Martín.</p>
+   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    </div>
 
    <!-- Cookies Advise -->
    <div id="cookiesbar" style="display: none">
-   Esta página web utiliza cookies propias y de terceros 
-   para propósitos funcionales y de análisis de navegación.
-   Puedes obtener más información en nuestra 
-   <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a> <br />
-   Si continúas navegando, aceptas su uso.
-   <br />
-   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+   This website uses its own and third party cookies for functional and navigation analysis purposes.
+   You can get more information on our <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Cookie policy.</a> <br> 
+   If you continue browsing, you accept its use.
+   <br>
+   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Only required</a> |
+   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACCEPT AND CONTINUE</b></a>
    </div>
    <script>
    if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
    function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
    function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
    function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
    </script>
 
    <!-- Matomo -->
-   <script type="text/javascript">
+   <script>
    if (document.cookie.indexOf("noAnalyticalCookies")<0) {
      var _paq = window._paq = window._paq || [];
      _paq.push(['trackPageView']);
@@ -113,16 +118,6 @@
    }
    </script>
    <!-- End Matomo Code -->
-
-   <!-- Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
-   <script>
-   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
-     window.dataLayer=window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);} 
-     gtag('js', new Date()); gtag('config', 'UA-59765999-1');
-   }
-   </script>
 
    </div>
 </body>

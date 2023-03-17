@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="es-es">
+<html lang="en">
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
@@ -23,9 +23,9 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="description" content="Test online de Educación Secundaria de Electricidad - Potencia eléctrica - Picuino">
+   <meta name="description" content="Online test of Secondary Education of {{ header.Category }} - {{ header.Title }} - Picuino">
 
-   <title>Test Potencia eléctrica - Electricidad - Picuino</title>
+   <title>Test {{ header.Title }} - {{ header.Category }} - Picuino</title>
 
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
@@ -408,16 +408,16 @@
             <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
          </div>
          <div>
-            <p class="hud-prefix">Puntos</p>
+            <p class="hud-prefix">Score</p>
             <p class="hud-main-text" id="score">0</p>
          </div>
       </div>
 
       <!-- Main content -->
-      <h1 class="header" id="header_id">Título</h1>
+      <h1 class="header" id="header_id">Title</h1>
 
       <div class="message" id="message_id"><div class="message2">
-      <div class="question_text" id="message_text_id">Mensaje.</div>
+      <div class="question_text" id="message_text_id">Message.</div>
       <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
       </div></div>
 
@@ -428,28 +428,42 @@
 
       <!-- Footer -->
       <div class="footer">
-      <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
-      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
-      <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
-      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
+      <a href="https://www.picuino.com/en/contacto.html" target="_blank">Contact</a>
+      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Terms Of Service</a>
+      <a href="https://www.picuino.com/en/legal-cookies.html" target="_blank">Cookie policy</a>
+      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Credits</a>
       <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
-      <a href="https://www.picuino.com/test/index.html">Índice</a>
+      <a href="https://www.picuino.com/test/index-en.html">Index</a>
 
-      <p>Copyright © 2021 por Carlos Pardo Martín.</p>
-      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+      {% if header.Source_link -%}
+      <p><a href="{{ header.Source_link }}" target="_blank">Source of tests.</a></p>
+      {% endif -%}
+
+      {% if header.Copyright_link -%}
+      <p>Copyright © <a href="{{ header.Copyright_link }}" target="_blank">{{ header.Copyright }}.</a></p>
+      {% else -%}
+      <p>Copyright © {{ header.Copyright }}.</p>
+      {% endif -%}
+
+      {% if header.License_link -%}
+      <p>License: <a href="{{ header.License_link }}" target="_blank">{{ header.License }}</a></p>
+      {% else -%}
+      <p>License: {{ header.License }}</p>
+      {% endif -%}
+
       </div>
 
       <!-- Cookies Advise -->
       <div id="cookiesbar" style="display: none">
-      Esta página web utiliza cookies propias y de terceros
-      para propósitos funcionales y de análisis de navegación.
-      Puedes obtener más información en nuestra
-      <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a><br>
-      Si continúas navegando, aceptas su uso.
+      This website uses its own and third party cookies for functional 
+      and navigation analysis purposes. 
+      You can get more information on our
+      <a href="https://www.picuino.com/en/legal-cookies.html"
+      target="_blank">Cookie policy.</a><br>
+      If you continue browsing, you accept its use. 
       <br>
-      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Only required</a> |
+      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACCEPT AND CONTINUE</b></a>
       </div>
       <script>
       if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
@@ -479,315 +493,29 @@
    </div> </div>
 
    <script>
-      const show_max = 25;
-      const num_tries = 0;
-      const questions_title = "Electricidad. Potencia eléctrica.";
+      const show_max = {{ header.Show_max }};
+      const num_tries = {% if  header.Num_tries %}{{ header.Num_tries }}{% else %}0{% endif %};
+      const questions_title = "{{ header.Category }}. {{ header.Title }}.";
       const questions_encoded = [
-         {
+         {%- for question in questions %}
+         {% raw %}{{% endraw %}
+            {%- if question.Image %}
+            "Image": ["images/{{ question.Image.hashname }}", "{{ question.Image.display_width }}"],
+            {%- else %}
             "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Qb3RlbmNpYSBlbMOpY3RyaWNhPC9zdHJvbmc+PGJyPiBMYSBmw7NybXVsYSBkZSBsYSBwb3RlbmNpYSBlbMOpY3RyaWNhIGVzIFAgPSB7MH08YnI+IERvbmRlPGJyPiBQID0gezF9IGVsw6ljdHJpY2EgZW4gdmF0aW9zIChXKTxicj4gViA9IHsyfSBlbMOpY3RyaWNhIGVuIHZvbHRpb3MgKFYpPGJyPiBJID0gezN9IGVsw6ljdHJpY2EgZW4gYW1wZXJpb3MgKEEpPGJyPg==",
+            {%- endif %}
+            "Cloze": "{{ question.Cloze_b64 }}",
             "Gaps": [
-               ['VipJ', 'VsK3SQ==', 'SSpW', 'ScK3Vg==', ],
-               ['cG90ZW5jaWE='],
-               ['dGVuc2nDs24='],
-               ['Y29ycmllbnRl'],
+               {%- for Gap in question.Gaps_b64 %}
+               {%- if Gap is string %}
+               ['{{ Gap }}'],
+               {%- else %}
+               [{% for word in Gap %}'{{ word }}', {% endfor %}],
+               {%- endif %}
+               {%- endfor %}
             ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Qb3RlbmNpYSBlbMOpY3RyaWNhPC9zdHJvbmc+PGJyPiBMYSBmw7NybXVsYSBkZSBsYSBjb3JyaWVudGUgZWzDqWN0cmljYSBlcyBJID0gezB9PGJyPiBEb25kZTxicj4gUCA9IHsxfSBlbMOpY3RyaWNhIGVuIHZhdGlvcyAoVyk8YnI+IFYgPSB7Mn0gZWzDqWN0cmljYSBlbiB2b2x0aW9zIChWKTxicj4gSSA9IHszfSBlbMOpY3RyaWNhIGVuIGFtcGVyaW9zIChBKTxicj4=",
-            "Gaps": [
-               ['UC9W'],
-               ['cG90ZW5jaWE='],
-               ['dGVuc2nDs24='],
-               ['Y29ycmllbnRl'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Qb3RlbmNpYSBlbMOpY3RyaWNhPC9zdHJvbmc+PGJyPiBMYSBmw7NybXVsYSBkZSBsYSB0ZW5zacOzbiBlbMOpY3RyaWNhIGVzIFYgPSB7MH08YnI+IERvbmRlPGJyPiBQID0gezF9IGVsw6ljdHJpY2EgZW4gdmF0aW9zIChXKTxicj4gViA9IHsyfSBlbMOpY3RyaWNhIGVuIHZvbHRpb3MgKFYpPGJyPiBJID0gezN9IGVsw6ljdHJpY2EgZW4gYW1wZXJpb3MgKEEpPGJyPg==",
-            "Gaps": [
-               ['UC9J'],
-               ['cG90ZW5jaWE='],
-               ['dGVuc2nDs24='],
-               ['Y29ycmllbnRl'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3I8L3N0cm9uZz48YnI+IMK/UXXDqSBwb3RlbmNpYSB0ZW5kcsOhIHVuIG9yZGVuYWRvciBxdWUgY29uc3VtZSAxLDUgYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MzQ1'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3I8L3N0cm9uZz48YnI+IMK/UXXDqSBwb3RlbmNpYSB0ZW5kcsOhIHVuIG9yZGVuYWRvciBxdWUgY29uc3VtZSAwLDggYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MTg0'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3I8L3N0cm9uZz48YnI+IMK/UXXDqSBwb3RlbmNpYSB0ZW5kcsOhIHVuIG9yZGVuYWRvciBxdWUgY29uc3VtZSAwLDQgYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['OTI='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIGJvbWJpbGxhIHF1ZSBjb25zdW1lIDAsMTAgYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MjM='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIGJvbWJpbGxhIHF1ZSBjb25zdW1lIDAsMDUgYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MTEsNQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIGJvbWJpbGxhIHF1ZSBjb25zdW1lIDAsMDMgYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['Niw5'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5WaXRyb2NlcsOhbWljYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIHZpdHJvY2Vyw6FtaWNhIHF1ZSBjb25zdW1lIDE1IGFtcGVyaW9zIGEgMjMwIHZvbHRpb3M/PGJyPjxicj4gUCA9IHswfSBX",
-            "Gaps": [
-               ['MzQ1MA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5WaXRyb2NlcsOhbWljYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIHZpdHJvY2Vyw6FtaWNhIHF1ZSBjb25zdW1lIDEwIGFtcGVyaW9zIGEgMjMwIHZvbHRpb3M/PGJyPjxicj4gUCA9IHswfSBX",
-            "Gaps": [
-               ['MjMwMA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5WaXRyb2NlcsOhbWljYTwvc3Ryb25nPjxicj4gwr9RdcOpIHBvdGVuY2lhIHRlbmRyw6EgdW5hIHZpdHJvY2Vyw6FtaWNhIHF1ZSBjb25zdW1lIDggYW1wZXJpb3MgYSAyMzAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MTg0MA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5UYWxhZHJvPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1biB0YWxhZHJvIHF1ZSBjb25zdW1lIDUgYW1wZXJpb3MgYSAxMjAgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['NjAw'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5UYWxhZHJvPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1biB0YWxhZHJvIHF1ZSBjb25zdW1lIDQgYW1wZXJpb3MgYSAxMjUgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['NTAw'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5UZWzDqWZvbm8gbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1biB0ZWzDqWZvbm8gbcOzdmlsIHF1ZSBjb25zdW1lIDAsNSBhbXBlcmlvcyBhIDUgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['Miw1'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5UZWzDqWZvbm8gbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1biB0ZWzDqWZvbm8gbcOzdmlsIHF1ZSBjb25zdW1lIDAsOCBhbXBlcmlvcyBhIDUgdm9sdGlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['NA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5DYXNhPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgbcOheGltYSB0ZW5kcsOhIHVuYSBjYXNhIGNvbiBsaW1pdGFjacOzbiBkZSAyNSBhbXBlcmlvcyBzaSBsYSB0ZW5zacOzbiBkZSByZWQgZXMgZGUgMjMwIHZvbHRpb3M/PGJyPjxicj4gUCA9IHswfSBX",
-            "Gaps": [
-               ['NTc1MA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5DYXNhPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgbcOheGltYSB0ZW5kcsOhIHVuYSBjYXNhIGNvbiBsaW1pdGFjacOzbiBkZSAxNSBhbXBlcmlvcyBzaSBsYSB0ZW5zacOzbiBkZSByZWQgZXMgZGUgMjMwIHZvbHRpb3M/PGJyPjxicj4gUCA9IHswfSBX",
-            "Gaps": [
-               ['MzQ1MA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYSBkZSBhdXRvbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1bmEgYm9tYmlsbGEgZGUgYXV0b23Ds3ZpbCBxdWUgdHJhYmFqYSBhIDEyIHZvbHRpb3MgeSBjb25zdW1lIDIsNSBhbXBlcmlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MzA='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYSBkZSBhdXRvbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgcG90ZW5jaWEgdGVuZHLDoSB1bmEgYm9tYmlsbGEgZGUgYXV0b23Ds3ZpbCBxdWUgdHJhYmFqYSBhIDEyIHZvbHRpb3MgeSBjb25zdW1lIDEsNSBhbXBlcmlvcz88YnI+PGJyPiBQID0gezB9IFc=",
-            "Gaps": [
-               ['MTg='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5DYWxlbnRhZG9yIGRlIGFpcmU8L3N0cm9uZz48YnI+IMK/UXXDqSBjb3JyaWVudGUgY29uc3VtaXLDoSB1biBjYWxlbnRhZG9yIGRlIGFpcmUgZGUgMjMwMCB2YXRpb3Mgc2kgc2UgY29uZWN0YSBhIGxhIHRlbnNpw7NuIGRlIHJlZCBkZSAyMzAgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['MTA='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5DYWxlbnRhZG9yIGRlIGFpcmU8L3N0cm9uZz48YnI+IMK/UXXDqSBjb3JyaWVudGUgY29uc3VtaXLDoSB1biBjYWxlbnRhZG9yIGRlIGFpcmUgZGUgMTg0MCB2YXRpb3Mgc2kgc2UgY29uZWN0YSBhIGxhIHRlbnNpw7NuIGRlIHJlZCBkZSAyMzAgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['OA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Sb3V0ZXI8L3N0cm9uZz48YnI+IMK/UXXDqSBjb3JyaWVudGUgY29uc3VtaXLDoSB1biByb3V0ZXIgc2kgdGllbmUgdW5hIHBvdGVuY2lhIGRlIDE4LDQgdmF0aW9zIHkgc2UgY29uZWN0YSBhIGxhIHRlbnNpw7NuIGRlIHJlZCBkZSAyMzAgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['MCwwOA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Sb3V0ZXI8L3N0cm9uZz48YnI+IMK/UXXDqSBjb3JyaWVudGUgY29uc3VtaXLDoSB1biByb3V0ZXIgc2kgdGllbmUgdW5hIHBvdGVuY2lhIGRlIDEzLDggdmF0aW9zIHkgc2UgY29uZWN0YSBhIGxhIHRlbnNpw7NuIGRlIHJlZCBkZSAyMzAgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['MCwwNg=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYSBkZSBhdXRvbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgY29ycmllbnRlIGNpcmN1bGFyw6EgcG9yIHVuYSBib21iaWxsYSBkZSBhdXRvbcOzdmlsIHNpIHNhYmVtb3MgcXVlIHRpZW5lIHVuYSBwb3RlbmNpYSBkZSAzNiB2YXRpb3MgeSBsYSB0ZW5zacOzbiBkZSBhbGltZW50YWNpw7NuIGVzIGRlIDEyIHZvbHRpb3M/PGJyPjxicj4gSSA9IHswfSBB",
-            "Gaps": [
-               ['Mw=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Cb21iaWxsYSBkZSBhdXRvbcOzdmlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgY29ycmllbnRlIGNpcmN1bGFyw6EgcG9yIGxhIGJvbWJpbGxhIGRlIGZyZW5vIGRlIHVuIGF1dG9tw7N2aWwgc2kgc2FiZW1vcyBxdWUgdGllbmUgdW5hIHBvdGVuY2lhIGRlIDEyIHZhdGlvcyB5IGxhIHRlbnNpw7NuIGRlIGFsaW1lbnRhY2nDs24gZXMgZGUgMTIgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['Mg=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Nb3RvciBkZSBhcnJhbnF1ZTwvc3Ryb25nPjxicj4gwr9RdcOpIGNvcnJpZW50ZSBjaXJjdWxhcsOhIHBvciBlbCBtb3RvciBkZSBhcnJhbnF1ZSBkZSB1biBhdXRvbcOzdmlsIHNpIHNhYmVtb3MgcXVlIHRpZW5lIHVuYSBwb3RlbmNpYSBkZSAxMDgwIHZhdGlvcyB5IGxhIHRlbnNpw7NuIGRlIGFsaW1lbnRhY2nDs24gZXMgZGUgMTIgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['OTA='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5Nb3RvciBkZSBhcnJhbnF1ZTwvc3Ryb25nPjxicj4gwr9RdcOpIGNvcnJpZW50ZSBjaXJjdWxhcsOhIHBvciBlbCBtb3RvciBkZSBhcnJhbnF1ZSBkZSB1biBhdXRvbcOzdmlsIHNpIHNhYmVtb3MgcXVlIHRpZW5lIHVuYSBwb3RlbmNpYSBkZSAxMDIwIHZhdGlvcyB5IGxhIHRlbnNpw7NuIGRlIGFsaW1lbnRhY2nDs24gZXMgZGUgMTIgdm9sdGlvcz88YnI+PGJyPiBJID0gezB9IEE=",
-            "Gaps": [
-               ['ODU='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5CYXRpZG9yYTwvc3Ryb25nPjxicj4gwr9RdcOpIHRlbnNpw7NuIHRlbmRyw6EgdW5hIGJhdGlkb3JhIHNhYmllbmRvIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMjUwIHZhdGlvcyB5IHF1ZSBjb25zdW1lIDIgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['MTI1'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5CYXRpZG9yYTwvc3Ryb25nPjxicj4gwr9RdcOpIHRlbnNpw7NuIHRlbmRyw6EgdW5hIGJhdGlkb3JhIHNhYmllbmRvIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMzAwIHZhdGlvcyB5IHF1ZSBjb25zdW1lIDIsNSBhbXBlcmlvcz88YnI+PGJyPiBWID0gezB9IFY=",
-            "Gaps": [
-               ['MTIw'],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcG9ydMOhdGlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgdGVuc2nDs24gdGVuZHLDoSB1biBvcmRlbmFkb3IgcG9ydMOhdGlsIHNhYmllbmRvIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMzYgdmF0aW9zIHkgcXVlIGNvbnN1bWUgMiBhbXBlcmlvcz88YnI+PGJyPiBWID0gezB9IFY=",
-            "Gaps": [
-               ['MTg='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5PcmRlbmFkb3IgcG9ydMOhdGlsPC9zdHJvbmc+PGJyPiDCv1F1w6kgdGVuc2nDs24gdGVuZHLDoSB1biBvcmRlbmFkb3IgcG9ydMOhdGlsIHNhYmllbmRvIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgNDAgdmF0aW9zIHkgcXVlIGNvbnN1bWUgMiBhbXBlcmlvcz88YnI+PGJyPiBWID0gezB9IFY=",
-            "Gaps": [
-               ['MjA='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5SYXF1ZXRhIGFudGltb3NxdWl0b3M8L3N0cm9uZz48YnI+IMK/UXXDqSB0ZW5zacOzbiB0ZW5kcsOhIHVuYSByYXF1ZXRhIGFudGltb3NxdWl0b3Mgc2FiaWVuZG8gcXVlIHRpZW5lIHVuYSBwb3RlbmNpYSBkZSAyIHZhdGlvcyB5IHF1ZSBnZW5lcmEgMCwwMDEgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['MjAwMA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5SYXF1ZXRhIGFudGltb3NxdWl0b3M8L3N0cm9uZz48YnI+IMK/UXXDqSB0ZW5zacOzbiB0ZW5kcsOhIHVuYSByYXF1ZXRhIGFudGltb3NxdWl0b3Mgc2FiaWVuZG8gcXVlIHRpZW5lIHVuYSBwb3RlbmNpYSBkZSAzIHZhdGlvcyB5IHF1ZSBnZW5lcmEgMCwwMDIgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['MTUwMA=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5VU0IgZGUgY2FyZ2E8L3N0cm9uZz48YnI+IMK/UXXDqSB0ZW5zacOzbiB0ZW5kcsOhIHVuIFVTQiBkZSBjYXJnYSByw6FwaWRhIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMTggdmF0aW9zIGNvbiB1bmEgY29ycmllbnRlIGRlIDIgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['OQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5VU0IgZGUgY2FyZ2E8L3N0cm9uZz48YnI+IMK/UXXDqSB0ZW5zacOzbiB0ZW5kcsOhIHVuIFVTQiBkZSBjYXJnYSByw6FwaWRhIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMzYgdmF0aW9zIGNvbiB1bmEgY29ycmllbnRlIGRlIDIgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['MTg='],
-            ]
-         },
-         
-         {
-            "Image": ["", ""],
-            "Cloze": "PHN0cm9uZz5VU0IgZGUgY2FyZ2E8L3N0cm9uZz48YnI+IMK/UXXDqSB0ZW5zacOzbiB0ZW5kcsOhIHVuIFVTQiBkZSBjYXJnYSByw6FwaWRhIHF1ZSB0aWVuZSB1bmEgcG90ZW5jaWEgZGUgMTAgdmF0aW9zIGNvbiB1bmEgY29ycmllbnRlIGRlIDIgYW1wZXJpb3M/PGJyPjxicj4gViA9IHswfSBW",
-            "Gaps": [
-               ['NQ=='],
-            ]
-         },
-         
+         {% raw %}},{% endraw %}
+         {% endfor %}
       ]
     
       const time_between_clues = 1000;
@@ -926,7 +654,7 @@
          // Load values
          title = sessionStorage.getItem("last_questions_title");
          if (title === null) {
-            title = "Puntuación no almacenada";
+            title = "Score not saved";
          }
          points = sessionStorage.getItem("last_questions_points");
          if (points === null) {
@@ -966,15 +694,15 @@
       function buttons_questions_fill() {
          var buttons_frame_element = document.getElementById("buttons_id");
          buttons_frame_element.innerHTML = ''
-         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
-         + '<button class="func_button" onclick="show_clue()">Pista</button>'
-         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<button class="func_button" onclick="check_answers()">Check</button>'
+         + '<button class="func_button" onclick="show_clue()">Clue</button>'
+         + '<button class="func_button" onclick="next_page()">Next</button>'
+         + '<br><button class="func_button" onclick="last_score()">Last score</button>';
       }
 
       function buttons_final_score_fill() {
          var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
+         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Page reset</button>';
       }
 
       function message_show(message) {
@@ -1025,10 +753,10 @@
          // Check if all gaps are filled
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
+               message_show("There is still 1 gap to be filled.");
             }
             else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+               message_show("There are still " + gaps_not_solved + " gaps to be filled.");
             };
             return;
          };
@@ -1138,7 +866,7 @@
 
          // Page HUD
          var hud_page_element = document.getElementById("hud_page_id");
-         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+         hud_page_element.innerHTML = 'Page {0}/{1}'.format(page + 1, questions_sorted.length);
 
          var progress_bar_full_element = document.getElementById("progress_bar_full_id");
          var width = ((page + 1) / questions_sorted.length) * 100;
@@ -1163,15 +891,15 @@
 
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
+               message_show("There is still 1 gap to be filled.");
             }
             else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+               message_show("There are still " + gaps_not_solved + " gaps to be filled.");
             };
          }
          else {
-            message_show("Todos los huecos están resueltos."
-            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+            message_show("All gaps are filled."
+            + "<br>Click <strong>Next</strong> to continue.");
          }
       };
 
@@ -1247,8 +975,8 @@
          while (true) {
             while (true) {
                if (gaps_visited >= gaps_length) {
-                  message_show("Todos los huecos están resueltos."
-                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+                  message_show("All gaps are filled."
+                  + "<br>Click <strong>Next</strong> to continue.");
                   return;
                }
                if (gap_selected >= gaps_length) {

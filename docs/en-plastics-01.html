@@ -1,10 +1,10 @@
 ﻿<!DOCTYPE html>
-<html lang="es-es">
+<html lang="en">
 <head>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
-   Copyright (c) 2022 Carlos Pardo
+   Copyright (c) 2022 Carlos Pardo Martín
 
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -23,8 +23,10 @@
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="description" content="Test online de educación secundaria y ESO de Plásticos - Plastics 01 - Picuino">
+   <meta name="description" content="Online test of Secondary Education of Plásticos - Plastics 01 - Picuino">
+
    <title>Test Plastics 01 - Plásticos - Picuino</title>
+
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
    <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
@@ -406,16 +408,16 @@
             <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
          </div>
          <div>
-            <p class="hud-prefix">Puntos</p>
+            <p class="hud-prefix">Score</p>
             <p class="hud-main-text" id="score">0</p>
          </div>
       </div>
 
       <!-- Main content -->
-      <h1 class="header" id="header_id">Título</h1>
+      <h1 class="header" id="header_id">Title</h1>
 
       <div class="message" id="message_id"><div class="message2">
-      <div class="question_text" id="message_text_id">Mensaje.</div>
+      <div class="question_text" id="message_text_id">Message.</div>
       <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
       </div></div>
 
@@ -426,28 +428,28 @@
 
       <!-- Footer -->
       <div class="footer">
-      <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
-      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
-      <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
-      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
+      <a href="https://www.picuino.com/en/contacto.html" target="_blank">Contact</a>
+      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Terms Of Service</a>
+      <a href="https://www.picuino.com/en/legal-cookies.html" target="_blank">Cookie policy</a>
+      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Credits</a>
       <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
-      <a href="https://www.picuino.com/test/index.html">Índice</a>
+      <a href="https://www.picuino.com/test/index-en.html">Index</a>
 
       <p>Copyright © 2023 por Isabel Yago Lisbona.</p>
-      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+      <p>License: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
       <!-- Cookies Advise -->
       <div id="cookiesbar" style="display: none">
-      Esta página web utiliza cookies propias y de terceros
-      para propósitos funcionales y de análisis de navegación.
-      Puedes obtener más información en nuestra
-      <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a><br>
-      Si continúas navegando, aceptas su uso.
+      This website uses its own and third party cookies for functional 
+      and navigation analysis purposes. 
+      You can get more information on our
+      <a href="https://www.picuino.com/en/legal-cookies.html"
+      target="_blank">Cookie policy.</a><br>
+      If you continue browsing, you accept its use. 
       <br>
-      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Only required</a> |
+      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACCEPT AND CONTINUE</b></a>
       </div>
       <script>
       if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
@@ -596,8 +598,8 @@
          },
          
       ]
-
-      const time_between_clues = 1500;
+    
+      const time_between_clues = 1000;
       var questions_pages = 0;
       var gap_selected = 0;
       var page = 0;
@@ -733,7 +735,7 @@
          // Load values
          title = sessionStorage.getItem("last_questions_title");
          if (title === null) {
-            title = "Puntuación no almacenada";
+            title = "Score not saved";
          }
          points = sessionStorage.getItem("last_questions_points");
          if (points === null) {
@@ -773,15 +775,15 @@
       function buttons_questions_fill() {
          var buttons_frame_element = document.getElementById("buttons_id");
          buttons_frame_element.innerHTML = ''
-         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
-         + '<button class="func_button" onclick="show_clue()">Pista</button>'
-         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+         + '<button class="func_button" onclick="check_answers()">Check</button>'
+         + '<button class="func_button" onclick="show_clue()">Clue</button>'
+         + '<button class="func_button" onclick="next_page()">Next</button>'
+         + '<br><button class="func_button" onclick="last_score()">Last score</button>';
       }
 
       function buttons_final_score_fill() {
          var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
+         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Page reset</button>';
       }
 
       function message_show(message) {
@@ -832,10 +834,10 @@
          // Check if all gaps are filled
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
+               message_show("There is still 1 gap to be filled.");
             }
             else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+               message_show("There are still " + gaps_not_solved + " gaps to be filled.");
             };
             return;
          };
@@ -945,7 +947,7 @@
 
          // Page HUD
          var hud_page_element = document.getElementById("hud_page_id");
-         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+         hud_page_element.innerHTML = 'Page {0}/{1}'.format(page + 1, questions_sorted.length);
 
          var progress_bar_full_element = document.getElementById("progress_bar_full_id");
          var width = ((page + 1) / questions_sorted.length) * 100;
@@ -970,15 +972,15 @@
 
          if (gaps_not_solved > 0) {
             if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
+               message_show("There is still 1 gap to be filled.");
             }
             else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+               message_show("There are still " + gaps_not_solved + " gaps to be filled.");
             };
          }
          else {
-            message_show("Todos los huecos están resueltos."
-            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+            message_show("All gaps are filled."
+            + "<br>Click <strong>Next</strong> to continue.");
          }
       };
 
@@ -1054,8 +1056,8 @@
          while (true) {
             while (true) {
                if (gaps_visited >= gaps_length) {
-                  message_show("Todos los huecos están resueltos."
-                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+                  message_show("All gaps are filled."
+                  + "<br>Click <strong>Next</strong> to continue.");
                   return;
                }
                if (gap_selected >= gaps_length) {

@@ -1,7 +1,4 @@
 #
-#  Program to convert cloze test from YAML format to html format and
-#  Moodle XML format.
-#
 #  Index maker (c) 2022 Carlos Pardo
 #
 #  This program is free software: you can redistribute it and/or modify
@@ -77,8 +74,8 @@ index_data = [
           ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
           ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
 
-          ["es-electric-power.html", "Potencia"],
-          ["es-electric-energy.html", "Energía"],
+          ["es-electric-energy.html", "Energía eléctrica"],
+          ["es-electric-power.html", "Potencia eléctrica"],
           ["es-electric-breadboard.html", "Breadboard"],
           ["es-electric-digital.html", "Electrónica digital"],
        ]
@@ -192,8 +189,8 @@ index_template = """<!DOCTYPE html>
       
 	<hr style="margin:20px 0 20px 0">
         <a class="btn" href="end.html" target="_blank">Última puntuación</a>
-	<a class="btn" href="index_en.html" target="_blank">Test in English</a>
-	<a class="btn" href="https://www.picuino.com/" target="_blank">Picuino</a>
+	<a class="btn" href="index-en.html" target="_blank">Test in English</a>
+	<a class="btn" href="https://www.picuino.com/es/" target="_blank">Picuino</a>
 	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section = 1, numtest = 1) %}
@@ -225,6 +222,8 @@ index_template = """<!DOCTYPE html>
    <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
    <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
    <a href="https://www.picuino.com/test/index.html" target="_blank">Índice</a>
+   <p>Copyright © 2021 por Carlos Pardo Martín.</p>
+   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    </div>
 
    <!-- Cookies Advise -->
@@ -263,16 +262,6 @@ index_template = """<!DOCTYPE html>
    }
    </script>
    <!-- End Matomo Code -->
-
-   <!-- Google Analytics -->
-   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
-   <script>
-   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
-     window.dataLayer=window.dataLayer || [];
-     function gtag(){dataLayer.push(arguments);} 
-     gtag('js', new Date()); gtag('config', 'UA-59765999-1');
-   }
-   </script>
 
    </div>
 </body>
