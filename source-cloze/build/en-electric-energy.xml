@@ -174,5 +174,113 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 15.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Refrigerator.</strong><br> The electricity bill of a household is 260 kWh per month. It is estimated that one third of this energy is consumed by the refrigerator, which is always on. <br> What is the average power consumption of this appliance, without decimals? <br><br> P = {1:SHORTANSWER:=120} W]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 16.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Class A refrigerator.</strong><br> The savings from replacing a class C refrigerator with a class A refrigerator is 106 kWh per year.<br> How much power does the class A refrigerator save compared to the class C refrigerator? <br><br> P = {1:SHORTANSWER:=12,1} W]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 17.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Welding machine.</strong><br> We connect a welding machine to an electric energy meter to know its energy consumption. After one minute of welding, the meter indicates that 0.010 kWh has been consumed.<br> How much power will the welding machine have? <br><br> P = {1:SHORTANSWER:=600} W]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 18.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Wind turbine.</strong><br> A wind turbine operates only 20% of the time. At the end of the year it manages to generate 8514720 kWh.<br> How much power does the wind turbine have? <br><br> P = {1:SHORTANSWER:=4860} kW]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 19.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Electric car.</strong><br> An electric car manages to recharge its 86 kWh battery at home from 20% to 70% in 8 hours.<br> How powerful is the charging point? <br><br> P = {1:SHORTANSWER:=5375} W]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 20.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Air heater.</strong><br> Knowing that the winter electric bill has gone up by 300 kWh one month for one month by 300 kWh for turning on a 2000 watt air heater.<br> How many hours has the heater been on during that month? <br><br> T = {1:SHORTANSWER:=150} hours]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 21.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Electric car.</strong><br> An electric car has a battery with a capacity of 100 kWh. How many hours does it take to charge the entire battery at a 40 kilowatt charging point? <br><br> T = {1:SHORTANSWER:=2,5} hours]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 22.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Electric car.</strong><br> An electric car has a 90 kWh battery capacity.<br> How many hours can it drive knowing that the average power consumption is 10 kilowatts? <br><br> T = {1:SHORTANSWER:=9} hours]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 23.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Calculator.</strong><br> An electronic calculator has a power consumption of 0.3 milliwatts. Knowing that its lithium battery has an energy rating of 0.6 watt-hours, how many hours can it run before the battery is depleted? <br><br> T = {1:SHORTANSWER:=2000} hours]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
 
 </quiz>
