@@ -31,7 +31,7 @@ index_data = [
 
           ["en-electric-series-parallel-identify.html", "Series and parallel identification"],
 
-          ["en-electric-energy.html", "Electrical power calculations"],
+          ["en-electric-energy-calc.html", "Electrical energy calculations"],
       ]
    },
 ]

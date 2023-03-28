@@ -74,7 +74,10 @@ index_data = [
           ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
           ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
 
-          ["es-electric-energy.html", "Energía eléctrica"],
+          ["es-electric-energy-1.html", "Energía eléctrica I"],
+          ["es-electric-energy-2.html", "Energía eléctrica II"],
+          ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
+
           ["es-electric-power.html", "Potencia eléctrica"],
           ["es-electric-breadboard.html", "Breadboard"],
           ["es-electric-digital.html", "Electrónica digital"],
@@ -87,7 +90,7 @@ index_data = [
        ]
    },
    {
-      "header" : ["hardware", "Hardware y Software"],
+      "header" : ["hardware", "Hardware"],
       "links": [
           ["es-hardware-intro.html", "Introducción al hardware"],
 
@@ -122,6 +125,12 @@ index_data = [
 
           ["es-hardware-auxiliares-1.html", "Elementos auxiliares I"],
           ["es-hardware-auxiliares-2.html", "Elementos auxiliares II"],
+       ]
+   },
+   {
+      "header" : ["software", "Software"],
+      "links": [
+          ["es-software-intro.html", "Introducción al software"],
        ]
    },
    {
