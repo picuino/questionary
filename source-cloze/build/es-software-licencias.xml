@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Software/es-software-licencias</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Licencias de software</strong><br> Las licencias de software son acuerdos {1:SHORTANSWER:=legales} que establecen cómo podemos usar, {1:SHORTANSWER:=distribuir} y {1:SHORTANSWER:=modificar} los programas y los contenidos de software.<br> Es importante comprender la importancia de {1:SHORTANSWER:=respetar} las licencias de software y de contenidos para evitar {1:SHORTANSWER:=infringir} la ley y para poder comportarnos de manera {1:SHORTANSWER:=ética}.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Derecho de uso</strong><br> Este es el derecho a usar el programa como desees.<br> <br> Ejemplos: algunos programas permiten que los {1:SHORTANSWER:=instales} en varios dispositivos, pero solo puedes utilizar una de las {1:SHORTANSWER:=copias} instaladas, no todas al mismo {1:SHORTANSWER:=tiempo} por varias personas.<br> Algunos programas {1:SHORTANSWER:=privativos} pueden establecer que se pague una tarifa por el uso del programa. Las obras y programas {1:SHORTANSWER:=libres} no tienen ninguna limitación de este derecho y pueden ser {1:SHORTANSWER:=usadas} como el usuario quiera. ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Derecho de distribución</strong><br> Trata del derecho a poder realizar {1:SHORTANSWER:=copias} a otras personas o a poner la obra o el programa a disposición de {1:SHORTANSWER:=cualquiera} en internet.<br> <br> Ejemplos: muchos programas {1:SHORTANSWER:=freeware} y todos los programas y obras {1:SHORTANSWER:=libres} permiten que los distribuyas entre tus familiares y {1:SHORTANSWER:=amigos} o a cualquier persona. Los programas {1:SHORTANSWER:=privativos} y las obras con {1:SHORTANSWER:=copyright} no se pueden difundir ni copiar a {1:SHORTANSWER:=nadie}. ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Derecho de transformación</strong><br> Este derecho controla la posibilidad de realizar {1:SHORTANSWER:=cambios} en la obra o en el programa y {1:SHORTANSWER:=distribuir} el resultado a otras {1:SHORTANSWER:=personas}.<br> <br> Ejemplos: la mayoría de los {1:SHORTANSWER:=libros} o programas de pago no permiten realizar {1:SHORTANSWER:=modificaciones}. Los programas y los contenidos {1:SHORTANSWER:=libres} permiten realizar modificaciones y {1:SHORTANSWER:=distribuirlas}. Puedo usar una {1:SHORTANSWER:=fotografía} que tenga licencia libre para crear un {1:SHORTANSWER:=meme} y distribuirlo. ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[ <strong>Derechos comerciales</strong><br> Es el derecho a explotar {1:SHORTANSWER:=comercialmente} un programa o una obra.<br> <br> Ejemplos: una fotografía libre puedo utilizarla para {1:SHORTANSWER:=estampar} una camiseta y venderla para ganar {1:SHORTANSWER:=dinero}. Un sistema operativo libre puedo utilizarlo para {1:SHORTANSWER:=vender} un equipo informático en el que venga instalado y {1:SHORTANSWER:=ganar} dinero. ]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 06.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Programas privativos</strong><br> Este tipo de programas son {1:SHORTANSWER:=desarrollados} por compañías con ánimo de lucro y se {1:SHORTANSWER:=venden} al usuario para que pueda utilizarlo. Suelen tener {1:SHORTANSWER:=acuerdos} legales a medida, creados por la compañía, y limitan todos los {1:SHORTANSWER:=derechos} de distribución y modificación.<br> <br> Hay varias modalidades de {1:SHORTANSWER:=pago}. En una de ellas el usuario paga una sola vez por un programa con una {1:SHORTANSWER:=versión} concreta y no vuelve a pagar ni recibe {1:SHORTANSWER:=actualizaciones}. Otra modalidad de pago es la {1:SHORTANSWER:=suscripción}. El usuario paga una cantidad mensual y recibe las {1:SHORTANSWER:=actualizaciones} del programa mientras paga. Cuando deja de pagar, ya no puede seguir {1:SHORTANSWER:=utilizando} el programa.<br> <br> Ejemplos de este tipo de programas {1:SHORTANSWER:=privativos} son la suite {1:SHORTANSWER:=ofimática} de Microsoft (Word, Excel, Powerpoint), el sistema operativo {1:SHORTANSWER:=Windows}, el software de diseño {1:SHORTANSWER:=AutoCAD} o Adobe Photoshop, videojuegos como {1:SHORTANSWER:=Minecraft}, etc.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 07.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Programas freeware</strong><br> El término freeware hace referencia a que el programa no tiene {1:SHORTANSWER:=costo} y se puede descargar y {1:SHORTANSWER:=ejecutar} sin pagar por él. Este tipo de programas no son {1:SHORTANSWER:=libres} porque pertenecen a una empresa y puede hacerlos de pago o {1:SHORTANSWER:=retirarlos} del mercado en cualquier momento.<br> <br> Ejemplos de programas freeware son el {1:SHORTANSWER:=visualizador} de PDF Adobe Acrobat Reader, la mayoría de las {1:SHORTANSWER:=apps} para teléfonos móviles como {1:SHORTANSWER:=Whatsapp}, videojuegos como Candy Crush o Clash {1:SHORTANSWER:=Royale}, etc.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 08.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Programas adware</strong><br> El adware se refiere a programas que muestran {1:SHORTANSWER:=publicidad} durante su ejecución. Suelen ser programas {1:SHORTANSWER:=gratuitos} (freeware) que consiguen {1:SHORTANSWER:=dinero} para sus desarrolladores a través de la publicidad que {1:SHORTANSWER:=muestran} al usuario.<br> <br> No es un tipo de software bien visto y en ocasiones está asociado al {1:SHORTANSWER:=malware} y a los {1:SHORTANSWER:=virus} informáticos.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 09.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Programas de licencia libre</strong><br> Este tipo de programas no solo son {1:SHORTANSWER:=gratuitos}, sino que su código fuente, las {1:SHORTANSWER:=instrucciones} del programa, también es libre y cualquiera puede leerlo y {1:SHORTANSWER:=modificarlo} sin restricciones.<br> <br> Este tipo de programas son los que dan mayor {1:SHORTANSWER:=libertad} y seguridad al usuario. La {1:SHORTANSWER:=desventaja} que tienen es que pueden ser menos potentes que los programas {1:SHORTANSWER:=privativos}, aunque para un usuario normal no existen muchas {1:SHORTANSWER:=diferencias} con el software privativo.<br> <br> Ejemplos de programas libres son la suite {1:SHORTANSWER:=ofimática} LibreOffice (Writer, Calc, Impress), el sistema operativo {1:SHORTANSWER:=GNU/Linux}, el reproductor de vídeo VLC, el navegador {1:SHORTANSWER:=Firefox}, etc.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+  <question type="cloze">
+    <name> <text>Software. Licencias de software. Pregunta 10.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<strong>Servicios en la nube</strong><br> Este es un tipo de programas que no {1:SHORTANSWER:=ejecuta} el usuario en su ordenador, sino que se ejecuta en un {1:SHORTANSWER:=servidor} web que pertenece a la empresa que ha programado la {1:SHORTANSWER:=aplicación}. Este tipo de programas pueden ser de pago o gratuitos ({1:SHORTANSWER:=freeware}).<br> <br> Las ventajas que presentan {1:SHORTANSWER:=consisten} en que el programa estará siempre {1:SHORTANSWER:=actualizado} y que se puede ejecutar sin instalar ningún programa en tu ordenador. La desventaja principal consiste en que perdemos el control sobre la aplicación, que puede retirarse en cualquier momento de la red, modificar mucho su comportamiento o cambiar de licencia y pasar a ser de pago, dejándonos sin el servicio esperado.<br> <br> Muchos programas de Google pertenecen a esta categoría, por ejemplo el servicio de correo electrónico Gmail, Google Drive, el buscador de Google, la suite ofimática Google Docs, etc.]]></text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+</quiz>
