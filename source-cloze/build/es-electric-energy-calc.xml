@@ -57,7 +57,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 05.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Frigorífico.</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {1:SHORTANSWER:=67} kWh]]></text>
+      <text><![CDATA[<strong>Frigorífico.</strong><br> ¿Qué energía consume al mes un frigorífico de 150 vatios si funciona 15 horas al día?<br><br> E = {1:SHORTANSWER:=67,5~%100%67.5} kWh]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -69,7 +69,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 06.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Bombilla de bajo consumo.</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3,6} kWh]]></text>
+      <text><![CDATA[<strong>Bombilla de bajo consumo.</strong><br> ¿Qué energía consume al mes una bombilla de bajo consumo de 15 vatios si funciona durante 8 horas al día?<br><br> E = {1:SHORTANSWER:=3,6~%100%3.6} kWh]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -81,7 +81,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 07.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Router.</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {1:SHORTANSWER:=175,2} kWh]]></text>
+      <text><![CDATA[<strong>Router.</strong><br> ¿Qué energía consume al año un router de 20 vatios si funciona durante 24 horas al día?<br><br> E = {1:SHORTANSWER:=175,2~%100%175.2} kWh]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -141,7 +141,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 12.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Linterna a pilas.</strong><br> ¿Qué potencia tiene una linterna sabiendo que sus pila almacena 5 vatios-hora de energía eléctrica y que dura 10 horas en funcionamiento? <br><br> P = {1:SHORTANSWER:=0,5} W]]></text>
+      <text><![CDATA[<strong>Linterna a pilas.</strong><br> ¿Qué potencia tiene una linterna sabiendo que su pila almacena 5 vatios-hora de energía eléctrica y que dura 10 horas en funcionamiento? <br><br> P = {1:SHORTANSWER:=0,5~%100%0.5} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -189,7 +189,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 16.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Frigorífico de clase A.</strong><br> El ahorro producido por cambiar un frigorífico de clase C por otro frigorífico de clase A es de 106 kWh al año.<br> ¿Qué potencia ahorra el frigorífico de clase A respecto al de clase C? <br><br> P = {1:SHORTANSWER:=12,1} W]]></text>
+      <text><![CDATA[<strong>Frigorífico de clase A.</strong><br> El ahorro producido por cambiar un frigorífico de clase C por otro frigorífico de clase A es de 106 kWh al año.<br> ¿Qué potencia ahorra el frigorífico de clase A respecto al de clase C? <br><br> P = {1:SHORTANSWER:=12,1~%100%12.1} W]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -249,7 +249,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 21.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Automóvil eléctrico.</strong><br> Un automóvil eléctrico tiene una batería de 100 kWh de capacidad.<br> ¿Cuántas horas necesita para cargar la batería completa en un punto de carga de 40 kilovatios de potencia? <br><br> T = {1:SHORTANSWER:=2,5} horas]]></text>
+      <text><![CDATA[<strong>Automóvil eléctrico.</strong><br> Un automóvil eléctrico tiene una batería de 100 kWh de capacidad.<br> ¿Cuántas horas necesita para cargar la batería completa en un punto de carga de 40 kilovatios de potencia? <br><br> T = {1:SHORTANSWER:=2,5~%100%2.5} horas]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
@@ -285,7 +285,7 @@
   <question type="cloze">
     <name> <text>Electricidad. Cálculos con energía eléctrica. Pregunta 24.</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<strong>Reloj digital.</strong><br> Un reloj digital tiene una potencia de consumo de 0.01 milivatios. Sabiendo que su pila de litio tiene una energía de 1 vatio-hora, ¿cuántos años puede estar en funcionamiento antes de que se agote la batería? <br><br> T = {1:SHORTANSWER:=11,4} años]]></text>
+      <text><![CDATA[<strong>Reloj digital.</strong><br> Un reloj digital tiene una potencia de consumo de 0.01 milivatios. Sabiendo que su pila de litio tiene una energía de 1 vatio-hora, ¿cuántos años puede estar en funcionamiento antes de que se agote la batería? <br><br> T = {1:SHORTANSWER:=11,4~%100%11.4} años]]></text>
     </questiontext>
     <generalfeedback format="html">
       <text></text>
