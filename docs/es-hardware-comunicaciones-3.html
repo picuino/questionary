@@ -4,1055 +4,161 @@
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
-   Copyright (c) 2022 Carlos Pardo Martín
+   Copyright (c) 2021 Carlos Pardo
 
-   This program is free software: you can redistribute it and/or modify
-   it under the terms of the GNU General Public License as published by
-   the Free Software Foundation, either version 3 of the License, or
-   (at your option) any later version.
+   Copyright (c) 2021 James Q Quick
+   https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 
-   This program is distributed in the hope that it will be useful,
-   but WITHOUT ANY WARRANTY; without even the implied warranty of
-   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-   GNU General Public License for more details.
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
 
-   You should have received a copy of the GNU General Public License
-   along with this program. If not, see <https://www.gnu.org/licenses/>.
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
 
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
    -->
 
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-   <meta name="description" content="Test online de Educación Secundaria de Hardware - Comunicaciones III - Picuino">
-
+   <meta name="description" content="Test online de Hardware - Comunicaciones III - Picuino">
    <title>Test Comunicaciones III - Hardware - Picuino</title>
+   <link rel="stylesheet" href="app.css">
+   <link rel="stylesheet" href="game.css">
 
    <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
    <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
    <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
-
-   <style>
-      body {
-        background-color: #efefef;
-        margin: 0;
-        padding: 0;
-        font-size: 12px;
-        min-width: 320px;
-        font-family: Arial, Helvetica, sans-serif;
-        z-index: 0;
-      }
-
-      h1 {
-        font-size: 32px;
-        text-align: center;
-        color: #094070;
-        margin: 32px 0 12px 0;
-      }
-
-      h2 {
-        font-size: 24px;
-        margin-bottom: 24px;
-        font-weight: 700;
-      }
-
-      .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 0 6px 20px 6px;
-      }
-
-      .container > * {
-        width: 100%;
-      }
-
-      .flex-column {
-        display: flex;
-        flex-direction: column;
-      }
-
-      .flex-center {
-        justify-content: center;
-        align-items: center;
-      }
-
-      .justify-center {
-        justify-content: center;
-      }
-
-      .text-center {
-        text-align: center;
-      }
-
-      .hidden {
-        display: none;
-      }
-
-      ul, ol {
-        padding: 0 0 0 40px;
-        margin: 0;
-      }
-
-
-      /* BUTTONS */
-
-      .btn {
-        font-size: 18px;
-        padding: 8px 0;
-        width: 240px;
-        text-align: center;
-        border: 1px solid #094070;
-        margin-bottom: 8px;
-        text-decoration: none;
-        color: #094070;
-        background-color: white;
-      }
-
-      .btn:hover {
-        cursor: pointer;
-        box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
-        transform: translateY(-1px);
-        transition: transform 150ms;
-      }
-
-      .btn[disabled]:hover {
-        cursor: not-allowed;
-        box-shadow: none;
-        transform: none;
-      }
-
-
-      /* COOKIESBAR */
-
-      #cookiesbar {
-        font-size:16px;
-        line-height:1.5em;
-        display:block;
-        position:fixed;
-        bottom:0;
-        text-align:center;
-        max-width:760px;
-        padding:20px 20px;
-        margin-right:14px;
-        background-color: rgba(40,40,40,0.95);
-        color:#fff;
-        z-index: 1200;
-      }
-
-      #cookiesbar a {
-        display:inline-block;
-        padding:4px 8px;
-        color:#e0e000;
-        text-decoration:none;
-      }
-
-      #cookiesbar a:hover {
-        background-color: #444;
-      }
-
-
-      /* FOOTER */
-
-      .footer {
-        color: White;
-        background-color: #094070;
-        margin-top: 64px;
-        padding: 12px;
-        border-top: 2px solid #094070;
-        line-height: 200%;
-        text-align: center;
-      }
-
-      .footer p {
-         margin: 4px 0;
-      }
-
-      .footer a, .footer a:visited {
-        text-decoration: none;
-        font-size: 12px;
-        display: inline-block;
-        color: White;
-        padding: 0 2px 2px;
-        margin-right: 12px;
-      }
-
-      .footer a:hover {
-        color: #094070;
-        background-color: #ecf5ff;
-      }
-
-      .choice-container {
-        display: flex;
-        margin-bottom: 6px;
-        width: 100%;
-        font-size: 18px;
-        background-color: white;
-      }
-
-      @media only screen and (min-width: 600px) {
-        .choice-container:hover {
-          cursor: pointer;
-          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
-          transform: translateY(1px);
-          transition: transform 150ms;
-        }
-      }
-
-      .choice-prefix {
-        padding: 10px 18px;
-        background-color: #094070;
-        color: white;
-        user-select: none;
-      }
-
-      .choice-text {
-        padding: 10px;
-        width: 100%;
-        user-select: none;
-      }
-
-      .correct {
-        background-color: #00ff60;
-      }
-
-      .incorrect {
-        background-color: #ff2000;
-        text-decoration: line-through;
-      }
-
-      #questionImage {
-        margin-bottom: 24px;
-        height: auto;
-        max-width:100%;
-      }
-
-      .header {
-         margin-top: 0;
-         font-size: 32px;
-      }
-
-      /* HUD */
-
-      .hud {
-        display: flex;
-        justify-content: space-between;
-        margin: 0 0 12px 0;
-      }
-
-      .hud-prefix {
-        text-align: center;
-        font-size: 24px;
-        margin: 12px 0;
-      }
-
-      .hud-main-text {
-        text-align: center;
-        font-size: 40px;
-        font-weight: bold;
-        color: #094070;
-        margin: 12px 0;
-      }
-
-      #progress_bar_id {
-        width: 200px;
-        height: 40px;
-        border: 3px solid #094070;
-        margin-top: 15px;
-      }
-
-      #progress_bar_full_id {
-        height: 40px;
-        background-color: #094070;
-        width: 0%;
-      }
-
-
-      /* CLOZE QUESTIONS */
-      .table {
-         overflow-x: auto;
-         display: block;         
-      }
-
-      table, tr {
-         border-collapse: collapse;
-         border-spacing: 0;
-         empty-cells: show;
-         margin: 12px 0;
-      }
-
-      td, th {
-         border: 2px solid #aaa;
-         padding: 0 8px;
-      }
-
-      thead {
-         background-color: #eef;
-      }
-
-      .question_frame {
-         margin: 0 0 12px 0;
-         padding: 8px 6px;
-         background-color: white;
-         border: 2px solid #094070;
-         border-radius: 12px;
-      }
-
-      .question_image_div {
-         text-align: center;
-      }
-
-      .question_image {
-         margin-bottom: 12px;
-         height: auto;
-         max-width:100%;
-      }
-
-      br {
-         margin: 0; 
-      }
-
-      .question_text {
-         font-size: 20px;
-         line-height: 160%;
-         padding-bottom: 12px;
-         min-height: 80px;
-      }
-
-      .gap_span, .gap_box {
-         font-weight: bold;
-      }
-
-      input {
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 20px;
-         padding: 1px;
-         width: 125px;
-         border: 1px solid #094070;
-         border-radius: 8px;
-         box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
-      }
-
-      .buttons {
-         text-align: center;
-         margin-top: 24px;
-         line-height: 50px;
-      }
-
-      button {
-         font-family: Arial, Helvetica, sans-serif;
-         font-size: 20px;
-         padding: 4px 8px;
-         margin-right: 12px;
-         cursor: pointer;
-         text-align: center;
-         border: 1px solid #094070;
-         border-radius: 8px;
-         box-shadow: 0.2em 0.3em 0.2em #888;
-      }
-
-      button:last-child {
-         margin-right: 0;
-      }
-
-      .button:hover {
-         background-color: #3e8e41
-      }
-
-      .button:active {
-         background-color: #3e8e41;
-         box-shadow: 0 5px #666;
-         transform: translateY(4px);
-      }
-
-      .message {
-         display: none;
-         z-index: 10;
-         height: 0;
-         max-width: 75%;
-         min-width: 300px;
-         padding: 0 6px;
-         margin: 0 auto;
-      }
-
-      .message2 {
-         background-color: #eef;
-         padding: 12px;
-         height: auto;
-         box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
-         border-radius: 16px;
-         position: relative;
-         top: 32px;
-         text-align: center;
-         border: 2px solid #094070;
-         border-radius: 1rem;
-         margin: 0px auto;
-      }
-
-      #message_text_id {
-         padding-bottom: 1rem;
-         min-height: 6px;
-      }
-   </style>
+ 
+   <script>
+      sessionStorage.setItem('questionBank', "es-hardware-comunicaciones-3.json");
+      sessionStorage.setItem('questionBankMax', 0);
+      sessionStorage.setItem('questionBankTitle', "Hardware. Comunicaciones III.");
+      sessionStorage.setItem('questionBankCopyright', "2023 por Carlos Pardo Martín");
+      sessionStorage.setItem('questionBankLicense', "Creative Commons Attribution-ShareAlike 4.0");
+   </script>
 
 </head>
 
 <body>
-   <div class="container"> <div class="justify-center flex-column">
+   <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="hud">
+          <div id="hud-item1">
+            <p id="progressText" class="hud-prefix">
+              Question
+            </p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div id="hud-item2">
+            <p class="hud-prefix">
+              Score
+            </p>
+            <p class="hud-main-text" id="score">
+              0
+            </p>
+          </div>
+        </div>
+        
+        <h1 class="header">Hardware. Comunicaciones III</h1>
+        
+        <h2 id="question">What is the answer to this question?</h2>
+        <p><img id="questionImage" src="" width="2"></p>
+        <div class="choice-container">
+          <p class="choice-prefix">A</p>
+          <p class="choice-text" data-number="1">Choice 1</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">B</p>
+          <p class="choice-text" data-number="2">Choice 2</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">C</p>
+          <p class="choice-text" data-number="3">Choice 3</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">D</p>
+          <p class="choice-text" data-number="4">Choice 4</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">E</p>
+          <p class="choice-text" data-number="5">Choice 5</p>
+        </div>
+        <div class="choice-container">
+          <p class="choice-prefix">F</p>
+          <p class="choice-text" data-number="6">Choice 6</p>
+        </div>
 
-      <!-- HUD -->
-      <div id="hud_id" class="hud">
-         <div>
-            <p class="hud-prefix" id="hud_page_id">Page</p>
-            <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
-         </div>
-         <div>
-            <p class="hud-prefix">Puntos</p>
-            <p class="hud-main-text" id="score">0</p>
-         </div>
-      </div>
 
-      <!-- Main content -->
-      <h1 class="header" id="header_id">Título</h1>
+        <div class="cleaner"></div>
 
-      <div class="message" id="message_id"><div class="message2">
-      <div class="question_text" id="message_text_id">Mensaje.</div>
-      <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
-      </div></div>
+   <!-- Footer -->
+   <div class="footer">
+   <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
+   <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
+   <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
+   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
+   <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
+   <a href="https://www.picuino.com/test/index.html">Índice</a>
 
-      <div class="question_frame" id="question_frame_id"></div>
+   <p><a href="https://www.picuino.com/es/informatica-hardware-comunicaciones.html" target="_blank">Fuente de los cuestionarios.</a></p>
+   <p>Copyright © 2023 por Carlos Pardo Martín.</p>
+   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+   </div>
 
-      <div class="buttons" id="buttons_id"></div>
-
-
-      <!-- Footer -->
-      <div class="footer">
-      <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
-      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
-      <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
-      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
-      <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
-      <a href="https://www.picuino.com/test/index.html">Índice</a>
-
-      <p><a href="https://www.picuino.com/es/informatica-hardware-comunicaciones.html" target="_blank">Fuente de los cuestionarios.</a></p>
-      <p>Copyright © 2022 por Carlos Pardo Martín.</p>
-      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
-      </div>
-
-      <!-- Cookies Advise -->
-      <div id="cookiesbar" style="display: none">
-      Esta página web utiliza cookies propias y de terceros
-      para propósitos funcionales y de análisis de navegación.
-      Puedes obtener más información en nuestra
-      <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a><br>
-      Si continúas navegando, aceptas su uso.
-      <br>
-      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
-      </div>
-      <script>
-      if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
-      function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
-      function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
-      function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
-      </script>
-
-      <!-- Matomo -->
-      <script>
-      if (document.cookie.indexOf("noAnalyticalCookies")<0) {
-        var _paq = window._paq = window._paq || [];
-        _paq.push(['trackPageView']);
-        _paq.push(['enableLinkTracking']);
-        (function() {
-          var u="//www.picuino.com/matomo/";
-          _paq.push(['setTrackerUrl', u+'matomo.php']);
-          _paq.push(['setSiteId', '1']);
-          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-        })();
-      }
-      </script>
-   <!-- End Matomo Code -->
-
-   </div> </div>
-
+   <!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Esta página web utiliza cookies propias y de terceros 
+   para propósitos funcionales y de análisis de navegación.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br>
+   Si continúas navegando, aceptas su uso.
+   <br>
+   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+   </div>
    <script>
-      const show_max = 0;
-      const num_tries = 0;
-      const questions_title = "Hardware. Comunicaciones III.";
-      const questions_encoded = [
-         {
-            "Image": ["images/b1958b147149aa43da0b.jpg", "480"],
-            "Cloze": "PHN0cm9uZz5Db25leGnDs24gVVNCPC9zdHJvbmc+IDxicj4gRWwgVVNCIChVbml2ZXJzYWwgU2VyaWFsIEJ1cykgZXMgdW4gezB9IHBhcmEgZGFyIGNvbmV4acOzbiBkZSBkYXRvcyB5IGFsaW1lbnRhY2nDs24gYSBjb21wdXRhZG9yYXMsIHBlcmlmw6lyaWNvcyB5IGRpc3Bvc2l0aXZvcyBlbGVjdHLDs25pY29zLiBDb21lbnrDsyBhIHVzYXJzZSBkZSBmb3JtYSBtYXNpdmEgYSBwYXJ0aXIgZGUgezF9LiA8YnI+IEFjdHVhbG1lbnRlIGV4aXN0ZW4gNCBncmFuZGVzIGVzdMOhbmRhcmVzIFVTQiBjb24gbGFzIGNhcmFjdGVyw61zdGljYXMgcXVlIGFwYXJlY2VuIGVuIGxhIHNpZ3VpZW50ZSB0YWJsYS4gPGRpdiBjbGFzcz0idGFibGUiPjx0YWJsZT4gPHRoZWFkPiA8dHI+PHRoPkVzdMOhbmRhcjwvdGg+PHRoPkHDsW88L3RoPjx0aD5WZWxvY2lkYWQ8L3RoPjx0aD5Db3JyaWVudGU8L3RoPjx0aD5PdHJvczwvdGg+PC90cj4gPC90aGVhZD4gPHRib2R5PiA8dHI+PHRkPlVTQiAxLjE8L3RkPjx0ZD4xOTk4PC90ZD48dGQ+ezJ9IE1CL3M8L3RkPiA8dGQ+MC41IEE8L3RkPjx0ZD5Tb2xvIGNvbmVjdG9yZXMgQSB5IEIuPC90ZD48L3RyPiA8dHI+PHRkPlVTQiAyLjA8L3RkPjx0ZD4yMDAwPC90ZD48dGQ+ezN9IE1CL3M8L3RkPiA8dGQ+MC41IEE8L3RkPjx0ZD5UYW1iacOpbiBjb25lY3RvcmVzPGJyPm1pbmkgeSBtaWNyby48L3RkPjwvdHI+IDx0cj48dGQ+VVNCIDMuMDwvdGQ+PHRkPjIwMDg8L3RkPjx0ZD57NH0gTUIvczwvdGQ+IDx0ZD4wLjkgQSAtIDMuMCBBPC90ZD48dGQ+Q29sb3IgYXp1bDwvdGQ+PC90cj4gPHRyPjx0ZD5VU0IgNC4wPC90ZD48dGQ+MjAxOTwvdGQ+PHRkPjQwMDAgTUIvczwvdGQ+IDx0ZD4zLjAgQTwvdGQ+PHRkPlNvbG8gY29uZWN0b3IgQzwvdGQ+PC90cj4gPC90Ym9keT4gPC90YWJsZT48L2Rpdj4gRWwgY29uZWN0b3IgVVNCIEMgZXMgZWwgbcOhcyB7NX0geSBlbCDDum5pY28gY29tcGF0aWJsZSBjb24gbGEgZXNwZWNpZmljYWNpw7NuIGRlIFVTQiA0LiBBZGVtw6FzIGRlIHBlcm1pdGlyIGNvbXVuaWNhY2lvbmVzIGRlIGFsdGEgezZ9LCBjb24gbGEgdGVjbm9sb2fDrWEgUG93ZXIgRGVsaXZlcnkgcHVlZGUgYWxpbWVudGFyIGRpc3Bvc2l0aXZvcyBjb24gdW5hIHBvdGVuY2lhIGRlIGhhc3RhIHs3fSB2YXRpb3MsIG11Y2hvIG1heW9yIHF1ZSBsYSBwb3RlbmNpYSBwZXJtaXRpZGEgcG9yIGxvcyBjb25lY3RvcmVzIGFudGVyaW9yZXMu",
-            "Gaps": [
-               ['ZXN0w6FuZGFy'],
-               ['MTk5OA=='],
-               ['MQ=='],
-               ['NTA='],
-               ['NjAw'],
-               ['bW9kZXJubw=='],
-               ['dmVsb2NpZGFk'],
-               ['MTAw'],
-            ]
-         },
-         
-         {
-            "Image": ["images/ec306a5eb654e2b09694.jpg", "320"],
-            "Cloze": "IDxzdHJvbmc+Q29uZXhpw7NuIGRlIGF1ZGlvIGFuYWzDs2dpY288L3N0cm9uZz4gPGJyPiBMb3MgY29uZWN0b3JlcyBkZSBhdWRpbyB7MH0gc2UgdXRpbGl6YW4gcGFyYSBjb25lY3RhciBtaWNyw7Nmb25vcywgezF9IHkgb3Ryb3Mgc2lzdGVtYXMgZGUgYXVkaW8gYW5hbMOzZ2ljbyBhIGRpc3Bvc2l0aXZvcyBlbGVjdHLDs25pY29zLiA8YnI+IEhheSBjb25lY3RvcmVzIGRlIGRpc3RpbnRhcyBtZWRpZGFzLCBwZXJvIGVsIG3DoXMgcG9wdWxhciBlcyBlbCBjb25lY3RvciBkZSB7Mn0gbW0gdXNhZG8gZW4gbGEgbWF5b3LDrWEgZGUgbG9zIG9yZGVuYWRvcmVzIHkgdGVsw6lmb25vcyB7M30uIDxicj4gQ8OzZGlnb3MgZGUgY29sb3JlcyBwYXJhIGNvbmVjdG9yZXMgZGUgYXVkaW8gZGUgMyw1IG1tIGVuIG9yZGVuYWRvcmVzIHBlcnNvbmFsZXM6IDxkaXYgY2xhc3M9InRhYmxlIj48dGFibGU+IDx0aGVhZD4gPHRyPjx0aD5Db2xvcjwvdGg+PHRoPkZ1bmNpw7NuPC90aD48L3RyPiA8L3RoZWFkPiA8dGJvZHk+IDx0cj48dGQ+ezR9PC90ZD48dGQ+U2FsaWRhIGRlIGF1ZGlvLiBDYW5hbGVzIGZyb250YWxlcy48L3RkPjwvdHI+IDx0cj48dGQ+QXp1bDwvdGQ+PHRkPkVudHJhZGEgZGUgYXVkaW8uIE5pdmVsIGRlIGzDrW5lYS48L3RkPjwvdHI+IDx0cj48dGQ+ezV9PC90ZD48dGQ+RW50cmFkYSBkZSBhdWRpby4gTml2ZWwgZGUgbWljcsOzZm9uby48L3RkPjwvdHI+IDx0cj48dGQ+TmVncm88L3RkPjx0ZD5TYWxpZGEgZGUgYXVkaW8uIENhbmFsZXMgdHJhc2Vyb3MuPC90ZD48L3RyPiA8dHI+PHRkPkdyaXM8L3RkPjx0ZD5TYWxpZGEgZGUgYXVkaW8uIENhbmFsZXMgbGF0ZXJhbGVzLjwvdGQ+PC90cj4gPHRyPjx0ZD5OYXJhbmphPC90ZD48dGQ+U2FsaWRhIGRlIGF1ZGlvLiBDYW5hbCBjZW50cmFsIHkgU3Vid29vZmVyLjwvdGQ+PC90cj4gPC90Ym9keT4gPC90YWJsZT48L2Rpdj4g",
-            "Gaps": [
-               ['YW5hbMOzZ2ljb3M='],
-               ['YXVyaWN1bGFyZXM='],
-               ['Myw1'],
-               ['aW50ZWxpZ2VudGVz'],
-               ['VmVyZGU='],
-               ['Um9zYQ=='],
-            ]
-         },
-         
-         {
-            "Image": ["images/9c52bba3a553ab553b23.jpg", "320"],
-            "Cloze": "PHN0cm9uZz5Db25leGnDs24gUFMvMjwvc3Ryb25nPiA8YnI+IEVsIGNvbmVjdG9yIFBTLzIgdG9tYSBzdSBub21icmUgZGUgbGFzIGNvbXB1dGFkb3JhcyBJQk0gUGVyc29uYWwgU3lzdGVtLzIsIGNyZWFkYSBwb3IgezB9IGVuIDE5ODcuIEVzdGUgY29uZWN0b3Igc2UgZW1wbGVhIHBhcmEgY29uZWN0YXIgezF9IHkgcmF0b25lcy4gPGJyPiBBY3R1YWxtZW50ZSBlc3RvcyBjb25lY3RvcmVzIGVzdMOhbiB7Mn0sIHBlcm8gdG9kYXbDrWEgc2Ugc2lndWVuIGluY29ycG9yYW5kbyBlbiBhbGd1bmFzIHBsYWNhcyBiYXNlIHBvciBtb3Rpdm9zIGRlIHszfSBjb24gbG9zIHRlY2xhZG9zIHkgcmF0b25lcyBtw6FzIGFudGlndW9zLiBBbGd1bmFzIHBsYWNhcyBiYXNlIG1vZGVybmFzIHRpZW5lbiB1biBzb2xvIGNvbmVjdG9yLCBtaXRhZCBtb3JhZG8geSBtaXRhZCB7NH0sIHF1ZSBzaXJ2ZSBwYXJhIGNvbmVjdGFyIHRhbnRvIHRlY2xhZG9zIGNvbW8gcmF0b25lcyB7NX0u",
-            "Gaps": [
-               ['SUJN'],
-               ['dGVjbGFkb3M='],
-               ['b2Jzb2xldG9z'],
-               ['Y29tcGF0aWJpbGlkYWQ='],
-               ['dmVyZGU='],
-               ['YW50aWd1b3M='],
-            ]
-         },
-         
-         {
-            "Image": ["images/08fe6c8be32eb1957ca3.jpg", "320"],
-            "Cloze": "PHN0cm9uZz5Db25leGnDs24gUlMtMjMyPC9zdHJvbmc+IDxicj4gRWwgZXN0w6FuZGFyIGRlIGNvbXVuaWNhY2lvbmVzIFJTLXswfSBlcyB1bmEgaW50ZXJmYXogcGFyYSBpbnRlcmNhbWJpbyBkZSBkYXRvcyB2w61hIHNlcmllIGRlIHsxfSB2ZWxvY2lkYWQuIDxicj4gRXN0ZSBlc3TDoW5kYXIgZnVlIGFtcGxpYW1lbnRlIHV0aWxpemFkbyBoYWNlIGHDsW9zLCBoYXN0YSBxdWUgc2UgZnVlIHJlZW1wbGF6YW5kbyBwb3IgZWwgezJ9IGEgcGFydGlyIGRlIDE5OTguIEFjdHVhbG1lbnRlIHNlIGVuY3VlbnRyYSBvYnNvbGV0byB5IG5vIHNlIHN1ZWxlIGluY29ycG9yYXIgZW4gbGFzIHBsYWNhcyBiYXNlLCBwZXJvIHNlIHB1ZWRlIGHDsWFkaXIgbWVkaWFudGUgdW5hIHRhcmpldGEgZGUgZXhwYW5zacOzbiB7M30gbyBtZWRpYW50ZSB1biBjYWJsZSBjb252ZXJzb3IgZGUgVVNCIGEgUlMtMjMyLiA8YnI+IFRvZGF2w61hIGhheSBlcXVpcG9zIGFudGlndW9zIGVuIHs0fSwgbGFib3JhdG9yaW9zIHkgZW1wcmVzYXMgcXVlIHV0aWxpemFuIGVsIGVzdMOhbmRhciBSUy0yMzIgeSBlcyBuZWNlc2FyaW8gcG9kZXIgY29tdW5pY2Fyc2UgY29uIGVsbG9zLiA8YnI+IE5vIHNlIGRlYmUgY29uZnVuZGlyIGVzdGUgY29uZWN0b3IgY29uIGVsIGNvbmVjdG9yIHs1fSBkZSB2w61kZW8sIG11eSBwYXJlY2lkbywgcGVybyBjb24gezZ9IGZpbGFzIGRlIHBpbmVzIGRlIGNvbmV4acOzbi4=",
-            "Gaps": [
-               ['MjMy'],
-               ['YmFqYQ=='],
-               ['VVNC'],
-               ['UENJ'],
-               ['ZsOhYnJpY2Fz'],
-               ['VkdB'],
-               ['dHJlcw=='],
-            ]
-         },
-         
-      ]
-    
-      const time_between_clues = 1000;
-      var questions_pages = 0;
-      var gap_selected = 0;
-      var page = 0;
-      var gaps_total = 0;
-      var gaps_values = [];
-      var points_total = 0;
-      var gaps_not_solved = 0;
-      var watermark = 0;
-      var interval;
-      var timeout_clue = 0;
-      var timeout_last_score = 0;
-      var final_score_interval;
-
-      if (!String.prototype.format) {
-         String.prototype.format = function() {
-            var args = arguments;
-            return this.replace(/{(\d+)}/g, function(match, number) {
-               return typeof args[number] != 'undefined'
-                  ? args[number]
-                  : match;
-            });
-         };
-      }
-
-      page_reset();
-
-      function page_reset() {
-         if (final_score_interval) {
-            clearInterval(final_score_interval);
-         }
-         page = 0;
-         points_total = 0;
-         if (show_max > 0 && show_max < questions_encoded.length) {
-            questions_sorted = questions_sort(show_max);
-         }
-         else {
-            questions_sorted = questions_sort(questions_encoded.length);
-         }
-         question_numpages = questions_sorted.length;
-         gaps_total = questions_gaps();
-         gaps_values = get_gaps_values();
-         gaps_tries = get_gaps_tries();
-         gaps_not_solved = 0;
-         fill_question_text(page);
-         message_hide();
-         hud_show();
-      }
-
-      function bin_atob(str) {
-         return decodeURIComponent(atob(str).split('').map(function(c) {
-            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
-        }).join(''));
-      }
-
-      function questions_sort(len) {
-         new_questions = JSON.parse(JSON.stringify(questions_encoded));
-         questions_sorted = new Array(len);
-         for(i=0; i<len; i++) {
-            rnd = Math.floor(Math.random() * new_questions.length);
-            questions_sorted[i] = new_questions[rnd];
-            questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
-            for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
-               for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
-                  questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
-               };
-            };
-            new_questions.splice(rnd, 1);
-         }
-         return questions_sorted;
-      }
-
-      function get_gaps_values() {
-         var gaps_values = [];
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps_values.push([]);
-            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_values[page].push(string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]));
-            };
-         };
-         return gaps_values;
-      }
-
-      function get_gaps_tries() {
-         var gaps_tries = [];
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps_tries.push([]);
-            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
-               gaps_tries[page].push(num_tries);
-            };
-         };
-         return gaps_tries;         
-      }
-
-      function string_to_binary_array(str, chr) {
-         array = [];
-         if (str.length == 1) {
-            array.push(100);
-            return array;
-         }
-
-         // Valor de las sucesivas letras de una palabra
-         for(var i=0; i<str.length; i++) {
-            const func = "Lineal";
-            if (func === "Exponencial") {
-               // Exponencial
-               array.push(100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1));
-            }
-            else {
-               // Lineal
-               array.push(100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length));
-            };
-         };
-         return array;
-      }
-
-      function add_terms(array) {
-         sum = 0;
-         for(var i=0; i<array.length; i++) {
-            sum += array[i];
-         }
-         return sum;
-      }
-
-      function questions_gaps() {
-         var gaps = 0;
-         for(var page=0; page<questions_sorted.length; page++) {
-            gaps += questions_sorted[page]["Gaps"].length;
-         };
-         return gaps;
-      };
-
-      function final_score_fill() {
-         // Load values
-         title = sessionStorage.getItem("last_questions_title");
-         if (title === null) {
-            title = "Puntuación no almacenada";
-         }
-         points = sessionStorage.getItem("last_questions_points");
-         if (points === null) {
-            points = 0;
-         }
-
-         // Hide HUD
-         var hud_element = document.getElementById("hud_id");
-         hud_element.style.display = "none";
-
-         // Big header
-         var header_element = document.getElementById("header_id");
-         header_element.innerHTML = title;
-         header_element.style.fontSize = "48px";
-         header_element.style.paddingTop = "32px";
-
-         // Show points
-         var question_frame_element = document.getElementById("question_frame_id");
-         if (watermark == 1) {
-            question_frame_element.innerHTML = "";
-            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
-            + Math.round(points) + "%"
-            + "</h1> <h1>- - - - - - -</h1>");
-            watermark = 2;
-         }
-         else {
-            question_frame_element.innerHTML = "";
-            question_frame_element.innerHTML = "";
-            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
-            + Math.round(points) + "%"
-            + "</h1> <h1>= = = = = =</h1>");
-            watermark = 1;
-         }
-         buttons_final_score_fill();
-      };
-
-      function buttons_questions_fill() {
-         var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = ''
-         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
-         + '<button class="func_button" onclick="show_clue()">Pista</button>'
-         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
-         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
-      }
-
-      function buttons_final_score_fill() {
-         var buttons_frame_element = document.getElementById("buttons_id");
-         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
-      }
-
-      function message_show(message) {
-         var message_text_element = document.getElementById("message_text_id");
-         message_text_element.innerHTML = message;
-         var message_element = document.getElementById("message_id");
-         message_element.style.display = "inline";
-         var button_element = document.getElementById("message_button_id");
-         button_element.focus();
-      }
-
-      function message_hide() {
-         var message_element = document.getElementById("message_id");
-         var message_text_element = document.getElementById("message_text_id");
-         message_text_element.innerHTML = "";
-         message_element.style.display = "none";
-
-         focus_empty_gap();
-      }
-
-      function focus_empty_gap() {
-         var num_gaps = 0;
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-
-         while (1) {
-            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
-            if (gap_element) {
-               gap_element.focus();
-               break;
-            }
-            gap_selected += 1;
-            if (gap_selected > gaps_length) {
-               gap_selected = 0;
-            }
-            num_gaps += 1;
-            if (num_gaps > 100) {
-               break;
-            }
-         }
-      }
-
-      function next_page() {
-         message_hide();
-
-         // Check gaps
-         var gaps_not_solved = count_blank_answers();
-
-         // Check if all gaps are filled
-         if (gaps_not_solved > 0) {
-            if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
-            }
-            else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
-            };
-            return;
-         };
-
-         // Go to next page or final page
-         page++;
-         if (page < questions_sorted.length) {
-            hud_show();
-            fill_question_text(page);
-         }
-         else {
-            sessionStorage.setItem('last_questions_title', questions_title);
-            sessionStorage.setItem('last_questions_points', points_total);
-            final_score_interval = setInterval(final_score_fill, 500);
-         }
-
-         // Init variables
-         gap_selected = 0;
-      };
-
-      function last_score() {
-         if (timeout_last_score === 1) {
-            final_score_interval = setInterval(final_score_fill, 500);
-         }
-         else {
-            timeout_last_score = 1;
-            setTimeout(reset_timeout_last_score, 400);
-            return;
-         }
-      }
-
-      function reset_timeout_last_score() {
-         timeout_last_score = 0;
-      }
-
-      function questions_page_gaps(page) {
-         return questions_sorted[page]["Gaps"].length;
-      }
-
-      function fill_question_text(page) {
-         message_hide();
-         points_page = 0;
-
-         // Fill header
-         var header_element = document.getElementById("header_id");
-         header_element.innerHTML = questions_title;
-         header_element.style.fontSize = "32px";
-         header_element.style.paddingTop = "0px";
-
-         // Fill question frame HTML
-         var question_frame_element = document.getElementById("question_frame_id");
-         question_frame_element.innerHTML = ''
-         + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
-         + '<div class="question_text" id="question_text_id"></div>';
-
-         // Read variables
-         var question_text = questions_sorted[page]["Cloze"];
-         var question_image = questions_sorted[page]["Image"][0];
-         var question_image_size = questions_sorted[page]["Image"][1];
-
-         // Image
-         image_code = '<img class="question_image" src="{0}"{1}>';
-         if (question_image_size) {
-            var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
-         }
-         else {
-            var image_values = [question_image, ''];
-         };
-         image_code_formatted = image_code.format(...image_values);
-         var question_image_element = document.getElementById("question_image_div_id");
-         if (question_image) {
-            question_image_element.innerHTML = image_code_formatted;
-         }
-         else {
-            question_image_element.innerHTML = "";
-         };
-
-         // Question text
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         var gaps_not_solved = gaps_length;
-         var gap_span = new Array(gaps_length);
-         gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
-         + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
-         + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
-         for (var i=0; i<=gaps_length; i++) {
-            gap_span[i] = gap_span_code.format(i);
-         };
-         var question_text_formatted = question_text.format(...gap_span);
-         var question_text_element = document.getElementById("question_text_id");
-         question_text_element.innerHTML = question_text_formatted;
-
-         // Buttons
-         buttons_questions_fill();
-         clearInterval(interval);
-
-         // Focus first gap
-         var gap_element = document.getElementById("gap_0");
-         if (gap_element) {
-            gap_element.focus();
-         }
-      }
-
-      function hud_show() {
-         // Show HUD
-         var hud_element = document.getElementById("hud_id");
-         hud_element.style.display = "flex";
-
-         // Page HUD
-         var hud_page_element = document.getElementById("hud_page_id");
-         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
-
-         var progress_bar_full_element = document.getElementById("progress_bar_full_id");
-         var width = ((page + 1) / questions_sorted.length) * 100;
-         progress_bar_full_element.style.width = `${width}%`;
-
-         // Points
-         var score_element = document.getElementById("score");
-         score_element.innerHTML = Math.round(points_total);
-      };
-
-      function onkeypress_handle(gap, event) {
-         if (event.keyCode == 13) {
-            event.preventDefault();
-            check_answers();
-         };
-      };
-
-      function check_answers() {
-         message_hide();
-
-         gaps_not_solved = count_blank_answers();
-
-         if (gaps_not_solved > 0) {
-            if (gaps_not_solved == 1) {
-               message_show("Aún falta 1 hueco por resolver.");
-            }
-            else {
-               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
-            };
-         }
-         else {
-            message_show("Todos los huecos están resueltos."
-            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
-         }
-      };
-
-      function count_blank_answers() {
-         // Leer gaps y comprobar que son correctos
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         var gaps_not_solved = gaps_length;
-         for (var num_gap=0; num_gap<gaps_length; num_gap++) {
-            var gap_element = document.getElementById("gap_{0}".format(num_gap));
-            if (gap_element === null || gap_element === 'undefined' ) {
-               gaps_not_solved -= 1;
-               continue;
-            };
-            var gap_text = gap_element.value.toLowerCase().trim();
-            gap_text.replace(/\s\s+/g, ' ');
-            if (gap_text === "") {
-               continue;
-            };
-            var answer = test_answer_correct(page, num_gap, gap_text);
-            if (answer !== false) {
-               var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
-               gap_span_element.innerHTML = answer;
-               points_total += add_terms(gaps_values[page][num_gap]) / gaps_total;
-               hud_show();
-               gaps_not_solved -= 1;
-            }
-            else {
-               if (gaps_tries[page][num_gap] === 1) {
-                  var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
-                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][num_gap][0];
-                  gaps_not_solved -= 1;   
-               }
-               else if (gaps_tries[page][num_gap] > 1) {
-                  gaps_tries[page][num_gap] -= 1;
-               }
-            }
-         };
-         return gaps_not_solved;
-      }
-
-      function test_answer_correct(page, num_gap, gap_text) {
-         var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
-         for (var j=0; j<num_answers; j++) {
-            var answer = questions_sorted[page]["Gaps"][num_gap][j];
-            if (gap_text === answer.toLowerCase()) {
-               return answer;
-            };
-         };
-         return false;
-      }
-
-      function select_gap(num) {
-         gap_selected = num;
-      };
-
-      function reset_timeout_clue() {
-         timeout_clue = 0;
-      }
-
-      function show_clue() {
-         message_hide();
-         if (timeout_clue !== 0) {
-            return;
-         }
-         timeout_clue = 1;
-         setTimeout(reset_timeout_clue, time_between_clues);
-
-         var gaps_visited = 0;
-         var gaps_length = questions_sorted[page]["Gaps"].length;
-         if (gap_selected < 0 || gap_selected >= gaps_length) {
-            gap_selected = 0;
-         };
-         while (true) {
-            while (true) {
-               if (gaps_visited >= gaps_length) {
-                  message_show("Todos los huecos están resueltos."
-                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
-                  return;
-               }
-               if (gap_selected >= gaps_length) {
-                  gap_selected = 0;
-               }
-               var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
-               var gap_element = document.getElementById("gap_{0}".format(gap_selected));
-               if (gap_element === null) {
-                  gap_selected += 1;
-                  gaps_visited += 1;
-                  continue;
-               }
-               else {
-                  break;
-               };
-            }
-            var gap_text = gap_element.value.toLowerCase();
-            var i = 0;
-            while (true) {
-               if (i >= correct_answer.length) {
-                  if (gap_text.length > correct_answer.length) {
-                     // Correct gap answer with more letters
-                     gap_element.value = gap_element.value.substr(0, correct_answer.length);
-                     gap_selected++;
-                     return;
-                  }
-                  // next gap
-                  gap_selected++;
-                  if (gap_selected >= gaps_length) {
-                     return; // No gap to fill
-                  };
-                  // Go to next gap
-                  break;
-               };
-               if (i >= gap_text.length) {
-                  gap_text = correct_answer.substr(0, i+1);
-                  gap_element.value = gap_text;
-                  gaps_values[page][gap_selected][i] = 0;
-                  return;
-               };
-               if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
-                  gap_text = correct_answer.substr(0, i+1);
-                  gap_element.value = gap_text;
-                  gaps_values[page][gap_selected][i] = 0;
-                  return;
-               };
-               i++;
-            };
-         };
-      };
-
+   if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+   function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+   function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
    </script>
 
+   <!-- Matomo -->
+   <script>
+   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+     var _paq = window._paq = window._paq || [];
+     _paq.push(['trackPageView']);
+     _paq.push(['enableLinkTracking']);
+     (function() {
+       var u="//www.picuino.com/matomo/";
+       _paq.push(['setTrackerUrl', u+'matomo.php']);
+       _paq.push(['setSiteId', '1']);
+       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+     })();
+   }
+   </script>
+   <!-- End Matomo Code -->
+
+
+      </div>
+   </div>
+   <!-- Game -->
+   <script src="game.js"></script>
 </body>
 
 </html>

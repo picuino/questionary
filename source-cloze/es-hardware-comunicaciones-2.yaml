@@ -10,110 +10,206 @@ Show_max: 0
 ---
 
 - Title:
-  Image: ../images/informatica-pci-express.jpg
+  Image: ../images/informatica-usb-connectors.jpg
   Image_width: 480
   Cloze:
-     <strong>Conectores PCI Express</strong>
+     <strong>Conexión USB</strong>
      <br>
-     PCI Express abrevidado {PCIe} o PCI-e es un conjunto de conectores
-     internos de la placa base, que sirve para conectar tarjetas de
-     {expansión} al ordenador.
-     Estas tarjetas de expansión pueden ser tarjetas {gráficas},
-     controladoras {RAID}, tarjetas de red {Ethernet},
-     tarjetas de sonido, etc.
+     El USB (Universal Serial Bus) es un {estándar} para dar conexión de
+     datos y alimentación a computadoras, periféricos y dispositivos
+     electrónicos. Comenzó a usarse de forma masiva a partir de {1998}.
      <br>
-     Existen 4 tamaños de conector dependiendo del número de {canales}
-     de comunicación que contengan.
-
+     Actualmente existen 4 grandes estándares USB con las 
+     características que aparecen en la siguiente tabla.
      <div class="table"><table>
      <thead>
-     <tr><th>Versión</th><th>Pines</th><th>Tamaño</th></tr>
+     <tr><th>Estándar</th><th>Año</th><th>Velocidad</th><th>Corriente</th><th>Otros</th></tr>
      </thead>
      <tbody>
-     <tr><td>PCI-E x1</td><td>18</td><td>25 mm</td></tr>
-     <tr><td>PCI-E x4</td><td>32</td><td>39 mm</td></tr>
-     <tr><td>PCI-E {x8}</td><td>49</td><td>56 mm</td></tr>
-     <tr><td>PCI-E {x16}</td><td>82</td><td>89 mm</td></tr>
+     <tr><td>USB 1.1</td><td>1998</td><td>{1} MB/s</td>
+         <td>0.5 A</td><td>Solo conectores A y B.</td></tr>
+     <tr><td>USB 2.0</td><td>2000</td><td>{50} MB/s</td>
+         <td>0.5 A</td><td>También conectores<br>mini y micro.</td></tr>
+     <tr><td>USB 3.0</td><td>2008</td><td>{600} MB/s</td>
+         <td>0.9 A - 3.0 A</td><td>Color azul</td></tr>
+     <tr><td>USB 4.0</td><td>2019</td><td>4000 MB/s</td>
+         <td>3.0 A</td><td>Solo conector C</td></tr>
+     </tbody>
+     </table></div>
+     El conector USB C es el más {moderno} y el único compatible con la
+     especificación de USB 4. Además de permitir comunicaciones de alta
+     {velocidad}, con la tecnología Power Delivery puede alimentar 
+     dispositivos con una potencia de hasta {100} vatios, mucho mayor que
+     la potencia permitida por los conectores anteriores.
+
+- Title:
+  Image: ../images/informatica-computer-audio.jpg
+  Image_width: 320
+  Cloze: "
+     <strong>Conexión de audio analógico</strong>
+     <br>
+     Los conectores de audio {analógicos} se utilizan para conectar
+     micrófonos, {auriculares} y otros sistemas de audio analógico a
+     dispositivos electrónicos.
+     <br>
+     Hay conectores de distintas medidas, pero el más popular es el 
+     conector de {3,5} mm usado en la mayoría de los ordenadores y 
+     teléfonos {inteligentes}.
+     <br>
+     Códigos de colores para conectores de audio de 3,5 mm en
+     ordenadores personales:
+     <div class=\"table\"><table>
+     <thead>
+     <tr><th>Color</th><th>Función</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>{Verde}</td><td>Salida de audio. Canales frontales.</td></tr>
+     <tr><td>Azul</td><td>Entrada de audio. Nivel de línea.</td></tr>
+     <tr><td>{Rosa}</td><td>Entrada de audio. Nivel de micrófono.</td></tr>
+     <tr><td>Negro</td><td>Salida de audio. Canales traseros.</td></tr>
+     <tr><td>Gris</td><td>Salida de audio. Canales laterales.</td></tr>
+     <tr><td>Naranja</td><td>Salida de audio. Canal central y Subwoofer.</td></tr>
+     </tbody>
+     </table></div>
+     "
+
+- Title:
+  Image: ../images/informatica-puertos-ps2.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Conexión PS/2</strong>
+     <br>
+     El conector PS/2 toma su nombre de las computadoras IBM Personal
+     System/2, creada por {IBM} en 1987. Este conector se emplea para 
+     conectar {teclados} y ratones.
+     <br>
+     Actualmente estos conectores están {obsoletos}, pero todavía se
+     siguen incorporando en algunas placas base por motivos de 
+     {compatibilidad} con los teclados y ratones más antiguos.
+     Algunas placas base modernas tienen un solo conector, mitad
+     morado y mitad {verde}, que sirve para conectar tanto teclados
+     como ratones {antiguos}.
+
+- Title:
+  Image: ../images/informatica-rs232-connector.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Conexión RS-232</strong>
+     <br>
+     El estándar de comunicaciones RS-{232} es una interfaz para
+     intercambio de datos vía serie de {baja} velocidad.
+     <br>
+     Este estándar fue ampliamente utilizado hace años, hasta que se
+     fue reemplazando por el {USB} a partir de 1998. Actualmente se 
+     encuentra obsoleto y no se suele incorporar en las placas base, pero 
+     se puede añadir mediante una tarjeta de expansión {PCI} o mediante
+     un cable conversor de USB a RS-232.
+     <br>
+     Todavía hay equipos antiguos en {fábricas}, laboratorios y empresas
+     que utilizan el estándar RS-232 y es necesario poder comunicarse
+     con ellos.
+     <br>
+     No se debe confundir este conector con el conector {VGA} de vídeo,
+     muy parecido, pero con {tres} filas de pines de conexión.
+
+- Title:
+  Image: ../images/informatica-conector-vga.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Conexión VGA</strong>
+     <br>
+     El conector VGA (Video Graphics Array) es un estándar para
+     comunicar la tarjeta {gráfica} del ordenador con el monitor de
+     vídeo o con el proyector. Esta conexión utiliza señales {analógicas},
+     con peor calidad y menos capacidad de resolución que los
+     conectores {digitales} actuales (DVI y HDMI).
+     <br>
+     A pesar de ser un estándar pensado para pantallas antiguas de
+     tipo CRT y que ofrece {peores|menos} prestaciones en las pantallas
+     digitales LDC, se sigue utilizando en ordenadores y monitores
+     actuales para guardar la {compatibilidad} con dispositivos antiguos.
+
+- Title:
+  Image: ../images/informatica-conector-dvi.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Conexión DVI</strong>
+     <br>
+     El conector DVI (Digital Visual {Interface}) es un estándar para
+     comunicar {vídeo} que utiliza señales tanto analógicas como digitales.
+     <br>
+     El conector DVI permite {atornillar} el cable a la caja del 
+     ordenador por lo que es más {robusto} que el conector HDMI.
+     
+- Title:
+  Image: ../images/informatica-conector-hdmi.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Conexión HDMI</strong>
+     <br>
+     El conector HDMI (High-Definition Multimedia {Interface}) es
+     un estándar que permite transferir tanto vídeo como {audio} 
+     con señales {digitales}.
+     <br>
+     Este es uno de los estándares más utilizados en todo tipo de
+     equipos {multimedia} nuevos, no solo en equipos informáticos.
+     <br>
+     El conector es más {frágil} que otros conectores de vídeo y
+     resulta más sencillo que se {desconecte} de manera inadvertida.
+     
+- Title:
+  Image: ../images/informatica-conector-hdmi.jpg
+  Image_width: 320
+  Cloze:
+     <strong>Comparación entre conexiones de vídeo</strong>
+     <br>
+     <div class="table"><table>
+     <thead>
+     <tr><th>Estándar</th><th>Señal</th><th>Conector</th><th>Contenido</th></tr>
+     </thead>
+     <tbody>
+     <tr><td>{VGA}</td><td>Analógica</td><td>Robusto</td><td>Vídeo</td></tr>
+     <tr><td>{DVI}</td><td>Analógica y digital</td><td>Robusto</td><td>Vídeo</td></tr>
+     <tr><td>{HDMI}</td><td>Digital</td><td>Débil</td><td>Audio y Vídeo</td></tr>
      </tbody>
      </table></div>
 
 - Title:
-  Image: ../images/informatica-pci-express.jpg
-  Image_width: 480
+  Image: ../images/informatica-ethernet-cable.jpg
+  Image_width: 320
   Cloze:
-     <strong>Conectores PCI Express</strong>
+     <strong>Conexión de red Ethernet</strong>
      <br>
-     La velocidad de {transferencia} depende de la versión de PCI Express
-     (aumenta cada pocos años) y del número de canales de {comunicación}
-     del conector.
-
+     El estándar de red local {Ethernet} se utiliza para conectar
+     ordenadores en redes de área local, que suelen unir entre sí
+     a ordenadores de un mismo {edificio} o incluso de diversos 
+     edificios que sean cercanos.
+     <br>
+     Los cables de cobre suelen soportar una distancia máxima de 
+     {100} metros, pero esta distancia se puede ampliar utilizando
+     {switch} intermedios que hagan de repetidores o usando cables
+     de fibra {óptica}.
+     <br>
+     El cable utilizado para las conexiones suele ser cable de
+     cobre {UTP} (Unshielded Twisted Pair o par trenzado no apantallado).
+     Este es un tipo de cable con {peores} prestaciones que los cables
+     de fibra óptica, pero es más barato de instalar y sencillo de
+     manejar, por lo que se utilizan mayoritariamente en conexiones
+     cercanas, de {decenas} de metros.
+     <br>
+     Estándares de comunicaciones Ethernet más usados con cable de cobre.
      <div class="table"><table>
      <thead>
-     <tr><th>Versión</th><th>Año</th><th>Velocidad x1</th></tr>
+     <tr><th>Estándar</th><th>Año</th><th>Cables</th><th>Velocidad</th></tr>
      </thead>
      <tbody>
-     <tr><td>PCI-E 1.0</td><td>2003</td><td>0.25 GB/s</td></tr>
-     <tr><td>PCI-E 2.0</td><td>2007</td><td>{0.50} GB/s</td></tr>
-     <tr><td>PCI-E 3.0</td><td>2010</td><td>1.0 GB/s</td></tr>
-     <tr><td>PCI-E 4.0</td><td>2017</td><td>{2.0} GB/s</td></tr>
-     <tr><td>PCI-E 5.0</td><td>2019</td><td>3.9 GB/s</td></tr>
-     <tr><td>PCI-E 6.0</td><td>2019</td><td>{7.9} GB/s</td></tr>
+     <tr><td>10Base T</td><td>1990</td><td>UTP Categoría 3</td>
+         <td>{10} Mbit/s</td></tr>
+     <tr><td>100Base T2</td><td>1998</td><td>UTP Categoría 5</td>
+         <td>{100} Mbit/s</td></tr>
+     <tr><td>1000Base T</td><td>1999</td><td>UTP Categoría 5e</td>
+         <td>{1000} Mbit/s</td></tr>
+     <tr><td>10GBase T</td><td>2006</td><td>UTP Categoría 6A</td>
+         <td>{10000} Mbit/s</td></tr>
      </tbody>
      </table></div>
-
-     La aplicación más conocida de los conectores PCI-E x16 es la
-     conexión de tarjetas {gráficas} a la placa base.
-     <br>
-     Existe un conector llamado {M.2} que está basado en el conector
-     PCI Express 3.0 x4. Este conector se utiliza para conectar 
-     unidades {SSD} muy rápidas y compactas a velocidades muy 
-     superiores a las que permite el conector tradicional {SATA} III.
-     <br>
-     Los ordenadores personales más antiguos no incorporaban en la
-     {placa} base muchas de las funciones actuales (entrada y salida
-     de {sonido}, comunicaciones por Ethernet, buses {USB}, etc) y estas
-     funciones tenían que ser suministradas por tarjetas de expansión
-     especializadas, conectadas a conectores de {expansión} semejantes
-     al actual PCI.
-
-- Title:
-  Image: ../images/informatica-dimm-ddr2.jpg
-  Image_width: 480
-  Cloze:
-     <strong>Zócalo para memoria RAM de tipo DIMM</strong>
-     <br>
-     {DIMM} son las siglas de Dual In-line Memory Module (módulo de
-     memoria de dos líneas) llamado así porque los conectores del
-     módulo tienen dos caras de pines de {conexión}.
-     <br>
-     Estos zócalos sirven para conectar a la placa base módulos
-     de memoria {RAM}.
-     <br>
-     Dependiendo del tipo de ordenador (de tipo caja o portátil)
-     y dependiendo de la versión de la RAM, estos módulos pueden
-     tener diferente número de {contactos}, diferente tamaño y
-     diferente posición de la ranura central para evitar la
-     conexión por {error} de módulos no compatibles.
-
-- Title:
-  Image: ../images/informatica-zocalo-1151.jpg
-  Image_width: 480
-  Cloze:
-     <strong>Zócalo para CPU</strong>
-     <br>
-     El zócalo de CPU permite conectar el microprocesador o {CPU} a la
-     placa base. En placas base de alto rendimiento puede haber más de
-     un {zócalo} para poder conectar varios microprocesadores en una
-     misma placa base.
-     <br>
-     Cada zócalo de CPU sirve para conectar microprocesadores de una
-     misma {familia}. Los zócalos cambian de forma y número de conexiones
-     entre familias de microprocesadores y entre fabricantes de CPU
-     (Intel o {AMD}).
-     <br>
-     El zócalo de CPU permite {aumentar} la potencia del ordenador
-     cambiando el microprocesador antiguo por otro más potente de
-     una familia compatible con la del microprocesador anterior.
-     Esta operación suele ser {sencilla} de realizar y cuesta solo
-     una pequeña fracción de lo que costaría comprar un ordenador
-     nuevo.

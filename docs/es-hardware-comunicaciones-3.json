@@ -1,0 +1,310 @@
+﻿[
+  {
+    "title": 1,
+    "question": "\u00bfPara qu\u00e9 sirven los conectores de los cables?",
+    "image": "",
+    "choices": [
+       "Unir el\u00e9ctricamente los cables con los ordenadores y con el resto de perif\u00e9ricos.",
+       "Conectar los cables a la red el\u00e9ctrica.",
+       "Conectar los cables a dispositivos de audio y v\u00eddeo.",
+       "Ninguna de las anteriores."
+    ]
+  },
+  {
+    "title": 2,
+    "question": "\u00bfQu\u00e9 tipo de conector tienen los cables?",
+    "image": "",
+    "choices": [
+       "Conector macho.",
+       "Conector hembra.",
+       "Conector USB.",
+       "Conector Ethernet."
+    ]
+  },
+  {
+    "title": 3,
+    "question": "\u00bfPor qu\u00e9 se elige la clavija macho para el cable y la clavija hembra para el equipo?",
+    "image": "",
+    "choices": [
+       "Porque los pines macho de los cables se pueden romper y es m\u00e1s barato reemplazar un cable que reemplazar un equipo.",
+       "Porque los pines hembra de los cables se pueden romper o doblar con mayor facilidad que los agujeros macho de los equipos.",
+       "Porque los conectores macho son m\u00e1s baratos que los hembra.",
+       "Porque los conectores macho son m\u00e1s resistentes que los hembra."
+    ]
+  },
+  {
+    "title": 4,
+    "question": "\u00bfQu\u00e9 es un bus de placa base?",
+    "image": "",
+    "choices": [
+       "Son las pistas del circuito impreso que llevan los datos entre la CPU y el resto de los dispositivos conectados a la placa base.",
+       "Son cables que se conectan a dispositivos de almacenamiento externos.",
+       "Son los conectores internos de la placa base que sirven para conectar tarjetas de expansi\u00f3n al ordenador.",
+       "Ninguna de las anteriores."
+    ]
+  },
+  {
+    "title": 5,
+    "question": "\u00bfCu\u00e1l es el medio de transmisi\u00f3n m\u00e1s r\u00e1pido entre la CPU y el resto de los dispositivos conectados a la placa base?",
+    "image": "",
+    "choices": [
+       "Bus de placa base.",
+       "Conectores USB.",
+       "Conectores SATA.",
+       "Conectores PCI-E."
+    ]
+  },
+  {
+    "title": 6,
+    "question": "\u00bfQu\u00e9 es el bus serial ATA?",
+    "image": "",
+    "choices": [
+       "Es un bus que sirve para conectar unidades de memoria secundaria del ordenador.",
+       "Es un bus que sirve para conectar pendrives por USB.",
+       "Es un tipo de memoria RAM de doble canal.",
+       "Es un bus que sirve para conectar sonido digital."
+    ]
+  },
+  {
+    "title": 7,
+    "question": "\u00bfQu\u00e9 conecta el bus SATA?",
+    "image": "",
+    "choices": [
+       "Las unidades de almacenamiento secundario con la placa base.",
+       "Los dispositivos de entrada del ordenador con la placa base.",
+       "Las tarjetas de expansi\u00f3n a la placa base.",
+       "Las se\u00f1ales de v\u00eddeo con los monitores o proyectores."
+    ]
+  },
+  {
+    "title": "08",
+    "question": "\u00bfQu\u00e9 longitud puede tener el cable en el bus SATA?",
+    "image": "",
+    "choices": [
+       "Hasta un metro.",
+       "Hasta medio metro.",
+       "Hasta dos metros.",
+       "No hay una longitud m\u00e1xima."
+    ]
+  },
+  {
+    "title": "09",
+    "question": "\u00bfQu\u00e9 es PCI Express?",
+    "image": "",
+    "choices": [
+       "Un tipo de conector de la placa base para conectar tarjetas de expansi\u00f3n.",
+       "Un tipo de conector de la placa base para conectar memoria RAM.",
+       "Un tipo de conector SATA.",
+       "Un tipo de conector HDMI."
+    ]
+  },
+  {
+    "title": 10,
+    "question": "\u00bfCu\u00e1l es la velocidad de transferencia del PCI-E 6.0 en su conector x16?",
+    "image": "",
+    "choices": [
+       "126 GB/s",
+       "7.9 GB/s",
+       "63 GB/s",
+       "3.9 GB/s"
+    ]
+  },
+  {
+    "title": 11,
+    "question": "\u00bfPara qu\u00e9 se utiliza el conector M.2?",
+    "image": "",
+    "choices": [
+       "Para conectar unidades SSD a gran velocidad.",
+       "Para conectar tarjetas gr\u00e1ficas a la placa base.",
+       "Para conectar dispositivos de almacenamiento \u00f3pticos.",
+       "Para conectar v\u00eddeo de alta velocidad."
+    ]
+  },
+  {
+    "title": 12,
+    "question": "\u00bfQu\u00e9 significan las siglas DIMM?",
+    "image": "",
+    "choices": [
+       "Dual In-line Memory Module",
+       "Dynamic In-line Memory Module",
+       "Double In-line Memory Module",
+       "Direct In-line Memory Module"
+    ]
+  },
+  {
+    "title": 13,
+    "question": "\u00bfPara qu\u00e9 sirve el z\u00f3calo DIMM?",
+    "image": "",
+    "choices": [
+       "Para conectar m\u00f3dulos de memoria RAM a la placa base.",
+       "Para conectar discos duros a la placa base.",
+       "Para conectar la tarjeta gr\u00e1fica a la placa base.",
+       "Para conectar el microprocesador a la placa base."
+    ]
+  },
+  {
+    "title": 14,
+    "question": "\u00bfQu\u00e9 diferencia hay entre los distintos m\u00f3dulos de memoria RAM que se pueden conectar a un z\u00f3calo DIMM?",
+    "image": "",
+    "choices": [
+       "Diferente n\u00famero de contactos, tama\u00f1o y posici\u00f3n de la ranura central.",
+       "Diferente color y forma.",
+       "Solo cambia el n\u00famero de contactos de conexi\u00f3n.",
+       "Todos tienen el mismo tipo de conector DIMM."
+    ]
+  },
+  {
+    "title": 15,
+    "question": "\u00bfQu\u00e9 es el z\u00f3calo de CPU?",
+    "image": "",
+    "choices": [
+       "Es el conector que permite conectar el microprocesador a la placa base.",
+       "Es el conector que permite conectar la memoria RAM a la placa base.",
+       "Es el conector que permite conectar la tarjeta gr\u00e1fica a la placa base.",
+       "Es el conector que permite conectar el disco duro a la placa base."
+    ]
+  },
+  {
+    "title": 16,
+    "question": "\u00bfQu\u00e9 ocurre si se intenta conectar un microprocesador en un z\u00f3calo que no es compatible?",
+    "image": "",
+    "choices": [
+       "El microprocesador no se conectar\u00e1 y no funcionar\u00e1.",
+       "El microprocesador se conectar\u00e1 pero no funcionar\u00e1.",
+       "El microprocesador se conectar\u00e1 y funcionar\u00e1 correctamente.",
+       "El z\u00f3calo se estropear\u00e1 y no se podr\u00e1 volver a utilizar."
+    ]
+  },
+  {
+    "title": 17,
+    "question": "\u00bfQu\u00e9 es necesario hacer para aumentar la potencia del ordenador cambiando el microprocesador antiguo por otro m\u00e1s potente?",
+    "image": "",
+    "choices": [
+       "Comprobar que el nuevo microprocesador es compatible con el z\u00f3calo de CPU de la placa base.",
+       "Cambiar la CPU y tambi\u00e9n la placa base.",
+       "Comprar un ordenador nuevo.",
+       "A\u00f1adir m\u00e1s memoria RAM a la placa base."
+    ]
+  },
+  {
+    "title": 18,
+    "question": "\u00bfQu\u00e9 fabricantes de CPU utilizan diferentes z\u00f3calos de CPU?",
+    "image": "",
+    "choices": [
+       "Intel y AMD",
+       "Intel y NVIDIA",
+       "AMD y NVIDIA",
+       "AMD y Asus"
+    ]
+  },
+  {
+    "title": 19,
+    "question": "\u00bfCu\u00e1ndo comenz\u00f3 a usarse el USB de forma masiva?",
+    "image": "",
+    "choices": [
+       "A partir de 1998",
+       "A partir de 1995",
+       "A partir de 2005",
+       "A partir de 2010"
+    ]
+  },
+  {
+    "title": 20,
+    "question": "\u00bfQu\u00e9 est\u00e1ndar USB alcanza una velocidad de 50 Mbyte/s?",
+    "image": "",
+    "choices": [
+       "USB 2.0",
+       "USB 1.1",
+       "USB 3.0",
+       "USB 4.0"
+    ]
+  },
+  {
+    "title": 21,
+    "question": "\u00bfQu\u00e9 conector es el m\u00e1s moderno y compatible con la especificaci\u00f3n de USB 4?",
+    "image": "",
+    "choices": [
+       "Conector C",
+       "Conector A",
+       "Conector B",
+       "Conector mini"
+    ]
+  },
+  {
+    "title": 22,
+    "question": "\u00bfQu\u00e9 tecnolog\u00eda permite que el conector USB C pueda alimentar dispositivos con una potencia de hasta 100 vatios?",
+    "image": "",
+    "choices": [
+       "Power Delivery",
+       "USB 4.0",
+       "USB 3.0",
+       "USB 2.0"
+    ]
+  },
+  {
+    "title": 23,
+    "question": "\u00bfPara qu\u00e9 se utilizan los conectores de audio anal\u00f3gicos?",
+    "image": "",
+    "choices": [
+       "Para conectar micr\u00f3fonos y auriculares.",
+       "Para conectar teclados y ratones.",
+       "Para intercambio de datos de audio digital.",
+       "Para dar conexi\u00f3n de datos y alimentaci\u00f3n a dispositivos de audio."
+    ]
+  },
+  {
+    "title": 24,
+    "question": "\u00bfCu\u00e1l es el conector de audio anal\u00f3gico m\u00e1s popular?",
+    "image": "",
+    "choices": [
+       "Conector de 3,5 mm.",
+       "Conector de 2,5 mm.",
+       "Conector RCA.",
+       "Conector XLR."
+    ]
+  },
+  {
+    "title": 25,
+    "question": "\u00bfQu\u00e9 color de conector de audio anal\u00f3gico se utiliza para la salida de audio de canales frontales?",
+    "image": "",
+    "choices": [
+       "Verde",
+       "Azul",
+       "Rosa/Rojo",
+       "Negro"
+    ]
+  },
+  {
+    "title": 26,
+    "question": "\u00bfQu\u00e9 color de conector de audio anal\u00f3gico se utiliza para la entrada de micr\u00f3fono?",
+    "image": "",
+    "choices": [
+       "Rosa/Rojo",
+       "Verde",
+       "Azul",
+       "Negro"
+    ]
+  },
+  {
+    "title": 27,
+    "question": "\u00bfPara qu\u00e9 se emplea el conector PS/2?",
+    "image": "",
+    "choices": [
+       "Para conectar teclados y ratones.",
+       "Para conectar micr\u00f3fonos y auriculares.",
+       "Para conectar memorias antiguas.",
+       "Para conectar audio digital."
+    ]
+  },
+  {
+    "title": 28,
+    "question": "\u00bfCu\u00e1l es la funci\u00f3n del conector PS/2 morado?",
+    "image": "",
+    "choices": [
+       "Conexi\u00f3n de teclado",
+       "Conexi\u00f3n de rat\u00f3n",
+       "Entrada de audio",
+       "Salida de audio"
+    ]
+  }
+]

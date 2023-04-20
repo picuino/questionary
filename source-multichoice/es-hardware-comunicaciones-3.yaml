@@ -1,0 +1,289 @@
+﻿
+Category: Hardware
+Title: Comunicaciones III
+Copyright: 2023 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-comunicaciones.html
+Show_max: 0
+
+---
+
+#
+# Conectores macho y hembra
+#
+
+- Title: 01
+  Question: ¿Para qué sirven los conectores de los cables?
+  Choices:
+    - Unir eléctricamente los cables con los ordenadores
+      y con el resto de periféricos.
+    - Conectar los cables a la red eléctrica.
+    - Conectar los cables a dispositivos de audio y vídeo.
+    - Ninguna de las anteriores.
+
+- Title: 02
+  Question: ¿Qué tipo de conector tienen los cables?
+  Choices:
+    - Conector macho.
+    - Conector hembra.
+    - Conector USB.
+    - Conector Ethernet.
+
+- Title: 03
+  Question: ¿Por qué se elige la clavija macho para el cable y la 
+            clavija hembra para el equipo?
+  Choices:
+    - Porque los pines macho de los cables se pueden romper
+      y es más barato reemplazar un cable que reemplazar un equipo.
+    - Porque los pines hembra de los cables se pueden romper o doblar
+      con mayor facilidad que los agujeros macho de los equipos.
+    - Porque los conectores macho son más baratos que los hembra.
+    - Porque los conectores macho son más resistentes que los hembra.
+
+#
+# Bus de la placa base
+#
+
+- Title: 04
+  Question: ¿Qué es un bus de placa base?
+  Choices:
+    - Son las pistas del circuito impreso que llevan los datos entre
+      la CPU y el resto de los dispositivos conectados a la placa base.
+    - Son cables que se conectan a dispositivos de almacenamiento externos.
+    - Son los conectores internos de la placa base que sirven para
+      conectar tarjetas de expansión al ordenador.
+    - Ninguna de las anteriores.
+
+- Title: 05
+  Question: ¿Cuál es el medio de transmisión más rápido entre la CPU
+            y el resto de los dispositivos conectados a la placa base?
+  Choices:
+    - Bus de placa base.
+    - Conectores USB.
+    - Conectores SATA.
+    - Conectores PCI-E.
+
+#
+# Bus SATA
+#
+
+- Title: 06
+  Question: ¿Qué es el bus serial ATA?
+  Choices:
+    - Es un bus que sirve para conectar unidades de memoria secundaria
+      del ordenador.
+    - Es un bus que sirve para conectar pendrives por USB.
+    - Es un tipo de memoria RAM de doble canal.
+    - Es un bus que sirve para conectar sonido digital.
+
+- Title: 07
+  Question: ¿Qué conecta el bus SATA?
+  Choices:
+    - Las unidades de almacenamiento secundario con la placa base.
+    - Los dispositivos de entrada del ordenador con la placa base.
+    - Las tarjetas de expansión a la placa base.
+    - Las señales de vídeo con los monitores o proyectores.
+
+- Title: 08
+  Question: ¿Qué longitud puede tener el cable en el bus SATA?
+  Choices:
+    - Hasta un metro.
+    - Hasta medio metro.
+    - Hasta dos metros.
+    - No hay una longitud máxima.
+
+#
+# Bus PCI-Express
+#
+
+- Title: 09
+  Question: ¿Qué es PCI Express?
+  Choices:
+    - Un tipo de conector de la placa base para conectar tarjetas
+      de expansión.
+    - Un tipo de conector de la placa base para conectar memoria RAM.
+    - Un tipo de conector SATA.
+    - Un tipo de conector HDMI.
+
+- Title: 10
+  Question: ¿Cuál es la velocidad de transferencia del PCI-E 6.0 en
+            su conector x16?
+  Choices:
+    - 126 GB/s
+    - 7.9 GB/s
+    - 63 GB/s
+    - 3.9 GB/s
+
+- Title: 11
+  Question: ¿Para qué se utiliza el conector M.2?
+  Choices:
+    - Para conectar unidades SSD a gran velocidad.
+    - Para conectar tarjetas gráficas a la placa base.
+    - Para conectar dispositivos de almacenamiento ópticos.
+    - Para conectar vídeo de alta velocidad.
+
+#
+# Zocalo RAM de tipo DIMM
+#
+
+- Title: 12
+  Question: ¿Qué significan las siglas DIMM?
+  Choices:
+    - Dual In-line Memory Module
+    - Dynamic In-line Memory Module
+    - Double In-line Memory Module
+    - Direct In-line Memory Module
+
+- Title: 13
+  Question: ¿Para qué sirve el zócalo DIMM?
+  Choices:
+    - Para conectar módulos de memoria RAM a la placa base.
+    - Para conectar discos duros a la placa base.
+    - Para conectar la tarjeta gráfica a la placa base.
+    - Para conectar el microprocesador a la placa base.
+
+- Title: 14
+  Question: ¿Qué diferencia hay entre los distintos módulos de
+            memoria RAM que se pueden conectar a un zócalo DIMM?
+  Choices:
+    - Diferente número de contactos, tamaño y posición de la ranura central.
+    - Diferente color y forma.
+    - Solo cambia el número de contactos de conexión.
+    - Todos tienen el mismo tipo de conector DIMM.
+
+#
+# Zócalo para CPU
+#
+
+- Title: 15
+  Question: ¿Qué es el zócalo de CPU?
+  Choices:
+    - Es el conector que permite conectar el microprocesador a la placa base.
+    - Es el conector que permite conectar la memoria RAM a la placa base.
+    - Es el conector que permite conectar la tarjeta gráfica a la placa base.
+    - Es el conector que permite conectar el disco duro a la placa base.
+
+- Title: 16
+  Question: ¿Qué ocurre si se intenta conectar un microprocesador en
+            un zócalo que no es compatible?
+  Choices:
+    - El microprocesador no se conectará y no funcionará.
+    - El microprocesador se conectará pero no funcionará.
+    - El microprocesador se conectará y funcionará correctamente.
+    - El zócalo se estropeará y no se podrá volver a utilizar.
+
+- Title: 17
+  Question: ¿Qué es necesario hacer para aumentar la potencia del
+            ordenador cambiando el microprocesador antiguo por otro
+            más potente?
+  Choices:
+    - Comprobar que el nuevo microprocesador es compatible con el
+      zócalo de CPU de la placa base.
+    - Cambiar la CPU y también la placa base.
+    - Comprar un ordenador nuevo.
+    - Añadir más memoria RAM a la placa base.
+
+- Title: 18
+  Question: ¿Qué fabricantes de CPU utilizan diferentes zócalos de CPU?
+  Choices:
+    - Intel y AMD
+    - Intel y NVIDIA
+    - AMD y NVIDIA
+    - AMD y Asus
+
+#
+# Bus USB
+#
+
+- Title: 19
+  Question: ¿Cuándo comenzó a usarse el USB de forma masiva?
+  Choices:
+    - A partir de 1998
+    - A partir de 1995
+    - A partir de 2005
+    - A partir de 2010
+
+- Title: 20
+  Question: ¿Qué estándar USB alcanza una velocidad de 50 Mbyte/s?
+  Choices:
+    - USB 2.0
+    - USB 1.1
+    - USB 3.0
+    - USB 4.0
+
+- Title: 21
+  Question: ¿Qué conector es el más moderno y compatible con la
+            especificación de USB 4?
+  Choices:
+    - Conector C
+    - Conector A
+    - Conector B
+    - Conector mini
+
+- Title: 22
+  Question: ¿Qué tecnología permite que el conector USB C pueda alimentar dispositivos con una potencia de hasta 100 vatios?
+  Choices:
+    - Power Delivery
+    - USB 4.0
+    - USB 3.0
+    - USB 2.0
+
+#
+# Conectores de audio analógico
+#
+
+- Title: 23
+  Question: ¿Para qué se utilizan los conectores de audio analógicos?
+  Choices:
+    - Para conectar micrófonos y auriculares.
+    - Para conectar teclados y ratones.
+    - Para intercambio de datos de audio digital.
+    - Para dar conexión de datos y alimentación a dispositivos de audio.
+
+- Title: 24
+  Question: ¿Cuál es el conector de audio analógico más popular?
+  Choices:
+    - Conector de 3,5 mm.
+    - Conector de 2,5 mm.
+    - Conector RCA.
+    - Conector XLR.
+
+- Title: 25
+  Question: ¿Qué color de conector de audio analógico se utiliza para
+            la salida de audio de canales frontales?
+  Choices:
+    - Verde
+    - Azul
+    - Rosa/Rojo
+    - Negro
+
+- Title: 26
+  Question: ¿Qué color de conector de audio analógico se utiliza para
+            la entrada de micrófono?
+  Choices:
+    - Rosa/Rojo
+    - Verde
+    - Azul
+    - Negro
+
+#
+# Conector PS/2
+#
+
+- Title: 27
+  Question: ¿Para qué se emplea el conector PS/2?
+  Choices:
+    - Para conectar teclados y ratones.
+    - Para conectar micrófonos y auriculares.
+    - Para conectar memorias antiguas.
+    - Para conectar audio digital.
+
+- Title: 28
+  Question: ¿Cuál es la función del conector PS/2 morado?
+  Choices:
+    - Conexión de teclado
+    - Conexión de ratón
+    - Entrada de audio
+    - Salida de audio
+
