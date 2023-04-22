@@ -130,7 +130,10 @@ index_data = [
    {
       "header" : ["software", "Software"],
       "links": [
-          ["es-software-intro.html", "Introducción al software"],
+          ["es-software-intro-1.html", "Introducción al software I"],
+          ["es-software-intro-2.html", "Introducción al software II"],
+          ["es-software-licencias-1.html", "Licencias de software I"],
+          ["es-software-licencias-2.html", "Licencias de software II"],
        ]
    },
    {

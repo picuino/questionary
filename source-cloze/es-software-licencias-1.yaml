@@ -1,6 +1,6 @@
 ﻿
 Category: Software
-Title: Licencias de software
+Title: Licencias de software I
 Copyright: 2023 por Carlos Pardo Martín
 License: Creative Commons Attribution-ShareAlike 4.0
 License_link: https://creativecommons.org/licenses/by-sa/4.0/
@@ -75,11 +75,12 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Programas privativos</strong><br>
-     Este tipo de programas son {desarrollados} por compañías con ánimo
-     de lucro y se {venden} al usuario para que pueda utilizarlo.
-     Suelen tener {acuerdos} legales a medida, creados por la compañía,
-     y limitan todos los {derechos} de distribución y modificación.<br>
+     <strong>Programas propietarios o privativos</strong><br>
+     Los programas {propietarios|privativos} son desarrollados por 
+     compañías con ánimo de {lucro} y se venden al usuario para que
+     pueda utilizarlo con {limitaciones}.
+     Suelen tener acuerdos legales a {medida}, creados por la compañía,
+     y {limitan} todos los derechos de distribución y {modificación}.<br>
      <br>
      Hay varias modalidades de {pago}. En una de ellas el usuario paga
      una sola vez por un programa con una {versión} concreta y no vuelve
@@ -121,29 +122,42 @@ Show_max: 0
 
 
 - Title:
-  Cloze:
+  Cloze: "
      <strong>Programas de licencia libre</strong><br>
-     Este tipo de programas no solo son {gratuitos}, sino que su código
-     fuente, las {instrucciones} del programa, también es libre y
-     cualquiera puede leerlo y {modificarlo} sin restricciones.<br>
+     Los programas {libres} no solo son gratuitos, sino que su
+     {código} fuente, las instrucciones del programa, también
+     es libre y cualquiera puede leerlo y {modificarlo} 
+     sin {restricciones}.<br>
      <br>
-     Este tipo de programas son los que dan mayor {libertad} y seguridad
-     al usuario. La {desventaja} que tienen es que pueden ser menos
-     potentes que los programas {privativos}, aunque para un usuario
-     normal no existen muchas {diferencias} con el software privativo.<br>
+     Este tipo de programas son los que dan mayor {libertad}
+     y seguridad al usuario:
+     <ol start=\"0\">
+     <li>Libertad de {ejecutar} el programa para cualquier propósito.</li>
+     <li>Libertad para {estudiar} cómo funciona internamente el programa.</li>
+     <li>Libertad para {distribuir} el programa.</li>
+     <li>Libertad para {modificar} el programa y distribuir la versión
+     modificada.</li>
+     </ol>
+     <br>
+     La {desventaja} que tienen los programas libres es que en alguna
+     ocasión pueden ser menos {capaces} que los programas privativos,
+     aunque para un usuario normal no existen muchas {diferencias} con
+     el software privativo.<br>
      <br>
      Ejemplos de programas libres son la suite {ofimática} LibreOffice
      (Writer, Calc, Impress), el sistema operativo {GNU/Linux}, el
      reproductor de vídeo VLC, el navegador {Firefox}, etc.
-
+     "
 
 - Title:
   Cloze:
      <strong>Servicios en la nube</strong><br>
-     Este es un tipo de programas que no {ejecuta} el usuario en su
-     ordenador, sino que se ejecuta en un {servidor} web que pertenece
-     a la empresa que ha programado la {aplicación}. Este tipo de
-     programas pueden ser de pago o gratuitos ({freeware}).<br>
+     Los programas en la nube o {computación} en la nube son 
+     {programas} que no ejecuta el usuario en su ordenador,
+     sino que se ejecutan en un {servidor} web que pertenece
+     a la empresa que ha programado la {aplicación}.
+     Este tipo de programas pueden ser de {pago} o gratuitos
+     ({freeware}).<br>
      <br>
      Las ventajas que presentan {consisten} en que el programa estará
      siempre {actualizado} y que se puede ejecutar sin instalar
@@ -156,3 +170,85 @@ Show_max: 0
      Muchos programas de Google pertenecen a esta categoría, por
      ejemplo el servicio de correo electrónico Gmail, Google Drive,
      el buscador de Google, la suite ofimática Google Docs, etc.
+
+
+
+
+
+- Title:
+  Cloze:
+     <strong>Copyright</strong><br>
+     El copyright es un término que se refiere al {derecho}
+     exclusivo que tienen los {autores} de obras originales
+     para controlar el uso, {reproducción}, distribución y
+     transformación de sus obras. Es un sistema {legal} que
+     protege los <strong>derechos de propiedad {intelectual}</strong>
+     de los autores y les otorga un control {exclusivo} sobre la
+     explotación de sus obras, con el fin de {incentivar} la
+     creación de nuevas obras y fomentar la {innovación}.<br>
+     <br>
+     Cualquier obra tiene {copyright} por defecto, a no ser
+     que se {especifique} lo contrario.<br>
+     <br>
+     Dependiendo del país el copyright tiene una {duración}
+     distinta, pero las obras suelen estar {protegidas} hasta
+     70 años después de la {muerte} del autor. Después de esa
+     fecha, las obras pasan a ser de dominio {público} y no
+     tienen ninguna {restricción} de uso.
+
+- Title:
+  Cloze:
+     <strong>Creative Commons</strong><br>
+     Las Creative Commons son un conjunto de {licencias}
+     ofrecidas por una fundación sin ánimo de {lucro}, que
+     sirven para proteger de otra forma los {derechos} de
+     autor, fomentando que el conocimiento y la {cultura}
+     se compartan {libremente}.<br>
+     <br>
+     De todas ellas, la licencia más conocida y utilizada
+     es la licencia Creative Commons {BY-SA} (Creative Commons
+     Atribución-CompartirIgual) que {permite} que la obra sea
+     utilizada, copiada, {distribuida} y modificada libremente,
+     siempre y cuando se mantenga la misma {licencia} en las
+     obras modificadas y se reconozca quién es el {autor}
+     original.<br>
+     <br>
+     La licencia Creative-Commons {BY-SA} es la que utiliza
+     la enciclopedia libre y en linea {Wikipedia} para sus
+     artículos y para la mayoría de sus {imágenes}.<br>
+     <br>
+     Estas licencias y otras semejantes se conocen también
+     como licencias {copyleft}. Al contrario que el copyright,
+     que limita todos los {derechos}, las licencias copyleft
+     {permiten} casi todos los derechos, pero manteniendo la
+     exigencia de que la obra siga siendo {libre}.
+
+- Title:
+  Cloze:
+     <strong>Dominio público</strong><br>
+     Una licencia de dominio público {permite} que una obra
+     creativa se pueda usar, copiar, {modificar} y distribuir
+     sin restricciones por parte de {cualquier} persona.
+     En otras palabras, el titular de los derechos de autor
+     {renuncia} a sus derechos y permite que la obra sea {utilizada}
+     por cualquiera, sin necesidad de obtener {permiso} o pagar
+     por ella.<br>
+     <br>
+     Las licencias de dominio público son una herramienta {legal}
+     que los autores pueden utilizar para {permitir} que su obra
+     se utilice con fines {educativos}, de investigación,
+     culturales o de cualquier otro tipo sin {restricciones}.
+     También pueden ser utilizadas por organizaciones que
+     desean {publicar} o distribuir obras creativas de manera
+     gratuita y libre.<br>
+     <br>
+     Las obras con copyright pasan a ser de dominio público
+     unos {70} años (depende del país) después de la muerte
+     del autor.<br>
+     <br>
+     En el ámbito de la cultura {libre}, las licencias de
+     dominio público tienen el {inconveniente} de que permiten
+     ser usadas para crear otra obra derivada con {copyright}.
+     Por esa razón, si queremos que una obra siga siendo {libre},
+     es preferible utilizar una licencia {copyleft} como la licencia
+     Creative Commons BY-SA.
