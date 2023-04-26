@@ -191,6 +191,27 @@ se distribuyen bajo **licencia Creative Commons Attribution-ShareAlike 4.0**.
 Se puede leer el texto de la licencia en el enlace: 
 https://creativecommons.org/licenses/by-sa/4.0/deed.es
 
+![](images/thumbs/electric-resolver-circuitos-c01.png)
+![](images/thumbs/electric-resolver-circuitos-c02.png)
+![](images/thumbs/electric-resolver-circuitos-c03.png)
+![](images/thumbs/electric-resolver-circuitos-c04.png)
+![](images/thumbs/electric-resolver-circuitos-c05.png)
+![](images/thumbs/electric-resolver-circuitos-c06.png)
+![](images/thumbs/electric-resolver-circuitos-c07.png)
+![](images/thumbs/electric-resolver-circuitos-c08.png)
+![](images/thumbs/electric-resolver-circuitos-c09.png)
+![](images/thumbs/electric-resolver-circuitos-c10.png)
+![](images/thumbs/electric-resolver-circuitos-c11.png)
+![](images/thumbs/electric-resolver-circuitos-c12.png)
+![](images/thumbs/electric-resolver-circuitos-c13.png)
+![](images/thumbs/electric-resolver-circuitos-c14.png)
+![](images/thumbs/electric-resolver-circuitos-c15.png)
+![](images/thumbs/electric-resolver-circuitos-c16.png)
+![](images/thumbs/electric-resolver-circuitos-c17.png)
+![](images/thumbs/electric-resolver-circuitos-c18.png)
+![](images/thumbs/electric-resolver-circuitos-c19.png)
+![](images/thumbs/electric-resolver-circuitos-c20.png)
+
 ![](images/thumbs/mecan-calibre-0000n.png)
 ![](images/thumbs/mecan-calibre-0050n.png)
 ![](images/thumbs/mecan-calibre-0100n.png)

@@ -74,6 +74,9 @@ index_data = [
           ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
           ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
 
+          ["es-electric-resolver-circuitos-1.html", "Resolver circuitos I"],
+          ["es-electric-resolver-circuitos-2.html", "Resolver circuitos II"],
+
           ["es-electric-energy-1.html", "Energía eléctrica I"],
           ["es-electric-energy-2.html", "Energía eléctrica II"],
           ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],

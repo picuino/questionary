@@ -1,0 +1,1211 @@
+﻿<!DOCTYPE html>
+<html lang="es-es">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+   <!--
+   Copyright (c) 2022 Carlos Pardo Martín
+
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program. If not, see <https://www.gnu.org/licenses/>.
+
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="description" content="Test online de Educación Secundaria de Electricidad - Resolver circuitos II - Picuino">
+
+   <title>Test Resolver circuitos II - Electricidad - Picuino</title>
+
+   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
+   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
+   <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
+
+   <style>
+      body {
+        background-color: #efefef;
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        min-width: 320px;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 0;
+      }
+
+      h1 {
+        font-size: 32px;
+        text-align: center;
+        color: #094070;
+        margin: 32px 0 12px 0;
+      }
+
+      h2 {
+        font-size: 24px;
+        margin-bottom: 24px;
+        font-weight: 700;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 0 6px 20px 6px;
+      }
+
+      .container > * {
+        width: 100%;
+      }
+
+      .flex-column {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .flex-center {
+        justify-content: center;
+        align-items: center;
+      }
+
+      .justify-center {
+        justify-content: center;
+      }
+
+      .text-center {
+        text-align: center;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      ul, ol {
+        padding: 0 0 0 40px;
+        margin: 0;
+      }
+
+
+      /* BUTTONS */
+
+      .btn {
+        font-size: 18px;
+        padding: 8px 0;
+        width: 240px;
+        text-align: center;
+        border: 1px solid #094070;
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #094070;
+        background-color: white;
+      }
+
+      .btn:hover {
+        cursor: pointer;
+        box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
+        transform: translateY(-1px);
+        transition: transform 150ms;
+      }
+
+      .btn[disabled]:hover {
+        cursor: not-allowed;
+        box-shadow: none;
+        transform: none;
+      }
+
+
+      /* COOKIESBAR */
+
+      #cookiesbar {
+        font-size:16px;
+        line-height:1.5em;
+        display:block;
+        position:fixed;
+        bottom:0;
+        text-align:center;
+        max-width:760px;
+        padding:20px 20px;
+        margin-right:14px;
+        background-color: rgba(40,40,40,0.95);
+        color:#fff;
+        z-index: 1200;
+      }
+
+      #cookiesbar a {
+        display:inline-block;
+        padding:4px 8px;
+        color:#e0e000;
+        text-decoration:none;
+      }
+
+      #cookiesbar a:hover {
+        background-color: #444;
+      }
+
+
+      /* FOOTER */
+
+      .footer {
+        color: White;
+        background-color: #094070;
+        margin-top: 64px;
+        padding: 12px;
+        border-top: 2px solid #094070;
+        line-height: 200%;
+        text-align: center;
+      }
+
+      .footer p {
+         margin: 4px 0;
+      }
+
+      .footer a, .footer a:visited {
+        text-decoration: none;
+        font-size: 12px;
+        display: inline-block;
+        color: White;
+        padding: 0 2px 2px;
+        margin-right: 12px;
+      }
+
+      .footer a:hover {
+        color: #094070;
+        background-color: #ecf5ff;
+      }
+
+      .choice-container {
+        display: flex;
+        margin-bottom: 6px;
+        width: 100%;
+        font-size: 18px;
+        background-color: white;
+      }
+
+      @media only screen and (min-width: 600px) {
+        .choice-container:hover {
+          cursor: pointer;
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+          transform: translateY(1px);
+          transition: transform 150ms;
+        }
+      }
+
+      .choice-prefix {
+        padding: 10px 18px;
+        background-color: #094070;
+        color: white;
+        user-select: none;
+      }
+
+      .choice-text {
+        padding: 10px;
+        width: 100%;
+        user-select: none;
+      }
+
+      .correct {
+        background-color: #00ff60;
+      }
+
+      .incorrect {
+        background-color: #ff2000;
+        text-decoration: line-through;
+      }
+
+      #questionImage {
+        margin-bottom: 24px;
+        height: auto;
+        max-width:100%;
+      }
+
+      .header {
+         margin-top: 0;
+         font-size: 32px;
+      }
+
+      /* HUD */
+
+      .hud {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 12px 0;
+      }
+
+      .hud-prefix {
+        text-align: center;
+        font-size: 24px;
+        margin: 12px 0;
+      }
+
+      .hud-main-text {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        color: #094070;
+        margin: 12px 0;
+      }
+
+      #progress_bar_id {
+        width: 200px;
+        height: 40px;
+        border: 3px solid #094070;
+        margin-top: 15px;
+      }
+
+      #progress_bar_full_id {
+        height: 40px;
+        background-color: #094070;
+        width: 0%;
+      }
+
+
+      /* CLOZE QUESTIONS */
+      .table {
+         overflow-x: auto;
+         display: block;         
+      }
+
+      table, tr {
+         border-collapse: collapse;
+         border-spacing: 0;
+         empty-cells: show;
+         margin: 12px 0;
+      }
+
+      td, th {
+         border: 2px solid #aaa;
+         padding: 0 8px;
+      }
+
+      thead {
+         background-color: #eef;
+      }
+
+      .question_frame {
+         margin: 0 0 12px 0;
+         padding: 8px 6px;
+         background-color: white;
+         border: 2px solid #094070;
+         border-radius: 12px;
+      }
+
+      .question_image_div {
+         text-align: center;
+      }
+
+      .question_image {
+         margin-bottom: 12px;
+         height: auto;
+         max-width:100%;
+      }
+
+      br {
+         margin: 0; 
+      }
+
+      .question_text {
+         font-size: 20px;
+         line-height: 160%;
+         padding-bottom: 12px;
+         min-height: 80px;
+      }
+
+      .gap_span, .gap_box {
+         font-weight: bold;
+      }
+
+      input {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         padding: 1px;
+         width: 125px;
+         border: 1px solid #094070;
+         border-radius: 8px;
+         box-shadow: 0 0.1rem 0.5rem 0 rgba(128, 128, 128, 0.5);
+      }
+
+      .buttons {
+         text-align: center;
+         margin-top: 24px;
+         line-height: 50px;
+      }
+
+      button {
+         font-family: Arial, Helvetica, sans-serif;
+         font-size: 20px;
+         padding: 4px 8px;
+         margin-right: 12px;
+         cursor: pointer;
+         text-align: center;
+         border: 1px solid #094070;
+         border-radius: 8px;
+         box-shadow: 0.2em 0.3em 0.2em #888;
+      }
+
+      button:last-child {
+         margin-right: 0;
+      }
+
+      .button:hover {
+         background-color: #3e8e41
+      }
+
+      .button:active {
+         background-color: #3e8e41;
+         box-shadow: 0 5px #666;
+         transform: translateY(4px);
+      }
+
+      .message {
+         display: none;
+         z-index: 10;
+         height: 0;
+         max-width: 75%;
+         min-width: 300px;
+         padding: 0 6px;
+         margin: 0 auto;
+      }
+
+      .message2 {
+         background-color: #eef;
+         padding: 12px;
+         height: auto;
+         box-shadow: 0 0 6px 12px rgba(255, 255, 255, 0.9);
+         border-radius: 16px;
+         position: relative;
+         top: 32px;
+         text-align: center;
+         border: 2px solid #094070;
+         border-radius: 1rem;
+         margin: 0px auto;
+      }
+
+      #message_text_id {
+         padding-bottom: 1rem;
+         min-height: 6px;
+      }
+   </style>
+
+</head>
+
+<body>
+   <div class="container"> <div class="justify-center flex-column">
+
+      <!-- HUD -->
+      <div id="hud_id" class="hud">
+         <div>
+            <p class="hud-prefix" id="hud_page_id">Page</p>
+            <div id="progress_bar_id"><div id="progress_bar_full_id"></div></div>
+         </div>
+         <div>
+            <p class="hud-prefix">Puntos</p>
+            <p class="hud-main-text" id="score">0</p>
+         </div>
+      </div>
+
+      <!-- Main content -->
+      <h1 class="header" id="header_id">Título</h1>
+
+      <div class="message" id="message_id"><div class="message2">
+      <div class="question_text" id="message_text_id">Mensaje.</div>
+      <button id="message_button_id" class="func_button" onclick="message_hide();"> OK </button>
+      </div></div>
+
+      <div class="question_frame" id="question_frame_id"></div>
+
+      <div class="buttons" id="buttons_id"></div>
+
+
+      <!-- Footer -->
+      <div class="footer">
+      <a href="https://www.picuino.com/es/contacto.html" target="_blank">Contacto</a>
+      <a href="https://www.picuino.com/es/legal-aviso.html" target="_blank">Aviso legal</a>
+      <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">Política de Cookies</a>
+      <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Créditos</a>
+      <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
+      <a href="https://www.picuino.com/test/index.html">Índice</a>
+
+      <p><a href="https://www.picuino.com/es/electric-resolver-circuitos.html" target="_blank">Fuente de los cuestionarios.</a></p>
+      <p>Copyright © 2023 por Carlos Pardo Martín.</p>
+      <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+      </div>
+
+      <!-- Cookies Advise -->
+      <div id="cookiesbar" style="display: none">
+      Esta página web utiliza cookies propias y de terceros
+      para propósitos funcionales y de análisis de navegación.
+      Puedes obtener más información en nuestra
+      <a href="https://www.picuino.com/es/legal-cookies.html"
+      target="_blank">política de Cookies.</a><br>
+      Si continúas navegando, aceptas su uso.
+      <br>
+      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+      </div>
+      <script>
+      if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+      function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+      function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+      function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
+      </script>
+
+      <!-- Matomo -->
+      <script>
+      if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+        var _paq = window._paq = window._paq || [];
+        _paq.push(['trackPageView']);
+        _paq.push(['enableLinkTracking']);
+        (function() {
+          var u="//www.picuino.com/matomo/";
+          _paq.push(['setTrackerUrl', u+'matomo.php']);
+          _paq.push(['setSiteId', '1']);
+          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+          g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+        })();
+      }
+      </script>
+   <!-- End Matomo Code -->
+
+   </div> </div>
+
+   <script>
+      const show_max = 0;
+      const num_tries = 0;
+      const questions_title = "Electricidad. Resolver circuitos II.";
+      const questions_encoded = [
+         {
+            "Image": ["images/4277edc17355e6d412ee.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICA8dGQ+ezB9PC90ZD4gPHRkPnsxfTwvdGQ+IDx0ZD57Mn08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjwvdGQ+ICA8dGQ+ezN9PC90ZD4gPHRkPns0fTwvdGQ+IDx0ZD57NX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTI8L3RkPiA8dGQ+ezZ9PC90ZD4gPHRkPns3fTwvdGQ+ICA8dGQ+ezh9PC90ZD4gPC90cj4gPHRib2R5PiA8L3RhYmxlPg==",
+            "Gaps": [
+               ['MTI='],
+               ['MCwwNg==', 'MC4wNg==', 'NjBt', ],
+               ['MjAw'],
+               ['MTI='],
+               ['MCwwNA==', 'MC4wNA==', 'NDBt', ],
+               ['MzAw'],
+               ['MTI='],
+               ['MCwx', 'MC4x', 'MTAwbQ==', ],
+               ['MTIw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/f3a08cfd38955d2d37bb.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICA8dGQ+ezB9PC90ZD4gPHRkPnsxfTwvdGQ+IDx0ZD57Mn08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjwvdGQ+ICA8dGQ+ezN9PC90ZD4gPHRkPns0fTwvdGQ+IDx0ZD57NX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTI8L3RkPiA8dGQ+ezZ9PC90ZD4gPHRkPns3fTwvdGQ+ICA8dGQ+ezh9PC90ZD4gPC90cj4gPHRib2R5PiA8L3RhYmxlPg==",
+            "Gaps": [
+               ['MTI='],
+               ['MCwwMjQ=', 'MC4wMjQ=', 'MjRt', ],
+               ['NTAw'],
+               ['MTI='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['MjAwMA=='],
+               ['MTI='],
+               ['MCwwMw==', 'MC4wMw==', 'MzBt', ],
+               ['NDAw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/6f3afa876ff08caaadc6.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+ICA8dGQ+ezF9PC90ZD4gPHRkPnsyfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIyPC90ZD4gICA8dGQ+ezN9PC90ZD4gIDx0ZD57NH08L3RkPiA8dGQ+ezV9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjM8L3RkPiAgIDx0ZD57Nn08L3RkPiAgPHRkPns3fTwvdGQ+IDx0ZD57OH08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjM8L3RkPiAgPHRkPns5fTwvdGQ+ICA8dGQ+ezEwfTwvdGQ+ICA8dGQ+ezExfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIxMjM8L3RkPiA8dGQ+ezEyfTwvdGQ+IDx0ZD57MTN9PC90ZD4gPHRkPnsxNH08L3RkPiA8L3RyPiA8dGJvZHk+IDwvdGFibGU+",
+            "Gaps": [
+               ['OA=='],
+               ['MCwwOA==', 'MC4wOA==', 'ODBt', ],
+               ['MTAw'],
+               ['NA=='],
+               ['MCwwNA==', 'MC4wNA==', 'NDBt', ],
+               ['MTAw'],
+               ['NA=='],
+               ['MCwwNA==', 'MC4wNA==', 'NDBt', ],
+               ['MTAw'],
+               ['NA=='],
+               ['MCwwOA==', 'MC4wOA==', 'ODBt', ],
+               ['NTA='],
+               ['MTI='],
+               ['MCwwOA==', 'MC4wOA==', 'ODBt', ],
+               ['MTUw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/8c404e6e5b20bd8fcfee.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+IDx0ZD57MX08L3RkPiAgIDx0ZD57Mn08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjwvdGQ+ICAgPHRkPnszfTwvdGQ+ICAgPHRkPns0fTwvdGQ+IDx0ZD57NX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMzwvdGQ+ICAgPHRkPns2fTwvdGQ+ICAgPHRkPns3fTwvdGQ+ICA8dGQ+ezh9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjIzPC90ZD4gIDx0ZD57OX08L3RkPiAgIDx0ZD57MTB9PC90ZD4gICAgPHRkPnsxMX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTIzPC90ZD4gPHRkPnsxMn08L3RkPiAgICAgICAgPHRkPnsxM308L3RkPiAgIDx0ZD57MTR9PC90ZD4gPC90cj4gPHRib2R5PiA8L3RhYmxlPg==",
+            "Gaps": [
+               ['MTAsNA==', 'MTAuNA==', ],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NTIw'],
+               ['MSw2', 'MS42', ],
+               ['MCwwMTY=', 'MC4wMTY=', 'MTZt', ],
+               ['MTAw'],
+               ['MSw2', 'MS42', ],
+               ['MCwwMDQ=', 'MC4wMDQ=', 'NG0=', ],
+               ['NDAw'],
+               ['MSw2', 'MS42', ],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['ODA='],
+               ['MTI='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NjAw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/c3f87e300cf106b78c34.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgIDx0ZD57MH08L3RkPiA8dGQ+ezF9PC90ZD4gIDx0ZD57Mn08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjwvdGQ+ICAgIDx0ZD57M308L3RkPiA8dGQ+ezR9PC90ZD4gICAgPHRkPns1fTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIzPC90ZD4gICAgPHRkPns2fTwvdGQ+IDx0ZD57N308L3RkPiAgPHRkPns4fTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIyMzwvdGQ+ICAgPHRkPns5fTwvdGQ+IDx0ZD57MTB9PC90ZD4gIDx0ZD57MTF9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyMzwvdGQ+IDx0ZD57MTJ9PC90ZD4gPHRkPnsxM308L3RkPiA8dGQ+ezE0fTwvdGQ+IDwvdHI+IDx0Ym9keT4gPC90YWJsZT4=",
+            "Gaps": [
+               ['Ng=='],
+               ['MCwwMTI=', 'MC4wMTI=', 'MTJt', ],
+               ['NTAw'],
+               ['Ng=='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['NjAw'],
+               ['Ng=='],
+               ['MCwwMDI=', 'MC4wMDI=', 'Mm0=', ],
+               ['MzAwMA=='],
+               ['Ng=='],
+               ['MCwwMTI=', 'MC4wMTI=', 'MTJt', ],
+               ['NTAw'],
+               ['MTI='],
+               ['MCwwMTI=', 'MC4wMTI=', 'MTJt', ],
+               ['MTAwMA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/f4078dff57efb2758e47.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+IDx0ZD57MX08L3RkPiAgPHRkPnsyfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIyPC90ZD4gICA8dGQ+ezN9PC90ZD4gPHRkPns0fTwvdGQ+ICA8dGQ+ezV9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjM8L3RkPiAgIDx0ZD57Nn08L3RkPiA8dGQ+ezd9PC90ZD4gIDx0ZD57OH08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMjM8L3RkPiAgPHRkPns5fTwvdGQ+IDx0ZD57MTB9PC90ZD4gIDx0ZD57MTF9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyMzwvdGQ+IDx0ZD57MTJ9PC90ZD4gPHRkPnsxM308L3RkPiA8dGQ+ezE0fTwvdGQ+IDwvdHI+IDx0Ym9keT4gPC90YWJsZT4=",
+            "Gaps": [
+               ['Nw=='],
+               ['MCwwMDc=', 'MC4wMDc=', 'N20=', ],
+               ['MTAwMA=='],
+               ['NQ=='],
+               ['MCwwMDU=', 'MC4wMDU=', 'NW0=', ],
+               ['MTAwMA=='],
+               ['NQ=='],
+               ['MCwwMDI=', 'MC4wMDI=', 'Mm0=', ],
+               ['MjUwMA=='],
+               ['NQ=='],
+               ['MCwwMDc=', 'MC4wMDc=', 'N20=', ],
+               ['NzE0'],
+               ['MTI='],
+               ['MCwwMDc=', 'MC4wMDc=', 'N20=', ],
+               ['MTcxNA=='],
+            ]
+         },
+         
+         {
+            "Image": ["images/206d51c9f0518979650f.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+IDx0ZD57MX08L3RkPiAgPHRkPnsyfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIyPC90ZD4gICA8dGQ+ezN9PC90ZD4gIDx0ZD57NH08L3RkPiAgIDx0ZD57NX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMzwvdGQ+ICAgPHRkPns2fTwvdGQ+IDx0ZD57N308L3RkPiA8dGQ+ezh9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyPC90ZD4gIDx0ZD57OX08L3RkPiA8dGQ+ezEwfTwvdGQ+ICA8dGQ+ezExfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIxMjM8L3RkPiA8dGQ+ezEyfTwvdGQ+IDx0ZD57MTN9PC90ZD4gPHRkPnsxNH08L3RkPiA8L3RyPiA8dGJvZHk+IDwvdGFibGU+",
+            "Gaps": [
+               ['MTA='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['MTAwMA=='],
+               ['Mg=='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['MjAw'],
+               ['MTI='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['MjAwMA=='],
+               ['MTI='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['MTIwMA=='],
+               ['MTI='],
+               ['MCwwMTY=', 'MC4wMTY=', 'MTZt', ],
+               ['NzUw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/6636b9abb817fef5bcbd.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+ICA8dGQ+ezF9PC90ZD4gPHRkPnsyfTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIyPC90ZD4gICA8dGQ+ezN9PC90ZD4gPHRkPns0fTwvdGQ+IDx0ZD57NX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMzwvdGQ+ICAgPHRkPns2fTwvdGQ+IDx0ZD57N308L3RkPiA8dGQ+ezh9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyPC90ZD4gIDx0ZD57OX08L3RkPiA8dGQ+ezEwfTwvdGQ+IDx0ZD57MTF9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyMzwvdGQ+IDx0ZD57MTJ9PC90ZD4gPHRkPnsxM308L3RkPiA8dGQ+ezE0fTwvdGQ+IDwvdHI+IDx0Ym9keT4gPC90YWJsZT4=",
+            "Gaps": [
+               ['Mg=='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['MTAw'],
+               ['MTA='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NTAw'],
+               ['MTI='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NjAw'],
+               ['MTI='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NjAw'],
+               ['MTI='],
+               ['MCwwNA==', 'MC4wNA==', 'NDBt', ],
+               ['MzAw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/0569c847ef3f8d3d9dde.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+IDx0ZD57MX08L3RkPiA8dGQ+ezJ9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjI8L3RkPiAgIDx0ZD57M308L3RkPiA8dGQ+ezR9PC90ZD4gPHRkPns1fTwvdGQ+IDwvdHI+IDx0cj4gPHRkPlIzPC90ZD4gICA8dGQ+ezZ9PC90ZD4gPHRkPns3fTwvdGQ+IDx0ZD57OH08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTI8L3RkPiAgPHRkPns5fTwvdGQ+IDx0ZD57MTB9PC90ZD4gPHRkPnsxMX08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTIzPC90ZD4gPHRkPnsxMn08L3RkPiA8dGQ+ezEzfTwvdGQ+IDx0ZD57MTR9PC90ZD4gPC90cj4gPHRib2R5PiA8L3RhYmxlPg==",
+            "Gaps": [
+               ['OA=='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['ODAw'],
+               ['NA=='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['NDAw'],
+               ['MTI='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['MTIwMA=='],
+               ['MTI='],
+               ['MCwwMQ==', 'MC4wMQ==', 'MTBt', ],
+               ['MTIwMA=='],
+               ['MTI='],
+               ['MCwwMg==', 'MC4wMg==', 'MjBt', ],
+               ['NjAw'],
+            ]
+         },
+         
+         {
+            "Image": ["images/88d60f31316bf7e98a09.png", "280"],
+            "Cloze": "UmVzdWVsdmUgZWwgY2lyY3VpdG8gZGUgbGEgZmlndXJhIHJlbGxlbmFuZG8gbG9zIGh1ZWNvcyBkZSBsYSB0YWJsYS48YnI+IDx0YWJsZT4gPHRoZWFkPjx0cj4gPHRoPjwvdGg+IDx0aD5WPC90aD4gPHRoPkk8L3RoPiA8dGg+UjwvdGg+IDwvdHI+PC90aGVhZD4gPHRib2R5PiA8dHI+IDx0ZD5SMTwvdGQ+ICAgPHRkPnswfTwvdGQ+ICA8dGQ+ezF9PC90ZD4gICA8dGQ+ezJ9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjI8L3RkPiAgIDx0ZD57M308L3RkPiAgPHRkPns0fTwvdGQ+ICA8dGQ+ezV9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjM8L3RkPiAgIDx0ZD57Nn08L3RkPiA8dGQ+ezd9PC90ZD4gIDx0ZD57OH08L3RkPiA8L3RyPiA8dHI+IDx0ZD5SMTI8L3RkPiAgPHRkPns5fTwvdGQ+IDx0ZD57MTB9PC90ZD4gIDx0ZD57MTF9PC90ZD4gPC90cj4gPHRyPiA8dGQ+UjEyMzwvdGQ+IDx0ZD57MTJ9PC90ZD4gPHRkPnsxM308L3RkPiA8dGQ+ezE0fTwvdGQ+IDwvdHI+IDx0Ym9keT4gPC90YWJsZT4=",
+            "Gaps": [
+               ['Mw=='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['NTAw'],
+               ['OQ=='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['MTUwMA=='],
+               ['MTI='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['MjAwMA=='],
+               ['MTI='],
+               ['MCwwMDY=', 'MC4wMDY=', 'Nm0=', ],
+               ['MjAwMA=='],
+               ['MTI='],
+               ['MCwwMTI=', 'MC4wMTI=', 'MTJt', ],
+               ['MTAwMA=='],
+            ]
+         },
+         
+      ]
+    
+      const time_between_clues = 500;
+      var questions_pages = 0;
+      var gap_selected = 0;
+      var page = 0;
+      var gaps_total = 0;
+      var gaps_values = [];
+      var points_total = 0;
+      var gaps_not_solved = 0;
+      var watermark = 0;
+      var interval;
+      var timeout_clue = 0;
+      var timeout_last_score = 0;
+      var final_score_interval;
+
+      if (!String.prototype.format) {
+         String.prototype.format = function() {
+            var args = arguments;
+            return this.replace(/{(\d+)}/g, function(match, number) {
+               return typeof args[number] != 'undefined'
+                  ? args[number]
+                  : match;
+            });
+         };
+      }
+
+      page_reset();
+
+      function page_reset() {
+         if (final_score_interval) {
+            clearInterval(final_score_interval);
+         }
+         page = 0;
+         points_total = 0;
+         if (show_max > 0 && show_max < questions_encoded.length) {
+            questions_sorted = questions_sort(show_max);
+         }
+         else {
+            questions_sorted = questions_sort(questions_encoded.length);
+         }
+         question_numpages = questions_sorted.length;
+         gaps_total = questions_gaps();
+         gaps_values = get_gaps_values();
+         gaps_tries = get_gaps_tries();
+         gaps_not_solved = 0;
+         fill_question_text(page);
+         message_hide();
+         hud_show();
+      }
+
+      function bin_atob(str) {
+         return decodeURIComponent(atob(str).split('').map(function(c) {
+            return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+        }).join(''));
+      }
+
+      function questions_sort(len) {
+         new_questions = JSON.parse(JSON.stringify(questions_encoded));
+         questions_sorted = new Array(len);
+         for(i=0; i<len; i++) {
+            rnd = Math.floor(Math.random() * new_questions.length);
+            questions_sorted[i] = new_questions[rnd];
+            questions_sorted[i]["Cloze"] = bin_atob(questions_sorted[i]["Cloze"]);
+            for(var j=0; j < questions_sorted[i]["Gaps"].length; j++) {
+               for(var k=0; k < questions_sorted[i]["Gaps"][j].length; k++) {
+                  questions_sorted[i]["Gaps"][j][k] = bin_atob(questions_sorted[i]["Gaps"][j][k]);
+               };
+            };
+            new_questions.splice(rnd, 1);
+         }
+         return questions_sorted;
+      }
+
+      function get_gaps_values() {
+         var gaps_values = [];
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps_values.push([]);
+            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+               gaps_values[page].push(string_to_binary_array(questions_sorted[page]["Gaps"][num_gap][0]));
+            };
+         };
+         return gaps_values;
+      }
+
+      function get_gaps_tries() {
+         var gaps_tries = [];
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps_tries.push([]);
+            for(var num_gap=0; num_gap<questions_sorted[page]["Gaps"].length; num_gap++) {
+               gaps_tries[page].push(num_tries);
+            };
+         };
+         return gaps_tries;         
+      }
+
+      function string_to_binary_array(str, chr) {
+         array = [];
+         if (str.length == 1) {
+            array.push(100);
+            return array;
+         }
+
+         // Valor de las sucesivas letras de una palabra
+         for(var i=0; i<str.length; i++) {
+            const func = "Lineal";
+            if (func === "Exponencial") {
+               // Exponencial
+               array.push(100 * Math.pow(2, str.length-i-1) / (Math.pow(2, str.length) - 1));
+            }
+            else {
+               // Lineal
+               array.push(100 * (1.0 - i / (2*str.length-2)) / (0.75 * str.length));
+            };
+         };
+         return array;
+      }
+
+      function add_terms(array) {
+         sum = 0;
+         for(var i=0; i<array.length; i++) {
+            sum += array[i];
+         }
+         return sum;
+      }
+
+      function questions_gaps() {
+         var gaps = 0;
+         for(var page=0; page<questions_sorted.length; page++) {
+            gaps += questions_sorted[page]["Gaps"].length;
+         };
+         return gaps;
+      };
+
+      function final_score_fill() {
+         // Load values
+         title = sessionStorage.getItem("last_questions_title");
+         if (title === null) {
+            title = "Puntuación no almacenada";
+         }
+         points = sessionStorage.getItem("last_questions_points");
+         if (points === null) {
+            points = 0;
+         }
+
+         // Hide HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "none";
+
+         // Big header
+         var header_element = document.getElementById("header_id");
+         header_element.innerHTML = title;
+         header_element.style.fontSize = "48px";
+         header_element.style.paddingTop = "32px";
+
+         // Show points
+         var question_frame_element = document.getElementById("question_frame_id");
+         if (watermark == 1) {
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>- - - - - - -</h1>");
+            watermark = 2;
+         }
+         else {
+            question_frame_element.innerHTML = "";
+            question_frame_element.innerHTML = "";
+            question_frame_element.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:80px\">"
+            + Math.round(points) + "%"
+            + "</h1> <h1>= = = = = =</h1>");
+            watermark = 1;
+         }
+         buttons_final_score_fill();
+      };
+
+      function buttons_questions_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = ''
+         + '<button class="func_button" onclick="check_answers()">Comprobar</button>'
+         + '<button class="func_button" onclick="show_clue()">Pista</button>'
+         + '<button class="func_button" onclick="next_page()">Siguiente</button>'
+         + '<br><button class="func_button" onclick="last_score()">Puntuación anterior</button>';
+      }
+
+      function buttons_final_score_fill() {
+         var buttons_frame_element = document.getElementById("buttons_id");
+         buttons_frame_element.innerHTML = '<button class="func_button" onclick="page_reset()">Reiniciar</button>';
+      }
+
+      function message_show(message) {
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = message;
+         var message_element = document.getElementById("message_id");
+         message_element.style.display = "inline";
+         var button_element = document.getElementById("message_button_id");
+         button_element.focus();
+      }
+
+      function message_hide() {
+         var message_element = document.getElementById("message_id");
+         var message_text_element = document.getElementById("message_text_id");
+         message_text_element.innerHTML = "";
+         message_element.style.display = "none";
+
+         focus_empty_gap();
+      }
+
+      function focus_empty_gap() {
+         var num_gaps = 0;
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+
+         while (1) {
+            var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+            if (gap_element) {
+               gap_element.focus();
+               break;
+            }
+            gap_selected += 1;
+            if (gap_selected > gaps_length) {
+               gap_selected = 0;
+            }
+            num_gaps += 1;
+            if (num_gaps > 100) {
+               break;
+            }
+         }
+      }
+
+      function next_page() {
+         message_hide();
+
+         // Check gaps
+         var gaps_not_solved = count_blank_answers();
+
+         // Check if all gaps are filled
+         if (gaps_not_solved > 0) {
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
+            return;
+         };
+
+         // Go to next page or final page
+         page++;
+         if (page < questions_sorted.length) {
+            hud_show();
+            fill_question_text(page);
+         }
+         else {
+            sessionStorage.setItem('last_questions_title', questions_title);
+            sessionStorage.setItem('last_questions_points', points_total);
+            final_score_interval = setInterval(final_score_fill, 500);
+         }
+
+         // Init variables
+         gap_selected = 0;
+      };
+
+      function last_score() {
+         if (timeout_last_score === 1) {
+            final_score_interval = setInterval(final_score_fill, 500);
+         }
+         else {
+            timeout_last_score = 1;
+            setTimeout(reset_timeout_last_score, 400);
+            return;
+         }
+      }
+
+      function reset_timeout_last_score() {
+         timeout_last_score = 0;
+      }
+
+      function questions_page_gaps(page) {
+         return questions_sorted[page]["Gaps"].length;
+      }
+
+      function fill_question_text(page) {
+         message_hide();
+         points_page = 0;
+
+         // Fill header
+         var header_element = document.getElementById("header_id");
+         header_element.innerHTML = questions_title;
+         header_element.style.fontSize = "32px";
+         header_element.style.paddingTop = "0px";
+
+         // Fill question frame HTML
+         var question_frame_element = document.getElementById("question_frame_id");
+         question_frame_element.innerHTML = ''
+         + '<div class="question_image_div" id="question_image_div_id"><img src=""></div>'
+         + '<div class="question_text" id="question_text_id"></div>';
+
+         // Read variables
+         var question_text = questions_sorted[page]["Cloze"];
+         var question_image = questions_sorted[page]["Image"][0];
+         var question_image_size = questions_sorted[page]["Image"][1];
+
+         // Image
+         image_code = '<img class="question_image" src="{0}"{1}>';
+         if (question_image_size) {
+            var image_values = [question_image, ' width="{0}"'.format(question_image_size)];
+         }
+         else {
+            var image_values = [question_image, ''];
+         };
+         image_code_formatted = image_code.format(...image_values);
+         var question_image_element = document.getElementById("question_image_div_id");
+         if (question_image) {
+            question_image_element.innerHTML = image_code_formatted;
+         }
+         else {
+            question_image_element.innerHTML = "";
+         };
+
+         // Question text
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_not_solved = gaps_length;
+         var gap_span = new Array(gaps_length);
+         gap_span_code = '<span class="gap_span" id="gap_span_{0}">'
+         + '<input type="text" autocomplete="off" class="gap_box" id="gap_{0}" '
+         + 'size="12" onfocus="select_gap({0})" onkeypress="onkeypress_handle({0}, event)"></span>';
+         for (var i=0; i<=gaps_length; i++) {
+            gap_span[i] = gap_span_code.format(i);
+         };
+         var question_text_formatted = question_text.format(...gap_span);
+         var question_text_element = document.getElementById("question_text_id");
+         question_text_element.innerHTML = question_text_formatted;
+
+         // Buttons
+         buttons_questions_fill();
+         clearInterval(interval);
+
+         // Focus first gap
+         var gap_element = document.getElementById("gap_0");
+         if (gap_element) {
+            gap_element.focus();
+         }
+      }
+
+      function hud_show() {
+         // Show HUD
+         var hud_element = document.getElementById("hud_id");
+         hud_element.style.display = "flex";
+
+         // Page HUD
+         var hud_page_element = document.getElementById("hud_page_id");
+         hud_page_element.innerHTML = 'Página {0}/{1}'.format(page + 1, questions_sorted.length);
+
+         var progress_bar_full_element = document.getElementById("progress_bar_full_id");
+         var width = ((page + 1) / questions_sorted.length) * 100;
+         progress_bar_full_element.style.width = `${width}%`;
+
+         // Points
+         var score_element = document.getElementById("score");
+         score_element.innerHTML = Math.round(points_total);
+      };
+
+      function onkeypress_handle(gap, event) {
+         if (event.keyCode == 13) {
+            event.preventDefault();
+            check_answers();
+         };
+      };
+
+      function check_answers() {
+         message_hide();
+
+         gaps_not_solved = count_blank_answers();
+
+         if (gaps_not_solved > 0) {
+            if (gaps_not_solved == 1) {
+               message_show("Aún falta 1 hueco por resolver.");
+            }
+            else {
+               message_show("Aún faltan " + gaps_not_solved + " huecos por resolver.");
+            };
+         }
+         else {
+            message_show("Todos los huecos están resueltos."
+            + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+         }
+      };
+
+      function count_blank_answers() {
+         // Leer gaps y comprobar que son correctos
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         var gaps_not_solved = gaps_length;
+         for (var num_gap=0; num_gap<gaps_length; num_gap++) {
+            var gap_element = document.getElementById("gap_{0}".format(num_gap));
+            if (gap_element === null || gap_element === 'undefined' ) {
+               gaps_not_solved -= 1;
+               continue;
+            };
+            var gap_text = gap_element.value.toLowerCase().trim();
+            gap_text.replace(/\s\s+/g, ' ');
+            if (gap_text === "") {
+               continue;
+            };
+            var answer = test_answer_correct(page, num_gap, gap_text);
+            if (answer !== false) {
+               var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+               gap_span_element.innerHTML = answer;
+               points_total += add_terms(gaps_values[page][num_gap]) / gaps_total;
+               hud_show();
+               gaps_not_solved -= 1;
+            }
+            else {
+               if (gaps_tries[page][num_gap] === 1) {
+                  var gap_span_element = document.getElementById("gap_span_{0}".format(num_gap));
+                  gap_span_element.innerHTML = questions_sorted[page]["Gaps"][num_gap][0];
+                  gaps_not_solved -= 1;   
+               }
+               else if (gaps_tries[page][num_gap] > 1) {
+                  gaps_tries[page][num_gap] -= 1;
+               }
+            }
+         };
+         return gaps_not_solved;
+      }
+
+      function test_answer_correct(page, num_gap, gap_text) {
+         var num_answers = questions_sorted[page]["Gaps"][num_gap].length;
+         for (var j=0; j<num_answers; j++) {
+            var answer = questions_sorted[page]["Gaps"][num_gap][j];
+            if (gap_text === answer.toLowerCase()) {
+               return answer;
+            };
+         };
+         return false;
+      }
+
+      function select_gap(num) {
+         gap_selected = num;
+      };
+
+      function reset_timeout_clue() {
+         timeout_clue = 0;
+      }
+
+      function show_clue() {
+         message_hide();
+         if (timeout_clue !== 0) {
+            return;
+         }
+         timeout_clue = 1;
+         setTimeout(reset_timeout_clue, time_between_clues);
+
+         var gaps_visited = 0;
+         var gaps_length = questions_sorted[page]["Gaps"].length;
+         if (gap_selected < 0 || gap_selected >= gaps_length) {
+            gap_selected = 0;
+         };
+         while (true) {
+            while (true) {
+               if (gaps_visited >= gaps_length) {
+                  message_show("Todos los huecos están resueltos."
+                  + "<br>Pulsa <strong>Siguiente</strong> para continuar.");
+                  return;
+               }
+               if (gap_selected >= gaps_length) {
+                  gap_selected = 0;
+               }
+               var correct_answer = questions_sorted[page]["Gaps"][gap_selected][0];
+               var gap_element = document.getElementById("gap_{0}".format(gap_selected));
+               if (gap_element === null) {
+                  gap_selected += 1;
+                  gaps_visited += 1;
+                  continue;
+               }
+               else {
+                  break;
+               };
+            }
+            var gap_text = gap_element.value.toLowerCase();
+            var i = 0;
+            while (true) {
+               if (i >= correct_answer.length) {
+                  if (gap_text.length > correct_answer.length) {
+                     // Correct gap answer with more letters
+                     gap_element.value = gap_element.value.substr(0, correct_answer.length);
+                     gap_selected++;
+                     return;
+                  }
+                  // next gap
+                  gap_selected++;
+                  if (gap_selected >= gaps_length) {
+                     return; // No gap to fill
+                  };
+                  // Go to next gap
+                  break;
+               };
+               if (i >= gap_text.length) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
+                  return;
+               };
+               if (gap_text.charAt(i).toLowerCase() !== correct_answer.charAt(i).toLowerCase()) {
+                  gap_text = correct_answer.substr(0, i+1);
+                  gap_element.value = gap_text;
+                  gaps_values[page][gap_selected][i] = 0;
+                  return;
+               };
+               i++;
+            };
+         };
+      };
+
+   </script>
+
+</body>
+
+</html>
