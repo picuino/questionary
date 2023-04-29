@@ -9,81 +9,342 @@ Show_max: 0
 
 ---
 
----
-
-¿Qué son las licencias de software?
-a) Acuerdos legales que establecen cómo podemos usar, distribuir y modificar los programas y los contenidos de software.
-b) Copias ilegales de programas y contenidos de software.
-c) Sanciones que se aplican a los usuarios que no respetan los derechos de autor.
-d) Ninguna de las anteriores.
-
-¿Por qué es importante respetar las licencias de software y contenidos?
-a) Para evitar infringir la ley y comportarnos de manera ética.
-b) Para tener acceso a programas y contenidos de software de forma gratuita.
-c) Para obtener más beneficios económicos.
-d) Ninguna de las anteriores.
-
-¿Qué derechos controlan las licencias de software?
-a) Derecho de uso, derecho de distribución, derecho de transformación y derechos comerciales.
-b) Derecho de acceso, derecho de modificación, derecho de copia y derecho de reproducción.
-c) Derecho de uso, derecho de acceso, derecho de distribución y derecho de reproducción.
-d) Ninguna de las anteriores.
-
-¿Qué es el derecho de uso de las licencias de software?
-a) El derecho a usar el programa como desees.
-b) El derecho a realizar cambios en la obra o en el programa.
-c) El derecho a explotar comercialmente un programa o una obra.
-d) Ninguna de las anteriores.
-
-¿Qué programas pueden ser instalados en varios dispositivos pero solo utilizados por una persona a la vez?
-a) Algunos programas que establecen limitaciones en el derecho de uso.
-b) Todos los programas privativos.
-c) Todos los programas libres.
-d) Ninguna de las anteriores.
-
-¿Qué programas permiten distribuir copias entre tus familiares y amigos o a cualquier persona?
-a) Programas freeware y programas y obras libres.
-b) Programas privativos y obras con copyright.
-c) Todos los programas.
-d) Ninguna de las anteriores.
-
-¿Qué es el derecho de transformación de las licencias de software?
-a) La posibilidad de realizar cambios en la obra o en el programa y distribuir el resultado a otras personas.
-b) La posibilidad de realizar copias a otras personas o a poner la obra o el programa a disposición de cualquiera en internet.
-c) El derecho a explotar comercialmente un programa o una obra.
-d) Ninguna de las anteriores.
-
-¿Qué programas y contenidos permiten realizar modificaciones y distribuirlas?
-a) Programas y contenidos libres.
-b) Programas privativos y obras con copyright.
-c) Todos los programas y contenidos.
-d) Ninguna de las anteriores.
-
-¿Qué es el derecho de explotación comercial de las licencias de software?
-a) El derecho a explotar comercialmente un programa o una obra.
-b) El derecho a usar el programa como desees.
-c) El derecho a realizar cambios en la obra o en el programa y distribuir el resultado a otras personas.
-d) Ninguna de las anteriores.
-
-¿Cómo se puede ganar dinero con una fotografía libre?
-a) Utilizándola para estampar una camiseta y venderla.
-b) Haciendo copias y vendiéndolas en internet.
-c) Modificándola y vendiéndola como propia.
-d) Ninguna de las anteriores.
-
-
-
-
-
-
-
----
+- Title:
+  Question: ¿Qué son las licencias de software?
+  Choices:
+    - Acuerdos legales que establecen cómo podemos usar, distribuir y 
+      modificar el software.
+    - Copias ilegales de programas y contenidos de software.
+    - Sanciones que se aplican a los usuarios que no respetan los
+      derechos de autor.
+    - Licencias que permiten libremente el uso, la distribución y
+      la modificación del software.
 
 - Title:
-  Question: ¿Qué programas se utilizan para la manipulación de vídeo?
+  Question: ¿Por qué es importante respetar las licencias de software
+            y contenidos?
   Choices:
-    - Adobe Premiere, Corel Video Studio, Windows Movie Maker.
-    - Audacity, Adobe Audition
-    - Photoshop, GIMP, Adobe Ilustrator, Inkscape
-    - Whatsapp, Telegram, Instagram, Facebook, Twitter
+    - Para evitar infringir la ley y para comportarnos de manera ética.
+    - Para tener acceso a programas y contenidos de software de forma
+      gratuita.
+    - Para obtener más beneficios económicos.
+    - Para evitar que los autores ganen demasiado dinero por sus obras.
+
+- Title:
+  Question: ¿Qué derechos controlan las licencias de software?
+  Choices:
+    - Derechos de uso, de distribución, de transformación y comerciales.
+    - Derechos de uso, de distribución, de acceso y de reproducción.
+    - Derechos de acceso, de modificación, de copia y de reproducción.
+    - Derechos de distribución, de reproducción y de acceso.
+
+- Title:
+  Question: ¿Qué es el derecho de uso de las licencias de software?
+  Choices:
+    - El derecho a usar el programa como desees.
+    - El derecho a realizar cambios en la obra o en el programa.
+    - El derecho a explotar comercialmente un programa o una obra.
+    - El derecho a distribuir el programa a otras personas.
+
+- Title:
+  Question: ¿Qué programas pueden ser instalados en varios dispositivos
+            pero solo utilizados por una persona a la vez?
+  Choices:
+    - Algunos programas privativos, que establecen limitaciones en el
+      derecho de uso.
+    - Todos los programas privativos.
+    - Todos los programas libres.
+    - Algunos programas libres.
+
+- Title:
+  Question: ¿Qué programas permiten distribuir copias entre tus
+            familiares y amigos o a cualquier persona?
+  Choices:
+    - Programas freeware y programas y obras libres.
+    - Programas privativos y obras con copyright.
+    - Todos los programas.
+    - Ninguna de las anteriores.
+
+- Title:
+  Question: ¿Qué es el derecho de transformación de las licencias
+            de software?
+  Choices:
+    - La posibilidad de realizar cambios en la obra o en el programa
+      y distribuir el resultado a otras personas.
+    - La posibilidad de realizar copias a otras personas o a poner la
+      obra o el programa a disposición de cualquiera en internet.
+    - El derecho a explotar comercialmente un programa o una obra.
+    - El derecho a usar el programa como desees.
+
+- Title:
+  Question: ¿Qué programas y contenidos permiten realizar
+            modificaciones y distribuirlas?
+  Choices:
+    - Programas y contenidos libres.
+    - Programas privativos y obras con copyright.
+    - Todos los programas y contenidos.
+    - Ningún programa permite realizar modificaciones y distribuirlas.
+
+- Title:
+  Question: ¿Qué es el derecho de explotación comercial de las licencias
+            de software?
+  Choices:
+    - El derecho a explotar comercialmente un programa o una obra.
+    - El derecho a usar el programa como desees.
+    - El derecho a realizar cambios en la obra o en el programa y
+      distribuir el resultado a otras personas.
+    - El derecho a distribuir el programa a otras personas o ponerlo
+      a disposición de cualquiera en internet.
+
+- Title:
+  Question: ¿Qué son los programas propietarios?
+  Choices:
+    - Programas desarrollados por empresas con ánimo de lucro.
+    - Programas desarrollados por empresas sin ánimo de lucro.
+    - Programas desarrollados por la comunidad de usuarios.
+    - Programas que se distribuyen de forma gratuita.
+
+- Title:
+  Question: ¿Cómo se venden los programas propietarios?
+  Choices:
+    - Se venden al usuario con limitaciones.
+    - Se venden al usuario sin limitaciones.
+    - Se distribuyen siempre de forma gratuita.
+    - Se venden al usuario con actualizaciones ilimitadas.
+
+- Title:
+  Question: ¿Qué ocurre con los programas propietarios con cuota
+            mensual cuando el usuario deja de pagar?
+  Choices:
+    - El usuario ya no puede seguir utilizando el programa.
+    - El usuario puede seguir utilizando el programa sin problemas.
+    - El programa se distribuye de forma gratuita.
+    - El usuario debe pagar una multa para seguir utilizando el programa.
+
+- Title:
+  Question: ¿Qué es el freeware?
+  Choices:
+    - Programas propietarios que se distribuyen de forma gratuita.
+    - Programas desarrollados por empresas sin ánimo de lucro.
+    - Programas desarrollados por la comunidad que se pueden descargar
+      y ejecutar sin pagar.
+    - Programas que se pueden descargar y ejecutar solo después de pagar.
+
+- Title:
+  Question: ¿Por qué el freeware no es considerado software libre?
+  Choices:
+    - Porque su licencia es privativa de derechos como su estudio
+      o modificación.
+    - Porque no se puede distribuir libremente.
+    - Porque solo se puede utilizar en determinadas condiciones.
+    - Porque solo obtienes la versión mejorada si pagas por ella.
+
+- Title:
+  Question: ¿Qué son los programas adware?
+  Choices:
+    - Programas que muestran publicidad durante su ejecución.
+    - Programas que se distribuyen de forma gratuita.
+    - Programas que pueden retirarse del mercado sin aviso.
+    - Programas desarrollados por empresas sin ánimo de lucro.
+
+- Title:
+  Question: ¿Cómo obtienen dinero los desarrolladores de programas adware?
+  Choices:
+    - A través de la publicidad que muestran al usuario.
+    - A través de la venta del programa.
+    - A través de las suscripciones de los usuarios.
+    - A través de la información de los usuarios.
+
+- Title:
+  Question: ¿Por qué el adware no está bien visto?
+  Choices:
+    - Porque está asociado al malware y a la grabación de actividad del
+      usuario.
+    - Porque tiene limitaciones de uso.
+    - Porque no se puede distribuir libremente.
+    - Porque no es compatible con todos los sistemas operativos.
+
+- Title:
+  Question: ¿Cuál de estos programas es un ejemplo de software propietario?
+    - Adobe Acrobat Reader.
+  Choices:
+    - LibreOffice.
+    - Firefox.
+    - GNU/Linux.
+
+- Title:
+  Question: ¿Qué caracteriza a los programas libres?
+  Choices:
+    - Su código fuente es libre y se puede modificar sin restricciones.
+    - Son programas gratuitos pero su código fuente no es libre.
+    - Son programas que se ejecutan en la nube y pertenecen a una empresa.
+    - Son programas propietarios que se venden al usuario.
+
+- Title:
+  Question: ¿Qué desventaja presentan los programas en la nube?
+  Choices:
+    - Se pierde el control sobre la aplicación.
+    - Se deben instalar en el ordenador para poder ejecutarlos.
+    - No están actualizados a la última versión.
+    - Tienen más posibilidades de tener errores al ejecutarse.
+
+- Title:
+  Question: ¿Qué tipo de programas son Word, Excel y Powerpoint de
+            Microsoft?
+  Choices:
+    - Propietarios o privativos.
+    - Freeware.
+    - De licencia libre.
+    - Adware.
+
+- Title:
+  Question: ¿Qué caracteriza a los programas freeware?
+  Choices:
+    - No tienen costo y se pueden descargar sin pagar.
+    - Son programas que muestran publicidad durante su ejecución.
+    - Son programas que se pueden modificar sin restricciones.
+    - Son programas que se ejecutan en la nube.
+
+- Title:
+  Question: ¿Qué ventaja presentan los programas en la nube?
+  Choices:
+    - Están siempre actualizados a la última versión.
+    - Se pueden modificar y distribuir libremente.
+    - No necesitan conexión a internet para ejecutarse.
+    - Son programas gratuitos.
+
+- Title:
+  Question: ¿Qué es el adware?
+  Choices:
+    - Programas que muestran publicidad durante su ejecución.
+    - Programas gratuitos que consiguen dinero a través de la publicidad.
+    - Programas de licencia libre.
+    - Programas propietarios que se venden al usuario.
+
+- Title:
+  Question: ¿Qué tipo de programas son Minecraft y Clash Royale?
+  Choices:
+    - Propietarios o privativos.
+    - Freeware.
+    - De licencia libre.
+    - Adware.
+
+- Title:
+  Question: ¿Qué es la computación en la nube?
+  Choices:
+    - Programas que se ejecutan en el servidor web de la empresa que
+      ha programado la aplicación.
+    - Programas que se ejecutan en el ordenador del usuario.
+    - Programas que no tienen costo y se pueden descargar sin pagar.
+    - Programas que muestran publicidad durante su ejecución.
+
+- Title:
+  Question: ¿Qué caracteriza a los programas propietarios?
+  Choices:
+    - Son desarrollados por compañías con ánimo de lucro y limitan
+      los derechos de uso, distribución y modificación.
+    - Son programas gratuitos y su código fuente es libre.
+    - Son programas que se ejecutan en la nube.
+    - Son programas que muestran publicidad durante su ejecución.
+
+- Title:
+  Question: ¿Qué es la suite ofimática LibreOffice?
+  Choices:
+    - Un conjunto de programas libres que se ejecutan en el ordenador
+      del usuario.
+    - Un conjunto de programas propietarios que se venden al usuario.
+    - Un conjunto de programas freeware que muestran publicidad durante
+      su ejecución.
+    - Un conjunto de programas adware que se ejecutan en la nube.
+
+- Title:
+  Question: ¿Qué es el copyright?
+  Choices:
+    - Un sistema legal que protege los derechos de propiedad
+      intelectual de los autores.
+    - Un sistema que permite el uso libre de las obras.
+    - Una licencia ofrecida por una fundación sin ánimo de lucro.
+    - Una forma de compartir conocimientos y cultura libremente.
+
+- Title:
+  Question: ¿Cuánto tiempo están protegidas las obras por el copyright?
+  Choices:
+    - Hasta 70 años después de la muerte del autor.
+    - Hasta 50 años después de la muerte del autor.
+    - Hasta 100 años después de la muerte del autor.
+    - No hay restricciones de uso para las obras protegidas por copyright.
+
+- Title:
+  Question: ¿Qué son las licencias Creative Commons?
+  Choices:
+    - Un conjunto de licencias que permiten proteger los derechos
+      de autor, compatibles con la cultura libre.
+    - Un sistema legal que protege los derechos de propiedad
+      intelectual de los autores restringiendo muchas libertades.
+    - Una forma de compartir conocimientos y cultura sin
+      restricciones de ningún tipo.
+    - Una licencia ofrecida por una fundación sin ánimo de lucro.
+
+- Title:
+  Question: ¿Qué significa la licencia Creative Commons BY-SA?
+  Choices:
+    - Atribución y compartir igual.
+    - Atribución y no comercial.
+    - No comercial y Sin obras derivadas.
+    - No comercial y compartir igual.
+
+- Title:
+  Question: ¿Qué permite hacer la licencia Creative Commons BY-SA?
+  Choices:
+    - Utilizar, copiar, distribuir y modificar la obra libremente.
+    - Solo utilizar la obra original sin modificarla.
+    - Solo utilizar la obra original y compartir la obra derivada.
+    - Utilizar la obra original y la obra derivada libremente.
+
+- Title:
+  Question: ¿Cuál es la licencia más utilizada por la enciclopedia.
+            libre y en línea Wikipedia?
+  Choices:
+    - Creative Commons BY-SA.
+    - Creative Commons BY-NC-SA.
+    - Creative Commons BY-ND.
+    - Copyright.
+
+- Title:
+  Question: ¿Qué son las licencias copyleft?
+  Choices:
+    - Licencias que permiten casi todos los derechos, manteniendo
+      la exigencia de que la obra siga siendo libre.
+    - Licencias que limitan todos los derechos.
+    - Licencias que solo permiten el uso de la obra original
+      sin modificaciones.
+    - Licencias que no permiten compartir la obra.
+
+- Title:
+  Question: ¿Cuándo está una obra protegida por copyright?
+  Choices:
+    - Cualquier obra original que no especifique nada.
+    - Solo las obras que se especifican como protegidas con copyright.
+    - Solo las obras técnicas.
+    - Cualquier obra de dominio público.
+
+- Title:
+  Question: ¿Quién tiene el control exclusivo sobre la explotación
+            de sus obras en el sistema copyright?
+  Choices:
+    - Los autores de las obras.
+    - Los editores de las obras.
+    - Las fundaciones sin ánimo de lucro.
+    - Los usuarios que utilizan la obra.
+
+- Title:
+  Question: ¿Qué objetivo persigue el sistema copyright?
+  Choices:
+    - Proteger los derechos de los autores y fomentar la creación
+      de nuevas obras.
+    - Permitir el uso libre de las obras.
+    - Fomentar que el conocimiento y la cultura se compartan
+      libremente.
+    - Proteger los derechos de propiedad intelectual de los usuarios
+      que utilizan la obra.
 

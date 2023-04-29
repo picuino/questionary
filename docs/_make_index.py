@@ -95,12 +95,15 @@ index_data = [
    {
       "header" : ["hardware", "Hardware"],
       "links": [
-          ["es-hardware-intro.html", "Introducción al hardware"],
+          ["es-hardware-intro-1.html", "Introducción al hardware I"],
+          ["es-hardware-intro-2.html", "Introducción al hardware II"],
 
           ["es-hardware-clasificacion-1.html", "Clasificación de los ordenadores I"],
           ["es-hardware-clasificacion-2.html", "Clasificación de los ordenadores II"],
 
-          ["es-hardware-unidades.html", "Unidades de medida"],
+          ["es-hardware-unidades-1.html", "Unidades de medida I"],
+          ["es-hardware-unidades-1.html", "Unidades de medida II"],
+
           ["es-hardware-ley-moore.html", "Ley de Moore"],
           ["es-hardware-pc.html", "Hardware del ordenador personal"],
           ["es-hardware-placa-base.html", "Placa base"],
