@@ -1,0 +1,177 @@
+﻿
+Category: Hardware
+Title: Hardware de un ordenador personal II
+Date: 30/04/2023
+Copyright: 2023 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-esquema-ordenador.html
+Show_max: 0
+
+---
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (1)?
+  Choices:
+    - Un monitor.
+    - Un periférico alternativo.
+    - Una televisión.
+    - Un visualizador.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (2)?
+  Choices:
+    - La placa base.
+    - La placa fundamental.
+    - La placa de circuito impreso.
+    - La base madre.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (3)?
+  Choices:
+    - CPU y zócalo.
+    - Memoria RAM y zócalo.
+    - Tarjeta de expansión.
+    - Pila de la placa base.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (4)?
+  Choices:
+    - Memoria RAM de tipo DIMM.
+    - Memoria ROM de tipo DIMM.
+    - CPU y zócalo.
+    - Tarjeta de expansión.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (5)?
+  Choices:
+    - Tarjetas de expansión sobre ranura PCI
+    - Tarjetas de expansión sobre ranura DIMM
+    - Tarjetas de expansión sobre zócalo de CPU
+    - Tarjetas de memoria RAM sobre ranura DIMM
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (6)?
+  Choices:
+    - Fuente de alimentación.
+    - Disco duro.
+    - Ventilador de la caja.
+    - Lector de tarjetas de memoria.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (7)?
+  Choices:
+    - Lector de discos ópticos.
+    - Lector de discos duros.
+    - Lector de tarjetas de memoria.
+    - Lector de discos de expansión.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (8)?
+  Choices:
+    - Disco duro.
+    - Lector de discos ópticos.
+    - Ventilador de la caja.
+    - Fuente de alimentación.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (9)?
+  Choices:
+    - Teclado.
+    - Ratón.
+    - Tableta táctil.
+    - Dispositivo apuntador.
+
+- Title:
+  Image: ../images/informatica-pc-exploded.png
+  Image_width: 480
+  Question: ¿Qué es el elemento (10)?
+  Choices:
+    - Ratón
+    - Tableta gráfica
+    - Dispositivo táctil
+    - Mause
+
+#
+# Esquema general de un ordenador
+#
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Question: La memoria ROM, es la encargada de ...
+  Choices:
+    - almacenar a largo plazo los programas y los datos,
+      aunque el ordenador esté apagado.
+    - almacenar a largo plazo los programas y los datos,
+      mientras el ordenador está encendido.
+    - procesar los programas y los datos.
+    - transportar los datos desde la memoria RAM hasta la CPU.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Question: La memoria RAM, es la encargada de ...
+  Choices:
+    - almacenar los programas y los datos para que el procesador
+      pueda trabajar con ellos.
+    - almacenar a largo plazo los programas y los datos,
+      aunque el ordenador esté apagado.
+    - procesar los programas y los datos.
+    - transportar los datos desde la memoria ROM hasta la CPU.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Question: La CPU o unidad central de proceso es ...
+  Choices:
+    - el "cerebro" del ordenador, el elemento que procesa
+      los programas y los datos.
+    - el "cerebro" del ordenador, el elemento que procesa
+      los datos de la ROM hacia la RAM.
+    - el "cerebro" del ordenador, el elemento que procesa
+      los datos moviéndolos entre las memorias.
+    - el "cerebro" del ordenador, el elemento que procesa
+      los programas, pero no los datos.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Question: El sistema de entrada/salida ...
+  Choices:
+    - conecta el ordenador con el exterior y transporta información.
+    - conecta el ordenador interiormente y transporta información.
+    - el "cerebro" del ordenador, el elemento que procesa
+      los programas y los datos.
+    - se encarga de la entrada de datos al ordenador,
+      la salida de datos y el almacenamiento externo.
+
+- Title:
+  Image: ../images/informatica-esquema-ordenador-02.png
+  Image_width: 380
+  Question: Los periféricos se encargan de realizar ...
+  Choices:
+    - la entrada de datos al ordenador,
+      la salida de datos y el almacenamiento externo.
+    - la entrada de datos al ordenador,
+      la salida de datos y el almacenamiento interno de datos.
+    - la entrada de datos al ordenador y el almacenamiento externo.
+    - el procesamiento de la información y de los programas.

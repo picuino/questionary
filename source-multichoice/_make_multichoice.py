@@ -59,7 +59,7 @@ def main():
       questionary.moodle_generate(moodle_template, path=build_path)
       questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
-   print('\nTotal questions= %s' % str(questions_counter))
+   print('\nTotal questions= %s\n' % str(questions_counter))
 
 
 

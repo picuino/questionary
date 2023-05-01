@@ -102,10 +102,14 @@ index_data = [
           ["es-hardware-clasificacion-2.html", "Clasificación de los ordenadores II"],
 
           ["es-hardware-unidades-1.html", "Unidades de medida I"],
-          ["es-hardware-unidades-1.html", "Unidades de medida II"],
+          ["es-hardware-unidades-2.html", "Unidades de medida II"],
 
-          ["es-hardware-ley-moore.html", "Ley de Moore"],
-          ["es-hardware-pc.html", "Hardware del ordenador personal"],
+          ["es-hardware-ley-moore-1.html", "Ley de Moore I"],
+          ["es-hardware-ley-moore-2.html", "Ley de Moore II"],
+
+          ["es-hardware-pc-1.html", "Hardware del ordenador personal I"],
+          ["es-hardware-pc-2.html", "Hardware del ordenador personal II"],
+          
           ["es-hardware-placa-base.html", "Placa base"],
 
           ["es-hardware-procesadores-1.html", "Procesadores I"],

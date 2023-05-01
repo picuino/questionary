@@ -1,0 +1,373 @@
+﻿
+Category: Hardware
+Title: Procesadores III
+Date: 30/04/2023
+Copyright: 2023 por Carlos Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/informatica-hardware-cpu.html
+Show_max: 0
+
+---
+
+- Title:
+  Question: ¿Qué es un procesador?
+  Choices:
+    - Es el "cerebro" del ordenador, donde se realizan las operaciones
+      dictadas por los programas.
+    - Es el "cerebro" del ordenador, donde se realizan las operaciones
+      dictadas por los archivos de datos.
+    - Es la "memoria" del ordenador, donde se almacenan los programas
+      y datos que se manejan en un ordenador.
+    - Son los "sentidos" del ordenador, donde se recogen los datos
+      que el ordenador posteriormente va a almacenar y tratar.
+
+- Title:
+  Question: ¿Qué es una CPU?
+  Choices:
+    - El procesador principal de un ordenador.
+    - El procesador principal de una tarjeta gráfica.
+    - El procesador principal de un disco duro.
+    - El procesador principal de una red de datos.
+
+- Title:
+  Question: ¿Qué tipo de operaciones puede realizar una CPU?
+  Choices:
+    - Lógicas, aritméticas y de movimiento de datos.
+    - Lógicas, de sonido y de movimiento de datos.
+    - De sonido, aritméticas y de movimiento de datos.
+    - De sonido, gráficas y de movimiento de datos.
+
+- Title:
+  Question: ¿Cuál es el componente más complejo de un ordenador?
+  Choices:
+    - La CPU.
+    - Los buses de datos.
+    - El disco duro.
+    - La memoria RAM.
+
+- Title:
+  Question: ¿Cuántos transistores tiene aproximadamente una CPU de
+            ordenador personal de 2022?
+  Choices:
+    - De 25 000 millones a 100 000 millones.
+    - De 1 000 millones a 10 000 millones.
+    - De 500 millones a 5 000 millones.
+    - De 100 millones a 1 000 millones.
+
+- Title:
+  Question: ¿Cuáles son las empresas más conocidas en la fabricación
+            de CPU para ordenadores personales y servidores?
+  Choices:
+    - Intel y AMD.
+    - Apple y Samsung.
+    - IBM y HP.
+    - Dell y Lenovo.
+
+- Title:
+  Question: ¿Qué tipo de arquitectura utilizan las CPU en los teléfonos,
+            tabletas, televisores y otros dispositivos inteligentes?
+  Choices:
+    - CPU de arquitectura ARM.
+    - CPU de arquitectura x86.
+    - CPU de arquitectura PowerPC.
+    - CPU de arquitectura MIPS.
+
+- Title:
+  Question: ¿Qué es un coprocesador matemático?
+  Choices:
+    - Un tipo de procesador especializado en realizar operaciones
+      matemáticas en coma flotante.
+    - Un tipo de procesador especializado en realizar operaciones lógicas.
+    - Un tipo de procesador especializado en almacenar datos.
+    - Un tipo de procesador especializado en mostrar imágenes en pantalla.
+
+- Title:
+  Question: ¿En qué consisten las operaciones matemáticas en coma flotante?
+  Choices:
+    - Operaciones con números con decimales.
+    - Operaciones con números enteros.
+    - Operaciones con fracciones.
+    - Operaciones con letras y símbolos.
+
+- Title:
+  Question: ¿Qué tipo de programas se benefician de la presencia de
+            un coprocesador matemático?
+  Choices:
+    - Programas de diseño por ordenador en 2 y 3 dimensiones, 
+      hojas de cálculo y software científico.
+    - Programas de navegación web y redes sociales.
+    - Programas de edición de texto y correo electrónico.
+    - Programas de juegos y entretenimiento.
+
+- Title:
+  Question: ¿Dónde se encuentran integrados los coprocesadores
+            matemáticos en la actualidad?
+  Choices:
+    - Dentro del mismo chip de las CPU más potentes.
+    - En circuitos separados de la CPU.
+    - En las tarjetas gráficas.
+    - En dispositivos externos conectados a la CPU.
+
+- Title:
+  Question: ¿Existen coprocesadores matemáticos especializados en multimedia?
+  Choices:
+    - Sí, se llaman coprocesadores MMX.
+    - No, todos los coprocesadores son iguales.
+    - Sí, se llaman MP3 y aceleran la reproducción de audio.
+    - Sí, se llaman MP4 y aceleran la reproducción de audio y video.
+
+- Title:
+  Question: ¿Qué ventajas ofrecen los coprocesadores matemáticos
+            especializados en multimedia?
+  Choices:
+    - Permiten trabajar velozmente y sin problemas con video en alta definición.
+    - Permiten almacenar y reproducir gran cantidad de archivos de ofimática.
+    - Permiten enviar y recibir información por internet a gran velocidad.
+    - Permiten mostrar imágenes y vídeos en 3D.
+
+- Title:
+  Question: ¿Qué es una GPU?
+  Choices:
+    - Un procesador especializado en calcular gráficos.
+    - Un dispositivo para almacenar datos.
+    - Una herramienta para navegar por internet.
+    - Un componente para el procesamiento de texto.
+
+- Title:
+  Question: ¿Qué pueden realizar las pequeñas GPU integradas 
+            en las CPU actuales?
+  Choices:
+    - Para manejar programas ofimáticos o navegar por internet.
+    - Para manejar videojuegos y programas de diseño.
+    - Para realizar operaciones matemáticas complejas.
+    - Para almacenar grandes cantidades de datos.
+
+- Title:
+  Question: ¿Por qué se utilizan tarjetas gráficas especializadas
+            en los ordenadores de mayor potencia?
+  Choices:
+    - Para manejar videojuegos, programas de diseño o edición de vídeo.
+    - Para navegar por internet.
+    - Para realizar operaciones matemáticas complejas.
+    - Para almacenar grandes cantidades de datos.
+
+- Title:
+  Question: ¿Qué es el antialiasing?
+  Choices:
+    - Suavizar bordes de las figuras.
+    - Dibujar triángulos y cuadrados.
+    - Realizar operaciones matemáticas complejas.
+    - Almacenar grandes cantidades de datos comprimidos.
+
+- Title:
+  Question: ¿Qué consumo eléctrico tienen las tarjetas gráficas 
+            especializadas en comparación con la CPU?
+  Choices:
+    - Pueden tener un consumo mayor que la CPU.
+    - Siempre tienen un consumo menor que la CPU.
+    - Tienen un consumo semejante al de una CPU.
+    - El consumo de una tarjeta gráfica es muy bajo.
+
+- Title:
+  Question: ¿Qué es una TPU?
+  Choices:
+    - Una unidad de procesamiento tensorial dedicada al cálculo intensivo
+      de operaciones de redes neuronales.
+    - Una unidad de procesamiento gráfico especializada en cálculos
+      matemáticos de vectores gráficos.
+    - Una unidad de procesamiento central especializada en cálculos de
+      punto flotante.
+    - Una unidad de almacenamiento de datos utilizada en ordenadores
+      personales.
+
+- Title:
+  Question: ¿Para qué se utiliza una TPU?
+  Choices:
+    - Para acelerar procesos de inteligencia artificial como el
+      reconocimiento facial o el procesamiento de voz.
+    - Para realizar operaciones de dibujo en tres dimensiones.
+    - Para manejar programas ofimáticos o navegar por internet.
+    - Para calcular operaciones matemáticas complejas.
+
+- Title:
+  Question: ¿Quién inventó el circuito TPU?
+  Choices:
+    - Google.
+    - Apple.
+    - Intel.
+    - AMD.
+
+- Title:
+  Question: ¿En qué tipo de dispositivos se están incorporando 
+            capacidades semejantes a las de las TPU?
+  Choices:
+    - En los procesadores de los teléfonos inteligentes.
+    - En las tarjetas gráficas de ordenadores personales.
+    - En los discos duros de ordenadores personales.
+    - En las CPU de los ordenadores personales.
+
+- Title:
+  Question: ¿Qué es un DSP?
+  Choices:
+    - Un procesador especializado en ejecutar operaciones numéricas
+      relacionadas con el tratamiento de señales.
+    - Un procesador especializado en ejecutar operaciones numéricas
+      relacionadas con el procesamiento de texto.
+    - Un procesador especializado en ejecutar operaciones numéricas
+      relacionadas con el tratamiento de señales de radio.
+    - Un procesador especializado en ejecutar operaciones numéricas
+      relacionadas con el tratamiento de señales de audio y vídeo.
+
+- Title:
+  Question: ¿Cuáles son las aplicaciones típicas de un DSP?
+  Choices:
+    - Tratamiento en tiempo real de señales de audio, voz, imagen, vídeo, etc.
+    - Tratamiento en tiempo real de señales de radio y televisión.
+    - Tratamiento de señales de texto y procesamiento de datos.
+    - Tratamiento de señales de radio y procesamiento de audio.
+
+- Title:
+  Question: ¿Qué se puede lograr con el DSP en el campo médico?
+  Choices:
+    - Hacer más claras las imágenes de órganos en los equipos de
+      diagnóstico médico por ultrasonidos o por resonancia magnética.
+    - Crear gráficos y tablas médicas a partir de datos de pacientes.
+    - Realizar pruebas de laboratorio en tiempo real.
+    - Realizar diagnósticos médicos más precisos mediante aplicaciones
+      avanzadas de Inteligencia Artificial.
+
+- Title:
+  Question: ¿Cuál es una de las aplicaciones de un DSP en la música?
+  Choices:
+    - Ajustes de auto-tune en la voz de los cantantes.
+    - Creación de partituras musicales a partir de grabaciones.
+    - Composición automática de canciones.
+    - Creación de efectos de sonido para películas.
+
+- Title:
+  Question: ¿Cómo puede un DSP ayudar en la fotografía digital?
+  Choices:
+    - Comprime fotografías en formato JPG en las cámaras digitales.
+    - Convertir imágenes de formato analógico a formato digital.
+    - Genera nuevas imágenes digitales gracias a la Inteligencia Artificial.
+    - Ninguna de las anteriores.
+
+- Title:
+  Question: ¿Qué significa DSP?
+  Choices:
+    - Procesador de señales digitales.
+    - Procesador de texto y señales digitales.
+    - Procesador de señales de radio.
+    - Procesador de señales de video.
+
+- Title:
+  Question: ¿Qué es un microcontrolador?
+  Choices:
+    - Un pequeño ordenador contenido en un solo chip.
+    - Un periférico de entrada/salida.
+    - Un disco duro de alta capacidad.
+    - Una tarjeta gráfica especializada.
+
+- Title:
+  Question: ¿Qué componentes se incluyen en un microcontrolador?
+  Choices:
+    - CPU, memoria RAM, memoria ROM y periféricos de entrada/salida.
+    - Solo CPU y memoria RAM.
+    - Solo memoria Flash ROM y periféricos de entrada/salida.
+    - Solo CPU y periféricos de entrada/salida.
+
+- Title:
+  Question: ¿Cuál es la función principal de los microcontroladores?
+  Choices:
+    - Controlar periféricos y automatizar dispositivos cotidianos.
+    - Procesar información de audio y vídeo.
+    - Realizar cálculos complejos para la CPU principal.
+    - Procesar gráficos en tres dimensiones.
+
+- Title:
+  Question: ¿Cómo ayuda el uso de microcontroladores a la CPU principal?
+  Choices:
+    - Descargándola de las tareas de control de los periféricos.
+    - Acelerando el procesamiento de información.
+    - Aumentando la capacidad de memoria RAM.
+    - Mejorando la calidad de imagen en pantallas.
+
+- Title:
+  Question: ¿Qué tipo de dispositivos cotidianos se pueden automatizar
+            con microcontroladores?
+  Choices:
+    - Microondas, lavadoras, cerraduras electrónicas, ascensores, etc.
+    - Teléfonos inteligentes, tabletas, computadoras portátiles, etc.
+    - Teléfonos inteligentes, tabletas, tarjetas gráficas, etc.
+    - Automóviles con conducción autónoma, piloto automático de aviones, etc.
+
+- Title:
+  Question: ¿Qué tipos de periféricos pueden controlar los microcontroladores?
+  Choices:
+    - Teclados, ratones, cámaras web, monitores, discos duros, entre otros.
+    - Altavoces, micrófonos, cámaras de video, entre otros.
+    - Tarjetas gráficas, unidades de procesamiento tensorial, entre otros.
+    - Ninguna de las anteriores es correcta.
+
+- Title:
+  Question: ¿Qué significa FPGA?
+  Choices:
+    - Procesador basado en puertas lógicas programables
+    - Sistema de comunicaciones inalámbricas
+    - Lenguaje de programación orientado a objetos
+    - Sistema de almacenamiento de datos en la nube
+
+- Title:
+  Question: ¿Qué ventaja ofrecen las FPGA frente a las CPU convencionales?
+  Choices:
+    - Se pueden programar para resolver tareas especializadas de forma
+      más rápida.
+    - Son más baratas y fáciles de conseguir.
+    - Tienen mayor capacidad de almacenamiento de datos.
+    - Son más sencillas de programar.
+
+- Title:
+  Question: ¿Cuál es una aplicación típica de las FPGA?
+  Choices:
+    - Minado de criptomonedas.
+    - Procesamiento de texto.
+    - Realización de gráficos 3D.
+    - Gestión de bases de datos.
+
+- Title:
+  Question: ¿Qué lenguajes se utilizan para programar las FPGA?
+  Choices:
+    - VHDL y Verilog.
+    - C++ y Java.
+    - Python y Ruby.
+    - JavaScript y HTML.
+
+- Title:
+  Question: ¿Qué se puede construir con las puertas lógicas programables
+            de una FPGA?
+  Choices:
+    - Un circuito a medida de las necesidades del usuario.
+    - Un circuito estándar que se adapte a todas las necesidades.
+    - Un sistema operativo para ordenadores.
+    - Un dispositivo de almacenamiento de datos.
+
+- Title:
+  Question: ¿En qué tipo de operaciones pueden ser varias veces más
+            rápidas las FPGA que una CPU convencional?
+  Choices:
+    - Compresión de audio y vídeo.
+    - Gestión de bases de datos.
+    - Procesamiento de texto.
+    - Realización de cálculos matemáticos complejos.
+
+- Title:
+  Question: ¿Qué son los sistemas ASIC?
+  Choices:
+    - Circuitos integrados diseñados para una tarea específica.
+    - Circuitos integrados que pueden programarse de manera flexible.
+    - Sistemas operativos de código abierto.
+    - Sistemas de almacenamiento de datos externos.
+
+
+
