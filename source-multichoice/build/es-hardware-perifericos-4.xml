@@ -2,14 +2,14 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Software/es-software-licencias-2</text> </category>
+    <category> <text>$course$/top/Hardware/es-hardware-perifericos-4</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué son las licencias de software?</text> </name>
+    <name> <text>¿Qué es un monitor de ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué son las licencias de software?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es un monitor de ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -24,30 +24,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Acuerdos legales que establecen cómo podemos usar, distribuir y modificar el software.</text>
+       <text>Un dispositivo de salida para mostrar información al usuario.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Copias ilegales de programas y contenidos de software.</text>
+       <text>Un dispositivo de entrada para recibir información del usuario.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Sanciones que se aplican a los usuarios que no respetan los derechos de autor.</text>
+       <text>Un dispositivo que almacena información en el ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Licencias que permiten libremente el uso, la distribución y la modificación del software.</text>
+       <text>Un dispositivo que procesa información en el ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Por qué es importante respetar las licencias de software y contenidos?</text> </name>
+    <name> <text>¿Qué tecnología predomina actualmente en los monitores de ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Por qué es importante respetar las licencias de software y contenidos?</p>]]></text>
+      <text><![CDATA[<p>¿Qué tecnología predomina actualmente en los monitores de ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -62,30 +62,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para evitar infringir la ley y para comportarnos de manera ética.</text>
+       <text>Pantallas planas de cristal líquido (LCD).</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Para tener acceso a programas y contenidos de software de forma gratuita.</text>
+       <text>Monitores CRT.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Para obtener más beneficios económicos.</text>
+       <text>Pantallas de plasma.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Para evitar que los autores ganen demasiado dinero por sus obras.</text>
+       <text>Pantallas OLED o AMOLED.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué derechos controlan las licencias de software?</text> </name>
+    <name> <text>¿Cómo se mide el tamaño de un monitor?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué derechos controlan las licencias de software?</p>]]></text>
+      <text><![CDATA[<p>¿Cómo se mide el tamaño de un monitor?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -100,30 +100,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Derechos de uso, de distribución, de transformación y comerciales.</text>
+       <text>En pulgadas de la diagonal de la pantalla visualizadora.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Derechos de uso, de distribución, de acceso y de reproducción.</text>
+       <text>En centímetros de la diagonal de la pantalla visualizadora.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Derechos de acceso, de modificación, de copia y de reproducción.</text>
+       <text>En pulgadas de la diagonal total del monitor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Derechos de distribución, de reproducción y de acceso.</text>
+       <text>En centímetros de la diagonal total del monitor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el derecho de uso de las licencias de software?</text> </name>
+    <name> <text>¿Cuál es la resolución mínima que debería tener un monitor de ordenador hoy en día?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el derecho de uso de las licencias de software?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es la resolución mínima que debería tener un monitor de ordenador hoy en día?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -138,30 +138,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>El derecho a usar el programa como desees.</text>
+       <text>Full HD (1920x1080 pixel).</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a realizar cambios en la obra o en el programa.</text>
+       <text>WXGA (1366x768 pixel).</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a explotar comercialmente un programa o una obra.</text>
+       <text>HD (1280x720 pixel).</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a distribuir el programa a otras personas.</text>
+       <text>SVGA (800x600 pixel).</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué programas pueden ser instalados en varios dispositivos pero solo utilizados por una persona a la vez?</text> </name>
+    <name> <text>¿Qué es un pixel en un monitor?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué programas pueden ser instalados en varios dispositivos pero solo utilizados por una persona a la vez?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es un pixel en un monitor?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -176,30 +176,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Algunos programas privativos, que establecen limitaciones en el derecho de uso.</text>
+       <text>El punto más pequeño que se puede representar en un monitor.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Todos los programas privativos.</text>
+       <text>La unidad de medida del tamaño de un monitor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Todos los programas libres.</text>
+       <text>Un dispositivo de entrada para el monitor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Algunos programas libres.</text>
+       <text>La unidad de medida del tamaño de un monitor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué programas permiten distribuir copias entre tus familiares y amigos o a cualquier persona?</text> </name>
+    <name> <text>¿Puede un monitor ser considerado un periférico de entrada?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué programas permiten distribuir copias entre tus familiares y amigos o a cualquier persona?</p>]]></text>
+      <text><![CDATA[<p>¿Puede un monitor ser considerado un periférico de entrada?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -214,30 +214,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas freeware y programas y obras libres.</text>
+       <text>Sí, si es táctil.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas privativos y obras con copyright.</text>
+       <text>No, nunca.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Todos los programas.</text>
+       <text>Sí, siempre.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Ninguna de las anteriores.</text>
+       <text>Solo si se conecta a una tableta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el derecho de transformación de las licencias de software?</text> </name>
+    <name> <text>¿Qué es un proyector de vídeo?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el derecho de transformación de las licencias de software?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es un proyector de vídeo?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -252,30 +252,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La posibilidad de realizar cambios en la obra o en el programa y distribuir el resultado a otras personas.</text>
+       <text>Un aparato que permite visualizar la información del ordenador para todo un auditorio.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>La posibilidad de realizar copias a otras personas o a poner la obra o el programa a disposición de cualquiera en internet.</text>
+       <text>Un dispositivo que permite imprimir textos y gráficos en papel.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a explotar comercialmente un programa o una obra.</text>
+       <text>Un periférico de entrada que permite escanear imágenes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a usar el programa como desees.</text>
+       <text>Un objeto que sirve para guardar documentos digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué programas y contenidos permiten realizar modificaciones y distribuirlas?</text> </name>
+    <name> <text>¿Cuáles son las tecnologías más usuales para imprimir en una impresora?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué programas y contenidos permiten realizar modificaciones y distribuirlas?</p>]]></text>
+      <text><![CDATA[<p>¿Cuáles son las tecnologías más usuales para imprimir en una impresora?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -290,30 +290,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas y contenidos libres.</text>
+       <text>Tecnología láser con tóner, tecnología de inyección de tinta y tecnología térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas privativos y obras con copyright.</text>
+       <text>Tecnología de proyección, tecnología de imagen y tecnología de sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Todos los programas y contenidos.</text>
+       <text>Tecnología de internet, tecnología de programación y tecnología de realidad virtual.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Ningún programa permite realizar modificaciones y distribuirlas.</text>
+       <text>Tecnología de red, tecnología de memoria y tecnología de discos duros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el derecho de explotación comercial de las licencias de software?</text> </name>
+    <name> <text>¿Qué es una impresora?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el derecho de explotación comercial de las licencias de software?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es una impresora?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -328,30 +328,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>El derecho a explotar comercialmente un programa o una obra.</text>
+       <text>Un periférico de salida que permite imprimir textos y gráficos en papel.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a usar el programa como desees.</text>
+       <text>Un dispositivo que permite escanear imágenes y convertirlas en archivos digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a realizar cambios en la obra o en el programa y distribuir el resultado a otras personas.</text>
+       <text>Un objeto que sirve para guardar documentos digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El derecho a distribuir el programa a otras personas o ponerlo a disposición de cualquiera en internet.</text>
+       <text>Un aparato que proyecta imágenes sobre una pared o una pantalla.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué son los programas propietarios?</text> </name>
+    <name> <text>¿Para qué sirve un DAC?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué son los programas propietarios?</p>]]></text>
+      <text><![CDATA[<p>¿Para qué sirve un DAC?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -366,30 +366,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas desarrollados por empresas con ánimo de lucro.</text>
+       <text>Para convertir archivos digitales del ordenador en música o sonido analógico con alta fidelidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas desarrollados por empresas sin ánimo de lucro.</text>
+       <text>Para imprimir textos y gráficos en papel de manera permanente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas desarrollados por la comunidad de usuarios.</text>
+       <text>Para escanear imágenes y convertirlas en archivos digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que se distribuyen de forma gratuita.</text>
+       <text>Para proyectar imágenes sobre una pared o una pantalla.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cómo se venden los programas propietarios?</text> </name>
+    <name> <text>¿Qué es el tóner?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cómo se venden los programas propietarios?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es el tóner?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -404,30 +404,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Se venden al usuario con limitaciones.</text>
+       <text>Un polvo fino utilizado en las impresoras de tecnología láser.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Se venden al usuario sin limitaciones.</text>
+       <text>Una tinta líquida utilizada en las impresoras de tecnología de inyección de tinta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Se distribuyen siempre de forma gratuita.</text>
+       <text>Un componente utilizado en la tecnología térmica de impresoras.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Se venden al usuario con actualizaciones ilimitadas.</text>
+       <text>Un dispositivo utilizado en la tecnología de proyección de imágenes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué ocurre con los programas propietarios con cuota mensual cuando el usuario deja de pagar?</text> </name>
+    <name> <text>¿Cuál es la principal función del proyector de vídeo?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué ocurre con los programas propietarios con cuota mensual cuando el usuario deja de pagar?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es la principal función del proyector de vídeo?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -442,30 +442,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>El usuario ya no puede seguir utilizando el programa.</text>
+       <text>Proyectar una imagen fija o en movimiento sobre una pantalla de proyección.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El usuario puede seguir utilizando el programa sin problemas.</text>
+       <text>Imprimir textos y gráficos en papel de manera permanente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El programa se distribuye de forma gratuita.</text>
+       <text>Convertir archivos digitales del ordenador en música o sonido analógico con alta fidelidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El usuario debe pagar una multa para seguir utilizando el programa.</text>
+       <text>Escanear imágenes y convertirlas en archivos digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el freeware?</text> </name>
+    <name> <text>¿Para qué sirve el amplificador de sonido en los altavoces para ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el freeware?</p>]]></text>
+      <text><![CDATA[<p>¿Para qué sirve el amplificador de sonido en los altavoces para ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -480,30 +480,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas propietarios que se distribuyen de forma gratuita.</text>
+       <text>Aumentar el nivel de la señal de salida del ordenador y producir sonidos de alto volumen.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas desarrollados por empresas sin ánimo de lucro.</text>
+       <text>Ampliar el tamaño de los altavoces para mejorar la calidad del sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas desarrollados por la comunidad que se pueden descargar y ejecutar sin pagar.</text>
+       <text>Conectar el ordenador a la red eléctrica y evitar cortocircuitos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que se pueden descargar y ejecutar solo después de pagar.</text>
+       <text>Controlar la temperatura del ordenador y evitar sobrecalentamientos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Por qué el freeware no es considerado software libre?</text> </name>
+    <name> <text>¿Cuántos altavoces se utilizan normalmente en los sistemas estéreo para ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Por qué el freeware no es considerado software libre?</p>]]></text>
+      <text><![CDATA[<p>¿Cuántos altavoces se utilizan normalmente en los sistemas estéreo para ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -518,30 +518,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque su licencia es privativa de derechos como su estudio o modificación.</text>
+       <text>Dos altavoces, uno derecho y otro izquierdo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque no se puede distribuir libremente.</text>
+       <text>Tres altavoces, uno central y dos laterales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque solo se puede utilizar en determinadas condiciones.</text>
+       <text>Cuatro altavoces, dos frontales y dos traseros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque solo obtienes la versión mejorada si pagas por ella.</text>
+       <text>Cinco altavoces, dos frontales, dos traseros y uno central.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué son los programas adware?</text> </name>
+    <name> <text>¿Qué son los sistemas de sonido envolvente 5.1?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué son los programas adware?</p>]]></text>
+      <text><![CDATA[<p>¿Qué son los sistemas de sonido envolvente 5.1?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -556,30 +556,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas que muestran publicidad durante su ejecución.</text>
+       <text>Son sistemas de sonido que utilizan cuatro altavoces y un subwoofer para crear una experiencia de sonido envolvente.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que se distribuyen de forma gratuita.</text>
+       <text>Son sistemas de sonido que utilizan cinco altavoces y un subwoofer para crear una experiencia de sonido envolvente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que pueden retirarse del mercado sin aviso.</text>
+       <text>Son sistemas de sonido que utilizan dos altavoces estéreo y un subwoofer para crear una experiencia de sonido envolvente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas desarrollados por empresas sin ánimo de lucro.</text>
+       <text>Son sistemas de sonido que utilizan un solo altavoz para crear una experiencia de sonido envolvente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cómo obtienen dinero los desarrolladores de programas adware?</text> </name>
+    <name> <text>¿Para qué se utilizan los pilotos luminosos LED en el ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cómo obtienen dinero los desarrolladores de programas adware?</p>]]></text>
+      <text><![CDATA[<p>¿Para qué se utilizan los pilotos luminosos LED en el ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -594,30 +594,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>A través de la publicidad que muestran al usuario.</text>
+       <text>Para informar de los estados del ordenador, como por ejemplo si está encendido o si se está produciendo la carga de la batería.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>A través de la venta del programa.</text>
+       <text>Para mejorar la calidad del sonido de los altavoces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>A través de las suscripciones de los usuarios.</text>
+       <text>Para aumentar la velocidad de procesamiento del ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>A través de la información de los usuarios.</text>
+       <text>Para permitir la conexión del ordenador a una red de alta velocidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Por qué el adware no está bien visto?</text> </name>
+    <name> <text>¿Dónde suelen estar los pilotos luminosos LED en el ordenador?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Por qué el adware no está bien visto?</p>]]></text>
+      <text><![CDATA[<p>¿Dónde suelen estar los pilotos luminosos LED en el ordenador?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -632,30 +632,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque está asociado al malware y a la grabación de actividad del usuario.</text>
+       <text>En las cajas de ordenador y los teclados.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque tiene limitaciones de uso.</text>
+       <text>En los monitores y los ratones.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque no se puede distribuir libremente.</text>
+       <text>En los cables de conexión y los adaptadores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque no es compatible con todos los sistemas operativos.</text>
+       <text>En las tarjetas de sonido y las tarjetas gráficas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál de estos programas es un ejemplo de software propietario?</text> </name>
+    <name> <text>¿Para qué se utiliza el motor de vibración en los smartphones?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál de estos programas es un ejemplo de software propietario?</p>]]></text>
+      <text><![CDATA[<p>¿Para qué se utiliza el motor de vibración en los smartphones?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -670,30 +670,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Adobe Acrobat Reader.</text>
+       <text>Indicar eventos de forma silenciosa.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>LibreOffice.</text>
+       <text>Reproducir música.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Firefox.</text>
+       <text>Realizar llamadas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>GNU/Linux.</text>
+       <text>Sacar fotografías.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué caracteriza a los programas libres?</text> </name>
+    <name> <text>¿Qué es la línea braille?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué caracteriza a los programas libres?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es la línea braille?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -708,30 +708,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Su código fuente es libre y se puede modificar sin restricciones.</text>
+       <text>Un periférico de salida para personas con discapacidad visual.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas gratuitos pero su código fuente no es libre.</text>
+       <text>Un periférico de entrada para personas con discapacidad visual.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que se ejecutan en la nube y pertenecen a una empresa.</text>
+       <text>Un periférico de salida para personas con discapacidad auditiva.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas propietarios que se venden al usuario.</text>
+       <text>Un periférico de entrada para personas con discapacidad auditiva.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué desventaja presentan los programas en la nube?</text> </name>
+    <name> <text>¿Qué función tiene la pantalla táctil?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué desventaja presentan los programas en la nube?</p>]]></text>
+      <text><![CDATA[<p>¿Qué función tiene la pantalla táctil?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -746,30 +746,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Se pierde el control sobre la aplicación.</text>
+       <text>Permite tanto la salida como la entrada de datos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Se deben instalar en el ordenador para poder ejecutarlos.</text>
+       <text>Solo permite la salida de datos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No están actualizados a la última versión.</text>
+       <text>Solo permite la entrada de datos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Tienen más posibilidades de tener errores al ejecutarse.</text>
+       <text>No permite ni la salida ni la entrada de datos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué tipo de programas son Word, Excel y Powerpoint de Microsoft?</text> </name>
+    <name> <text>¿Qué detectores tiene la pantalla táctil?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué tipo de programas son Word, Excel y Powerpoint de Microsoft?</p>]]></text>
+      <text><![CDATA[<p>¿Qué detectores tiene la pantalla táctil?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -784,30 +784,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Propietarios o privativos.</text>
+       <text>Detectores que permiten conocer la posición del dedo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Freeware.</text>
+       <text>Detectores de movimiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>De licencia libre.</text>
+       <text>Detectores de sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Adware.</text>
+       <text>Detectores de temperatura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué caracteriza a los programas freeware?</text> </name>
+    <name> <text>¿Qué nivel de ruido tiene el motor de vibración en los smartphones?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué caracteriza a los programas freeware?</p>]]></text>
+      <text><![CDATA[<p>¿Qué nivel de ruido tiene el motor de vibración en los smartphones?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -822,30 +822,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>No tienen costo y se pueden descargar sin pagar.</text>
+       <text>Muy bajo</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que muestran publicidad durante su ejecución.</text>
+       <text>Muy alto</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que se pueden modificar sin restricciones.</text>
+       <text>Medio</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que se ejecutan en la nube.</text>
+       <text>Variable</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué ventaja presentan los programas en la nube?</text> </name>
+    <name> <text>¿Qué es una impresora multifunción?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué ventaja presentan los programas en la nube?</p>]]></text>
+      <text><![CDATA[<p>¿Qué es una impresora multifunción?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -860,30 +860,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Están siempre actualizados a la última versión.</text>
+       <text>Una combinación de impresora y escáner.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Se pueden modificar y distribuir libremente.</text>
+       <text>Un dispositivo que solo permite la impresión de documentos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No necesitan conexión a internet para ejecutarse.</text>
+       <text>Un periférico de salida que permite imprimir textos y gráficos en papel.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas gratuitos.</text>
+       <text>Un dispositivo que solo permite la digitalización de documentos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el adware?</text> </name>
+    <name> <text>¿Para qué se utiliza un casco de realidad virtual?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el adware?</p>]]></text>
+      <text><![CDATA[<p>¿Para qué se utiliza un casco de realidad virtual?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -898,30 +898,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas que muestran publicidad durante su ejecución.</text>
+       <text>Para reproducir imágenes creadas por ordenador sobre una pantalla muy cercana a los ojos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas gratuitos que consiguen dinero a través de la publicidad.</text>
+       <text>Para aumentar el nivel de la señal de salida del ordenador y producir sonidos de alto volumen.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas de licencia libre.</text>
+       <text>Para informar de los estados del ordenador a través de pequeñas luces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas propietarios que se venden al usuario.</text>
+       <text>Para convertir archivos digitales del ordenador en música o sonido analógico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué tipo de programas son Minecraft y Clash Royale?</text> </name>
+    <name> <text>¿Qué funciones tiene una impresora multifunción?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué tipo de programas son Minecraft y Clash Royale?</p>]]></text>
+      <text><![CDATA[<p>¿Qué funciones tiene una impresora multifunción?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -936,30 +936,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Propietarios o privativos.</text>
+       <text>Impresión y escaneo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Freeware.</text>
+       <text>Impresión y reproducción de sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>De licencia libre.</text>
+       <text>Escaneo y reproducción de sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Adware.</text>
+       <text>Impresión y conversión de archivos digitales a analógicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es la computación en la nube?</text> </name>
+    <name> <text>¿Qué sensación experimenta el usuario al utilizar un casco de realidad virtual?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es la computación en la nube?</p>]]></text>
+      <text><![CDATA[<p>¿Qué sensación experimenta el usuario al utilizar un casco de realidad virtual?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -974,30 +974,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas que se ejecutan en el servidor web de la empresa que ha programado la aplicación.</text>
+       <text>Encontrarse inmerso en la realidad virtual que muestra el dispositivo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que se ejecutan en el ordenador del usuario.</text>
+       <text>Experimentar un evento de forma silenciosa gracias al motor de vibración.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que no tienen costo y se pueden descargar sin pagar.</text>
+       <text>Ver información del ordenador proyectada sobre una pared o pantalla de proyección.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programas que muestran publicidad durante su ejecución.</text>
+       <text>Imprimir textos y gráficos en papel de manera permanente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué caracteriza a los programas propietarios?</text> </name>
+    <name> <text>¿Qué característica tiene el sonido que se reproduce en un casco de realidad virtual?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué caracteriza a los programas propietarios?</p>]]></text>
+      <text><![CDATA[<p>¿Qué característica tiene el sonido que se reproduce en un casco de realidad virtual?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1012,30 +1012,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Son desarrollados por compañías con ánimo de lucro y limitan los derechos de uso, distribución y modificación.</text>
+       <text>Estéreo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas gratuitos y su código fuente es libre.</text>
+       <text>Monoaural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que se ejecutan en la nube.</text>
+       <text>De alta fidelidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Son programas que muestran publicidad durante su ejecución.</text>
+       <text>De baja calidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es la suite ofimática LibreOffice?</text> </name>
+    <name> <text>¿Cómo se acompasan las imágenes presentadas por un casco de realidad virtual a los movimientos de cabeza del usuario?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es la suite ofimática LibreOffice?</p>]]></text>
+      <text><![CDATA[<p>¿Cómo se acompasan las imágenes presentadas por un casco de realidad virtual a los movimientos de cabeza del usuario?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1050,30 +1050,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un conjunto de programas libres que se ejecutan en el ordenador del usuario.</text>
+       <text>Gracias a los sensores de posición y movimiento que tiene el dispositivo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un conjunto de programas propietarios que se venden al usuario.</text>
+       <text>Mediante el uso de un amplificador de sonido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un conjunto de programas freeware que muestran publicidad durante su ejecución.</text>
+       <text>A través de un motor de vibración.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un conjunto de programas adware que se ejecutan en la nube.</text>
+       <text>Con una línea braille.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué es el copyright?</text> </name>
+    <name> <text>¿Qué tipo de periférico de salida es una línea braille?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué es el copyright?</p>]]></text>
+      <text><![CDATA[<p>¿Qué tipo de periférico de salida es una línea braille?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1088,30 +1088,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un sistema legal que protege los derechos de propiedad intelectual de los autores.</text>
+       <text>Transforma texto del ordenador en una serie de puntos braille para que las personas con discapacidad visual puedan leer en ella.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un sistema que permite el uso libre de las obras.</text>
+       <text>Permite convertir los archivos digitales del ordenador en música o sonido analógico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una licencia ofrecida por una fundación sin ánimo de lucro.</text>
+       <text>Proyecta una imagen fija o en movimiento sobre una pared o una pantalla de proyección.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una forma de compartir conocimientos y cultura libremente.</text>
+       <text>Informa de los estados del ordenador a través de pequeñas luces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuánto tiempo están protegidas las obras por el copyright?</text> </name>
+    <name> <text>¿Cuál es la función principal de la tarjeta de sonido?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuánto tiempo están protegidas las obras por el copyright?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es la función principal de la tarjeta de sonido?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1126,30 +1126,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Hasta 70 años después de la muerte del autor.</text>
+       <text>Transformar señales analógicas en señales digitales y viceversa.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Hasta 50 años después de la muerte del autor.</text>
+       <text>Procesar señales digitales para que el ordenador reproduzca sonidos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Hasta 100 años después de la muerte del autor.</text>
+       <text>Aumentar el nivel de la señal de salida del ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No hay restricciones de uso para las obras protegidas por copyright.</text>
+       <text>Amplificar y enviar señales analógicas a unos altavoces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué son las licencias Creative Commons?</text> </name>
+    <name> <text>¿Qué función tiene el ADC en la tarjeta de sonido?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué son las licencias Creative Commons?</p>]]></text>
+      <text><![CDATA[<p>¿Qué función tiene el ADC en la tarjeta de sonido?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1164,30 +1164,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un conjunto de licencias que permiten proteger los derechos de autor, compatibles con la cultura libre.</text>
+       <text>Transformar señales analógicas en señales digitales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un sistema legal que protege los derechos de propiedad intelectual de los autores restringiendo muchas libertades.</text>
+       <text>Amplificar señales analógicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una forma de compartir conocimientos y cultura sin restricciones de ningún tipo.</text>
+       <text>Procesar señales digitales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una licencia ofrecida por una fundación sin ánimo de lucro.</text>
+       <text>Transformar señales digitales en señales analógicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué significa la licencia Creative Commons BY-SA?</text> </name>
+    <name> <text>¿Qué función tiene el DAC en la tarjeta de sonido?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué significa la licencia Creative Commons BY-SA?</p>]]></text>
+      <text><![CDATA[<p>¿Qué función tiene el DAC en la tarjeta de sonido?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1202,250 +1202,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Atribución y compartir igual.</text>
+       <text>Convertir señales digitales a señales analógicas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Atribución y no comercial.</text>
+       <text>Procesar señales analógicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No comercial y Sin obras derivadas.</text>
+       <text>Transformar señales digitales en señales analógicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No comercial y compartir igual.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué permite hacer la licencia Creative Commons BY-SA?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué permite hacer la licencia Creative Commons BY-SA?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Utilizar, copiar, distribuir y modificar la obra libremente.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Solo utilizar la obra original sin modificarla.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Solo utilizar la obra original y compartir la obra derivada.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Utilizar la obra original y la obra derivada libremente.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Cuál es la licencia más utilizada por la enciclopedia. libre y en línea Wikipedia?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es la licencia más utilizada por la enciclopedia. libre y en línea Wikipedia?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Creative Commons BY-SA.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Creative Commons BY-NC-SA.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Creative Commons BY-ND.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Copyright.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué son las licencias copyleft?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué son las licencias copyleft?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Licencias que permiten casi todos los derechos, manteniendo la exigencia de que la obra siga siendo libre.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Licencias que limitan todos los derechos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Licencias que solo permiten el uso de la obra original sin modificaciones.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Licencias que no permiten compartir la obra.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Cuándo está una obra protegida por copyright?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Cuándo está una obra protegida por copyright?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Cualquier obra original que no especifique nada.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Solo las obras que se especifican como protegidas con copyright.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Solo las obras técnicas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Cualquier obra de dominio público.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Quién tiene el control exclusivo sobre la explotación de sus obras en el sistema copyright?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Quién tiene el control exclusivo sobre la explotación de sus obras en el sistema copyright?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Los autores de las obras.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Los editores de las obras.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Las fundaciones sin ánimo de lucro.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Los usuarios que utilizan la obra.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué objetivo persigue el sistema copyright?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué objetivo persigue el sistema copyright?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Proteger los derechos de los autores y fomentar la creación de nuevas obras.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Permitir el uso libre de las obras.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Fomentar que el conocimiento y la cultura se compartan libremente.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Proteger los derechos de propiedad intelectual de los usuarios que utilizan la obra.</text>
+       <text>Amplificar señales analógicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
