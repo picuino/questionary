@@ -7,9 +7,9 @@
     <idnumber></idnumber>
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué año se lanzó el Blu-ray?</text> </name>
+    <name> <text>¿Cuál es el costo aproximado de un disco de Blu-ray?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué año se lanzó el Blu-ray?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es el costo aproximado de un disco de Blu-ray?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -24,88 +24,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>1985.0</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>1996.0</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>2005.0</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>12 cm.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>10 cm.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>14 cm.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Cuál es el costo del disco de Blu-ray?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es el costo del disco de Blu-ray?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>0,40 €.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
        <text>0,90 €.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>0,40 €.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -115,7 +39,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>100 €.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -138,12 +62,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>0,750 gigabytes.</text>
+       <text>4,7 gigabytes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>4,7 gigabytes.</text>
+       <text>0,750 gigabytes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -153,7 +77,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>50 gigabytes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -176,12 +100,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tenían más capacidad que los discos duros.</text>
+       <text>Tenían más capacidad que los discos duros y bajo precio.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Eran más baratos que los discos duros.</text>
+       <text>Eran más rápidos que los discos duros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -214,7 +138,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La capacidad de los discos duros ha crecido y su costo de almacenamiento ha bajado.</text>
+       <text>La capacidad de los discos duros ha crecido y su costo de almacenamiento ha bajado mucho.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -305,15 +229,15 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se menciona en el texto.</text>
+       <text>200 €.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál es el rango de precios por gigabyte en las memorias USB según el texto?</text> </name>
+    <name> <text>¿Cuál es el rango de precios por gigabyte en las memorias USB de 2022?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es el rango de precios por gigabyte en las memorias USB según el texto?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es el rango de precios por gigabyte en las memorias USB de 2022?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -333,17 +257,17 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Entre 0,53 €/GB y 0,036 €/GB.</text>
+       <text>Entre 0,50 €/GB y 0,90 €/GB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Entre 0,40 €/GB y 0,90 €/GB.</text>
+       <text>Entre 1 €/GB y 5 €/GB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se menciona en el texto.</text>
+       <text>Entre 5 €/GB y 25 €/GB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -366,8 +290,13 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque los discos ópticos son más caros que los programas descargados por internet.</text>
+       <text>Porque la velocidad de descarga por internet ha aumentado mucho y resulta más barata y cómoda que un disco óptico.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque la velocidad de descarga por internet ha disminuido mucho y resulta más barata y cómoda que un disco óptico.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
@@ -376,12 +305,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Porque las redes de fibra óptica permiten una transmisión rápida y eficiente de datos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>No se menciona en el texto.</text>
+       <text>Porque los discos ópticos son una alternativa más cómoda y rápida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -425,9 +349,9 @@
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál es una de las aplicaciones que ha asumido las memorias USB en lugar de los discos ópticos?</text> </name>
+    <name> <text>¿Cuál es una de las aplicaciones que han asumido las memorias USB en lugar de los discos ópticos?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es una de las aplicaciones que ha asumido las memorias USB en lugar de los discos ópticos?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es una de las aplicaciones que han asumido las memorias USB en lugar de los discos ópticos?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -442,12 +366,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La venta de programas grabados en discos ópticos.</text>
+       <text>La reproducción de música en aparatos mp3.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>La reproducción de música en reproductores de CD.</text>
+       <text>La venta de programas grabados en discos ópticos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -457,7 +381,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se menciona en el texto.</text>
+       <text>Ninguna de las anteriores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -480,7 +404,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>En una cinta de plástico impregnada en su superficie con material magnético.</text>
+       <text>En una fina cinta de plástico impregnada en su superficie con material magnético.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -523,12 +447,12 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Su alta velocidad de transferencia de datos.</text>
+       <text>Su baja velocidad de transferencia de datos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Su capacidad limitada de almacenamiento.</text>
+       <text>Su baja capacidad de almacenamiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -571,7 +495,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Su velocidad de transferencia de datos.</text>
+       <text>Su alta velocidad de transferencia de datos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -756,7 +680,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Discos ópticos.</text>
+       <text>Cintas magnéticas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -767,9 +691,9 @@
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cómo se suelen representar los iconos de grabación de datos en disco en la actualidad?</text> </name>
+    <name> <text>¿Cómo se suelen representar los iconos de grabación de datos en disco en los programas actuales?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cómo se suelen representar los iconos de grabación de datos en disco en la actualidad?</p>]]></text>
+      <text><![CDATA[<p>¿Cómo se suelen representar los iconos de grabación de datos en disco en los programas actuales?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -784,22 +708,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Con un disco flexible de 3 1/2 pulgadas.</text>
+       <text>Con el icono de un disco flexible de 3 1/2 pulgadas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Con un disco duro.</text>
+       <text>Con el icono de un disco duro de  5 1/4 pulgadas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Con un disco óptico.</text>
+       <text>Con el icono de un disco óptico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Con una memoria USB.</text>
+       <text>Con el icono de una memoria USB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -837,7 +761,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Material magnético.</text>
+       <text>Material oleoso.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -870,12 +794,12 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un dispositivo interno de almacenamiento en el ordenador.</text>
+       <text>Un dispositivo interno de almacenamiento interno del ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un tipo de almacenamiento en la nube.</text>
+       <text>Un tipo de almacenamiento externo óptico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1071,44 +995,6 @@
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué ventaja ofrece un servidor NAS en comparación con el almacenamiento en red convencional?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué ventaja ofrece un servidor NAS en comparación con el almacenamiento en red convencional?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Almacenamiento centralizado y compartido de datos.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Mayor velocidad de transferencia de datos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Mayor capacidad de almacenamiento.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Acceso remoto desde cualquier parte del mundo.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
     <name> <text>¿Qué es la nube?</text> </name>
     <questiontext format="html">
       <text><![CDATA[<p>¿Qué es la nube?</p>]]></text>
@@ -1126,7 +1012,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un centro de datos con multitud de ordenadores que pueden actuar como servidores de datos o aplicaciones online.</text>
+       <text>Un centro de datos con multitud de ordenadores que pueden actuar como servidores de datos o de aplicaciones online.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -1141,7 +1027,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un sistema operativo.</text>
+       <text>Un sistema operativo de red.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1261,9 +1147,9 @@
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué tipo de servicio ofrece Netflix a través de la nube?</text> </name>
+    <name> <text>¿Qué tipo de servicio ofrece Netflix a través de la nube de Amazon?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué tipo de servicio ofrece Netflix a través de la nube?</p>]]></text>
+      <text><![CDATA[<p>¿Qué tipo de servicio ofrece Netflix a través de la nube de Amazon?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>

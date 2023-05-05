@@ -60,9 +60,9 @@
     "image": "",
     "choices": [
        "Matriz redundante de discos independientes.",
-       "Sistema operativo.",
-       "Unidad de estado s\u00f3lido.",
-       "Programa de monitorizaci\u00f3n."
+       "Sistema operativo de red local.",
+       "Unidad de estado s\u00f3lido dedicada.",
+       "Programa de monitorizaci\u00f3n de unidad de disco."
     ]
   },
   {
@@ -71,9 +71,9 @@
     "image": "",
     "choices": [
        "Para aumentar las prestaciones de varias unidades de disco duro o de estado s\u00f3lido.",
+       "Para aumentar la capacidad de una unidad de disco duro o de una unidad de estado s\u00f3lido.",
        "Para detectar fallos en la memoria RAM.",
-       "Para realizar copias de seguridad.",
-       "Para aumentar la capacidad de almacenamiento."
+       "Para detectar de forma temprana los fallos de una unidad de disco duro o de estado s\u00f3lido."
     ]
   },
   {
@@ -84,7 +84,7 @@
        "Una controladora RAID especializada.",
        "Una controladora de dispositivos USB.",
        "Una controladora de audio.",
-       "Una controladora de red."
+       "Una controladora de red especializada."
     ]
   },
   {
@@ -92,32 +92,32 @@
     "question": "\u00bfQu\u00e9 ventaja proporciona el uso de un sistema RAID?",
     "image": "",
     "choices": [
-       "Aumento de la velocidad de transferencia total.",
-       "Reducci\u00f3n del precio de los discos duros.",
-       "Aumento de la capacidad de almacenamiento.",
-       "Mejora de la calidad de imagen de los v\u00eddeos."
+       "Aumento de la velocidad de transferencia total y aumento de la capacidad total de almacenamiento.",
+       "Aumento de la velocidad de transferencia total y disminuci\u00f3n de la capacidad total de almacenamiento.",
+       "Disminuci\u00f3n de la velocidad de transferencia total y aumento de la capacidad total de almacenamiento.",
+       "Reducci\u00f3n del precio de los discos duros."
     ]
   },
   {
-    "title": "\u00bfQu\u00e9 se utiliza en niveles RAID posteriores para proteger los datos en caso de fallo de una unidad?",
-    "question": "\u00bfQu\u00e9 se utiliza en niveles RAID posteriores para proteger los datos en caso de fallo de una unidad?",
+    "title": "\u00bfQu\u00e9 tecnolog\u00eda utiliza un sistema RAID 5 para proteger los datos en caso de fallo de una unidad?",
+    "question": "\u00bfQu\u00e9 tecnolog\u00eda utiliza un sistema RAID 5 para proteger los datos en caso de fallo de una unidad?",
     "image": "",
     "choices": [
-       "Un disco para almacenar datos redundantes de paridad.",
-       "Un disco para realizar copias de seguridad.",
-       "Una unidad de estado s\u00f3lido.",
-       "Una unidad \u00f3ptica."
+       "Se utiliza uno de los discos RAID para almacenar datos redundantes de paridad.",
+       "Se utiliza uno de los discos RAID para realizar backup de seguridad.",
+       "Se utiliza una unidad de estado s\u00f3lido porque es m\u00e1s r\u00e1pida que los discos duros tradicionales.",
+       "Se utiliza una unidad \u00f3ptica."
     ]
   },
   {
-    "title": "\u00bfQu\u00e9 sucede si una unidad en un sistema RAID resulta da\u00f1ada?",
-    "question": "\u00bfQu\u00e9 sucede si una unidad en un sistema RAID resulta da\u00f1ada?",
+    "title": "\u00bfQu\u00e9 sucede si una unidad en un sistema RAID 5 resulta da\u00f1ada?",
+    "question": "\u00bfQu\u00e9 sucede si una unidad en un sistema RAID 5 resulta da\u00f1ada?",
     "image": "",
     "choices": [
-       "Se puede cambiar por otra nueva y el sistema recuperar\u00e1 autom\u00e1ticamente los datos perdidos a partir de los datos redundantes.",
-       "Los datos se pierden de forma permanente.",
+       "Se puede cambiar por otra nueva y el sistema recuperar\u00e1 autom\u00e1ticamente los datos perdidos a partir de los dem\u00e1s discos.",
+       "Los datos se perder\u00e1n de forma permanente a no ser que un laboratorio consiga recuperarlos del disco da\u00f1ado.",
        "La velocidad de transferencia total disminuye.",
-       "El sistema operativo deja de funcionar."
+       "El sistema operativo dejar\u00e1 de funcionar."
     ]
   },
   {
@@ -136,9 +136,9 @@
     "question": "\u00bfCu\u00e1l es la funci\u00f3n de un b\u00fafer de escritura?",
     "image": "",
     "choices": [
-       "Almacenar varios megabytes de datos para enviarlos en r\u00e1fagas r\u00e1pidas al procesador y escribirlos en el dispositivo de almacenamiento a menor velocidad.",
-       "Leer los datos enviados por el procesador y almacenarlos en un dispositivo de almacenamiento externo.",
-       "Acelerar el procesamiento de datos en un dispositivo de almacenamiento externo.",
+       "Almacenar r\u00e1pidamente los datos que llegan desde el procesador para escribirlos poco a poco en el dispositivo de almacenamiento.",
+       "Almacenar r\u00e1pidamente los datos que llegan desde un dispositivo de almacenamiento externo para leerlos poco a poco por el procesador.",
+       "Acelerar la velocidad final de escritura de un dispositivo de almacenamiento externo.",
        "Acelerar la lectura de datos enviados por un dispositivo de entrada."
     ]
   },
@@ -148,9 +148,9 @@
     "image": "",
     "choices": [
        "Dispositivos de entrada como teclados o ratones.",
-       "Dispositivos de almacenamiento como discos duros o pendrives.",
        "Dispositivos de audio como altavoces o auriculares.",
-       "Dispositivos de red como routers o switches."
+       "Dispositivos de v\u00eddeo como monitores y proyectores.",
+       "Dispositivos de impresi\u00f3n como impresoras l\u00e1ser o de inyecci\u00f3n de tinta."
     ]
   },
   {
@@ -161,18 +161,7 @@
        "Acelerar la transferencia de datos y evitar que se pierdan durante una transferencia irregular.",
        "Controlar el acceso a los dispositivos de entrada/salida.",
        "Realizar operaciones de procesamiento complejas.",
-       "Proteger los datos almacenados en los dispositivos de entrada/salida."
-    ]
-  },
-  {
-    "title": "\u00bfC\u00f3mo ayuda un b\u00fafer de datos a evitar que un dispositivo pierda datos durante una transferencia irregular?",
-    "question": "\u00bfC\u00f3mo ayuda un b\u00fafer de datos a evitar que un dispositivo pierda datos durante una transferencia irregular?",
-    "image": "",
-    "choices": [
-       "Almacenando temporalmente los datos en un espacio de memoria temporal.",
-       "Procesando los datos antes de enviarlos al dispositivo de almacenamiento.",
-       "Comprimiendo los datos antes de enviarlos al dispositivo de almacenamiento.",
-       "Enviando los datos en r\u00e1fagas r\u00e1pidas y de manera continua."
+       "Proteger ante el deterioro los datos almacenados en los dispositivos de entrada/salida."
     ]
   },
   {
@@ -220,35 +209,13 @@
     ]
   },
   {
-    "title": "\u00bfQu\u00e9 tipo de dispositivos de almacenamiento se pueden desconectar con facilidad del ordenador?",
-    "question": "\u00bfQu\u00e9 tipo de dispositivos de almacenamiento se pueden desconectar con facilidad del ordenador?",
+    "title": "\u00bfQu\u00e9 ley influye en el aumento de la capacidad m\u00e1xima de las memorias USB con el tiempo?",
+    "question": "\u00bfQu\u00e9 ley influye en el aumento de la capacidad m\u00e1xima de las memorias USB con el tiempo?",
     "image": "",
     "choices": [
-       "Externos.",
-       "Internos.",
-       "De red.",
-       "\u00d3pticos."
-    ]
-  },
-  {
-    "title": "\u00bfQu\u00e9 tipo de tecnolog\u00eda utiliza la memoria USB para conectarse al ordenador?",
-    "question": "\u00bfQu\u00e9 tipo de tecnolog\u00eda utiliza la memoria USB para conectarse al ordenador?",
-    "image": "",
-    "choices": [
-       "USB.",
-       "HDMI.",
-       "Ethernet.",
-       "VGA."
-    ]
-  },
-  {
-    "title": "\u00bfQu\u00e9 ley influye en el aumento de la capacidad m\u00e1xima de las memorias USB?",
-    "question": "\u00bfQu\u00e9 ley influye en el aumento de la capacidad m\u00e1xima de las memorias USB?",
-    "image": "",
-    "choices": [
+       "Ley de Moore.",
        "Ley de Boyle-Mariotte.",
        "Ley de Faraday.",
-       "Ley de Moore.",
        "Ley de Newton."
     ]
   },
@@ -257,10 +224,10 @@
     "question": "\u00bfCu\u00e1l es una desventaja com\u00fan de la velocidad de escritura de la memoria USB en comparaci\u00f3n con un disco duro?",
     "image": "",
     "choices": [
-       "Es mucho menor.",
-       "Es mucho mayor.",
-       "Es igual.",
-       "No hay diferencia significativa."
+       "Es menor.",
+       "Es mayor.",
+       "No hay diferencia significativa.",
+       "No se pueden comparar."
     ]
   },
   {
@@ -268,21 +235,10 @@
     "question": "\u00bfEn qu\u00e9 se basa la tecnolog\u00eda de la memoria en tarjeta SD?",
     "image": "",
     "choices": [
-       "En la misma tecnolog\u00eda que las unidades de memoria USB.",
+       "En la tecnolog\u00eda de las unidades de memoria USB.",
        "En la tecnolog\u00eda de los discos duros.",
        "En la tecnolog\u00eda de las cintas magn\u00e9ticas.",
        "En la tecnolog\u00eda de los discos \u00f3pticos."
-    ]
-  },
-  {
-    "title": "\u00bfQu\u00e9 est\u00e1ndar de conexi\u00f3n es m\u00e1s sencillo en la tarjeta SD?",
-    "question": "\u00bfQu\u00e9 est\u00e1ndar de conexi\u00f3n es m\u00e1s sencillo en la tarjeta SD?",
-    "image": "",
-    "choices": [
-       "El est\u00e1ndar de conexi\u00f3n de la tarjeta SD.",
-       "El est\u00e1ndar de conexi\u00f3n USB.",
-       "El est\u00e1ndar de conexi\u00f3n HDMI.",
-       "El est\u00e1ndar de conexi\u00f3n Ethernet."
     ]
   },
   {
@@ -315,7 +271,7 @@
        "0,750 gigabytes.",
        "4,7 gigabytes.",
        "25 gigabytes.",
-       "No se especifica en el texto."
+       "8,0 gigabytes."
     ]
   },
   {
@@ -326,29 +282,29 @@
        "Rojo (650 nm).",
        "Infrarrojo (780 nm).",
        "Violeta (405 nm).",
-       "No se especifica en el texto."
+       "Ultravioleta (325 nm)."
     ]
   },
   {
-    "title": "\u00bfCu\u00e1l es el costo de la unidad de lectura/escritura de un Blu-ray?",
-    "question": "\u00bfCu\u00e1l es el costo de la unidad de lectura/escritura de un Blu-ray?",
+    "title": "\u00bfCu\u00e1l es el costo aproximado de la unidad de lectura/escritura de un Blu-ray?",
+    "question": "\u00bfCu\u00e1l es el costo aproximado de la unidad de lectura/escritura de un Blu-ray?",
     "image": "",
     "choices": [
        "100 \u20ac.",
        "18 \u20ac.",
-       "0,90 \u20ac.",
-       "No se especifica en el texto."
+       "9 \u20ac.",
+       "30 \u20ac."
     ]
   },
   {
-    "title": "\u00bfCu\u00e1l es el costo por gigabyte de un CD-ROM?",
-    "question": "\u00bfCu\u00e1l es el costo por gigabyte de un CD-ROM?",
+    "title": "\u00bfCu\u00e1l es el costo aproximado por gigabyte de un CD-ROM?",
+    "question": "\u00bfCu\u00e1l es el costo aproximado por gigabyte de un CD-ROM?",
     "image": "",
     "choices": [
        "0,53 \u20ac/GB.",
        "0,19 \u20ac/GB.",
        "0,036 \u20ac/GB.",
-       "No se especifica en el texto."
+       "0,63 \u20ac/GB."
     ]
   },
   {
@@ -360,6 +316,28 @@
        "1,4 megabytes/s.",
        "4,5 megabytes/s.",
        "No se especifica en el texto."
+    ]
+  },
+  {
+    "title": "\u00bfQu\u00e9 a\u00f1o se lanz\u00f3 el Blu-ray?",
+    "question": "\u00bfQu\u00e9 a\u00f1o se lanz\u00f3 el Blu-ray?",
+    "image": "",
+    "choices": [
+       2005.0,
+       2015.0,
+       1985.0,
+       1996.0
+    ]
+  },
+  {
+    "title": "\u00bfCu\u00e1l es el di\u00e1metro de los discos utilizados en los dispositivos de almacenamiento \u00f3ptico?",
+    "question": "\u00bfCu\u00e1l es el di\u00e1metro de los discos utilizados en los dispositivos de almacenamiento \u00f3ptico?",
+    "image": "",
+    "choices": [
+       "12 cm.",
+       "10 cm.",
+       "14 cm.",
+       "16 cm."
     ]
   }
 ]

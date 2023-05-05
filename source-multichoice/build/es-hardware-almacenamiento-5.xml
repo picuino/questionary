@@ -219,17 +219,17 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Sistema operativo.</text>
+       <text>Sistema operativo de red local.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Unidad de estado sólido.</text>
+       <text>Unidad de estado sólido dedicada.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Programa de monitorización.</text>
+       <text>Programa de monitorización de unidad de disco.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -257,17 +257,17 @@
     </answer>
     
     <answer fraction="0" format="html">
+       <text>Para aumentar la capacidad de una unidad de disco duro o de una unidad de estado sólido.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
        <text>Para detectar fallos en la memoria RAM.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Para realizar copias de seguridad.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Para aumentar la capacidad de almacenamiento.</text>
+       <text>Para detectar de forma temprana los fallos de una unidad de disco duro o de estado sólido.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -305,7 +305,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una controladora de red.</text>
+       <text>Una controladora de red especializada.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -328,8 +328,18 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Aumento de la velocidad de transferencia total.</text>
+       <text>Aumento de la velocidad de transferencia total y aumento de la capacidad total de almacenamiento.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumento de la velocidad de transferencia total y disminución de la capacidad total de almacenamiento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Disminución de la velocidad de transferencia total y aumento de la capacidad total de almacenamiento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
@@ -337,21 +347,11 @@
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
-       <text>Aumento de la capacidad de almacenamiento.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Mejora de la calidad de imagen de los vídeos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué se utiliza en niveles RAID posteriores para proteger los datos en caso de fallo de una unidad?</text> </name>
+    <name> <text>¿Qué tecnología utiliza un sistema RAID 5 para proteger los datos en caso de fallo de una unidad?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué se utiliza en niveles RAID posteriores para proteger los datos en caso de fallo de una unidad?</p>]]></text>
+      <text><![CDATA[<p>¿Qué tecnología utiliza un sistema RAID 5 para proteger los datos en caso de fallo de una unidad?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -366,30 +366,30 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un disco para almacenar datos redundantes de paridad.</text>
+       <text>Se utiliza uno de los discos RAID para almacenar datos redundantes de paridad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Un disco para realizar copias de seguridad.</text>
+       <text>Se utiliza uno de los discos RAID para realizar backup de seguridad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una unidad de estado sólido.</text>
+       <text>Se utiliza una unidad de estado sólido porque es más rápida que los discos duros tradicionales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Una unidad óptica.</text>
+       <text>Se utiliza una unidad óptica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué sucede si una unidad en un sistema RAID resulta dañada?</text> </name>
+    <name> <text>¿Qué sucede si una unidad en un sistema RAID 5 resulta dañada?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué sucede si una unidad en un sistema RAID resulta dañada?</p>]]></text>
+      <text><![CDATA[<p>¿Qué sucede si una unidad en un sistema RAID 5 resulta dañada?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -404,12 +404,12 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Se puede cambiar por otra nueva y el sistema recuperará automáticamente los datos perdidos a partir de los datos redundantes.</text>
+       <text>Se puede cambiar por otra nueva y el sistema recuperará automáticamente los datos perdidos a partir de los demás discos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Los datos se pierden de forma permanente.</text>
+       <text>Los datos se perderán de forma permanente a no ser que un laboratorio consiga recuperarlos del disco dañado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -419,7 +419,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>El sistema operativo deja de funcionar.</text>
+       <text>El sistema operativo dejará de funcionar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -480,17 +480,17 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Almacenar varios megabytes de datos para enviarlos en ráfagas rápidas al procesador y escribirlos en el dispositivo de almacenamiento a menor velocidad.</text>
+       <text>Almacenar rápidamente los datos que llegan desde el procesador para escribirlos poco a poco en el dispositivo de almacenamiento.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Leer los datos enviados por el procesador y almacenarlos en un dispositivo de almacenamiento externo.</text>
+       <text>Almacenar rápidamente los datos que llegan desde un dispositivo de almacenamiento externo para leerlos poco a poco por el procesador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Acelerar el procesamiento de datos en un dispositivo de almacenamiento externo.</text>
+       <text>Acelerar la velocidad final de escritura de un dispositivo de almacenamiento externo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -523,17 +523,17 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Dispositivos de almacenamiento como discos duros o pendrives.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
        <text>Dispositivos de audio como altavoces o auriculares.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Dispositivos de red como routers o switches.</text>
+       <text>Dispositivos de vídeo como monitores y proyectores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Dispositivos de impresión como impresoras láser o de inyección de tinta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -571,45 +571,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Proteger los datos almacenados en los dispositivos de entrada/salida.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Cómo ayuda un búfer de datos a evitar que un dispositivo pierda datos durante una transferencia irregular?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Cómo ayuda un búfer de datos a evitar que un dispositivo pierda datos durante una transferencia irregular?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Almacenando temporalmente los datos en un espacio de memoria temporal.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Procesando los datos antes de enviarlos al dispositivo de almacenamiento.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Comprimiendo los datos antes de enviarlos al dispositivo de almacenamiento.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Enviando los datos en ráfagas rápidas y de manera continua.</text>
+       <text>Proteger ante el deterioro los datos almacenados en los dispositivos de entrada/salida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -767,9 +729,9 @@
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Qué tipo de dispositivos de almacenamiento se pueden desconectar con facilidad del ordenador?</text> </name>
+    <name> <text>¿Qué ley influye en el aumento de la capacidad máxima de las memorias USB con el tiempo?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Qué tipo de dispositivos de almacenamiento se pueden desconectar con facilidad del ordenador?</p>]]></text>
+      <text><![CDATA[<p>¿Qué ley influye en el aumento de la capacidad máxima de las memorias USB con el tiempo?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -784,93 +746,17 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Externos.</text>
+       <text>Ley de Moore.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Internos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>De red.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Ópticos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué tipo de tecnología utiliza la memoria USB para conectarse al ordenador?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué tipo de tecnología utiliza la memoria USB para conectarse al ordenador?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>USB.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>HDMI.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Ethernet.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>VGA.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué ley influye en el aumento de la capacidad máxima de las memorias USB?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué ley influye en el aumento de la capacidad máxima de las memorias USB?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
        <text>Ley de Boyle-Mariotte.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
        <text>Ley de Faraday.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Ley de Moore.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -898,22 +784,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Es mucho menor.</text>
+       <text>Es menor.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="0" format="html">
-       <text>Es mucho mayor.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>Es igual.</text>
+       <text>Es mayor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
        <text>No hay diferencia significativa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No se pueden comparar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -936,7 +822,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>En la misma tecnología que las unidades de memoria USB.</text>
+       <text>En la tecnología de las unidades de memoria USB.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -952,44 +838,6 @@
     
     <answer fraction="0" format="html">
        <text>En la tecnología de los discos ópticos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-  <question type="multichoice">
-    <name> <text>¿Qué estándar de conexión es más sencillo en la tarjeta SD?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[<p>¿Qué estándar de conexión es más sencillo en la tarjeta SD?</p>]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>El estándar de conexión de la tarjeta SD.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>El estándar de conexión USB.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>El estándar de conexión HDMI.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="0" format="html">
-       <text>El estándar de conexión Ethernet.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1103,7 +951,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>8,0 gigabytes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1141,15 +989,15 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>Ultravioleta (325 nm).</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál es el costo de la unidad de lectura/escritura de un Blu-ray?</text> </name>
+    <name> <text>¿Cuál es el costo aproximado de la unidad de lectura/escritura de un Blu-ray?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es el costo de la unidad de lectura/escritura de un Blu-ray?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es el costo aproximado de la unidad de lectura/escritura de un Blu-ray?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1174,20 +1022,20 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>0,90 €.</text>
+       <text>9 €.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>30 €.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
   </question>
   <question type="multichoice">
-    <name> <text>¿Cuál es el costo por gigabyte de un CD-ROM?</text> </name>
+    <name> <text>¿Cuál es el costo aproximado por gigabyte de un CD-ROM?</text> </name>
     <questiontext format="html">
-      <text><![CDATA[<p>¿Cuál es el costo por gigabyte de un CD-ROM?</p>]]></text>
+      <text><![CDATA[<p>¿Cuál es el costo aproximado por gigabyte de un CD-ROM?</p>]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
@@ -1217,7 +1065,7 @@
     </answer>
     
     <answer fraction="0" format="html">
-       <text>No se especifica en el texto.</text>
+       <text>0,63 €/GB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1256,6 +1104,82 @@
     
     <answer fraction="0" format="html">
        <text>No se especifica en el texto.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué año se lanzó el Blu-ray?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué año se lanzó el Blu-ray?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>2005.0</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>2015.0</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>1985.0</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>1996.0</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>12 cm.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>10 cm.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>14 cm.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>16 cm.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

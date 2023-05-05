@@ -11,55 +11,43 @@ Show_max: 0
 ---
 
 - Title:
-  Question: ¿Qué año se lanzó el Blu-ray?
+  Question: ¿Cuál es el costo aproximado de un disco de Blu-ray?
   Choices:
-    - 1985.
-    - 1996.
-    - 2005.
-    - No se especifica en el texto.
-
-- Title:
-  Question: ¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?
-  Choices:
-    - 12 cm.
-    - 10 cm.
-    - 14 cm.
-    - No se especifica en el texto.
-
-- Title:
-  Question: ¿Cuál es el costo del disco de Blu-ray?
-  Choices:
-    - 0,40 €.
     - 0,90 €.
+    - 0,40 €.
     - 18 €.
-    - No se especifica en el texto.
+    - 100 €.
 
 - Title:
   Question: ¿Cuál es la capacidad de almacenamiento de un DVD?
   Choices:
-    - 0,750 gigabytes.
     - 4,7 gigabytes.
+    - 0,750 gigabytes.
     - 25 gigabytes.
-    - No se especifica en el texto.
+    - 50 gigabytes.
 
 - Title:
-  Question: ¿Cuál fue la principal ventaja de los dispositivos de almacenamiento óptico en el momento en que salieron al mercado?
+  Question: ¿Cuál fue la principal ventaja de los dispositivos de 
+            almacenamiento óptico en el momento en que salieron al mercado?
   Choices:
-    - Tenían más capacidad que los discos duros.
-    - Eran más baratos que los discos duros.
+    - Tenían más capacidad que los discos duros y bajo precio.
+    - Eran más rápidos que los discos duros.
     - Eran más fáciles de usar que los discos duros.
     - Eran más duraderos que los discos duros.
 
 - Title:
-  Question: ¿Por qué los discos ópticos ya no son rentables para almacenar grandes cantidades de datos?
+  Question: ¿Por qué los discos ópticos ya no son rentables para almacenar
+            grandes cantidades de datos?
   Choices:
-    - La capacidad de los discos duros ha crecido y su costo de almacenamiento ha bajado.
+    - La capacidad de los discos duros ha crecido y su costo de
+      almacenamiento ha bajado mucho.
     - Los discos ópticos tienen una mayor velocidad de transferencia de datos.
     - Los discos ópticos son más fáciles de usar que los discos duros.
     - Los discos ópticos son más duraderos que los discos duros.
 
 - Title:
-  Question: ¿Cuál es la principal ventaja de las memorias USB en comparación con los discos ópticos?
+  Question: ¿Cuál es la principal ventaja de las memorias USB en
+            comparación con los discos ópticos?
   Choices:
     - Son más versátiles y fáciles de leer y escribir.
     - Son más duraderas que los discos ópticos.
@@ -67,59 +55,74 @@ Show_max: 0
     - Tienen una mayor capacidad de almacenamiento que los discos ópticos.
 
 - Title:
-  Question: ¿Cuál es el precio aproximado de una unidad de memoria USB con mayor capacidad que un Blu-ray en 2022?
+  Question: ¿Cuál es el precio aproximado de una unidad de memoria USB
+            con mayor capacidad que un Blu-ray en 2022?
   Choices:
     - 5 €.
     - 18 €.
     - 100 €.
-    - No se menciona en el texto.
+    - 200 €.
 
 - Title:
-  Question: ¿Cuál es el rango de precios por gigabyte en las memorias USB según el texto?
+  Question: ¿Cuál es el rango de precios por gigabyte en las memorias USB
+            de 2022?
   Choices:
     - Entre 0,12 €/GB y 0,05 €/GB.
-    - Entre 0,53 €/GB y 0,036 €/GB.
-    - Entre 0,40 €/GB y 0,90 €/GB.
-    - No se menciona en el texto.
+    - Entre 0,50 €/GB y 0,90 €/GB.
+    - Entre 1 €/GB y 5 €/GB.
+    - Entre 5 €/GB y 25 €/GB.
 
 - Title:
-  Question: ¿Por qué se han popularizado las descargas de programas por internet?
+  Question: ¿Por qué se han popularizado las descargas de programas por
+            internet?
   Choices:
-    - Porque los discos ópticos son más caros que los programas descargados por internet.
-    - Porque los programas descargados por internet tienen una mayor capacidad de almacenamiento que los discos ópticos.
-    - Porque las redes de fibra óptica permiten una transmisión rápida y eficiente de datos.
-    - No se menciona en el texto.
+    - Porque la velocidad de descarga por internet ha aumentado mucho y
+      resulta más barata y cómoda que un disco óptico.
+    - Porque la velocidad de descarga por internet ha disminuido mucho y
+      resulta más barata y cómoda que un disco óptico.
+    - Porque los programas descargados por internet tienen una mayor
+      capacidad de almacenamiento que los discos ópticos.
+    - Porque los discos ópticos son una alternativa más cómoda y rápida.
 
 - Title:
-  Question: ¿Cuál es la razón principal del declive del uso de los discos ópticos?
+  Question: ¿Cuál es la razón principal del declive del uso de los
+           discos ópticos?
   Choices:
-    - El crecimiento exponencial de la capacidad de almacenamiento de los discos duros y las memorias USB.
+    - El crecimiento exponencial de la capacidad de almacenamiento
+      de los discos duros y las memorias USB.
     - La dificultad de lectura y escritura de los discos ópticos.
-    - El alto costo de los discos ópticos en comparación con otros dispositivos de almacenamiento.
+    - El alto costo de los discos ópticos en comparación con otros
+      dispositivos de almacenamiento.
     - La falta de versatilidad de los discos ópticos.
 
 - Title:
-  Question: ¿Cuál es una de las aplicaciones que ha asumido las memorias USB en lugar de los discos ópticos?
+  Question: ¿Cuál es una de las aplicaciones que han asumido las memorias
+            USB en lugar de los discos ópticos?
   Choices:
+    - La reproducción de música en aparatos mp3.
     - La venta de programas grabados en discos ópticos.
-    - La reproducción de música en reproductores de CD.
     - La realización de copias de seguridad de datos.
-    - No se menciona en el texto.
+    - Ninguna de las anteriores.
 
 - Title:
-  Question: ¿En qué se basa la cinta magnética como soporte de almacenamiento?
+  Question: ¿En qué se basa la cinta magnética como soporte de 
+            almacenamiento?
   Choices:
-    - En una cinta de plástico impregnada en su superficie con material magnético.
-    - En una lámina de material metálico plateado que refleja un fino haz de luz láser.
-    - En una cinta de papel impregnada en su superficie con material magnético.
-    - En un disco de plástico impregnado en su superficie con material magnético.
+    - En una fina cinta de plástico impregnada en su superficie con
+      material magnético.
+    - En una lámina de material metálico plateado que refleja un fino
+      haz de luz láser.
+    - En una cinta de papel impregnada en su superficie con material
+      magnético.
+    - En un disco de plástico impregnado en su superficie con material
+      magnético.
 
 - Title:
   Question: ¿Cuál es una de las desventajas de la cinta magnética?
   Choices:
     - Su acceso secuencial a la información.
-    - Su alta velocidad de transferencia de datos.
-    - Su capacidad limitada de almacenamiento.
+    - Su baja velocidad de transferencia de datos.
+    - Su baja capacidad de almacenamiento.
     - Su alto costo por gigabyte.
 
 - Title:
@@ -128,7 +131,7 @@ Show_max: 0
     - Su bajo precio por gigabyte.
     - Su acceso aleatorio a la información.
     - Su alta capacidad de almacenamiento.
-    - Su velocidad de transferencia de datos.
+    - Su alta velocidad de transferencia de datos.
 
 - Title:
   Question: ¿Cuál es el uso actual de la cinta magnética?
@@ -139,7 +142,8 @@ Show_max: 0
     - Uso en reproductores de música.
 
 - Title:
-  Question: ¿Qué tecnología es la más conocida en la actualidad para la cinta magnética?
+  Question: ¿Qué tecnología es la más conocida en la actualidad para
+            la cinta magnética?
   Choices:
     - LTO (Linear Tape Open).
     - CD-ROM (Compact Disc Read-Only Memory).
@@ -147,7 +151,8 @@ Show_max: 0
     - Blu-ray.
 
 - Title:
-  Question: ¿Qué tecnología está basada en un disco de plástico flexible impregnado con un material ferromagnético?
+  Question: ¿Qué tecnología está basada en un disco de plástico flexible
+            impregnado con un material ferromagnético?
   Choices:
     - Discos flexibles.
     - Discos duros.
@@ -155,7 +160,8 @@ Show_max: 0
     - Memorias USB.
 
 - Title:
-  Question: ¿Durante cuánto tiempo los disquetes dominaron el almacenamiento externo?
+  Question: ¿Durante cuánto tiempo los disquetes dominaron el
+            almacenamiento externo?
   Choices:
     - Cerca de 30 años.
     - Cerca de 50 años.
@@ -167,37 +173,41 @@ Show_max: 0
   Choices:
     - Discos flexibles.
     - Discos duros.
-    - Discos ópticos.
+    - Cintas magnéticas.
     - Memorias USB.
 
 - Title:
-  Question: ¿Cómo se suelen representar los iconos de grabación de datos en disco en la actualidad?
+  Question: ¿Cómo se suelen representar los iconos de grabación de
+            datos en disco en los programas actuales?
   Choices:
-    - Con un disco flexible de 3 1/2 pulgadas.
-    - Con un disco duro.
-    - Con un disco óptico.
-    - Con una memoria USB.
+    - Con el icono de un disco flexible de 3 1/2 pulgadas.
+    - Con el icono de un disco duro de  5 1/4 pulgadas.
+    - Con el icono de un disco óptico.
+    - Con el icono de una memoria USB.
 
 - Title:
-  Question: ¿Qué tipo de material impregna la superficie de un disquete para almacenar información?
+  Question: ¿Qué tipo de material impregna la superficie de un disquete
+            para almacenar información?
   Choices:
     - Material ferromagnético.
     - Material óptico.
     - Material plástico.
-    - Material magnético.
+    - Material oleoso.
 
 - Title:
   Question: ¿Qué es el almacenamiento en red?
   Choices:
-    - Un dispositivo especializado en el almacenamiento de datos al que se accede a través de una red local o internet.
+    - Un dispositivo especializado en el almacenamiento de datos al
+      que se accede a través de una red local o internet.
     - Un dispositivo externo que se conecta al ordenador por USB.
-    - Un dispositivo interno de almacenamiento en el ordenador.
-    - Un tipo de almacenamiento en la nube.
+    - Un dispositivo interno de almacenamiento interno del ordenador.
+    - Un tipo de almacenamiento externo óptico.
 
 - Title:
   Question: ¿Cuál es la principal ventaja del almacenamiento en red?
   Choices:
-    - Optimizar y compartir información y recursos de almacenamiento entre varios ordenadores.
+    - Optimizar y compartir información y recursos de almacenamiento
+      entre varios ordenadores.
     - Acceder a la información más rápidamente.
     - Almacenar grandes cantidades de datos en un solo dispositivo.
     - No necesitar conexión a internet para acceder a la información.
@@ -227,7 +237,8 @@ Show_max: 0
     - Realizar copias de seguridad en la nube.
 
 - Title:
-  Question: ¿Qué tipo de unidades de almacenamiento se pueden conectar a un servidor NAS?
+  Question: ¿Qué tipo de unidades de almacenamiento se pueden conectar
+            a un servidor NAS?
   Choices:
     - HDD o SSD.
     - CD o DVD.
@@ -235,20 +246,13 @@ Show_max: 0
     - Cintas magnéticas o disquetes.
 
 - Title:
-  Question: ¿Qué ventaja ofrece un servidor NAS en comparación con el almacenamiento en red convencional?
-  Choices:
-    - Almacenamiento centralizado y compartido de datos.
-    - Mayor velocidad de transferencia de datos.
-    - Mayor capacidad de almacenamiento.
-    - Acceso remoto desde cualquier parte del mundo.
-
-- Title:
   Question: ¿Qué es la nube?
   Choices:
-    - Un centro de datos con multitud de ordenadores que pueden actuar como servidores de datos o aplicaciones online.
+    - Un centro de datos con multitud de ordenadores que pueden actuar
+      como servidores de datos o de aplicaciones online.
     - Un dispositivo de almacenamiento externo.
     - Un tipo de conexión a internet.
-    - Un sistema operativo.
+    - Un sistema operativo de red.
 
 - Title:
   Question: ¿A quiénes pertenecen los centros de datos que forman la nube?
@@ -267,7 +271,8 @@ Show_max: 0
     - Solo particulares.
 
 - Title:
-  Question: ¿Cuál es un ejemplo de servicio de almacenamiento en la nube para usuarios particulares?
+  Question: ¿Cuál es un ejemplo de servicio de almacenamiento en la nube
+            para usuarios particulares?
   Choices:
     - Google Drive.
     - Netflix.
@@ -275,7 +280,8 @@ Show_max: 0
     - Microsoft Azure.
 
 - Title:
-  Question: ¿Qué tipo de servicio ofrece Netflix a través de la nube?
+  Question: ¿Qué tipo de servicio ofrece Netflix a través de la nube de
+            Amazon?
   Choices:
     - Streaming de series y películas.
     - Almacenamiento de datos de usuarios.

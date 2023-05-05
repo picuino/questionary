@@ -1,35 +1,13 @@
 ﻿[
   {
-    "title": "\u00bfQu\u00e9 a\u00f1o se lanz\u00f3 el Blu-ray?",
-    "question": "\u00bfQu\u00e9 a\u00f1o se lanz\u00f3 el Blu-ray?",
+    "title": "\u00bfCu\u00e1l es el costo aproximado de un disco de Blu-ray?",
+    "question": "\u00bfCu\u00e1l es el costo aproximado de un disco de Blu-ray?",
     "image": "",
     "choices": [
-       1985.0,
-       1996.0,
-       2005.0,
-       "No se especifica en el texto."
-    ]
-  },
-  {
-    "title": "\u00bfCu\u00e1l es el di\u00e1metro de los discos utilizados en los dispositivos de almacenamiento \u00f3ptico?",
-    "question": "\u00bfCu\u00e1l es el di\u00e1metro de los discos utilizados en los dispositivos de almacenamiento \u00f3ptico?",
-    "image": "",
-    "choices": [
-       "12 cm.",
-       "10 cm.",
-       "14 cm.",
-       "No se especifica en el texto."
-    ]
-  },
-  {
-    "title": "\u00bfCu\u00e1l es el costo del disco de Blu-ray?",
-    "question": "\u00bfCu\u00e1l es el costo del disco de Blu-ray?",
-    "image": "",
-    "choices": [
-       "0,40 \u20ac.",
        "0,90 \u20ac.",
+       "0,40 \u20ac.",
        "18 \u20ac.",
-       "No se especifica en el texto."
+       "100 \u20ac."
     ]
   },
   {
@@ -37,10 +15,10 @@
     "question": "\u00bfCu\u00e1l es la capacidad de almacenamiento de un DVD?",
     "image": "",
     "choices": [
-       "0,750 gigabytes.",
        "4,7 gigabytes.",
+       "0,750 gigabytes.",
        "25 gigabytes.",
-       "No se especifica en el texto."
+       "50 gigabytes."
     ]
   },
   {
@@ -48,8 +26,8 @@
     "question": "\u00bfCu\u00e1l fue la principal ventaja de los dispositivos de almacenamiento \u00f3ptico en el momento en que salieron al mercado?",
     "image": "",
     "choices": [
-       "Ten\u00edan m\u00e1s capacidad que los discos duros.",
-       "Eran m\u00e1s baratos que los discos duros.",
+       "Ten\u00edan m\u00e1s capacidad que los discos duros y bajo precio.",
+       "Eran m\u00e1s r\u00e1pidos que los discos duros.",
        "Eran m\u00e1s f\u00e1ciles de usar que los discos duros.",
        "Eran m\u00e1s duraderos que los discos duros."
     ]
@@ -59,7 +37,7 @@
     "question": "\u00bfPor qu\u00e9 los discos \u00f3pticos ya no son rentables para almacenar grandes cantidades de datos?",
     "image": "",
     "choices": [
-       "La capacidad de los discos duros ha crecido y su costo de almacenamiento ha bajado.",
+       "La capacidad de los discos duros ha crecido y su costo de almacenamiento ha bajado mucho.",
        "Los discos \u00f3pticos tienen una mayor velocidad de transferencia de datos.",
        "Los discos \u00f3pticos son m\u00e1s f\u00e1ciles de usar que los discos duros.",
        "Los discos \u00f3pticos son m\u00e1s duraderos que los discos duros."
@@ -84,18 +62,18 @@
        "5 \u20ac.",
        "18 \u20ac.",
        "100 \u20ac.",
-       "No se menciona en el texto."
+       "200 \u20ac."
     ]
   },
   {
-    "title": "\u00bfCu\u00e1l es el rango de precios por gigabyte en las memorias USB seg\u00fan el texto?",
-    "question": "\u00bfCu\u00e1l es el rango de precios por gigabyte en las memorias USB seg\u00fan el texto?",
+    "title": "\u00bfCu\u00e1l es el rango de precios por gigabyte en las memorias USB de 2022?",
+    "question": "\u00bfCu\u00e1l es el rango de precios por gigabyte en las memorias USB de 2022?",
     "image": "",
     "choices": [
        "Entre 0,12 \u20ac/GB y 0,05 \u20ac/GB.",
-       "Entre 0,53 \u20ac/GB y 0,036 \u20ac/GB.",
-       "Entre 0,40 \u20ac/GB y 0,90 \u20ac/GB.",
-       "No se menciona en el texto."
+       "Entre 0,50 \u20ac/GB y 0,90 \u20ac/GB.",
+       "Entre 1 \u20ac/GB y 5 \u20ac/GB.",
+       "Entre 5 \u20ac/GB y 25 \u20ac/GB."
     ]
   },
   {
@@ -103,10 +81,10 @@
     "question": "\u00bfPor qu\u00e9 se han popularizado las descargas de programas por internet?",
     "image": "",
     "choices": [
-       "Porque los discos \u00f3pticos son m\u00e1s caros que los programas descargados por internet.",
+       "Porque la velocidad de descarga por internet ha aumentado mucho y resulta m\u00e1s barata y c\u00f3moda que un disco \u00f3ptico.",
+       "Porque la velocidad de descarga por internet ha disminuido mucho y resulta m\u00e1s barata y c\u00f3moda que un disco \u00f3ptico.",
        "Porque los programas descargados por internet tienen una mayor capacidad de almacenamiento que los discos \u00f3pticos.",
-       "Porque las redes de fibra \u00f3ptica permiten una transmisi\u00f3n r\u00e1pida y eficiente de datos.",
-       "No se menciona en el texto."
+       "Porque los discos \u00f3pticos son una alternativa m\u00e1s c\u00f3moda y r\u00e1pida."
     ]
   },
   {
@@ -121,14 +99,14 @@
     ]
   },
   {
-    "title": "\u00bfCu\u00e1l es una de las aplicaciones que ha asumido las memorias USB en lugar de los discos \u00f3pticos?",
-    "question": "\u00bfCu\u00e1l es una de las aplicaciones que ha asumido las memorias USB en lugar de los discos \u00f3pticos?",
+    "title": "\u00bfCu\u00e1l es una de las aplicaciones que han asumido las memorias USB en lugar de los discos \u00f3pticos?",
+    "question": "\u00bfCu\u00e1l es una de las aplicaciones que han asumido las memorias USB en lugar de los discos \u00f3pticos?",
     "image": "",
     "choices": [
+       "La reproducci\u00f3n de m\u00fasica en aparatos mp3.",
        "La venta de programas grabados en discos \u00f3pticos.",
-       "La reproducci\u00f3n de m\u00fasica en reproductores de CD.",
        "La realizaci\u00f3n de copias de seguridad de datos.",
-       "No se menciona en el texto."
+       "Ninguna de las anteriores."
     ]
   },
   {
@@ -136,7 +114,7 @@
     "question": "\u00bfEn qu\u00e9 se basa la cinta magn\u00e9tica como soporte de almacenamiento?",
     "image": "",
     "choices": [
-       "En una cinta de pl\u00e1stico impregnada en su superficie con material magn\u00e9tico.",
+       "En una fina cinta de pl\u00e1stico impregnada en su superficie con material magn\u00e9tico.",
        "En una l\u00e1mina de material met\u00e1lico plateado que refleja un fino haz de luz l\u00e1ser.",
        "En una cinta de papel impregnada en su superficie con material magn\u00e9tico.",
        "En un disco de pl\u00e1stico impregnado en su superficie con material magn\u00e9tico."
@@ -148,8 +126,8 @@
     "image": "",
     "choices": [
        "Su acceso secuencial a la informaci\u00f3n.",
-       "Su alta velocidad de transferencia de datos.",
-       "Su capacidad limitada de almacenamiento.",
+       "Su baja velocidad de transferencia de datos.",
+       "Su baja capacidad de almacenamiento.",
        "Su alto costo por gigabyte."
     ]
   },
@@ -161,7 +139,7 @@
        "Su bajo precio por gigabyte.",
        "Su acceso aleatorio a la informaci\u00f3n.",
        "Su alta capacidad de almacenamiento.",
-       "Su velocidad de transferencia de datos."
+       "Su alta velocidad de transferencia de datos."
     ]
   },
   {
@@ -215,19 +193,19 @@
     "choices": [
        "Discos flexibles.",
        "Discos duros.",
-       "Discos \u00f3pticos.",
+       "Cintas magn\u00e9ticas.",
        "Memorias USB."
     ]
   },
   {
-    "title": "\u00bfC\u00f3mo se suelen representar los iconos de grabaci\u00f3n de datos en disco en la actualidad?",
-    "question": "\u00bfC\u00f3mo se suelen representar los iconos de grabaci\u00f3n de datos en disco en la actualidad?",
+    "title": "\u00bfC\u00f3mo se suelen representar los iconos de grabaci\u00f3n de datos en disco en los programas actuales?",
+    "question": "\u00bfC\u00f3mo se suelen representar los iconos de grabaci\u00f3n de datos en disco en los programas actuales?",
     "image": "",
     "choices": [
-       "Con un disco flexible de 3 1/2 pulgadas.",
-       "Con un disco duro.",
-       "Con un disco \u00f3ptico.",
-       "Con una memoria USB."
+       "Con el icono de un disco flexible de 3 1/2 pulgadas.",
+       "Con el icono de un disco duro de  5 1/4 pulgadas.",
+       "Con el icono de un disco \u00f3ptico.",
+       "Con el icono de una memoria USB."
     ]
   },
   {
@@ -238,7 +216,7 @@
        "Material ferromagn\u00e9tico.",
        "Material \u00f3ptico.",
        "Material pl\u00e1stico.",
-       "Material magn\u00e9tico."
+       "Material oleoso."
     ]
   },
   {
@@ -248,8 +226,8 @@
     "choices": [
        "Un dispositivo especializado en el almacenamiento de datos al que se accede a trav\u00e9s de una red local o internet.",
        "Un dispositivo externo que se conecta al ordenador por USB.",
-       "Un dispositivo interno de almacenamiento en el ordenador.",
-       "Un tipo de almacenamiento en la nube."
+       "Un dispositivo interno de almacenamiento interno del ordenador.",
+       "Un tipo de almacenamiento externo \u00f3ptico."
     ]
   },
   {
@@ -308,25 +286,14 @@
     ]
   },
   {
-    "title": "\u00bfQu\u00e9 ventaja ofrece un servidor NAS en comparaci\u00f3n con el almacenamiento en red convencional?",
-    "question": "\u00bfQu\u00e9 ventaja ofrece un servidor NAS en comparaci\u00f3n con el almacenamiento en red convencional?",
-    "image": "",
-    "choices": [
-       "Almacenamiento centralizado y compartido de datos.",
-       "Mayor velocidad de transferencia de datos.",
-       "Mayor capacidad de almacenamiento.",
-       "Acceso remoto desde cualquier parte del mundo."
-    ]
-  },
-  {
     "title": "\u00bfQu\u00e9 es la nube?",
     "question": "\u00bfQu\u00e9 es la nube?",
     "image": "",
     "choices": [
-       "Un centro de datos con multitud de ordenadores que pueden actuar como servidores de datos o aplicaciones online.",
+       "Un centro de datos con multitud de ordenadores que pueden actuar como servidores de datos o de aplicaciones online.",
        "Un dispositivo de almacenamiento externo.",
        "Un tipo de conexi\u00f3n a internet.",
-       "Un sistema operativo."
+       "Un sistema operativo de red."
     ]
   },
   {
@@ -363,8 +330,8 @@
     ]
   },
   {
-    "title": "\u00bfQu\u00e9 tipo de servicio ofrece Netflix a trav\u00e9s de la nube?",
-    "question": "\u00bfQu\u00e9 tipo de servicio ofrece Netflix a trav\u00e9s de la nube?",
+    "title": "\u00bfQu\u00e9 tipo de servicio ofrece Netflix a trav\u00e9s de la nube de Amazon?",
+    "question": "\u00bfQu\u00e9 tipo de servicio ofrece Netflix a trav\u00e9s de la nube de Amazon?",
     "image": "",
     "choices": [
        "Streaming de series y pel\u00edculas.",

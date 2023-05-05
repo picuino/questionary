@@ -14,29 +14,40 @@ Show_max: 0
 - Title:
   Question: ¿Qué es SMART?
   Choices:
-    - Es una tecnología que permite detectar fallos tempranos en discos duros y unidades SSD.
+    - Es una tecnología que permite detectar fallos tempranos en
+      discos duros y unidades SSD.
     - Es una marca de discos duros y unidades SSD.
-    - Es un programa que permite hacer copias de seguridad de discos duros y unidades SSD.
-    - Es una tecnología que permite aumentar la velocidad de transferencia de datos en discos duros y unidades SSD.
+    - Es un programa que permite hacer copias de seguridad de
+      discos duros y unidades SSD.
+    - Es una tecnología que permite aumentar la velocidad de
+      transferencia de datos en discos duros y unidades SSD.
 
 - Title:
   Question: ¿Qué parámetros monitoriza SMART?
   Choices:
-    - Temperatura, sectores defectuosos, cantidad de datos escritos, errores de lectura, tiempo de funcionamiento, número de arranques, etc.
-    - Frecuencia de actualización de los controladores de la unidad de almacenamiento.
+    - Temperatura, sectores defectuosos, cantidad de datos escritos,
+      errores de lectura, tiempo de funcionamiento, número de arranques,
+      etc.
+    - Frecuencia de actualización de los controladores de la unidad de
+      almacenamiento.
     - Tipo de conexión del disco duro o unidad SSD al ordenador.
     - Características físicas del disco duro o unidad SSD.
 
 - Title:
   Question: ¿Para qué sirve SMART?
   Choices:
-    - Para detectar con anticipación si un disco duro o unidad SSD va a fallar próximamente.
-    - Para aumentar la velocidad de transferencia de datos de una unidad de almacenamiento.
-    - Para aumentar la capacidad de almacenamiento de un disco duro o unidad SSD.
-    - Para permitir el acceso a datos borrados en una unidad de almacenamiento.
+    - Para detectar con anticipación si un disco duro o unidad SSD va
+      a fallar próximamente.
+    - Para aumentar la velocidad de transferencia de datos de una
+      unidad de almacenamiento.
+    - Para aumentar la capacidad de almacenamiento de un disco duro
+      o unidad SSD.
+    - Para permitir el acceso a datos borrados en una unidad de
+      almacenamiento.
 
 - Title:
-  Question: ¿Qué programas permiten leer los parámetros SMART de una unidad de almacenamiento?
+  Question: ¿Qué programas permiten leer los parámetros SMART de una
+            unidad de almacenamiento?
   Choices:
     - CrystalDiskInfo, HDDScan, Clear Disk Info.
     - Photoshop, Illustrator, InDesign.
@@ -44,65 +55,83 @@ Show_max: 0
     - Windows Media Player, VLC, QuickTime.
 
 - Title:
-  Question: ¿Es SMART capaz de detectar todos los fallos posibles en una unidad de almacenamiento?
+  Question: ¿Es SMART capaz de detectar todos los fallos posibles
+            en una unidad de almacenamiento?
   Choices:
-    - No, pero permite avisar ante la mayoría de los fallos debidos a una degradación de la unidad.
-    - Sí, es capaz de detectar cualquier fallo posible en una unidad de almacenamiento.
-    - No, solo puede detectar fallos en unidades de almacenamiento de discos duros, pero no en unidades SSD.
-    - No, solo puede detectar fallos en unidades de almacenamiento de unidades SSD, pero no en discos duros.
+    - No, pero permite avisar ante la mayoría de los fallos debidos
+      a una degradación de la unidad.
+    - Sí, es capaz de detectar cualquier fallo posible en una unidad
+      de almacenamiento.
+    - No, solo puede detectar fallos en unidades de almacenamiento de
+      discos duros, pero no en unidades SSD.
+    - No, solo puede detectar fallos en unidades de almacenamiento de
+      unidades SSD, pero no en discos duros.
 
 - Title:
   Question: ¿Qué significa RAID?
   Choices:
     - Matriz redundante de discos independientes.
-    - Sistema operativo.
-    - Unidad de estado sólido.
-    - Programa de monitorización.
+    - Sistema operativo de red local.
+    - Unidad de estado sólido dedicada.
+    - Programa de monitorización de unidad de disco.
 
 - Title:
   Question: ¿Para qué se utiliza el RAID?
   Choices:
-    - Para aumentar las prestaciones de varias unidades de disco duro o de estado sólido.
+    - Para aumentar las prestaciones de varias unidades de disco duro
+      o de estado sólido.
+    - Para aumentar la capacidad de una unidad de disco duro
+      o de una unidad de estado sólido.
     - Para detectar fallos en la memoria RAM.
-    - Para realizar copias de seguridad.
-    - Para aumentar la capacidad de almacenamiento.
+    - Para detectar de forma temprana los fallos de una unidad de disco
+      duro o de estado sólido.
 
 - Title:
-  Question: ¿Qué tipo de controladora se necesita para conectar los discos al ordenador en un sistema RAID?
+  Question: ¿Qué tipo de controladora se necesita para conectar los
+            discos al ordenador en un sistema RAID?
   Choices:
     - Una controladora RAID especializada.
     - Una controladora de dispositivos USB.
     - Una controladora de audio.
-    - Una controladora de red.
+    - Una controladora de red especializada.
 
 - Title:
   Question: ¿Qué ventaja proporciona el uso de un sistema RAID?
   Choices:
-    - Aumento de la velocidad de transferencia total.
+    - Aumento de la velocidad de transferencia total y 
+      aumento de la capacidad total de almacenamiento.
+    - Aumento de la velocidad de transferencia total y 
+      disminución de la capacidad total de almacenamiento.
+    - Disminución de la velocidad de transferencia total y 
+      aumento de la capacidad total de almacenamiento.
     - Reducción del precio de los discos duros.
-    - Aumento de la capacidad de almacenamiento.
-    - Mejora de la calidad de imagen de los vídeos.
 
 - Title:
-  Question: ¿Qué se utiliza en niveles RAID posteriores para proteger los datos en caso de fallo de una unidad?
+  Question: ¿Qué tecnología utiliza un sistema RAID 5 para proteger
+            los datos en caso de fallo de una unidad?
   Choices:
-    - Un disco para almacenar datos redundantes de paridad.
-    - Un disco para realizar copias de seguridad.
-    - Una unidad de estado sólido.
-    - Una unidad óptica.
+    - Se utiliza uno de los discos RAID para almacenar datos redundantes
+      de paridad.
+    - Se utiliza uno de los discos RAID para realizar backup de seguridad.
+    - Se utiliza una unidad de estado sólido porque es más rápida que los
+      discos duros tradicionales.
+    - Se utiliza una unidad óptica.
 
 - Title:
-  Question: ¿Qué sucede si una unidad en un sistema RAID resulta dañada?
+  Question: ¿Qué sucede si una unidad en un sistema RAID 5 resulta dañada?
   Choices:
-    - Se puede cambiar por otra nueva y el sistema recuperará automáticamente los datos perdidos a partir de los datos redundantes.
-    - Los datos se pierden de forma permanente.
+    - Se puede cambiar por otra nueva y el sistema recuperará
+      automáticamente los datos perdidos a partir de los demás discos.
+    - Los datos se perderán de forma permanente a no ser que un laboratorio
+      consiga recuperarlos del disco dañado.
     - La velocidad de transferencia total disminuye.
-    - El sistema operativo deja de funcionar.
+    - El sistema operativo dejará de funcionar.
 
 - Title:
   Question: ¿Qué es un búfer de datos?
   Choices:
-    - Un espacio de memoria temporal que almacena datos de lectura o escritura.
+    - Un espacio de memoria temporal que almacena datos de lectura o
+      escritura.
     - Un dispositivo de almacenamiento externo.
     - Una aplicación de procesamiento de texto.
     - Una impresora de alta velocidad.
@@ -110,57 +139,58 @@ Show_max: 0
 - Title:
   Question: ¿Cuál es la función de un búfer de escritura?
   Choices:
-    - Almacenar varios megabytes de datos para enviarlos en ráfagas rápidas al procesador y escribirlos en el dispositivo de almacenamiento a menor velocidad.
-    - Leer los datos enviados por el procesador y almacenarlos en un dispositivo de almacenamiento externo.
-    - Acelerar el procesamiento de datos en un dispositivo de almacenamiento externo.
+    - Almacenar rápidamente los datos que llegan desde el procesador
+      para escribirlos poco a poco en el dispositivo de almacenamiento.
+    - Almacenar rápidamente los datos que llegan desde un dispositivo de
+      almacenamiento externo para leerlos poco a poco por el procesador.
+    - Acelerar la velocidad final de escritura de un dispositivo de
+      almacenamiento externo.
     - Acelerar la lectura de datos enviados por un dispositivo de entrada.
 
 - Title:
   Question: ¿Qué dispositivos suelen tener un búfer de lectura?
   Choices:
     - Dispositivos de entrada como teclados o ratones.
-    - Dispositivos de almacenamiento como discos duros o pendrives.
     - Dispositivos de audio como altavoces o auriculares.
-    - Dispositivos de red como routers o switches.
+    - Dispositivos de vídeo como monitores y proyectores.
+    - Dispositivos de impresión como impresoras láser o de inyección de
+      tinta.
 
 - Title:
-  Question: ¿Cuál es la finalidad de los búfer de datos en los dispositivos de entrada/salida y medios de almacenamiento?
+  Question: ¿Cuál es la finalidad de los búfer de datos en los
+            dispositivos de entrada/salida y medios de almacenamiento?
   Choices:
-    - Acelerar la transferencia de datos y evitar que se pierdan durante una transferencia irregular.
+    - Acelerar la transferencia de datos y evitar que se pierdan durante
+      una transferencia irregular.
     - Controlar el acceso a los dispositivos de entrada/salida.
     - Realizar operaciones de procesamiento complejas.
-    - Proteger los datos almacenados en los dispositivos de entrada/salida.
-
-- Title:
-  Question: ¿Cómo ayuda un búfer de datos a evitar que un dispositivo pierda datos durante una transferencia irregular?
-  Choices:
-    - Almacenando temporalmente los datos en un espacio de memoria temporal.
-    - Procesando los datos antes de enviarlos al dispositivo de almacenamiento.
-    - Comprimiendo los datos antes de enviarlos al dispositivo de almacenamiento.
-    - Enviando los datos en ráfagas rápidas y de manera continua.
+    - Proteger ante el deterioro los datos almacenados en los dispositivos
+      de entrada/salida.
 
 - Title:
   Question: ¿Dónde se suelen encontrar los búfer de datos?
   Choices:
-    - Dentro de los periféricos de entrada/salida y medios de almacenamiento.
+    - Dentro de los periféricos de entrada/salida y medios de
+      almacenamiento.
     - En los cables de conexión entre dispositivos.
     - En los procesadores y tarjetas gráficas.
     - En los dispositivos de red y routers.
 
 - Title:
-  Question: ¿Qué función tiene un búfer de lectura en un dispositivo de entrada?
+  Question: ¿Qué función tiene un búfer de lectura en un dispositivo
+            de entrada?
   Choices:
-    - Almacenar temporalmente los datos que envía el periférico hasta que son leídos por el procesador.
-    - Almacenar temporalmente los datos que envía el procesador hasta que son escritos en un dispositivo de almacenamiento.
-    - Acelerar el procesamiento de datos enviados por un dispositivo de entrada.
+    - Almacenar temporalmente los datos que envía el periférico hasta
+      que son leídos por el procesador.
+    - Almacenar temporalmente los datos que envía el procesador hasta
+      que son escritos en un dispositivo de almacenamiento.
+    - Acelerar el procesamiento de datos enviados por un dispositivo
+      de entrada.
     - Evitar que se pierdan datos durante una transferencia irregular.
 
-
-
-
-
 - Title:
-  Question: ¿Qué ventaja presentan los dispositivos de almacenamiento externo respecto a los internos?
+  Question: ¿Qué ventaja presentan los dispositivos de almacenamiento
+            externo respecto a los internos?
   Choices:
     - Mayor movilidad y facilidad de transporte.
     - Mayor velocidad de transferencia de datos.
@@ -168,7 +198,8 @@ Show_max: 0
     - Mayor fiabilidad.
 
 - Title:
-  Question: ¿Cuál es la principal desventaja de los dispositivos de almacenamiento externo respecto a los internos?
+  Question: ¿Cuál es la principal desventaja de los dispositivos de
+            almacenamiento externo respecto a los internos?
   Choices:
     - Mayor lentitud en la transferencia de datos.
     - Mayor dificultad en su uso.
@@ -176,55 +207,34 @@ Show_max: 0
     - Mayor precio.
 
 - Title:
-  Question: ¿Qué tipo de dispositivos de almacenamiento se pueden desconectar con facilidad del ordenador?
+  Question: ¿Qué ley influye en el aumento de la capacidad máxima de
+            las memorias USB con el tiempo?
   Choices:
-    - Externos.
-    - Internos.
-    - De red.
-    - Ópticos.
-
-- Title:
-  Question: ¿Qué tipo de tecnología utiliza la memoria USB para conectarse al ordenador?
-  Choices:
-    - USB.
-    - HDMI.
-    - Ethernet.
-    - VGA.
-
-- Title:
-  Question: ¿Qué ley influye en el aumento de la capacidad máxima de las memorias USB?
-  Choices:
+    - Ley de Moore.
     - Ley de Boyle-Mariotte.
     - Ley de Faraday.
-    - Ley de Moore.
     - Ley de Newton.
 
 - Title:
-  Question: ¿Cuál es una desventaja común de la velocidad de escritura de la memoria USB en comparación con un disco duro?
+  Question: ¿Cuál es una desventaja común de la velocidad de escritura
+            de la memoria USB en comparación con un disco duro?
   Choices:
-    - Es mucho menor.
-    - Es mucho mayor.
-    - Es igual.
+    - Es menor.
+    - Es mayor.
     - No hay diferencia significativa.
+    - No se pueden comparar.
 
 - Title:
   Question: ¿En qué se basa la tecnología de la memoria en tarjeta SD?
   Choices:
-    - En la misma tecnología que las unidades de memoria USB.
+    - En la tecnología de las unidades de memoria USB.
     - En la tecnología de los discos duros.
     - En la tecnología de las cintas magnéticas.
     - En la tecnología de los discos ópticos.
 
 - Title:
-  Question: ¿Qué estándar de conexión es más sencillo en la tarjeta SD?
-  Choices:
-    - El estándar de conexión de la tarjeta SD.
-    - El estándar de conexión USB.
-    - El estándar de conexión HDMI.
-    - El estándar de conexión Ethernet.
-
-- Title:
-  Question: ¿Cuál es la ventaja en términos de tamaño físico de las tarjetas SD respecto a los pendrive?
+  Question: ¿Cuál es la ventaja en términos de tamaño físico de las
+            tarjetas SD respecto a los pendrive?
   Choices:
     - Las tarjetas SD suelen ser más pequeñas que los pendrive.
     - Las tarjetas SD suelen ser más grandes que los pendrive.
@@ -232,10 +242,12 @@ Show_max: 0
     - Las tarjetas SD son más anchas pero más delgadas que los pendrive.
 
 - Title:
-  Question: ¿Cuál es la diferencia fundamental entre las distintas tecnologías de almacenamiento óptico?
+  Question: ¿Cuál es la diferencia fundamental entre las distintas
+            tecnologías de almacenamiento óptico?
   Choices:
     - La capacidad de almacenamiento y la velocidad de transferencia.
-    - La forma en que se graban las marcas en la lámina de material metálico plateado.
+    - La forma en que se graban las marcas en la lámina de material
+      metálico plateado.
     - El diámetro de los discos.
     - El láser de lectura/escritura utilizado.
 
@@ -245,7 +257,7 @@ Show_max: 0
     - 0,750 gigabytes.
     - 4,7 gigabytes.
     - 25 gigabytes.
-    - No se especifica en el texto.
+    - 8,0 gigabytes.
 
 - Title:
   Question: ¿Qué tipo de láser de lectura/escritura utiliza un DVD?
@@ -253,23 +265,24 @@ Show_max: 0
     - Rojo (650 nm).
     - Infrarrojo (780 nm).
     - Violeta (405 nm).
-    - No se especifica en el texto.
+    - Ultravioleta (325 nm).
 
 - Title:
-  Question: ¿Cuál es el costo de la unidad de lectura/escritura de un Blu-ray?
+  Question: ¿Cuál es el costo aproximado de la unidad de 
+            lectura/escritura de un Blu-ray?
   Choices:
     - 100 €.
     - 18 €.
-    - 0,90 €.
-    - No se especifica en el texto.
+    - 9 €.
+    - 30 €.
 
 - Title:
-  Question: ¿Cuál es el costo por gigabyte de un CD-ROM?
+  Question: ¿Cuál es el costo aproximado por gigabyte de un CD-ROM?
   Choices:
     - 0,53 €/GB.
     - 0,19 €/GB.
     - 0,036 €/GB.
-    - No se especifica en el texto.
+    - 0,63 €/GB.
 
 - Title:
   Question: ¿Cuál es la velocidad de transferencia de un CD-ROM?
@@ -278,4 +291,20 @@ Show_max: 0
     - 1,4 megabytes/s.
     - 4,5 megabytes/s.
     - No se especifica en el texto.
+
+- Title:
+  Question: ¿Qué año se lanzó el Blu-ray?
+  Choices:
+    - 2005.
+    - 2015.
+    - 1985.
+    - 1996.
+
+- Title:
+  Question: ¿Cuál es el diámetro de los discos utilizados en los dispositivos de almacenamiento óptico?
+  Choices:
+    - 12 cm.
+    - 10 cm.
+    - 14 cm.
+    - 16 cm.
 
