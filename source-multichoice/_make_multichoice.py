@@ -203,8 +203,17 @@ class Questionary():
          csv_data.append(line)
       csv_data = '\n'.join(csv_data)
       self.write_file(csv_filename, csv_data)
-   
-   
+
+
+   def b64encode(self, data):
+      """Return data string text in b64 format"""
+      if isinstance(data, str):
+         data = bytearray(data, 'utf-8')
+      if isinstance(data, int):
+         data = bytearray('%d' % data, 'utf-8')
+      return base64.b64encode(data).decode('ascii')
+
+
    def read_b64(self, filename):
       """Read image and returns data in ascii base64 format"""
       data = open(filename, 'rb').read()
@@ -344,6 +353,7 @@ class Questionary():
    def json_generate(self, template_file, path='docs'):
       """Genera los archivos json a partir de las cuestiones."""
       # Copy json images
+      questions_b64 = []
       for question in self.questions:
          if question['Image']:
             origin = question['Image']['filename']
@@ -351,11 +361,17 @@ class Questionary():
             if self.file_older(dest, origin):
                print('   Writing: ' + origin)
                shutil.copy2(origin, dest)
+         question_b64 = question
+         question_b64['Title'] = self.b64encode(question_b64['Title'])
+         question_b64['Question'] = self.b64encode(question_b64['Question'])
+         for i in range(len(question_b64['Choices'])):
+            question_b64['Choices'][i] = self.b64encode(question_b64['Choices'][i])
+         questions_b64.append(question_b64)
 
       # Generate and save json
       json_filename = os.path.join(path, self.filename + '.json')
       self.jinja_template(template_file)
-      json_data = self.template.render(questions = self.questions)
+      json_data = self.template.render(questions = questions_b64)
       self.write_file(json_filename, json_data)
 
 

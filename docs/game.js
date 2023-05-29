@@ -33,7 +33,6 @@ const progressBarFull = document.getElementById('progressBarFull');
 const timeBeforeNextQuestion = 1800;
 
 var options = [];
-let currentQuestion = {};
 let currentQuestionNumChoices = 0;
 let acceptingAnswers = false;
 let acceptingScore = false;
@@ -87,7 +86,7 @@ startGame = () => {
     getNewQuestion();
 };
 
-
+      
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= questionBankMax) {
         sessionStorage.setItem('mostRecentTitle', sessionStorage.getItem('questionBankTitle'));
@@ -107,7 +106,8 @@ getNewQuestion = () => {
     else {
       questionIndex = 0;
     }
-    currentQuestion = availableQuestions[questionIndex];
+    
+    var currentQuestion = availableQuestions[questionIndex];
     currentQuestionNumChoices = currentQuestion.choices.length;
     
     //shuffle choices
@@ -118,12 +118,12 @@ getNewQuestion = () => {
     correctAnswer = ((numbers.indexOf('1') + 1) ^ c2aoq) * 64 + caoq;
     
     // Set question, image and choices
-    question.innerText = currentQuestion.question;
+    question.innerText = bin_atob(currentQuestion.question);
     questionImage.src = currentQuestion.image;
     questionImage.width = currentQuestion.image_width;
     choiceContainers.forEach(visibleElements);
     choices.forEach((choice) => {
-      choice.innerText = currentQuestion['choices'][numbers[numbersIndex]-1];
+      choice.innerText = bin_atob(currentQuestion['choices'][numbers[numbersIndex]-1]);
       numbersIndex++;
     });
     currentQuestion = {};
@@ -190,6 +190,16 @@ incrementScore = (num) => {
     score += num;
     scoreText.innerText = score.toFixed(0) + "%";
 };
+
+
+function bin_atob(str) {
+   if (str == null || typeof str === 'undefined') {
+      return str;
+   }
+   return decodeURIComponent(atob(str).split('').map(function(c) {
+      return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
+   }).join('')).trim();
+}
 
 
 function shuffle(numItems) {

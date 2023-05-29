@@ -237,6 +237,7 @@ class Cloze():
 
 
    def b64encode(self, data):
+      """Return data string text in b64 format"""
       if isinstance(data, str):
          data = bytearray(data, 'utf-8')
       return base64.b64encode(data).decode('ascii')
