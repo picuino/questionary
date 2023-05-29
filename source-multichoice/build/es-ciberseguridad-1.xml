@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Ciberseguridad/es-ciberseguridad-1</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es el propósito principal del adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es el propósito principal del adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Mostrar anuncios no deseados</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mejorar la experiencia en línea</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Proteger nuestros dispositivos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumentar la privacidad en línea</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cómo se propaga principalmente el adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo se propaga principalmente el adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>A través de descargas de software gratuitas, sitios web sospechosos y enlaces maliciosos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>A través de redes sociales populares</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Por medio de actualizaciones automáticas del sistema operativo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mediante el intercambio de archivos por correo electrónico</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué son las ventanas emergentes (pop-ups) asociadas con el adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué son las ventanas emergentes (pop-ups) asociadas con el adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ventanas que muestran anuncios o promociones mientras navegamos por Internet</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ventanas que aparecen en el escritorio de nuestro dispositivo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ventanas que solicitan la instalación de software adicional</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ventanas que proporcionan información útil y relevante</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué efecto pueden tener las barras de herramientas no deseadas instaladas por el adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué efecto pueden tener las barras de herramientas no deseadas instaladas por el adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Modificar la configuración del navegador y redirigirnos a sitios web no deseados</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Optimizar el rendimiento del dispositivo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Proteger nuestros datos personales</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mejorar la velocidad de conexión a Internet</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cómo puede el adware alterar el comportamiento de nuestro navegador?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo puede el adware alterar el comportamiento de nuestro navegador?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Redireccionando a sitios web diferentes a los que intentamos visitar</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mejorando la velocidad de carga de las páginas web</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Bloqueando anuncios y ventanas emergentes</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Restringiendo el acceso a ciertos sitios web</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué es la recopilación de datos personales por parte del adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué es la recopilación de datos personales por parte del adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rastrear y recopilar información personal sin nuestro consentimiento</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Proteger nuestros datos personales de terceros</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Permitirnos acceder a servicios en línea de forma más segura</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mejorar la calidad de los anuncios que se nos muestran</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué impacto puede tener el adware en nuestros dispositivos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué impacto puede tener el adware en nuestros dispositivos?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ralentizar el rendimiento y consumir recursos del sistema</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Mejorar la seguridad y privacidad en línea</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Optimizar la navegación por Internet</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumentar la capacidad de almacenamiento disponible</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es una medida efectiva para protegernos del adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es una medida efectiva para protegernos del adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Descargar software solo de fuentes confiables y leer las opiniones de otros usuarios antes de instalarlo</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hacer clic en anuncios sospechosos para obtener más información</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Desactivar las actualizaciones automáticas del sistema operativo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Utilizar contraseñas simples y fáciles de recordar</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué se recomienda hacer en caso de sospechar que hemos sido afectados por adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué se recomienda hacer en caso de sospechar que hemos sido afectados por adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Estar atentos a cualquier cambio inesperado en nuestro navegador o comportamiento del dispositivo y tomar medidas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ignorar cualquier cambio y esperar a que desaparezcan por sí solos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Reiniciar el dispositivo y borrar todos los archivos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Compartir información sobre el incidente en las redes sociales</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es una medida para evitar el adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es una medida para evitar el adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Configurar nuestros navegadores para bloquear ventanas emergentes y desactivar la instalación automática de complementos o barras de herramientas</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hacer clic en cualquier anuncio para obtener ofertas especiales</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Compartir nuestros datos personales en línea</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Descargar software de cualquier fuente sin verificar su autenticidad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué recomendación se da para mantener nuestros dispositivos protegidos contra el adware?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué recomendación se da para mantener nuestros dispositivos protegidos contra el adware?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Mantener nuestros dispositivos actualizados con los últimos parches de seguridad y utilizar programas antivirus y antimalware confiables</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Evitar utilizar software antivirus y antimalware</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Desactivar los programas de seguridad para mejorar el rendimiento del dispositivo</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Descargar software desde cualquier fuente sin verificar su seguridad</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Por qué es importante evitar hacer clic en anuncios sospechosos o enlaces desconocidos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué es importante evitar hacer clic en anuncios sospechosos o enlaces desconocidos?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque pueden contener adware o dirigirnos a sitios web maliciosos</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque nos pueden llevar a páginas de descarga de software gratuito</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque aumentan nuestra experiencia en línea</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque nos permiten obtener descuentos exclusivos</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+</quiz>

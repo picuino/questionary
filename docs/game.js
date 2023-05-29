@@ -34,6 +34,7 @@ const timeBeforeNextQuestion = 1800;
 
 var options = [];
 let currentQuestion = {};
+let currentQuestionNumChoices = 0;
 let acceptingAnswers = false;
 let acceptingScore = false;
 let choicesClass = [];
@@ -41,6 +42,8 @@ let score = 0;
 let questionCounter = 0;
 let availableQuestions = [];
 let correctAnswer = 0;
+let caoq = 0;
+let c2aoq = 0;
 let maxQuestions = 0;
 let questions = [];
 let suffleQuestions = true;
@@ -105,13 +108,15 @@ getNewQuestion = () => {
       questionIndex = 0;
     }
     currentQuestion = availableQuestions[questionIndex];
-
+    currentQuestionNumChoices = currentQuestion.choices.length;
+    
     //shuffle choices
     var numbersIndex = 0;
     var numbers = shuffle(currentQuestion.choices.length);
-    correctAnswer = numbers.indexOf('1') + 1;
-    correctAnswer = correctAnswer.toString();
-
+    caoq = Math.floor(Math.random() * 65536) & 0b1111110000111111;
+    c2aoq = Math.floor(Math.random() * 16);
+    correctAnswer = ((numbers.indexOf('1') + 1) ^ c2aoq) * 64 + caoq;
+    
     // Set question, image and choices
     question.innerText = currentQuestion.question;
     questionImage.src = currentQuestion.image;
@@ -121,6 +126,7 @@ getNewQuestion = () => {
       choice.innerText = currentQuestion['choices'][numbers[numbersIndex]-1];
       numbersIndex++;
     });
+    currentQuestion = {};
 
     availableQuestions.splice(questionIndex, 1);
     acceptingAnswers = true;
@@ -130,7 +136,7 @@ getNewQuestion = () => {
 
 
 function visibleElements(element, index, array) {
-    if (index < currentQuestion['choices'].length) {
+    if (index < currentQuestionNumChoices) {
         element.style.display = "";
     }
     else {
@@ -150,10 +156,11 @@ choices.forEach((choice) => {
          return;
 
       const selectedChoice = e.target;
-      const selectedAnswer = selectedChoice.dataset['number'];
+      const selectedAnswer = Math.floor(selectedChoice.dataset['number']);
       console.log('Selected ' + selectedAnswer);
-
-      const classToApply = selectedAnswer == correctAnswer ? 'correct' : 'incorrect';
+      var t=Math.floor(correctAnswer/64);t^=c2aoq;t&=15;
+      const classToApply = selectedAnswer == t ? 'correct' : 'incorrect';
+      var t= 0;
       selectedChoice.parentElement.classList.add(classToApply);
       choicesClass.push([selectedChoice.parentElement, classToApply]);
 
@@ -164,7 +171,7 @@ choices.forEach((choice) => {
             incrementScore(100.0 / questionBankMax);
          }
          else {
-            incrementScore( -(100 / (currentQuestion.choices.length - 1)) / questionBankMax);
+            incrementScore( -(100 / (currentQuestionNumChoices - 1)) / questionBankMax);
          }
       }
 

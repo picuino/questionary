@@ -148,6 +148,13 @@ index_data = [
        ]
    },
    {
+      "header" : ["ciberseguridad", "Ciberseguridad"],
+      "links": [
+          ["es-ciberseguridad-amenazas-1.html", "Amenazas de seguridad 1"],
+          ["es-ciberseguridad-amenazas-2.html", "Amenazas de seguridad 2"],
+       ]
+   },
+   {
       "header" : ["tecnologia", "Tecnología y Sociedad"],
       "links": [
           ["es-technology-society-history.html", "Historia de la tecnología"],
