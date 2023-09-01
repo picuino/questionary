@@ -159,7 +159,10 @@ index_data = [
    {
       "header" : ["tecnologia", "Tecnología y Sociedad"],
       "links": [
-          ["es-technology-society-history.html", "Historia de la tecnología"],
+          ["es-historia-tecnologia-prehistoria.html", "Historia de la Tecnología I"],
+          ["es-historia-tecnologia-antigua.html", "Historia de la Tecnología II"],
+          ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología III"],
+          # ["es-technology-society-history.html", "Historia de la Tecnología 2"],
           ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
        ]
    },
@@ -172,7 +175,7 @@ index_template = """<!DOCTYPE html>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
-   Copyright (c) 2021 Carlos Pardo
+   Copyright (c) 2021 Carlos Pardo Martín
 
    Copyright (c) 2021 James Q Quick
    https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
