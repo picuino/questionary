@@ -159,9 +159,11 @@ index_data = [
    {
       "header" : ["tecnologia", "Tecnología y Sociedad"],
       "links": [
-          ["es-historia-tecnologia-prehistoria.html", "Historia de la Tecnología I"],
-          ["es-historia-tecnologia-antigua.html", "Historia de la Tecnología II"],
-          ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología III"],
+          ["es-historia-tecnologia-prehistoria.html", "Historia de la Tecnología. Prehistoria"],
+          ["es-historia-tecnologia-antigua.html", "Historia de la Tecnología. Edad Antigua"],
+          ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología. Edad Moderna"],
+          ["es-historia-tecnologia-revolucion-industrial.html", "Historia de la Tecnología. Revolución Industrial"],
+          ["es-historia-tecnologia-siglos-xx-xxi.html", "Historia de la Tecnología. Siglos XX y XXI"],
           # ["es-technology-society-history.html", "Historia de la Tecnología 2"],
           ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
        ]
