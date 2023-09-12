@@ -29,6 +29,8 @@ index_data = [
           ["es-material-metals.html", "Los metales"],
           ["es-material-plastics.html", "Los plásticos"],
           ["es-material-stone.html", "Los materiales pétreos"],
+          ["es-material-tools-1.html", "Las herramientas I"],
+          ["es-material-tools-2.html", "Las herramientas II"],
           ["es-material.html", "Test global de materiales"],
       ]
    },
@@ -225,9 +227,10 @@ index_template = """<!DOCTYPE html>
         {%- endfor %}
       
 	<hr style="margin:20px 0 20px 0">
-        <a class="btn" href="end.html" target="_blank">Última puntuación</a>
+
 	<a class="btn" href="index-en.html" target="_blank">Test in English</a>
 	<a class="btn" href="https://www.picuino.com/es/" target="_blank">Picuino</a>
+
 	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section = 1, numtest = 1) %}

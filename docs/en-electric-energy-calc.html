@@ -409,7 +409,7 @@
          </div>
          <div>
             <p class="hud-prefix">Score</p>
-            <p class="hud-main-text" id="score">0</p>
+            <p class="hud-main-text" id="score">0%</p>
          </div>
       </div>
 
@@ -1038,7 +1038,7 @@
 
          // Points
          var score_element = document.getElementById("score");
-         score_element.innerHTML = Math.round(points_total);
+         score_element.innerHTML = Math.round(points_total) + "%";
       };
 
       function onkeypress_handle(gap, event) {

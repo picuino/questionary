@@ -1,0 +1,1036 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Materiales/es-material-tools-1</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué son las herramientas de taller?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué son las herramientas de taller?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Instrumentos para realizar trabajos específicos.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Juguetes para niños que divierten y son útiles a la vez.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Objetos decorativos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Elementos de cocina.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es el propósito principal de las herramientas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es el propósito principal de las herramientas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Realizar tareas específicas y manipular materiales.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Decorar el taller de Tecnología.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hacer ejercicio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Jugar al aire libre.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Por qué cada herramienta está especializada en una tarea concreta?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué cada herramienta está especializada en una tarea concreta?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Para garantizar la seguridad y la eficacia.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para hacer que las herramientas sean más caras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para dificultar su uso.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque no hay suficientes herramientas disponibles.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es un ejemplo de mala utilización de herramientas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es un ejemplo de mala utilización de herramientas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Atornillar con unos alicates.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cortar con unas tijeras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Golpear con un martillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Medir con una regla.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es un ejemplo de mala utilización de herramientas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es un ejemplo de mala utilización de herramientas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Golpear con el mango de un destornillador.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cortar con una sierra.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unir con un tornillo y una llave inglesa.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforar con un punzón</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Por qué no se permite la mala utilización de herramientas en el taller de Tecnología?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué no se permite la mala utilización de herramientas en el taller de Tecnología?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque es peligroso y puede dañar las herramientas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para hacer que el taller sea aburrido.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque las herramientas son caras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque no hay suficientes herramientas adecuadas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál de las siguientes acciones es segura en el taller de Tecnología?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de las siguientes acciones es segura en el taller de Tecnología?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Utilizar una herramienta para su función prevista.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Correr por el taller con una herramienta en la mano.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Dejar las herramientas desatendidas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Usar herramientas de cualquier manera.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué puede ocurrir si se utiliza una herramienta de manera incorrecta en el taller de Tecnología?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué puede ocurrir si se utiliza una herramienta de manera incorrecta en el taller de Tecnología?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Puede dañar la herramienta o causar lesiones</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Nada, las herramientas son indestructibles</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las herramientas se vuelven más efectivas</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las herramientas se vuelven más seguras</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál es una diferencia clave entre herramientas y materiales?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es una diferencia clave entre herramientas y materiales?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Las herramientas no forman parte del objeto fabricado, mientras que los materiales si.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las herramientas se almacenan en contenedores grandes, los materiales no.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las herramientas no son reutilizables, los materiales si.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Las herramientas se utilizan solo en objetos grandes, los materiales en objetos pequeños.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué se entiende por una herramienta reutilizable?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué se entiende por una herramienta reutilizable?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una herramienta que se puede usar en la fabricación de varios productos.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una herramienta que nunca se desgasta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una herramienta que solo se usa una vez.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Una herramienta que es parte del objeto fabricado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál de los siguientes elementos se considera un material?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de los siguientes elementos se considera un material?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Pintura.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Destornillador.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Lápiz.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Martillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Por qué los clavos y la pintura NO son herramientas?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué los clavos y la pintura NO son herramientas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Son materiales porque forman parte del objeto fabricado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son materiales porque no se pueden almacenar en contenedores grandes.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son materiales porque son difíciles de utilizar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son materiales porque son costosos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál de las siguientes opciones NO es una herramienta?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de las siguientes opciones NO es una herramienta?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tornillo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pistola de cola termofusible.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pincel.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Martillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Cuál de los siguientes elementos no se menciona en la lista de ejemplos de materiales?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál de los siguientes elementos no se menciona en la lista de ejemplos de materiales?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Martillo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tornillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pegamento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cables.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Por qué es importante distinguir entre herramientas y materiales en el proceso de fabricación?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué es importante distinguir entre herramientas y materiales en el proceso de fabricación?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Para comprender qué elementos formarán parte del objeto fabricado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para ahorrar dinero en herramientas costosas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para mantener un registro de las herramientas utilizadas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Para asegurarse de que las herramientas se almacenen en contenedores grandes.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con una regla graduada?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con una regla graduada?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con una escuadra o un cartabón?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con una escuadra o un cartabón?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un compás?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un compás?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un nivel?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un nivel?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con una cinta métrica?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con una cinta métrica?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un pie de rey?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un pie de rey?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Acabado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un polímetro?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un polímetro?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Medición eléctrica.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Medición mecánica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Medición eléctrica y mecánica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un lápiz?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un lápiz?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con una punta de trazar?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con una punta de trazar?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Medición.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un granete?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un granete?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Golpeo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Corte.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con unos alicates?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con unos alicates?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Sujeción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de operación se puede realizar con un tornillo de banco?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué tipo de operación se puede realizar con un tornillo de banco?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Sujeción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Unión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Perforado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Marcado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+</quiz>

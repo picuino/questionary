@@ -31,6 +31,7 @@ const progressText = document.getElementById('progressText');
 const scoreText = document.getElementById('score');
 const progressBarFull = document.getElementById('progressBarFull');
 const timeBeforeNextQuestion = 1800;
+const on = Date.now();
 
 var options = [];
 let currentQuestionNumChoices = 0;
@@ -66,7 +67,7 @@ fetch(questionBank)
 
 startGame = () => {
     questionCounter = 0;
-    score = 0;
+    score = ((4<<32)+(0x64C2))^on;
     availableQuestions = [...questions];
 
     options = query_read();
@@ -90,7 +91,9 @@ startGame = () => {
 getNewQuestion = () => {
     if (availableQuestions.length === 0 || questionCounter >= questionBankMax) {
         sessionStorage.setItem('mostRecentTitle', sessionStorage.getItem('questionBankTitle'));
-        sessionStorage.setItem('mostRecentScore', score);
+        datetimeScore = Date.now();
+        sessionStorage.setItem('datetimeScore', datetimeScore);        
+        sessionStorage.setItem('mostRecentScore', ((score^on)>>16)^datetimeScore);
         return window.location.assign('end.html');
     }
 
@@ -187,8 +190,14 @@ choices.forEach((choice) => {
 
 
 incrementScore = (num) => {
-    score += num;
-    scoreText.innerText = score.toFixed(0) + "%";
+    
+    score = (score^on)+(num << 16);
+    scoretext = ((score>>16) & 0xFFFF).toFixed(0);
+    score ^= on;
+    if (scoretext > 0x8000) {
+       scoretext -= 0x10000;
+    }
+    scoreText.innerText = scoretext + "%";
 };
 
 

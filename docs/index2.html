@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+   <!--
+   Copyright (c) 2021 Carlos Pardo
+
+   Copyright (c) 2021 James Q Quick
+   https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+   -->
+
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <meta name="description" content="Test de Tecnología. Materiales, Mecánica, Electricidad." />
+   <title>Test de Tecnología - Picuino</title>
+   <link rel="stylesheet" href="app.css">
+   
+   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
+   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
+   <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
+   
+</head>
+
+<body>
+   <div class="container">
+      <div id="home" class="flex-center flex-column">
+
+        <h1>TEST DE TECNOLOGÍA</h1>
+        
+        <a class="btn" href="#Valores">Valores Éticos</a>
+      
+		  <hr style="margin:20px 0 20px 0">
+        <a class="btn" href="end.html">Última puntuación</a>
+	     <a class="btn" href="https://www.picuino.com/">Picuino</a>
+		  <hr style="margin:20px 0 80px 0">
+
+        <h1 id="Valores">Valores Éticos</h1>
+        <a class="btn" href="es-valores-derechos-humanos-1.html">1. Declaración Derechos Humanos (1)</a>
+        <a class="btn" href="es-valores-derechos-humanos-2.html">2. Declaración Derechos Humanos (2)</a>
+        <a class="btn" href="es-valores-derechos-humanos-3.html">3. Declaración Derechos Humanos (3)</a>
+        <a class="btn" href="es-valores-derechos-humanos-4.html">4. Declaración Derechos Humanos (4)</a>
+
+        <p style="margin-top:80px"></p>
+
+      </div>
+   </div>
+
+
+   <div class="container">
+   
+   <!-- FOOTER -->
+   <div class="footer">
+   <a href="https://www.picuino.com/es/contacto.html">Contacto</a>
+   <a href="https://www.picuino.com/es/legal-aviso.html">Aviso legal</a>
+   <a href="https://www.picuino.com/es/legal-cookies.html">Política de Cookies</a>
+   <a href="https://github.com/picuino/questionary/blob/master/Licenses.md">Créditos</a>
+   <a href="https://github.com/picuino/questionary/">GitHub</a>
+   <a href="https://www.picuino.com/test/index.html">Índice</a>
+   </div>
+
+   <!-- Cookies Advise -->
+   <div id="cookiesbar" style="display: none">
+   Esta página web utiliza cookies propias y de terceros 
+   para propósitos funcionales y de análisis de navegación.
+   Puedes obtener más información en nuestra 
+   <a href="https://www.picuino.com/es/legal-cookies.html" 
+   target="_blank">política de Cookies.</a> <br />
+   Si continúas navegando, aceptas su uso.
+   <br />
+   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
+   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
+   </div>
+   <script>
+   if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
+   function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
+   function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/; SameSite=none;";}
+   </script>
+
+   <!-- Matomo -->
+   <script type="text/javascript">
+   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+     var _paq = window._paq = window._paq || [];
+     _paq.push(['trackPageView']);
+     _paq.push(['enableLinkTracking']);
+     (function() {
+       var u="//www.picuino.com/matomo/";
+       _paq.push(['setTrackerUrl', u+'matomo.php']);
+       _paq.push(['setSiteId', '1']);
+       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+     })();
+   }
+   </script>
+   <!-- End Matomo Code -->
+
+   <!-- Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-59765999-1"></script>
+   <script>
+   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+     window.dataLayer=window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);} 
+     gtag('js', new Date()); gtag('config', 'UA-59765999-1');
+   }
+   </script>
+
+   </div>
+</body>
+</html>

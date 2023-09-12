@@ -25,7 +25,9 @@
 
 const endDiv = document.getElementById('end');
 const title = sessionStorage.getItem('mostRecentTitle');
-const mostRecentScore = Number(sessionStorage.getItem('mostRecentScore')).toFixed(0) + "%";
+const datetimeScore = Number(sessionStorage.getItem('datetimeScore')).toFixed(0);
+const mostRecentScore = calculateScore((sessionStorage.getItem('mostRecentScore') ^ datetimeScore) & 0xFFFF) + "%";
+
 
 var watermark=1;
 
@@ -50,9 +52,19 @@ function setFinalScore() {
      + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
      + "</h1> <h1>= = = = =</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\"" 
      + "href=\"index.html\">Índice de los Test</a>");
+
      watermark = 1;
   }
 };
+
+function calculateScore(val) {
+   dateInterval = Date.now() - datetimeScore;
+   if ((dateInterval > 0) && (dateInterval < 1000*300)) {
+      if (val>0x8000) return val-0x10000;
+      else return val;
+   }
+   return 0;
+}
 
 const result = setFinalScore();
 

@@ -39,6 +39,8 @@ projects = [
       'es-material-stone.yaml',
       'es-material-metals.yaml',
       'es-material-plastics.yaml',
+      'es-material-tools-1.yaml',
+      'es-material-tools-2.yaml',
       ],
    'filename_output': 'es-material',
    'yaml_category': 'Materiales',
