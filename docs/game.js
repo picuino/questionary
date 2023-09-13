@@ -190,14 +190,13 @@ choices.forEach((choice) => {
 
 
 incrementScore = (num) => {
-    
-    score = (score^on)+(num << 16);
-    scoretext = ((score>>16) & 0xFFFF).toFixed(0);
+    score = (score^on)+((num*100)<<16);
+    scoretext = (score>>16)&0xFFFF;
     score ^= on;
     if (scoretext > 0x8000) {
        scoretext -= 0x10000;
     }
-    scoreText.innerText = scoretext + "%";
+    scoreText.innerText = (scoretext/100.0).toFixed(0) + "%";
 };
 
 

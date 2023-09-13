@@ -59,9 +59,9 @@ function setFinalScore() {
 
 function calculateScore(val) {
    dateInterval = Date.now() - datetimeScore;
-   if ((dateInterval > 0) && (dateInterval < 1000*300)) {
-      if (val>0x8000) return val-0x10000;
-      else return val;
+   if ((dateInterval > 0) && (dateInterval < 1000*300)) {      
+      if (val>0x8000) val-=0x10000;
+      return (val/100.0).toFixed(0);
    }
    return 0;
 }
