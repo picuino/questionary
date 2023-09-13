@@ -26,7 +26,7 @@
 const endDiv = document.getElementById('end');
 const title = sessionStorage.getItem('mostRecentTitle');
 const datetimeScore = Number(sessionStorage.getItem('datetimeScore')).toFixed(0);
-const mostRecentScore = calculateScore((sessionStorage.getItem('mostRecentScore') ^ datetimeScore) & 0xFFFF) + "%";
+const mostRecentScore = calculateScore((sessionStorage.getItem('mostRecentScore') ^ datetimeScore) & 0xFFFF)^datetimeScore;
 
 
 var watermark=1;
@@ -40,7 +40,7 @@ function setFinalScore() {
   if (watermark == 1) {
      endDiv.innerHTML = "";
      endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title2
-     + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
+     + "</h1> <h1 style=\"font-size:80px\">" + ((mostRecentScore^datetimeScore)/100).toFixed(0) + "%"
      + "</h1> <h1>- - - - - -</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\""
      + "href=\"index.html\">Índice de los Test</a>");
 
@@ -49,7 +49,7 @@ function setFinalScore() {
   else if (watermark == 2) {
      endDiv.innerHTML = "";
      endDiv.insertAdjacentHTML("afterbegin", "<h1 style=\"font-size:48px\">" + title2
-     + "</h1> <h1 style=\"font-size:80px\">" + mostRecentScore 
+     + "</h1> <h1 style=\"font-size:80px\">" + ((mostRecentScore^datetimeScore)/100).toFixed(0) + "%"
      + "</h1> <h1>= = = = =</h1> <p style=\"margin-top:64px\"></p> <a class=\"btn\"" 
      + "href=\"index.html\">Índice de los Test</a>");
 
@@ -61,7 +61,7 @@ function calculateScore(val) {
    dateInterval = Date.now() - datetimeScore;
    if ((dateInterval > 0) && (dateInterval < 1000*300)) {      
       if (val>0x8000) val-=0x10000;
-      return (val/100.0).toFixed(0);
+      return val;
    }
    return 0;
 }
