@@ -233,13 +233,14 @@ index_template = """<!DOCTYPE html>
 
 	<hr style="margin:20px 0 80px 0">
 
-        {% set sp = namespace(section = 1, numtest = 1) %}
+        {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
         {%- for section in data %}
 
         <h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
         {%- for link in section.links %}
         <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
         {%- set sp.numtest = sp.numtest + 1 %}
+        {%- set sp.sumtest = sp.sumtest + 1 %}
         {%- endfor %}
         <a class="btn" href="#index">Volver al índice</a>
         {%- set sp.section = sp.section + 1 %}
@@ -264,6 +265,7 @@ index_template = """<!DOCTYPE html>
    <a href="https://www.picuino.com/test/index.html" target="_blank">Índice</a>
    <p>Copyright © 2021 por Carlos Pardo Martín.</p>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+   <p>{{ sp.sumtest }} Test de Tecnología</p>
    </div>
 
    <!-- Cookies Advise -->

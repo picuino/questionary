@@ -91,20 +91,20 @@ index_template = """<!DOCTYPE html>
         {%- endfor %}
       
 	<hr style="margin:20px 0 20px 0">
-        <a class="btn" href="end.html" target="_blank">Last Score</a>
 	<a class="btn" href="index.html" target="_blank">Test en Español</a>
 	<a class="btn" href="https://www.picuino.com/en/" target="_blank">Picuino</a>
 	<hr style="margin:20px 0 80px 0">
 
-        {% set sp = namespace(section = 1, numtest = 1) %}
+        {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
         {%- for section in data %}
 
         <h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
         {%- for link in section.links %}
         <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
         {%- set sp.numtest = sp.numtest + 1 %}
+        {%- set sp.sumtest = sp.sumtest + 1 %}
         {%- endfor %}
-        <a class="btn" href="#index">Volver al índice</a>
+        <a class="btn" href="#index">Back to index</a>
         {%- set sp.section = sp.section + 1 %}
         {%- set sp.numtest = 1 %}
         {%- endfor %}
@@ -127,6 +127,7 @@ index_template = """<!DOCTYPE html>
    <a href="https://www.picuino.com/test/index.html" target="_blank">Index</a>
    <p>Copyright © 2021 by Carlos Pardo Martín.</p>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+   <p>{{ sp.sumtest }} Technology test</p>
    </div>
 
    <!-- Cookies Advise -->
