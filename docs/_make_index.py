@@ -166,8 +166,9 @@ index_data = [
           ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología. Edad Moderna"],
           ["es-historia-tecnologia-revolucion-industrial.html", "Historia de la Tecnología. Revolución Industrial"],
           ["es-historia-tecnologia-siglos-xx-xxi.html", "Historia de la Tecnología. Siglos XX y XXI"],
-          # ["es-technology-society-history.html", "Historia de la Tecnología 2"],
-          ["es-technology-society-objects.html", "Los objetos técnicos y la sociedad"],
+
+          ["es-technology-objects-1.html", "Los objetos técnicos y la sociedad I"],
+          ["es-technology-objects-2.html", "Los objetos técnicos y la sociedad II"],
        ]
    },
 ]
