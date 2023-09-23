@@ -31,7 +31,7 @@ index_data = [
           ["es-material-stone.html", "Los materiales pétreos"],
           ["es-material-tools-1.html", "Las herramientas I"],
           ["es-material-tools-2.html", "Las herramientas II"],
-          ["es-material.html", "Test global de materiales"],
+          ["es-material.html", "Materiales y Herramientas. Test global"],
       ]
    },
    {
@@ -43,7 +43,7 @@ index_data = [
           ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
           ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
           ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
-          ["es-machines.html", "Test global de Máquinas y Mecanismos"],
+          ["es-machines.html", "Máquinas y Mecanismos. Test global"],
           ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
           ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
        ]
@@ -54,7 +54,8 @@ index_data = [
           ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
           ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
        ]
-   },   {
+   },
+   {
       "header" : ["electricidad", "Electricidad"],
       "links": [
           ["es-electric-introduction.html", "Fundamentos"],
@@ -84,6 +85,11 @@ index_data = [
           ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
 
           ["es-electric-power.html", "Potencia eléctrica"],
+       ]
+   },
+   {
+      "header" : ["electronica", "Electrónica"],
+      "links": [
           ["es-electric-breadboard.html", "Breadboard"],
           ["es-electric-digital.html", "Electrónica digital"],
        ]
@@ -169,6 +175,11 @@ index_data = [
 
           ["es-technology-objects-1.html", "Los objetos técnicos y la sociedad I"],
           ["es-technology-objects-2.html", "Los objetos técnicos y la sociedad II"],
+          ["es-technology-objects-3.html", "La Normalización I"],
+          ["es-technology-objects-4.html", "La Normalización II"],
+
+          ["es-historia.html", "Historia de la Tecnología. Test global"],
+          ["es-technology-objects.html", "Los objetos técnicos. Test global"],
        ]
    },
 ]
@@ -223,14 +234,14 @@ index_template = """<!DOCTYPE html>
         <h1 id="index">TEST DE TECNOLOGÍA</h1>
         {% set sp = namespace(section = 1) %}
         {% for section in data %}
-        <a class="btn" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
+        <a class="btn2" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
         {%- set sp.section = sp.section + 1 %}
         {%- endfor %}
       
 	<hr style="margin:20px 0 20px 0">
 
-	<a class="btn" href="index-en.html" target="_blank">Test in English</a>
-	<a class="btn" href="https://www.picuino.com/es/" target="_blank">Picuino</a>
+	<a class="btn2" href="index-en.html" target="_blank">Test in English</a>
+	<a class="btn2" href="https://www.picuino.com/es/" target="_blank">Picuino</a>
 
 	<hr style="margin:20px 0 80px 0">
 
@@ -243,7 +254,7 @@ index_template = """<!DOCTYPE html>
         {%- set sp.numtest = sp.numtest + 1 %}
         {%- set sp.sumtest = sp.sumtest + 1 %}
         {%- endfor %}
-        <a class="btn" href="#index">Volver al índice</a>
+        <a class="btn2" href="#index">Volver al índice</a>
         {%- set sp.section = sp.section + 1 %}
         {%- set sp.numtest = 1 %}
         {%- endfor %}

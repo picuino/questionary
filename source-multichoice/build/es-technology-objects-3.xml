@@ -1,0 +1,988 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Los objetos técnicos/es-technology-objects-3</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+  <question type="multichoice">
+    <name> <text>1</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuáles son las ventajas de la normalización?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Consigue que los aparatos sean más baratos, eficaces, cómodos y seguros.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Consigue que los aparatos sean más caros, eficaces, cómodos y seguros.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Consigue que los aparatos sean más baratos, eficaces, incómodos y seguros.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Consigue que los aparatos sean más baratos, eficaces, cómodos y inseguros.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>2</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las normas son especificaciones técnicas aprobadas por una institución ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cuya autoridad es ampliamente reconocida.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cuya autoridad es reconocida en el sector.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cuya autoridad no tiene por qué ser reconocida.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Pública, avalada por el estado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>3</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las normas son especificaciones técnicas que establecen que los objetos ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Tengan unas determinadas dimensiones o características.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tengan unos determinados materiales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tengan unos determinados fabricantes reconocidos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tengan unos países de procedencia ampliamente reconocidos por su calidad.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>4</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Quién aprueba las especificaciones técnicas en la Normalización?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Una institución con autoridad reconocida.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Cualquier individuo interesado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El gobierno de cada país.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los fabricantes de objetos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>5</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Las normas son especificaciones técnicas destinadas a crear ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Estándares.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Variedad en el mercado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Uniformidad en el mercado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Seguridad en el mercado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>6</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>ISO son las siglas en inglés de ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Organización Internacional para la Estandarización.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Organización Internacional para la Estabilización.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Organización Multinacional para la Estandarización.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Organismo Internacional para la Estandarización.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>7</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Otro organismo internacional de estandarización es ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>IEC (International Electrotechnical Commission).</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IEC (International Electronical Commission).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IEC (International Electronical Communications).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IEC (International Electrotechnical Communications).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>8</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>Otro organismo internacional de estandarización es ...</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>IATA (International Air Transport Association).</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IATA (International Aircraft Transport Association).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IATA (International Aircraft Transport Alliance).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>IATA (International Air Transport Alliance).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>9</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es una ventaja para el cliente al usar productos normalizados?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Prueba que un producto es eficaz y seguro.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hace que los productos sean únicos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumenta los problemas al cambiar de marca.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Reduce la compatibilidad entre productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>10</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo beneficia la normalización al consumidor al cambiar de marca o país?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Hace que los productos sean compatibles entre sí.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumenta la complejidad de los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Facilita las reparaciones y cambios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Disminuye la eficacia de los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>11</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué los fabricantes se benefician de productos que se ajustan a la norma?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Son más fáciles de almacenar y apilar.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumentan los costes de producción.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Causan problemas a los distribuidores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Requieren tamaños de folio diferentes.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>12</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es uno de los ejemplos de objetos normalizados mencionado en el texto?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Folios DIN A4.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Tarjetas de crédito.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Sellos postales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>CDs de música.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>13</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué ventaja tiene para los fabricantes la producción de muchos productos iguales o semejantes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Reduce los costes de producción.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumenta la complejidad del proceso.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Genera problemas en el almacenamiento.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Disminuye la eficacia de los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>14</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué es beneficioso para el consumidor que los productos sean compatibles entre sí?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Evita problemas al cambiar de marca o país.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Hace que los productos sean más caros.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Incrementa la complejidad de los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Aumenta la seguridad de los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>15</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es uno de los beneficios para el cliente al ajustarse a la norma?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Las reparaciones o cambios son más sencillos y rápidos.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los productos son únicos y exclusivos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los productos son más caros.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Se necesitan más tipos de impresoras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>16</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cómo afecta la normalización a los costes de producción de los fabricantes?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Los reduce.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los aumenta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No tiene ningún efecto en los costes.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los hace variables.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>17</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué algunos objetos, como los libros, no están normalizados?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque tienen alturas diferentes.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque son objetos antiguos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque son difíciles de encontrar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque son objetos exclusivos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>18</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué experiencia se menciona en el texto relacionada con pantalones de la misma talla?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Uno queda estrecho y el otro no.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ambos pantalones quedan perfectamente.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Uno es más caro que el otro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Ambos pantalones son de colores diferentes.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>19</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué ventaja se menciona en el texto con respecto a los puertos USB?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Simplifican la variedad de puertos.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Complican la conexión de dispositivos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Requieren adaptadores adicionales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Son exclusivos para ciertos dispositivos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>20</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Por qué es importante tener en cuenta que la normalización es relativa?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque un producto puede tener componentes normalizados y otros no normalizados.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque todos los productos son normalizados de la misma manera.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque la normalización no afecta a ningún producto.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Porque la normalización es constante en todos los países.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>21</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué significa que un producto tenga componentes normalizados y otros no normalizados?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Que algunas partes del producto siguen estándares, mientras que otras no.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que el producto es inusual y poco común.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que no se puede encontrar en ningún país.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que todos los componentes del producto son normalizados.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>22</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es un ejemplo de componente normalizado en un teclado de ordenador según el texto?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La posición de las teclas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El material de las teclas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>El tamaño de las teclas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La marca del teclado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>23</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué sucede con la posición de las teclas al cambiar de país en un teclado de ordenador?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Puede ser diferente.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Siempre es la misma.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Nunca cambia.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>No afecta a las teclas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>24</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué aspecto de un teclado de ordenador no está normalizado según el texto?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>1.0</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El material y el tamaño de las teclas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La posición de las teclas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>25</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Qué significa que algunos teclados tengan teclas más duras, más blandas, más ruidosas, o más silenciosas?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Que el material de las teclas no está normalizado.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que todos los teclados son iguales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que no existen diferencias entre los teclados.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Que la normalización afecta a todos los aspectos del teclado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+  <question type="multichoice">
+    <name> <text>26</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[<p>¿Cuál es la idea principal del texto sobre la normalización?</p>]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.3333333333333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La normalización puede variar en diferentes componentes de un producto.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Todos los productos tienen la misma normalización.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>La normalización no afecta a los productos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="0" format="html">
+       <text>Los productos no tienen componentes normalizados.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+</quiz>

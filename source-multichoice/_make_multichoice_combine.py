@@ -43,8 +43,8 @@ projects = [
       'es-material-tools-2.yaml',
       ],
    'filename_output': 'es-material',
-   'yaml_category': 'Materiales',
-   'yaml_title': 'Cuestionario global de materiales',   
+   'yaml_category': 'Materiales y Herramientas',
+   'yaml_title': 'Test global',   
    'max_questions': 35,
    'random_seed': 2022,
 },
@@ -59,11 +59,41 @@ projects = [
       'es-machines-transformation2.yaml',
       ],
    'filename_output': 'es-machines',
-   'yaml_category': 'Mecanismos',
-   'yaml_title': 'Cuestionario global de mecanismos',   
+   'yaml_category': 'Máquinas y Mecanismos',
+   'yaml_title': 'Test global',   
    'max_questions': 35,
    'random_seed': 2022,
-}
+},
+
+{
+   'yaml_files': [
+      'es-historia-tecnologia-prehistoria.yaml',
+      'es-historia-tecnologia-antigua.yaml',
+      'es-historia-tecnologia-moderna.yaml',
+      'es-historia-tecnologia-revolucion-industrial.yaml',
+      'es-historia-tecnologia-siglos-xx-xxi.yaml',
+      ],
+   'filename_output': 'es-historia',
+   'yaml_category': 'Historia de la Tecnología',
+   'yaml_title': 'Test global',   
+   'max_questions': 35,
+   'random_seed': 2022,
+},
+
+{
+   'yaml_files': [
+      'es-technology-objects-1.yaml',
+      'es-technology-objects-2.yaml',
+      'es-technology-objects-3.yaml',
+      'es-technology-objects-4.yaml',
+      ],
+   'filename_output': 'es-technology-objects',
+   'yaml_category': 'Los objetos técnicos',
+   'yaml_title': 'Test global',   
+   'max_questions': 35,
+   'random_seed': 2022,
+},
+
 ]
    
 

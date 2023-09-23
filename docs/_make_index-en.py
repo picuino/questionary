@@ -86,13 +86,13 @@ index_template = """<!DOCTYPE html>
         <h1 id="index">TECHNOLOGY TEST</h1>
         {% set sp = namespace(section = 1) %}
         {% for section in data %}
-        <a class="btn" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
+        <a class="btn2" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
         {%- set sp.section = sp.section + 1 %}
         {%- endfor %}
       
 	<hr style="margin:20px 0 20px 0">
-	<a class="btn" href="index.html" target="_blank">Test en Español</a>
-	<a class="btn" href="https://www.picuino.com/en/" target="_blank">Picuino</a>
+	<a class="btn2" href="index.html" target="_blank">Test en Español</a>
+	<a class="btn2" href="https://www.picuino.com/en/" target="_blank">Picuino</a>
 	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
@@ -104,7 +104,7 @@ index_template = """<!DOCTYPE html>
         {%- set sp.numtest = sp.numtest + 1 %}
         {%- set sp.sumtest = sp.sumtest + 1 %}
         {%- endfor %}
-        <a class="btn" href="#index">Back to index</a>
+        <a class="btn2" href="#index">Back to index</a>
         {%- set sp.section = sp.section + 1 %}
         {%- set sp.numtest = 1 %}
         {%- endfor %}

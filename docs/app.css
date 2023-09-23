@@ -63,10 +63,10 @@ h2 {
 
 /* BUTTONS */
 
-.btn {
+.btn, .btn2 {
   font-size: 18px;
   padding: 8px 4px;
-  width: 240px;
+  width: 280px;
   text-align: center;
   border: 1px solid #094070;
   margin-bottom: 8px;
@@ -76,14 +76,18 @@ h2 {
   border-radius: 8px;
 }
 
-.btn:hover {
+.btn2 {
+  width: 180px;
+}
+
+.btn:hover, .btn2:hover  {
   cursor: pointer;
   box-shadow: 0 4px 14px 0 rgba(86, 185, 235, 0.5);
   transform: translateY(-1px);
   transition: transform 150ms;
 }
 
-.btn[disabled]:hover {
+.btn[disabled]:hover, .btn2[disabled]:hover {
   cursor: not-allowed;
   box-shadow: none;
   transform: none;
