@@ -13,7 +13,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -28,17 +28,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conectar los cables a la red eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conectar los cables a dispositivos de audio y vídeo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Ninguna de las anteriores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -51,7 +51,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -66,17 +66,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector hembra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector USB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector Ethernet.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -89,7 +89,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -104,17 +104,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Porque los pines hembra de los cables se pueden romper o doblar con mayor facilidad que los agujeros macho de los equipos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Porque los conectores macho son más baratos que los hembra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Porque los conectores macho son más resistentes que los hembra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -127,7 +127,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -142,17 +142,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Son cables que se conectan a dispositivos de almacenamiento externos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Son los conectores internos de la placa base que sirven para conectar tarjetas de expansión al ordenador.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Ninguna de las anteriores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -165,7 +165,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -180,17 +180,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conectores USB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conectores SATA.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conectores PCI-E.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -203,7 +203,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -218,17 +218,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es un bus que sirve para conectar pendrives por USB.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es un tipo de memoria RAM de doble canal.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es un bus que sirve para conectar sonido digital.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -241,7 +241,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -256,17 +256,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Los dispositivos de entrada del ordenador con la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Las tarjetas de expansión a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Las señales de vídeo con los monitores o proyectores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -279,7 +279,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -294,17 +294,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Hasta medio metro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Hasta dos metros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>No hay una longitud máxima.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -317,7 +317,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -332,17 +332,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Un tipo de conector de la placa base para conectar memoria RAM.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Un tipo de conector SATA.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Un tipo de conector HDMI.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -355,7 +355,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -370,17 +370,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>7.9 GB/s</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>63 GB/s</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>3.9 GB/s</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -393,7 +393,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -408,17 +408,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar tarjetas gráficas a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar dispositivos de almacenamiento ópticos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar vídeo de alta velocidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -431,7 +431,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -446,17 +446,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dynamic In-line Memory Module</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Double In-line Memory Module</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Direct In-line Memory Module</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -469,7 +469,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -484,17 +484,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar discos duros a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar la tarjeta gráfica a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar el microprocesador a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -507,7 +507,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -522,17 +522,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Diferente color y forma.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Solo cambia el número de contactos de conexión.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Todos tienen el mismo tipo de conector DIMM.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -545,7 +545,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -560,17 +560,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es el conector que permite conectar la memoria RAM a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es el conector que permite conectar la tarjeta gráfica a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Es el conector que permite conectar el disco duro a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -583,7 +583,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -598,17 +598,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>El microprocesador se conectará pero no funcionará.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>El microprocesador se conectará y funcionará correctamente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>El zócalo se estropeará y no se podrá volver a utilizar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -621,7 +621,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -636,17 +636,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cambiar la CPU y también la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Comprar un ordenador nuevo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Añadir más memoria RAM a la placa base.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -659,7 +659,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -674,17 +674,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Intel y NVIDIA</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>AMD y NVIDIA</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>AMD y Asus</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -697,7 +697,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -712,17 +712,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>A partir de 1995</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>A partir de 2005</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>A partir de 2010</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -735,7 +735,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -750,17 +750,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 1.1</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 3.0</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 4.0</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -773,7 +773,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -788,17 +788,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector A</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector B</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector mini</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -811,7 +811,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -826,17 +826,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 4.0</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 3.0</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>USB 2.0</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -849,7 +849,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -864,17 +864,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar teclados y ratones.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para intercambio de datos de audio digital.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para dar conexión de datos y alimentación a dispositivos de audio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -887,7 +887,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -902,17 +902,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector de 2,5 mm.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector RCA.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conector XLR.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -925,7 +925,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -940,17 +940,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Azul</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Rosa/Rojo</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Negro</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -963,7 +963,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -978,17 +978,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Verde</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Azul</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Negro</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -1001,7 +1001,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -1016,17 +1016,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar micrófonos y auriculares.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar memorias antiguas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Para conectar audio digital.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -1039,7 +1039,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -1054,17 +1054,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conexión de ratón</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Entrada de audio</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Salida de audio</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>

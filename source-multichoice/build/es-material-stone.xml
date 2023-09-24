@@ -13,7 +13,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -28,17 +28,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Parecida a la densidad del agua</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Mucho menor que la densidad del agua</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Los materiales pétreos no tienen densidad</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -51,7 +51,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -66,17 +66,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Siempre flotan</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Siempre se hunden en el agua</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Los materiales pétreos no se deben mojar con agua</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -89,7 +89,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -104,17 +104,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>La mayoría son opacos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>La mayoría son transparentes</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Los materiales pétreos no responden bien a la luz</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -142,12 +142,12 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-50.0" format="html">
        <text>Muy mala resistencia a la luz del sol porque se degradan</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-50.0" format="html">
        <text>Tienen una resistencia media a la luz del sol porque a la larga se degradan</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -160,7 +160,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -175,17 +175,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Maleables, pero poco dúctiles</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dúctiles, pero poco maleables</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dúctiles y maleables</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -198,7 +198,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -213,17 +213,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Nada maleables ni dúctiles</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dúctiles, pero poco maleables</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dúctiles y maleables</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -236,7 +236,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -251,17 +251,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Maleable, pero poco dúctil</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Nada maleable ni dúctil</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Dúctil, pero poco maleable</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -274,7 +274,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -289,17 +289,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conducen bien el calor y la electricidad</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conducen bien la electricidad pero mal el calor</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Conducen bien el calor pero mal la electricidad</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -312,7 +312,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -327,17 +327,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>False</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Algunos se oxidan, pero la mayoría resisten bien sin oxidarse</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>La mayoría se oxidan, pero algunos resisten bien sin oxidarse</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -350,7 +350,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -365,17 +365,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Si</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>False</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>El mármol y la caliza resisten bien, pero el resto de pétreos se disuelven</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -388,7 +388,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -403,17 +403,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Yeso, granito, pizarra, caliza, arenisca y arenas</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Mármol, cemento, pizarra, caliza, gres y arenas</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Mármol, granito, arcilla, caliza, arenisca y loza</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -426,7 +426,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -441,17 +441,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Mármol, escayola, Gres, hormigón</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Yeso, arcilla, cemento, loza</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Yeso, escayola, cemento, porcelana</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -464,7 +464,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -479,17 +479,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>cemento, loza, gres, porcelana</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Arcilla, yeso, gres, porcelana</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Arcilla, loza, hormigón, porcelana</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -502,7 +502,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -517,17 +517,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados y, antiguamente, para escribir</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Producir cal, un componente fundamental del cemento gris</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Construir piedras de afilar</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -540,7 +540,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -555,17 +555,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados y, antiguamente, para escribir</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Producir cal, un componente fundamental del cemento gris</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Añadirlo al cemento para formar hormigón</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -578,7 +578,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -593,17 +593,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar encimeras de cocina</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Producir cal, un componente fundamental del cemento gris</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Construir piedras de afilar</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -616,7 +616,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -631,17 +631,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados y, antiguamente, para escribir</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar encimeras de cocina</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Construir piedras de afilar</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -654,7 +654,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -669,17 +669,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Producir cal, un componente fundamental del cemento gris</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados y, antiguamente, para escribir</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar encimeras de cocina</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -692,7 +692,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -707,17 +707,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Producir cal, un componente fundamental del cemento gris</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados y, antiguamente, para escribir</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Construir piedras de afilar</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -730,7 +730,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -745,17 +745,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar encimeras de cocina</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir suelos o paredes de forma lujosa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -768,7 +768,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -783,17 +783,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar encimeras de cocina</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir suelos o paredes de forma lujosa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -806,7 +806,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -821,17 +821,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Construir piedras de afilar</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir suelos o paredes de forma lujosa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -844,7 +844,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -859,17 +859,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricación de baldosas para suelos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir suelos o paredes de forma lujosa</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Hacer vigas y suelos de edificios, carreteras, puentes, etc.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -882,7 +882,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -897,17 +897,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricación de baldosas para suelos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar ladrillos, tejas, recipientes y producir cemento</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -920,7 +920,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -935,17 +935,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar ladrillos, tejas, recipientes y producir cemento</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar jarrones, aisladores eléctricos, inodoros, lavabos, etc.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Hacer vigas y suelos de edificios, carreteras, puentes, etc.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -958,7 +958,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -973,17 +973,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricación de baldosas para suelos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar ladrillos, tejas, recipientes y producir cemento</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Cubrir tejados</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -996,7 +996,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.3333333333333333</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -1011,17 +1011,17 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricación de baldosas para suelos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Fabricar ladrillos, tejas, recipientes y producir cemento</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-33.333333333333336" format="html">
        <text>Hacer vigas y suelos de edificios, carreteras, puentes, etc.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>

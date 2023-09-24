@@ -73,7 +73,7 @@ projects = [
       'es-historia-tecnologia-revolucion-industrial.yaml',
       'es-historia-tecnologia-siglos-xx-xxi.yaml',
       ],
-   'filename_output': 'es-historia',
+   'filename_output': 'es-historia-tecnologia',
    'yaml_category': 'Historia de la Tecnología',
    'yaml_title': 'Test global',   
    'max_questions': 35,

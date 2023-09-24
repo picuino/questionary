@@ -13,7 +13,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.2</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -28,27 +28,27 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-20.0" format="html">
        <text>Dos</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-20.0" format="html">
        <text>Tres</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-20.0" format="html">
        <text>Cuatro</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-20.0" format="html">
        <text>Cinco</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-20.0" format="html">
        <text>Seis</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
@@ -61,7 +61,7 @@
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
     <defaultgrade>1.0000000</defaultgrade>
-    <penalty>1.0</penalty>
+    <penalty>0.5</penalty>
     <hidden>0</hidden>
     <idnumber></idnumber>
     <single>true</single>
@@ -76,7 +76,7 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
-    <answer fraction="0" format="html">
+    <answer fraction="-100.0" format="html">
        <text>Abajo</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>

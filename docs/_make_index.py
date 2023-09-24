@@ -178,7 +178,7 @@ index_data = [
           ["es-technology-objects-3.html", "La Normalización I"],
           ["es-technology-objects-4.html", "La Normalización II"],
 
-          ["es-historia.html", "Historia de la Tecnología. Test global"],
+          ["es-historia-tecnologia.html", "Historia de la Tecnología. Test global"],
           ["es-technology-objects.html", "Los objetos técnicos. Test global"],
        ]
    },

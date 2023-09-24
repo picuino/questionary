@@ -8,7 +8,8 @@
   </question>
 
 {%- for question in questions %}
-  {%- set penalty = 1 / ((question.Choices | length) - 1) %}
+  {%- set penalty = 0.50 %}
+  {%- set fraction_error = -100 / ((question.Choices | length) - 1) %}
   <question type="multichoice">
     <name> <text>{{ question.Title }}</text> </name>
     <questiontext format="html">
@@ -41,7 +42,7 @@
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     {% else -%}
-    <answer fraction="0" format="html">
+    <answer fraction="{{ fraction_error }}" format="html">
        <text>{{ Choice }}</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
