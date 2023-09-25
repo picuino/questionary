@@ -63,12 +63,8 @@ index_data = [
           ["es-electric-components-name.html", "Nombre de componentes (test)"],
           ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
 
-          ["es-electric-color-code-1.html", "Código de colores 1"],
-          ["es-electric-color-code-2.html", "Código de colores 2"],
-
-          ["es-electric-units-change.html", "Cambio de unidades"],
-          ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
           ["es-electric-circuits.html", "Circuitos eléctricos"],
+          ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
 
           ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
           ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
@@ -90,6 +86,9 @@ index_data = [
    {
       "header" : ["electronica", "Electrónica"],
       "links": [
+          ["es-electric-color-code-1.html", "Código de colores 1"],
+          ["es-electric-color-code-2.html", "Código de colores 2"],
+
           ["es-electric-breadboard.html", "Breadboard"],
           ["es-electric-digital.html", "Electrónica digital"],
        ]

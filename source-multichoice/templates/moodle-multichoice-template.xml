@@ -14,13 +14,19 @@
     <name> <text>{{ question.Title }}</text> </name>
     <questiontext format="html">
     {%- if question.Image %}
-      <text><![CDATA[<p>{{ question.Question }}</p> 
+      <text><![CDATA[
+         <!-- Licencia {{ header.License }} {{ header.License_link }} -->
+         <!-- Copyright {{ header.Copyright }} -->
+         <p>{{ question.Question }}</p> 
          <p><img src="@@PLUGINFILE@@/{{ question.Image.hashname }}" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="{{ question.Image.display_width }}"></p>]]>
       </text>
       <file name="{{ question.Image.hashname }}" path="/" encoding="base64">{{ question.Image.base64 }}</file>
     {%- else %}
-      <text><![CDATA[<p>{{ question.Question }}</p>]]></text>
+      <text><![CDATA[
+         <!-- Licencia {{ header.License }} {{ header.License_link }} -->
+         <!-- Copyright {{ header.Copyright }} -->
+         <p>{{ question.Question }}</p>]]></text>
     {%- endif %}
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
