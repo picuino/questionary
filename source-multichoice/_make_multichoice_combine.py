@@ -23,6 +23,7 @@ import random
 
 multichoice_path = ''
 build_path = 'build'
+moodle_path = '../moodle'
 html_path = '../docs'
 images_path= '../images'
 
@@ -137,7 +138,7 @@ def main():
          }
       questionary.questions = all_questions
       questionary.docx_generate(path=build_path)
-      questionary.moodle_generate(moodle_template, path=build_path)
+      questionary.moodle_generate(moodle_template, path=moodle_path)
       questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
 

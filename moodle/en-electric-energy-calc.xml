@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricity/en-electric-energy-calc</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric energy.</strong><br> The formula for electrical energy is E = {1:SHORTANSWER:=P*T~%100%P·T~%100%T*P~%100%T·P}<br> Where<br> E = electric {1:SHORTANSWER:=energy} in {1:SHORTANSWER:=kilowatts}-hour [kWh]<br> P = electric {1:SHORTANSWER:=power} in kilowatts [kW]<br> T = {1:SHORTANSWER:=time} in hours [h]<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric energy.</strong><br> The time formula is T = {1:SHORTANSWER:=E/P}<br> Where<br> E = electric {1:SHORTANSWER:=energy} in {1:SHORTANSWER:=kilowatts}-hour [kWh]<br> P = electric {1:SHORTANSWER:=power} in kilowatts [kW]<br> T = {1:SHORTANSWER:=time} in hours [h]<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric energy.</strong><br> The formula for electrical power is P = {1:SHORTANSWER:=E/T}<br> Where<br> E = electric {1:SHORTANSWER:=energy} in {1:SHORTANSWER:=kilowatts}-hour [kWh]<br> P = electric {1:SHORTANSWER:=power} in kilowatts [kW]<br> T = {1:SHORTANSWER:=time} in hours [h]<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Air heater.</strong><br> What energy does a 2000 watt air heater consume per month if it runs for 4 hours per day?<br><br> E = {1:SHORTANSWER:=240} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Refrigerator.</strong><br> What energy does a 150-watt refrigerator consume per month if it runs 15 hours a day?<br><br> E = {1:SHORTANSWER:=67} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 06.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Energy saving bulb.</strong><br> What is the monthly energy consumption of a 15-watt energy-saving light bulb if it is operated for 8 hours a day?<br><br> E = {1:SHORTANSWER:=3,6} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 07.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Router.</strong><br> How much energy does a 20 watt router consume per year if it runs 24 hours a day?<br><br> E = {1:SHORTANSWER:=175,2} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 08.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Hair dryer.</strong><br> What is the monthly energy consumption of a 2000 watt hair dryer if it runs for a quarter of an hour a day?<br><br> E = {1:SHORTANSWER:=15} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 09.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Microwave oven.</strong><br> How much energy does an 800-watt microwave oven consume per month if it runs for half an hour a day?<br><br> E = {1:SHORTANSWER:=12} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 10.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Gaming PC.</strong><br> How much energy does a 300 watt gaming computer consume per month if it runs four hours a day?<br><br> E = {1:SHORTANSWER:=36} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 11.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Videogame console.</strong><br> What is the monthly energy consumption of a 200 watt game console if it runs 3 hours a day?<br><br> E = {1:SHORTANSWER:=18} kWh]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 12.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Battery-operated flashlight.</strong><br> What power does a flashlight have knowing that its battery stores 5 watt-hours of electrical energy and that it lasts for 10 hours in operation? <br><br> P = {1:SHORTANSWER:=0,5} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 13.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric heating.</strong><br> What is the power of an electric heater knowing that has consumed 360 kWh in a month turning it on 8 hours a day? <br><br> P = {1:SHORTANSWER:=1500} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 14.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Appliances in standby mode.</strong><br> A house is closed for a month with the appliances in standby mode. appliances in standby mode. The electricity bill for that month shows a total consumption of 43.2 kWh.<br> What is the power consumption of all appliances on standby? <br><br> P = {1:SHORTANSWER:=60} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 15.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Refrigerator.</strong><br> The electricity bill of a household is 260 kWh per month. It is estimated that one third of this energy is consumed by the refrigerator, which is always on. <br> What is the average power consumption of this appliance, without decimals? <br><br> P = {1:SHORTANSWER:=120} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 16.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Class A refrigerator.</strong><br> The savings from replacing a class C refrigerator with a class A refrigerator is 106 kWh per year.<br> How much power does the class A refrigerator save compared to the class C refrigerator? <br><br> P = {1:SHORTANSWER:=12,1} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 17.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Welding machine.</strong><br> We connect a welding machine to an electric energy meter to know its energy consumption. After one minute of welding, the meter indicates that 0.010 kWh has been consumed.<br> How much power will the welding machine have? <br><br> P = {1:SHORTANSWER:=600} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 18.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Wind turbine.</strong><br> A wind turbine operates only 20% of the time. At the end of the year it manages to generate 8514720 kWh.<br> How much power does the wind turbine have? <br><br> P = {1:SHORTANSWER:=4860} kW]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 19.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric car.</strong><br> An electric car manages to recharge its 86 kWh battery at home from 20% to 70% in 8 hours.<br> How powerful is the charging point? <br><br> P = {1:SHORTANSWER:=5375} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 20.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Air heater.</strong><br> Knowing that the winter electric bill has gone up by 300 kWh one month for one month by 300 kWh for turning on a 2000 watt air heater.<br> How many hours has the heater been on during that month? <br><br> T = {1:SHORTANSWER:=150} hours]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 21.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric car.</strong><br> An electric car has a battery with a capacity of 100 kWh. How many hours does it take to charge the entire battery at a 40 kilowatt charging point? <br><br> T = {1:SHORTANSWER:=2,5} hours]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 22.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Electric car.</strong><br> An electric car has a 90 kWh battery capacity.<br> How many hours can it drive knowing that the average power consumption is 10 kilowatts? <br><br> T = {1:SHORTANSWER:=9} hours]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricity. Electrical power calculations. Pregunta 23.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2023 by Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <strong>Calculator.</strong><br> An electronic calculator has a power consumption of 0.3 milliwatts. Knowing that its lithium battery has an energy rating of 0.6 watt-hours, how many hours can it run before the battery is depleted? <br><br> T = {1:SHORTANSWER:=2000} hours]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>

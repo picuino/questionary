@@ -11,17 +11,18 @@
   <question type="cloze">
     <name> <text>{{ question.Title }}</text> </name>
     <questiontext format="html">
-    {%- if question.Image %}
       <text><![CDATA[
          <!-- Copyright © {{ header.Copyright }} -->
          <!-- Licencia {{ header.License }} {{ header.License_link }} -->
+    {%- if question.Image %}
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/{{ question.Image.hashname }}" alt="" role="presentation" width="{{ question.Image.display_width }}"></div>
          <br>
          {{ question.Cloze_xml }}]]>
       </text>
       <file name="{{ question.Image.hashname }}" path="/" encoding="base64">{{ question.Image.base64 }}</file>
     {%- else %}
-      <text><![CDATA[{{ question.Cloze_xml }}]]></text>
+         {{ question.Cloze_xml }}]]>
+      </text>
     {%- endif %}
     </questiontext>
     <generalfeedback format="html">

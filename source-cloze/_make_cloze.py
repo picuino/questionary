@@ -32,7 +32,7 @@ import jinja2
 from PIL import Image
 
 
-build_path = 'build'
+build_path = '../moodle'
 html_path = '../docs'
 
 def main():

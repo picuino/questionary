@@ -1,0 +1,684 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Neumática/es-neumatic-symbol-name-cloze</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/1e8e0cc3f4d63ea83143.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=compresor} neumático.]]>
+      </text>
+      <file name="1e8e0cc3f4d63ea83143.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/2073e6da1a80b3d473d9.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=depósito} o {1:SHORTANSWER:=calderín}.]]>
+      </text>
+      <file name="2073e6da1a80b3d473d9.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/f50288c9b0e56a48fb21.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=escape} de aire.]]>
+      </text>
+      <file name="f50288c9b0e56a48fb21.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFgEHDhhgBPsAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAvJJREFUeNrt3DtOVGEcxmELuXmBvCLeo2EBkkxlqSQmlsoOtNdEoomt7gB2AI217kAaa2UFhhWY6AIsAIHhnHFM5vu+hDxPJ8fq/4bgmZ/h3DkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgLPg60s3aOl38tQVGtpMbrpCQ4Nk0RUaShJXMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIABMIAB6Pfx8ZAkGf7aK3cqZTpjee5SheyMN8BdlypkfbwBrrtUIR/GG8AvsCnl+3gD3HOpQqbGG+CZSxUyv5zkwbvj3j458cc3Sa78cKlSNpPcHvUXPvsRUNT5JIs/+58vDJI8cqdiLiXJ6/7nM0nyxZ3KWU9yp//xjreAwn4ludr/eDXJQ1cq6GKSbPQ9nUuST65U0oskK30P95Jcc6Oi9pIs9T1cG7UOE3EhSbb+/xmTstb/c/bXqO8OJmS3/1+a60nuu1Bhs73vWpeS5L0Llbba92nD+dHvCEzITpIbXQ8+jH5LZkJmklz5dvrrl5dHf07EhCwMupvL1D8+KWVStrs/899Mcst1KpjqrF7zy2JkJfPLXf/5alqMrKYzTIqR9XSFSTGyoq4wKUbW1BEmxciaOsKkGFnT6TApRtZ1KkyKkXWdCpNiZF3D8VGMrG0oTIqRtQ2FSTGytpNhUoys70SYFCPrOxEmxcj6jodJMbKB42FSjGzhWJgUI1s4CpNiZBNHYVKMbONvmBQj2zgMk2JkI4dhUoxs5SBMipGtHIRJMbKV/TApRrbzIsmKGNnOXpIlMbKducNfELThFm2s7d9fjGxld38AMbKV2f0B3rtEK6sRI5vaiRjZ1EzEyKYWBmJkW9tiZFtzg0VvYU1d2HIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA48/4AFyCZogd4maMAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMjM6MDc6MDQrMDI6MDCGLHwcAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDIzOjA3OjE0KzAyOjAwO9vEPgAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d995506023cfd5c70d59.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=escape} con {1:SHORTANSWER:=silenciador}.]]>
+      </text>
+      <file name="d995506023cfd5c70d59.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFgEHDhhgBPsAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA9lJREFUeNrt3EFulHUcxnESi6VY2zytiCibOYCNswJX0hNobyB7FzYs3GK8AI0XgBNob0A3rg0nID0BCa5cuSiVdmbeYWze//9HzOeznJnV75tC2yd9r10DAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAru6PH9yg0l/Jt65Q6Ci54wqFpsmuKxRKElcQQAAEEAABBEAAARBAAAQQAAEEQAABEEAABBAAAQRAAAEQQAAEEAABBEAAARBAAAQQAAEEQAABGLT1S1Zw/6VLNXKaley5VCOHqwW47VKNTFYLsONSjWRFLiWAADQKMPPS37+9+zM0DHClzyCAAAggAAIIgAACIIAACCAAAgiAAAIggAAIIAACvH8BZn39SoDSAHkgQG2AuwLUBrgtQG2ALwSoDfCVAKUB7j0XoGuAMT6DAAIggAAIIAACCIAAAiCAAAggAAIIgAACIIAACCAAS4+7/aunJpYGWPPYytoAJwLUBjgUoDbAsQC1AT4QoDbA5iMBSgNc7TMIIAACCIAAAiCAAAggAAIIgAACIIAACCAAAgiAAAIwc1zPjn7PAnh2dHUAz44uDuDZ0cUBPDu6OIBnR9cG8OzozgHG+AwCCIAAAiCAAAggAAIIgAACIIAACCAAAgiAAAIggADMHHcVLiWAAAjw/7O/2v0/calGjlcLcNelGllbLcADl2pka5Lk3k9LPEqy89KlWjma/4uYy46T3HGnZtaS7L4afn976l+gpjaT5Mfh99eT5Lk7tXO4/Juck/m/mmRUr5d/m7+f5BtXauijJHky9O5GkvzuSi09TLI39OZpkk/dqKnTJLeG3jxYVodR3EySp//9PcZyMPz/7OtlXx2M5MXwd5qHSb50ocZuDP6stZkkj12otf2h3zasmQK6OEny2aI3fjYFdLGeZOfP+dc/niz/PREj2Z4m+W7+9evv+E0pY3m2+Hf+R0k+d50Ori9cvbYmi78wGN3WJMn3s69+aIzsZuEwaYzsZ9EwaYzsaNEwaYzsacEwaYzsacEwaYzsaX6YNEb2NTdMGiP7mhsmjZF9zY6PxsjeZoZJY2RvM8OkMbK3y8OkMbK/S8OkMbK/S8OkMbK/i8OkMbLAxWHSGFnhwjBpjKzwdpg0RpZ4O0waI2v8O0waI2ucD5PGyCLnw6QxssqbYdIYWeXNMGmMrHI2TBoj6zxMsmeMrHOa5JYxss7G+QOCnrhFjYOz+xsjq7w4C2CMrHLjLMBjl6iy7yGJtU48JLHWeoyRpbanxshaz4yRtTamu34KK3XzqRsAAAAAAAAAAAAAAAAAAAAAAAAA0Mg/SlYD/utay5IAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMjM6MDc6MDQrMDI6MDCGLHwcAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDIzOjA3OjE0KzAyOjAwO9vEPgAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/0aa28c135a509a566e2d.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=filtro} de {1:SHORTANSWER:=partículas}.]]>
+      </text>
+      <file name="0aa28c135a509a566e2d.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAqUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u+7u7hlFes8AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABLhJREFUeNrt3TtuW0cYhuHTMYjjYiwBQeDKS9AStAAvITtwofQusoUsIEA2YCDeQSqnTSEX9mpS6MbLkBpGnv9TwOct1QiYDw8PBRKjZZEkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSdKz7tM7Z5Dsc2s/O4VcLy9bO//HOcS6bq21t84hCQCBNAAEwgAQSANAIAwAgSSAH39BIArgaoVAFMCyIBAFsCwIZAEgEAaAQBbAp3cIJAFct/YWgSCA31r7CYEcgOWitTNPgRyApbXWFgRiAO4GQCAE4G4ABEIA7gdAIAPgfgAEMgAeBkAgAuBhAAQiANYGQCABYG0ABBIA1gdAIABgfQAEAgA2BkCgHsDGAAjUA9gcAIFyAJsDIFAOYGsABKoBbA2AQDWA7QEQKAawPQACxQB2BkCgFsDOAAjUAtgdAIFSALsDIFAKoDMAApUAOgMgUAmgNwAChQB6AyBQCKA7AAJ1ALoDIFAHoD8AAmUAlsvWzhcEYgCWj629XhCIAVhWb151ZkGgCsCyfP3Q+ykCRQD2hkARgH0hkAWAQBgAAmkACIQBIJAGgEAYAAJpAAiEASCQBoBAGAACaQAIhAEgkAaAQBgAAmkACIQBIJAGgEAYAAJpAAiEASAwG8Dj/8oQgZkArh8/WwRmAri5OxqBFIDbu6MRSAHofz0dgTIAYwMgMA3A2AAITAMwOAACswAMDoDALACjAyAwCcDoAAhMAjA8AAJzAAwPgMAcAOMDIDAFwPgACHT6ctH2Nvg5wPgAq/2/6+z3Ex3gcv+ZjH4QNj7ADYF+56d5/j+0JwM4ZoADBNpfJznA6ukAjhngEIGr/+cJPrEXB14TRt+uHDHAywOveH+e5mvQgWfw6NuVIwa4PvAUPs3zX/6+eDKB8QEOADh7f6ID7OmYd+zjA3ybbxmdRMf80To8wDf6lhEC/3UAAOYQGB0AgEkERgcAYBKBwQEAmEVgcAAAZhEYGwCAaQTGBgBgGoGhAQCYR2BoAADmERgZAICJBC4HPs4CYCKB/t3RAJQR2HN3NABlBPp3RwNQRuDRAJhMAIDnTQCALAEAwgQAyBIAIEwAgCwBAMIEAMgSACBMAIAsAQDCBADIEgAgTACALAEAwgQAyBIAIEwAgCwBAMIEAMgSAKCMQP/uaACqCPTvjgagjED/7mgAygh0744GoI5A9+vpANQR6A0AQCGB3gAAFBLoDABAJYHOAABUEtgdAIBSArsDAFBKYGcAAGoJ7AwAQC2B7QEAKCawPQAAxQS2BgCgmsDWAABUE9gcAIByApsDAFBOYGMAAOoJbAwAQD2B9QEACBBYHwCAAIG1AQBIEFgbAIAEgYcBAIgQeBgAgAiB+wEAyBC4HwCADIG7AQAIEbgbAIAQgdsBAEgRuB0AgBSBmwEAiBG4uTsagBiBj629BiBIYPXm1RUASQJfPwAQJbB4AoQJAJAmAECWAABhAgCECQAQJgBAmAAAeQIAhAkAkCUAQJgAAFkCACT77uLsV6eQ7Ps/nIEkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIk6fn3L3YlykSBc0wEAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTA1LTIxVDEyOjE5OjUzKzAyOjAwddtf2wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNS0yMVQxMjoyMDozNiswMjowMPUmjIwAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 06.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/e97cd00a36910b8f4958.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=fuente} de {1:SHORTANSWER:=presión}.]]>
+      </text>
+      <file name="e97cd00a36910b8f4958.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABltJREFUeNrt3U1oHGUcx/EhySbZ7M4uv92k1vcOtVpR1C0iQn1JFLU3u0WKoFij9iJqjXgovditlVZQdD15Kt2LvSg0Fq+atFjEixVBpKfYolC8aPqioAcPs8nO8+xuMtrnmVy+n0s7z+T0/88+87zN8wQBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADenX6FGKylS9KTRGENNaVricIaqklVorCGJIkokAASABJAAkACSABIAAkACSABIAEkACSABIAEkACQABIAEkACQAJIAEgACQAJIAEgASQAJIAEgASQAJAAEgASQAJAAkgASAAJQGpnD0nS3s+IxFoofTKltvGXF4hH1r6pKaH6HhHJVPi2LPefISrZKe5Ql01zxCUrhbp6mDhOZLIRTqunddRCmSg3lkN+y2MvPf7UI8uX638nOhk41Q535ekv44Lf3onaRQ8QHf9Gl5o9c52y4lKjaD/x8a0Uv4Ar1naVp+MfwcQCEfIsroAqH9jlf0VUQlkoRL3jv5SBCm1Rv1qSpNd63fpVknQdMfIpL0na2vvmCUnSh0TJ9w9gXZ/mfnman4BnBUmq9H3G85Ek8Rbw56Qk3dH//ueSdCdx8qVUk1SZ6/8HxUhSdYFIeZKTpAdX+osfJGk7kfKkIamy4pBnGElaT6T8CFPU8CcliWFpPy6laOMUJA7V8KWRpnppUAf5EkZpXrC5Vd8T+J9GUjUxSzVJrxMtD+bTjTO0JN1AtDyop2vi5yRNEC33wpSVexjREPViWNI1af5wRtLzxMu5RUl32U/7sd0799lP+zlJdxMv55rdrZs/a5JUfcssHRHH6/kwJWnBKPlxaUHWq0ZxSdI48XIt7Grc5DuLEs0pmjpvYQ/ykq5PFpQTK3QnjEnKWWaGPRiStCFZcD65Lveh5J0BSZNEzLFFq3FZNr+QSf4EhmkGeTBrDUXn4sDv3B0nItlFLti1FRyYkZR8zFuSdNuZIAjfsBejlNN22fAf1M22ZSlaXopbqkuqLCRuTjEa5F7NfKqHE4vRR2W9H2Y4Z9u5stW9HUhOfDWsFlLTqq5w9YrWKH8j+eLNWdOQ85LmiJlTY5JuTlxPJXu7oTX48Ieko8TMqVFJ93Quy5LWdS6nzTpnkI+VnBsxE2A19a1OwiDTwl4SMGn+IDZ0LgfMR36IBDg3bCbAyocV8SHmxLwkYHvfy5wZ8RwJyCIBk30feRLgJwGJiFvv5EGqIN+sSj9vjjgvmlMwvITds/oBoTkA2jInIekHuJc3251lc4a4bnbEBpiTdG5M0k2BGfLlrlfBmrD/maEI50JrlquZ/A7jkjVUOsuyCPciM8aDyYe+br4ggqZUIWKO1YzRt3gSZlf8/8v2TkHTTMi4ZwW1XJNUPR4EQVCo2csirGTBhYa1MnFeksaPBMGFKVmTNSU+E/Ng3mpajsQLgjZuif9N9rvyfCPjwYA9vGDsHWosghi2F9HBgZy93O1yMgG7kncW2a7Ag7GuVf+d7UOtGr9JP8yDUmSv+g+XV4dWzV7XlLVOC07Uu9aajLYPEBjfbxQX+UzSi1Z3zT72QiRVbj1qlubYt8yLi5JutAvPHj7cdYDJ95IeJl7OjShl/3aa6RgvSlG6BYdF8Q72Yybdl0dDfB3gybl0QzyNHh90w4XRVJtFhBETwp6Ua2maNxftsWk400rTDpqmF+BNLsXe3Hk2DvWnFK3+dLdohHrUWnXfygL7p/s0ssre3e3du+kGe1PXykP9Y2Ik1KvzWnkzpmbXxh1wKp6D2dPv9pUeszNw6qQkVed63yzWOL/Bt2IkSZt79nTLB7TK+Q64eqf6H6N0gpPcMtCeiX+2+87X4g2QhV/iifhn7PIv4vLniJBvM3Gkty0kC0sH41JmYvwrtA8PHn+/U/ZTe4EKJ0lm4crSeqxN+74LgiD459iOpZI9RCcLJzprEjfe++iWztVWYpOJ8kfq6XYmwrLKwIFe8d9M/LPLwMHu+G8j/llqnyG/zD5jHr79/WIy/vd9RUQyd+HN9gcC1SeOEI01Uf7240N73/2Uyh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgn8BH54pCJMUx54AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 07.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/dd62cf6618eaa9dd9bf8.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=lubricador} de aire.]]>
+      </text>
+      <file name="dd62cf6618eaa9dd9bf8.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAnUExURf///wAAABERESIiIjMzM2ZmZnd3d4iIiJmZmaqqqru7u93d3e7u7tT5kyIAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA+hJREFUeNrt1y1y1VAAhuGYMsBgQotAolFVaDyiWBR7wCJYAAJ2gGEDrADRGVgWdFqgP0lU73mB+7wi5orMnG+eJHeaJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmS9Ff35pkzKPsyz0+dQteD43k+/Oocsk7nn71wDhmA52cDHCGQAkAgBoBADQCBGAACNQAEYgAI1AAQiAEgUAF4dHZ5iUAG4OTscoBABmA6u04IZADOB0AgA3A+AAIZgIsBEKgAXAyAQAXg1wAIRAB+DYBABOD3AAg0AH4PgEAD4M8ACCQA/gyAQALg0gAIFAAuDYBAAeDyAAgEAC4PgEAA4MoACIwHcGUABMYDuDoAAsMBXB0AgeEArg2AwGgA1wZAYDSA6wMgMBjA9QEQGAzgxgAIjAVwYwAExgK4OQACQwHcHACBoQAWBkBgJICFARAYCWBpAAQGAlgaAIGBABYHQGAcgMUBEBgHYHkABIYBWB4AgWEAVgZAYBSAlQEQGAVgbQAEBgFYGwCBQQBWB0BgDIDVARAYA2B9AASGAFgfAIEhAKafvx1NCGQApo/z/HhCIAMwHTx5uPoTArsHME3f36/+hMDuAWyGwAAAmyGQAkCgBoBADACBGgACMQAEagAIxAAQqAEgEANAoAaAQAwAgRoAAjEABGoACMQAEKgBIBADQKAGgEAMAIEaAAIxAARqAAjEABCoASAQA0CgBoDAUt+O59VObvtmB+v3Ony7pwM8Xz+TR7d/t5frdzvaz/O/Pw8EsElg/rSXAxwMBbBJ4GQvB7i38UzYwefKg40n3of9fAZtvIN38LlyuvEW3tOX8OfjgQQ2ABy+8kW6+y/20529W/7Pl/NtE9jJ32sEAPhXCAAQEwCgJQBATACAlgAAMQEAWgIAxAQAaAkAEBMAoCUAQEwAgJYAADEBAFoCAMQEAGgJABATAKAlAEBMAICWAAAxAQBaAgDEBABoCQAQEwCgJQBATACAlgAAMQEAWgIAxAQAaAkAEBMAoCUAQEwAgJYAADEBAFoCAMQEAGgJABATAKAlAEBMAICWAAAxAQBaAgDEBABoCQAQEwCgJQBATACAlgAAMQEAWgIAxAQAaAkAEBMAoCUAQEwAgJYAADEBAFoCAMQEAGgJABATAKAlAEBMAICWAAAxAQBaAgDEBABoCQAQEwCgJQBATACAlgAAMQEAYgIAxAQAiAkA0BMAICYAQEsAgJgAAC0BAMruHB++dgpld985A0mSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEnS398P4dWGd9EQw+sAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 08.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/0d37c15505cea922f993.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=manómetro}.]]>
+      </text>
+      <file name="0d37c15505cea922f993.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 09.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/4c45ad13fed677d2e818.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=motor} neumático {1:SHORTANSWER:=giratorio}.]]>
+      </text>
+      <file name="4c45ad13fed677d2e818.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAACktJREFUeNrtnV2MnFUZx8d+7O7szu74n9ld/AKdNAgogtOQIEWlExDiJx0ixC9ox0BNiB8sEpuAHyzGBLlyURNjNO1aBbyRLWq4ImypYrxRthWN4WZbURPjRS1tTcELL847szuzszPnvOd5t8nu73e3O++ci/8z53mec57zPieXAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYTxRf+sFXbv34DR+49XPffuYkcqwxo0/cWdESpRsfeQFR1o7XvlVVJ+VPPIswa0PhPnXnpnnEWQPX/1hFq1G6m2CQNcO3qBcXH0CiTHm+qt6UP49IGbqfn7aJve2q2/bu3XvX9dvb/vsh3FBWjD3Ulnj+sfXB/9qS0ksXkSob/e9taTx+f2faP/p4rfXpJVggW/3HH+jmZYpP17BAlv6/5X8+uZq8Y99veSHigDmPNn/++3s8dK45CS5DMGN+kyh7dW/vMvbl5LmPIJkp/0h0/VTfJ3+WPPlFRLNc/yZZps8q6/kkT2VNbJgANZyoX/B6+s/u4UlSITN+6SS93fPxF93j1yKcEYOhcTWJ2PcgnY0DcrnljoCvHHQZK07IhKckSReErK2KU5KkdyKeAXn3a54P+lLBzZrvIF887sf8YOC3hty0Qb5ozkiS3hv8vSOSpN0IaBKBJ8M314oN4rAFxySplMaX5yuS9D4kjGK0ms4BtZxQmQNb8RMgpR9x3ospED8BvpTy22eZAiYTIH0uOcUUiEyBqmmWAB2LgTKJUGpOS9IbIwaYkaSbETIt9djthLwkTSBkSgZjJ0AyBdiWjlEvbj8tH2/DjUtBkt4QOci0JM0jZhpOWLiPQUm6AjHThuDJ6FEahOGYJD4+hTwdt5TYwByWVIpfRI1VJL0FOYMpViW92WCgQ5LKHNYNZsCqppuXpD0ImuaHO2kyUsNoKm1AD/R+k6H+hg9Km7/PmQw1wnZECp4zPFQyJelyJA2jJuk6o7FekTSOpEEMW27hFCTpAKKG/mgnzUZrGE6nDcK0pCvNRjtlsK26wZLQiunJ2rykEoloAEPGYbPGhlwYJ4wXr4coCoSHgF2G420lCISHgHnDAQsEgeCgaVvFqvO6TAibzWsohyW9G2FDYuYu0xG3siUd6jDmTEccoTQfwGgGm2c1SRxU92Qwg9NsM9QEwmLwlcZjniIKh8XgPcZjzhKF/WnYH+cclOn+9jqnYh6D3ft6JaT1ThmNN26ShkNziOvrLi40HXFINBAKTIJ2Wg5YrCcGIA3yYsG6enKk2c/1QsT1Ydo4CXJNIyYoCfhSl8qWDqjh+n1U2Q3yz0ItM/Y/JQ2HGuShfoxKepPdcK7n68RibpbtOE+XLekiu+FaHc+OUxTzY8A0X3y51T5xM+9p+LHFshw2UpWk8Rdyrii2E3n78x/LZcC0JOkbzeXwW5G3P4cNN21cy8V3uMnA25J+zEgyOsJTqC7rmVWka4R32mK1DnPXnjQ7nlVp5Oq7EDZasZ5tv06mzlLYi5rVD3W0Jknl+WVTixeV/HYibDbNfiJJumN5RsReRH+KVjsR7tqHZbactYvu65lRo2wxKQPPtee3bAb1X7sarZdcGfijHSs8qsJ9GZb0tvhhhlZeu7GJl1V9lYs3gCsDt98ltokXxXxjZ/xmqCsDt3ct3sy5CF8D7IwdxJWBO6592IIBfBgwMECzDJxbYYCuXENy2mGAXQZjrLz2YetqBqBMYG2AhaQM7DkD2KXu/J3GGmCqa6vKzasagE1S4xkwI0kfy3nPAF4cMDbAKUkqz3nHAM6MGhtgSN36fq9qgKvnkd02DU12onevdEF7EHhNFmLu9qXyPAuxdO4j3id3VCNbWdCDCNx3F8FmN7S9Hp/L5dxmHGcT+zIs6fXxwxSWjsQ1eR3b0T6MGJ3N/fuyM1mO4xRkvOKn1dbAdOd7eZQk/bAqyo9UOi4CnZWEvP0xO5biXo25dvmU4FiKBzWrN5SKHbfRNziY5UXdTKfk7aSTS5blaKJf8LTyFMfaCjMV3lP1YlbSos1QbaXJMduX/9YvC4bp+vLi/AivyvthenznyNL5OJsDRxsA05f0xpYOaPGSnicDpr/UoVbRdxPlAM/k0dZXP6WkQLzAXpyn17B9mS55T2YuN2OXXa1zjNua/DcpEBs3YVnHWLc1SQrEFdomejJjvG/vCsQlXhP25bh18fxs8/zJRYjruxCwPSr1KIdwQ1N32+OyrkDMmQhfueyPy7oCsXU/5PWch1onjNMSWag3U/bHF0YqnEL3Z8H8Cplc7iib0WFpkHXGeJwkyJ98Bk1upzmX6E+xYh8wq1ylF0DD/Oea5wKN0Chs67C3EIND5bJ9ce4QMTiEYfOb3GqUw0JDpqlew6yDw5g19hhbOJQVxivG1ZMZSdcha1jWaJi2Fyssw1IEAbuq2CAhIE0QeJfZaEcJAWmipt3ZlDqrgFAKMvTaeaph4TQkXWE01gk2gtKJZuWD6obG3FCJqJEPyoskNAU1szzoqHg9Mq1sFmuxYs00pd1YPmiPwUADeKD0PshiP2gGD5Q+DyrFZ++FCjlQOoZl4ruPilpMSqYklWPDcLHKkbi0nO7S+TCYM5J0M2KmYaxisIXQkFRaRMxUPBefiQ5I0uVIGRGG4/z3FCE4hmlFFsYGJXrUxDqQmCjQEP0JokNoRCJ0RlQCDJLI8bRJjLtMbzcyRiyj6itvo/LnWFvLOEi9GEu5I1SosAgzmgLpNkVnmAAGbF3ZBd0T16BgFxJGMtXlKgYvB1TlfiQTXM+xS4O/9xDNCYxw7X5uD/zWiyu610NKXDJTCqvquoahBgU1yOVe1orLMPrhGsWtvMsN0sdhXeC/IB6b4oZCS9xVDLrMN6UvugZNJe4rsSJp93ON5+PfdY/fgXBmJD3Hdng9fFBdLhGDKEbrTtT39PdCxW+6Rye4r8cSdxmGdEk/WUfvdQ+WDiCaKf9MGh+O7+/52Lla8tzXkcyY3ybKlu7u8dBjyUTRZxDMnF8126++/RerPPGvzzYf+TByZcDB1g3MNz3b5ePX7mt9vgOxsp0DKt34o47Pfn9nRfz+s+bXy+4h33bbI39I/v3vJ+7avuyTTyNUZvyl0nYZfGnbVTdcv73jf19Dpgx5ta7eTDyJSJky9r2e+n9wEYmy5q+3rCr/xT9GnjWg+Hitq/zj93MEZa1M8HQX/R9A/jVEkpayn5K4LPs8GKD40s8f3rdv38M/fOYkBjgfBlj9T8AAGAAwAAYADIABAANgAMAAGAAwAAYADIABAANgAMAAGAAwAAYADIABAANgAMAAGAAwAAYADIABAANgAMAAGAAwAAYADIABAANgAMAAGAAwAAYADIABAANgAMAAGAADYIDzwrlqz8655f1IlC21Pr2jx5EoUwrqxzwiZclgXwPcg0hZMtLXANxfmC3VPvqXkShbftcnC/oqEq0Nrz7Z608AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYd/wfgbQkinHzvNEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 10.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/6d2c6f61740980473a14.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} {1:SHORTANSWER:=eléctrico}.]]>
+      </text>
+      <file name="6d2c6f61740980473a14.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAtUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7osDjvQAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAxZJREFUeNrt3LFqU3EYxuEvTWmrYmkHN4cM4hxxcCzoIDrp7CIIunoRbl5BF/FKpIuDoCC6iFPHLtIq2gaExkEcbGrA9iTv8fg8Y5ATOL8k7+ngvwoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADit3kyvfu72vTuTr55/+KyV9+Ly5rBjAVavvu2/Hky8/G6jpZ/Gi+/n/579mdb9VOOVrYmXRx9aGuDgW8cCjJerdnYmXv48ammA8UHHAtRK1d5ozrtzGoFPxoLnkCwBwhZD77vbzGXWm72Ub4CfIAQQAAEEQAABEEAABBAAAQRAAAEQQAAEEAABBEAAARBAAAQQAAEEQAABEEAABBAAAf4dDf0vyT+fv9Fbd5PnEODlhlt5Mg0dVfDX5280dCjAmVZeKrABWz7K2QB77qSnIAHIPQVV/XZoxtnlqoU3g1p9enMw+Q89mM78G7A/rDp8XvXl0cAtjvwE3a+qF+5uLsCDqvro7uYCLFXV9223Nxbg1wiQegw1AuEARiAcwAiEAxiBcAAjkA5gBMIBjEA4gBEIBzAC6QBGIBzACIQDGIFwACOQDmAEwgGMQDiAEQgHMALpAEYgHMAIhAMYgXAAI5AOYATCAYxAOIARCAcwAukARiAcwAiEAxiBcAAjkA5gBMIBjEA4gBEIBzAC6QBGIBzACIQDGIFwACOQDmAEwgGMQDiAEQgHMALpAEYgHMAIhAMYgXAAI5AOYATCAYzANA0e2jftLL7DK07qi30DEKD7AdbcyWyAoTuZDfDYncwGuHXdrTyZ3kwvvlY13quqV19vHHle3W3u0bd9lwr9HTDFNZ90j6ECIIAACCAAAgiAAAIggAAIIIAACCAAAgiAAAIggAAIIAACCIAAAiCAAAggAAIIgADdsxh63/VWXso3wE8Q/0GA1p7s0etagH4de4xHa0/26HctwFL9PLLviNae7LHctQD7d+vCMQHaerLHpSedW5jVzW0zCwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwDz8AxCSSIhcs3PYAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 11.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/95f623788e7f84e8558c.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} con {1:SHORTANSWER:=enclavamiento}.]]>
+      </text>
+      <file name="95f623788e7f84e8558c.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAtUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7osDjvQAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA71JREFUeNrt2zFqFGEYx+ERF4krBt9kIyI2aWxEMIXYiYHYCkGtbNTCC3gBcwNbG8neQAQP4A3EEwRi4y0s1ri7mW82i746s87ztH8mxfzg+8gmW1UAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAquvw6Ounel54E+BoddbsnAV50NcDVngTY7mqAjZ4EiM4SQAABehLgv/5RAggggAACCCCAAAIIIEBVVZ+eCdCmbxGPBGjRQcQ1AVq0E7EpQHduXQEEEEAAAQQQQAABBBBAAAEEEECAZV16+kGAFq3vxuhIgPasRcQbAdpzPiLuCNCecxFxRQABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAToYYDdiJECLAcYR1wVoMcCF7Y3nArQYoPr+vhKgzQCr8NZWKMBob8bDuX8TuvRkb+/MVYA/DDBva3beX3YVIC1AvJ2uF5deBcgLcH+6Hi+9CpAXYOY72AdLrwLkBdg8OhnXd5ZeBcgLMP1f0bVYehXgDwJcfTW1P3vMH0fE1qszVwESfxEbzB7zBxHxoDpzFSAxwHDmmF/fiYjD6sxVgMyPInanx/xazH/s3LQKkBlgPD3mj2P+Y+emVYDMADPHfO0KaFgFyAwwPebrV0DDKkBmgOkxX7gCyqsAqQF+HfOFK6C8CpAa4NcxX7gCyqsAqQFOjvnSFVBeBUgNcHLMF6+A4ipAboCfx3zxCiiuAuQG+HnMF6+A4ipAboDJMV++AoqrALkBJsd8wxVQWgVIDjCOiPsNV0BpFSA5wCAirjVcAaVVgOQAw4jYbLgCSqsAyQGq3cnfeUflR2qrANkBxpNXfL38SG0VIDvAYPKKH5Qfqa0CZAcYTl7xYfmR2ipAdoDJMT9qeub0KkB6gPGCK6C+CpAeYLDgCqivAqQHGC64AuqrAOkBTn8RdfEqQH6AjxG3mh86tQqQH2BtZ/NN80OnVgHyA1QX3y56an4V4C8EWP23JoAAAgggwDIBMggggAACCCCAAAIIIIDfAwQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBCgfYNFX4cU4O8bLvo6pAD/wMu4WQnQovV3RwKsOAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQID/N0A3CSCAAD2w3dX3v9GTAPtdDbDVkwCfuxrgRk8CDB938/3fPawAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOC3/ADIGdNSZis6/wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 12.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/9d8283848a80f4f72278.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} {1:SHORTANSWER:=neumático}.]]>
+      </text>
+      <file name="9d8283848a80f4f72278.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAqUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d4iIiKqqqru7u8zMzN3d3e7u7oUXjosAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAxVJREFUeNrt3UFqE2EYx+FZKSntYiIpgqvs3WQhUnc9QnRd0AO48gIeoeIFBMGdoDdQT5CN0uMITbbO92Ln9fvi9zzLEgKdH5l/p0ySYQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI7R6ZuxSU+/dRLgx9iox50EeNVqgPNOAqxbDbDsJMDYLAEEEKCTAP/1UwkggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAMfj9HmdN4QKcPB9FKCqrQD1T+sCCCCAAAJ0HeDBB9cBdV8B5zsB6p6CnglQeQNeC1ArwPvoDAiQE+BsG5wBAXICDItNbAYESAow/IzNgABZAYbYDAiQFiA2AwKkBYjNgAB5AUIzIEBigMgMCJAZIDADAmQGCMyAAKkByjMgQG6A4gwIkBygNAMCJAcozYAA2QEKMyBAeoDpGRAgP8DkDAiQH2ByBgS4i5tN7Fafwwy8FGBml9F7rfYzsBJgXifhm90OM/BFgFndi99tuFj/4RwkwB0s4gF+3f70rQDz2kQDnNw+crkTYF6fgn8Fne2/tPahEa5zHTB83F8LXwtQJ8B+AMYrF2J1AuwHYLzwv6A6AQ4DsNoJUCfAxAAI8A8CTA2AAPkBJgdAgPQA0wMgQHqA6QEQIDtAYQAESA5QGgABcgMUB0CA3ADFARAgNUB5AATIDBAYAAESA0QGQIDEAJEBECAvQGgABEgLEBsAAdICxAZAgLQAsQEQIDfA1SBAzQAXgwB1XwE+NVEAAQQQoLsAlwLU9U6Auu6vBajr5vOxHzVf4iOAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAkR+1TYJIIAAHVi3evyXnQTYthpg1UmAr60GeNRJgMWLNo//k+sBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+ym9zVpIGrMfhHgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 13.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d63883cc199e102d2073.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} por {1:SHORTANSWER:=palanca}.]]>
+      </text>
+      <file name="d63883cc199e102d2073.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABK1JREFUeNrt3T+o1WUAxvEf/VPJqzwHu1bWcGgICiohImhIa6ohcmgMkoigliKo0aRagiCbGqs9uC7NBs1Rjk1Sa4NZbQ0N/rnnCi0X7/v87u3z2Y6gcN6vnue854hOEwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDO+efLDz695BhaDn+yTPLQ206i49B7uepFZ1HxTa57yWEU/H3j/LP43HGMfwE6uRkg9zqP4X7Lqg8dyGinrr74PL9MktzvQAY7kCR56/K09nGSLC47krG+T5JXp2mapi+S5GVHMv4V6Nr0rp1McsyRjH0PtLq8fyW5x5kMtS/J+vUHa8tkccGhjHRbksduPDqX5B2HMtL5Le/9b0/yhEMZ6eskP215QXrcoYx0Ojmy+ehgkgccyuB3oesrD92FRzuZHF15uEzucyjdAD4QHR3AS9B8RnjNZxGjnUty6caj/VuuZQy6iG1+D3mHi9hoV5I8u+Va9ppDGenO1S+CDx9PsuFQRlpLkq9WahxxJsPfh+aRa38ATsU9rLLCOTNN0zT9EBs83r4kWXw2TdN3yepHo4c+yiw9fWlvBTh8PEny5BvP3fQ3s37NTO21i8rFLc9u803ou3MNcHSPBTi4XHlyK1/JL+caYLHXVmD1t/rKF8KZrWlPjkCS5JlJgOEObD6zhy8LMN6fSRZJkhe2/PgtfKrz/KXm4lySE7+8/8qbP04CtCZgY9ec2t4LcOC/PoATYNwEHBOgPAECzG8CBChPgADlCRCgPAEClCdAgPIECFCeAAHKEyBAeQIEKE+AAOUJEKA8AQKUJ0CA8gQIUJ4AAcoTIEB5AgQoT4AA5QkQoDwBApQnQIDyBAhQngAByhMgQHkCBChPgADlCRCgPAEClCdAgPIECFCeAAHKEyBAeQIEKE+AAOUJEKA8AQKUJ0CA8gQIUJ4AAcoTIEB5AgQoT4AA5QkQoDwBApQnQIDyBAhQngABdtDZwf8+oQA3TUAEqLpLgK4rAvRvAQKUbwECdG8BAsz9FuAesLMTcEKA7gRsCFCdgCOTAHOfAAHKEyBAeQIEKE+AAOUJEKA8AQKUJ0CA8gQIUJ4AAcoTIEB5AgQoT4AA5QkQoDwBApQnQIDyBAhQngAByhMgQHkCBNgB+0v/e7sA1/whQNcpAboTEAHqtwAByrcAAcq3AAF2yS3APaD7QZAA5Q+CBCh/ECRAfQIEKE+AAOUJEKA8AQKUJ0CA8gQIUJ4AAcoTIEB5AgQoT4AA5QkQoDwBApQnQIDyBAhQngAByhMgQHkCBChPgADlCRCgPAEClCdAgPIECFCeAAHKEyBAeQIEKE+AAOUJEKA8AQKUJ0CA8gQIUJ4AAcoTIEB5AgQoT4AA5QkQoDwBApQnQIDyBAhQngAByhMgQHkCBChPgADlCRCgPAEClCdAgPIECFCeAAHKEyBAeQIEKE/AlNn6f0yAALfC+e1PgAC3aoO3OQHTcq7nv9hFAc5ufwKm03MNsL6LAlxMHt3uz/15rgEe3EUB7l4uLmz7574+z/N/amMXBZh+/3YCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGA2/gUb//QzJ5WeDgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 14.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/c2fa41692d69db2af124.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} por {1:SHORTANSWER:=pedal}.]]>
+      </text>
+      <file name="c2fa41692d69db2af124.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA3hJREFUeNrt3T1qVFEAhuFbiTH+cGLUQixSC4KNWGYJZgeKG9DKOrgAdQWuQIiuwC3oCsTaRt2AjZWJhUPie2byPO1lErgvMx/nFjPLAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPDvLr146yaUDsfOK3ehsz2GAqWtoUDq4lAgdWVPgdaHoUDq8oECCiiggAIKKKCAAgoooIB7oYACKKAACpzjAo9OuHj15ZjSwy8bWODGCde+jknd28T3wLPjl57PGuDWJn4KnfAZtDdrgJ1N3IHHxy+MaW3YEm+PMcZrATJbY4zriwCZn2OM238JcEr/Ys4/NYs3Y4x9ATLX7o8xjgRIJ2B3EWC6CRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRAgngAB4gkQIJ4AAeIJECCeAAHiCRDgDB3+5+8nFOCPCRgCpC4I0PohQH8KECA+BQjQngIEmP0U4BxwthOwL0A7AUcCpBOwuwgw+wQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIcAYuRr/eLsBv3wVoHQjQTsAQID8FCBCfAgSITwECrMkpwDmgfRAkQPwgSID4QZAA+QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE+AAPEECBBPgADxBAgQT4AA8QQIEE/AMqZ1PiZAgNPwfvUJEOC0NnjFCVj2Zr3/O2sU4HD1CViezBrg5hoF+DzG3VVf+2nWAHfWKMD23s7HlV/7dM77/+BojQIs394tAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABM4xcGwNTtVPwzfwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 15.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/6a839dd6e4211934e349.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} por {1:SHORTANSWER:=pulsador}]]>
+      </text>
+      <file name="6a839dd6e4211934e349.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA91JREFUeNrt3bFuW1Ucx/Er0SZAEkc/uzRQAcIDC0UFV4CoQIhIDAwMhI0FkUIXhkIk1K5UrAwNL9BUCImxYkCMKWxMobxA2ifI1AEJiSFpBI0lAqrv/xJ/Pg9g6d6v7XPP9fG5TQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPwf9b5MJ726PSUB7qSjzkxJgLWuBliakgDDrgboT0mAdJYAAggwJQGO9EsJIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCDABvR8vvHX2nABFFn84myR5QYASv5/fW2T2uAAVb/9vh4dYaSzApMy/d6h1lgJMyCOjCFD5/h9FgMrv/9X9r/+XBSjw273z//ZmI0D75vauf5699o8HI8AkXNn99nl/uxGgwt0kyYlrhzkYAR68heUkGWw0AtT4PknyWSNA0RQsSfJcI0CR9SQZbApQ+gH4oBGgyPX7d7oQoN05WJL0NwSocitJXm8EqLKcZLAlQOkQ/EYjQJU7Bz4AArRqLcnzjQBVesMkGwKUmU3yWCNAmZtJnhSgzkqSdwUo82iS/pYAZY4lOdkIUOb6uIW4re1PKECzkuSqAGUWh8mgEaB0DH5CgDoPJ3lGgDozSd4UoPYq9EMB6txO8sW/PBgBHqD1JFsClE4D+jsC1BkdvBctQIsWkpwSoHYe9rQAXZuHCdCa2bHzMAFac3zMz2ECCCCAAAIIIIAAAgggwNEOMGMi5lbEVAdwM67YwthVKQK0ZzRmZagALVoZu0GlAK1ZT7IpQJ3bf92l5m8HY11QK44leVGAOrNj/iEmQIvm79snRYCC61D/D6i0Nu4ySID23Bx3GSRAex5KcsY8oPYyaEmAOr1h0t8WoPRukK0KqkfhJQHqHI/9gkotDO2YVetKksG2AGVmcmAYFqBNi8sHhmEBWnXrwDAsQKvmkuS0AHXWk/RvCFA7DJ8WoHYY7l8VoHYYXtoRoMr8MEnOCVBm9zFWrwlQ+xHIOwJU+Wn3p96LAhTpLe8+zPOiAEXu7j3O9qVPtgQo8fO9FScnvtoRoMI3+4t++gKU+PqQS68EmNQdifMC1FpYFaC4wMf7538gQIlfLo12A5wSoMjchWT8BgYCtOSP7y5//mkjQGcJIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACHN0A3SSAAAJMgWFXz39/SgKsdjXAySkJ8GtXAzw1JQHmPurm+X/lRgMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/Jn3rRmcgZgiI2AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTA1LTIxVDEyOjE5OjUzKzAyOjAwddtf2wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNS0yMVQxMjoyMDozNiswMjowMPUmjIwAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 16.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d6b438900d46a7862e36.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pilotaje} por {1:SHORTANSWER:=rodillo}.]]>
+      </text>
+      <file name="d6b438900d46a7862e36.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 17.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ac14c3a7ac606191d4ad.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pistón} de {1:SHORTANSWER:=doble} efecto.]]>
+      </text>
+      <file name="ac14c3a7ac606191d4ad.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAnUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d5mZmaqqqszMzN3d3e7u7mooxi0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAn5JREFUeNrt3bFtAlEQRdGNkCxHf2WQINuYGDmmBEQDdg1ugwBKoAPLVVAWHSAToJ2Zf25KMo+TsBLSDoMkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZKUsfefVr3P38gAf61+28gA3x0ArCIDTB0AjJEBWg8BAAAgMsC/P40+5vmBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJALwIsOAZR60SGAFYCuX3QIoAEAAMBzwOu6nUI/JdQHCP6YBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACIAuB/QQAAAADg39FlWgKYtw2AWdudPQcU/6UPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/vKx8AAACiNnXw/Y+RAQ4dACwjA1w7ANhEBng7lv/+535ZYalfzeUnAHA9AACuBwDA9QBMcD0AE1wPwATXAzDB9QBMcD0AE1wPwATXAzDB9QBMcD0AE1wPwATXAzDB9QBMAADABAAATADgehMAuN4EAK434cn2rX0kB8g94dLaOjlA7gmLafxKDpB8wu00ZK/ABEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSpIrdAfUOcABJpUbfAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTA1LTIxVDEyOjE5OjUzKzAyOjAwddtf2wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNS0yMVQxMjoyMDozNiswMjowMPUmjIwAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 18.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/28069d02c6c3fe1d8519.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pistón} de {1:SHORTANSWER:=simple} efecto.]]>
+      </text>
+      <file name="28069d02c6c3fe1d8519.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 19.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/4a07eb6defe985d38bcb.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=purgador} de condensados.]]>
+      </text>
+      <file name="4a07eb6defe985d38bcb.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAnUExURf///wAAABERESIiIjMzM0RERFVVVWZmZoiIiJmZmaqqqru7u+7u7vSHueoAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA5dJREFUeNrt3LGNE1EARdHJLMEmn7VYiYwStgTnlLAJMYk3pgVKIIAOiCAlMBJ0tQ3gkSzN+LLMuQ2M9J+OZ37iaZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSdI/3fcPzqDs1xgPTqHr5jDG/qdzyDqNMcY751ACQKAGgEAMAIEaAAIxAARKAHePCKQAjjsEUgDThEAKYJoQaAEgEANAoAaAQAwAgRoAAjEABGoACMQAEKgBIBADQKAGgEAMAIEaAAIxAARqAAjEABCoASAQA0CgBoBADACBGgACMQAEagAIxAAQqAEgEANAoAaAQAwAgRoAAjEABGoACMQAEKgBIBADQKAGgEAMAIEaAAIxAARqAAjEABCoASAQA0CgBoBADACBGgACMQAEagAIxAAQqAEgEANAoAaAQAwAgRoAAjEABGoACMQAEKgBIBADQKAGgEAMAIEaAAIxAARqAAjEABCoASAQA0CgBoBADACBGgACMQAEagAIxAAQqAEgEANAoAaAQAwAgRoAAn/r9/0423Hph+3OP+v200YHOJw/k7vln/Z4/mn7bZ7/y3FFALMExrdNDrC7KoBZAsdNDvBi5jdhhc+Vm5lfvC/b/A2aeQev8LlymnkLb/Ql/OP+igRmANx+9EW6/hf7abV3y//5cl6awCrXawQAeC4EAIgJANASACAmAEBLAICYAAAtAQBiAgC0BACICQDQEgAgJgBASwCAmAAALQEAYgIAtAQAiAkA0BIAICYAQEsAgJgAAC0BAGICALQEAIgJANASACAmAEBLAICYAAAtAQBiAgC0BACICQDQEgBgDQKXBsDCBC4NgJYAADEBAFoCAMQEAFi495ed/2snVt0F3AHi67BLcEsAgJgAAC0BAGICALQEAIgJANASACAmAEBLAICYAAAtAQBiAgC0BACICQDQEgAgJgBASwCAmAAALQEAYgIAtAQAiAkA0BIAICYAQEsAgJgAAC0BAGICALQEAIgJANASACAmAEBLAICYAAAxAQBiAgDEBADoCQAQEwCgJQBATACAsDHGcAoGMIAMYAAZwAAygAFkAAPIAAaQAQwgAxhABjCADGAAGcAAMoABZAADyAAGkAEMIAMYQAYwgAxgABnAADKAAWQAA8gAz6PDGHunEPZ1jDdOIWz39pV/q0n789kZSJIkSZIkSZIkSZIkSZIkSZIkSWFP30ypQ6TqqF0AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 20.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/8752c3395f13636f77e8.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=regulador} de presión.]]>
+      </text>
+      <file name="8752c3395f13636f77e8.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 21.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/bbe7b4879cae92524114.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=retorno} por {1:SHORTANSWER:=muelle}.]]>
+      </text>
+      <file name="bbe7b4879cae92524114.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAtUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7osDjvQAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABGdJREFUeNrt3T1vHFUUBuAzMQQiQeQtEA0FBXKLW6pIdPwAqI0iIdGBxE+gpKClsVxRu6EEUSYtNCim2JIOIrFJiKWYwou8HzMnye4ZZqx9ntLHuSvvu/c9LjJJBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsK1mgNd887PjUb4XB98d7kYAv9wZ6afxnV///9fcG+DnfPLbSAN4PNuNAB4+GWkAF493I4AmxmqAT8YNv4cMSwADe2Wg1/2z5phJ7VFugApCAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAAAJAANfHEA9q34qyR6J7POqHJvuXI/LpSxjiqfXiZ0v7OerVN+LOaec351MVVOCbiPubTgWwvdsnEU+nm03tgIKjmlnExes/dxV3OnUDCpxFRPy02dQNKDhq/15EPPy743vzqRtQsAJOIyLOp5tM3YCCo5pZRHfN51M3oGoFdNZ8PnUDCo7avxfRXfP51A2oWgFdNZ9P3YCCo5pZxN77f3TUfD51A4pWwM2jrprPpwIocBwRB3cj4sHLTwVQtAKObnbUfD61AwqOamYRe9+ff9Be8/nUDahaAREdNZ9PBVC1AiI6aj6fCqBqBUS013w+tQMKjros+Yj2ms+nbkDdCuio+XwqgLoV0FHz+VQAdSugvebzqR1QcNR/Jd9e8/nUDahcAa01n08FULkCWms+nwqgcgW01Xw+tQMKjroq+baaz6duQO0KaKn5fCqA2hXQUvP5VAC1K2C95vOpHVBw1GLJr9d8PnUDqlfAWs3nUwFUr4C1ms+nAqheAas1n0/tgIKjlkt+tebzqRtQvwJWaj6fCqB+BazUfD4VQP0KWK75fGoHFBy1WvLLNZ9P3YA+VsBSzedTAfSxApZqPp8KoI8VsFjz+dQOKDjqn7WSX6z5Jp26Af2sgIWaz6cC6GcFLNR8PhVAgZaSv6r52+nUDqg46q/1kr+q+bYVsP0ScANaPtHtNX+WTgVQ5GD9S/OaP06nAihy1H4pzqftK2DrJSCAlZ3Y8hY/Oox4dvJ0mk0F0N8KmNf8WToVQH8rYF7zx+lUAP2tgHnNn6bTqQB6WwHzmp+m0xMB9LcClv46dPUSEMDzV8BlzefTBwLobwUsPRJTvQQE8PwVcFnz+XTjJSCAF1gBC49Fli8BAbzACpgvgXT6uwD6WwELj8Z3Tp8JoM8AHh12r4DL6YUAevVlxNvd008j3hJArz5598bH3dPP95uvrtEPM5lMJtfuqFvfZn/4/o+bvqz/wqSHo1TQNSIAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQgAAQiALQz1kN44eUhPBbEDAezr42EDOBxrAHs7EsAXYw3gtR0J4KMPx/n+v/e1lQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwGb+BWv6oE1klxutAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTA1LTIxVDEyOjE5OjUzKzAyOjAwddtf2wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNS0yMVQxMjoyMDozNiswMjowMPUmjIwAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 22.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/52f5a85cbaf32ad2cdec.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=secador} de aire.]]>
+      </text>
+      <file name="52f5a85cbaf32ad2cdec.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAtUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u93d3e7u7hQWILgAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA3ZJREFUeNrt3MGJ1GAYgOHcRlSEOOKeLWEKcMEGLEHw7mH27sFKxBIswZMWYAPCrge70ALcQCDJO5rnbSDwhSd/vkMyDJIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSbrovr4zg7Kf4/jGFLqevBrHZz/MIetu/NNrcygBIFADQCAGgEANAIEYAAIlgKsbBFIA5wMCKYBhQCAFMAwItAAQiAEgUANAIAaAQA0AgRgAAjUABGIACNQAEIgBIFADQCAGgEANAIEYAAI1AARiAAjUABCIASBQA0AgBoBADQCBGAACNQAEYgAI1AAQiAEgUANAIAaAQA0AgRgAAjUABGIACKzV93FWL01sYQAv5t2Apwgs2+04s2szW/4EmJNTYPlXoHl5EUoBIFADQKDYAewC7RJsHb4QAAjUABCIASBQA0AgBoBADQCBGAACNQAEYgAI1AAQiAEgUANAIAaAQA0AgRgAAjUABGIACNQAEIgBIFADQCAGgEANAIEYAAI1AARiAAjUABCIASBQA0AgBoBADQCBGAACNQAEYgAI1AAQiAEgUANA4G/9Ot3/jel56Ysd7r/W8eNOb8DE19dXy1/tZuKb7n3O//G4IYBJAuOXXd6Aw6YAJgmcd3kDHm37n4ep/0183ucz6LTpfx4m/jdx3Okh/O20IYEJAMf33kjXf2O/W+1s+T8P56UJrLJeIwDAv0IAgJgAAC0BAGICALQEAIgJANASACAmAEBLAICYAAAtAQBiAgC0BACICQDQEgAgJgBASwCAmAAALQEAYgIAtAQAiAkA0BIAICYAQEsAgJgAAC0BAGICALQEAIgJANASACAmAEBLAICYAAAtAQDWIDA3ABYmMDcAWgIAxAQAaAkAEBMAYOHezpv/cxOrdgE7QLwOW4JbAgDEBABoCQAQEwCgJQBATACAlgAAMQEAWgIAxAQAaAkAEBMAoCUAQEwAgJYAADEBAFoCAMQEAGgJABATAKAlAEBMAICWAAAxAQBaAgDEBABoCQAQEwCgJQBATACAlgAAMQEAWgIAxAQAiAkAEBMAICYAQE8AgJgAAC0BAGICALQEACh7cDp+MIWyh5/MQJIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZJ0+f0GGbTB1dK+L3YAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 23.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/6d33875e5fb8474bddc2.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=unidad} de {1:SHORTANSWER:=mantenimiento}.]]>
+      </text>
+      <file name="6d33875e5fb8474bddc2.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAC21JREFUeNrtnUtsXFcZx09je5zxPG7/d8ZuSgrkqkKUAqFDlVYRrw4KERKoZShVV4BHrSwkQM1QqopSRTEBVJBo43YBAhZxNgXEwykIhIQUO5BWhUVtUCUWLJw0qBVsHCetKtIFizt35o7ndc757jieOf/fzr4z43POz3Me3z33O0oRQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQMrq8VsLQU3hyeNs/H2AE8NeHVsAkRoIjQytg12gI2De0Aq4bDQHXUwAFUMDQCrje8ioLSQEUwEJSAAWwkBRAASwkBVAABVAABVAABVAABVAABVAABVAABVAABVAABVAABVAABVDANamb99cfzd136NB9c9/75QYFbHfdvD8+GNv6Xjj8kw0K2Ma6ec+Wt25fKz62QQHbVbd/ljvtICz+gAKMSj8O4C6LT80+3G0T553LFGBQ+gyAJfMPfa3cfRtt8UkKMCj91/Bu8898vudjT/5XKEC/9N4vzMfN38Wb++ZPzM3NzX3ug/HffYoCBln6WPsfeOyl6LdvPXuvvQEKMOAvja7m/jOtV64+0uiaPk0Bgyr9y1Eb33Gm/eLVB6Krn6eAwZT+zWjd+3jn6y9Ea+OnKGAQpc/U23e669w1U6kbWqKA5Eufr4ate8t6j9d8K3zNzDoFJF7634Zte7Dn1NV7JnzVhygg6dLX0x4c7Pe6Z0zTC1CAFrkwAHFL36WbF/ZCxVUKSLT0z2n37fWx4r0UkGTp0+HsZlnntdlwtnSCAhIsfc1kfh+uF27Q/OjeUXEKUEop9QYA4MO6L/8zAOAhzeVFz6g4BSillFcBgBnt2KlXBYBpzdf3jIpTgFJKXTHq1BtDxj2aunpFxSlAKeWVjTqgRidU3Ng5/0NDLeAKABTXTd6SLxt8BShAZwT4otmbXjcZBSigJykAmDF9VxUAZikggdLXrFJHTpqsBSigB1OWLVkDgJMUIC79c5a5UyeNIkJOCsjOLWvMZwKbESAaBcRph0dZgFfWmalPAMBnbP66/TsdEZDWWt3WrFdUXjmBYXiUBYwBuK3fR2QBYL/dn78AAMsUIKrbZUEjZgHgYxQgqlsNwI22f39B3ge5LiAjWs+mYLcDngJaeqCC9VQyXxL3Qa4LmAew174ApwHsoQD7uuUD2Qkik+K1mOMCUgAKgpiyV5KGRB0XsCLrgcI+6CYKsK5bRfoPnAIwTQG2dcsA8FclJcgFwomo2wIm5AupmjAg57aAFQD7jx/4qaAIm8JBwG0BFQDHAdz8pTO2RdgtHAScFpAD4C9GD6XajQVeAGCVAqzqNglgTyMxgX/Yqiualy3lnBawCWB/Jf5kvEVXdAHAByjAqm6LAI6stSaDMO6KJgG8jQKs6lYBsJpqy8dh1hXlZKOwywLyYdPNt+dEMeqKKgDWKcCibrvDziPdMS+Nfle0COAYBVjUbbw+fJ4CAL8tTZCvmRJi0zIxFwWcr0fiMgEAfDWekiZkVqsQKQDvoACLui1EcbSz9a3mV79TahGg16wZyW19pwVUAD+cyJQA4G6llHrx67GuSDNOF0imQS4LCBp7Qi+ieW8+3+yKNP+vq5FICjCqW7bZxOEDRx+Jrvz3ux8HALxdrxQLkv1xDgvYHevlXwcAP9aKL5b15zbnJfNQhwVMxJu4umWzv1fSv9M1Lrkn47CAXfGJ5iQA+CcbF9MAipqlSAHYRwHGdVtrecJovnXUvWywXWJKf7hwS0Cf3NGLLTGcMCBxLD6w6i5v85J4qMO5o2uts8dT8Zm/yRCgVCC4te9w7uhKay8fBiRmzYcApcqClZjDuaPLW57NOxt79v2S0Y65qoktlwT07ThaNjbHAhKqDGCP9p7RecFS2F0BXtvQ2QxIeIFeAr/YcL5BAYZk2yaPzYBE/R6NroE1QSzCXQFTAN7Z+qtGQOIyjAxcEuQscFdAusP6NQpILMDIwC6zdFsUoJQKY3FbnyKuByS85n0ZLQNjgmicuwImO611w4BEGoBvYGBcsDluWARESbPbsS19qpOAcPQ9DmDvOX0D44LHPK7rVq+DGztKwDgGIaA9iHwq+ti7lL6BiUEIEOy0GAQr2yQgE90SXlL6BgYj4KYdJaCWuICJzrdRztZPbFNK38CE4I5MdwE37CgBp7dLQBiQqAeCNA0MRsDeHSVgbJu6IKVeiXfAegYG0wXdtqMEdD9gM2kBYUAiuhegZWAgAqwODh36dUAUkGhGl3UMuLAOGIyAzt/yKvA+ZWJgjAISCkXUr5QK8chOfwMMRSQVjKszdbLlx74GGIyzIdMeju5GPwOXBOkK3L4ho7vY7GNghTdkLPBMdvP0NsBbklYEJtnGehrgTfluvcxcr46hbJQyupcBbkvp0sn0zh1t2Gw9DJQts3+PuoA+uaNNO47uBgJB6kSHc0efNk1z0s1AThK6dHh7+nnj5VMXA2nJc6oOCxgzj2F2NpCSxI4dFmDTbh0NjElSLzosIG3zYEsnA2uCUJDLAnJWeZ87GJiXJC1z+UHtktVzFe0GKkBBUYB53aqAvyE34AWCdZjTAhYtNzVvMTAlylnmsoBN290krQYmRFn7XBZg33ItBjZFyYtdFpC2P/4ibmBeMgt1WoAX2IeRGwaUKtuN5RQQ5jtcFho4kWXaSuu6nZb03nUDeydk2zidFjAmybJRN7BnTbaN02kBadkm8HMAcGNNNAa7LcALZIdQnQNwayAagx0/wKEmPMPnHPznhY9SuC3g76JBQCn1r1+tAXg/BVjWLQVJHE0pFT7bPUsBlnXLiU9kzkJ2gonrB7lVpY+Djku/Q44LuCDK+6zCrBL7KcC6btLTUKWnsTovwCvJDsKbEJ7GygOdF2V90ILsBB8KUBOi4zxzgfAkSQrIBQDusf37V8SnsTovQC1I5pFV6SSKAsI8OJbRzHQCWWUczh0d64MsM8OsyHsgl3NHx+ZBdq2YC8RzIKdzR8fWYviozV9/BdJVmHI6d3REGej5LFnXTy9D8HCeEwIM/pEtZqJXrL86FNBCNmhmTTf5AlS2nPtDAbYsNrOmG3ARCQzBFNCYzhfXzd4UJtY6QQFJlL7WcoybHv9IKLEhBUQzUd8o4UyYX/QIBSRT+hoAvMfkHU8nldmTAhpfATyk/4Y3kNAXgAJC5gGgqD2nzJYBQX4ICug8EdKPLIcHPJyggORKH2ZN1zxF/mUAwK2KApIrfbYEAP4xndfuDgCgsEwBSZb+IgCgoDEXzYTpve9WFJBo6cME+dN97wzkKokml6eAiKnw6IaZPgZyVWw5epgCEuLf4UNfMz379mzY/viCooDES/902LbTPf65p8L+x2zVTAGa5OutWzja7RWv1g8Ym16ngEGUPhMd4PbJjg2c/3b9cmFJUcBASv9mdIZS8fH2iy+U6xf9pxQFDKj0r0YG8K5vtnwL8n/4bHTFP6ooYGClbxpA4f7vvxT+8q2fPdI8XTLZ9nc5d3RfAwD82w8dur31N0cVBWiWvk/u6C78r4weFH+jKEC39Gm7kHHuge7tf8eqogDt0o/ZptH4falz8xe+PAzD2M4RYF+3zMNBe/P7dy4pCtgeAUr958EtCvzDvx6SidxoCFAq+8N7Gw78A99YviZVcFmAUsr728+fePTRJ378p41rVQXHBQznWpICKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACKIACRkTACEABFEABw8mu0RCwb2gFpEZDwOzQCsiNhoDVoRXQ9VGKYWIQj33sEPRyRxNCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhAyY/wNa/JhOS8qWFAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 24.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/be4111a079ec4b42a2db.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=válvula} {1:SHORTANSWER:=2/2}]]>
+      </text>
+      <file name="be4111a079ec4b42a2db.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABClJREFUeNrt3T9OFFEAx/ExoAl/wrqIGFBJsLETbEQ7SDwA3kBiQo8WHsALQLwAtFvpDfAI3gA8wYYL6M4um0U24T2Wfbwh8/lWVC/M+zS/KRiKQpIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZLq3ezusUvIWGOrudB2Dfmaajab+64hXxMdgHXXkK97HYCHrgEAAAEAIAAABACAAAAQAAACAEAAAAgAAAEAIAAABACAAAAQAAACAEAAAAgAAAEAIAAABADAXW7uW7OSvT2pCcCfZkV7VROAvaoCPKkJwGpVAeZrAtCsbAAAAKgJQHCqdi/kZBxHRb4HAPivqS7APoBcAPe7ANsAcgGcdgFWAOQCOOgCLAHIBfChC/AYQCaAufNdeAIgD8DUOcA+gDwA5Qh6ETGDACQCKEfQbsQMApAIoBxBrYgZBCARQGcEzf9dDc8gAGkAyhG0WOyEZxCANADlCFoujsIzCEAagHIErRVn4RkEIA1AOYI+Fg/CMwhAGoByBB0W0+EZBCANQDmC2kUjPIMAJAHojaAiYgYBSALQG0FFxAwCkASgN4KKiBkEIAlAbwQVETMIQBKA3ggqImYQgCQAvRFURMwgACkA+iMoYgYBSAHQH0ERMwhACoD+CIqYQQBSAPRHUMQMApACoD+CImYQgBQA/REUMYMAJAAYjKDwDAKQAGAwgsIzCEACgMEICs8gAAkABiMoPIMAJAAYjKDwDAKQAGAwgsIzCMD4AS6OoOAMAjB+gIsjKDiDAIwfoBxBC+/7bV09g64+qvH90p+hvmsDCD7q6dBf766MetTk0FGbAIKPejR0a8ujHvVr6KhnAIKPunedj5jc2lE1AjgYurWlUY/6OXTUUwDBRz0burW1UY+aGDpqHUB4hr6+dGmPRp6hs18uHbVxDCD8qNNfy8q72+j+dHjj8d5otW/8W9UIYPA6sH2btwYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG4VwLejMwP4dnRmAN+Ozgzg29GZAXw7OjOAb0dnBvDt6Gq8B/gfMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA8QFUMwAAANSg1are/3xNAHaqCrBYE4DfVQV4XhOAmU/VvP83PwpdqDWug+LeA5QsAAAAAAAAQAAACAAAAQAgAAAEAIAAABAAAAIAQAAACAAAAQAgAAAEAIAAABAAAAIAQAAACAAAXbPJDsCma8jXTAfAZyBy9rn50iXkrNFquwRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkqS72j/ecdtEE+cc/QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMi0wNS0yMVQxMjoxOTo1MyswMjowMHXbX9sAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjItMDUtMjFUMTI6MjA6MzYrMDI6MDD1JoyMAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 25.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ed68e3fbe949d8236023.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=válvula} {1:SHORTANSWER:=3/2}]]>
+      </text>
+      <file name="ed68e3fbe949d8236023.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 26.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/2c8e2038d7ae4c5db09c.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=válvula} {1:SHORTANSWER:=4/2}]]>
+      </text>
+      <file name="2c8e2038d7ae4c5db09c.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 27.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/6c7fb546565e38756c91.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=válvula} {1:SHORTANSWER:=5/2}]]>
+      </text>
+      <file name="6c7fb546565e38756c91.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 28.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/c8419538220ad5a55191.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama válvula {1:SHORTANSWER:=antirretorno}.]]>
+      </text>
+      <file name="c8419538220ad5a55191.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA/tJREFUeNrt3D+IHFUAx/ElueQS78/y281FRfyz+A8tNGslVkbS2CinxPpWMGCXs9HC4q4ybYzaif+wEcGIYH1KMGCjgih2UQMWNipBCFhYbI4kl5m5kGPeQPh8ynls8+a+8+bNzl6vBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA3BTmj22YhC5NsvSXWejOQpJnTUN3ZpMckEB39kcCneqPJNCtdQl0vwhIoEurEpCABCQgAQkgAQkgAQkgAQkgAQlQxp9vHD1y9LUvJdCNi8+PkiSDkQS68HGuIoHCTmULCRT1xdb5l0BRZ3ItCZSzb1RxAiRQTH9yac7ve+HYS09JoLgfpxN+/7u9Xq/X++U5CZQ1P70APb053/23JFDU10mSJ6448pEEClocJclDVx17UwLlXEiy9ZcB/WUJFDNJkuNbDs5KoNgeIEkevubwhxIouQSfvubwnAQKWU5ye8XxkxIoYq5qBbAKlDOTZKk2DQm07oMkj1SO/CaBEg4nWau/PZJAgSVgWD3F/bEE2re35h7o8n2QBFq1K8mhmrHdHoqWWYPXmvbIEmjXJMm5mrFFX40VuQlaatokDyTQqv4oua12dD0ZeFO0VfNJ7qgd/TzJWQm06ZYkd9eO/p3kfQns0MVxmh2q/ejuJGuz9Z8cvmd6r+9ZQ6Mnaz86k+T49PcC1Q6Y3uu6yt9oATNJVnoNCWTDBG9ndgcnYE+SlV5TAsdN8HbmcuOXoOkJ6DdcxE6b4G2Nd7YGrExfW6lZhU3v9s6Od7YINwQwfN307tC+JPfUju5KsnYhSW41Ve1txO6qHf01yWeHLbYtWtj2UcQZAbRq1DS7q8lAAK3vkw80DQ4E0K7VJN83XJ9st1r2VcP8bm6iBdCiXUkerRn7RwDtm234C18VQPvmR8ngXOXQ4kgABSxPn3hW2CuAUqvwnZUjPwighD1JhlXXoMWxAEo9jKh8IDojgDImNX/mqwIo43wqXw/dJ4BC5pLk4NY3ry79AxUBFLCeJM9UdSGAIvYmyXDj6v2ZW6Bypl/6HrzymejCRAAF/Z4kefDyZmDxFZvgkhan7z08sHkVmn/RY9Cy/r30lsnL3/V6vf/eGfseoLSTm9993XvkMe8ddrEXqHr5SgAF/THy4m23fhJAx74RQMd+HgugWwtvT0/BcCSArh5KfHvi1ROfnhdAt2fB26Dd8nsAAQhAAAIQAAIQAAIQAAIQAAIQAK1bFkCnFgTQrVkBdGu/ADq+CRoJoFun8rhJ6NQnpgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAuNn9D1AV7pysPhUxAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIyLTA1LTIxVDEyOjE5OjUzKzAyOjAwddtf2wAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMi0wNS0yMVQxMjoyMDozNiswMjowMPUmjIwAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 29.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/182e1e3ca316cc9b750e.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama válvula {1:SHORTANSWER:=estranguladora} unidireccional.]]>
+      </text>
+      <file name="182e1e3ca316cc9b750e.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 30.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/70139a502e9031ff69e4.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama válvula {1:SHORTANSWER:=estranguladora}.]]>
+      </text>
+      <file name="70139a502e9031ff69e4.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 31.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/196f755761bf9d3254f9.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama válvula {1:SHORTANSWER:=OR}.]]>
+      </text>
+      <file name="196f755761bf9d3254f9.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Neumática. Nombre de símbolos. Pregunta 32.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/9d35e30e8c259d93db74.png" alt="" role="presentation" width="220"></div>
+         <br>
+         Este componente se llama válvula de {1:SHORTANSWER:=simultaneidad}.]]>
+      </text>
+      <file name="9d35e30e8c259d93db74.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAwAAAAFcBAMAAACNfMQYAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+YFFQ4UJLvdZGwAAAAtUExURf///wAAABERESIiIjMzM1VVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7osDjvQAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAtpJREFUeNrt3TFuE0EUgGEHBylKkJWHoyiCJhV13CBKuACioUkaSM4RCcQpaBAU9ElBzxE4ggsKuAW1d9Gw9k7Gg+b7OsurV7y/slZ6nkwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACo2rcLO9imnxEvbWGL3kec2MIWLSLmtrBFERG2IIAACCAAAgiAAAIggAAIIAACCIAAAiCAAAggAAIIgAACIIAACCAAAgiAAAIggAAIIAACCIAAAjTr1yIKmV/bdt+s2P4jHv6w7569KOiNffdMSwY4te+enZIBDu1bAAHoBThc+9vfn7KNEiDb1gQQQAABBBBAAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQAAEEAABKg5w8PomV4ARo9oNMHsRR8s8AcaMajfAXkS8yxNgzKh2A0wj4ixPgDGj2g2Q/lhslAACCCCAAAIIIIAAAgggQLMBdiPi+dBRnYcFyBBgPyI+Dx3VeViADAEml/Fk+KzVhwXIEWD2cTl81urDAuQIUOVkAQQQQAABBBBAAAEEEEAAAQQQQAABBKjc7MOAY4aZjygOmfxs2UiA3agzwPBXbv+521oDPG4kwNtaAxw3EuBLrQEeNRJgWmuAs0YCHFzVGeDpTSMB/s7vAAEEEEAAAQQQQAABBBBAAAEEEEAAAQQQQIBJ9+zYPyRvlAmwSYDO2bG09I0yATYJ0Dk7lpa+USbAJgGm67wxTN8oE2CTAE4VCCCAAAIIIIAAAggggAAC3HWA9NmxYqPaDZA+O1ZsVLsB0mfHio1qOEDy7FixUQ0HWOfbuxslgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCCCAAAIIkCNAMQIIIACr7pUMcGrfPfdLBnhl3z0PSgb4bt99Xxel1j8/t+21jfhDZwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACABvwBzOJUvdqt53gAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjItMDUtMjFUMTI6MTk6NTMrMDI6MDB121/bAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIyLTA1LTIxVDEyOjIwOjM2KzAyOjAw9SaMjAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>

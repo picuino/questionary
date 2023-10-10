@@ -43,6 +43,7 @@ def main():
 
    multichoice_path = '.'
    build_path = 'build'
+   moodle_path = '../moodle'
    html_path = '../docs'
    
    questionary = Questionary(overwrite=False)
@@ -56,7 +57,7 @@ def main():
       questions_counter.add(questions, yaml_file)
       questionary.write_csv(path=build_path)
       questionary.docx_generate(path=build_path)
-      questionary.moodle_generate(moodle_template, path=build_path)
+      questionary.moodle_generate(moodle_template, path=moodle_path)
       questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
    print('\nTotal questions= %s\n' % str(questions_counter))
