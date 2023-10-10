@@ -17,9 +17,9 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>  <td>{12}</td> <td>{0,06|0.06|60m}</td> <td>{200}</td> </tr>
-    <tr> <td>R2</td>  <td>{12}</td> <td>{0,04|0.04|40m}</td> <td>{300}</td> </tr>
-    <tr> <td>R12</td> <td>{12}</td> <td>{0,1|0.1|100m}</td>  <td>{120}</td> </tr>
+    <tr> <td>R1</td>  <td>{12}</td> <td>{0,06|0.06|60m|60mA}</td> <td>{200}</td> </tr>
+    <tr> <td>R2</td>  <td>{12}</td> <td>{0,04|0.04|40m|40mA}</td> <td>{300}</td> </tr>
+    <tr> <td>R12</td> <td>{12}</td> <td>{0,1|0.1|100m|100mA}</td>  <td>{120}</td> </tr>
     <tbody>
     </table>
 
@@ -32,9 +32,9 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>  <td>{12}</td> <td>{0,024|0.024|24m}</td> <td>{500}</td> </tr>
-    <tr> <td>R2</td>  <td>{12}</td> <td>{0,006|0.006|6m}</td> <td>{2000}</td> </tr>
-    <tr> <td>R12</td> <td>{12}</td> <td>{0,03|0.03|30m}</td>  <td>{400}</td> </tr>
+    <tr> <td>R1</td>  <td>{12}</td> <td>{0,024|0.024|24m|24mA}</td> <td>{500}</td> </tr>
+    <tr> <td>R2</td>  <td>{12}</td> <td>{0,006|0.006|6m|6mA}</td> <td>{2000}</td> </tr>
+    <tr> <td>R12</td> <td>{12}</td> <td>{0,03|0.03|30m|30mA}</td>  <td>{400}</td> </tr>
     <tbody>
     </table>
 
@@ -47,11 +47,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{8}</td>  <td>{0,08|0.08|80m}</td> <td>{100}</td> </tr>
-    <tr> <td>R2</td>   <td>{4}</td>  <td>{0,04|0.04|40m}</td> <td>{100}</td> </tr>
-    <tr> <td>R3</td>   <td>{4}</td>  <td>{0,04|0.04|40m}</td> <td>{100}</td> </tr>
-    <tr> <td>R23</td>  <td>{4}</td>  <td>{0,08|0.08|80m}</td>  <td>{50}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,08|0.08|80m}</td> <td>{150}</td> </tr>
+    <tr> <td>R1</td>   <td>{8}</td>  <td>{0,08|0.08|80m|80mA}</td> <td>{100}</td> </tr>
+    <tr> <td>R2</td>   <td>{4}</td>  <td>{0,04|0.04|40m|40mA}</td> <td>{100}</td> </tr>
+    <tr> <td>R3</td>   <td>{4}</td>  <td>{0,04|0.04|40m|40mA}</td> <td>{100}</td> </tr>
+    <tr> <td>R23</td>  <td>{4}</td>  <td>{0,08|0.08|80m|80mA}</td>  <td>{50}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,08|0.08|80m|80mA}</td> <td>{150}</td> </tr>
     <tbody>
     </table>
 
@@ -64,11 +64,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{10,4|10.4}</td> <td>{0,02|0.02|20m}</td>   <td>{520}</td> </tr>
-    <tr> <td>R2</td>   <td>{1,6|1.6}</td>   <td>{0,016|0.016|16m}</td> <td>{100}</td> </tr>
-    <tr> <td>R3</td>   <td>{1,6|1.6}</td>   <td>{0,004|0.004|4m}</td>  <td>{400}</td> </tr>
-    <tr> <td>R23</td>  <td>{1,6|1.6}</td>   <td>{0,02|0.02|20m}</td>    <td>{80}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td>        <td>{0,02|0.02|20m}</td>   <td>{600}</td> </tr>
+    <tr> <td>R1</td>   <td>{10,4|10.4}</td> <td>{0,02|0.02|20m|20mA}</td>   <td>{520}</td> </tr>
+    <tr> <td>R2</td>   <td>{1,6|1.6}</td>   <td>{0,016|0.016|16m|16mA}</td> <td>{100}</td> </tr>
+    <tr> <td>R3</td>   <td>{1,6|1.6}</td>   <td>{0,004|0.004|4m|4mA}</td>  <td>{400}</td> </tr>
+    <tr> <td>R23</td>  <td>{1,6|1.6}</td>   <td>{0,02|0.02|20m|20mA}</td>    <td>{80}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td>        <td>{0,02|0.02|20m|20mA}</td>   <td>{600}</td> </tr>
     <tbody>
     </table>
 
@@ -81,11 +81,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>    <td>{6}</td> <td>{0,012|0.012|12m}</td>  <td>{500}</td> </tr>
-    <tr> <td>R2</td>    <td>{6}</td> <td>{0,01|0.01|10m}</td>    <td>{600}</td> </tr>
-    <tr> <td>R3</td>    <td>{6}</td> <td>{0,002|0.002|2m}</td>  <td>{3000}</td> </tr>
-    <tr> <td>R23</td>   <td>{6}</td> <td>{0,012|0.012|12m}</td>  <td>{500}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,012|0.012|12m}</td> <td>{1000}</td> </tr>
+    <tr> <td>R1</td>    <td>{6}</td> <td>{0,012|0.012|12m|12mA}</td>  <td>{500}</td> </tr>
+    <tr> <td>R2</td>    <td>{6}</td> <td>{0,01|0.01|10m|10mA}</td>    <td>{600}</td> </tr>
+    <tr> <td>R3</td>    <td>{6}</td> <td>{0,002|0.002|2m|2mA}</td>  <td>{3000}</td> </tr>
+    <tr> <td>R23</td>   <td>{6}</td> <td>{0,012|0.012|12m|12mA}</td>  <td>{500}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,012|0.012|12m|12mA}</td> <td>{1000}</td> </tr>
     <tbody>
     </table>
 
@@ -98,11 +98,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{7}</td> <td>{0,007|0.007|7m}</td>  <td>{1000}</td> </tr>
-    <tr> <td>R2</td>   <td>{5}</td> <td>{0,005|0.005|5m}</td>  <td>{1000}</td> </tr>
-    <tr> <td>R3</td>   <td>{5}</td> <td>{0,002|0.002|2m}</td>  <td>{2500}</td> </tr>
-    <tr> <td>R23</td>  <td>{5}</td> <td>{0,007|0.007|7m}</td>  <td>{714}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,007|0.007|7m}</td> <td>{1714}</td> </tr>
+    <tr> <td>R1</td>   <td>{7}</td> <td>{0,007|0.007|7m|7mA}</td>  <td>{1000}</td> </tr>
+    <tr> <td>R2</td>   <td>{5}</td> <td>{0,005|0.005|5m|5mA}</td>  <td>{1000}</td> </tr>
+    <tr> <td>R3</td>   <td>{5}</td> <td>{0,002|0.002|2m|2mA}</td>  <td>{2500}</td> </tr>
+    <tr> <td>R23</td>  <td>{5}</td> <td>{0,007|0.007|7m|7mA}</td>  <td>{714}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,007|0.007|7m|7mA}</td> <td>{1714}</td> </tr>
     <tbody>
     </table>
 
@@ -115,11 +115,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{10}</td> <td>{0,01|0.01|10m}</td>  <td>{1000}</td> </tr>
-    <tr> <td>R2</td>   <td>{2}</td>  <td>{0,01|0.01|10m}</td>   <td>{200}</td> </tr>
-    <tr> <td>R3</td>   <td>{12}</td> <td>{0,006|0.006|6m}</td> <td>{2000}</td> </tr>
-    <tr> <td>R12</td>  <td>{12}</td> <td>{0,01|0.01|10m}</td>  <td>{1200}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,016|0.016|16m}</td> <td>{750}</td> </tr>
+    <tr> <td>R1</td>   <td>{10}</td> <td>{0,01|0.01|10m|10mA}</td>  <td>{1000}</td> </tr>
+    <tr> <td>R2</td>   <td>{2}</td>  <td>{0,01|0.01|10m|10mA}</td>   <td>{200}</td> </tr>
+    <tr> <td>R3</td>   <td>{12}</td> <td>{0,006|0.006|6m|6mA}</td> <td>{2000}</td> </tr>
+    <tr> <td>R12</td>  <td>{12}</td> <td>{0,01|0.01|10m|10mA}</td>  <td>{1200}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,016|0.016|16m|16mA}</td> <td>{750}</td> </tr>
     <tbody>
     </table>
 
@@ -132,11 +132,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{2}</td>  <td>{0,02|0.02|20m}</td> <td>{100}</td> </tr>
-    <tr> <td>R2</td>   <td>{10}</td> <td>{0,02|0.02|20m}</td> <td>{500}</td> </tr>
-    <tr> <td>R3</td>   <td>{12}</td> <td>{0,02|0.02|20m}</td> <td>{600}</td> </tr>
-    <tr> <td>R12</td>  <td>{12}</td> <td>{0,02|0.02|20m}</td> <td>{600}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,04|0.04|40m}</td> <td>{300}</td> </tr>
+    <tr> <td>R1</td>   <td>{2}</td>  <td>{0,02|0.02|20m|20mA}</td> <td>{100}</td> </tr>
+    <tr> <td>R2</td>   <td>{10}</td> <td>{0,02|0.02|20m|20mA}</td> <td>{500}</td> </tr>
+    <tr> <td>R3</td>   <td>{12}</td> <td>{0,02|0.02|20m|20mA}</td> <td>{600}</td> </tr>
+    <tr> <td>R12</td>  <td>{12}</td> <td>{0,02|0.02|20m|20mA}</td> <td>{600}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,04|0.04|40m|40mA}</td> <td>{300}</td> </tr>
     <tbody>
     </table>
 
@@ -149,11 +149,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{8}</td> <td>{0,01|0.01|10m}</td> <td>{800}</td> </tr>
-    <tr> <td>R2</td>   <td>{4}</td> <td>{0,01|0.01|10m}</td> <td>{400}</td> </tr>
-    <tr> <td>R3</td>   <td>{12}</td> <td>{0,01|0.01|10m}</td> <td>{1200}</td> </tr>
-    <tr> <td>R12</td>  <td>{12}</td> <td>{0,01|0.01|10m}</td> <td>{1200}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,02|0.02|20m}</td> <td>{600}</td> </tr>
+    <tr> <td>R1</td>   <td>{8}</td> <td>{0,01|0.01|10m|10mA}</td> <td>{800}</td> </tr>
+    <tr> <td>R2</td>   <td>{4}</td> <td>{0,01|0.01|10m|10mA}</td> <td>{400}</td> </tr>
+    <tr> <td>R3</td>   <td>{12}</td> <td>{0,01|0.01|10m|10mA}</td> <td>{1200}</td> </tr>
+    <tr> <td>R12</td>  <td>{12}</td> <td>{0,01|0.01|10m|10mA}</td> <td>{1200}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,02|0.02|20m|20mA}</td> <td>{600}</td> </tr>
     <tbody>
     </table>
 
@@ -166,11 +166,11 @@ Show_max: 0
     <table>
     <thead><tr> <th></th> <th>V</th> <th>I</th> <th>R</th> </tr></thead>
     <tbody>
-    <tr> <td>R1</td>   <td>{3}</td>  <td>{0,006|0.006|6m}</td>   <td>{500}</td> </tr>
-    <tr> <td>R2</td>   <td>{9}</td>  <td>{0,006|0.006|6m}</td>  <td>{1500}</td> </tr>
-    <tr> <td>R3</td>   <td>{12}</td> <td>{0,006|0.006|6m}</td>  <td>{2000}</td> </tr>
-    <tr> <td>R12</td>  <td>{12}</td> <td>{0,006|0.006|6m}</td>  <td>{2000}</td> </tr>
-    <tr> <td>R123</td> <td>{12}</td> <td>{0,012|0.012|12m}</td> <td>{1000}</td> </tr>
+    <tr> <td>R1</td>   <td>{3}</td>  <td>{0,006|0.006|6m|6mA}</td>   <td>{500}</td> </tr>
+    <tr> <td>R2</td>   <td>{9}</td>  <td>{0,006|0.006|6m|6mA}</td>  <td>{1500}</td> </tr>
+    <tr> <td>R3</td>   <td>{12}</td> <td>{0,006|0.006|6m|6mA}</td>  <td>{2000}</td> </tr>
+    <tr> <td>R12</td>  <td>{12}</td> <td>{0,006|0.006|6m|6mA}</td>  <td>{2000}</td> </tr>
+    <tr> <td>R123</td> <td>{12}</td> <td>{0,012|0.012|12m|12mA}</td> <td>{1000}</td> </tr>
     <tbody>
     </table>
 

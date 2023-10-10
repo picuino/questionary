@@ -6,10 +6,14 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 01.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/b1958b147149aa43da0b.jpg" alt="" role="presentation" width="480"></div>
          <br>
          <strong>Conexión USB</strong> <br> El USB (Universal Serial Bus) es un {1:SHORTANSWER:=estándar} para dar conexión de datos y alimentación a computadoras, periféricos y dispositivos electrónicos. Comenzó a usarse de forma masiva a partir de {1:SHORTANSWER:=1998}. <br> Actualmente existen 4 grandes estándares USB con las características que aparecen en la siguiente tabla. <div class="table"><table> <thead> <tr><th>Estándar</th><th>Año</th><th>Velocidad</th><th>Corriente</th><th>Otros</th></tr> </thead> <tbody> <tr><td>USB 1.1</td><td>1998</td><td>{1:SHORTANSWER:=1} MB/s</td> <td>0.5 A</td><td>Solo conectores A y B.</td></tr> <tr><td>USB 2.0</td><td>2000</td><td>{1:SHORTANSWER:=50} MB/s</td> <td>0.5 A</td><td>También conectores<br>mini y micro.</td></tr> <tr><td>USB 3.0</td><td>2008</td><td>{1:SHORTANSWER:=600} MB/s</td> <td>0.9 A - 3.0 A</td><td>Color azul</td></tr> <tr><td>USB 4.0</td><td>2019</td><td>4000 MB/s</td> <td>3.0 A</td><td>Solo conector C</td></tr> </tbody> </table></div> El conector USB C es el más {1:SHORTANSWER:=moderno} y el único compatible con la especificación de USB 4. Además de permitir comunicaciones de alta {1:SHORTANSWER:=velocidad}, con la tecnología Power Delivery puede alimentar dispositivos con una potencia de hasta {1:SHORTANSWER:=100} vatios, mucho mayor que la potencia permitida por los conectores anteriores.]]>
@@ -23,10 +27,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/ec306a5eb654e2b09694.jpg" alt="" role="presentation" width="320"></div>
          <br>
           <strong>Conexión de audio analógico</strong> <br> Los conectores de audio {1:SHORTANSWER:=analógicos} se utilizan para conectar micrófonos, {1:SHORTANSWER:=auriculares} y otros sistemas de audio analógico a dispositivos electrónicos. <br> Hay conectores de distintas medidas, pero el más popular es el conector de {1:SHORTANSWER:=3,5} mm usado en la mayoría de los ordenadores y teléfonos {1:SHORTANSWER:=inteligentes}. <br> Códigos de colores para conectores de audio de 3,5 mm en ordenadores personales: <div class="table"><table> <thead> <tr><th>Color</th><th>Función</th></tr> </thead> <tbody> <tr><td>{1:SHORTANSWER:=Verde}</td><td>Salida de audio. Canales frontales.</td></tr> <tr><td>Azul</td><td>Entrada de audio. Nivel de línea.</td></tr> <tr><td>{1:SHORTANSWER:=Rosa}</td><td>Entrada de audio. Nivel de micrófono.</td></tr> <tr><td>Negro</td><td>Salida de audio. Canales traseros.</td></tr> <tr><td>Gris</td><td>Salida de audio. Canales laterales.</td></tr> <tr><td>Naranja</td><td>Salida de audio. Canal central y Subwoofer.</td></tr> </tbody> </table></div> ]]>
@@ -40,10 +48,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 03.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/9c52bba3a553ab553b23.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión PS/2</strong> <br> El conector PS/2 toma su nombre de las computadoras IBM Personal System/2, creada por {1:SHORTANSWER:=IBM} en 1987. Este conector se emplea para conectar {1:SHORTANSWER:=teclados} y ratones. <br> Actualmente estos conectores están {1:SHORTANSWER:=obsoletos}, pero todavía se siguen incorporando en algunas placas base por motivos de {1:SHORTANSWER:=compatibilidad} con los teclados y ratones más antiguos. Algunas placas base modernas tienen un solo conector, mitad morado y mitad {1:SHORTANSWER:=verde}, que sirve para conectar tanto teclados como ratones {1:SHORTANSWER:=antiguos}.]]>
@@ -57,10 +69,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/08fe6c8be32eb1957ca3.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión RS-232</strong> <br> El estándar de comunicaciones RS-{1:SHORTANSWER:=232} es una interfaz para intercambio de datos vía serie de {1:SHORTANSWER:=baja} velocidad. <br> Este estándar fue ampliamente utilizado hace años, hasta que se fue reemplazando por el {1:SHORTANSWER:=USB} a partir de 1998. Actualmente se encuentra obsoleto y no se suele incorporar en las placas base, pero se puede añadir mediante una tarjeta de expansión {1:SHORTANSWER:=PCI} o mediante un cable conversor de USB a RS-232. <br> Todavía hay equipos antiguos en {1:SHORTANSWER:=fábricas}, laboratorios y empresas que utilizan el estándar RS-232 y es necesario poder comunicarse con ellos. <br> No se debe confundir este conector con el conector {1:SHORTANSWER:=VGA} de vídeo, muy parecido, pero con {1:SHORTANSWER:=tres} filas de pines de conexión.]]>
@@ -74,10 +90,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 05.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/11ab1d7a2fceb2a7417a.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión VGA</strong> <br> El conector VGA (Video Graphics Array) es un estándar para comunicar la tarjeta {1:SHORTANSWER:=gráfica} del ordenador con el monitor de vídeo o con el proyector. Esta conexión utiliza señales {1:SHORTANSWER:=analógicas}, con peor calidad y menos capacidad de resolución que los conectores {1:SHORTANSWER:=digitales} actuales (DVI y HDMI). <br> A pesar de ser un estándar pensado para pantallas antiguas de tipo CRT y que ofrece {1:SHORTANSWER:=peores~%100%menos} prestaciones en las pantallas digitales LDC, se sigue utilizando en ordenadores y monitores actuales para guardar la {1:SHORTANSWER:=compatibilidad} con dispositivos antiguos.]]>
@@ -91,10 +111,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 06.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/bbde633fca263aadb42e.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión DVI</strong> <br> El conector DVI (Digital Visual {1:SHORTANSWER:=Interface}) es un estándar para comunicar {1:SHORTANSWER:=vídeo} que utiliza señales tanto analógicas como digitales. <br> El conector DVI permite {1:SHORTANSWER:=atornillar} el cable a la caja del ordenador por lo que es más {1:SHORTANSWER:=robusto} que el conector HDMI.]]>
@@ -108,10 +132,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 07.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/55be348445798452eec2.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión HDMI</strong> <br> El conector HDMI (High-Definition Multimedia {1:SHORTANSWER:=Interface}) es un estándar que permite transferir tanto vídeo como {1:SHORTANSWER:=audio} con señales {1:SHORTANSWER:=digitales}. <br> Este es uno de los estándares más utilizados en todo tipo de equipos {1:SHORTANSWER:=multimedia} nuevos, no solo en equipos informáticos. <br> El conector es más {1:SHORTANSWER:=frágil} que otros conectores de vídeo y resulta más sencillo que se {1:SHORTANSWER:=desconecte} de manera inadvertida.]]>
@@ -125,10 +153,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 08.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/55be348445798452eec2.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Comparación entre conexiones de vídeo</strong> <br> <div class="table"><table> <thead> <tr><th>Estándar</th><th>Señal</th><th>Conector</th><th>Contenido</th></tr> </thead> <tbody> <tr><td>{1:SHORTANSWER:=VGA}</td><td>Analógica</td><td>Robusto</td><td>Vídeo</td></tr> <tr><td>{1:SHORTANSWER:=DVI}</td><td>Analógica y digital</td><td>Robusto</td><td>Vídeo</td></tr> <tr><td>{1:SHORTANSWER:=HDMI}</td><td>Digital</td><td>Débil</td><td>Audio y Vídeo</td></tr> </tbody> </table></div>]]>
@@ -142,10 +174,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Comunicaciones II. Pregunta 09.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/8a21351a0ef14e4a3035.jpg" alt="" role="presentation" width="320"></div>
          <br>
          <strong>Conexión de red Ethernet</strong> <br> El estándar de red local {1:SHORTANSWER:=Ethernet} se utiliza para conectar ordenadores en redes de área local, que suelen unir entre sí a ordenadores de un mismo {1:SHORTANSWER:=edificio} o incluso de diversos edificios que sean cercanos. <br> Los cables de cobre suelen soportar una distancia máxima de {1:SHORTANSWER:=100} metros, pero esta distancia se puede ampliar utilizando {1:SHORTANSWER:=switch} intermedios que hagan de repetidores o usando cables de fibra {1:SHORTANSWER:=óptica}. <br> El cable utilizado para las conexiones suele ser cable de cobre {1:SHORTANSWER:=UTP} (Unshielded Twisted Pair o par trenzado no apantallado). Este es un tipo de cable con {1:SHORTANSWER:=peores} prestaciones que los cables de fibra óptica, pero es más barato de instalar y sencillo de manejar, por lo que se utilizan mayoritariamente en conexiones cercanas, de {1:SHORTANSWER:=decenas} de metros. <br> Estándares de comunicaciones Ethernet más usados con cable de cobre. <div class="table"><table> <thead> <tr><th>Estándar</th><th>Año</th><th>Cables</th><th>Velocidad</th></tr> </thead> <tbody> <tr><td>10Base T</td><td>1990</td><td>UTP Categoría 3</td> <td>{1:SHORTANSWER:=10} Mbit/s</td></tr> <tr><td>100Base T2</td><td>1998</td><td>UTP Categoría 5</td> <td>{1:SHORTANSWER:=100} Mbit/s</td></tr> <tr><td>1000Base T</td><td>1999</td><td>UTP Categoría 5e</td> <td>{1:SHORTANSWER:=1000} Mbit/s</td></tr> <tr><td>10GBase T</td><td>2006</td><td>UTP Categoría 6A</td> <td>{1:SHORTANSWER:=10000} Mbit/s</td></tr> </tbody> </table></div>]]>
@@ -159,5 +195,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
 
 </quiz>

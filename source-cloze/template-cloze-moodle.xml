@@ -7,12 +7,14 @@
     <idnumber></idnumber>
   </question>
 
-{%- for question in questions %}
+{% for question in questions %}
   <question type="cloze">
     <name> <text>{{ question.Title }}</text> </name>
     <questiontext format="html">
     {%- if question.Image %}
       <text><![CDATA[
+         <!-- Copyright © {{ header.Copyright }} -->
+         <!-- Licencia {{ header.License }} {{ header.License_link }} -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/{{ question.Image.hashname }}" alt="" role="presentation" width="{{ question.Image.display_width }}"></div>
          <br>
          {{ question.Cloze_xml }}]]>
@@ -30,7 +32,6 @@
     <idnumber></idnumber>
   </question>
 
-
-{%- endfor %}
+{% endfor %}
 
 </quiz>

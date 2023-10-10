@@ -7,7 +7,7 @@
     <idnumber></idnumber>
   </question>
 
-{%- for question in questions %}
+{% for question in questions %}
   {%- set penalty = 0.50 %}
   {%- set fraction_error = -100 / ((question.Choices | length) - 1) %}
   <question type="multichoice">
@@ -15,8 +15,8 @@
     <questiontext format="html">
     {%- if question.Image %}
       <text><![CDATA[
+         <!-- Copyright © {{ header.Copyright }} -->
          <!-- Licencia {{ header.License }} {{ header.License_link }} -->
-         <!-- Copyright {{ header.Copyright }} -->
          <p>{{ question.Question }}</p> 
          <p><img src="@@PLUGINFILE@@/{{ question.Image.hashname }}" alt="" role="presentation" class="img-fluid atto_image_button_text-bottom" 
          width="{{ question.Image.display_width }}"></p>]]>
@@ -56,6 +56,5 @@
     {%- endfor %}
   </question>
 
-{%- endfor %}
-
+{% endfor %}
 </quiz>

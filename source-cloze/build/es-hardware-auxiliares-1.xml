@@ -6,6 +6,8 @@
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 01.</text> </name>
     <questiontext format="html">
@@ -18,10 +20,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/a7e0b5eccf4ae3fbe61d.jpg" alt="" role="presentation" width="340"></div>
          <br>
          <strong>Sistema de alimentación ininterrumpida</strong><br> Un sistema de alimentación ininterrumpida o {1:SHORTANSWER:=SAI} (en inglés UPS) es un dispositivo con una {1:SHORTANSWER:=batería} recargable en su interior, que puede proporcionar alimentación eléctrica a un ordenador u otros aparatos durante un {1:SHORTANSWER:=apagón} eléctrico. <br> El cambio de funcionamiento durante un apagón es tan rápido que el ordenador no llega a {1:SHORTANSWER:=apagarse} y puede seguir funcionando durante unos {1:SHORTANSWER:=minutos} hasta que se restablezca la alimentación eléctrica normal o hasta que se apague el ordenador de manera correcta.]]>
@@ -35,6 +41,8 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 03.</text> </name>
     <questiontext format="html">
@@ -47,10 +55,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/9a7578d5e201a5a6b71c.jpg" alt="" role="presentation" width="340"></div>
          <br>
          <strong>Refrigeración líquida</strong><br> La refrigeración líquida es una técnica de {1:SHORTANSWER:=enfriamiento} que utiliza agua u otro líquido como medio {1:SHORTANSWER:=refrigerante}. Es mucho más eficaz que la refrigeración por aire y produce menos {1:SHORTANSWER:=ruido}, aunque tiene el inconveniente de ser mucho más {1:SHORTANSWER:=costosa~%100%cara}.]]>
@@ -64,6 +76,8 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 05.</text> </name>
     <questiontext format="html">
@@ -76,10 +90,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 06.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/074c99680d5c293067ac.jpg" alt="" role="presentation" width="340"></div>
          <br>
          <strong>Pila botón</strong><br> La pila de la placa {1:SHORTANSWER:=base} es una pila de tipo botón que se encarga de alimentar el {1:SHORTANSWER:=reloj} en tiempo real y la memoria {1:SHORTANSWER:=RAM}-CMOS que almacena las opciones de la BIOS mientras el ordenador está apagado. Suele ser una pila de botón modelo {1:SHORTANSWER:=CR-2032~%100%CR2032}. <br> Cuando esta pila se {1:SHORTANSWER:=desgasta} tras varios años de uso, el reloj deja de mantener la hora {1:SHORTANSWER:=actual} y se restablece a su hora de inicio, además se pierden los ajustes de la {1:SHORTANSWER:=BIOS}. Todo esto provoca que el ordenador no funcione con {1:SHORTANSWER:=normalidad} o que no funcione en absoluto. <br> La solución a este problema es {1:SHORTANSWER:=sencilla} porque se puede encontrar una pila de repuesto en cualquier comercio y el reemplazo es relativamente {1:SHORTANSWER:=fácil} de realizar.]]>
@@ -93,6 +111,8 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 07.</text> </name>
     <questiontext format="html">
@@ -105,10 +125,14 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
   <question type="cloze">
     <name> <text>Hardware. Elementos auxiliares I. Pregunta 08.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
+         <!-- Copyright © 2023 por Carlos Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
          <div style="text-align: center;"><img src="@@PLUGINFILE@@/1be6e1fdc52573bdbfc8.jpg" alt="" role="presentation" width="340"></div>
          <br>
          <strong>Modding</strong><br> El {1:SHORTANSWER:=modding} deriva de la palabra inglesa modify (modificar) y es el arte o técnica de modificar la {1:SHORTANSWER:=estética} de un ordenador personal añadiendo {1:SHORTANSWER:=luces}, imágenes, paredes transparentes, etc.]]>
@@ -122,5 +146,7 @@
     <hidden>0</hidden>
     <idnumber></idnumber>
   </question>
+
+
 
 </quiz>
