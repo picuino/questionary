@@ -220,10 +220,8 @@ index_template = """<!DOCTYPE html>
    <title>Test de Tecnología - Picuino</title>
    <link rel="stylesheet" href="app.css">
    
-   <link rel="icon" type="image/png" href="favicon-16.png" sizes="16x16">
-   <link rel="icon" type="image/png" href="favicon-48.png" sizes="48x48">
-   <link rel="icon" type="image/png" href="favicon-96.png" sizes="96x96">
-   
+   <link rel="shortcut icon" href="/favicon.ico">
+
 </head>
 
 <body>
