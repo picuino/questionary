@@ -73,7 +73,9 @@ index_template = """<!DOCTYPE html>
    <title>Test de Tecnología - Picuino</title>
    <link rel="stylesheet" href="app.css">
    
-   <link rel="shortcut icon" href="/favicon.ico">
+   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+   <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
+   <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
 </head>
 
