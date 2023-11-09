@@ -31,13 +31,17 @@ moodle_template = 'moodle-multichoice-template.xml'
 json_template = 'json-template.json'
 html_template = 'game-template.html'
 
+random_seed = 2023
+
 
 projects = [
 {
    'yaml_files': [
+      'es-material-classification.yaml',
       'es-material-properties.yaml',
-      'es-material-wood.yaml',
       'es-material-stone.yaml',
+      'es-material-wood.yaml',
+      'es-material-textiles.yaml',
       'es-material-metals.yaml',
       'es-material-plastics.yaml',
       'es-material-tools-1.yaml',
@@ -47,7 +51,7 @@ projects = [
    'yaml_category': 'Materiales y Herramientas',
    'yaml_title': 'Test global',   
    'max_questions': 35,
-   'random_seed': 2022,
+   'random_seed': random_seed,
 },
 
 {
@@ -63,7 +67,7 @@ projects = [
    'yaml_category': 'Máquinas y Mecanismos',
    'yaml_title': 'Test global',   
    'max_questions': 35,
-   'random_seed': 2022,
+   'random_seed': random_seed,
 },
 
 {
@@ -78,7 +82,7 @@ projects = [
    'yaml_category': 'Historia de la Tecnología',
    'yaml_title': 'Test global',   
    'max_questions': 35,
-   'random_seed': 2022,
+   'random_seed': random_seed,
 },
 
 {
@@ -92,7 +96,7 @@ projects = [
    'yaml_category': 'Los objetos técnicos',
    'yaml_title': 'Test global',   
    'max_questions': 35,
-   'random_seed': 2022,
+   'random_seed': random_seed,
 },
 
 ]

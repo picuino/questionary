@@ -24,11 +24,13 @@ index_data = [
    {
       "header" : ["materiales", "Materiales"],
       "links": [
+          ["es-material-classification.html", "Clasificación de los materiales"],
           ["es-material-properties.html", "Propiedades de los materiales"],
+          ["es-material-stone.html", "Los pétreos"],
           ["es-material-wood.html", "La madera"],
+          ["es-material-textiles.html", "Los textiles"],
           ["es-material-metals.html", "Los metales"],
           ["es-material-plastics.html", "Los plásticos"],
-          ["es-material-stone.html", "Los materiales pétreos"],
           ["es-material-tools-1.html", "Las herramientas I"],
           ["es-material-tools-2.html", "Las herramientas II"],
           ["es-material.html", "Materiales y Herramientas. Test global"],
