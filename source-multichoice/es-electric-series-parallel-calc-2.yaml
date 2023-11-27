@@ -23,16 +23,6 @@ Show_max: 0
   Image: ../images/electric-resistencias-serie-paralelo-22.png
   Image_width: 480
   Choices:
-    - 3Ω
-    - 2Ω
-    - 0.66Ω
-    - 6Ω
-
-- Title: 
-  Question: "Calcula la resistencia equivalente del siguiente circuito"
-  Image: ../images/electric-resistencias-serie-paralelo-23.png
-  Image_width: 480
-  Choices:
     - 15Ω
     - 10Ω
     - 5Ω
@@ -40,23 +30,33 @@ Show_max: 0
 
 - Title: 
   Question: "Calcula la resistencia equivalente del siguiente circuito"
+  Image: ../images/electric-resistencias-serie-paralelo-23.png
+  Image_width: 480
+  Choices:
+    - 8KΩ
+    - 8Ω
+    - 4KΩ
+    - 3KΩ
+
+- Title: 
+  Question: "Calcula la resistencia equivalente del siguiente circuito"
   Image: ../images/electric-resistencias-serie-paralelo-24.png
   Image_width: 480
   Choices:
+    - 1200Ω
+    - 201Ω
+    - 800Ω
     - 200Ω
-    - 100Ω
-    - 50Ω
-    - 300Ω
 
 - Title: 
   Question: "Calcula la resistencia equivalente del siguiente circuito"
   Image: ../images/electric-resistencias-serie-paralelo-25.png
   Image_width: 480
   Choices:
-    - 300Ω
-    - 200Ω
-    - 66Ω
-    - 100Ω
+    - 3KΩ
+    - 1002Ω
+    - 2000Ω
+    - 2KΩ
 
 - Title: 
   Question: "Calcula la resistencia equivalente del siguiente circuito"
@@ -103,17 +103,17 @@ Show_max: 0
   Image: ../images/electric-resistencias-serie-paralelo-30.png
   Image_width: 480
   Choices:
-    - 50Ω
-    - 200Ω
-    - 20Ω
-    - 16Ω
+    - 9KΩ
+    - 3KΩ
+    - 48KΩ
+    - 9Ω
 
 - Title: 
   Question: "Calcula la resistencia equivalente del siguiente circuito"
   Image: ../images/electric-resistencias-serie-paralelo-31.png
   Image_width: 480
   Choices:
-    - 60Ω
+    - 240Ω
     - 250Ω
     - 50Ω
     - 15Ω
@@ -124,9 +124,9 @@ Show_max: 0
   Image_width: 480
   Choices:
     - 200Ω
-    - 0.99Ω
-    - 1250Ω
-    - 1Ω
+    - 1.19KΩ
+    - 1500Ω
+    - 1.5KΩ
 
 - Title: 
   Question: "Calcula la resistencia equivalente del siguiente circuito"

@@ -145,6 +145,8 @@ index_data = [
 
           ["es-hardware-auxiliares-1.html", "Elementos auxiliares I"],
           ["es-hardware-auxiliares-2.html", "Elementos auxiliares II"],
+
+          ["es-hardware.html", "Test global de Hardware"],
        ]
    },
    {
