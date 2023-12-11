@@ -1,0 +1,200 @@
+﻿
+Category: Electricidad
+Title: Circuitos eléctricos
+Copyright: 2021 por Tucho Méndez, con modificaciones de Carlos Pardo Martín
+Copyright_link: https://github.com/procastino/bancosTecno
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Show_max: 0
+
+---
+
+- Title: 
+  Question: ¿Cómo están conectadas las resistencias de la figura?
+  Image: ../images/electric-circuit-42.png
+  Image_width: 550
+  Choices:
+    - Serie
+    - Línea
+    - Paralelo
+    - Mixto
+
+- Title: 
+  Question: ¿Cómo están conectadas las resistencias de la figura?
+  Image: ../images/electric-circuit-43.png
+  Image_width: 550
+  Choices:
+    - Paralelo
+    - Lateral
+    - Serie
+    - Mixto
+
+- Title: 
+  Question: ¿Cómo están conectadas las resistencias de la figura?
+  Image: ../images/electric-circuit-31.png
+  Image_width: 550
+  Choices:
+    - Mixto
+    - Paralelo
+    - Serie
+    - Compuesto
+
+- Title: 
+  Question: ¿Qué diferencias de funcionamiento habrá entre el circuito 1 y 2?
+  Image: ../images/electric-circuit-01.png
+  Image_width: 550
+  Choices:
+    - Ninguna
+    - En el circuito 2, el led enciende aunque no cerremos el interruptor
+    - Los dos ledes encienden al presionar el interruptor, pero el 2 un instante antes
+    - Los dos ledes encienden al presionar el interruptor, pero el 1 un instante antes
+
+- Title: 
+  Question: ¿Cuál es falsa, para el circuito de la figura?
+  Image: ../images/electric-circuit-09.png
+  Image_width: 550
+  Choices:
+    - La bombilla L1 se encenderá un instante antes que la L2
+    - La intensidad que circula por las dos bombillas es la misma
+    - Las dos bombillas se encenderán al presionar el interruptor
+    - Si la bombilla L1 se quema, la bombilla L2 no podrá encender
+
+- Title: 
+  Question: ¿Cuál es falsa, para el circuito de la figura?
+  Image: ../images/electric-circuit-27.png
+  Image_width: 550
+  Choices:
+    - Si cerramos uno u otro interruptor, pasará corriente por la resistencia
+    - Si cerramos uno y otro interruptor, pasará corriente por la resistencia
+    - Si cerramos los dos interruptores, pasará corriente por la resistencia
+    - Solo pasará corriente por la resistencia si cerramos todos los interruptores
+
+- Title: 
+  Question: ¿Para qué podrías emplear el circuito de la figura?
+  Image: ../images/electric-circuit-07.png
+  Image_width: 550
+  Choices:
+    - Una motosierra que actúa solo cuando presiono dos interruptores
+    - Un ventilador que se enciende desde dos puntos distintos
+    - Una alarma que se enciende desde cualquiera de los dos interruptores
+    - Un taladro que puede ser accionado con un interruptor o con otro
+
+- Title: 
+  Question: ¿Cuál es falsa, para el circuito de la figura?
+  Image: ../images/electric-circuit-06.png
+  Image_width: 550
+  Choices:
+    - La corriente pasará solo cuando cerremos los dos interruptores
+    - Si cerramos uno u otro interruptor, pasará corriente por la resistencia
+    - Para que pase la corriente, podemos cerrar cualquiera de los dos interruptores
+    - La corriente pasa siempre que haya por lo menos un interruptor cerrado
+
+- Title: 
+  Question: ¿Cuál es falsa, para el circuito de la figura?
+  Image: ../images/electric-circuit-50.png
+  Image_width: 550
+  Choices:
+    - La bombilla L1 se encenderá
+    - La bombilla L1 está cortocircuitada
+    - La intensidad no pasará por la bombilla L1 porque tiene un camino alternativo sin resistencia
+    - La bombilla L2 se encenderá
+
+- Title: 
+  Question: ¿Cuál es verdadera para el circuito de la figura?
+  Image: ../images/electric-circuit-08.png
+  Image_width: 550
+  Choices:
+    - Solo pasará corriente por la resistencia con S1 y S2 cerrados
+    - Si cierro el interruptor S1 pasará corriente por la resistencia
+    - Se cierro el interruptor S2 pasará corriente por la resistencia
+    - Si cierro cualquiera de los dos interruptores, pasará corriente
+
+- Title: 
+  Question: ¿Cuándo pasará corriente por la resistencia?
+  Image: ../images/electric-circuit-05.png
+  Image_width: 550
+  Choices:
+    - Solo si el interruptor S2 está cerrado y S1 abierto
+    - Si cerramos los interruptores S1 y S2
+    - Cerrando el interruptor S2, independientemente de cómo esté S1
+    - Cerrando el interruptor S2 o el S1
+
+- Title: 
+  Question: ¿Cuál es falsa para el circuito de la figura?
+  Image: ../images/electric-circuit-04.png
+  Image_width: 550
+  Choices:
+    - Puedo encender L1 sin encender L2 y L3
+    - Con el interruptor S1 abierto, no se encenderá nada
+    - El interruptor S1 enciende L2 y L3
+    - Con los dos interruptores presionados, encienden todas las bombillas
+
+- Title: 
+  Question: Para el circuito de la figura ¿Qué será cierto?
+  Image: ../images/electric-circuit-21.png
+  Image_width: 550
+  Choices:
+    - El led se encenderá si únicamente está cerrado S1
+    - El led no se encenderá cuando S2 esté abierto
+    - El led se encenderá cuando presione los dos interruptores
+    - El led se encenderá al presionar S1, esté como esté S2
+
+- Title: 
+  Question: ¿Qué ledes se encenderán?
+  Image: ../images/electric-circuit-41.png
+  Image_width: 550
+  Choices:
+    - El D2, D3, D4 y D6
+    - El D1 y el D5
+    - Ninguno
+    - El D3 y el D4
+
+- Title: 
+  Question: ¿Qué ledes se encenderán?
+  Image: ../images/electric-circuit-02.png
+  Image_width: 550
+  Choices:
+    - El D1 y el D3
+    - El D1, D3, D4 y D6
+    - Ninguno
+    - Todos
+
+- Title: 
+  Question: ¿Qué bombillas se encenderán?
+  Image: ../images/electric-circuit-49.png
+  Image_width: 550
+  Choices:
+    - Ninguna
+    - La L3
+    - La L2 y la L3
+    - Todas
+
+- Title: 
+  Question: ¿Qué ledes se encenderán?
+  Image: ../images/electric-circuit-32.png
+  Image_width: 550
+  Choices:
+    - El D4
+    - Todos
+    - El D1, D3 y D4
+    - Ninguno
+
+- Title: 
+  Question: ¿Cuándo se encenderá la bombilla L2?
+  Image: ../images/electric-circuit-11.png
+  Image_width: 550
+  Choices:
+    - Siempre que esté cerrado el interruptor S1
+    - Con S1 cerrado, S2 abierto y S3 abierto
+    - Con S1 cerrado, S2 abierto y S3 cerrado
+    - Con S1 cerrado, S2 cerrado y S3 abierto
+
+- Title: 
+  Question: ¿Puedo encender solo la bombilla L1?
+  Image: ../images/electric-circuit-12.png
+  Image_width: 550
+  Choices:
+    - "No"
+    - Sí, presionando S1 y S2
+    - Sí, presionando S1, S2 y S3
+    - Sí, presionando S1 y S3

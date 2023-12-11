@@ -1,280 +1,326 @@
 ﻿
 Category: Electricidad
-Title: Circuitos eléctricos
-Copyright: 2021 por Tucho Méndez, con modificaciones de Carlos Pardo Martín
-Copyright_link: https://github.com/procastino/bancosTecno
+Title: El circuito eléctrico
+Date: 05/12/2023
+Copyright: 2023 por Carlos Pardo Martín
 License: Creative Commons Attribution-ShareAlike 4.0
 License_link: https://creativecommons.org/licenses/by-sa/4.0/
+Source_link: https://www.picuino.com/es/electric-circuito.html
 Show_max: 0
 
 ---
 
-- Title: 
+- Title:
   Question: ¿Cuál de ellas es falsa en un circuito eléctrico?
   Choices:
-    - Siempre habrá una corriente eléctrica
-    - Siempre tiene que haber un generador
-    - Siempre tiene que haber un receptor
-    - Siempre habrá cables
+    - Siempre habrá una corriente eléctrica.
+    - Siempre tiene que haber un generador.
+    - Siempre tiene que haber un receptor.
+    - Siempre habrá cables.
 
-- Title: 
-  Question: ¿Cuáles son los tipos de elementos que puedo encontrar en un circuito eléctrico?
+
+- Title:
+  Question: ¿Cuáles son los tipos de elementos que puedo encontrar en un
+            circuito eléctrico?
   Choices:
-    - Generadores, conductores, receptores y elementos de control
-    - Generadores, conductores, aparatos eléctricos y elementos de control
-    - Generadores, cables, interruptores y conmutadores
-    - Pilas, cables, resistencias y interruptores
+    - Generadores, conductores, receptores y elementos de control.
+    - Generadores, conductores, aparatos eléctricos y elementos de control.
+    - Generadores, cables, interruptores y conmutadores.
+    - Pilas, cables, resistencias e interruptores.
 
-- Title: 
-  Question: ¿Cómo se llaman los elementos de un circuito que impulsan los electrones?
+
+- Title:
+  Question: ¿Cómo se llaman los elementos de un circuito que impulsan los
+            electrones?
   Choices:
-    - Generadores
-    - Receptores
-    - Conductores
-    - Elementos de control
+    - Generadores.
+    - Receptores.
+    - Conductores.
+    - Elementos de control.
 
-- Title: 
-  Question: ¿Cómo se llaman los elementos de un circuito que transforman la electricidad en otro tipo de energía útil?
+
+- Title:
+  Question: ¿Cómo se llaman los elementos de un circuito que transforman
+            la electricidad en otro tipo de energía útil?
   Choices:
-    - Receptores
-    - Generadores
-    - Transformadores
-    - Elementos de control
+    - Receptores.
+    - Generadores.
+    - Transformadores.
+    - Elementos de control.
 
-- Title: 
-  Question: ¿Cómo se llaman los elementos de un circuito por los que circula la corriente entre un componente y otro?
+
+- Title:
+  Question: ¿Cómo se llaman los elementos de un circuito por los que
+            circula la corriente entre un componente y otro?
   Choices:
-    - Conductores
-    - Generadores
-    - Elementos de control
-    - Receptores
+    - Conductores.
+    - Generadores.
+    - Elementos de control.
+    - Receptores.
 
-- Title: 
-  Question: ¿Cómo se llaman los elementos de un circuito que nos permiten hacer que la corriente circule por donde nosotros queremos?
+
+- Title:
+  Question: ¿Cómo se llaman los elementos de un circuito que nos permiten
+            hacer que la corriente circule por donde nosotros queremos?
   Choices:
-    - Elementos de control
-    - Generadores
-    - Conductores
-    - Receptores
+    - Elementos de control.
+    - Generadores.
+    - Conductores.
+    - Receptores.
 
-- Title: 
+
+- Title:
   Question: ¿Cuál no es un generador?
   Choices:
-    - Motor
-    - Pila
-    - Batería
-    - Toma de red
+    - Resistencia.
+    - Pila.
+    - Batería.
+    - Panel solar fotovoltaico.
 
-- Title: 
+
+- Title:
   Question: ¿Cuál consideramos un conductor?
   Choices:
-    - Cable
-    - Interruptor
-    - Pulsador
-    - Pila
+    - Cable.
+    - Interruptor.
+    - Pulsador.
+    - Pila.
 
-- Title: 
+
+- Title:
   Question: ¿Cuál no es un receptor?
   Choices:
-    - Pila
-    - Motor
-    - Lámpara
-    - Resistencia
+    - Pila.
+    - Motor.
+    - Lámpara.
+    - Resistencia.
 
-- Title: 
+
+- Title:
   Question: ¿Cuál no es un elemento de control?
   Choices:
-    - Cable
-    - Interruptor
-    - Pulsador
-    - Conmutador
+    - Cable.
+    - Interruptor.
+    - Pulsador.
+    - Conmutador.
 
-- Title: 
-  Question: ¿Cómo están conectadas las resistencias de la figura?
-  Image: ../images/electric-circuit-42.png
-  Image_width: 550
-  Choices:
-    - Serie
-    - Línea
-    - Paralelo
-    - Mixto
 
-- Title: 
-  Question: ¿Cómo están conectadas las resistencias de la figura?
-  Image: ../images/electric-circuit-43.png
-  Image_width: 550
+- Title:
+  Question: Un circuito eléctrico es un conjunto de componentes que ...
   Choices:
-    - Paralelo
-    - Lateral
-    - Serie
-    - Mixto
+    - generan y controlan el paso de la electricidad para producir efectos útiles.
+    - propagan y controlan el paso de la electricidad para producir efectos útiles.
+    - difunden y controlan el paso de la electricidad para producir efectos útiles.
+    - controlan el paso de la electricidad para producir efectos útiles.
 
-- Title: 
-  Question: ¿Cómo están conectadas las resistencias de la figura?
-  Image: ../images/electric-circuit-31.png
-  Image_width: 550
-  Choices:
-    - Mixto
-    - Paralelo
-    - Serie
-    - Compuesto
 
-- Title: 
-  Question: ¿Qué diferencias de funcionamiento habrá entre el circuito 1 y 2?
-  Image: ../images/electric-circuit-01.png
-  Image_width: 550
+- Title:
+  Question: Los circuitos están formados por cuatro tipos de componentes ...
   Choices:
-    - Ninguna
-    - En el circuito 2, el led enciende aunque no cerremos el interruptor
-    - Los dos ledes encienden al presionar el interruptor, pero el 2 un instante antes
-    - Los dos ledes encienden al presionar el interruptor, pero el 1 un instante antes
+    - Receptores, conductores, generadores y elementos de control.
+    - Regeneradores, conductores, receptores y elementos de control.
+    - Conductores, receptores y elementos de control.
+    - Generadores, receptores, conductores y elementos de descontrol.
 
-- Title: 
-  Question: ¿Cuál es falsa, para el circuito de la figura?
-  Image: ../images/electric-circuit-09.png
-  Image_width: 550
-  Choices:
-    - La bombilla L1 se encenderá un instante antes que la L2
-    - La intensidad que circula por las dos bombillas es la misma
-    - Las dos bombillas se encenderán al presionar el interruptor
-    - Si la bombilla L1 se quema, la bombilla L2 no podrá encender
 
-- Title: 
-  Question: ¿Cuál es falsa, para el circuito de la figura?
-  Image: ../images/electric-circuit-27.png
-  Image_width: 550
+- Title:
+  Question: ¿Qué son los generadores?
   Choices:
-    - Si cerramos uno u otro interruptor, pasará corriente por la resistencia
-    - Si cerramos uno y otro interruptor, pasará corriente por la resistencia
-    - Si cerramos los dos interruptores, pasará corriente por la resistencia
-    - Solo pasará corriente por la resistencia si cerramos todos los interruptores
+    - Componentes encargados de generar corriente eléctrica.
+    - Componentes encargados de transportar corriente eléctrica.
+    - Componentes encargados de transformar la corriente eléctrica en un efecto útil.
+    - Componentes encargados de controlar el paso de la corriente eléctrica.
 
-- Title: 
-  Question: ¿Para qué podrías emplear el circuito de la figura?
-  Image: ../images/electric-circuit-07.png
-  Image_width: 550
-  Choices:
-    - Una motosierra que actúa solo cuando presiono dos interruptores
-    - Un ventilador que se enciende desde dos puntos distintos
-    - Una alarma que se enciende desde cualquiera de los dos interruptores
-    - Un taladro que puede ser accionado con un interruptor o con otro
 
-- Title: 
-  Question: ¿Cuál es falsa, para el circuito de la figura?
-  Image: ../images/electric-circuit-06.png
-  Image_width: 550
+- Title:
+  Question: ¿Qué son los conductores?
   Choices:
-    - La corriente pasará solo cuando cerremos los dos interruptores
-    - Si cerramos uno u otro interruptor, pasará corriente por la resistencia
-    - Para que pase la corriente, podemos cerrar cualquiera de los dos interruptores
-    - La corriente pasa siempre que haya por lo menos un interruptor cerrado
+    - Componentes encargados de transportar corriente eléctrica.
+    - Componentes encargados de generar corriente eléctrica.
+    - Componentes encargados de transformar la corriente eléctrica en un efecto útil.
+    - Componentes encargados de controlar el paso de la corriente eléctrica.
 
-- Title: 
-  Question: ¿Cuál es falsa, para el circuito de la figura?
-  Image: ../images/electric-circuit-50.png
-  Image_width: 550
-  Choices:
-    - La bombilla L1 se encenderá
-    - La bombilla L1 está cortocircuitada
-    - La intensidad no pasará por la bombilla L1 porque tiene un camino alternativo sin resistencia
-    - La bombilla L2 se encenderá
 
-- Title: 
-  Question: ¿Cuál es verdadera para el circuito de la figura?
-  Image: ../images/electric-circuit-08.png
-  Image_width: 550
+- Title:
+  Question: ¿Qué son los receptores?
   Choices:
-    - Solo pasará corriente por la resistencia con S1 y S2 cerrados
-    - Si cierro el interruptor S1 pasará corriente por la resistencia
-    - Se cierro el interruptor S2 pasará corriente por la resistencia
-    - Si cierro cualquiera de los dos interruptores, pasará corriente
+    - Componentes encargados de transformar la corriente eléctrica en un efecto útil.
+    - Componentes encargados de generar corriente eléctrica.
+    - Componentes encargados de transportar corriente eléctrica.
+    - Componentes encargados de controlar el paso de la corriente eléctrica.
 
-- Title: 
-  Question: ¿Cuándo pasará corriente por la resistencia?
-  Image: ../images/electric-circuit-05.png
-  Image_width: 550
-  Choices:
-    - Solo si el interruptor S2 está cerrado y S1 abierto
-    - Si cerramos los interruptores S1 y S2
-    - Cerrando el interruptor S2, independientemente de cómo esté S1
-    - Cerrando el interruptor S2 o el S1
 
-- Title: 
-  Question: ¿Cuál es falsa para el circuito de la figura?
-  Image: ../images/electric-circuit-04.png
-  Image_width: 550
+- Title:
+  Question: ¿Qué son los elementos de control?
   Choices:
-    - Puedo encender L1 sin encender L2 y L3
-    - Con el interruptor S1 abierto, no se encenderá nada
-    - El interruptor S1 enciende L2 y L3
-    - Con los dos interruptores presionados, encienden todas las bombillas
+    - Componentes encargados de permitir o no permitir el paso de la corriente eléctrica.
+    - Componentes encargados de generar corriente eléctrica.
+    - Componentes encargados de transportar corriente eléctrica.
+    - Componentes encargados de transformar la corriente eléctrica en un efecto útil.
 
-- Title: 
-  Question: Para el circuito de la figura ¿Qué será cierto?
-  Image: ../images/electric-circuit-21.png
-  Image_width: 550
-  Choices:
-    - El led se encenderá si únicamente está cerrado S1
-    - El led no se encenderá cuando S2 esté abierto
-    - El led se encenderá cuando presione los dos interruptores
-    - El led se encenderá al presionar S1, esté como esté S2
 
-- Title: 
-  Question: ¿Qué ledes se encenderán?
-  Image: ../images/electric-circuit-41.png
-  Image_width: 550
+- Title:
+  Question: Un ejemplo de generadores son ...
   Choices:
-    - El D2, D3, D4 y D6
-    - El D1 y el D5
-    - Ninguno
-    - El D3 y el D4
+    - Las pilas y baterías, las dinamos de las bicicletas, los
+      alternadores de los automóviles o las placas solares.
+    - Los interruptores, pulsadores, fusibles, interruptores automáticos,
+      diferenciales.
+    - Las bombillas, ventiladores, horno microondas, frigorífico, televisor.
+    - Los cables, barras y uniones de cobre, de aluminio, de oro o de estaño.
 
-- Title: 
-  Question: ¿Qué ledes se encenderán?
-  Image: ../images/electric-circuit-02.png
-  Image_width: 550
-  Choices:
-    - El D1 y el D3
-    - El D1, D3, D4 y D6
-    - Ninguno
-    - Todos
 
-- Title: 
-  Question: ¿Qué bombillas se encenderán?
-  Image: ../images/electric-circuit-49.png
-  Image_width: 550
+- Title:
+  Question: Un ejemplo de conductores son ...
   Choices:
-    - Ninguna
-    - La L3
-    - La L2 y la L3
-    - Todas
+    - Los cables, barras y uniones de cobre, de aluminio, de oro o de estaño.
+    - Los interruptores, pulsadores, fusibles, interruptores automáticos,
+      diferenciales.
+    - Las pilas y baterías, las dinamos de las bicicletas, los
+      alternadores de los automóviles o las placas solares.
+    - Las bombillas, ventiladores, horno microondas, frigorífico, televisor.
 
-- Title: 
-  Question: ¿Qué ledes se encenderán?
-  Image: ../images/electric-circuit-32.png
-  Image_width: 550
-  Choices:
-    - El D4
-    - Todos
-    - El D1, D3 y D4
-    - Ninguno
 
-- Title: 
-  Question: ¿Cuándo se encenderá la bombilla L2?
-  Image: ../images/electric-circuit-11.png
-  Image_width: 550
+- Title:
+  Question: Un ejemplo de receptores son ...
   Choices:
-    - Siempre que esté cerrado el interruptor S1
-    - Con S1 cerrado, S2 abierto y S3 abierto
-    - Con S1 cerrado, S2 abierto y S3 cerrado
-    - Con S1 cerrado, S2 cerrado y S3 abierto
+    - Las bombillas, ventiladores, horno microondas, frigorífico, televisor.
+    - Los interruptores, pulsadores, fusibles, interruptores automáticos,
+      diferenciales.
+    - Las pilas y baterías, las dinamos de las bicicletas, los
+      alternadores de los automóviles o las placas solares.
+    - Los cables, barras y uniones de cobre, de aluminio, de oro o de estaño.
 
-- Title: 
-  Question: ¿Puedo encender solo la bombilla L1?
-  Image: ../images/electric-circuit-12.png
-  Image_width: 550
+
+- Title:
+  Question: Un ejemplo de elementos de control son ...
   Choices:
-    - "No"
-    - Sí, presionando S1 y S2
-    - Sí, presionando S1, S2 y S3
-    - Sí, presionando S1 y S3
+    - Los interruptores, pulsadores, fusibles, interruptores automáticos,
+      diferenciales.
+    - Las pilas y baterías, las dinamos de las bicicletas, los
+      alternadores de los automóviles o las placas solares.
+    - Las bombillas, ventiladores, horno microondas, frigorífico, televisor.
+    - Los cables, barras y uniones de cobre, de aluminio, de oro o de estaño.
+
+
+- Title:
+  Question: El cobre se utiliza como conductor en ...
+  Choices:
+    - El interior de los edificios y en los cables flexibles de los
+      aparatos eléctricos.
+    - La soldadura de componentes electrónicos, por tener una temperatura
+      de fusión mucho más baja que otros metales.
+    - El recubrimiento de los contactos eléctricos para evitar la
+      oxidación y mejorar la conducción.
+    - Los cables de alta tensión por tener mejor resistencia mecánica,
+      a la oxidación y ser baratos.
+
+- Title:
+  Question: El aluminio y el acero se utilizan como conductores en ...
+  Choices:
+    - Los cables de alta tensión por tener mejor resistencia mecánica,
+      a la oxidación y ser baratos.
+    - La soldadura de componentes electrónicos, por tener una temperatura
+      de fusión mucho más baja que otros metales.
+    - El recubrimiento de los contactos eléctricos para evitar la
+      oxidación y mejorar la conducción.
+    - El interior de los edificios y en los cables flexibles de los
+      aparatos eléctricos.
+
+
+- Title:
+  Question: El oro y el níquel se utilizan como conductores en ...
+  Choices:
+    - El recubrimiento de los contactos eléctricos para evitar la
+      oxidación y mejorar la conducción.
+    - La soldadura de componentes electrónicos, por tener una temperatura
+      de fusión mucho más baja que otros metales.
+    - Los cables de alta tensión por tener mejor resistencia mecánica,
+      a la oxidación y ser baratos.
+    - El interior de los edificios y en los cables flexibles de los
+      aparatos eléctricos.
+
+
+- Title:
+  Question: El estaño, plomo y plata se utilizan como conductores en ...
+  Choices:
+    - La soldadura de componentes electrónicos, por tener una temperatura
+      de fusión mucho más baja que otros metales.
+    - El recubrimiento de los contactos eléctricos para evitar la
+      oxidación y mejorar la conducción.
+    - Los cables de alta tensión por tener mejor resistencia mecánica,
+      a la oxidación y ser baratos.
+    - El interior de los edificios y en los cables flexibles de los
+      aparatos eléctricos.
+
+
+- Title:
+  Question: Un interruptor o un pulsador es un elemento de control de ...
+  Choices:
+    - Accionamiento manual.
+    - Protección eléctrica.
+    - Accionamiento automático.
+    - Protección manual.
+
+
+- Title:
+  Question: Un fusible es un elemento de control de ...
+  Choices:
+    - Protección eléctrica.
+    - Accionamiento manual.
+    - Accionamiento automático.
+    - Protección manual.
+
+
+- Title:
+  Question: Un diferencial es un elemento de control de ...
+  Choices:
+    - Protección eléctrica.
+    - Accionamiento manual.
+    - Accionamiento automático.
+    - Protección manual.
+
+
+- Title:
+  Question: Un interruptor automático es un elemento de control de ...
+  Choices:
+    - Protección eléctrica.
+    - Accionamiento manual.
+    - Protección manual.
+    - Accionamiento a distancia.
+
+
+- Title:
+  Question: Una puerta de apertura automática tiene un elemento de control de ...
+  Choices:
+    - Accionamiento automático.
+    - Accionamiento manual.
+    - Protección eléctrica.
+    - Protección manual.
+
+
+- Title:
+  Question: Una luz que se apaga de forma automática tiene un elemento de control de ...
+  Choices:
+    - Accionamiento automático.
+    - Accionamiento manual.
+    - Protección eléctrica.
+    - Protección manual.
+
+
+- Title:
+  Question: Podemos encontrar pulsadores en ...
+  Choices:
+    - Un timbre de puerta.
+    - La luz de una habitación.
+    - Un calentador eléctrico.
+    - Una regleta de conexiones eléctricas.
+
+
+- Title:
+  Question: Podemos encontrar interruptores en ...
+  Choices:
+    - La luz de una habitación.
+    - Un timbre de puerta.
+    - Un taladro eléctrico.
+    - Una batidora de cocina.

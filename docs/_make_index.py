@@ -61,13 +61,13 @@ index_data = [
       "header" : ["electricidad", "Electricidad"],
       "links": [
           ["es-electric-introduction.html", "Fundamentos"],
+          ["es-electric-circuits.html", "El circuito eléctrico"],
+
           ["es-electric-components-type.html", "Tipos de componentes"],
           ["es-electric-components-name.html", "Nombre de componentes (test)"],
           ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
 
-          ["es-electric-circuits.html", "Circuitos eléctricos"],
           ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
-
           ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
           ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
 
