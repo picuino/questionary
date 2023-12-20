@@ -12,8 +12,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 01.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Consumo energético</strong><br> El consumo de un procesador es cada vez más importante.<br> Por una parte, cuanto menor consumo tenga un procesador, más tiempo va a durar la {1:SHORTANSWER:=batería} del dispositivo que lo contiene.<br> Por otro lado, en los ordenadores conectados a la red {1:SHORTANSWER:=eléctrica}, cuanto menor sea el consumo de electricidad menor será el costo de mantener el ordenador {1:SHORTANSWER:=funcionando}. Este consumo eléctrico es tan elevado para los ordenadores de alto {1:SHORTANSWER:=rendimiento}, que la electricidad llega a costar anualmente más que el precio del propio procesador. Esa es la razón por la que se cambian los procesadores de los servidores antes de que acabe su vida útil. Es más barato instalar un procesador nuevo más {1:SHORTANSWER:=eficiente}, que mantener el antiguo funcionando.<br> El consumo de potencia, también llamado {1:SHORTANSWER:=TDP}, se mide en {1:SHORTANSWER:=vatios}. Una CPU típica de un ordenador personal consume alrededor de {1:SHORTANSWER:=100} vatios en funcionamiento normal. Por el contrario una CPU típica de un teléfono inteligente consume alrededor de {1:SHORTANSWER:=5} vatios.]]>
       </text>
     </questiontext>
@@ -30,8 +30,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 02.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Frecuencia de reloj</strong><br> Es la frecuencia a la que funciona un {1:SHORTANSWER:=procesador} y determina la cantidad de instrucciones que podrá ejecutar en un {1:SHORTANSWER:=segundo}. Las frecuencias típicas de los procesadores actuales para ordenadores personales y teléfonos inteligentes varían desde los {1:SHORTANSWER:=1000} MHz hasta los {1:SHORTANSWER:=4000}MHz. Cuanto mayor sea la velocidad de reloj, más rápido será un procesador, si el resto de {1:SHORTANSWER:=parámetros} se mantienen iguales.<br> <br> El {1:SHORTANSWER:=overclocking} es una técnica que consiste en hacer funcionar a un procesador a una frecuencia más elevada que la frecuencia para la que está {1:SHORTANSWER:=diseñado}. Se usa para acelerar el funcionamiento del ordenador y que procese información más {1:SHORTANSWER:=rápido}. Muchos procesadores admiten trabajar a mayor frecuencia que la nominal, pero esta técnica conlleva un mayor consumo energético y la posibilidad de {1:SHORTANSWER:=fallos} en el sistema.]]>
       </text>
     </questiontext>
@@ -48,8 +48,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 03.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Número de núcleos</strong><br> Los procesadores actuales están compuestos por varios procesadores individuales llamados {1:SHORTANSWER:=núcleos}. Cuantos más núcleos tenga un procesador, más operaciones podrá realizar en {1:SHORTANSWER:=paralelo}.<br> Los procesadores pueden dividir el cálculo de algunas tareas entre varios núcleos. Por lo tanto, cuantos más núcleos tenga el procesador, más {1:SHORTANSWER:=rápida} será la ejecución de estas tareas. Por otro lado, la realización de ciertas tareas no se puede compartir entre varios núcleos y la {1:SHORTANSWER:=velocidad} final no será mayor por muchos núcleos que tenga el procesador.<br> En 2022 un procesador de tamaño medio para ordenador personal suele tener de 6 a {1:SHORTANSWER:=12} núcleos.]]>
       </text>
     </questiontext>
@@ -66,8 +66,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 04.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Número de hilos de ejecución</strong><br> Los {1:SHORTANSWER:=hilos} de ejecución son la cantidad de programas diferentes que se pueden ejecutar a la vez por parte del procesador. En realidad un procesador solo podrá ejecutar un programa por núcleo, pero los hilos permiten duplicar de forma virtual el número de tareas y acelerar un poco más la velocidad de ejecución.<br> En 2022 un procesador típico de Intel suele tener dos hilos de ejecución por núcleo. Es decir, una CPU de 8 núcleos tendrá {1:SHORTANSWER:=16} hilos de ejecución.]]>
       </text>
     </questiontext>
@@ -84,8 +84,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 05.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Memoria caché</strong><br> Es una memoria {1:SHORTANSWER:=intermedia} que permite acceder a los datos y programas de manera más {1:SHORTANSWER:=rápida} cuando el procesador tiene que acceder repetidamente a los mismos {1:SHORTANSWER:=datos} de la memoria RAM.<br> Los procesadores deben leer información de la memoria RAM para realizar su tarea, tanto información del {1:SHORTANSWER:=programa} a ejecutar como de los {1:SHORTANSWER:=datos} a procesar. La velocidad de transferencia de la memoria RAM suele ser más {1:SHORTANSWER:=lenta} que la velocidad de proceso del procesador. La memoria caché se utiliza como una memoria intermedia que almacena los contenidos de la memoria {1:SHORTANSWER:=RAM} que se leen de forma repetida. De esta forma se puede disponer de los datos más {1:SHORTANSWER:=rápido} mientras se están procesando.<br> Cuanto mayor sea el tamaño de la memoria caché mayor será la velocidad final del procesador.<br> La mayoría de las CPU tienen varios niveles de memoria caché incluidos. Cada nivel de memoria caché es más lento que el anterior, pero de mayor tamaño. Se suele dar el valor del mayor de ellos. Una CPU típica de un ordenador personal en 2022 suele tener un tamaño de memoria caché en torno a los {1:SHORTANSWER:=6} Megabytes.]]>
       </text>
     </questiontext>
@@ -102,8 +102,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 06.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Número de bits</strong><br> Cada procesador puede manejar a la vez un número concreto de bits. El número de bits determina la cantidad de {1:SHORTANSWER:=memoria} a la que se puede acceder y la {1:SHORTANSWER:=rapidez} con la que se ejecutarán ciertas operaciones. Un procesador de 8 bits tratará la información cuatro veces más lento que uno de {1:SHORTANSWER:=32} bits.<br> Los procesadores más simples, como los que incorpora un teclado de ordenador o un horno microondas, son de {1:SHORTANSWER:=8} bits.<br> Por encima de ellas están las CPU de 32 bits, mucho más potentes y rápidas. Son las utilizadas en smartphones, smartTV, impresoras, etc.<br> Los ordenadores personales actuales utilizan, en la mayoría de los casos, procesadores y software de {1:SHORTANSWER:=64} bits.]]>
       </text>
     </questiontext>
@@ -120,8 +120,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 07.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Tipo de buses</strong><br> Es el tipo de comunicación con el que se {1:SHORTANSWER:=transfiere} información entre el {1:SHORTANSWER:=procesador} y el resto de elementos del ordenador. Cuantos más buses tenga un procesador y más rápidos sean, mayor será su {1:SHORTANSWER:=rendimiento}.<br> Actualmente los procesadores de ordenador personal tienen tres buses de comunicaciones con el exterior, para mejorar la velocidad de transferencia:<br> <ul> <li>Bus directo con la memoria {1:SHORTANSWER:=RAM}.</li> <li>Bus directo con los puertos {1:SHORTANSWER:=PCI} Express.</li> <li>Bus {1:SHORTANSWER:=DMI} para conectar con el resto de dispositivos (USB, PCI, Sata, Ethernet, etc).</li> </ul> ]]>
       </text>
     </questiontext>
@@ -138,8 +138,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 08.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>Pruebas de rendimiento</strong><br> Las pruebas de rendimiento, también llamadas {1:SHORTANSWER:=benchmark}, son una técnica para medir el rendimiento de un sistema informático o de sus {1:SHORTANSWER:=componentes} por separado.<br> Son pruebas muy útiles a la hora de comparar procesadores entre sí. Debido a la gran cantidad de parámetros o características que definen a un procesador, no es sencillo calcular su rendimiento final. Sin embargo las pruebas benchmark darán un simple número que representa aproximadamente la {1:SHORTANSWER:=potencia} de un procesador.]]>
       </text>
     </questiontext>
@@ -156,8 +156,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 09.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>MIPS</strong><br> Los MIPS o  {1:SHORTANSWER:=millones} de instrucciones por segundo.<br> Es un test muy útil para comparar de forma relativa procesadores a lo largo de la {1:SHORTANSWER:=historia} y ver cómo crece la potencia de cómputo de forma {1:SHORTANSWER:=exponencial} con el tiempo. A pesar de todo es un test con ciertos problemas a la hora de comparar diferentes arquitecturas, por lo que ha caído en {1:SHORTANSWER:=desuso}.<br> Un ordenador personal típico de 2022 tiene aproximadamente {1:SHORTANSWER:=200}000 MIPS.]]>
       </text>
     </questiontext>
@@ -174,8 +174,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 10.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>FLOPS</strong><br> Los FLOPS u operaciones de coma {1:SHORTANSWER:=flotante} por segundo, mide cuántas operaciones matemáticas con decimales es capaz de realizar un ordenador. Son habituales los múltiplos, así un {1:SHORTANSWER:=MFLOPS} es igual a 1 millón de operaciones en coma flotante por segundo.<br> Esta medida es útil para conocer cómo es de rápida una máquina para resolver problemas científicos y de cálculo {1:SHORTANSWER:=intensivo}.<br> Un ordenador personal típico de 2022 tiene aproximadamente {1:SHORTANSWER:=50}000 MFLOPS.]]>
       </text>
     </questiontext>
@@ -192,8 +192,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 11.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>SPECint y SPECfp</strong><br> Standard Performance Evaluation Corporation (SPEC) es un consorcio sin fines de {1:SHORTANSWER:=lucro} que incluye a vendedores de computadoras, integradores de sistemas, universidades, grupos de investigación, publicadores y consultores de todo el mundo. <br> Tiene dos objetivos: crear un benchmark {1:SHORTANSWER:=estándar} para medir el rendimiento de computadoras y controlar y {1:SHORTANSWER:=publicar} los resultados de estos tests.]]>
       </text>
     </questiontext>
@@ -210,8 +210,8 @@
     <name> <text>Hardware. Procesadores II. Pregunta 12.</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2022 por Carlos Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/ -->
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <strong>PassMark</strong><br> El Test {1:SHORTANSWER:=PassMark} es uno de los test comerciales más conocidos para ordenadores {1:SHORTANSWER:=personales}.]]>
       </text>
     </questiontext>

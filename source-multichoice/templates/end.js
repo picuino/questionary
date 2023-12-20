@@ -2,7 +2,7 @@
 // Copyright (c) 2021 James Q Quick
 // https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
 //
-// Copyright (c) 2021 Carlos Pardo
+// Copyright (c) 2021 Carlos Félix Pardo Martín
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal

@@ -4,7 +4,7 @@ import re
 header = """
 Category: Mecánica
 Title: Medidas con calibre
-Copyright: 2022 por Carlos Pardo Martín
+Copyright: 2022 Carlos Félix Pardo Martín
 License: Creative Commons Attribution-ShareAlike 4.0
 License_link: https://creativecommons.org/licenses/by-sa/4.0/
 Source_link: https://www.picuino.com/es/mecan-calibre.html

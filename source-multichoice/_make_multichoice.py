@@ -1,8 +1,8 @@
-#
+﻿#
 #  Program to convert questionnaries in YAML format to several other formats
 #  like CSV spreadsheet, Moodle XML, json for JavaScript or Docx document.
 #
-#  Questionary Copyright (c) 2021 Carlos Pardo
+#  Questionary Copyright (c) 2021 Carlos Félix Pardo Martín
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by

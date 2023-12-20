@@ -2,7 +2,7 @@
 #  Program to convert cloze test from YAML format to html format and
 #  Moodle XML format.
 #
-#  Tests de tecnología tipo cloze Copyright (c) 2022 Carlos Pardo
+#  Tests de tecnología tipo cloze Copyright (c) 2022 Carlos Félix Pardo Martín
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by

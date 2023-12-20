@@ -1,5 +1,5 @@
 //
-// Copyright (c) 2021 Carlos Pardo
+// Copyright (c) 2021 Carlos Félix Pardo Martín
 //
 // Copyright (c) 2021 James Q Quick
 // https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
