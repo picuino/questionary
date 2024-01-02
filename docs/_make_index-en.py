@@ -1,5 +1,5 @@
 #
-#  Index maker (c) 2022 Carlos Pardo
+#  Index maker (c) 2022 Carlos Félix Pardo Martín
 #
 #  This program is free software: you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -43,7 +43,7 @@ index_template = """<!DOCTYPE html>
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
    <!--
-   Copyright (c) 2021 Carlos Pardo Martín
+   Copyright (c) 2021 Carlos Félix Pardo Martín
 
    Copyright (c) 2021 James Q Quick
    https://github.com/jamesqquick/Build-A-Quiz-App-With-HTML-CSS-and-JavaScript
@@ -125,7 +125,7 @@ index_template = """<!DOCTYPE html>
    <a href="https://github.com/picuino/questionary/blob/master/Licenses.md" target="_blank">Credits</a>
    <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
    <a href="https://www.picuino.com/test/index.html" target="_blank">Index</a>
-   <p>Copyright © 2021 by Carlos Pardo Martín.</p>
+   <p>Copyright © 2021 by Carlos Félix Pardo Martín.</p>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    <p>{{ sp.sumtest }} Technology test</p>
    </div>
