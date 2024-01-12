@@ -1,0 +1,207 @@
+﻿
+Category: Software
+Title: Sistema Operativo I
+Date: 09/01/2024
+Copyright: 2024 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: https://www.picuino.com/es/informatica-software-sistema-operativo.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Sistema Operativo</strong>
+     <br>
+     Un sistema {operativo}, también llamado SO, es un conjunto de
+     {programas} que hacen que una computadora funcione.
+     Es un intermediario que gestiona el {hardware} de una computadora
+     para dar {servicio} al resto de los programas de aplicación que se
+     ejecutan en ella.
+     <br>
+     El sistema operativo es el encargado de administrar los {recursos}
+     de la computadora, como el procesador, la {memoria} y los
+     dispositivos de entrada y {salida}, para que otros programas
+     puedan utilizarlos de manera eficiente y {coordinada}.
+
+
+- Title:
+  Cloze:
+     <strong>Sistema Operativo</strong>
+     <br>
+     Por ejemplo, el {sistema} operativo es el encargado de dar un bloque
+     de {memoria} vacía a cada programa a medida que estos se van
+     ejecutando.
+     Se asegura de que cada programa tenga suficiente {espacio} en la
+     memoria {RAM} y que no coincida con los demás.
+     El sistema operativo también se asegura de que el {procesador} se
+     reparte entre todos los {programas} cada poco tiempo, dando la
+     impresión de que todos se {ejecutan} a la vez.
+     Cuando varios programas envían varias páginas para {imprimir} a
+     una sola impresora, el sistema {operativo} se encarga de enviar
+     las páginas de forma {ordenada} para que estas no se mezclen y
+     que no se produzca un {error}.
+     El sistema operativo realiza una {gestión} similar cuando varios
+     programas quieren escribir a la vez en la memoria {permanente}.
+
+
+- Title:
+  Cloze:
+     <strong>Sistema Operativo</strong>
+     <br>
+     El sistema operativo también proporciona una {interfaz} de usuario
+     para que los usuarios puedan {interactuar} con la computadora y
+     realizar diferentes tareas a la vez, como navegar por {Internet},
+     escribir documentos, {reproducir} música y vídeos, entre otras
+     cosas.
+     <br>
+     Si no existiese el sistema operativo, cada una de las {aplicaciones}
+     tendría que incluir una {interfaz} propia, un gestor de impresoras
+     propio, un gestor de {memoria} propio y ponerse de acuerdo con
+     todos los demás programas para {compartir} los recursos de la misma
+     computadora de manera {ordenada}.
+
+
+- Title:
+  Cloze:
+     <strong>Núcleo o kernel</strong>
+     <br>
+     El núcleo de un sistema operativo es el encargado de {coordinar}
+     todos los recursos de la computadora, tanto los elementos de
+     {hardware} como los programas de {software}.
+     Se encarga de {transmitir} la información entre todos estos
+     elementos de la {computadora} de manera organizada para
+     coordinarlos entre sí.
+
+
+- Title:
+  Cloze:
+     <strong>Controladores de dispositivos</strong>
+     <br>
+     Los controladores de dispositivos hacen de {intermediarios} entre
+     las aplicaciones del usuario y los diferentes {periféricos} del
+     ordenador tales como tarjetas {gráficas}, memorias externas,
+     {impresoras}, cámaras web, etc.
+     <br>
+     Cuando instalamos un {controlador} de impresora, todos los programas
+     de aplicación de ese sistema operativo podrán {imprimir} con esa
+     impresora. Los primeros sistemas operativos, como {MS-DOS},
+     no tenían controladores de {dispositivos} para las impresoras,
+     por lo que {cada} uno de los programas de aplicación tenía que
+     añadir su propio controlador para {todas} las impresoras del mercado.
+     El sistema operativo con controladores de dispositivos {ahorra}
+     recursos y facilita la tarea de programar {aplicaciones}.
+
+
+- Title:
+  Cloze:
+     <strong>Gestión de procesos</strong>
+     <br>
+     El sistema de gestión de procesos se encarga de {repartir}
+     el tiempo del microprocesador entre los diferentes {programas}
+     que se encuentran en marcha. Gracias a este gestor podemos tener,
+     por ejemplo, 20 programas {funcionando} a la vez en la computadora
+     y dará la {impresión} de que todos corren a la vez, aunque solo
+     haya un núcleo de {CPU} atendiendo a todos.
+
+
+- Title:
+  Cloze:
+     <strong>Gestión de memoria</strong>
+     <br>
+     El sistema de gestión de la memoria se encarga de {reservar}
+     bloques de memoria {RAM} para los programas cuando van a comenzar
+     a {ejecutarse} o cuando necesitan espacio para {abrir} un nuevo
+     archivo de datos.
+     <br>
+     Otra función del gestor de memoria es realizar la {recolección}
+     de basura. Se llama así a la tarea que consiste en {liberar} de
+     la memoria los bloques que ya no se estén {usando}, para dejar
+     espacio a los nuevos programas que quiera el usuario {ejecutar}.
+
+
+- Title:
+  Cloze:
+     <strong>Interfaz gráfica de usuario</strong>
+     <br>
+     La interfaz gráfica de usuario, también llamada {GUI}, es un
+     programa del sistema operativo encargado de {presentar} la
+     información en la {pantalla} y recoger las acciones que el
+     usuario realiza con el ratón, {teclado} o con la pantalla táctil.
+     <br>
+     Este sistema es {común} a todos los programas, con lo que se
+     consigue un aspecto {homogéneo} para todas las aplicaciones
+     del mismo sistema operativo y {simplifica} la programación de
+     las aplicaciones porque estas no tienen que {encargarse} de
+     representar las ventanas, los {botones}, la barra de scroll,
+     los menús y demás elementos {gráficos}.
+
+
+- Title:
+  Cloze:
+     <strong>Gestión de Interrupciones</strong>
+     <br>
+     Las interrupciones son {señales} que envían los periféricos a la
+     computadora para que sean {atendidos} por esta. Cuando un usuario
+     de ordenador escribe una tecla en el teclado, el {carácter}
+     aparece inmediatamente en la {pantalla}. Del mismo modo, cuando
+     un usuario mueve el {ratón}, el cursor se desplaza inmediatamente
+     por la pantalla. Cada {pulsación} de tecla y cada movimiento del
+     ratón generan una {interrupción} que alerta a la computadora para
+     que atienda a los datos que está enviando el {periférico}.
+     <br>
+     Gracias a las {interrupciones} la computadora no tiene que estar
+     continuamente atendiendo a cada periférico para {comprobar} si
+     ya tienen datos listos para enviar.
+
+
+- Title:
+  Cloze:
+     <strong>Sistema de archivos</strong>
+     <br>
+     El sistema de archivos es un sistema que controla cómo se
+     {almacenan} y {recuperan} los datos desde las unidades de
+     {almacenamiento} como los CD-ROM, las memorias {USB} o los
+     discos duros.
+     Sin un sistema de archivos, los datos {almacenados} en un medio
+     de almacenamiento se convertirían en un conjunto de {información}
+     sin manera de distinguir dónde {termina} un dato y dónde comienza
+     el siguiente.
+     <br>
+     Sus principales funciones son la {asignación} de espacio a los
+     archivos, la administración del espacio {libre} y el acceso a
+     los datos {guardados}.
+
+
+- Title:
+  Cloze:
+     <strong>Sistema de seguridad</strong>
+     <br>
+     Es el sistema encargado de {controlar} el acceso de los programas
+     o de los {usuarios} a los recursos del sistema. Este sistema se
+     encarga de tareas como comprobar el usuario y la {contraseña}
+     correctas para entrar en una {sesión} del sistema o para realizar
+     una instalación de programas.
+
+
+- Title:
+  Cloze:
+     <strong>Comunicaciones</strong>
+     <br>
+     El sistema de gestión de comunicaciones se encarga de controlar
+     las {redes} de datos conectadas a la computadora. Es el encargado
+     de gestionar los {paquetes} de datos que se {transmiten} por la red
+     local cableada, por la red {Wifi} o por otras redes de datos como,
+     por ejemplo, {Bluetooth}.
+
+
+- Title:
+  Cloze:
+     <strong>Programas de sistema</strong>
+     <br>
+     Son aplicaciones que sirven para {gestionar} el sistema operativo
+     o para informarse de su {estado}. Ejemplos de programas del sistema
+     son el {explorador} de archivos, el panel de {control}, la consola
+     de comandos, la aplicación de ajustes en Android, etc.
+

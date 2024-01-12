@@ -17,7 +17,7 @@ along with this program. If not, see <https://www.gnu.org/licenses/>.
 */
 
 
-const time_between_clues = 500;
+const time_between_clues = 1000;
 var questions_pages = 0;
 var gap_selected = 0;
 var page = 0;
