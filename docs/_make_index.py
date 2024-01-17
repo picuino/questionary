@@ -158,7 +158,7 @@ index_data = [
           ["es-software-licencias-2.html", "Licencias de software II"],
           ["es-software-sistema-operativo-1.html", "Sistema Operativo I"],
           ["es-software-sistema-operativo-2.html", "Sistema Operativo II"],
-          #["es-software-sistema-operativo-3.html", "Sistema Operativo III"],
+          ["es-software-sistema-operativo-3.html", "Sistema Operativo III"],
           #["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
           #["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
        ]
