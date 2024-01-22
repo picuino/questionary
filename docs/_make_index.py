@@ -233,6 +233,8 @@ index_template = """<!DOCTYPE html>
    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png">
    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
 
+   <link rel="canonical" href="https://www.picuino.com/test/index.html">
+
 </head>
 
 <body>
