@@ -111,43 +111,42 @@
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    </div>
 
-   <!-- Cookies Advise -->
-   <div id="cookiesbar" style="display: none">
-   Esta página web utiliza cookies propias y de terceros 
-   para propósitos funcionales y de análisis de navegación.
-   Puedes obtener más información en nuestra 
-   <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a> <br>
-   Si continúas navegando, aceptas su uso.
-   <br>
-   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
-   </div>
-   <script>
-   if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
-   function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
-   function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
-   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
-   </script>
+  <!-- Cookies Advise -->
+  <div id="cookiesbar" style="display: none">
+  <p id="cookiesTitle">Esta web utiliza cookies</p>
+  Esta página web utiliza cookies propias para propósitos funcionales y de análisis de navegación.
+  Los vídeos de la página web utilizan los servicios de YouTube, que utiliza cookies de terceros.
+  Puedes obtener más información en nuestra
+  <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">política de Cookies.</a> <br>
+  Si continúas navegando, aceptas su uso.
+  <br>
+  <a id="cookiesBtn1" href="javascript:void(0);" onclick="cookieBarAcceptNone();">Rechazar cookies</a>
+  <a id="cookiesBtn2" href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+  </div>
+  <script>
+  if (document.cookie.indexOf("cookiesPicuinoBar")<0) {cookieBarDisplay("block");}
+  function cookieBarAcceptAll(){setCookie("cookiesPicuinoBar","1",60); cookieBarDisplay("none");}
+  function cookieBarAcceptNone(){setCookie("cookiesPicuinoBar","1",60); cookieBarDisplay("none"); setCookie("noPicuinoCookies","1",60); }
+  function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
+  function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
+  </script>
 
-   <!-- Matomo -->
-   <script>
-   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
-     var _paq = window._paq = window._paq || [];
-     _paq.push(['trackPageView']);
-     _paq.push(['enableLinkTracking']);
-     (function() {
-       var u="//www.picuino.com/matomo/";
-       _paq.push(['setTrackerUrl', u+'matomo.php']);
-       _paq.push(['setSiteId', '1']);
-       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-     })();
-   }
-   </script>
-   <!-- End Matomo Code -->
-
+  <!-- Matomo -->
+  <script>
+  if (document.cookie.indexOf("noPicuinoCookies")<0) {
+    var _paq = window._paq = window._paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//www.picuino.com/matomo/";
+      _paq.push(['setTrackerUrl', u+'matomo.php']);
+      _paq.push(['setSiteId', '1']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+  }
+  </script>
+  <!-- End Matomo Code -->
 
       </div>
    </div>

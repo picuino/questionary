@@ -1,0 +1,385 @@
+﻿
+Category: Software
+Title: Sistema operativo IV
+Date: 27/01/2024
+Copyright: 2024 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: https://www.picuino.com/es/informatica-software-sistema-operativo.html
+Show_max: 0
+
+---
+
+# Introducción
+
+- Title:
+  Question: ¿Qué es un sistema operativo, también conocido como SO?
+  Choices:
+    - Un conjunto de programas que hacen que una computadora funcione.
+    - Un programa de aplicación.
+    - Un dispositivo de entrada y salida.
+    - Un tipo de memoria RAM.
+
+- Title:
+  Question: ¿Cuál es la función principal del sistema operativo en
+            una computadora?
+  Choices:
+    - Gestionar el hardware para dar servicio a otros programas.
+    - Reproducir música y videos.
+    - Navegar por Internet.
+    - Escribir documentos.
+
+- Title:
+  Question: ¿Qué recursos administra el sistema operativo en una
+            computadora?
+  Choices:
+    - Procesador, memoria y periféricos de entrada y salida.
+    - Teclado, mouse, pantalla, impresora y unidades de memoria usb.
+    - Programas y aplicaciones.
+    - Medios de almacenamiento externos.
+
+- Title:
+  Question: ¿Cómo asegura el sistema operativo que cada programa tenga
+            suficiente espacio en la memoria RAM?
+  Choices:
+    - Asignando bloques de memoria vacía a medida que se ejecutan
+      los programas.
+    - Limitando la cantidad de programas que pueden ejecutarse a un
+      número determinado.
+    - Eliminando programas innecesarios.
+    - Desconectando la memoria RAM de otros dispositivos.
+
+- Title:
+  Question: ¿Cuál es una función del sistema operativo respecto a la
+            memoria RAM?
+  Choices:
+    - Asignar un bloque de memoria vacía a cada programa.
+    - Bloquear el acceso a la memoria a los programas maliciosos.
+    - Limitar el espacio disponible.
+    - Desactivar la memoria.
+
+- Title:
+  Question: ¿Qué hace el sistema operativo para evitar que las páginas
+            enviadas a una impresora se mezclen y provoquen errores?
+  Choices:
+    - Envía las páginas de forma ordenada.
+    - Desconecta la impresora.
+    - Impide la impresión de varias páginas a la vez.
+    - No realiza ninguna acción al respecto.
+
+- Title:
+  Question: ¿Cuál es la función del sistema operativo cuando varios
+            programas quieren escribir a la vez en la memoria permanente?
+  Choices:
+    - Realizar una gestión ordenada de la escritura.
+    - Bloquear la escritura de programas simultáneos.
+    - Ignorar la escritura en la memoria permanente.
+    - Reiniciar la computadora.
+
+- Title:
+  Question: ¿Qué facilita una interfaz de usuario?
+  Choices:
+    - Interactuar con la computadora y realizar diversas tareas.
+    - Gestionar el hardware de la computadora para coordinar todos los
+      elementos entre sí.
+    - Coordinar la ejecución de programas.
+    - Administrar la memoria RAM.
+
+- Title:
+  Question: ¿Qué cambios ocasionaría no tener un sistema operativo?
+  Choices:
+    - Cada aplicación debería incluir su propia interfaz y gestores de
+      recursos.
+    - Las aplicaciones serían más eficientes y más rápidas al necesitar
+      el ordenador menos recursos.
+    - No habría necesidad de coordinar recursos.
+    - El hardware de la computadora funcionaría peor.
+
+- Title:
+  Question: ¿Cómo se asegura el sistema operativo de que el procesador se
+            reparta entre todos los programas?
+  Choices:
+    - Dando pequeños tiempos de ejecución a cada programa alternativamente.
+    - Deteniendo la ejecución de algunos programas para que no consuman
+      tiempo de procesador.
+    - Eliminando programas de la memoria.
+    - Desactivando el procesador.
+
+- Title:
+  Question: ¿Qué proporciona el sistema operativo para que los usuarios
+            interactúen con la computadora?
+  Choices:
+    - Una interfaz de usuario.
+    - Teclado, ratón, monitor e impresora.
+    - Un gestor de memoria RAM.
+    - Un gestor de recursos hardware para la memoria permanente.
+
+- Title:
+  Question: ¿Cuál es una de las razones por las que el sistema operativo es importante?
+  Choices:
+    - Simplifica la interacción con la computadora.
+    - Elimina la necesidad de programas de aplicación.
+    - Aumenta la complejidad del hardware.
+    - Restringe el acceso a los programas.
+
+#
+# Componentes de un Sistema Operativo
+#
+
+- Title:
+  Question: ¿Cuál es la función principal del núcleo o kernel de un
+            sistema operativo?
+  Choices:
+    - Coordinar todos los recursos de la computadora.
+    - Instalar controladores de dispositivos para controlar los periféricos.
+    - Programar aplicaciones.
+    - Gestionar procesos de impresión.
+
+- Title:
+  Question: ¿Qué hacen los controladores de dispositivos en un sistema
+            operativo?
+  Choices:
+    - Actúan como intermediarios entre las aplicaciones del usuario
+      y los periféricos.
+    - Reparten el tiempo del microprocesador entre los diferentes
+      programas de aplicación ejecutados por el usuario.
+    - Coordinan los recursos del núcleo.
+    - Programan aplicaciones específicas.
+
+- Title:
+  Question: ¿Por qué los controladores de dispositivos son importantes
+            en un sistema operativo?
+  Choices:
+    - Ahorran recursos y facilitan la tarea de programar aplicaciones.
+    - Aumentan la complejidad del sistema operativo y su uso de recursos.
+    - Desactivan los periféricos.
+    - Limitan el acceso a los programas.
+
+- Title:
+  Question: ¿Cómo facilita un sistema operativo con controladores de
+            dispositivos la impresión con una impresora?
+  Choices:
+    - Todos los programas pueden imprimir con esa impresora instalando un
+      solo controlador.
+    - Requiere que cada programa de aplicación tenga su propio controlador
+      que controle la impresión.
+    - Elimina la necesidad de impresoras.
+    - Desactiva la impresión en la computadora.
+
+- Title:
+  Question: ¿Qué ocurría en los primeros sistemas operativos, como MS-DOS,
+            respecto a los controladores de impresoras?
+  Choices:
+    - No tenían controladores, por lo que cada programa tenía que añadir
+      el suyo propio.
+    - Contaban con controladores para todas las impresoras del mercado,
+      por lo que ocupaban mucho espacio.
+    - No permitían la impresión.
+    - Desactivaban las aplicaciones.
+
+- Title:
+  Question: ¿Qué función cumple el sistema de gestión de procesos en un
+            sistema operativo?
+  Choices:
+    - Repartir el tiempo del microprocesador entre todos los programas.
+    - Coordinar elementos de hardware tales como la memoria RAM y el disco
+      duro.
+    - Instalar controladores de dispositivos.
+    - Programar aplicaciones específicas.
+
+- Title:
+  Question: ¿Cómo da la impresión un sistema de gestión de procesos de
+            que varios programas corren a la vez?
+  Choices:
+    - Repartiendo el tiempo del microprocesador entre los programas.
+    - Aumentando la velocidad del microprocesador cuando hay mucha demanda.
+    - Desactivando programas.
+    - Eliminando núcleos de CPU.
+
+- Title:
+  Question: ¿Qué tareas realiza el núcleo o kernel en relación con los
+            recursos de la computadora?
+  Choices:
+    - Coordinar y transmitir información entre hardware y software.
+    - Instalar controladores de dispositivos.
+    - Gestionar procesos de impresión.
+    - Desactivar periféricos.
+
+- Title:
+  Question: ¿Qué función tiene el sistema de gestión de la memoria?
+  Choices:
+    - Reservar bloques de memoria RAM para los programas.
+    - Presentar información en la pantalla de los programas.
+    - Gestionar interrupciones.
+    - Mover el cursor por la pantalla.
+
+- Title:
+  Question: ¿Qué es la recolección de basura?
+  Choices:
+    - Liberar bloques de memoria RAM no utilizados.
+    - Almacenar archivos de datos en la memoria permanente.
+    - Reservar más memoria para programas.
+    - Generar interrupciones cuando aparezca un programa basura.
+
+- Title:
+  Question: ¿Qué significan las siglas GUI?
+  Choices:
+    - Interfaz gráfica de usuario.
+    - Interfaz de gestión de unidades.
+    - Gestión unificada de interrupciones
+    - Gráficos de uso interno
+
+- Title:
+  Question: ¿Cuál es la función principal de la interfaz gráfica de
+            usuario?
+  Choices:
+    - Presentar información en la pantalla y recoger acciones del usuario.
+    - Reservar bloques de memoria RAM para las distintas aplicaciones.
+    - Gestionar interrupciones del sistema.
+    - Mover el cursor con el ratón.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- Title:
+  Question: ¿Por qué la interfaz de usuario es común a todos los
+            programas en un sistema operativo?
+  Choices:
+    - Para lograr un aspecto homogéneo y simplificar la programación.
+    - Para incrementar la complejidad del sistema operativo.
+    - Para limitar el acceso a ciertos programas.
+    - Para eliminar la necesidad de programación de aplicaciones.
+
+- Title:
+  Question: ¿Cómo se llama la tarea que libera de la memoria bloques
+            no utilizados?
+  Choices:
+    - Recolección de basura.
+    - Reserva de memoria.
+    - Gestión de interrupciones.
+    - Interfaz gráfica de usuario.
+
+- Title:
+  Question: ¿Qué son las interrupciones?
+  Choices:
+    - Señales que envían los periféricos para ser atendidos.
+    - Elementos gráficos en la pantalla que llaman la atención.
+    - Bloques de memoria RAM.
+    - Datos listos para enviar por la red.
+
+- Title:
+  Question: ¿Qué alerta a la computadora para atender a los datos
+            enviados por un periférico?
+  Choices:
+    - Las interrupciones.
+    - La reserva de memoria.
+    - La recolección de basura.
+    - La gestión de procesos.
+
+- Title:
+  Question: ¿Por qué son importantes las interrupciones en el
+            funcionamiento de la computadora?
+  Choices:
+    - Evitan que la computadora esté continuamente atendiendo a cada
+      periférico.
+    - Aumentan la complejidad del sistema operativo.
+    - Limitan el acceso a programas maliciosos.
+    - Desactivan los periféricos.
+
+- Title:
+  Question: ¿Cuál es el beneficio de utilizar interrupciones en lugar de
+            comprobar continuamente si un periférico tiene datos listos?
+  Choices:
+    - Ahorra recursos al evitar verificaciones constantes.
+    - Incrementa la complejidad del sistema operativo.
+    - Reduce la velocidad del sistema.
+    - Desactiva la gestión de memoria.
+
+- Title:
+  Question: ¿Cuál es la función principal del sistema de archivos?
+  Choices:
+    - Controlar cómo se almacenan y recuperan los datos en unidades
+      de almacenamiento.
+    - Administrar el espacio libre en la memoria RAM.
+    - Transmitir paquetes de datos por la red Wifi.
+    - Gestionar el acceso a recursos software del sistema.
+
+- Title:
+  Question: ¿Qué ocurriría sin un sistema de archivos en un medio de
+            almacenamiento?
+  Choices:
+    - Los datos se convertirían en un conjunto indistinguible.
+    - Se perderían los datos almacenados.
+    - La computadora no funcionaría.
+    - Los programas no podrían ejecutarse.
+
+- Title:
+  Question: ¿Cuáles son algunas de las principales funciones del sistema
+            de archivos?
+  Choices:
+    - Asignación de espacio a nuevos datos, administración del espacio
+      libre y acceso a datos.
+    - Comprobación de usuarios y contraseñas.
+    - Transmisión de paquetes de datos por redes.
+    - Gestión del sistema operativo.
+
+- Title:
+  Question: ¿Qué controla el sistema de seguridad en una computadora?
+  Choices:
+    - El acceso de programas o usuarios a los recursos del sistema.
+    - La asignación de espacio a archivos.
+    - La administración del espacio libre en el disco duro.
+    - La gestión de comunicaciones por Bluetooth.
+
+- Title:
+  Question: ¿Cuál es una tarea del sistema de seguridad en una sesión
+            del sistema?
+  Choices:
+    - Comprobar el usuario y la contraseña correctas.
+    - Transmitir paquetes de datos por la red local.
+    - Asignar espacio a archivos.
+    - Gestionar el acceso a la memoria RAM.
+
+- Title:
+  Question: ¿Qué controla el sistema de gestión de comunicaciones?
+  Choices:
+    - Las redes de datos conectadas a la computadora.
+    - El acceso a recursos del sistema.
+    - La asignación de espacio en la memoria permanente.
+    - La administración del espacio libre en la memoria USB.
+
+- Title:
+  Question: ¿Cuál es la función de los programas de sistema?
+  Choices:
+    - Gestionar el sistema operativo o informar de su estado.
+    - Controlar el acceso a programas específicos.
+    - Administrar la red Wifi.
+    - Transmitir paquetes de datos por la red Bluetooth.
+
+- Title:
+  Question: ¿Cuál de los siguientes NO es un ejemplo de programa de
+            sistema?
+  Choices:
+    - Reproductor de música.
+    - Aplicación de ajustes en Android.
+    - Explorador de archivos.
+    - Consola de comandos.
+
+- Title:
+  Question: ¿Qué gestiona el sistema de archivos en relación con los
+            datos guardados?
+  Choices:
+    - Asignación de espacio a archivos y acceso a datos.
+    - Control del acceso de usuarios.
+    - Transmisión de paquetes de datos por la red local.
+    - Administración del espacio libre en la memoria RAM.

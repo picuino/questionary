@@ -159,8 +159,9 @@ index_data = [
           ["es-software-sistema-operativo-1.html", "Sistema Operativo I"],
           ["es-software-sistema-operativo-2.html", "Sistema Operativo II"],
           ["es-software-sistema-operativo-3.html", "Sistema Operativo III"],
-          #["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
-          #["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
+          ["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
+          ["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
+          ["es-software-sistema-operativo-6.html", "Sistema Operativo VI"],
        ]
    },
    {
@@ -289,43 +290,6 @@ index_template = """<!DOCTYPE html>
    <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    <p>{{ sp.sumtest }} Test de Tecnología</p>
    </div>
-
-   <!-- Cookies Advise -->
-   <div id="cookiesbar" style="display: none">
-   Esta página web utiliza cookies propias y de terceros 
-   para propósitos funcionales y de análisis de navegación.
-   Puedes obtener más información en nuestra 
-   <a href="https://www.picuino.com/es/legal-cookies.html" 
-   target="_blank">política de Cookies.</a><br>
-   Si continúas navegando, aceptas su uso.
-   <br>
-   <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-   <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR TODAS</b></a>
-   </div>
-   <script>
-   if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
-   function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
-   function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
-   function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-   function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
-   </script>
-
-   <!-- Matomo -->
-   <script>
-   if (document.cookie.indexOf("noAnalyticalCookies")<0) {
-     var _paq = window._paq = window._paq || [];
-     _paq.push(['trackPageView']);
-     _paq.push(['enableLinkTracking']);
-     (function() {
-       var u="//www.picuino.com/matomo/";
-       _paq.push(['setTrackerUrl', u+'matomo.php']);
-       _paq.push(['setSiteId', '1']);
-       var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-       g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-     })();
-   }
-   </script>
-   <!-- End Matomo Code -->
 
    </div>
 </body>

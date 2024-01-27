@@ -61,7 +61,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 800px;
+        max-width: 828px;
         margin: 0 auto;
         padding: 0 6px 20px 6px;
       }
@@ -126,32 +126,52 @@
       }
 
 
-      /* COOKIESBAR */
+      /* Cookies Advise */
 
       #cookiesbar {
-        font-size:16px;
-        line-height:1.5em;
-        display:block;
-        position:fixed;
-        bottom:0;
-        text-align:center;
-        max-width:760px;
-        padding:20px 20px;
-        margin-right:14px;
-        background-color: rgba(40,40,40,0.95);
-        color:#fff;
-        z-index: 1200;
+      font-size:16px;
+      line-height:1.5em;
+      display:block;
+      position:fixed;
+      bottom:0;
+      text-align:center;
+      max-width:764px;
+      padding: 32px 32px 48px 32px;
+      margin: 12px 20px 12px 0;
+      background-color: rgba(40,40,40,0.95);
+      color:#fff;
+      z-index:99999;
       }
-
+      
+      #cookiesTitle {
+      font-size:24px;
+      font-weight:bold;
+      margin-bottom:32px;
+      }
+      
       #cookiesbar a {
-        display:inline-block;
-        padding:4px 8px;
-        color:#e0e000;
-        text-decoration:none;
+      display:inline-block;
+      padding:4px 8px;
+      color:#e0e000;
+      text-decoration:none;
       }
-
+      
       #cookiesbar a:hover {
-        background-color: #444;
+      background-color: #444;
+      }
+      
+      #cookiesBtn1, #cookiesBtn2 {
+      border: 2px solid #000;
+      border-radius: 12px;
+      padding: 50px;
+      margin: 32px 20px 0 20px;
+      }
+      
+      #cookiesBtn1:hover, #cookiesBtn2:hover  {
+        cursor: pointer;
+        box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.5);
+        transform: translateY(-2px);
+        transition: transform 150ms;
       }
 
 
@@ -441,29 +461,30 @@
       <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
       </div>
 
+
       <!-- Cookies Advise -->
       <div id="cookiesbar" style="display: none">
-      Esta página web utiliza cookies propias y de terceros
-      para propósitos funcionales y de análisis de navegación.
+      <p id="cookiesTitle">Esta web utiliza cookies</p>
+      Esta página web utiliza cookies propias para propósitos funcionales y de análisis de navegación.
+      Los vídeos de la página web utilizan los servicios de YouTube, que utiliza cookies de terceros.
       Puedes obtener más información en nuestra
-      <a href="https://www.picuino.com/es/legal-cookies.html"
-      target="_blank">política de Cookies.</a><br>
+      <a href="https://www.picuino.com/es/legal-cookies.html" target="_blank">política de cookies</a>. <br>
       Si continúas navegando, aceptas su uso.
       <br>
-      <a href="javascript:void(0);" onclick="cookieBarAcceptRequired();">Aceptar Necesarias</a> |
-      <a href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
+      <a id="cookiesBtn1" href="javascript:void(0);" onclick="cookieBarAcceptNone();">Rechazar cookies</a>
+      <a id="cookiesBtn2" href="javascript:void(0);" onclick="cookieBarAcceptAll();"><b>ACEPTAR Y CONTINUAR</b></a>
       </div>
       <script>
-      if (document.cookie.indexOf("cookiesBar")<0) {cookieBarDisplay("block");}
-      function cookieBarAcceptAll(){setCookie("cookiesBar","1",60); cookieBarDisplay("none");}
-      function cookieBarAcceptRequired(){setCookie("cookiesBar","1",60); cookieBarDisplay("none"); setCookie("noAnalyticalCookies","1",60); }
+      if (document.cookie.indexOf("cookiesPicuinoBar")<0) {cookieBarDisplay("block");}
+      function cookieBarAcceptAll(){setCookie("cookiesPicuinoBar","1",60); cookieBarDisplay("none");}
+      function cookieBarAcceptNone(){setCookie("cookiesPicuinoBar","1",60); cookieBarDisplay("none"); setCookie("noPicuinoCookies","1",60); }
       function cookieBarDisplay(dsp){document.getElementById("cookiesbar").style.display=dsp;}
-      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/;";}
+      function setCookie(cname, cvalue, exdays){var d=new Date();d.setTime(d.getTime()+(exdays*24*3600000));document.cookie=cname+"="+cvalue+"; "+"expires="+d.toUTCString()+"; path=/";}
       </script>
-
+      
       <!-- Matomo -->
       <script>
-      if (document.cookie.indexOf("noAnalyticalCookies")<0) {
+      if (document.cookie.indexOf("noPicuinoCookies")<0) {
         var _paq = window._paq = window._paq || [];
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
@@ -476,7 +497,7 @@
         })();
       }
       </script>
-   <!-- End Matomo Code -->
+      <!-- End Matomo Code -->
 
    </div> </div>
 
