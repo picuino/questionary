@@ -127,14 +127,15 @@ text-decoration:none;
 background-color: #444;
 }
 
-#cookiesBtn1, #cookiesBtn2 {
+#cookiesBtn {
+font-weight: bold;
 border: 2px solid #000;
 border-radius: 12px;
 padding: 50px;
 margin: 32px 20px 0 20px;
 }
 
-#cookiesBtn1:hover, #cookiesBtn2:hover  {
+#cookiesBtn:hover  {
   cursor: pointer;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.5);
   transform: translateY(-2px);
