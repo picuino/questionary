@@ -229,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuánta memoria RAM tiene la placa Arduino UNO?</text> </name>
+    <name> <text>¿Cuánta memoria de programa tiene la placa Arduino UNO?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuánta memoria RAM tiene la placa Arduino UNO?</p>
+         <p>¿Cuánta memoria de programa tiene la placa Arduino UNO?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>32 kbytes</text>
+       <text>32 kilobytes</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>48 kbytes</text>
+       <text>16 kilobytes</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 kbytes</text>
+       <text>8 Megabytes</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>64 kbytes</text>
+       <text>4 Megabytes</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
