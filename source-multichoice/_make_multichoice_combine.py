@@ -31,7 +31,7 @@ moodle_template = 'moodle-multichoice-template.xml'
 json_template = 'json-template.json'
 html_template = 'game-template.html'
 
-random_seed = 2023
+random_seed = 2024
 
 
 projects = [
@@ -74,6 +74,24 @@ projects = [
       ],
    'filename_output': 'es-hardware',
    'yaml_category': 'Hardware de ordenador',
+   'yaml_title': 'Test global',
+   'max_questions': 35,
+   'random_seed': random_seed,
+},
+
+{
+   'yaml_files': [
+      'es-software-intro-2.yaml',
+      'es-software-licencias-2.yaml',
+      'es-software-sistema-operativo-4.yaml',
+      'es-software-sistema-operativo-5.yaml',
+      'es-software-sistema-operativo-6.yaml',
+      'es-software-sistema-operativo-6.yaml',
+      'es-software-formatos-imagen-3.yaml',
+      #'es-software-formatos-imagen-4.yaml',
+      ],
+   'filename_output': 'es-software',
+   'yaml_category': 'Software de ordenador',
    'yaml_title': 'Test global',
    'max_questions': 35,
    'random_seed': random_seed,

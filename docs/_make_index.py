@@ -162,6 +162,11 @@ index_data = [
           ["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
           ["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
           ["es-software-sistema-operativo-6.html", "Sistema Operativo VI"],
+          ["es-software-formatos-imagen-1.html", "Formatos de imagen I"],
+          ["es-software-formatos-imagen-2.html", "Formatos de imagen II"],
+          ["es-software-formatos-imagen-3.html", "Formatos de imagen III"],
+          #["es-software-formatos-imagen-4.html", "Formatos de imagen IV"],
+          ["es-software.html", "Test global de Software"],
        ]
    },
    {
@@ -270,11 +275,8 @@ index_template = """<!DOCTYPE html>
         {%- set sp.numtest = 1 %}
         {%- endfor %}
 
-        <p style="margin-top:80px"></p>
-
       </div>
    </div>
-
 
    <div class="container">
    

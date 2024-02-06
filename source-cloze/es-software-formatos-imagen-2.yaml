@@ -1,0 +1,232 @@
+﻿
+Category: Software
+Title: Formatos de imagen II
+Date: 03/02/2024
+Copyright: 2024 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: https://www.picuino.com/es/informatica-software-imagenes.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Formatos de mapa de bits</strong>
+     <br>
+     Los siguientes formatos de imágenes de {mapa} de bits están
+     compuestos por {píxeles} o puntos de la imagen que se almacenan
+     uno a uno en el archivo hasta completar la imagen.
+
+
+- Title:
+  Cloze:
+     <strong>Formato JPEG (JPG)</strong>
+     <br>
+     El formato JPEG (Joint Photographic Experts Group), creado en {1992},
+     es un formato de archivo de imagen que se utiliza para almacenar
+     {fotografías} en un formato comprimido.
+     Este formato de archivo tiene {pérdidas} (es lossy), lo que significa
+     que se pierde cierta cantidad de información de la imagen al 
+     {comprimirla} para que ocupe menos espacio, especialmente en los
+     pequeños {detalles}, generando un ruido llamado "{artefactos}".
+     Por esa razón este formato no es una buena opción para guardar
+     imágenes de {dibujos}, texto, gráficas, etc.
+     <br>
+     El formato de archivo JPEG se puede utilizar para almacenar
+     imágenes en varios formatos de color, incluyendo {RGB} de 8 bits
+     por color, {CMYK} y YCbCr. La profundidad de color de este formato
+     ({8} bits por cada color) es reducida y por lo tanto no es una buena
+     opción para {editar} fotografías. Para esa tarea es mucho mejor
+     utilizar los formatos {RAW} de cada cámara fotográfica que llegan
+     a tener 36 o 42 bits por pixel.
+     <br>
+     El formato JPEG no permite definir {transparencias} en la imagen por
+     lo que tampoco es una buena opción para insertar imágenes recortadas.
+     Para esa tarea es mejor utilizar un formato que permita
+     transparencias, como el {PNG}.
+
+
+- Title:
+  Cloze:
+     <strong>Formato PNG</strong>
+     <br>
+     El formato PNG (Portable Network Graphics) fue creado en {1995}
+     como un formato de imagen con compresión y sin {pérdidas}, es decir,
+     que no pierde ningún detalle durante la compresión de la imagen.
+     <br>
+     El formato PNG es ideal para almacenar imágenes de {dibujos} o texto
+     ya que, al no tener pérdidas, se almacenarán sin {ruido} o
+     "artefactos".
+     <br>
+     Este formato también es ideal para imágenes que utilicen
+     {transparencias}, ya que cada píxel puede ser almacenado junto a un
+     código de color transparente que evita que se noten los {bordes}.
+     <br>
+     Si bien se puede utilizar para guardar {fotografías}, no es
+     aconsejable porque, al no tener pérdidas, su tamaño es mucho {mayor}
+     que el de las imágenes {JPEG}. Si lo que se desea es guardar una
+     fotografía sin pérdidas para poder editarla, es preferible utilizar
+     el formato {TIFF}.
+     <br>
+     El formato PNG puede guardar las imágenes con diversas profundidades
+     de {color} adaptadas a cada aplicación. Con los colores blanco y negro
+     (1 bit por pixel) se pueden almacenar imágenes de texto o similares
+     con un nivel de {compresión} muy alto.
+     También se pueden almacenar imágenes en escala de {grises} o 
+     imágenes con color verdadero ({RGB} de 8 bits por color).
+     <br>
+     El formato PNG no permite almacenar colores {CMYK} adaptados a la
+     impresión en papel.
+
+
+- Title:
+  Cloze:
+     <strong>Formato GIF</strong>
+     <br>
+     El formato GIF (Graphics Format Interchange) fue lanzado en {1987}
+     por CompuServe y es ampliamente utilizado en {Internet} tanto en
+     imágenes como en animaciones debido a su amplio soporte y
+     compatibilidad.
+     <br>
+     Como característica especial, este es el único formato popular
+     que puede guardar imágenes en movimiento o {animaciones}.
+     Los vídeos con imágenes fotográficas aparecen con una gran pérdida
+     de {color} debido a que este formato solo puede manejar una paleta
+     de 256 colores, no obstante esto no ha impedido que sea muy
+     {utilizado}.
+     <br>
+     El formato GIF permite guardar dibujos con {transparencias},
+     pero con peor calidad que con el formato PNG de 24 bits.
+     <br>
+     La aplicación principal del formato GIF es almacenar pequeños
+     dibujos y {animaciones} con o sin {transparencia}.
+
+
+- Title:
+  Cloze:
+     <strong>Formato TIFF</strong>
+     <br>
+     El formato TIFF (Tagged Image File Format) se publicó en su
+     versión 6 en {1992} y tiene un gran uso en la industria gráfica
+     y en la fotografía {profesional} por su versatilidad y compresión
+     sin {pérdidas}.
+     <br>
+     Es un formato que ocupa mucha memoria cuando almacena fotografías
+     sin pérdidas, especialmente si se utiliza una gran profundidad
+     de color, con {16} bits por cada tono de color RGB.
+     Sin embargo, estas características hacen que el formato {TIFF} sea
+     muy apreciado en edición fotográfica profesional y fotografía
+     {científica}.
+
+
+- Title:
+  Cloze:
+     <strong>Formato RAW</strong>
+     <br>
+     El formato RAW es un conjunto de formatos que utilizan las cámaras
+     fotográficas {profesionales} y de {alta} gama para guardar las
+     imágenes tal y como han sido captadas por el {sensor} de la cámara.
+     Tienen una gran profundidad de color (de 36 a {48} bits por pixel)
+     y se almacenan sin pérdidas, por lo que cada fichero ocupa un
+     gran tamaño comparado con la imagen equivalente en formato {JPEG}.
+     <br>
+     Este formato permite procesar o '{revelar}' una imagen para que tenga
+     más o menos luminosidad o más o menos rango dinámico, sin que se
+     pierda {calidad} en el resultado final.
+     <br>
+     El inconveniente que presenta este formato es la falta de
+     {estandarización}, por lo que cada fabricante utiliza su propia
+     versión del formato, lo que puede producir incompatibilidades
+     o que alguna versión del formato RAW no se pueda usar en el {futuro}.
+     
+
+- Title:
+  Cloze:
+     <strong>Formatos vectoriales</strong>
+     <br>
+     Los formatos de imágenes vectoriales están compuestos por vectores,
+     que son {instrucciones} matemáticas que se le dan al navegador o a
+     programas de {edición} de estos gráficos para que se puedan
+     visualizar. Estas imágenes se pueden {escalar} de manera infinita
+     sin perder resolución o {calidad}.
+
+
+- Title:
+  Cloze:
+     <strong>Formato SVG</strong>
+     <br>
+     El formato SVG (Scalable Vector {Graphics}) es un estándar abierto
+     publicado por el consorcio {W3C} en 1999 para distribuir imágenes
+     en la web.
+     <br>
+     Este formato permite definir imágenes {vectoriales} en dos dimensiones.
+     <br>
+     SVG pueden manipularse con {JavaScript}, que es un lenguaje de
+     programación, para crear {animaciones} interactivas en los
+     navegadores web.
+
+
+- Title:
+  Cloze:
+     <strong>Formato PDF</strong>
+     <br>
+     El estándar PDF (Portable {Document} Format) es un formato de
+     almacenamiento de documentos digitales diseñado por {Adobe} para
+     que se pueda visualizar e imprimir fácilmente en cualquier
+     {dispositivo}.
+     <br>
+     PDF es un formato estandarizado y {abierto} a que cualquiera lo
+     utilice libremente.
+     <br>
+     Los documentos guardados en formato PDF pueden contener texto, 
+     {hipervínculos}, gráficas, dibujos, fotografías y hasta {vídeo}.
+     <br>
+     Este formato tiene la gran ventaja de mantener inalterada la
+     {composición} de página (márgenes, tamaños de letra, posición de
+     las imágenes, etc.) y de ser un formato ampliamente {compatible}
+     y estándar para almacenar documentos a largo {plazo}.
+     <br>
+     Como desventaja, el formato PDF se puede editar con {dificultad},
+     por lo que es mejor almacenar también el archivo fuente original
+     (.docx).
+
+
+- Title:
+  Cloze: "
+     <strong>Formato de fuentes tipográficas</strong>
+     <br>
+     Las fuentes tipográficas vectoriales son conjuntos de {símbolos} y 
+     letras diseñados para su uso en computadoras, tanto para
+     {visualizar} texto en una pantalla como para imprimir en {papel}.
+     <br>
+     Al ser vectoriales son fácilmente {escalables}, es decir que las
+     letras y símbolos se pueden representar en cualquier tamaño sin
+     perder {calidad}.
+     <br>
+     Los formatos más utilizados para definir fuentes son los siguientes.
+     <br>
+     <ul>
+     <li>TrueType (TTF): Formato desarrollado por {Apple} y Microsoft a
+     finales de la década de {1980}. Es ampliamente compatible y muy
+     utilizado en Windows y macOS.</li>
+     <li>PostScript (PS): Lenguaje desarrollado por {Adobe} para la
+     impresión con impresoras de alta calidad.
+     <br>
+     Permite definir tipos de {letra}, aunque tiene muchas más
+     aplicaciones.</li>
+     <li>OpenType (OTF): Formato desarrollado por {Microsoft} y Adobe en
+     1996 para mejorar y suceder a los dos formatos {anteriores}.
+     <br>
+     Actualmente es un estándar {abierto} (Open Font Format), disponible
+     de  manera pública y gratuita.</li>
+     <li>TeX: Es un sistema de tipografía escrito por Donald E. Knuth, muy
+     popular en el entorno académico {universitario}.
+     El sistema {LaTeX} asociado, amplía las capacidades de TeX para
+     composición de textos profesional.
+     <br>
+     Este sistema es software {libre}, por lo que cualquiera puede
+     utilizarlo sin pagar licencia.</li>
+     </ul>
+     "
+

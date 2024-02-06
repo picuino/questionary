@@ -1,20 +1,17 @@
 ﻿Prompt: >
 Compórtate como un profesor de educación secundaria para alumnos de 14 años. A partir del texto que hay a continuación escribe 9 preguntas de tipo test con cuatro respuestas cada una, de las que solo la primera respuesta sea cierta. Respira hondo y tómate tu tiempo para responder.
 "
+FORMATOS DE IMAGEN
 
-z/OS
-    z/OS es un sistema operativo de IBM que se utiliza en mainframes, computadoras de gran escala utilizadas en grandes empresas. Es uno de los sistemas operativos más antiguos y ampliamente utilizados en el mundo empresarial.
+Existen dos grandes tipos de formatos de imagen, los formatos de mapa de bits y los formatos vectoriales.
 
-    z/OS se caracteriza por ser robusto, fiable, escalable y seguro. Ofrece una amplia gama de capacidades, incluyendo la gestión de recursos del sistema, la ejecución de trabajos en lote (batch), la administración de sistemas de archivos y dispositivos, la gestión de seguridad y la capacidad de ejecutar múltiples aplicaciones a la vez.
+Formato de imagen de mapa de bits
+    Las imágenes de mapa de bits, también llamadas Raster, están formadas por muchos puntos de color denominados píxeles, que conforman una fotografía o dibujo. Cuando este tipo de imagen se amplía, se pueden ver los diferentes píxeles de la imagen como elementos diferentes. Esto hace que la calidad de la imagen empeore en estos casos.
+    Un ejemplo de imagen de mapa de bits es las imágenes que toma una cámara fotográfica digital o un escáner.
 
-FreeRTOS
-    FreeRTOS es un sistema operativo en tiempo real diseñado para sistemas embebidos, es decir, dispositivos electrónicos que realizan tareas específicas tales como lavadoras, ascensores, sistemas de control industrial, aparatos IoT (Internet de las Cosas), gestión del motor del automóvil, alarmas, equipos de diagnóstico médico, etc.
-
-    FreeRTOS se caracteriza por su pequeño tamaño y su bajo consumo de recursos, lo que lo hace adecuado para sistemas con poca memoria y pequeña capacidad de procesamiento.
-
-    Está escrito en lenguaje C y se puede portar a una amplia variedad de arquitecturas de procesadores, lo que lo hace altamente adaptable a diferentes plataformas y dispositivos.
-
-    FreeRTOS es de código abierto, su código fuente está disponible para el público y se puede modificar y distribuir bajo una licencia de software libre. Esto brinda flexibilidad y permite a los desarrolladores personalizar y adaptar el sistema operativo según las necesidades específicas de sus aplicaciones.
+Formato de imagen vectorial
+    Las imágenes vectoriales están formadas por instrucciones que determinan la aparición de objetos tales como líneas, círculos, cuadrados o curvas de Bézier. Cuando este tipo de imagen se amplía, las líneas y curvas permanecen con la misma calidad, sin que se puedan apreciar puntos que formen la imagen.
+    Un ejemplo de imagen vectorial se puede encontrar en las letras TrueType de un editor de textos o de un documento PDF. Estas letras se pueden ampliar todo lo que se desee sin perder nunca su calidad.
 "
 
 

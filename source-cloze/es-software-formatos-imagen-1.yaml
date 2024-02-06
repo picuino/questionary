@@ -1,0 +1,233 @@
+﻿
+Category: Software
+Title: Formatos de imagen I
+Date: 01/02/2024
+Copyright: 2024 por Carlos Félix Pardo Martín
+License: Creative Commons Attribution-ShareAlike 4.0
+License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
+Source_link: https://www.picuino.com/es/informatica-software-imagenes.html
+Show_max: 0
+
+---
+
+- Title:
+  Cloze:
+     <strong>Formatos de imagen</strong>
+     <br>
+     Existen dos grandes tipos de formatos de imagen, los formatos
+     de mapa de {bits} y los formatos {vectoriales}.
+
+
+- Title:
+  Cloze:
+     <strong>Formato de imagen de mapa de bits</strong>
+     <br>
+     Las imágenes de mapa de bits, también llamadas {Raster},
+     están formadas por muchos puntos de color denominados {píxeles},
+     que conforman una fotografía o dibujo.
+     Cuando este tipo de imagen se {amplía}, se pueden ver los diferentes
+     píxeles de la {imagen} como elementos diferentes.
+     Esto hace que la calidad de la imagen {empeore} en estos casos.
+     <br>
+     Un ejemplo de imagen de mapa de bits es las imágenes que toma una
+     cámara {fotográfica} digital o un escáner.
+
+
+- Title:
+  Cloze:
+     <strong>Formato de imagen vectorial</strong>
+     <br>
+     Las imágenes {vectoriales} están formadas por instrucciones que
+     determinan la aparición de objetos tales como {líneas}, círculos,
+     cuadrados o curvas de {Bézier}.
+     Cuando este tipo de imagen se amplía, las líneas y curvas {permanecen}
+     con la misma calidad, sin que se puedan apreciar puntos que formen
+     la imagen.
+     <br>
+     Un ejemplo de imagen vectorial se puede encontrar en las letras
+     {TrueType} de un editor de textos o de un documento {PDF}.
+     Estas letras se pueden ampliar todo lo que se desee sin perder
+     nunca su {calidad}.
+
+
+- Title:
+  Cloze:
+     <strong>Esquemas de color</strong>
+     <br>
+     Existen dos grandes esquemas de color, el {aditivo} y el {sustractivo}.
+     Cada uno de ellos tiene un campo de aplicación distinto y es
+     conveniente utilizar cada uno en su ámbito, para obtener los
+     mejores {resultados}.
+
+
+- Title:
+  Cloze:
+     <strong>Esquema de color aditivo RGB</strong>
+     <br>
+     Este esquema se denomina {aditivo} porque genera los diferentes
+     colores añadiendo fuentes de {luz}. Es el esquema utilizado en los
+     {monitores}, televisores, proyectores o pantallas de {teléfono}.
+     <br>
+     Los colores primarios a partir de los que se forman todos los demás
+     son el {rojo} (Red), el {verde} (Green) y el {azul} (Blue).
+     De esos tres colores proviene el nombre {RGB}.
+     <br>
+     Este esquema funciona basándose en que el ojo {humano} tiene tres
+     receptores de color (rojo, verde y azul) que utiliza para detectar
+     todos los colores del {arcoíris} a partir de una combinación de
+     todos ellos.
+     Así nuestro ojo percibe el color {amarillo} como una combinación de
+     luz roja más luz {verde}.
+
+
+- Title:
+  Cloze:
+     <strong>Esquema de color aditivo RGB</strong>
+     <br>
+     Los colores secundarios se forman sumando dos colores primarios.<br>
+     Rojo + Verde = {Amarillo}<br>
+     Rojo + Azul = {Magenta}<br>
+     Verde + Azul = {Cian}<br>
+     Rojo + Verde + Azul = {Blanco}<br>
+     Ausencia de color = {Negro}<br>
+
+
+- Title:
+  Cloze:
+     <strong>Esquema de color sustractivo CMYK</strong>
+     <br>
+     Este esquema se denomina {sustractivo} porque genera los diferentes
+     colores reflejando la luz {blanca}, que contiene todos los colores,
+     menos algún color que se sustrae con una {tinta}.
+     Por ejemplo, la tinta amarilla {reflejará} toda la luz blanca que le
+     llega, menos el color {azul}, que se sustrae o absorbe en el interior
+     de la tinta.
+     Este es el esquema de color que se utiliza en las {imprentas}.
+     <br>
+     Los colores primarios a partir de los que se forman todos los demás
+     son el {cian} (Cyan), el {magenta} (Magent), el {amarillo} (Yellow)
+     y el color {negro} (Key).
+     Si las tintas fuesen perfectas, podrían conseguir el color negro
+     sumando todas ellas ({CMY}) pero en la práctica resulta más sencillo
+     y se ve más oscuro al utilizar una tinta {específica} para conseguir
+     el color negro.
+     <br>
+     Los colores secundarios se obtienen mezclando {tintas} y por lo
+     tanto absorbiendo más de un {color}. De los tres colores que tiene
+     la luz blanca (rojo, verde y azul) la tinta amarilla absorbe {azul},
+     la tinta cian absorbe {rojo} y la tinta magenta absorbe el {verde}.
+     Al mezclar tintas amarilla y cian, se absorben el azul y el rojo,
+     quedando solo el color {verde} como resultado final.
+     <br>
+     Este esquema se utiliza para la impresión de {revistas}, libros,
+     folletos, carteles y todo tipo de trabajos de {imprenta}.
+     También es la base de las {impresoras} a color y de las pinturas
+     al óleo, acuarelas, ceras, etc.
+
+
+- Title:
+  Cloze:
+     <strong>Esquema de color sustractivo CMYK</strong>
+     <br>
+     Los colores secundarios se forman sumando dos colores primarios.<br>
+     Cian + Magenta = {Azul}<br>
+     Cian + Amarillo = {Verde}<br>
+     Magenta + Amarillo = {Rojo}<br>
+     Cian + Magenta + Amarillo = {Negro}<br>
+     Ausencia de color = {Blanco}<br>
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color</strong>
+     <br>
+     La profundidad de color se refiere al número de colores {distintos}
+     que puede mostrar una imagen. La menor profundidad de color es la
+     de una imagen que solo trabaja con 2 colores ({blanco} y negro).
+     <br>
+     La profundidad de color en las imágenes JPEG estándar de cámara
+     fotográfica es de {8} bits ({256} niveles) para cada uno de los tres
+     tonos RGB, con un resultado total de 16 {millones} de colores
+     distintos.
+     <br>
+     Por último las cámaras profesionales pueden tomar imágenes de
+     tipo RAW con hasta 14 bits ({16384} niveles) para cada uno de los
+     tres tonos {RGB}, con un resultado total de 4 {billones} de colores
+     distintos. En la práctica esta {profundidad} de color no se puede
+     representar en papel ni nosotros somos capaces de {apreciarla},
+     pero permite trabajar con la imagen para {editarla} o 'revelarla'
+     como nos convenga sin pérdidas de calidad.
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 1 bit</strong>
+     <br>
+     {2} colores.
+     <br>
+     Esta profundidad de color se utiliza para enviar {fax}, almacenar
+     texto o dibujos sencillos. La ventaja que presenta es que ocupa
+     muy poco {espacio}.
+
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 4 bit</strong>
+     <br>
+     {16} colores.
+     <br>
+     Es una profundidad de color demasiado baja y presenta errores evidentes en la imagen, pero se puede utilizar en escaneado de documentos para representar color con un tamaño total más reducido.
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 8 bit gris</strong>
+     <br>
+     {256} tonos de gris.
+     <br>
+     No tiene apenas pérdida de {calidad} en los tonos,
+     pero no permite representar color.
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 8 bit</strong>
+     <br>
+     {256} colores.
+     <br>
+     Este es el estándar de las imágenes con formato {GIF}.
+     Permite representar suficientes colores como para que no se
+     aprecie demasiada {pérdida} de calidad, con la ventaja de permitir
+     reducir el tamaño de la imagen con respecto al color verdadero
+     (True color).
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 24 bit RGB</strong>
+     <br>
+     {16} millones de colores (256 tonos de rojo, 256 de verde y 256 de azul).
+     <br>
+     También llamado color {verdadero} o True Color.
+     Este es el estándar de las imágenes con formato {JPEG}.
+     Tiene una calidad suficiente como para almacenar {fotografías},
+     pero no tiene tanta calidad como para realizar operaciones de edición
+     de imágenes sin peligro de perder {precisión}.
+
+
+- Title:
+  Cloze:
+     <strong>Profundidad de color de 14 bit por tono RGB</strong>
+     <br>
+     14 bit por cada tono RGB = {4} billones de colores (16384 tonos de
+     rojo, de verde y de azul).
+     <br>
+     Los esquemas con mayor número de colores que el de 8 bit RGB no
+     presentan diferencias {apreciables} para el ojo humano.
+     <br>
+     Cuando una imagen tiene más de {24} bit RGB se pueden realizar
+     operaciones de edición de imágenes con menos pérdida de calidad
+     que en las imágenes con menos {colores}, que no son apropiadas
+     para las operaciones de {edición}.
+
