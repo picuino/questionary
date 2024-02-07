@@ -173,7 +173,7 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Profundidad de color de 4 bit</strong>
+     <strong>Profundidad de color de 4 bits</strong>
      <br>
      {16} colores.
      <br>
@@ -182,7 +182,7 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Profundidad de color de 8 bit gris</strong>
+     <strong>Profundidad de color de 8 bits gris</strong>
      <br>
      {256} tonos de gris.
      <br>
@@ -192,7 +192,7 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Profundidad de color de 8 bit</strong>
+     <strong>Profundidad de color de 8 bits</strong>
      <br>
      {256} colores.
      <br>
@@ -205,7 +205,7 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Profundidad de color de 24 bit RGB</strong>
+     <strong>Profundidad de color de 24 bits</strong>
      <br>
      {16} millones de colores (256 tonos de rojo, 256 de verde y 256 de azul).
      <br>
@@ -218,15 +218,14 @@ Show_max: 0
 
 - Title:
   Cloze:
-     <strong>Profundidad de color de 14 bit por tono RGB</strong>
+     <strong>Profundidad de color de 36 a 48 bits</strong>
      <br>
-     14 bit por cada tono RGB = {4} billones de colores (16384 tonos de
-     rojo, de verde y de azul).
+     14 bits por cada tono RGB = 42 bits ó {4} billones de colores.
      <br>
-     Los esquemas con mayor número de colores que el de 8 bit RGB no
+     Los esquemas con mayor número de colores que el de 8 bits RGB no
      presentan diferencias {apreciables} para el ojo humano.
      <br>
-     Cuando una imagen tiene más de {24} bit RGB se pueden realizar
+     Cuando una imagen tiene más de {24} bits RGB se pueden realizar
      operaciones de edición de imágenes con menos pérdida de calidad
      que en las imágenes con menos {colores}, que no son apropiadas
      para las operaciones de {edición}.

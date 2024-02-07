@@ -1,17 +1,22 @@
 ﻿Prompt: >
 Compórtate como un profesor de educación secundaria para alumnos de 14 años. A partir del texto que hay a continuación escribe 9 preguntas de tipo test con cuatro respuestas cada una, de las que solo la primera respuesta sea cierta. Respira hondo y tómate tu tiempo para responder.
 "
-FORMATOS DE IMAGEN
+Profundidad de color de 8 bit gris
+    256 tonos de gris.
+    No tiene apenas pérdida de calidad en los tonos, pero no permite representar color.
 
-Existen dos grandes tipos de formatos de imagen, los formatos de mapa de bits y los formatos vectoriales.
+Profundidad de color de 8 bit
+    256 colores.
+    Este es el estándar de las imágenes con formato GIF. Permite representar suficientes colores como para que no se aprecie demasiada pérdida de calidad, con la ventaja de permitir reducir el tamaño de la imagen con respecto al color verdadero (True color).
 
-Formato de imagen de mapa de bits
-    Las imágenes de mapa de bits, también llamadas Raster, están formadas por muchos puntos de color denominados píxeles, que conforman una fotografía o dibujo. Cuando este tipo de imagen se amplía, se pueden ver los diferentes píxeles de la imagen como elementos diferentes. Esto hace que la calidad de la imagen empeore en estos casos.
-    Un ejemplo de imagen de mapa de bits es las imágenes que toma una cámara fotográfica digital o un escáner.
+Profundidad de color de 24 bit RGB
+    16 millones de colores (256 tonos de rojo, 256 de verde y 256 de azul).
+    También llamado color verdadero o True Color. Este es el estándar de las imágenes con formato JPEG. Tiene una calidad suficiente como para almacenar fotografías, pero no tiene tanta calidad como para realizar operaciones de edición de imágenes sin peligro de perder precisión.
 
-Formato de imagen vectorial
-    Las imágenes vectoriales están formadas por instrucciones que determinan la aparición de objetos tales como líneas, círculos, cuadrados o curvas de Bézier. Cuando este tipo de imagen se amplía, las líneas y curvas permanecen con la misma calidad, sin que se puedan apreciar puntos que formen la imagen.
-    Un ejemplo de imagen vectorial se puede encontrar en las letras TrueType de un editor de textos o de un documento PDF. Estas letras se pueden ampliar todo lo que se desee sin perder nunca su calidad.
+Profundidad de color de 14 bit por tono RGB
+    14 bit por cada tono RGB = 4 billones de colores (16384 tonos de rojo, de verde y de azul).
+    Los esquemas con mayor número de colores que el de 8 bit RGB no presentan diferencias apreciables para el ojo humano.
+    Cuando una imagen tiene más de 8 bit RGB se pueden realizar operaciones de edición de imágenes con menos pérdida de calidad que en las imágenes con menos colores, que no son apropiadas para las operaciones de edición.
 "
 
 

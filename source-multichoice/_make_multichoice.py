@@ -89,13 +89,16 @@ class Questionary():
       self.csv_delimiter = ','
       self.questions = []
       self.overwrite = overwrite
+      self.mtime = 0
       random.seed(1000)
       
       
    def read_yaml(self, filename, path='./'):
       """Read questions from Yaml file"""
-      with codecs.open(os.path.join(path, filename), 'r', encoding='utf-8') as yamlfile:
-         yamldata = yamlfile.read()
+      yaml_filename = os.path.join(path, filename)
+      self.mtime = os.path.getmtime(yaml_filename)
+      with codecs.open(yaml_filename, 'r', encoding='utf-8') as fi:
+         yamldata = fi.read()
       yaml_files = list(yaml.load_all(yamldata, Loader=yaml.SafeLoader))
       self.header = yaml_files[0]
       self.header['Filename'] = os.path.splitext(filename)[0]
@@ -122,15 +125,18 @@ class Questionary():
 
 
    def file_older(self, filename1, filename2=False):
-      if not filename2:
-         filename2 = os.path.join(self.yaml_path, self.yaml_file)
-      if os.path.exists(filename1):
-         if os.path.getmtime(filename1) < os.path.getmtime(filename2):
+      if filename2:
+         mtime = os.path.getmtime(filename2)
+      else:
+         mtime = self.mtime
+         
+      if not os.path.exists(filename1):
+         return True
+      else:
+         if os.path.getmtime(filename1) < mtime:
             return True
          else:
             return False
-      else:
-         return True
 
 
    def not_key(self, dictionary, key):

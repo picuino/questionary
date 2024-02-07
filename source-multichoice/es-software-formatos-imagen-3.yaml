@@ -91,3 +91,249 @@ Show_max: 0
     - La calidad de la imagen empeora con la ampliación.
     - Los píxeles se vuelven visibles.
     - Se forman objetos Raster.
+
+
+#
+# Esquema de color RGB
+#
+
+- Title:
+  Question: ¿Qué es el esquema de color aditivo?
+  Choices:
+    - Genera colores añadiendo fuentes de luz.
+    - Genera colores añadiendo tintas sobre papel.
+    - Utiliza solo colores primarios.
+    - Se aplica en impresoras.
+
+
+- Title:
+  Question: ¿Cuáles son los colores primarios en el esquema RGB?
+  Choices:
+    - Rojo, verde y azul
+    - Amarillo, magenta y cian
+    - Rojo, amarillo y azul
+    - Blanco, negro y gris
+
+
+- Title:
+  Question: ¿Por qué se llama "aditivo" al esquema RGB?
+  Choices:
+    - Porque se generan colores sumando fuentes de luz.
+    - Porque se generan colores sumando tintas de colores.
+    - Porque utiliza solo colores primarios.
+    - Porque se aplica en impresoras de inyección de tinta.
+
+
+- Title:
+  Question: ¿Dónde se utiliza el esquema de color aditivo?
+  Choices:
+    - En monitores, televisores y pantallas de teléfono.
+    - En impresoras e imprentas, en publicaciones a color.
+    - En cuadernos, libros y revistas.
+    - En las pinturas y lápices de colores.
+
+
+- Title:
+  Question: ¿Qué esquema se utiliza comúnmente en monitores y televisores?
+  Choices:
+    - Esquema de color aditivo RGB.
+    - Esquema de color sustractivo CMYK.
+    - Esquema de color blanco y negro.
+    - Esquema de colores primarios.
+
+
+- Title:
+  Question: ¿Cómo se forma el color blanco en el esquema RGB?
+  Choices:
+    - Sumando los tres colores primarios.
+    - Restando los tres colores primarios.
+    - Mezclando los colores primarios con negro.
+    - No es posible formar blanco en este esquema.
+
+
+- Title:
+  Question: ¿Cómo se forma el color amarillo en el esquema RGB?
+  Choices:
+    - Rojo + Verde.
+    - Rojo + Azul.
+    - Verde + Azul.
+    - Magenta + Cian.
+
+
+- Title:
+  Question: ¿Cómo se forma el color magenta en el esquema RGB?
+  Choices:
+    - Rojo + Azul.
+    - Rojo + Verde.
+    - Verde + Azul.
+    - Amarillo + Cian.
+
+
+- Title:
+  Question: ¿Cómo se forma el color cian en el esquema RGB?
+  Choices:
+    - Verde + Azul.
+    - Rojo + Azul.
+    - Rojo + Verde.
+    - Amarillo + Magenta.
+
+
+- Title:
+  Question: ¿Cuáles son los colores secundarios en el esquema RGB?
+  Choices:
+    - Amarillo, magenta y cian.
+    - Rojo, verde y azul.
+    - Blanco y negro.
+    - Rojo, amarillo y azul.
+
+
+- Title:
+  Question: ¿Qué produce la ausencia de color en el esquema RGB?
+  Choices:
+    - El color negro.
+    - El color blanco.
+    - El color gris.
+    - El color Amarillo.
+
+
+#
+# Esquema de color CMYK
+#
+
+- Title:
+  Question: ¿Por qué se denomina "sustractivo" al esquema CMYK?
+  Choices:
+    - Porque genera colores sustrayendo colores a la luz blanca.
+    - Porque sustrae la luz blanca para formar colores.
+    - Porque utiliza solo colores secundarios.
+    - Porque se utiliza en monitores y televisores.
+
+
+- Title:
+  Question: ¿Cuáles son los colores primarios en el esquema CMYK?
+  Choices:
+    - Cian, magenta, amarillo y negro
+    - Rojo, verde y azul
+    - Amarillo, magenta y cian
+    - Blanco, negro y gris
+
+
+- Title:
+  Question: ¿En qué se basa el esquema CMYK para generar colores?
+  Choices:
+    - Reflejar la luz blanca y sustraer algún color con tintas.
+    - Sumar fuentes de luz.
+    - Utilizar solo colores secundarios.
+    - Absorber todos los colores.
+
+
+- Title:
+  Question: ¿Dónde se utiliza comúnmente el esquema de color
+            sustractivo CMYK?
+  Choices:
+    - En impresoras e imprentas.
+    - En monitores, televisores.
+    - Solo lo utilizan los profesionales de la impresión.
+    - Se utiliza en las pantallas de los teléfonos.
+
+
+- Title:
+  Question: ¿Por qué se utiliza una tinta específica para conseguir
+            el color negro en el esquema CMYK?
+  Choices:
+    - Porque es más sencillo y se ve más oscuro.
+    - Porque es más barato.
+    - Para ahorrar tinta.
+    - Para resaltar el color blanco.
+
+
+- Title:
+  Question: ¿Qué absorbe la tinta amarilla en el esquema CMYK?
+  Choices:
+    - Azul.
+    - Rojo.
+    - Verde.
+    - Todos los colores primarios.
+
+
+- Title:
+  Question: ¿Qué absorbe la tinta magenta en el esquema CMYK?
+  Choices:
+    - Verde.
+    - Azul.
+    - Rojo.
+    - Negro.
+
+
+- Title:
+  Question: ¿Qué absorbe la tinta cian en el esquema CMYK?
+  Choices:
+    - Rojo.
+    - Verde.
+    - Azul.
+    - Blanco.
+
+
+- Title:
+  Question: ¿En qué se basa la formación de colores secundarios
+            en el esquema CMYK?
+  Choices:
+    - Mezclando tintas y absorbiendo más de un color.
+    - Sumando colores primarios.
+    - Reflejando la luz blanca.
+    - No se forman colores secundarios en este esquema.
+
+
+- Title:
+  Question: ¿Cómo se forma el color negro en el esquema CMYK?
+  Choices:
+    - Sumando los tres colores primarios o con la tinta K (negra).
+    - Restando los tres colores primarios cian, magenta y amarillo.
+    - Sin mezclar ninguna tinta.
+    - No es posible formar negro en este esquema.
+
+
+- Title:
+  Question: ¿Cómo se forma el color verde en el esquema CMYK?
+  Choices:
+    - Cian + Amarillo.
+    - Magenta + Amarillo.
+    - Cian + Magenta.
+    - Rojo + Azul.
+
+
+- Title:
+  Question: ¿Cómo se forma el color rojo en el esquema CMYK?
+  Choices:
+    - Magenta + Amarillo.
+    - Cian + Amarillo.
+    - Cian + Magenta.
+    - Verde + Azul.
+
+
+- Title:
+  Question: ¿Cómo se forma el color azul en el esquema CMYK?
+  Choices:
+    - Cian + Magenta.
+    - Magenta + Amarillo.
+    - Cian + Amarillo.
+    - Rojo + Verde.
+
+
+- Title:
+  Question: ¿Cuáles son los colores secundarios en el esquema CMYK?
+  Choices:
+    - Rojo, verde y azul.
+    - Amarillo, magenta y cian.
+    - Blanco y negro.
+    - Rojo, amarillo y verde.
+
+
+- Title:
+  Question: ¿Qué produce la ausencia de color en el esquema CMYK?
+  Choices:
+    - El color blanco.
+    - El color negro.
+    - El color gris.
+    - El color Amarillo.
+

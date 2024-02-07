@@ -404,4 +404,1148 @@
   </question>
 
 
+  <question type="multichoice">
+    <name> <text>¿Qué es el esquema de color aditivo?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué es el esquema de color aditivo?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Genera colores añadiendo fuentes de luz.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Genera colores añadiendo tintas sobre papel.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Utiliza solo colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Se aplica en impresoras.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuáles son los colores primarios en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuáles son los colores primarios en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojo, verde y azul</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Amarillo, magenta y cian</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo, amarillo y azul</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Blanco, negro y gris</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Por qué se llama "aditivo" al esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Por qué se llama "aditivo" al esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque se generan colores sumando fuentes de luz.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque se generan colores sumando tintas de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque utiliza solo colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque se aplica en impresoras de inyección de tinta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Dónde se utiliza el esquema de color aditivo?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Dónde se utiliza el esquema de color aditivo?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En monitores, televisores y pantallas de teléfono.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>En impresoras e imprentas, en publicaciones a color.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>En cuadernos, libros y revistas.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>En las pinturas y lápices de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué esquema se utiliza comúnmente en monitores y televisores?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué esquema se utiliza comúnmente en monitores y televisores?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Esquema de color aditivo RGB.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esquema de color sustractivo CMYK.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esquema de color blanco y negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Esquema de colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color blanco en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color blanco en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Sumando los tres colores primarios.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Restando los tres colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Mezclando los colores primarios con negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>No es posible formar blanco en este esquema.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color amarillo en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color amarillo en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojo + Verde.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Verde + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Magenta + Cian.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color magenta en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color magenta en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojo + Azul.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Verde + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Amarillo + Cian.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color cian en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color cian en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Verde + Azul.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Amarillo + Magenta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuáles son los colores secundarios en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuáles son los colores secundarios en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Amarillo, magenta y cian.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo, verde y azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Blanco y negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo, amarillo y azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué produce la ausencia de color en el esquema RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué produce la ausencia de color en el esquema RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El color negro.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color blanco.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color gris.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Por qué se denomina "sustractivo" al esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Por qué se denomina "sustractivo" al esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque genera colores sustrayendo colores a la luz blanca.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque sustrae la luz blanca para formar colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque utiliza solo colores secundarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque se utiliza en monitores y televisores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuáles son los colores primarios en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuáles son los colores primarios en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cian, magenta, amarillo y negro</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo, verde y azul</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Amarillo, magenta y cian</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Blanco, negro y gris</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿En qué se basa el esquema CMYK para generar colores?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿En qué se basa el esquema CMYK para generar colores?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Reflejar la luz blanca y sustraer algún color con tintas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Sumar fuentes de luz.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Utilizar solo colores secundarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Absorber todos los colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Dónde se utiliza comúnmente el esquema de color sustractivo CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Dónde se utiliza comúnmente el esquema de color sustractivo CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>En impresoras e imprentas.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>En monitores, televisores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Solo lo utilizan los profesionales de la impresión.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Se utiliza en las pantallas de los teléfonos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Por qué se utiliza una tinta específica para conseguir el color negro en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Por qué se utiliza una tinta específica para conseguir el color negro en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Porque es más sencillo y se ve más oscuro.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Porque es más barato.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Para ahorrar tinta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Para resaltar el color blanco.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué absorbe la tinta amarilla en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué absorbe la tinta amarilla en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Azul.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Todos los colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué absorbe la tinta magenta en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué absorbe la tinta magenta en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Verde.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué absorbe la tinta cian en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué absorbe la tinta cian en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Blanco.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿En qué se basa la formación de colores secundarios en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿En qué se basa la formación de colores secundarios en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Mezclando tintas y absorbiendo más de un color.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Sumando colores primarios.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Reflejando la luz blanca.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>No se forman colores secundarios en este esquema.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color negro en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color negro en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Sumando los tres colores primarios o con la tinta K (negra).</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Restando los tres colores primarios cian, magenta y amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Sin mezclar ninguna tinta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>No es posible formar negro en este esquema.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color verde en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color verde en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cian + Amarillo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Magenta + Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cian + Magenta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color rojo en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color rojo en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Magenta + Amarillo.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cian + Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cian + Magenta.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Verde + Azul.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cómo se forma el color azul en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cómo se forma el color azul en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cian + Magenta.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Magenta + Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cian + Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo + Verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuáles son los colores secundarios en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuáles son los colores secundarios en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Rojo, verde y azul.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Amarillo, magenta y cian.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Blanco y negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Rojo, amarillo y verde.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué produce la ausencia de color en el esquema CMYK?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué produce la ausencia de color en el esquema CMYK?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>El color blanco.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color negro.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color gris.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>El color Amarillo.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
 </quiz>

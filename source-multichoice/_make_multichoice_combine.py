@@ -88,7 +88,7 @@ projects = [
       'es-software-sistema-operativo-6.yaml',
       'es-software-sistema-operativo-6.yaml',
       'es-software-formatos-imagen-3.yaml',
-      #'es-software-formatos-imagen-4.yaml',
+      'es-software-formatos-imagen-4.yaml',
       ],
    'filename_output': 'es-software',
    'yaml_category': 'Software de ordenador',
@@ -155,6 +155,7 @@ def main():
       Copyrights = []
       Licenses = []
       License_links = []
+      Modify_times = []
       for yaml_file in project['yaml_files']:
          print(yaml_file)
          questionary.read_yaml(yaml_file, path=multichoice_path)
@@ -162,7 +163,8 @@ def main():
          Copyrights.append(questionary.header['Copyright'])
          Licenses.append(questionary.header['License'])
          License_links.append(questionary.header['License_link'])
-      
+         Modify_times.append(questionary.mtime)
+
       # Shuffle and select questions
       if project['random_seed']:
          random.seed(project['random_seed'])
@@ -184,6 +186,7 @@ def main():
          'Show_max': project['max_questions'],
          }
       questionary.questions = all_questions
+      questionary.mtime = max(Modify_times)
       questionary.docx_generate(path=build_path)
       questionary.moodle_generate(moodle_template, path=moodle_path)
       questionary.json_generate(json_template, path=html_path)

@@ -1,0 +1,715 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Software/es-software-formatos-imagen-4</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué se entiende por profundidad de color?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué se entiende por profundidad de color?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Número de colores distintos que puede mostrar una imagen.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tamaño físico de la imagen en número de píxeles totales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Resolución de la imagen.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tipo de formato de imagen.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuál es la menor profundidad de color posible?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es la menor profundidad de color posible?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>2 colores.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>256 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos niveles de color tiene la profundidad de color de una imagen JPEG estándar?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos niveles de color tiene la profundidad de color de una imagen JPEG estándar?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>8 bits (256 niveles) para cada uno de los tres tonos RGB.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 bits (16 niveles) en total.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>14 bits (16384 niveles) para cada uno de los tres tonos RGB.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>1 bit (2 niveles) en total.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos colores distintos puede mostrar una imagen JPEG estándar?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos colores distintos puede mostrar una imagen JPEG estándar?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>16 millones de colores.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 billones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>256 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>2 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Para qué se utiliza la profundidad de color de 1 bit?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Para qué se utiliza la profundidad de color de 1 bit?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Enviar fax, almacenar texto o dibujos sencillos.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Escaneado de documentos para representar colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Imágenes JPEG estándar.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cámaras profesionales o de alta gama.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos colores puede representar la profundidad de color de 4 bits?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos colores puede representar la profundidad de color de 4 bits?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>16 colores.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>256 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>2 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 millones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de errores puede presentar la profundidad de color de 4 bits?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué tipo de errores puede presentar la profundidad de color de 4 bits?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Errores evidentes en el color de la imagen.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Pérdida de calidad en los bordes de la imagen.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Falta de nitidez en los contornos de los objetos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Ausencia de color.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Por qué las cámaras profesionales toman imágenes de tipo RAW con mayor profundidad de color?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Por qué las cámaras profesionales toman imágenes de tipo RAW con mayor profundidad de color?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Para editar o 'revelar' la imagen sin pérdidas de calidad.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Para que la imagen final ocupe menos espacio en el disco.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Para enviar fax.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Para poder realizar escaneado de documentos en alta resolución.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuál es la principal ventaja de la profundidad de color de 1 bit?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es la principal ventaja de la profundidad de color de 1 bit?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ocupa muy poco espacio.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Permite representar muchos colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Ofrece una alta resolución.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Se utiliza en cámaras profesionales.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos tonos de gris puede representar la profundidad de color de 8 bits gris?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos tonos de gris puede representar la profundidad de color de 8 bits gris?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>256 tonos de gris.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 millones de tonos de gris.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 billones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos colores puede representar la profundidad de color de 8 bits?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos colores puede representar la profundidad de color de 8 bits?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>256 colores.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 millones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 billones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>16 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuál es el estándar de las imágenes con formato GIF en términos de profundidad de color?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es el estándar de las imágenes con formato GIF en términos de profundidad de color?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Profundidad de color de 8 bits.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 24 bits.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 8 bits gris.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 14 bits por cada tono RGB.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué significa True Color en términos de profundidad de color?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué significa True Color en términos de profundidad de color?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Profundidad de color de 24 bits RGB (16 millones de colores).</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 8 bits (256 colores).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 14 bits por tono RGB (4 billones de colores).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Profundidad de color de 8 bits gris (256 tonos).</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuántos colores puede representar la profundidad de color de 24 bits RGB?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuántos colores puede representar la profundidad de color de 24 bits RGB?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>16 millones de colores.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>256 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>4 billones de colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>8 colores.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuál es la ventaja de la profundidad de color de 8 bits gris?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuál es la ventaja de la profundidad de color de 8 bits gris?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>No tiene apenas pérdida de calidad en los tonos y ocupa poco espacio.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Permite representar las imágenes en calidad true color, sin pérdida de calidad en el color.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Tiene la mayor calidad posible.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Es estándar en las imágenes JPEG.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué tipo de imágenes son las más apropiadas para operaciones de edición según el texto?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué tipo de imágenes son las más apropiadas para operaciones de edición según el texto?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Imágenes con más de 8 bits por cada tono RGB.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Imágenes con 8 bits por tono RGB.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Imágenes con profundidad de color total de 24 bits.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Imágenes con profundidad de color total de 8 bits.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+</quiz>

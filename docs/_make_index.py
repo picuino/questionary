@@ -165,7 +165,7 @@ index_data = [
           ["es-software-formatos-imagen-1.html", "Formatos de imagen I"],
           ["es-software-formatos-imagen-2.html", "Formatos de imagen II"],
           ["es-software-formatos-imagen-3.html", "Formatos de imagen III"],
-          #["es-software-formatos-imagen-4.html", "Formatos de imagen IV"],
+          ["es-software-formatos-imagen-4.html", "Formatos de imagen IV"],
           ["es-software.html", "Test global de Software"],
        ]
    },
