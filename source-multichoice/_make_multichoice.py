@@ -372,7 +372,10 @@ class Questionary():
          question_b64['Title'] = self.b64encode(question_b64['Title'])
          question_b64['Question'] = self.b64encode(question_b64['Question'])
          for i in range(len(question_b64['Choices'])):
-            question_b64['Choices'][i] = self.b64encode(question_b64['Choices'][i])
+            try:
+               question_b64['Choices'][i] = self.b64encode(question_b64['Choices'][i])
+            except:
+               print('   Error in choice:', question_b64['Choices'][i])
          questions_b64.append(question_b64)
 
       # Generate and save json

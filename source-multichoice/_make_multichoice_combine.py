@@ -89,6 +89,8 @@ projects = [
       'es-software-sistema-operativo-6.yaml',
       'es-software-formatos-imagen-3.yaml',
       'es-software-formatos-imagen-4.yaml',
+      'es-software-formatos-imagen-5.yaml',
+      'es-software-formatos-imagen-6.yaml',
       ],
    'filename_output': 'es-software',
    'yaml_category': 'Software de ordenador',

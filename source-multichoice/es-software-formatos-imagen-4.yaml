@@ -149,6 +149,7 @@ Show_max: 0
     - 4 billones de colores.
     - 8 colores.
 
+
 - Title:
   Question: ¿Cuál es la ventaja de la profundidad de color de 8 bits gris?
   Choices:
@@ -161,9 +162,189 @@ Show_max: 0
 
 - Title:
   Question: ¿Qué tipo de imágenes son las más apropiadas para operaciones
-            de edición según el texto?
+            de edición?
   Choices:
     - Imágenes con más de 8 bits por cada tono RGB.
     - Imágenes con 8 bits por tono RGB.
     - Imágenes con profundidad de color total de 24 bits.
     - Imágenes con profundidad de color total de 8 bits.
+
+
+#
+# JPEG
+#
+
+- Title:
+  Question: ¿Qué significa la sigla JPEG?
+  Choices:
+    - Joint Photographic Experts Group
+    - Joint Programming Experts Group
+    - Java Photo Encoding Group
+    - Juxtaposed Pixel Enhancement Group
+
+
+- Title:
+  Question: ¿En qué año fue creado el formato JPEG?
+  Choices:
+    - 1992
+    - 1985
+    - 2000
+    - 1978
+
+
+- Title:
+  Question: ¿Por qué se dice que el formato JPEG es "lossy"?
+  Choices:
+    - Porque pierde información de la imagen al comprimir.
+    - Porque no tiene pérdida de información al comprimir.
+    - Porque comprime imágenes sin perder calidad.
+    - Porque garantiza la calidad total de la imagen.
+
+
+- Title:
+  Question: ¿En qué tipo de imágenes es recomendable utilizar el
+            formato JPEG?
+  Choices:
+    - Fotografías
+    - Dibujos y gráficos
+    - Texto
+    - Imágenes con transparencias
+
+
+- Title:
+  Question: ¿Cuál es una desventaja del formato JPEG en comparación
+            con los formatos RAW para editar fotografías?
+  Choices:
+    - Tiene una profundidad de color limitada a 8 bits por tono.
+    - Tiene una amplia profundidad de color de 14 bits por tono.
+    - Tiene mejor calidad en los pequeños detalles.
+    - No pierde información al comprimir la imagen.
+
+
+- Title:
+  Question: ¿Qué significa la sigla RGB?
+  Choices:
+    - Red, Green, Blue.
+    - Random Graphics Buffer.
+    - Realistic Graphic Bytes.
+    - Raw Gray Background.
+
+
+- Title:
+  Question: ¿Cuál es la profundidad de color del formato JPEG?
+  Choices:
+    - 8 bits por tono.
+    - 4 bits por tono.
+    - 16 bits por tono.
+    - 24 bits por tono.
+
+
+- Title:
+  Question: ¿Por qué no es recomendable utilizar JPEG para
+            imágenes recortadas?
+  Choices:
+    - Porque no permite definir transparencias.
+    - Porque genera artefactos.
+    - Porque tiene pérdida de información.
+    - Porque tiene una profundidad de color limitada.
+
+
+- Title:
+  Question: ¿Cuál es una alternativa recomendada al formato JPEG
+            para imágenes con transparencias?
+  Choices:
+    - PNG
+    - RAW
+    - BMP
+    - TIFF
+
+
+#
+# PNG
+#
+
+- Title:
+  Question: ¿Qué significa la sigla PNG?
+  Choices:
+    - Portable Network Graphics
+    - Photo Numeric Generator
+    - Pixel Non-compression Graphics
+    - Printable Neutral Graphics
+
+
+- Title:
+  Question: ¿En qué año fue creado el formato PNG?
+  Choices:
+    - 1995
+    - 2000
+    - 1988
+    - 1990
+
+
+- Title:
+  Question: ¿Cómo es la compresión de la imagen en el formato PNG?
+  Choices:
+    - Sin pérdidas.
+    - Con pérdidas mínimas.
+    - Con pérdidas significativas.
+    - Sin compresión.
+
+
+- Title:
+  Question: ¿Para qué tipo de imágenes es ideal el formato PNG?
+  Choices:
+    - Gráficas, Dibujos y texto.
+    - Fotografías.
+    - Imágenes con pequeños detalles.
+    - Imágenes con artefactos.
+
+
+- Title:
+  Question: ¿Por qué el formato PNG es recomendable para imágenes
+            que utilizan transparencias?
+  Choices:
+    - Cada píxel puede tener un código de color transparente.
+    - Tiene una mayor profundidad de color.
+    - Genera artefactos en los bordes transparentes.
+    - No es recomendable utilizar el formato PNG para manejar
+      transparencias.
+
+
+- Title:
+  Question: ¿Cuál es la desventaja del formato PNG en comparación
+            con el formato JPEG para almacenar fotografías?
+  Choices:
+    - Mayor tamaño de archivo.
+    - Pérdida de detalles en la compresión.
+    - Menor profundidad de color.
+    - Genera ruido o artefactos.
+
+
+- Title:
+  Question: ¿Cuál es la recomendación para guardar fotografías sin
+            pérdida de calidad?
+  Choices:
+    - Utilizar el formato TIFF.
+    - Utilizar el formato BMP.
+    - Utilizar el formato GIF.
+    - Utilizar el formato JPEG o JPG.
+
+
+- Title:
+  Question: ¿Qué tipo de imágenes se pueden almacenar con una alta
+            compresión en el formato PNG?
+  Choices:
+    - Imágenes de texto en blanco y negro.
+    - Imágenes con transparencias.
+    - Fotografías en escala de grises.
+    - Imágenes con colores CMYK.
+
+
+- Title:
+  Question: ¿Qué característica no permite el formato PNG en
+            relación con los colores?
+  Choices:
+    - Almacenar colores CMYK.
+    - Almacenar colores en escala de grises.
+    - Adaptar la profundidad de color a cada aplicación.
+    - Utilizar el modelo de color RGB de 8 bits por color.

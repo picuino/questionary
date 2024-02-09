@@ -2,19 +2,19 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Software/es-software-formatos-imagen-4</text> </category>
+    <category> <text>$course$/top/Software/es-software-formatos-imagen-6</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
 
 
   <question type="multichoice">
-    <name> <text>¿Qué se entiende por profundidad de color?</text> </name>
+    <name> <text>¿Cómo están compuestos los formatos de imágenes vectoriales?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué se entiende por profundidad de color?</p>
+         <p>¿Cómo están compuestos los formatos de imágenes vectoriales?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -30,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Número de colores distintos que puede mostrar una imagen.</text>
+       <text>Por vectores, que son instrucciones matemáticas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tamaño físico de la imagen en número de píxeles totales.</text>
+       <text>Por píxeles y colores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Resolución de la imagen.</text>
+       <text>Por capas y filtros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tipo de formato de imagen.</text>
+       <text>Por líneas y formas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -53,12 +53,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la menor profundidad de color posible?</text> </name>
+    <name> <text>¿Qué permite hacer el formato SVG con las imágenes vectoriales?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la menor profundidad de color posible?</p>
+         <p>¿Qué permite hacer el formato SVG con las imágenes vectoriales?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -74,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>2 colores.</text>
+       <text>Escalar de manera infinita sin perder resolución o calidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 colores.</text>
+       <text>Comprimir mucho las imágenes para ahorrar espacio de almacenamiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 colores.</text>
+       <text>Añadir efectos de iluminación a las imágenes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>256 colores.</text>
+       <text>Aplicar filtros de color a las imágenes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -97,12 +97,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos niveles de color tiene la profundidad de color de una imagen JPEG estándar?</text> </name>
+    <name> <text>¿Qué significa la sigla SVG?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos niveles de color tiene la profundidad de color de una imagen JPEG estándar?</p>
+         <p>¿Qué significa la sigla SVG?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -118,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>8 bits (256 niveles) para cada uno de los tres tonos RGB.</text>
+       <text>Scalable Vector Graphics.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 bits (16 niveles) en total.</text>
+       <text>Standard Vector Graphics.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>14 bits (16384 niveles) para cada uno de los tres tonos RGB.</text>
+       <text>Scalable Visual Geometry.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1 bit (2 niveles) en total.</text>
+       <text>Software Vector Generator.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -141,12 +141,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos colores distintos puede mostrar una imagen JPEG estándar?</text> </name>
+    <name> <text>¿Cuándo fue publicado el formato SVG?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos colores distintos puede mostrar una imagen JPEG estándar?</p>
+         <p>¿Cuándo fue publicado el formato SVG?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -162,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>16 millones de colores.</text>
+       <text>1999.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 billones de colores.</text>
+       <text>2005.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>256 colores.</text>
+       <text>1995.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>2 colores.</text>
+       <text>1989.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -185,12 +185,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza la profundidad de color de 1 bit?</text> </name>
+    <name> <text>¿Cuál es una característica clave de las imágenes vectoriales en comparación con las imágenes raster?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza la profundidad de color de 1 bit?</p>
+         <p>¿Cuál es una característica clave de las imágenes vectoriales en comparación con las imágenes raster?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -206,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Enviar fax, almacenar texto o dibujos sencillos.</text>
+       <text>Se pueden escalar de manera infinita sin perder resolución o calidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Escaneado de documentos para representar colores.</text>
+       <text>Tienen mayor cantidad de colores que las imágenes raster.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes JPEG estándar.</text>
+       <text>Son más adecuadas para fotografías.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cámaras profesionales o de alta gama.</text>
+       <text>Ocupan menos espacio de almacenamiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -229,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos colores puede representar la profundidad de color de 4 bits?</text> </name>
+    <name> <text>¿Para qué fue creado el formato SVG?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos colores puede representar la profundidad de color de 4 bits?</p>
+         <p>¿Para qué fue creado el formato SVG?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>16 colores.</text>
+       <text>Para distribuir imágenes vectoriales en la web.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>256 colores.</text>
+       <text>Para distribuir fotografías profesionales en la web.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>2 colores.</text>
+       <text>Para imprimir documentos en alta resolución.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 millones de colores.</text>
+       <text>Para crear videos en línea.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -273,12 +273,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de errores puede presentar la profundidad de color de 4 bits?</text> </name>
+    <name> <text>¿Cómo se pueden manipular las imágenes SVG para crear animaciones?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de errores puede presentar la profundidad de color de 4 bits?</p>
+         <p>¿Cómo se pueden manipular las imágenes SVG para crear animaciones?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -294,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Errores evidentes en el color de la imagen.</text>
+       <text>Con JavaScript.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pérdida de calidad en los bordes de la imagen.</text>
+       <text>Con un programa de edición de imágenes rasterizadas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Falta de nitidez en los contornos de los objetos.</text>
+       <text>Con un lenguaje de programación propio del formato.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Ausencia de color.</text>
+       <text>Con herramientas de compresión de archivos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -317,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué las cámaras profesionales toman imágenes de tipo RAW con mayor profundidad de color?</text> </name>
+    <name> <text>¿Qué consorcio publicó el estándar abierto del formato SVG?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué las cámaras profesionales toman imágenes de tipo RAW con mayor profundidad de color?</p>
+         <p>¿Qué consorcio publicó el estándar abierto del formato SVG?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -338,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para editar o 'revelar' la imagen sin pérdidas de calidad.</text>
+       <text>W3C (World Wide Web Consortium)</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para que la imagen final ocupe menos espacio en el disco.</text>
+       <text>ISO (International Organization for Standardization)</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para enviar fax.</text>
+       <text>IEEE (Institute of Electrical and Electronics Engineers)</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para poder realizar escaneado de documentos en alta resolución.</text>
+       <text>NATO (North Atlantic Treaty Organization)</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la principal ventaja de la profundidad de color de 1 bit?</text> </name>
+    <name> <text>¿Qué significa la sigla PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la principal ventaja de la profundidad de color de 1 bit?</p>
+         <p>¿Qué significa la sigla PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -382,22 +382,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Ocupa muy poco espacio.</text>
+       <text>Portable Document Format</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Permite representar muchos colores.</text>
+       <text>Personal Data File</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Ofrece una alta resolución.</text>
+       <text>Print Document Finder</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Se utiliza en cámaras profesionales.</text>
+       <text>Program Data Framework</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -405,12 +405,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos tonos de gris puede representar la profundidad de color de 8 bits gris?</text> </name>
+    <name> <text>¿Qué empresa diseñó el estándar PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos tonos de gris puede representar la profundidad de color de 8 bits gris?</p>
+         <p>¿Qué empresa diseñó el estándar PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -426,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>256 tonos de gris.</text>
+       <text>Adobe</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 millones de tonos de gris.</text>
+       <text>Microsoft</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 billones de colores.</text>
+       <text>Apple</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 colores.</text>
+       <text>Google</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -449,12 +449,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos colores puede representar la profundidad de color de 8 bits?</text> </name>
+    <name> <text>¿Qué tipo de documentos se pueden visualizar e imprimir fácilmente en cualquier dispositivo con el formato PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos colores puede representar la profundidad de color de 8 bits?</p>
+         <p>¿Qué tipo de documentos se pueden visualizar e imprimir fácilmente en cualquier dispositivo con el formato PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -470,22 +470,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>256 colores.</text>
+       <text>Documentos digitales de texto e imágenes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 millones de colores.</text>
+       <text>Imágenes rasterizadas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 billones de colores.</text>
+       <text>Archivos de audio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 colores.</text>
+       <text>Archivos de video.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -493,12 +493,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el estándar de las imágenes con formato GIF en términos de profundidad de color?</text> </name>
+    <name> <text>¿Cómo es el formato PDF en términos de estandarización y apertura al uso libre?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el estándar de las imágenes con formato GIF en términos de profundidad de color?</p>
+         <p>¿Cómo es el formato PDF en términos de estandarización y apertura al uso libre?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -514,22 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Profundidad de color de 8 bits.</text>
+       <text>Es un formato estandarizado y abierto a que cualquiera lo utilice libremente.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 24 bits.</text>
+       <text>Es un formato no estándar y de uso restringido a los que compren la licencia a la empresa Adobe.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 8 bits gris.</text>
+       <text>Es un formato cerrado y exclusivo de Adobe.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 14 bits por cada tono RGB.</text>
+       <text>Es un estándar limitado a ciertos dispositivos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -537,12 +537,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué significa True Color en términos de profundidad de color?</text> </name>
+    <name> <text>¿Qué tipo de contenido pueden contener los documentos en formato PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa True Color en términos de profundidad de color?</p>
+         <p>¿Qué tipo de contenido pueden contener los documentos en formato PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -558,22 +558,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Profundidad de color de 24 bits RGB (16 millones de colores).</text>
+       <text>Texto, hipervínculos, gráficas, dibujos, fotografías y vídeo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 8 bits (256 colores).</text>
+       <text>Solo texto y gráficas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 14 bits por tono RGB (4 billones de colores).</text>
+       <text>Solo imágenes y texto.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Profundidad de color de 8 bits gris (256 tonos).</text>
+       <text>Solo hipervínculos y fotografías.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -581,12 +581,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos colores puede representar la profundidad de color de 24 bits RGB?</text> </name>
+    <name> <text>¿Cuál es una ventaja destacada del formato PDF según el texto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos colores puede representar la profundidad de color de 24 bits RGB?</p>
+         <p>¿Cuál es una ventaja destacada del formato PDF según el texto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -602,22 +602,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>16 millones de colores.</text>
+       <text>Mantiene inalterada la composición de página y permite almacenar documentos a largo plazo.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>256 colores.</text>
+       <text>Permite una fácil edición y modificación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 billones de colores.</text>
+       <text>Ocupa poco espacio de almacenamiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>8 colores.</text>
+       <text>Es exclusivo para dispositivos de Apple.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -625,12 +625,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la ventaja de la profundidad de color de 8 bits gris?</text> </name>
+    <name> <text>¿Qué desventaja menciona el texto sobre la edición del formato PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la ventaja de la profundidad de color de 8 bits gris?</p>
+         <p>¿Qué desventaja menciona el texto sobre la edición del formato PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -646,22 +646,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>No tiene apenas pérdida de calidad en los tonos y ocupa poco espacio.</text>
+       <text>Se puede editar con dificultad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Permite representar las imágenes en calidad true color, sin pérdida de calidad en el color.</text>
+       <text>No se puede imprimir.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene la mayor calidad posible.</text>
+       <text>No se puede editar en dispositivos móviles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es estándar en las imágenes JPEG.</text>
+       <text>No se puede editar en dispositivos Apple.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -669,12 +669,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de imágenes son las más apropiadas para operaciones de edición?</text> </name>
+    <name> <text>¿Qué se recomienda como precaución al utilizar el formato PDF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de imágenes son las más apropiadas para operaciones de edición?</p>
+         <p>¿Qué se recomienda como precaución al utilizar el formato PDF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -690,22 +690,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Imágenes con más de 8 bits por cada tono RGB.</text>
+       <text>Almacenar también el archivo fuente original.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con 8 bits por tono RGB.</text>
+       <text>Convertirlo a formato de imagen.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con profundidad de color total de 24 bits.</text>
+       <text>Comprimirlo para ahorrar espacio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con profundidad de color total de 8 bits.</text>
+       <text>Enviar solo la versión impresa del documento..</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -713,12 +713,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué significa la sigla JPEG?</text> </name>
+    <name> <text>¿Qué son las fuentes tipográficas vectoriales según el texto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa la sigla JPEG?</p>
+         <p>¿Qué son las fuentes tipográficas vectoriales según el texto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +734,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Joint Photographic Experts Group</text>
+       <text>Conjuntos de símbolos y letras diseñados para su uso en computadoras.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Joint Programming Experts Group</text>
+       <text>Fotografías de alta resolución.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Java Photo Encoding Group</text>
+       <text>Archivos de audio para reproducción en línea.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Juxtaposed Pixel Enhancement Group</text>
+       <text>Imágenes rasterizadas para imprimir en papel.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +757,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué año fue creado el formato JPEG?</text> </name>
+    <name> <text>¿Cómo son las fuentes tipográficas vectoriales en términos de escalabilidad?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué año fue creado el formato JPEG?</p>
+         <p>¿Cómo son las fuentes tipográficas vectoriales en términos de escalabilidad?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>1992</text>
+       <text>Son fácilmente escalables, se pueden aumentar de tamaño sin perder calidad</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1985</text>
+       <text>Son fácilmente escalables, pero pierden calidad al aumentar su tamaño.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>2000</text>
+       <text>No son escalables, mantienen un tamaño fijo para no perder calidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1978</text>
+       <text>Solo son escalables en dispositivos Apple.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -801,12 +801,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué se dice que el formato JPEG es "lossy"?</text> </name>
+    <name> <text>¿Cuál es uno de los formatos más utilizados hoy en día para definir fuentes tipográficas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué se dice que el formato JPEG es "lossy"?</p>
+         <p>¿Cuál es uno de los formatos más utilizados hoy en día para definir fuentes tipográficas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +822,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque pierde información de la imagen al comprimir.</text>
+       <text>TrueType Font (TTF)</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque no tiene pérdida de información al comprimir.</text>
+       <text>OpenType Font (OTF)</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque comprime imágenes sin perder calidad.</text>
+       <text>SVG</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque garantiza la calidad total de la imagen.</text>
+       <text>GIF</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -845,12 +845,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué tipo de imágenes es recomendable utilizar el formato JPEG?</text> </name>
+    <name> <text>¿Quiénes desarrollaron el formato TrueType (TTF)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué tipo de imágenes es recomendable utilizar el formato JPEG?</p>
+         <p>¿Quiénes desarrollaron el formato TrueType (TTF)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Fotografías</text>
+       <text>Apple y Microsoft</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Dibujos y gráficos</text>
+       <text>Adobe y Apple</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Texto</text>
+       <text>Microsoft y Adobe</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con transparencias</text>
+       <text>Google y IBM</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -889,12 +889,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es una desventaja del formato JPEG en comparación con los formatos RAW para editar fotografías?</text> </name>
+    <name> <text>¿En qué década fue desarrollado el formato TrueType (TTF)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es una desventaja del formato JPEG en comparación con los formatos RAW para editar fotografías?</p>
+         <p>¿En qué década fue desarrollado el formato TrueType (TTF)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +910,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tiene una profundidad de color limitada a 8 bits por tono.</text>
+       <text>A finales de la década de 1980</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene una amplia profundidad de color de 14 bits por tono.</text>
+       <text>A principios de la década de 1990</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene mejor calidad en los pequeños detalles.</text>
+       <text>En la década de 2000</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No pierde información al comprimir la imagen.</text>
+       <text>En la década de 1970</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -933,12 +933,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué significa la sigla RGB?</text> </name>
+    <name> <text>¿Cómo se define el formato PostScript (PS)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa la sigla RGB?</p>
+         <p>¿Cómo se define el formato PostScript (PS)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +954,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Red, Green, Blue.</text>
+       <text>Lenguaje desarrollado por Adobe para la impresión con impresoras de alta calidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Random Graphics Buffer.</text>
+       <text>Formato de imagen utilizado en pantallas de computadoras de alta calidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Realistic Graphic Bytes.</text>
+       <text>Tipo de letra utilizado en dispositivos Apple.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Raw Gray Background.</text>
+       <text>Formato para la creación de gráficos en 3D.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -977,12 +977,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la profundidad de color del formato JPEG?</text> </name>
+    <name> <text>¿Cuál es una característica clave del formato PostScript (PS)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la profundidad de color del formato JPEG?</p>
+         <p>¿Cuál es una característica clave del formato PostScript (PS)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +998,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>8 bits por tono.</text>
+       <text>Permite definir tipos de letra y tiene muchas más aplicaciones.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>4 bits por tono.</text>
+       <text>Es exclusivo para impresoras de baja calidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>16 bits por tono.</text>
+       <text>Es incompatible con sistemas operativos modernos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>24 bits por tono.</text>
+       <text>Se utiliza solo en dispositivos Windows.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1021,12 +1021,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué no es recomendable utilizar JPEG para imágenes recortadas?</text> </name>
+    <name> <text>¿Cuándo fue desarrollado el formato OpenType (OTF)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué no es recomendable utilizar JPEG para imágenes recortadas?</p>
+         <p>¿Cuándo fue desarrollado el formato OpenType (OTF)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +1042,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque no permite definir transparencias.</text>
+       <text>En 1996.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque genera artefactos.</text>
+       <text>En la década de 1980.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque tiene pérdida de información.</text>
+       <text>En 2000.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque tiene una profundidad de color limitada.</text>
+       <text>En la década de 1970.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1065,12 +1065,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es una alternativa recomendada al formato JPEG para imágenes con transparencias?</text> </name>
+    <name> <text>¿Quiénes desarrollaron el formato OpenType (OTF)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es una alternativa recomendada al formato JPEG para imágenes con transparencias?</p>
+         <p>¿Quiénes desarrollaron el formato OpenType (OTF)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +1086,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>PNG</text>
+       <text>Microsoft y Adobe.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>RAW</text>
+       <text>Apple y Google.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>BMP</text>
+       <text>IBM y Oracle.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>TIFF</text>
+       <text>Sony y HP.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1109,12 +1109,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué significa la sigla PNG?</text> </name>
+    <name> <text>¿Cuál es el estado actual del formato OpenType (OTF)?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa la sigla PNG?</p>
+         <p>¿Cuál es el estado actual del formato OpenType (OTF)?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +1130,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Portable Network Graphics</text>
+       <text>Estándar abierto (Open Font Format), disponible de manera pública y gratuita.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Photo Numeric Generator</text>
+       <text>Formato cerrado y exclusivo de las empresas que lo crearon y de sus clientes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pixel Non-compression Graphics</text>
+       <text>Solo disponible para dispositivos Apple.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Printable Neutral Graphics</text>
+       <text>En desuso y sin soporte.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1153,12 +1153,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué año fue creado el formato PNG?</text> </name>
+    <name> <text>¿Qué significa la sigla OTF?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué año fue creado el formato PNG?</p>
+         <p>¿Qué significa la sigla OTF?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,22 +1174,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>1995</text>
+       <text>OpenType Font</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>2000</text>
+       <text>Original Text Format</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1988</text>
+       <text>Open Text File</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1990</text>
+       <text>Online Typeface</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1197,12 +1197,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo es la compresión de la imagen en el formato PNG?</text> </name>
+    <name> <text>¿Qué sistema de tipografía es muy popular en el entorno académico universitario?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo es la compresión de la imagen en el formato PNG?</p>
+         <p>¿Qué sistema de tipografía es muy popular en el entorno académico universitario?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1218,22 +1218,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Sin pérdidas.</text>
+       <text>TeX y LaTeX.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Con pérdidas mínimas.</text>
+       <text>OpenType.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Con pérdidas significativas.</text>
+       <text>TrueType.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Sin compresión.</text>
+       <text>PostScript.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1241,12 +1241,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué tipo de imágenes es ideal el formato PNG?</text> </name>
+    <name> <text>¿Quién escribió el sistema de tipografía TeX?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué tipo de imágenes es ideal el formato PNG?</p>
+         <p>¿Quién escribió el sistema de tipografía TeX?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1262,22 +1262,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Gráficas, Dibujos y texto.</text>
+       <text>Donald E. Knuth.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fotografías.</text>
+       <text>Steve Jobs.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con pequeños detalles.</text>
+       <text>Tim Berners-Lee.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con artefactos.</text>
+       <text>Linus Torvalds.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1285,12 +1285,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué el formato PNG es recomendable para imágenes que utilizan transparencias?</text> </name>
+    <name> <text>¿Qué sistema de macros amplía las capacidades del sistema TeX para la composición de textos profesional?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué el formato PNG es recomendable para imágenes que utilizan transparencias?</p>
+         <p>¿Qué sistema de macros amplía las capacidades del sistema TeX para la composición de textos profesional?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1306,22 +1306,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Cada píxel puede tener un código de color transparente.</text>
+       <text>El sistema LaTeX.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene una mayor profundidad de color.</text>
+       <text>El formato TrueType.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Genera artefactos en los bordes transparentes.</text>
+       <text>El estándar OpenType (OTF).</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No es recomendable utilizar el formato PNG para manejar transparencias.</text>
+       <text>El sistema PostScript.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1329,12 +1329,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la desventaja del formato PNG en comparación con el formato JPEG para almacenar fotografías?</text> </name>
+    <name> <text>¿Cómo se describe el sistema TeX en términos de licencia?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la desventaja del formato PNG en comparación con el formato JPEG para almacenar fotografías?</p>
+         <p>¿Cómo se describe el sistema TeX en términos de licencia?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1350,154 +1350,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Mayor tamaño de archivo.</text>
+       <text>Software libre, cualquiera puede utilizarlo sin pagar licencia.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pérdida de detalles en la compresión.</text>
+       <text>Requiere una licencia costosa para su uso.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Menor profundidad de color.</text>
+       <text>Solo puede ser utilizado por instituciones académicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Genera ruido o artefactos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es la recomendación para guardar fotografías sin pérdida de calidad?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la recomendación para guardar fotografías sin pérdida de calidad?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Utilizar el formato TIFF.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar el formato BMP.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar el formato GIF.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar el formato JPEG o JPG.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué tipo de imágenes se pueden almacenar con una alta compresión en el formato PNG?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de imágenes se pueden almacenar con una alta compresión en el formato PNG?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Imágenes de texto en blanco y negro.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con transparencias.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Fotografías en escala de grises.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Imágenes con colores CMYK.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué característica no permite el formato PNG en relación con los colores?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué característica no permite el formato PNG en relación con los colores?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Almacenar colores CMYK.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Almacenar colores en escala de grises.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Adaptar la profundidad de color a cada aplicación.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar el modelo de color RGB de 8 bits por color.</text>
+       <text>No se conoce ninguna información sobre la licencia.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
