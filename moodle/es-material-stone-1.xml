@@ -2,19 +2,19 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Materiales/es-material-properties-1</text> </category>
+    <category> <text>$course$/top/Materiales/es-material-stone-1</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
 
 
   <question type="multichoice">
-    <name> <text>¿Qué son las propiedades de los materiales?</text> </name>
+    <name> <text>¿Qué son los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué son las propiedades de los materiales?</p>
+         <p>¿Qué son los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -30,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Características únicas de cada material.</text>
+       <text>Materiales que provienen de piedras o arenas de la naturaleza.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Nombres asignados a los materiales.</text>
+       <text>Materiales blandos de origen natural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Colores de los materiales.</text>
+       <text>Materiales provenientes de plantas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tamaños de los materiales.</text>
+       <text>Materiales derivados de minerales metálicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -53,12 +53,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué las ollas se fabrican con acero inoxidable?</text> </name>
+    <name> <text>¿Cómo son las propiedades mecánicas de los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué las ollas se fabrican con acero inoxidable?</p>
+         <p>¿Cómo son las propiedades mecánicas de los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -74,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Conduce bien el calor, es resistente y no se oxida.</text>
+       <text>Duros, frágiles y con resistencia mecánica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es barato y fácil de conseguir.</text>
+       <text>Blandos y flexibles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene un color atractivo.</text>
+       <text>Ligeros y maleables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es ligero y fácil de manejar.</text>
+       <text>Transparentes y sólidos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -97,12 +97,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la función del material plástico en los mangos de las ollas?</text> </name>
+    <name> <text>¿Qué densidad tienen los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la función del material plástico en los mangos de las ollas?</p>
+         <p>¿Qué densidad tienen los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -118,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Evitar la conducción del calor.</text>
+       <text>Suele variar entre 1,5 y 2,8 kg/litro.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Aumentar la resistencia al calor.</text>
+       <text>Siempre es mayor que la del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mejorar la conductividad térmica.</text>
+       <text>Siempre es menor que la del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Dificultar la oxidación del material.</text>
+       <text>No se conoce.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -141,12 +141,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué es importante conocer las propiedades de los materiales en la fabricación de objetos?</text> </name>
+    <name> <text>¿Qué materiales pétreos tienen una densidad muy baja, menor que la del agua?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué es importante conocer las propiedades de los materiales en la fabricación de objetos?</p>
+         <p>¿Qué materiales pétreos tienen una densidad muy baja, menor que la del agua?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -162,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para seleccionar el material adecuado para una aplicación específica.</text>
+       <text>Piedra pómez y diatomita.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Solo por razones estéticas.</text>
+       <text>Mármol y granito.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para complicar el proceso de fabricación.</text>
+       <text>Arena y cuarzo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para aumentar el costo de producción.</text>
+       <text>Porcelana y vidrio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -185,12 +185,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué nos dicen las propiedades mecánicas de un material?</text> </name>
+    <name> <text>¿Cómo es la respuesta a la luz de la mayoría de los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué nos dicen las propiedades mecánicas de un material?</p>
+         <p>¿Cómo es la respuesta a la luz de la mayoría de los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -206,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Cómo se comportará frente a los esfuerzos.</text>
+       <text>Opacos y resistentes la luz del sol.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El color del material.</text>
+       <text>Traslúcidos y opacos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La temperatura a la que se funde el material.</text>
+       <text>Opacos y sin resistencia a la radiación solar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La densidad del material.</text>
+       <text>Todos son transparentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -229,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se define la dureza de un material?</text> </name>
+    <name> <text>¿Qué materiales pétreos son muy transparentes?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se define la dureza de un material?</p>
+         <p>¿Qué materiales pétreos son muy transparentes?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Resistencia al rayado de la superficie.</text>
+       <text>Vidrio, cuarzo y zafiro.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Su capacidad para soportar golpes.</text>
+       <text>Mármol y granito.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Su resistencia al calor.</text>
+       <text>Piedra pómez y diatomita.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Su capacidad para conducir electricidad.</text>
+       <text>Porcelana y cerámica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -273,12 +273,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es un ejemplo de material duro?</text> </name>
+    <name> <text>¿Cómo es la resistencia a la radiación solar de la mayoría de los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es un ejemplo de material duro?</p>
+         <p>¿Cómo es la resistencia a la radiación solar de la mayoría de los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -294,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Cristal.</text>
+       <text>Son muy resistentes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Yeso.</text>
+       <text>No tienen resistencia.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Madera.</text>
+       <text>Son opacos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Goma.</text>
+       <text>No se conoce.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -317,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué consiste el ensayo de dureza con una pequeña pirámide de diamante?</text> </name>
+    <name> <text>¿Qué material pétreo es traslúcido?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué consiste el ensayo de dureza con una pequeña pirámide de diamante?</p>
+         <p>¿Qué material pétreo es traslúcido?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -338,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Apretar la punta de la pirámide sobre el material.</text>
+       <text>Porcelana.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Golpear el material con la punta de la pirámide.</text>
+       <text>Vidrio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Calentar el material.</text>
+       <text>Cerámica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Soplar sobre el material.</text>
+       <text>Granito.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué indica la huella dejada por el diamante en el ensayo de dureza?</text> </name>
+    <name> <text>¿Cómo son las propiedades de fabricación de los pétreos naturales?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué indica la huella dejada por el diamante en el ensayo de dureza?</p>
+         <p>¿Cómo son las propiedades de fabricación de los pétreos naturales?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -382,22 +382,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Cuanto más grande, más blando será el material.</text>
+       <text>Pueden ser cortados y pulidos para producir láminas y bloques.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cuanto más grande, más duro será el material.</text>
+       <text>Son maleables y dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No indica nada sobre la dureza del material.</text>
+       <text>No son maleables ni dúctiles, pero se funden con facilidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Indica la temperatura del material.</text>
+       <text>Son líquidos cuando se mezclan con agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -405,12 +405,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se define la tenacidad de un material?</text> </name>
+    <name> <text>¿Qué propiedades de fabricación tienen los pétreos aglomerantes?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se define la tenacidad de un material?</p>
+         <p>¿Qué propiedades de fabricación tienen los pétreos aglomerantes?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -426,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Soportar golpes sin romperse.</text>
+       <text>Son líquidos y fácilmente moldeables.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Resistir al rayado de la superficie.</text>
+       <text>Son pastosos y muy dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No soportar los golpes.</text>
+       <text>Son sólidos y fácilmente maleables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Ser fácilmente rayado.</text>
+       <text>Tienen pocas propiedades de fabricación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -449,12 +449,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué un bate de béisbol fabricado con madera es tenaz?</text> </name>
+    <name> <text>¿Cómo es la consistencia de los materiales cerámicos antes de cocerlos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué un bate de béisbol fabricado con madera es tenaz?</p>
+         <p>¿Cómo es la consistencia de los materiales cerámicos antes de cocerlos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -470,22 +470,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque soporta bien los golpes.</text>
+       <text>Muy maleable pero poco dúctil.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque es fácil de rayar.</text>
+       <text>Muy maleable y muy dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque se rompe con facilidad.</text>
+       <text>Poco maleable pero muy dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque no es blando.</text>
+       <text>Poco maleable y poco dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -493,12 +493,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué se entiende por un material frágil?</text> </name>
+    <name> <text>¿Qué propiedad destaca del vidrio cuando está caliente?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué se entiende por un material frágil?</p>
+         <p>¿Qué propiedad destaca del vidrio cuando está caliente?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -514,22 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Se rompe con facilidad con los golpes.</text>
+       <text>Es muy maleable y muy dúctil.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Soporta bien los golpes.</text>
+       <text>Es muy maleable pero poco dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es difícil de rayar.</text>
+       <text>Es poco maleable y poco dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Conduce bien la electricidad.</text>
+       <text>Es poco maleable pero muy dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -537,12 +537,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es un ejemplo de objeto hecho de material frágil?</text> </name>
+    <name> <text>¿Qué facilita la gran ductilidad del vidrio?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es un ejemplo de objeto hecho de material frágil?</p>
+         <p>¿Qué facilita la gran ductilidad del vidrio?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -558,22 +558,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Vaso de cristal.</text>
+       <text>Crear hilos finos y muy resistentes que refuerzan otros materiales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Bate de béisbol.</text>
+       <text>Crear láminas finas, transparentes y resistentes para las ventanas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cuchara de acero.</text>
+       <text>Moldear con facilidad el vidrio en cualquier forma.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Rueda de caucho.</text>
+       <text>El vidrio no es dúctil.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -581,12 +581,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se define la elasticidad de un material?</text> </name>
+    <name> <text>¿Por qué los vidrios y cerámicas se utilizan como separadores eléctricos en las líneas de alta tensión?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se define la elasticidad de un material?</p>
+         <p>¿Por qué los vidrios y cerámicas se utilizan como separadores eléctricos en las líneas de alta tensión?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -602,22 +602,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La propiedad de recuperar su forma original después de deformarse.</text>
+       <text>Porque tienen poca conductividad eléctrica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La capacidad de deformarse permanentemente ante esfuerzos.</text>
+       <text>Porque tienen alta conductividad térmica y eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La resistencia a los esfuerzos sin deformarse.</text>
+       <text>Porque son maleables y dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La capacidad de estirarse sin límite.</text>
+       <text>Porque se funden con facilidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -625,12 +625,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el opuesto de la elasticidad?</text> </name>
+    <name> <text>¿Cómo es la conductividad térmica y eléctrica de los pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el opuesto de la elasticidad?</p>
+         <p>¿Cómo es la conductividad térmica y eléctrica de los pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -646,22 +646,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Plasticidad.</text>
+       <text>Tienen poca conductividad térmica y eléctrica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Deformación.</text>
+       <text>Tienen poca conductividad térmica pero mucha conductividad eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Rigidez.</text>
+       <text>Tienen mucha conductividad térmica pero poca conductividad eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Maleabilidad.</text>
+       <text>Tienen mucha conductividad térmica y eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -669,12 +669,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué materiales son más elásticos?</text> </name>
+    <name> <text>¿Cómo resisten los materiales pétreos las altas tensiones y las altas temperaturas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué materiales son más elásticos?</p>
+         <p>¿Cómo resisten los materiales pétreos las altas tensiones y las altas temperaturas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -690,22 +690,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Látex y caucho.</text>
+       <text>Resisten bien las altas tensiones y temperaturas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Madera y acero.</text>
+       <text>Resisten mal las altas tensiones y temperaturas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plastilina.</text>
+       <text>Resisten bien las altas tensiones y mal las altas temperaturas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cerámica cocida.</text>
+       <text>Resisten mal las altas tensiones y bien las altas temperaturas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -713,12 +713,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué la plastilina es un ejemplo de material plástico?</text> </name>
+    <name> <text>¿Cómo se caracterizan las propiedades químicas de los pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué la plastilina es un ejemplo de material plástico?</p>
+         <p>¿Cómo se caracterizan las propiedades químicas de los pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +734,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Se deforma de manera permanente ante los esfuerzos.</text>
+       <text>Son muy estables y suelen resistir bien a ácidos y cáusticos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Recupera su forma original fácilmente al detenerse el esfuerzo.</text>
+       <text>Son inestables y se descomponen fácilmente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es resistente a los esfuerzos.</text>
+       <text>Son sensibles a la radiación solar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No se deforma.</text>
+       <text>Se oxidan con facilidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +757,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se define la resistencia mecánica de un material?</text> </name>
+    <name> <text>¿Qué materiales pétreos se deshacen con los ácidos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se define la resistencia mecánica de un material?</p>
+         <p>¿Qué materiales pétreos se deshacen con los ácidos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Capacidad de resistir esfuerzos sin romperse.</text>
+       <text>Rocas calizas y mármol.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Capacidad de estirarse indefinidamente.</text>
+       <text>Granito y pizarra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Resistencia al calor.</text>
+       <text>Vidrio y cerámica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Dureza del material.</text>
+       <text>Cemento y aglomerantes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -801,12 +801,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la medida de resistencia mecánica utilizada?</text> </name>
+    <name> <text>¿Qué material pétreo se pueden reciclar con facilidad?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la medida de resistencia mecánica utilizada?</p>
+         <p>¿Qué material pétreo se pueden reciclar con facilidad?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +822,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>kg/mm2.</text>
+       <text>El vidrio.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>kg/m3.</text>
+       <text>El asbesto.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>g/cm3.</text>
+       <text>El cemento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>kg/mm.</text>
+       <text>El granito.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -845,12 +845,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuántos kilogramos resiste aproximadamente un cable de acero de un milímetro cuadrado de sección?</text> </name>
+    <name> <text>¿Cómo suelen ser de reciclables los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuántos kilogramos resiste aproximadamente un cable de acero de un milímetro cuadrado de sección?</p>
+         <p>¿Cómo suelen ser de reciclables los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Alrededor de 100 kilogramos.</text>
+       <text>Suelen ser poco reciclables.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 8 kilogramos.</text>
+       <text>Suelen ser muy reciclables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alrededor de 1,5 kilogramos.</text>
+       <text>Suelen ser muy reciclables, pero un número pequeño de veces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Menos de 1 kilogramo.</text>
+       <text>No se sabe.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -889,12 +889,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se mide la resistencia mecánica antes de que un material se estire permanentemente?</text> </name>
+    <name> <text>¿Cómo es la toxicidad de los materiales pétreos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se mide la resistencia mecánica antes de que un material se estire permanentemente?</p>
+         <p>¿Cómo es la toxicidad de los materiales pétreos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +910,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Límite elástico.</text>
+       <text>El granito y el asbesto son tóxicos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Temperatura y presión.</text>
+       <text>No son tóxicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Deformación y elongación.</text>
+       <text>Son altamente tóxicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Densidad y volumen.</text>
+       <text>Solo el vidrio es no tóxico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -933,12 +933,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se mide la resistencia mecánica antes de que un material se rompa?</text> </name>
+    <name> <text>¿Cuál es el impacto ambiental de la fabricación del cemento?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se mide la resistencia mecánica antes de que un material se rompa?</p>
+         <p>¿Cuál es el impacto ambiental de la fabricación del cemento?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +954,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Carga de rotura.</text>
+       <text>Produce muchos gases de efecto invernadero.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Temperatura y presión.</text>
+       <text>No tiene impacto ambiental.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Deformación y elongación.</text>
+       <text>Contribuye a la disminución de las emisiones de CO2.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Densidad y volumen.</text>
+       <text>Es completamente ecológico.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -977,12 +977,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la capacidad de recuperar su forma original después de deformarse por un esfuerzo?</text> </name>
+    <name> <text>¿Qué se menciona sobre el asbesto o amianto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la capacidad de recuperar su forma original después de deformarse por un esfuerzo?</p>
+         <p>¿Qué se menciona sobre el asbesto o amianto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +998,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Elasticidad.</text>
+       <text>Es altamente cancerígeno y su uso está prohibido en países occidentales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plasticidad.</text>
+       <text>Es un material seguro y no causa problemas de salud.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Resistencia mecánica.</text>
+       <text>Su uso está permitido en la fabricación de fibrocemento, que se conoce también por el nombre comercial de Uralita.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Maleabilidad.</text>
+       <text>No tiene impacto en la salud humana.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1021,12 +1021,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se define la densidad de un material?</text> </name>
+    <name> <text>¿Qué problema de salud está asociado con el granito?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se define la densidad de un material?</p>
+         <p>¿Qué problema de salud está asociado con el granito?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +1042,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La cantidad de materia que contiene un litro de material.</text>
+       <text>Generación de radón, un gas radiactivo y cancerígeno.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El peso total de un material.</text>
+       <text>Producción de gases de efecto invernadero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La resistencia de un material.</text>
+       <text>Pérdida de calidad durante el reciclaje.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El volumen que ocupa un material.</text>
+       <text>Toxicidad en la naturaleza.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1065,12 +1065,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué material tendrá mayor densidad?</text> </name>
+    <name> <text>¿Qué porcentaje de las emisiones de CO2 se estima que proviene de la fabricación del cemento?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué material tendrá mayor densidad?</p>
+         <p>¿Qué porcentaje de las emisiones de CO2 se estima que proviene de la fabricación del cemento?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +1086,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Plomo.</text>
+       <text>8%.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Madera.</text>
+       <text>20%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Aluminio.</text>
+       <text>2%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plástico.</text>
+       <text>50%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1109,12 +1109,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué significa que un material tiene poca densidad?</text> </name>
+    <name> <text>¿Cuál es la propiedad del vidrio que lo hace especialmente favorable desde el punto de vista ecológico?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa que un material tiene poca densidad?</p>
+         <p>¿Cuál es la propiedad del vidrio que lo hace especialmente favorable desde el punto de vista ecológico?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +1130,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Pesa menos por cada litro.</text>
+       <text>Es reciclable muchas veces sin pérdida de calidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es más pesado por cada litro.</text>
+       <text>Produce gases de efecto invernadero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No ocupa mucho volumen.</text>
+       <text>Contiene radón.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Que tiene poco peso.</text>
+       <text>Es tóxico en la naturaleza.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1153,12 +1153,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de productos se pueden fabricar con materiales poco densos?</text> </name>
+    <name> <text>¿Qué precaución deben tener las zonas habitadas con granito en los alrededores?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de productos se pueden fabricar con materiales poco densos?</p>
+         <p>¿Qué precaución deben tener las zonas habitadas con granito en los alrededores?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,154 +1174,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Productos ligeros.</text>
+       <text>Usar buenos sistemas de ventilación, debido al radón.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Productos pesados.</text>
+       <text>Evitar la construcción de viviendas en esas zonas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Productos transparentes.</text>
+       <text>Ignorar el impacto del granito en la salud.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Productos reflectantes.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es la respuesta a la luz de un material transparente?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la respuesta a la luz de un material transparente?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Permite que la luz lo atraviese.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Refleja la luz.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Absorbe la luz.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>No se ve afectado por la luz.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué tipo de materiales son brillantes y reflejan la luz?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de materiales son brillantes y reflejan la luz?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Metales.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Plásticos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Maderas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Cueros.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Para qué se pueden utilizar los metales gracias a su respuesta a la luz?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se pueden utilizar los metales gracias a su respuesta a la luz?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Fabricar espejos o superficies reflectantes.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricar ventanas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mejorar el aspecto superficial.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Absorber la luz.</text>
+       <text>No se requieren precauciones específicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
