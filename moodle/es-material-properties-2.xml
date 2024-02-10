@@ -2,19 +2,19 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Materiales/es-material-tools-1</text> </category>
+    <category> <text>$course$/top/Materiales/es-material-properties-2</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
 
 
   <question type="multichoice">
-    <name> <text>¿Qué son las herramientas de taller?</text> </name>
+    <name> <text>¿Cómo están relacionadas las propiedades térmicas y eléctricas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué son las herramientas de taller?</p>
+         <p>¿Cómo están relacionadas las propiedades térmicas y eléctricas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -30,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Instrumentos para realizar trabajos específicos.</text>
+       <text>Un buen conductor eléctrico suele ser también buen conductor del calor.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Juguetes para niños que divierten y son útiles a la vez.</text>
+       <text>Un buen conductor eléctrico no tiene por qué ser también buen conductor del calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Objetos decorativos.</text>
+       <text>No hay relación entre ellas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Elementos de cocina.</text>
+       <text>Solo la eléctrica afecta a la térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -53,12 +53,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el propósito principal de las herramientas?</text> </name>
+    <name> <text>¿Qué es la conductividad térmica de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el propósito principal de las herramientas?</p>
+         <p>¿Qué es la conductividad térmica de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -74,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Realizar tareas específicas y manipular materiales.</text>
+       <text>La propiedad de transportar el calor con facilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Decorar el taller de Tecnología.</text>
+       <text>La resistencia al calor de un material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Hacer ejercicio.</text>
+       <text>La capacidad de aislar la electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Jugar al aire libre.</text>
+       <text>La capacidad de generar calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -97,12 +97,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué cada herramienta está especializada en una tarea concreta?</text> </name>
+    <name> <text>¿Para qué se utilizan materiales con mucha conductividad térmica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué cada herramienta está especializada en una tarea concreta?</p>
+         <p>¿Para qué se utilizan materiales con mucha conductividad térmica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -118,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para garantizar la seguridad y la eficacia.</text>
+       <text>Para fabricar radiadores, utensilios de cocina, etc.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para hacer que las herramientas sean más caras.</text>
+       <text>Para aislar las casas del frío exterior.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para dificultar su uso.</text>
+       <text>Fabricar mangos de sartenes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque no hay suficientes herramientas disponibles.</text>
+       <text>Producir sensación cálida al tacto.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -141,12 +141,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es un ejemplo de mala utilización de herramientas?</text> </name>
+    <name> <text>¿Qué se utiliza para aislar las casas de la temperatura exterior?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es un ejemplo de mala utilización de herramientas?</p>
+         <p>¿Qué se utiliza para aislar las casas de la temperatura exterior?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -162,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Atornillar con unos alicates.</text>
+       <text>Materiales con poca conductividad térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cortar con unas tijeras.</text>
+       <text>Materiales que sean buenos conductores del calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Golpear con un martillo.</text>
+       <text>Materiales metálicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medir con una regla.</text>
+       <text>Materiales de acero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -185,12 +185,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es un ejemplo de mala utilización de herramientas?</text> </name>
+    <name> <text>¿Qué sensación produce al tacto un material aislante como el plástico?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es un ejemplo de mala utilización de herramientas?</p>
+         <p>¿Qué sensación produce al tacto un material aislante como el plástico?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -206,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Golpear con el mango de un destornillador.</text>
+       <text>Cálida.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cortar con una sierra.</text>
+       <text>Fría.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Unir con un tornillo y una llave inglesa.</text>
+       <text>Neutra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforar con un punzón</text>
+       <text>Ninguna.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -229,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué no se permite la mala utilización de herramientas en el taller de Tecnología?</text> </name>
+    <name> <text>¿Cuáles son ejemplos de materiales con poca conductividad térmica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué no se permite la mala utilización de herramientas en el taller de Tecnología?</p>
+         <p>¿Cuáles son ejemplos de materiales con poca conductividad térmica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Porque es peligroso y puede dañar las herramientas.</text>
+       <text>Plástico y madera.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para hacer que el taller sea aburrido.</text>
+       <text>Acero y hierro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque las herramientas son caras.</text>
+       <text>Vidrio y aluminio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Porque no hay suficientes herramientas adecuadas.</text>
+       <text>Cobre y bronce.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -273,12 +273,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes acciones es segura en el taller de Tecnología?</text> </name>
+    <name> <text>¿Qué sensación produce al tacto un material buen conductor como el acero?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes acciones es segura en el taller de Tecnología?</p>
+         <p>¿Qué sensación produce al tacto un material buen conductor como el acero?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -294,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Utilizar una herramienta para su función prevista.</text>
+       <text>Fría.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Correr por el taller con una herramienta en la mano.</text>
+       <text>Cálida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Dejar las herramientas desatendidas.</text>
+       <text>Neutra.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Usar herramientas de cualquier manera.</text>
+       <text>Ninguna.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -317,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué puede ocurrir si se utiliza una herramienta de manera incorrecta en el taller de Tecnología?</text> </name>
+    <name> <text>¿Por qué los materiales aislantes se utilizan para fabricar mangos de sartenes y cacerolas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede ocurrir si se utiliza una herramienta de manera incorrecta en el taller de Tecnología?</p>
+         <p>¿Por qué los materiales aislantes se utilizan para fabricar mangos de sartenes y cacerolas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -338,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Puede dañar la herramienta o causar lesiones</text>
+       <text>Porque tienen poca conductividad térmica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Nada, las herramientas son indestructibles</text>
+       <text>Porque son buenos conductores de calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las herramientas se vuelven más efectivas</text>
+       <text>Porque son pesados por cada litro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las herramientas se vuelven más seguras</text>
+       <text>Porque son transparentes al calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es una diferencia clave entre herramientas y materiales?</text> </name>
+    <name> <text>¿Cómo se define la dilatación térmica de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es una diferencia clave entre herramientas y materiales?</p>
+         <p>¿Cómo se define la dilatación térmica de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -382,22 +382,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Las herramientas no forman parte del objeto fabricado, mientras que los materiales si.</text>
+       <text>Es la propiedad de aumentar de tamaño con la temperatura.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las herramientas se almacenan en contenedores grandes, los materiales no.</text>
+       <text>Es la capacidad de resistir la temperatura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las herramientas no son reutilizables, los materiales si.</text>
+       <text>Es la propiedad de cambiar de forma con el calor.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Las herramientas se utilizan solo en objetos grandes, los materiales en objetos pequeños.</text>
+       <text>Es la capacidad de mantenerse constante en tamaño.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -405,12 +405,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué se entiende por una herramienta reutilizable?</text> </name>
+    <name> <text>¿Qué tipo de estructuras suelen enfrentar problemas debido a la dilatación térmica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué se entiende por una herramienta reutilizable?</p>
+         <p>¿Qué tipo de estructuras suelen enfrentar problemas debido a la dilatación térmica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -426,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Una herramienta que se puede usar en la fabricación de varios productos.</text>
+       <text>Edificios, vías de tren, puentes, etc.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una herramienta que nunca se desgasta.</text>
+       <text>Objetos pequeños.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una herramienta que solo se usa una vez.</text>
+       <text>Ropa y accesorios.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Una herramienta que es parte del objeto fabricado.</text>
+       <text>Utensilios de cocina.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -449,12 +449,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál de los siguientes elementos se considera un material?</text> </name>
+    <name> <text>¿Cómo se resuelve el problema de la dilatación térmica en las estructuras?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de los siguientes elementos se considera un material?</p>
+         <p>¿Cómo se resuelve el problema de la dilatación térmica en las estructuras?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -470,22 +470,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Pintura.</text>
+       <text>Dejando huecos cada cierta distancia.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Destornillador.</text>
+       <text>Aumentando la temperatura de los materiales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Lápiz.</text>
+       <text>Utilizando materiales más resistentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Martillo.</text>
+       <text>Aplicando presión a los materiales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -493,12 +493,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué los clavos y la pintura NO son herramientas?</text> </name>
+    <name> <text>¿Cómo se llaman los huecos creados para permitir la dilatación de los materiales?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué los clavos y la pintura NO son herramientas?</p>
+         <p>¿Cómo se llaman los huecos creados para permitir la dilatación de los materiales?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -514,22 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Son materiales porque forman parte del objeto fabricado.</text>
+       <text>Juntas de dilatación.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Son materiales porque no se pueden almacenar en contenedores grandes.</text>
+       <text>Grietas térmicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Son materiales porque son difíciles de utilizar.</text>
+       <text>Espacios de expansión.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Son materiales porque son costosos.</text>
+       <text>Huecos térmicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -537,12 +537,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes opciones NO es una herramienta?</text> </name>
+    <name> <text>¿Qué es la conductividad eléctrica de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes opciones NO es una herramienta?</p>
+         <p>¿Qué es la conductividad eléctrica de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -558,22 +558,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tornillo.</text>
+       <text>La propiedad de permitir el paso de la corriente eléctrica con facilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pistola de cola termofusible.</text>
+       <text>La capacidad de resistir la electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pincel.</text>
+       <text>La capacidad de generar electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Martillo.</text>
+       <text>La resistencia al calor de un material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -581,12 +581,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál de los siguientes elementos no se menciona en la lista de ejemplos de materiales?</text> </name>
+    <name> <text>¿Qué materiales son buenos conductores de la electricidad?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de los siguientes elementos no se menciona en la lista de ejemplos de materiales?</p>
+         <p>¿Qué materiales son buenos conductores de la electricidad?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -602,22 +602,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Martillo.</text>
+       <text>Metales como el cobre, aluminio, oro y acero.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tornillo.</text>
+       <text>Plásticos y madera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Pegamento.</text>
+       <text>Vidrio y cerámica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cables.</text>
+       <text>Materiales aislantes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -625,12 +625,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué es importante distinguir entre herramientas y materiales en el proceso de fabricación?</text> </name>
+    <name> <text>¿Para qué se utilizan los conductores eléctricos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué es importante distinguir entre herramientas y materiales en el proceso de fabricación?</p>
+         <p>¿Para qué se utilizan los conductores eléctricos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -646,22 +646,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para comprender qué elementos formarán parte del objeto fabricado.</text>
+       <text>Para fabricar cables eléctricos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para ahorrar dinero en herramientas costosas.</text>
+       <text>Para aislar las casas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para mantener un registro de las herramientas utilizadas.</text>
+       <text>Para construir estructuras resistentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para asegurarse de que las herramientas se almacenen en contenedores grandes.</text>
+       <text>Para crear juntas de dilatación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -669,12 +669,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con una regla graduada?</text> </name>
+    <name> <text>¿Qué tipo de materiales pueden controlar la conductividad eléctrica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con una regla graduada?</p>
+         <p>¿Qué tipo de materiales pueden controlar la conductividad eléctrica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -690,22 +690,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición.</text>
+       <text>Los semiconductores.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>Los conductores aislantes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Los materiales térmicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Los aislantes eléctricos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -713,12 +713,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con una escuadra o un cartabón?</text> </name>
+    <name> <text>¿Qué se fabrica con los materiales semiconductores?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con una escuadra o un cartabón?</p>
+         <p>¿Qué se fabrica con los materiales semiconductores?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +734,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Trazado.</text>
+       <text>Todos los aparatos electrónicos actuales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>Conexiones eléctricas de los enchufes y conectores.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Superficies de contacto.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Estructuras resistentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +757,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un compás?</text> </name>
+    <name> <text>¿Qué indican las propiedades de fabricación de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un compás?</p>
+         <p>¿Qué indican las propiedades de fabricación de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición y trazado.</text>
+       <text>Cómo se comportará durante los procesos de fabricación de objetos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>El color del material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>La temperatura a la que se funde el material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>La densidad del material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -801,12 +801,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un nivel?</text> </name>
+    <name> <text>¿Cómo se define la maleabilidad de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un nivel?</p>
+         <p>¿Cómo se define la maleabilidad de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +822,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición.</text>
+       <text>La propiedad de soportar aplastamiento sin romperse.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>La capacidad de formar hilos finos por estiramiento.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Unión.</text>
+       <text>La resistencia al calor de un material.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>La capacidad de conducir electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -845,12 +845,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con una cinta métrica?</text> </name>
+    <name> <text>¿Cómo se fabrica papel de aluminio?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con una cinta métrica?</p>
+         <p>¿Cómo se fabrica papel de aluminio?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición.</text>
+       <text>Aplastando el aluminio entre rodillos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>Cortando el aluminio en láminas finas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Unión.</text>
+       <text>Fundiendo el aluminio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Calentando el aluminio.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -889,12 +889,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un pie de rey?</text> </name>
+    <name> <text>¿Cuál es un ejemplo de material muy maleable?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un pie de rey?</p>
+         <p>¿Cuál es un ejemplo de material muy maleable?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +910,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición.</text>
+       <text>Aluminio.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acabado.</text>
+       <text>Madera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Textiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Cerámica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -933,12 +933,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un polímetro?</text> </name>
+    <name> <text>¿Por qué la madera no es maleable según el texto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un polímetro?</p>
+         <p>¿Por qué la madera no es maleable según el texto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +954,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición eléctrica.</text>
+       <text>Porque se rompe al intentar aplastarla.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medición mecánica.</text>
+       <text>Porque no tiene la densidad adecuada.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medición eléctrica y mecánica.</text>
+       <text>Porque es demasiado rígida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Porque no conduce electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -977,12 +977,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un lápiz?</text> </name>
+    <name> <text>¿Cómo se pueden fabricar láminas finas con materiales maleables?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un lápiz?</p>
+         <p>¿Cómo se pueden fabricar láminas finas con materiales maleables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +998,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>Aplastándolos entre rodillos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medición.</text>
+       <text>Fundiéndolos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Cortándolos en láminas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
+       <text>Calentándolos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1021,12 +1021,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con una punta de trazar?</text> </name>
+    <name> <text>¿Qué propiedad permite que el aluminio sea utilizado para fabricar papel de aluminio?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con una punta de trazar?</p>
+         <p>¿Qué propiedad permite que el aluminio sea utilizado para fabricar papel de aluminio?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +1042,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>Maleabilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medición.</text>
+       <text>Dureza.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>Resistencia térmica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
+       <text>Conductividad eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1065,12 +1065,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un granete?</text> </name>
+    <name> <text>¿Cómo se define la ductilidad de un material?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un granete?</p>
+         <p>¿Cómo se define la ductilidad de un material?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +1086,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>La propiedad de soportar estiramiento sin romperse.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Golpeo.</text>
+       <text>La propiedad de soportar aplastamiento sin romperse.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Corte.</text>
+       <text>La capacidad de conducir electricidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
+       <text>La capacidad de fundirse con facilidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1109,12 +1109,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con unos alicates?</text> </name>
+    <name> <text>¿Cuál es un ejemplo de material muy dúctil?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con unos alicates?</p>
+         <p>¿Cuál es un ejemplo de material muy dúctil?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +1130,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Sujeción.</text>
+       <text>Cobre.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Unión.</text>
+       <text>Madera.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
+       <text>Plásticos termoestables.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Baquelita.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1153,12 +1153,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué tipo de operación se puede realizar con un tornillo de banco?</text> </name>
+    <name> <text>¿Cómo se pueden fabricar hilos finos con materiales dúctiles?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de operación se puede realizar con un tornillo de banco?</p>
+         <p>¿Cómo se pueden fabricar hilos finos con materiales dúctiles?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,22 +1174,242 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Sujeción.</text>
+       <text>Estirándolos a través de agujeros pequeños.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Unión.</text>
+       <text>Fundiéndolos y comprimiento el material para que pase por un pequeño agujero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
+       <text>Calentándolos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Golpeándolos con fuerza.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué propiedad permite que el cobre sea utilizado para fabricar hilos finos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué propiedad permite que el cobre sea utilizado para fabricar hilos finos?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Ductilidad.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Fusibilidad.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Maleabilidad.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Conductividad térmica.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Cuándo los plásticos son muy dúctiles?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Cuándo los plásticos son muy dúctiles?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Cuando están calientes.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cuando están fríos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Siempre.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Nunca.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué es la fusibilidad de un material?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué es la fusibilidad de un material?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>La propiedad de fundirse con el calor, pasando a estado líquido.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>La capacidad de resistir estiramiento y formar hilos finos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>La resistencia al rayado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>La capacidad de estirarse.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué permite la fusibilidad en la fabricación de objetos?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué permite la fusibilidad en la fabricación de objetos?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Fabricar por moldeo, introduciendo el material fundido en un molde.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Estirar el material.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cortar el material.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Conducir electricidad.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+  </question>
+
+
+  <question type="multichoice">
+    <name> <text>¿Qué materiales son no fusibles?</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <p>¿Qué materiales son no fusibles?</p>
+         ]]></text>
+    </questiontext>
+    <generalfeedback format="html"> <text></text> </generalfeedback>
+    <defaultgrade>1.0000000</defaultgrade>
+    <penalty>0.5</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+    <single>true</single>
+    <shuffleanswers>true</shuffleanswers>
+    <answernumbering>abc</answernumbering>
+    <showstandardinstruction>0</showstandardinstruction>
+    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
+    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
+    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
+    <answer fraction="100" format="html">
+       <text>Madera, cerámicas, plásticos termoestables como la baquelita, etc.</text>
+       <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Cobre, aluminio, vidrio.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Plásticos termoplásticos.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Acero, hierro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

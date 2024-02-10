@@ -38,7 +38,9 @@ projects = [
 {
    'yaml_files': [
       'es-material-classification.yaml',
-      'es-material-properties.yaml',
+      'es-material-properties-1.yaml',
+      'es-material-properties-2.yaml',
+      'es-material-properties-3.yaml',
       'es-material-stone.yaml',
       'es-material-wood.yaml',
       'es-material-textiles.yaml',
