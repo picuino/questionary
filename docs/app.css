@@ -94,55 +94,6 @@ h2 {
 }
 
 
-/* Cookies Advise */
-#cookiesbar {
-font-size:16px;
-line-height:1.5em;
-display:block;
-position:fixed;
-bottom:0;
-text-align:center;
-max-width:720px;
-padding: 32px 32px 48px 32px;
-margin: 8px 8px 8px 0;
-background-color: rgba(40,40,40,0.95);
-color:#fff;
-z-index:99999;
-}
-
-#cookiesTitle {
-font-size:24px;
-font-weight:bold;
-margin-bottom:32px;
-}
-
-#cookiesbar a {
-display:inline-block;
-padding:4px 8px;
-color:#e0e000;
-text-decoration:none;
-}
-
-#cookiesbar a:hover {
-background-color: #444;
-}
-
-#cookiesBtn {
-font-weight: bold;
-border: 2px solid #000;
-border-radius: 12px;
-padding: 50px;
-margin: 32px 20px 0 20px;
-}
-
-#cookiesBtn:hover  {
-  cursor: pointer;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.5);
-  transform: translateY(-2px);
-  transition: transform 150ms;
-}
-
-
 /* FOOTER */
 
 .footer {
