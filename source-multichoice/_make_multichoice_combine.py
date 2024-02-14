@@ -43,6 +43,7 @@ projects = [
       'es-material-properties-3.yaml',
       'es-material-stone-1.yaml',
       'es-material-stone-2.yaml',
+      'es-material-stone-3.yaml',
       'es-material-wood.yaml',
       'es-material-textiles.yaml',
       'es-material-metals.yaml',
