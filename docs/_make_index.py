@@ -31,7 +31,7 @@ index_data = [
           ["es-material-stone-1.html", "Los materiales pétreos I"],
           ["es-material-stone-2.html", "Los materiales pétreos II"],
           ["es-material-stone-3.html", "Los materiales pétreos III"],
-          ["es-material-wood.html", "La madera y sus derivados"],
+          ["es-material-wood-1.html", "La madera y sus derivados I"],
           ["es-material-textiles.html", "Los materiales textiles"],
           ["es-material-metals.html", "Los materiales metálicos"],
           ["es-material-plastics.html", "Los materiales plásticos"],
@@ -295,7 +295,7 @@ index_template = """<!DOCTYPE html>
    <a href="https://github.com/picuino/questionary/" target="_blank">GitHub</a>
    <a href="https://www.picuino.com/test/index.html" target="_blank">Índice</a>
    <p>Copyright © 2021 por Carlos Félix Pardo Martín.</p>
-   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
+   <p>Licencia: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.es" target="_blank">Creative Commons Attribution-ShareAlike 4.0</a></p>
    <p>{{ sp.sumtest }} Test de Tecnología</p>
    </div>
 
