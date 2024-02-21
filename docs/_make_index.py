@@ -32,6 +32,7 @@ index_data = [
           ["es-material-stone-2.html", "Los materiales pétreos II"],
           ["es-material-stone-3.html", "Los materiales pétreos III"],
           ["es-material-wood-1.html", "La madera y sus derivados I"],
+          ["es-material-wood-2.html", "La madera y sus derivados II"],
           ["es-material-textiles.html", "Los materiales textiles"],
           ["es-material-metals.html", "Los materiales metálicos"],
           ["es-material-plastics.html", "Los materiales plásticos"],
