@@ -2,19 +2,19 @@
 <quiz>
 
   <question type="category">
-    <category> <text>$course$/top/Materiales/es-material-metals-3</text> </category>
+    <category> <text>$course$/top/Materiales/es-material-plastics-1</text> </category>
     <info format="html"> <text></text> </info>
     <idnumber></idnumber>
   </question>
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el metal más utilizado después del acero?</text> </name>
+    <name> <text>¿Cómo se llaman las unidades más pequeñas que forman parte de los polímeros?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el metal más utilizado después del acero?</p>
+         <p>¿Cómo se llaman las unidades más pequeñas que forman parte de los polímeros?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -30,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Aluminio.</text>
+       <text>Monómeros.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Hierro.</text>
+       <text>Dímeros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cobre.</text>
+       <text>Trímeros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Titanio.</text>
+       <text>Tetrameros.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -53,12 +53,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué propiedad del aluminio lo hace atractivo para la fabricación de aviones?</text> </name>
+    <name> <text>¿Por qué se comparan las cadenas de polímeros con las cuentas de un collar?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué propiedad del aluminio lo hace atractivo para la fabricación de aviones?</p>
+         <p>¿Por qué se comparan las cadenas de polímeros con las cuentas de un collar?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -74,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Baja densidad y buena resistencia a la corrosión.</text>
+       <text>Porque están formados por monómeros que se repiten muchas veces.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Alta densidad y maleabilidad.</text>
+       <text>Porque son cadenas cortas y simples.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Baja resistencia mecánica y dureza.</text>
+       <text>Porque los monómeros son más grandes que las cuentas de un collar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Resistencia a altas temperaturas.</text>
+       <text>En realidad no tienen ninguna relación entre sí.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -97,12 +97,12 @@
 
 
   <question type="multichoice">
-    <name> <text>En estado puro ¿qué resistencia mecánica tiene el aluminio?</text> </name>
+    <name> <text>¿Cómo pueden ser las cadenas de polímeros?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>En estado puro ¿qué resistencia mecánica tiene el aluminio?</p>
+         <p>¿Cómo pueden ser las cadenas de polímeros?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -118,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Muy blando y baja resistencia mecánica.</text>
+       <text>Pueden ser lineales, tener ramificaciones o en forma de red.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Muy duro y alta resistencia mecánica.</text>
+       <text>Siempre son lineales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Maleable y dúctil.</text>
+       <text>Siempre tienen ramificaciones.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Inalterable mecánicamente.</text>
+       <text>Nunca forman redes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -141,12 +141,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué técnica química fue clave para aumentar la producción de aluminio a partir de 1900?</text> </name>
+    <name> <text>¿Cuál es el término utilizado para describir compuestos basados en uniones de carbono?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué técnica química fue clave para aumentar la producción de aluminio a partir de 1900?</p>
+         <p>¿Cuál es el término utilizado para describir compuestos basados en uniones de carbono?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -162,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Proceso Bayer.</text>
+       <text>Compuestos orgánicos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fusión al vacío.</text>
+       <text>Compuestos inorgánicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Electroforesis.</text>
+       <text>Compuestos metálicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cianuración.</text>
+       <text>Compuestos plásticos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -185,12 +185,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué percepción se tenía del aluminio en el siglo XIX debido a su producción costosa?</text> </name>
+    <name> <text>¿Cuántos elementos simples pueden llegar a unirse en una cadena de polímeros?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué percepción se tenía del aluminio en el siglo XIX debido a su producción costosa?</p>
+         <p>¿Cuántos elementos simples pueden llegar a unirse en una cadena de polímeros?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -206,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Era un material exótico con un precio mayor que el del oro.</text>
+       <text>Muchos miles.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Era un material abundante y barato.</text>
+       <text>Hasta cientos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Era un metal comúnmente utilizado en la industria.</text>
+       <text>Solo unos pocos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Era un material de baja demanda debido a sus pobres propiedades.</text>
+       <text>Exactamente mil elementos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -229,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo es la resistencia mecánica del aluminio cuando está aleado de forma adecuada?</text> </name>
+    <name> <text>¿Cuál es una característica general de los plásticos en cuanto a sus propiedades mecánicas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo es la resistencia mecánica del aluminio cuando está aleado de forma adecuada?</p>
+         <p>¿Cuál es una característica general de los plásticos en cuanto a sus propiedades mecánicas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -250,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Aumenta mucho hasta los 40 kg/mm2.</text>
+       <text>En general son blandos con resistencia mecánica media.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Disminuye hasta los 20 kg/mm2.</text>
+       <text>Son duros con resistencia mecánica baja.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Se mantiene constante en 30 kg/mm2.</text>
+       <text>Son fuertes con resistencia mecánica alta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Varía mucho según la temperatura.</text>
+       <text>Son frágiles sin resistencia mecánica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -273,12 +273,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál fue un factor clave para el aumento continuo de la producción de aluminio a partir de 1900?</text> </name>
+    <name> <text>¿Cómo varía la tenacidad de los plásticos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál fue un factor clave para el aumento continuo de la producción de aluminio a partir de 1900?</p>
+         <p>¿Cómo varía la tenacidad de los plásticos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -294,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La aplicación de la dinamo para producir la electricidad necesaria.</text>
+       <text>Hay plásticos muy tenaces, como el policarbonato y otros son frágiles.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El descubrimiento de nuevas reservas de aluminio.</text>
+       <text>Todos los plásticos son muy tenaces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La utilización de procesos térmicos avanzados.</text>
+       <text>Todos los plásticos son frágiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La sustitución del aluminio por otros metales.</text>
+       <text>Hay plásticos frágiles, como el policarbonato y otros son muy tenaces.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -317,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza comúnmente el aluminio en la fabricación?</text> </name>
+    <name> <text>¿Qué plástico es muy resistente a los golpes?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza comúnmente el aluminio en la fabricación?</p>
+         <p>¿Qué plástico es muy resistente a los golpes?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -338,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcos de ventanas, papel metálico, latas, aviones, cables eléctricos.</text>
+       <text>Policarbonato.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Joyería y adornos.</text>
+       <text>Poliestireno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Construcción de puentes y edificios.</text>
+       <text>Polipropileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Herramientas de jardinería.</text>
+       <text>Polietileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -361,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿De qué color es el titanio?</text> </name>
+    <name> <text>¿Cuál es un ejemplo de plástico de altas prestaciones que soporta altas temperaturas y tiene buena resistencia mecánica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿De qué color es el titanio?</p>
+         <p>¿Cuál es un ejemplo de plástico de altas prestaciones que soporta altas temperaturas y tiene buena resistencia mecánica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -382,22 +382,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Gris.</text>
+       <text>Kevlar.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Rojizo.</text>
+       <text>Polietileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Dorado.</text>
+       <text>PVC.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plateado.</text>
+       <text>Polipropileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -405,12 +405,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la densidad del titanio?</text> </name>
+    <name> <text>¿Qué densidad tienen los plásticos en comparación con la del agua?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la densidad del titanio?</p>
+         <p>¿Qué densidad tienen los plásticos en comparación con la del agua?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -426,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>4,5 kg/litro.</text>
+       <text>Tienen una densidad parecida a la del agua.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>1,5 kg/litro.</text>
+       <text>Tienen una densidad mucho mayor que la del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>3,0 kg/litro.</text>
+       <text>Tienen una densidad mucho menor que la del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>6,5 kg/litro.</text>
+       <text>No tienen relación con la densidad del agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -449,12 +449,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo es la resistencia a la corrosión del titanio?</text> </name>
+    <name> <text>¿Qué tipo de plásticos se fabrican con pompas de gas en su interior para reducir su densidad y mejorar su capacidad de aislamiento térmico?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo es la resistencia a la corrosión del titanio?</p>
+         <p>¿Qué tipo de plásticos se fabrican con pompas de gas en su interior para reducir su densidad y mejorar su capacidad de aislamiento térmico?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -470,22 +470,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Es muy resistente a la corrosión.</text>
+       <text>Espuma de poliuretano y poliestireno expandido.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es medianamente resistente a la corrosión.</text>
+       <text>Policarbonato y polipropileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es poco resistente a la corrosión.</text>
+       <text>PVC y polietileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No tiene resistencia a la corrosión.</text>
+       <text>PET y PLA.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -493,12 +493,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo es la resistencia mecánica del titanio?</text> </name>
+    <name> <text>¿Para qué se puede utilizar el Kevlar?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo es la resistencia mecánica del titanio?</p>
+         <p>¿Para qué se puede utilizar el Kevlar?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -514,22 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Tiene buena resistencia mecánica, hasta 140 kg/mm2.</text>
+       <text>Chalecos antibalas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene poca resistencia mecánica, hasta 140 kg/mm2.</text>
+       <text>Envases de alimentos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Tiene muchísima resistencia mecánica, hasta 410 kg/mm2.</text>
+       <text>Juguetes para niños.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>No tiene resistencia mecánica.</text>
+       <text>Tuberías de agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -537,12 +537,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué campo es especialmente apreciado el titanio?</text> </name>
+    <name> <text>¿Cuál es el término que se suele utilizar para denominar alimentos poliestireno expandido?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué campo es especialmente apreciado el titanio?</p>
+         <p>¿Cuál es el término que se suele utilizar para denominar alimentos poliestireno expandido?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -558,22 +558,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Prótesis médicas y maquinaria aeroespacial.</text>
+       <text>Corcho blanco.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Agricultura.</text>
+       <text>Corcho natural.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Construcción de edificios.</text>
+       <text>Corcho negro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de alimentos.</text>
+       <text>Corcho rojo.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -581,12 +581,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la relación entre la dureza y la densidad del titanio en comparación con los aceros?</text> </name>
+    <name> <text>¿Qué tipo de plásticos son muy transparentes y se utilizan para fabricar ventanas, DVDs y faros?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la relación entre la dureza y la densidad del titanio en comparación con los aceros?</p>
+         <p>¿Qué tipo de plásticos son muy transparentes y se utilizan para fabricar ventanas, DVDs y faros?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -602,22 +602,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Casi igual de resistente, con menor densidad.</text>
+       <text>Policarbonato y metacrilato.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Casi igual de resistente, con mayor densidad.</text>
+       <text>Polietileno y polipropileno.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Más resistente, con mayor densidad.</text>
+       <text>Poliestireno y PVC.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Menos resistente, con mayor densidad.</text>
+       <text>PET y PLA.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -625,12 +625,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza el óxido de titanio?</text> </name>
+    <name> <text>¿Cómo se degradan algunos plásticos desechados en el medio ambiente?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza el óxido de titanio?</p>
+         <p>¿Cómo se degradan algunos plásticos desechados en el medio ambiente?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -646,22 +646,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para fabricar pinturas blancas con un color muy puro y muy buena resistencia a la radiación solar.</text>
+       <text>Con la luz del sol, rompiéndose en microplásticos contaminantes.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para fabricar pinturas rojas con un color muy puro y muy buena resistencia a la radiación solar.</text>
+       <text>Por acción del agua, formando grandes estructuras.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para fabricar pinturas blancas con un color muy puro y poca resistencia a la radiación solar.</text>
+       <text>Por exposición al aire, volviéndose más rígidos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para fabricar pinturas rojas con un color muy puro y poca resistencia a la radiación solar.</text>
+       <text>Por procesos químicos desconocidos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -669,12 +669,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué aplicación médica tiene el titanio?</text> </name>
+    <name> <text>¿Qué propiedad de los termoplásticos facilita la realización de soldaduras?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué aplicación médica tiene el titanio?</p>
+         <p>¿Qué propiedad de los termoplásticos facilita la realización de soldaduras?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -690,22 +690,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Fabricación de prótesis médicas.</text>
+       <text>Los termoplásticos se funden con facilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de medicamentos avanzados.</text>
+       <text>Los termoplásticos son rígidos y quebradizos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de alimentos para bebés.</text>
+       <text>Los termoplásticos son opacos y resistentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de pinturas de color blanco muy puro.</text>
+       <text>Los termoplásticos son pesados y difíciles de manipular.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -713,12 +713,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el color del plomo?</text> </name>
+    <name> <text>¿Qué significa que los plásticos sean muy maleables y extremadamente dúctiles?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el color del plomo?</p>
+         <p>¿Qué significa que los plásticos sean muy maleables y extremadamente dúctiles?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +734,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Gris oscuro.</text>
+       <text>Que es muy fácil fabricar con ellos láminas e hilos finos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plateado brillante.</text>
+       <text>Que es muy fácil fabricar con ellos láminas finas, pero no hilos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco brillante.</text>
+       <text>Que es muy difícil fabricar con ellos láminas finas, pero no hilos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Rojo brillante.</text>
+       <text>Que es muy difícil fabricar con ellos láminas e hilos finos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +757,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza el plomo?</text> </name>
+    <name> <text>¿Cuál es una aplicación común de plásticos transparentes como el metacrilato?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza el plomo?</p>
+         <p>¿Cuál es una aplicación común de plásticos transparentes como el metacrilato?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +778,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Soldadura de componentes electrónicos, baterías, blindajes anti-radiaciones.</text>
+       <text>Fabricación de ventanas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de fluorescentes, termómetros, pilas.</text>
+       <text>Fabricación de ladrillos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Construcción de prótesis médicas, maquinaria aeroespacial.</text>
+       <text>Fabricación de herramientas metálicas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de alimentos y productos químicos.</text>
+       <text>Fabricación de tejidos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -801,12 +801,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la temperatura de fusión del plomo?</text> </name>
+    <name> <text>¿Por qué los plásticos son utilizados como aislantes eléctricos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la temperatura de fusión del plomo?</p>
+         <p>¿Por qué los plásticos son utilizados como aislantes eléctricos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +822,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Es baja, 327ºC.</text>
+       <text>Tienen poca conductividad eléctrica.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es muy baja, 137ºC.</text>
+       <text>Tienen alta conductividad eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es relativamente alta, 572ºC.</text>
+       <text>Tienen poca resistividad eléctrica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es relativamente baja, 217ºC.</text>
+       <text>Son transparentes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -845,12 +845,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué se tiende a reducir el uso del plomo en la actualidad?</text> </name>
+    <name> <text>¿Qué propiedad permite a los plásticos ser moldeables?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué se tiende a reducir el uso del plomo en la actualidad?</p>
+         <p>¿Qué propiedad permite a los plásticos ser moldeables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +866,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Por ser altamente contaminante.</text>
+       <text>Se funden con facilidad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Por su baja resistencia mecánica.</text>
+       <text>Son rígidos y quebradizos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Por su color gris oscuro.</text>
+       <text>Tienen alta densidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Por su alto costo de producción.</text>
+       <text>Son conductores térmicos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -889,12 +889,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el color del mercurio?</text> </name>
+    <name> <text>¿En qué se utilizan comúnmente los plásticos debido a su baja conductividad térmica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el color del mercurio?</p>
+         <p>¿En qué se utilizan comúnmente los plásticos debido a su baja conductividad térmica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +910,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Plateado brillante.</text>
+       <text>Como aislantes térmicos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Gris oscuro.</text>
+       <text>Como conductores eléctricos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco brillante.</text>
+       <text>Como materiales de construcción para columnas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Rojo brillante.</text>
+       <text>Como herramientas de corte.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -933,12 +933,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué metal se utiliza para recubrir la hojalata en las latas de conserva?</text> </name>
+    <name> <text>¿Cuál es una propiedad de los plásticos que facilita la fabricación de láminas muy finas?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué metal se utiliza para recubrir la hojalata en las latas de conserva?</p>
+         <p>¿Cuál es una propiedad de los plásticos que facilita la fabricación de láminas muy finas?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +954,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Estaño.</text>
+       <text>Son muy maleables y extremadamente dúctiles.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plomo.</text>
+       <text>Son poco maleables y extremadamente dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mercurio.</text>
+       <text>Son muy maleables y poco dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Oro.</text>
+       <text>Son poco maleables y poco dúctiles.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -977,12 +977,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué propiedades tiene el estaño?</text> </name>
+    <name> <text>¿Por qué muchos contenedores de sustancias químicas están hechos de plástico?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué propiedades tiene el estaño?</p>
+         <p>¿Por qué muchos contenedores de sustancias químicas están hechos de plástico?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +998,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Es blando y no se oxida.</text>
+       <text>Porque resisten bien la oxidación, a los ácidos y a los cáusticos.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es blando y se oxida con facilidad.</text>
+       <text>Porque los plásticos son biodegradables</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es muy duro y se oxida con facilidad.</text>
+       <text>Porque los plásticos son tóxicos en su fabricación</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Es muy duro y no se oxida.</text>
+       <text>Porque los plásticos son fácilmente moldeables en forma de recipientes.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1021,12 +1021,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza el mercurio?</text> </name>
+    <name> <text>¿Cuál es una característica ecológica de la mayoría de los plásticos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza el mercurio?</p>
+         <p>¿Cuál es una característica ecológica de la mayoría de los plásticos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +1042,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Fabricación de fluorescentes, termómetros, amalgama para empastes.</text>
+       <text>No son biodegradables y son tóxicos en su fabricación y en el medio ambiente</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Soldadura de componentes electrónicos, baterías, blindajes anti-radiaciones.</text>
+       <text>Son biodegradables y benefician al medio ambiente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Construcción de prótesis médicas, maquinaria aeroespacial.</text>
+       <text>No son tóxicos en ninguna etapa de su ciclo de vida.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de alimentos y productos químicos.</text>
+       <text>No afectan a la cadena trófica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1065,12 +1065,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué es la hojalata?</text> </name>
+    <name> <text>¿Qué representan los microplásticos en términos medioambientales?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es la hojalata?</p>
+         <p>¿Qué representan los microplásticos en términos medioambientales?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +1086,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Acero recubierto de una fina capa de estaño.</text>
+       <text>Un gran problema, ya que se incorporan en la cadena trófica y afectan negativamente a la salud.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plomo líquido a temperatura ambiente.</text>
+       <text>Una solución para reducir la contaminación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mercurio plateado brillante.</text>
+       <text>Un recurso valioso en la industria alimentaria.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Estaño blanco brillante.</text>
+       <text>Una fuente de nutrientes para los animales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1109,12 +1109,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el color del zinc?</text> </name>
+    <name> <text>¿Qué cantidad aproximada de microplásticos se estima que ingiere una persona cada año según el texto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el color del zinc?</p>
+         <p>¿Qué cantidad aproximada de microplásticos se estima que ingiere una persona cada año según el texto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +1130,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Blanco brillante.</text>
+       <text>El equivalente en peso a una tarjeta de crédito.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco agrisado.</text>
+       <text>El equivalente en peso a una manzana.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Plateado brillante.</text>
+       <text>El equivalente en peso a un libro.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Negro mate.</text>
+       <text>El equivalente en peso a una botella de un litro de agua.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1153,12 +1153,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Para qué se utiliza el zinc aleado con cobre?</text> </name>
+    <name> <text>¿Cómo afecta el reciclaje a las propiedades originales de los plásticos?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza el zinc aleado con cobre?</p>
+         <p>¿Cómo afecta el reciclaje a las propiedades originales de los plásticos?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,22 +1174,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para producir latón.</text>
+       <text>Los plásticos se degradan al reciclarse, perdiendo sus propiedades originales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para fabricar acero inoxidable.</text>
+       <text>Los plásticos no se degradan, pudiendo reciclarse muchas veces sin perder sus propiedades originales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para galvanizar piezas de hierro.</text>
+       <text>Los plásticos permanecen inalterados durante el reciclaje.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para fabricar acero recubierto de estaño.</text>
+       <text>Los plásticos se vuelven más resistentes durante el reciclaje.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1197,12 +1197,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué proceso evita la oxidación de piezas de hierro recubriendo su superficie con zinc?</text> </name>
+    <name> <text>¿Cuál es el porcentaje aproximado del plástico que se recolecta para su reciclaje?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué proceso evita la oxidación de piezas de hierro recubriendo su superficie con zinc?</p>
+         <p>¿Cuál es el porcentaje aproximado del plástico que se recolecta para su reciclaje?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1218,22 +1218,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>La galvanización.</text>
+       <text>Solo el 14%.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El cromado.</text>
+       <text>Más del 25%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>La aleación.</text>
+       <text>Más del 50%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El termoformado.</text>
+       <text>Más del 90%.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1241,12 +1241,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo es el color del cromo mencionado en el texto?</text> </name>
+    <name> <text>¿Qué problema medioambiental causan los microplásticos en la cadena trófica?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo es el color del cromo mencionado en el texto?</p>
+         <p>¿Qué problema medioambiental causan los microplásticos en la cadena trófica?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1262,22 +1262,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Blanco agrisado.</text>
+       <text>Afectan negativamente la salud de los animales.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco brillante.</text>
+       <text>Mejoran la salud de los animales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Amarillo.</text>
+       <text>No tienen impacto en la cadena trófica.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Negro mate.</text>
+       <text>Aumentan la biodiversidad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1285,12 +1285,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué metal se utiliza aleado con acero para fabricar acero inoxidable?</text> </name>
+    <name> <text>¿Por qué se afirma que los plásticos no son biodegradables?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué metal se utiliza aleado con acero para fabricar acero inoxidable?</p>
+         <p>¿Por qué se afirma que los plásticos no son biodegradables?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1306,242 +1306,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Cromo.</text>
+       <text>Porque tardan muchos años en descomponerse de forma natural.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Zinc.</text>
+       <text>Porque son resistentes a la oxidación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Níquel.</text>
+       <text>Porque son tóxicos en su fabricación.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Cobre.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué es el cromado?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es el cromado?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Depositar una capa protectora de cromo sobre otro material, para que no se oxide.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Producción de latón mediante el proceso de galvanización.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Curtido de cuero mediante la utilización de cromo trivalente.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Recubrimiento de una chapa de hierro con zinc para evitar su oxidación.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es el tono del color del níquel?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el tono del color del níquel?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Blanco con ligero tono amarillo.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco con ligero tono gris.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco brillante.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Blanco con ligero tono rojizo.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Para qué se utilizan las aleaciones cobre-níquel?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utilizan las aleaciones cobre-níquel?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Fabricar motores marinos, industria química, acuñar monedas.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Producir latón, galvanizar piezas de hierro, pinturas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Aleación con acero para fabricar acero inoxidable.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Curtido de cuero, catalizadores, pilas eléctricas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es el color del cadmio?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el color del cadmio?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Blanco azulado.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Plateado brillante.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Amarillo.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Verde oscuro.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Para qué se utiliza el cadmio?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Para qué se utiliza el cadmio?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Baterías de Níquel-Cadmio recargables, fabricación de cojinetes con baja fricción.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Fabricación de acero inoxidable, galvanización.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Producción de latón, pinturas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Construcción de prótesis médicas, maquinaria aeroespacial.</text>
+       <text>Porque no se pueden reciclar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     

@@ -83,21 +83,235 @@ Show_max: 0
     - Construcción de puentes y edificios.
     - Herramientas de jardinería.
 
+- Title:
+  Question: ¿De qué color es el titanio?
+  Choices:
+    - Gris.
+    - Rojizo.
+    - Dorado.
+    - Plateado.
+
+- Title:
+  Question: ¿Cuál es la densidad del titanio?
+  Choices:
+    - 4,5 kg/litro.
+    - 1,5 kg/litro.
+    - 3,0 kg/litro.
+    - 6,5 kg/litro.
+
+- Title:
+  Question: ¿Cómo es la resistencia a la corrosión del titanio?
+  Choices:
+    - Es muy resistente a la corrosión.
+    - Es medianamente resistente a la corrosión.
+    - Es poco resistente a la corrosión.
+    - No tiene resistencia a la corrosión.
+
+- Title:
+  Question: ¿Cómo es la resistencia mecánica del titanio?
+  Choices:
+    - Tiene buena resistencia mecánica, hasta 140 kg/mm2.
+    - Tiene poca resistencia mecánica, hasta 140 kg/mm2.
+    - Tiene muchísima resistencia mecánica, hasta 410 kg/mm2.
+    - No tiene resistencia mecánica.
+
+- Title:
+  Question: ¿En qué campo es especialmente apreciado el titanio?
+  Choices:
+    - Prótesis médicas y maquinaria aeroespacial.
+    - Agricultura.
+    - Construcción de edificios.
+    - Fabricación de alimentos.
+
+- Title:
+  Question: ¿Cuál es la relación entre la dureza y la densidad del
+            titanio en comparación con los aceros?
+  Choices:
+    - Casi igual de resistente, con menor densidad.
+    - Casi igual de resistente, con mayor densidad.
+    - Más resistente, con mayor densidad.
+    - Menos resistente, con mayor densidad.
+
+- Title:
+  Question: ¿Para qué se utiliza el óxido de titanio?
+  Choices:
+    - Para fabricar pinturas blancas con un color muy puro y muy buena
+      resistencia a la radiación solar.
+    - Para fabricar pinturas rojas con un color muy puro y muy buena
+      resistencia a la radiación solar.
+    - Para fabricar pinturas blancas con un color muy puro y poca
+      resistencia a la radiación solar.
+    - Para fabricar pinturas rojas con un color muy puro y poca
+      resistencia a la radiación solar.
+
+- Title:
+  Question: ¿Qué aplicación médica tiene el titanio?
+  Choices:
+    - Fabricación de prótesis médicas.
+    - Fabricación de medicamentos avanzados.
+    - Fabricación de alimentos para bebés.
+    - Fabricación de pinturas de color blanco muy puro.
+
 
 #
 # Metales pesados
 #
 
+- Title:
+  Question: ¿Cuál es el color del plomo?
+  Choices:
+    - Gris oscuro.
+    - Plateado brillante.
+    - Blanco brillante.
+    - Rojo brillante.
 
+- Title:
+  Question: ¿Para qué se utiliza el plomo?
+  Choices:
+    - Soldadura de componentes electrónicos, baterías, blindajes anti-radiaciones.
+    - Fabricación de fluorescentes, termómetros, pilas.
+    - Construcción de prótesis médicas, maquinaria aeroespacial.
+    - Fabricación de alimentos y productos químicos.
 
+- Title:
+  Question: ¿Cuál es la temperatura de fusión del plomo?
+  Choices:
+    - Es baja, 327ºC.
+    - Es muy baja, 137ºC.
+    - Es relativamente alta, 572ºC.
+    - Es relativamente baja, 217ºC.
 
-#
-# Metales nobles
-#
+- Title:
+  Question: ¿Por qué se tiende a reducir el uso del plomo en la actualidad?
+  Choices:
+    - Por ser altamente contaminante.
+    - Por su baja resistencia mecánica.
+    - Por su color gris oscuro.
+    - Por su alto costo de producción.
 
+- Title:
+  Question: ¿Cuál es el color del mercurio?
+  Choices:
+    - Plateado brillante.
+    - Gris oscuro.
+    - Blanco brillante.
+    - Rojo brillante.
 
+- Title:
+  Question: ¿Qué metal se utiliza para recubrir la hojalata en las
+            latas de conserva?
+  Choices:
+    - Estaño.
+    - Plomo.
+    - Mercurio.
+    - Oro.
 
+- Title:
+  Question: ¿Qué propiedades tiene el estaño?
+  Choices:
+    - Es blando y no se oxida.
+    - Es blando y se oxida con facilidad.
+    - Es muy duro y se oxida con facilidad.
+    - Es muy duro y no se oxida.
 
-#
-# Precio de los metales
-#
+- Title:
+  Question: ¿Para qué se utiliza el mercurio?
+  Choices:
+    - Fabricación de fluorescentes, termómetros, amalgama para empastes.
+    - Soldadura de componentes electrónicos, baterías, blindajes anti-radiaciones.
+    - Construcción de prótesis médicas, maquinaria aeroespacial.
+    - Fabricación de alimentos y productos químicos.
+
+- Title:
+  Question: ¿Qué es la hojalata?
+  Choices:
+    - Acero recubierto de una fina capa de estaño.
+    - Plomo líquido a temperatura ambiente.
+    - Mercurio plateado brillante.
+    - Estaño blanco brillante.
+
+- Title:
+  Question: ¿Cuál es el color del zinc?
+  Choices:
+    - Blanco brillante.
+    - Blanco agrisado.
+    - Plateado brillante.
+    - Negro mate.
+
+- Title:
+  Question: ¿Para qué se utiliza el zinc aleado con cobre?
+  Choices:
+    - Para producir latón.
+    - Para fabricar acero inoxidable.
+    - Para galvanizar piezas de hierro.
+    - Para fabricar acero recubierto de estaño.
+
+- Title:
+  Question: ¿Qué proceso evita la oxidación de piezas de hierro
+            recubriendo su superficie con zinc?
+  Choices:
+    - La galvanización.
+    - El cromado.
+    - La aleación.
+    - El termoformado.
+
+- Title:
+  Question: ¿Cómo es el color del cromo mencionado en el texto?
+  Choices:
+    - Blanco agrisado.
+    - Blanco brillante.
+    - Amarillo.
+    - Negro mate.
+
+- Title:
+  Question: ¿Qué metal se utiliza aleado con acero para fabricar acero
+            inoxidable?
+  Choices:
+    - Cromo.
+    - Zinc.
+    - Níquel.
+    - Cobre.
+
+- Title:
+  Question: ¿Qué es el cromado?
+  Choices:
+    - Depositar una capa protectora de cromo sobre otro material,
+      para que no se oxide.
+    - Producción de latón mediante el proceso de galvanización.
+    - Curtido de cuero mediante la utilización de cromo trivalente.
+    - Recubrimiento de una chapa de hierro con zinc para evitar su
+      oxidación.
+
+- Title:
+  Question: ¿Cuál es el tono del color del níquel?
+  Choices:
+    - Blanco con ligero tono amarillo.
+    - Blanco con ligero tono gris.
+    - Blanco brillante.
+    - Blanco con ligero tono rojizo.
+
+- Title:
+  Question: ¿Para qué se utilizan las aleaciones cobre-níquel?
+  Choices:
+    - Fabricar motores marinos, industria química, acuñar monedas.
+    - Producir latón, galvanizar piezas de hierro, pinturas.
+    - Aleación con acero para fabricar acero inoxidable.
+    - Curtido de cuero, catalizadores, pilas eléctricas.
+
+- Title:
+  Question: ¿Cuál es el color del cadmio?
+  Choices:
+    - Blanco azulado.
+    - Plateado brillante.
+    - Amarillo.
+    - Verde oscuro.
+
+- Title:
+  Question: ¿Para qué se utiliza el cadmio?
+  Choices:
+    - Baterías de Níquel-Cadmio recargables, fabricación de cojinetes
+      con baja fricción.
+    - Fabricación de acero inoxidable, galvanización.
+    - Producción de latón, pinturas.
+    - Construcción de prótesis médicas, maquinaria aeroespacial.
+
