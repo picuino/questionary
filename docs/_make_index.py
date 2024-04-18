@@ -184,10 +184,8 @@ index_data = [
    {
       "header" : ["ciberseguridad", "Ciberseguridad"],
       "links": [
-          ["es-ciberseguridad-amenazas-1.html", "Amenazas de seguridad 1"],
-          ["es-ciberseguridad-amenazas-2.html", "Amenazas de seguridad 2"],
-          ["es-ciberseguridad-amenazas-3.html", "Amenazas de seguridad 3"],
-          ["es-ciberseguridad-amenazas-4.html", "Amenazas de seguridad 4"],
+          ["es-ciberseguridad-amenazas-1.html", "Amenazas de seguridad I"],
+          ["es-ciberseguridad-amenazas-2.html", "Amenazas de seguridad II"],
        ]
    },
    {

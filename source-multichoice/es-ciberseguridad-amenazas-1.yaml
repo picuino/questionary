@@ -1,8 +1,8 @@
 ﻿
 Category: Ciberseguridad
-Title: Amenazas 1
-Date: 23/05/2023
-Copyright: 2023 por Carlos Félix Pardo Martín
+Title: Amenazas I
+Date: 18/04/2024
+Copyright: 2024 por Carlos Félix Pardo Martín
 License: Creative Commons Attribution-ShareAlike 4.0
 License_link: https://creativecommons.org/licenses/by-sa/4.0/deed.es
 Source_link: https://www.picuino.com/es/informatica-ciberseguridad-amenazas.html
@@ -11,419 +11,330 @@ Show_max: 0
 ---
 
 #
-# ADWARE
+# Apropiación de formulario
 #
 
 - Title:
-  Question: ¿Cuál es el propósito principal del adware?
+  Question: ¿Qué es la "apropiación de formulario" en ciberseguridad?
   Choices:
-    - Mostrar anuncios no deseados
-    - Mejorar la experiencia en línea
-    - Proteger nuestros dispositivos
-    - Aumentar la privacidad en línea
-
+    - Una táctica para obtener información personal y sensible de los
+      usuarios a través de formularios en línea.
+    - Una técnica para proteger los datos en línea.
+    - Un método para mejorar la velocidad de carga de los sitios web.
+    - Una estrategia para crear formularios más atractivos visualmente
+      para los usuarios que rellenan información en línea.
 
 - Title:
-  Question: ¿Cómo se propaga principalmente el adware?
-  Choices:
-    - A través de descargas de software gratuitas, sitios web sospechosos
-      y enlaces maliciosos
-    - A través de redes sociales populares
-    - Por medio de actualizaciones automáticas del sistema operativo
-    - Mediante el intercambio de archivos por correo electrónico
-
-
-- Title:
-  Question: ¿Qué son las ventanas emergentes (pop-ups) asociadas con el adware?
-  Choices:
-    - Ventanas que muestran anuncios o promociones mientras navegamos
-      por Internet
-    - Ventanas que aparecen en el escritorio de nuestro dispositivo
-    - Ventanas que solicitan la instalación de software adicional
-    - Ventanas que proporcionan información útil y relevante
-
-
-- Title:
-  Question: ¿Qué efecto pueden tener las barras de herramientas no
-            deseadas instaladas por el adware?
-  Choices:
-    - Modificar la configuración del navegador y redirigirnos a sitios
-      web no deseados
-    - Optimizar el rendimiento del dispositivo
-    - Proteger nuestros datos personales
-    - Mejorar la velocidad de conexión a Internet
-
-
-- Title:
-  Question: ¿Cómo puede el adware alterar el comportamiento de nuestro navegador?
-  Choices:
-    - Redireccionando a sitios web diferentes a los que intentamos visitar
-    - Mejorando la velocidad de carga de las páginas web
-    - Bloqueando anuncios y ventanas emergentes
-    - Restringiendo el acceso a ciertos sitios web
-
-
-- Title:
-  Question: ¿Qué es la recopilación de datos personales por parte del adware?
-  Choices:
-    - Rastrear y recopilar información personal sin nuestro consentimiento
-    - Proteger nuestros datos personales de terceros
-    - Permitirnos acceder a servicios en línea de forma más segura
-    - Mejorar la calidad de los anuncios que se nos muestran
-
-
-- Title:
-  Question: ¿Qué impacto puede tener el adware en nuestros dispositivos?
-  Choices:
-    - Ralentizar el rendimiento y consumir recursos del sistema
-    - Mejorar la seguridad y privacidad en línea
-    - Optimizar la navegación por Internet
-    - Aumentar la capacidad de almacenamiento disponible
-
-
-- Title:
-  Question: ¿Cuál es una medida efectiva para protegernos del adware?
-  Choices:
-    - Descargar software solo de fuentes confiables y leer las
-      opiniones de otros usuarios antes de instalarlo
-    - Hacer clic en anuncios sospechosos para obtener más información
-    - Desactivar las actualizaciones automáticas del sistema operativo
-    - Utilizar contraseñas simples y fáciles de recordar
-
-
-- Title:
-  Question: ¿Qué se recomienda hacer en caso de sospechar que hemos
-            sido afectados por adware?
-  Choices:
-    - Estar atentos a cualquier cambio inesperado en nuestro navegador
-      o comportamiento del dispositivo y tomar medidas
-    - Ignorar cualquier cambio y esperar a que desaparezcan por sí solos
-    - Reiniciar el dispositivo y borrar todos los archivos
-    - Compartir información sobre el incidente en las redes sociales
-
-
-- Title:
-  Question: ¿Cuál es una medida para evitar el adware?
-  Choices:
-    - Configurar nuestros navegadores para bloquear ventanas emergentes
-      y desactivar la instalación automática de complementos o barras
-      de herramientas
-    - Hacer clic en cualquier anuncio para obtener ofertas especiales
-    - Compartir nuestros datos personales en línea
-    - Descargar software de cualquier fuente sin verificar su autenticidad
-
-
-- Title:
-  Question: ¿Qué recomendación se da para mantener nuestros dispositivos
-            protegidos contra el adware?
-  Choices:
-    - Mantener nuestros dispositivos actualizados con los últimos parches
-      de seguridad y utilizar programas antivirus y antimalware confiables
-    - Evitar utilizar software antivirus y antimalware
-    - Desactivar los programas de seguridad para mejorar el rendimiento
-      del dispositivo
-    - Descargar software desde cualquier fuente sin verificar su seguridad
-
-
-- Title:
-  Question: ¿Por qué es importante evitar hacer clic en anuncios sospechosos o enlaces desconocidos?
-  Choices:
-    - Porque pueden contener adware o dirigirnos a sitios web maliciosos
-    - Porque nos pueden llevar a páginas de descarga de software gratuito
-    - Porque aumentan nuestra experiencia en línea
-    - Porque nos permiten obtener descuentos exclusivos
-
-
-#
-# APROPIACIÓN DE FORMULARIO
-#
-
-- Title:
-  Question: ¿Qué es la apropiación de formulario, también conocida como "formjacking" en inglés?
-  Choices:
-    - Una táctica empleada por los ciberdelincuentes para robar
-      información confidencial de los formularios en línea presentes
-      en sitios web legítimos.
-    - Un método para mejorar la seguridad de los formularios en línea en
-      los sitios web.
-    - Una técnica para evitar el envío de formularios en línea.
-    - Un tipo de ataque que se centra en la explotación de redes sociales.
-
-
-- Title:
-  Question: ¿Cuál es el objetivo principal de la apropiación de formulario?
-  Choices:
-    - Robar información confidencial, especialmente datos de tarjetas de
-      crédito, de los formularios en línea presentes en sitios web legítimos.
-    - Aumentar la seguridad en los formularios en línea de los sitios web.
-    - Impedir el acceso a los formularios en línea de los usuarios.
-    - Interceptar correos electrónicos enviados a través de formularios en línea.
-
-
-- Title:
-  Question: ¿Cómo logran los ciberdelincuentes insertar código malicioso
-            en un sitio web comprometido?
-  Choices:
-    - Explotando vulnerabilidades en el software o en los complementos
-      utilizados por el sitio web.
-    - Enviando correos electrónicos falsos a los administradores del sitio web.
-    - Utilizando técnicas de ingeniería social para obtener la contraseña
-      del sitio web.
-    - Contratando a un programador para que realice la tarea.
-
-
-- Title:
-  Question: ¿Qué sucede cuando un usuario envía un formulario en un sitio
-            web comprometido?
-  Choices:
-    - El código malicioso interfiere y copia los datos ingresados por
-      el usuario.
-    - El formulario se bloquea y no se envía la información.
-    - El usuario recibe una confirmación de envío falsa.
-    - El sitio web se cierra y se muestra un mensaje de error.
-
-
-- Title:
-  Question: ¿Qué tipo de información pueden robar los ciberdelincuentes
-            mediante la apropiación de formulario?
-  Choices:
-    - Números de tarjetas de crédito, nombres, direcciones y otra
-      información personal.
-    - Contraseñas de redes sociales y direcciones de correo electrónico.
-    - Historial de navegación y preferencias de compras.
-    - Documentos personales como el pasaporte o el carné de identidad.
-
-
-- Title:
-  Question: ¿Cómo se envían los datos robados a los ciberdelincuentes
-            después de un ataque de apropiación de formulario?
-  Choices:
-    - De manera encubierta a los servidores controlados por los
-      ciberdelincuentes.
-    - A través de un correo electrónico encriptado dirigido a los
-      ciberdelincuentes.
-    - Mediante una publicación en redes sociales.
-    - Por medio de una llamada telefónica anónima.
-
-
-- Title:
-  Question: ¿Cuál de las siguientes afirmaciones es un ejemplo de caso
-            en el que se ha producido apropiación de formulario?
-  Choices:
-    - Ataque a tiendas en línea.
-    - Ataque a cuentas de correo electrónico.
-    - Ataque a cajeros automáticos.
-    - Ataque a servidores de videojuegos.
-
-
-- Title:
-  Question: ¿Qué tipo de organizaciones han sido víctimas de la apropiación de formulario?
-  Choices:
-    - Organizaciones benéficas.
-    - Redes sociales.
-    - Empresas de telecomunicaciones.
-    - Agencias de viajes.
-
-
-- Title:
-  Question: ¿En qué año se descubrió que los atacantes habían comprometido
-            el sitio web de una organización benéfica británica llamada
-            "National Emergencies Trust"?
-  Choices:
-    - "2019."
-    - "2020."
-    - "2018."
-    - "2021."
-
-
-- Title:
-  Question: ¿Qué tipo de sitios web también han sido objetivo de la
-            apropiación de formulario?
-  Choices:
-    - Sitios web gubernamentales.
-    - Sitios web de entretenimiento.
-    - Sitios web de noticias.
-    - Sitios web de música.
-
-
-- Title:
-  Question: ¿Qué medidas de seguridad se recomienda tomar para protegerse
-            de la apropiación de formulario?
-  Choices:
-    - Mantener el software y los sistemas operativos actualizados en
-      todos los dispositivos.
-    - Utilizar soluciones de seguridad confiables, como antivirus y
-      firewalls.
-    - Estar atento a las señales de advertencia, como cambios en la
-      apariencia o el comportamiento de un sitio web.
-    - Todas las anteriores.
-
-
-- Title:
-  Question: ¿Qué se recomienda evitar para protegerse de la apropiación
+  Question: ¿Cómo pueden los ciberdelincuentes llevar a cabo la apropiación
             de formulario?
   Choices:
-    - Proporcionar información personal o de pago en sitios web.
-    - Utilizar métodos de pago seguros, como servicios de pago en línea
-      o tarjetas de crédito virtuales.
-    - Actualizar constantemente los perfiles de redes sociales.
-    - Abrir todos los enlaces recibidos en correos electrónicos.
-
+    - Mediante el uso de sitios web fraudulentos que solicitan información
+      confidencial.
+    - A través de la optimización de la seguridad de los formularios en línea.
+    - Utilizando herramientas de encriptación para proteger los datos de
+      los usuarios.
+    - Implementando medidas de autenticación de dos factores en los
+      formularios.
 
 - Title:
-  Question: ¿Qué deben hacer los usuarios para proteger su información
-            personal y financiera mientras navegan por Internet?
+  Question: ¿Qué es un ejemplo común de apropiación de formulario?
   Choices:
-    - Ser conscientes de la amenaza de la apropiación de formulario
-      y tomar las medidas necesarias de seguridad.
-    - Evitar completamente el uso de formularios en línea.
-    - No utilizar tarjetas de crédito en línea.
-    - Desactivar todas las medidas de seguridad en los dispositivos.
+    - El phishing.
+    - El spam.
+    - El malware.
+    - La ingeniería social.
+
+- Title:
+  Question: ¿Cómo pueden los ciberdelincuentes llevar a cabo el phishing?
+  Choices:
+    - Enviando correos electrónicos fraudulentos que dirigen a los usuarios
+      a sitios web falsos.
+    - Utilizando antivirus para proteger la información personal de los usuarios.
+    - A través de la configuración de firewalls en los dispositivos de los usuarios.
+    - Enviando mensajes de texto solicitando información personal a los usuarios.
+
+- Title:
+  Question: ¿Qué hacen los ciberdelincuentes una vez que los usuarios
+            completan los formularios falsos?
+  Choices:
+    - Utilizar la información para cometer fraudes o robar identidades.
+    - Borrar la información para no dejar rastro.
+    - No hacer nada, ya que los formularios son falsos.
+    - Utilizar la información para mejorar la seguridad en línea de los usuarios.
+
+- Title:
+  Question: ¿Qué precauciones pueden tomar los usuarios para protegerse
+            contra la apropiación de formulario?
+  Choices:
+    - Verificar la autenticidad de los sitios web antes de ingresar información personal.
+    - Completar formularios en línea con información personal sin importar su procedencia.
+    - Compartir contraseñas con amigos para mayor seguridad.
+    - Ignorar los avisos de seguridad en los navegadores web.
+
+- Title:
+  Question: ¿Qué tipo de información pueden solicitar los formularios fraudulentos?
+  Choices:
+    - Credenciales de inicio de sesión, como nombres de usuario y contraseñas.
+    - Información médica confidencial del usuario.
+    - Datos de contacto, como direcciones de correo electrónico del usuario.
+    - Preferencias de entretenimiento, como películas favoritas.
+
+- Title:
+  Question: ¿Cómo pueden los usuarios identificar un formulario falso en línea?
+  Choices:
+    - Verificando la legitimidad del sitio web y revisando la URL.
+    - Completando el formulario y esperando los resultados.
+    - Haciendo clic en todos los enlaces proporcionados en el formulario.
+    - Ignorando las advertencias de seguridad del navegador.
+
+- Title:
+  Question: ¿Por qué es importante que los usuarios estén alerta ante la
+            apropiación de formulario?
+  Choices:
+    - Para proteger su información personal y evitar el fraude.
+    - Para aumentar la velocidad de carga de los sitios web.
+    - Para mejorar la funcionalidad de los formularios en línea.
+    - Para evitar recibir correos electrónicos no deseados.
+
+- Title:
+  Question: ¿Qué recomendación se da para protegerse contra la apropiación
+            de formulario?
+  Choices:
+    - Verificar la autenticidad de los sitios web y las aplicaciones antes
+      de proporcionar información personal.
+    - Compartir contraseñas con amigos cercanos para mayor seguridad.
+    - Utilizar contraseñas simples y fáciles de recordar en todas las
+      cuentas en línea.
+    - Proporcionar información personal sin importar la procedencia del
+      formulario.
+
+- Title:
+  Question: ¿Qué se sugiere hacer con las contraseñas para mitigar el
+            riesgo de apropiación de formulario?
+  Choices:
+    - Utilizar contraseñas seguras y no reutilizar las mismas credenciales
+      en múltiples cuentas.
+    - Compartir las contraseñas con amigos para mantenerlas seguras.
+    - Utilizar contraseñas simples y fáciles de recordar en todas las
+      cuentas en línea.
+    - Guardar las contraseñas en un archivo de texto en el escritorio
+      del dispositivo.
+
+- Title:
+  Question: ¿Por qué es importante verificar la autenticidad de los sitios
+            web y aplicaciones antes de proporcionar información personal?
+  Choices:
+    - Para evitar caer en trampas de apropiación de formulario y proteger
+      la privacidad.
+    - Porque todas las solicitudes de información en línea son seguras y
+      legítimas.
+    - Para acelerar el proceso de registro en línea.
+    - Porque los ciberdelincuentes no son capaces de crear sitios web falsos.
+
 
 
 #
-# ATAQUE DE ABREVADERO
+# Ataque de abrevadero
 #
 
 - Title:
-  Question: ¿Qué es un ataque de abrevadero, también conocido como 
-            "watering hole attack"?
+  Question: ¿Qué es el "ataque de abrevadero"?
   Choices:
-    - Una técnica utilizada por los ciberdelincuentes para comprometer
-      la seguridad de los usuarios que visitan sitios web legítimos.
-    - Un método utilizado por los usuarios para proteger sus dispositivos
-      de malware.
-    - Un ataque físico en el que se utiliza un abrevadero para robar
-      información confidencial.
-    - Una medida de seguridad implementada en los sitios web para proteger
-      a los usuarios.
-
+    - Una estrategia de ciberataque que aprovecha la confianza de los
+      usuarios en sitios web o recursos legítimos para infectar sus
+      dispositivos con malware.
+    - Una técnica para mejorar la velocidad de descarga de archivos en línea.
+    - Un método para proteger los dispositivos contra el malware.
+    - Una táctica para evitar la detección de virus en los sistemas informáticos.
 
 - Title:
-  Question: ¿Cuál es el objetivo principal de un ataque de abrevadero?
+  Question: ¿En qué se basa el "ataque de abrevadero"?
   Choices:
-    - Infectar a los usuarios desprevenidos con malware o robar.
-      información confidencial.
-    - Proteger la información confidencial de los usuarios en los sitios
-      web legítimos.
-    - Evitar que los usuarios visiten sitios web legítimos.
-    - Mejorar la seguridad de los sitios web confiables.
-
+    - En la idea de que los usuarios son más propensos a hacer clic en
+      enlaces o descargar archivos adjuntos de fuentes que consideran
+      seguras.
+    - En el uso de tácticas agresivas para dañar los sistemas informáticos.
+    - En la instalación de programas antivirus en los dispositivos.
+    - En la generación de contraseñas seguras para proteger los datos en línea.
 
 - Title:
-  Question: ¿Qué similitud existe entre un ataque de abrevadero y un
-            depredador que acecha a sus presas?
+  Question: ¿Qué hacen los ciberdelincuentes en un ataque de abrevadero?
   Choices:
-    - Los ciberdelincuentes identifican sitios web de confianza 
-      frecuentados por un grupo particular.
-    - Los ciberdelincuentes insertan código malicioso o redirigen a
-      los usuarios a sitios web comprometidos.
-    - Los usuarios visitan el sitio web comprometido y se descarga el malware.
-    - Los ciberdelincuentes utilizan técnicas de ingeniería social para
-      engañar a los usuarios.
-
+    - Crean sitios web falsos o comprometen sitios web legítimos para
+      distribuir malware.
+    - Ayudan a los usuarios a proteger sus dispositivos contra el malware.
+    - Envían correos electrónicos promocionales a los contactos de la víctima.
+    - Ofrecen descargas gratuitas de software legítimo para mejorar la
+      experiencia del usuario.
 
 - Title:
-  Question: ¿Qué puede hacer el malware descargado durante un ataque de
-            abrevadero en un sistema infectado?
+  Question: ¿Cómo pueden los ciberdelincuentes distribuir malware en un
+            ataque de abrevadero?
   Choices:
-    - Robar información confidencial, como contraseñas, datos bancarios
-      o información personal.
-    - Mejorar el rendimiento del sistema infectado.
-    - Bloquear el acceso a otros sitios web.
-    - Actualizar automáticamente el software y los sistemas operativos.
-
+    - Creando una página web falsa que se parece a un sitio de descarga de
+      software confiable.
+    - Enviando correos electrónicos de phishing a personas desconocidas.
+    - Utilizando software antivirus para infectar los dispositivos de
+      los usuarios.
+    - Publicando anuncios en línea con enlaces maliciosos.
 
 - Title:
-  Question: ¿Qué técnica pueden utilizar los atacantes durante un ataque
-            de abrevadero para engañar a los usuarios?
+  Question: ¿Qué hacen los usuarios en un ataque de abrevadero?
   Choices:
-    - Técnicas de ingeniería social.
-    - Crear sitios web legítimos.
-    - Contratar a expertos en ciberseguridad.
-    - Restringir el acceso a los sitios web comprometidos.
-
+    - Descargan lo que creen que es un software legítimo, pero en realidad
+      están descargando malware en sus dispositivos.
+    - Desconfían de cualquier enlace o archivo adjunto que provenga de
+      fuentes conocidas.
+    - Informan a las autoridades sobre cualquier actividad sospechosa en
+      línea.
+    - Actualizan regularmente su software de seguridad para proteger sus
+      dispositivos.
 
 - Title:
-  Question: ¿En qué año ocurrió el ataque de abrevadero dirigido a los
-            sitios web del Gobierno de los Estados Unidos?
+  Question: ¿Cuál es un ejemplo común de ataque de abrevadero?
   Choices:
-    - "2013."
-    - "2018."
-    - "2014."
-    - "2012."
-
+    - Crear una página web falsa que se ve y se comporta como un sitio
+      de descarga de software confiable.
+    - Enviar correos electrónicos promocionales a contactos desconocidos.
+    - Publicar anuncios en línea con enlaces maliciosos.
+    - Compartir enlaces a sitios web legítimos en redes sociales.
 
 - Title:
-  Question: ¿A qué tipo de empresas se dirigió el ataque de abrevadero
-            descubierto en 2019 en Asia?
+  Question: ¿Qué hacen los ciberdelincuentes una vez que los usuarios
+            hacen clic en los enlaces maliciosos?
   Choices:
-    - Empresas tecnológicas.
-    - Empresas de alimentación.
-    - Empresas de transporte.
-    - Empresas de moda.
-
+    - Redirigen a los usuarios a un sitio web falso que descarga malware
+      en sus dispositivos.
+    - Envían un mensaje de advertencia a los usuarios sobre posibles
+      amenazas en línea.
+    - Solicitan un rescate económico a cambio de eliminar el malware
+      de los dispositivos de los usuarios.
+    - Ofrecen software gratuito para proteger los dispositivos contra
+      el malware.
 
 - Title:
-  Question: ¿Qué tipo de sitios web se han comentado como objetivos de 
-            ataques de abrevadero?
+  Question: ¿Qué pueden hacer los ciberdelincuentes cuando comprometen una
+            cuenta de correo electrónico legítima en un ataque de
+            abrevadero?
   Choices:
-    - Foros y sitios web frecuentados por comunidades en línea.
-    - Sitios web de noticias internacionales.
-    - Sitios web de música y entretenimiento.
-    - Sitios web gubernamentales exclusivamente.
-
+    - Enviar correos electrónicos con enlaces maliciosos a los contactos
+      de la víctima.
+    - Enviar correos electrónicos de agradecimiento a los contactos de la
+      víctima.
+    - Compartir información útil y valiosa con los contactos de la víctima.
+    - Comunicarse con los contactos de la víctima para verificar la
+      autenticidad de los mensajes recibidos.
 
 - Title:
-  Question: ¿Cómo pueden protegerse los usuarios de los ataques de abrevadero?
+  Question: ¿Por qué los usuarios pueden ser más propensos a hacer clic
+            en enlaces maliciosos en un ataque de abrevadero?
   Choices:
-    - Todas son correctas.
-    - Manteniendo el software y los sistemas operativos actualizados.
-    - Utilizando soluciones de seguridad confiables, como antivirus y firewalls.
-    - Siendo cautelosos al hacer clic en enlaces y descargar archivos de
-      sitios web desconocidos o sospechosos.
-
+    - Porque reciben los correos electrónicos de personas en quienes confían.
+    - Porque siempre están atentos a posibles amenazas en línea.
+    - Porque tienen instalado software antivirus que los protege de cualquier amenaza.
+    - Porque comparten contraseñas con amigos cercanos para mayor seguridad.
 
 - Title:
-  Question: ¿Qué tipo de sitios web son identificados como sitios de
-            confianza para llevar a cabo un ataque de abrevadero?
+  Question: ¿Cuál es una recomendación para protegerse contra los ataques de abrevadero?
   Choices:
-    - Todas son correctas.
-    - Sitios web de redes sociales.
-    - Sitios web de compras en línea.
-    - Sitios web gubernamentales.
-
+    - Estar siempre alerta y desconfiar de los enlaces o archivos adjuntos inesperados.
+    - Hacer clic en todos los enlaces que provengan de fuentes conocidas.
+    - Descargar archivos adjuntos sin verificar su origen.
+    - Compartir contraseñas con amigos para mejorar la seguridad en línea.
 
 - Title:
-  Question: ¿Por qué los ataques de abrevadero son difíciles de detectar?
+  Question: ¿Por qué es importante practicar buenos hábitos de seguridad
+            en línea para prevenir los ataques de abrevadero?
   Choices:
-    - Porque se aprovechan de la confianza depositada en los sitios web
-      legítimos que se visitan con frecuencia.
-    - Porque los usuarios están más atentos a los ataques de phishing.
-    - Porque los sitios web legítimos tienen medidas de seguridad avanzadas.
-    - Porque los ataques de abrevadero son poco comunes.
-
+    - Porque puede ayudar a proteger los dispositivos contra el malware.
+    - Porque aumenta la velocidad de navegación en Internet.
+    - Porque permite descargar archivos adjuntos de forma segura.
+    - Porque no tiene impacto en la seguridad en línea.
 
 - Title:
-  Question: ¿Qué se recomienda hacer al hacer clic en enlaces y descargar
-            archivos de sitios web desconocidos o sospechosos?
+  Question: ¿Qué puede ayudar a prevenir los ataques de abrevadero?
   Choices:
-    - Ser cauteloso y verificar la confiabilidad del sitio web antes de
-      hacer clic o descargar.
-    - Evitar completamente hacer clic en enlaces y descargar archivos.
-    - Desactivar todas las medidas de seguridad en los dispositivos
-      antes de hacer clic o descargar.
-    - Utilizar una conexión VPN para mayor seguridad.
+    - Contar con un software antivirus actualizado.
+    - Compartir contraseñas con amigos.
+    - Hacer clic en todos los enlaces que parezcan seguros.
+    - Descargar archivos adjuntos sin verificar su origen.
 
+
+
+#
+# Ataque de día cero
+#
 
 - Title:
-  Question: ¿Cuál es la finalidad principal de utilizar soluciones de
-            seguridad confiables, como antivirus y firewalls, para
-            protegerse de los ataques de abrevadero?
+  Question: ¿Qué es un ataque de día cero?
   Choices:
-    - Detectar y bloquear posibles amenazas de malware.
-    - Mejorar la velocidad de conexión a Internet.
-    - Evitar el acceso a sitios web legítimos.
-    - Crear una barrera física entre el usuario y el atacante.
+    - Un ciberataque que explota vulnerabilidades de seguridad
+      desconocidas para las cuales no hay parche disponible.
+    - Un ataque que se produce todos los días a la misma hora.
+    - Un ataque que solo afecta a los dispositivos móviles.
+    - Un ataque que solo ocurre durante el día.
 
+- Title:
+  Question: ¿Por qué se llaman "día cero" las vulnerabilidades explotadas
+            en un ataque de día cero?
+  Choices:
+    - Porque son descubiertas por los atacantes antes de que los
+      desarrolladores de software sean conscientes de ellas.
+    - Porque ocurren en el primer día del mes.
+    - Porque solo afectan a los sistemas operativos lanzados en un día
+      específico.
+    - Porque solo se pueden explotar durante el día.
 
+- Title:
+  Question: ¿Qué ventaja tienen los atacantes en un ataque de día cero?
+  Choices:
+    - Pueden aprovechar la vulnerabilidad antes de que se desarrolle un
+      parche de seguridad.
+    - Tienen acceso a herramientas avanzadas de hacking.
+    - No necesitan conocimientos técnicos para llevar a cabo el ataque.
+    - Pueden predecir cuándo ocurrirá el ataque.
+
+- Title:
+  Question: ¿Qué hace un hacker en un ataque de día cero?
+  Choices:
+    - Desarrolla un malware que explota una vulnerabilidad recién descubierta.
+    - Revela públicamente las vulnerabilidades de seguridad.
+    - Reporta las vulnerabilidades a los desarrolladores de software.
+    - Espera a que los desarrolladores de software creen un parche de seguridad.
+
+- Title:
+  Question: ¿Cómo pueden los usuarios protegerse contra un ataque de día cero?
+  Choices:
+    - Manteniendo sus sistemas actualizados con los últimos parches de seguridad.
+    - Ignorando cualquier actualización de seguridad que aparezca en su dispositivo.
+    - Descargando software de fuentes no confiables.
+    - Compartiendo sus contraseñas con amigos cercanos.
+
+- Title:
+  Question: ¿Cuál es un ejemplo de un ataque de día cero?
+  Choices:
+    - Cuando un hacker desarrolla un malware que explota una
+      vulnerabilidad en un sistema operativo popular.
+    - Cuando un usuario instala una actualización de seguridad en su
+      dispositivo.
+    - Cuando un hacker informa a los desarrolladores de software sobre
+      una vulnerabilidad recién descubierta.
+    - Cuando un dispositivo es infectado por malware después de aplicar
+      un parche de seguridad.
+
+- Title:
+  Question: ¿Qué tipo de sitios pueden ser utilizados para distribuir
+            exploits en un ataque de día cero?
+  Choices:
+    - Sitios web comprometidos o correos electrónicos de phishing.
+    - Sitios web oficiales de empresas reconocidas.
+    - Foros en línea donde se discuten temas de seguridad.
+    - Redes sociales populares como Facebook o Instagram.
+
+- Title:
+  Question: ¿Qué pueden hacer los usuarios para protegerse contra un ataque de día cero?
+  Choices:
+    - Mantener sus sistemas y aplicaciones actualizados con los últimos parches de seguridad.
+    - Compartir contraseñas con amigos cercanos.
+    - Ignorar cualquier advertencia de actualización en sus dispositivos.
+    - Descargar software de fuentes no confiables.

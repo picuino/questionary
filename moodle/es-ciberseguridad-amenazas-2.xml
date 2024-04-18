@@ -9,670 +9,10 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué es un ataque de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es un ataque de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Un ataque que aprovecha una vulnerabilidad aún no descubierta ni parcheada.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un ataque que ocurre en el primer día del año.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un ataque que solo ocurre durante el día.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un ataque que afecta solo a algunos sistemas operativos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál NO es un objetivo de un ataque de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál NO es un objetivo de un ataque de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Descubrir nuevas vulnerabilidades.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Tomar el control de un sistema.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Robar información confidencial de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Instalar Malware.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué tipo de acciones maliciosas pueden llevar a cabo los atacantes que descubren una vulnerabilidad de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de acciones maliciosas pueden llevar a cabo los atacantes que descubren una vulnerabilidad de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Ejecutar código malicioso, tomar el control de un sistema, robar información confidencial o instalar malware.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mejorar la seguridad del sistema y protegerlo de futuros ataques.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Ayudar a los desarrolladores a corregir las vulnerabilidades.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Incrementar la velocidad y rendimiento del sistema.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál de los siguientes es un ejemplo de ataque de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de los siguientes es un ejemplo de ataque de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Stuxnet.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>WannaCry.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>ILOVEYOU.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Heartbleed.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿En qué año ocurrió el ataque de Stuxnet?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué año ocurrió el ataque de Stuxnet?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>2010.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>2012.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>2008.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>2014.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál era el objetivo del ataque Stuxnet?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál era el objetivo del ataque Stuxnet?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Alterar el funcionamiento de las centrifugadoras utilizadas en el enriquecimiento de uranio.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Espiar a los usuarios de dispositivos móviles.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Cifrar los archivos de los usuarios y exigir un rescate.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Distribuir malware a través de sitios web comprometidos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes afirmaciones es verdadera sobre los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes afirmaciones es verdadera sobre los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Representan una amenaza grave para la seguridad.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son conocidos por el público en general.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son corregidos por los fabricantes antes de que sean explotados.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>No se pueden prevenir ni proteger contra ellos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes medidas es recomendada para protegerse contra los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes medidas es recomendada para protegerse contra los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Realizar copias de seguridad periódicas de los datos importantes.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mantener el software y los sistemas operativos desactualizados.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Descargar software de fuentes no confiables.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Abrir correos electrónicos y mensajes de origen desconocido.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué es recomendado hacer para protegerse contra los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es recomendado hacer para protegerse contra los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Mantener el software y los sistemas operativos actualizados con los últimos parches de seguridad.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar software obsoleto y sin actualizaciones.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Descargar software de fuentes desconocidas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Hacer clic en enlaces y archivos adjuntos de correos electrónicos desconocidos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué software fue descontinuado en 2020 debido a su historial de vulnerabilidades y baja seguridad?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué software fue descontinuado en 2020 debido a su historial de vulnerabilidades y baja seguridad?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Adobe Flash Player.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Microsoft Office.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Google Chrome.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mozilla Firefox.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es la importancia de parchear las vulnerabilidades y mantener sistemas y software actualizados?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la importancia de parchear las vulnerabilidades y mantener sistemas y software actualizados?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Minimiza la posibilidad de sufrir un ataque exitoso.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>No es necesario parchear las vulnerabilidades, ya que no representan una amenaza.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Ayuda a los atacantes a encontrar nuevas vulnerabilidades.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Aumenta la probabilidad de ser víctima de un ataque de día cero.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué tipo de soluciones de seguridad se recomiendan para prevenir los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué tipo de soluciones de seguridad se recomiendan para prevenir los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Antivirus y firewalls que incluyan capacidades de detección y prevención de ataques de día cero.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Software pirata y sin licencia.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Soluciones de seguridad gratuitas sin actualizaciones.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Ninguna solución de seguridad es efectiva contra los ataques de día cero.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes acciones NO ayuda a protegerse contra los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes acciones NO ayuda a protegerse contra los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Ejecutar archivos adjuntos de origen desconocido.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mantener el software y los sistemas operativos actualizados.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar defensas de seguridad confiables.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Realizar copias de seguridad periódicas de los datos importantes.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué significa que un ataque de día cero aproveche una vulnerabilidad en un sistema o aplicación que aún no ha sido descubierta ni parcheada por el fabricante?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué significa que un ataque de día cero aproveche una vulnerabilidad en un sistema o aplicación que aún no ha sido descubierta ni parcheada por el fabricante?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>El ataque se produce antes de que se descubra la vulnerabilidad.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>El fabricante es consciente de la vulnerabilidad, pero no ha desarrollado un parche de seguridad.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>El ataque se produce después de que se descubra la vulnerabilidad, pero antes de que se desarrolle un parche.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>El ataque se produce después de que se descubra la vulnerabilidad, pero antes de que se instale un parche.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes afirmaciones resume mejor los ataques de día cero?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes afirmaciones resume mejor los ataques de día cero?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Son explotaciones de vulnerabilidades desconocidas que aún no han sido corregidas por los fabricantes.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son ataques que ocurren exclusivamente durante el primer día de cada mes.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son ataques que solo afectan a sistemas operativos, no a aplicaciones de software.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Son ataques que se originan en países extranjeros y no representan una amenaza local.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
     <name> <text>¿Qué es un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
          <p>¿Qué es un ataque de fuerza bruta?</p>
          ]]></text>
@@ -690,22 +30,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Un método utilizado por los ciberdelincuentes para descifrar contraseñas probando todas las combinaciones posibles.</text>
+       <text>Una técnica para descifrar contraseñas mediante la prueba sistemática de todas las combinaciones posibles.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Un intento de acceder a cuentas en línea mediante contraseñas seguras.</text>
+       <text>Una estrategia para proteger contraseñas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Un programa automatizado que bloquea los intentos de acceso después de varios intentos fallidos.</text>
+       <text>Un método para crear contraseñas seguras.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Un código enviado al teléfono móvil para verificar la identidad de un usuario.</text>
+       <text>Una táctica para compartir contraseñas con amigos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -713,12 +53,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el objetivo principal de un ataque de fuerza bruta?</text> </name>
+    <name> <text>¿Cómo funciona un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el objetivo principal de un ataque de fuerza bruta?</p>
+         <p>¿Cómo funciona un ataque de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -734,22 +74,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Descifrar contraseñas o claves de seguridad.</text>
+       <text>Probando múltiples combinaciones de contraseñas hasta encontrar la correcta.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger archivos y comunicaciones encriptadas.</text>
+       <text>Adivinando aleatoriamente las contraseñas de un usuario al probar pocas combinaciones.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acceder a cuentas bancarias en línea.</text>
+       <text>Utilizando programas informáticos para eliminar contraseñas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Obtener acceso no autorizado a redes Wi-Fi.</text>
+       <text>Solicitando la contraseña al usuario directamente.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -757,12 +97,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué son los "crackers" en el contexto de los ataques de fuerza bruta?</text> </name>
+    <name> <text>¿Qué tipo de cuentas pueden ser objetivo de un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué son los "crackers" en el contexto de los ataques de fuerza bruta?</p>
+         <p>¿Qué tipo de cuentas pueden ser objetivo de un ataque de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -778,22 +118,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Programas automatizados utilizados por los ciberdelincuentes.</text>
+       <text>Cuentas en línea como correos electrónicos o cuentas bancarias.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Medidas de seguridad implementadas en sistemas de cifrado.</text>
+       <text>Cuentas de redes sociales.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Contraseñas seguras y únicas.</text>
+       <text>Cuentas de videojuegos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Actualizaciones de seguridad proporcionadas por los proveedores de software.</text>
+       <text>Cuentas de películas en línea.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -801,12 +141,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué casos utilizan los ciberdelincuentes ataques de fuerza bruta?</text> </name>
+    <name> <text>¿Cómo pueden los ciberdelincuentes probar miles o incluso millones de combinaciones de contraseñas en poco tiempo?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué casos utilizan los ciberdelincuentes ataques de fuerza bruta?</p>
+         <p>¿Cómo pueden los ciberdelincuentes probar miles o incluso millones de combinaciones de contraseñas en poco tiempo?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -822,22 +162,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para intentar acceder a cuentas en línea, sistemas de cifrado y claves de acceso a redes Wi-Fi.</text>
+       <text>Utilizando programas informáticos especializados.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para proteger archivos y comunicaciones encriptadas.</text>
+       <text>Adivinando manualmente cada contraseña.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para bloquear o limitar los intentos de acceso después de un número determinado de intentos fallidos.</text>
+       <text>Enviando correos electrónicos a las personas solicitando sus contraseñas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para verificar la seguridad de una contraseña en línea.</text>
+       <text>Haciendo llamadas telefónicas para solicitar contraseñas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -845,12 +185,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cómo se pueden proteger las cuentas en línea contra los ataques de fuerza bruta?</text> </name>
+    <name> <text>¿Por qué los ciberdelincuentes pueden utilizar un ataque de fuerza bruta en redes Wi-Fi?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo se pueden proteger las cuentas en línea contra los ataques de fuerza bruta?</p>
+         <p>¿Por qué los ciberdelincuentes pueden utilizar un ataque de fuerza bruta en redes Wi-Fi?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -866,22 +206,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Todas las respuestas son correctas.</text>
+       <text>Para intentar descifrar la clave de seguridad de la red.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizando contraseñas seguras y únicas.</text>
+       <text>Para mejorar la velocidad de conexión.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Configurando sistemas que bloqueen o limiten los intentos de acceso después de varios intentos fallidos.</text>
+       <text>Para compartir la conexión con más personas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizando autenticación de dos factores (2FA).</text>
+       <text>Para enviar mensajes a través de la red de forma segura.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -889,12 +229,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es la función de la autenticación de dos factores (2FA)?</text> </name>
+    <name> <text>¿Qué pueden obtener los ciberdelincuentes si tienen éxito en un ataque de fuerza bruta a una cuenta en línea?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es la función de la autenticación de dos factores (2FA)?</p>
+         <p>¿Qué pueden obtener los ciberdelincuentes si tienen éxito en un ataque de fuerza bruta a una cuenta en línea?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -910,22 +250,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Proporcionar una capa adicional de seguridad mediante un segundo método de verificación.</text>
+       <text>Acceso no autorizado a la cuenta.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Descifrar contraseñas y claves de seguridad mediante la prueba de todas las combinaciones posibles.</text>
+       <text>Recompensas monetarias.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Probar diferentes combinaciones de contraseñas en un corto período de tiempo.</text>
+       <text>Mejoras en la seguridad de la cuenta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger archivos y comunicaciones encriptadas.</text>
+       <text>Publicidad gratuita para la cuenta.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -933,12 +273,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Por qué es importante utilizar contraseñas seguras y únicas?</text> </name>
+    <name> <text>¿Por qué es importante utilizar contraseñas seguras frente a un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Por qué es importante utilizar contraseñas seguras y únicas?</p>
+         <p>¿Por qué es importante utilizar contraseñas seguras frente a un ataque de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -954,22 +294,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Para dificultar los ataques de fuerza bruta y que las claves descubiertas sirvan en otros servicios.</text>
+       <text>Porque aumenta la dificultad para descifrarlas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para acceder a cuentas bancarias en línea.</text>
+       <text>Porque hace que las contraseñas sean más fáciles de adivinar.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para enviar códigos de verificación al teléfono móvil.</text>
+       <text>Porque permite compartir las contraseñas con amigos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Para proteger archivos y comunicaciones encriptadas.</text>
+       <text>Porque reduce la velocidad de conexión a Internet.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -977,12 +317,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es uno de los métodos utilizados en los ataques de fuerza bruta?</text> </name>
+    <name> <text>¿Cuál es un ejemplo de un sistema que puede ser objetivo de un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es uno de los métodos utilizados en los ataques de fuerza bruta?</p>
+         <p>¿Cuál es un ejemplo de un sistema que puede ser objetivo de un ataque de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -998,22 +338,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Prueba exhaustiva y sistemática de todas las combinaciones posibles de contraseñas.</text>
+       <text>Redes Wi-Fi.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Configuración de bloqueos en sistemas de cifrado.</text>
+       <text>Juegos de video.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Uso de programas especializados para enviar códigos de verificación.</text>
+       <text>Aplicaciones de mensajería.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Actualización de software con las últimas mejoras de seguridad.</text>
+       <text>Tiendas en línea.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1021,12 +361,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué pueden intentar los ciberdelincuentes al utilizar ataques de fuerza bruta en redes Wi-Fi?</text> </name>
+    <name> <text>¿Qué pueden hacer los usuarios para protegerse contra un ataque de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué pueden intentar los ciberdelincuentes al utilizar ataques de fuerza bruta en redes Wi-Fi?</p>
+         <p>¿Qué pueden hacer los usuarios para protegerse contra un ataque de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1042,22 +382,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Descifrar la clave de acceso a la red Wi-Fi.</text>
+       <text>Utilizar contraseñas complejas y únicas.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acceder a cuentas bancarias en línea.</text>
+       <text>Compartir contraseñas con amigos cercanos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Bloquear o limitar los intentos de acceso después de varios intentos fallidos.</text>
+       <text>Utilizar la misma contraseña para todas las cuentas en línea.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Enviar códigos de verificación al teléfono móvil.</text>
+       <text>Ignorar cualquier advertencia de seguridad en sus dispositivos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1065,12 +405,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué deben evitar los usuarios para protegerse de los ataques de fuerza bruta?</text> </name>
+    <name> <text>¿Qué se recomienda para protegerse contra los ataques de fuerza bruta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué deben evitar los usuarios para protegerse de los ataques de fuerza bruta?</p>
+         <p>¿Qué se recomienda para protegerse contra los ataques de fuerza bruta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1086,22 +426,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Utilizar contraseñas débiles o predecibles.</text>
+       <text>Utilizar contraseñas fuertes y seguras.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Implementar mecanismos de bloqueo que limiten los intentos de acceso.</text>
+       <text>Compartir contraseñas con amigos cercanos.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Mantener el software actualizado con las últimas actualizaciones de seguridad.</text>
+       <text>Utilizar contraseñas cortas y simples.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar autenticación de dos factores (2FA).</text>
+       <text>Desactivar cualquier medida de seguridad adicional.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1109,12 +449,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Qué se busca al utilizar un ataque de fuerza bruta en sistemas de cifrado?</text> </name>
+    <name> <text>¿Por qué es importante utilizar la autenticación de dos factores?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué se busca al utilizar un ataque de fuerza bruta en sistemas de cifrado?</p>
+         <p>¿Por qué es importante utilizar la autenticación de dos factores?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1130,22 +470,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Descifrar la clave de cifrado probando todas las posibles combinaciones.</text>
+       <text>Proporciona una capa adicional de seguridad.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Acceder a cuentas en línea como correos electrónicos y redes sociales.</text>
+       <text>Hace que sea más fácil adivinar contraseñas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Implementar mecanismos de bloqueo para proteger contra ataques de fuerza bruta.</text>
+       <text>Ralentiza el acceso a las cuentas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar autenticación de dos factores (2FA) para una mayor seguridad.</text>
+       <text>No tiene ningún efecto en la seguridad de las cuentas.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1153,12 +493,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el propósito de las actualizaciones de seguridad y parches proporcionados por los proveedores de software?</text> </name>
+    <name> <text>¿Qué tipo de método adicional de verificación se puede utilizar según el texto?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el propósito de las actualizaciones de seguridad y parches proporcionados por los proveedores de software?</p>
+         <p>¿Qué tipo de método adicional de verificación se puede utilizar según el texto?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -1174,506 +514,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Corregir vulnerabilidades conocidas que podrían ser explotadas en ataques de fuerza bruta.</text>
+       <text>Un código enviado al teléfono móvil.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Descifrar contraseñas y claves de seguridad.</text>
+       <text>Una contraseña adicional.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Enviar códigos de verificación al teléfono móvil.</text>
+       <text>Una pregunta de seguridad.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger archivos y comunicaciones encriptadas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué es un ataque man-in-the-middle?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué es un ataque man-in-the-middle?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Una técnica en la que un atacante intercepta y manipula la comunicación entre dos personas.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Una técnica para proteger la información confidencial en línea.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un método utilizado para bloquear el acceso a redes Wi-Fi públicas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Una medida de seguridad para evitar el robo de contraseñas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué puede hacer un atacante en un ataque man-in-the-middle?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede hacer un atacante en un ataque man-in-the-middle?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Leer, modificar o incluso insertar información en los mensajes transmitidos.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Enviar mensajes de advertencia de seguridad a los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger la información personal de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Establecer conexiones seguras en redes Wi-Fi públicas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cuál es un ejemplo común de ataque man-in-the-middle?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es un ejemplo común de ataque man-in-the-middle?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Interceptar el tráfico de Internet en una red Wi-Fi de una cafetería o biblioteca.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Descubrir la contraseña de una red Wi-Fi probando en poco tiempo muchas contraseñas posibles.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar contraseñas seguras en transacciones financieras en línea.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Manipular la apariencia de un sitio web para engañar a los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué puede hacer un atacante en un ataque man-in-the-middle en una red Wi-Fi pública?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede hacer un atacante en un ataque man-in-the-middle en una red Wi-Fi pública?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Interceptar todo el tráfico de Internet y leer información confidencial.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Bloquear el acceso a la red Wi-Fi pública.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mejorar la velocidad de conexión en la red Wi-Fi pública.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger la información personal de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué puede ocurrir en un ataque man-in-the-middle en transacciones financieras en línea?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede ocurrir en un ataque man-in-the-middle en transacciones financieras en línea?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Un atacante puede interceptar los detalles de la tarjeta de crédito y realizar compras fraudulentas.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede bloquear la conexión al sitio web seguro.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede enviar mensajes de advertencia de seguridad a los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede proteger la información personal de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cómo actúa un atacante en un ataque man-in-the-middle?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo actúa un atacante en un ataque man-in-the-middle?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Como un intermediario silencioso que manipula la información transmitida sin dar señales de ello.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un intermediario que roba información gracias a una web falsa que simula ser la página web auténtica de un banco.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un proveedor confiable de redes Wi-Fi públicas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un experto en criptografía.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué medidas se pueden tomar para protegerse de un ataque man-in-the-middle en redes Wi-Fi?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué medidas se pueden tomar para protegerse de un ataque man-in-the-middle en redes Wi-Fi?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Utilizar redes Wi-Fi seguras y confiables, como las proporcionadas por las escuelas o los hogares.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar redes Wi-Fi cualquiera, como las proporcionadas en sitios públicos.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Utilizar contraseñas fuertes en las redes Wi-Fi.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>No ingresar información personal en sitios web con conexiones seguras.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué señal puede indicar la presencia de un ataque man-in-the-middle en un sitio web?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué señal puede indicar la presencia de un ataque man-in-the-middle en un sitio web?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Cambios inesperados en la apariencia del sitio web.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mensajes de advertencia de seguridad enviados por el atacante.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un candado en la barra de direcciones del navegador.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Conexiones lentas en la red Wi-Fi.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué puede hacer un atacante en un ataque man-in-the-middle en una red Wi-Fi pública?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede hacer un atacante en un ataque man-in-the-middle en una red Wi-Fi pública?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Interceptar todo el tráfico de Internet y leer información confidencial.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Bloquear el acceso a la red Wi-Fi pública y no permitir su uso.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Mejorar la velocidad de conexión en la red Wi-Fi pública.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Proteger la información personal de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Qué puede ocurrir en un ataque man-in-the-middle en transacciones financieras en línea?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Qué puede ocurrir en un ataque man-in-the-middle en transacciones financieras en línea?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Un atacante puede interceptar los detalles de la tarjeta de crédito y realizar compras fraudulentas.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede bloquear la conexión al sitio web seguro.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede enviar mensajes de advertencia de seguridad a los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Un atacante puede proteger la información personal de los usuarios.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-  </question>
-
-
-  <question type="multichoice">
-    <name> <text>¿Cómo actúa un atacante en un ataque man-in-the-middle?</text> </name>
-    <questiontext format="html">
-      <text><![CDATA[
-         <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
-         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cómo actúa un atacante en un ataque man-in-the-middle?</p>
-         ]]></text>
-    </questiontext>
-    <generalfeedback format="html"> <text></text> </generalfeedback>
-    <defaultgrade>1.0000000</defaultgrade>
-    <penalty>0.5</penalty>
-    <hidden>0</hidden>
-    <idnumber></idnumber>
-    <single>true</single>
-    <shuffleanswers>true</shuffleanswers>
-    <answernumbering>abc</answernumbering>
-    <showstandardinstruction>0</showstandardinstruction>
-    <correctfeedback format="moodle_auto_format"> <text>Correcto.</text> </correctfeedback>
-    <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
-    <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
-    <answer fraction="100" format="html">
-       <text>Como un intermediario silencioso que manipula la información transmitida.</text>
-       <feedback format="html"> <text>Correcto.</text> </feedback>
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un defensor de la seguridad cibernética.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un proveedor confiable de redes Wi-Fi públicas.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Como un experto en criptografía.</text>
+       <text>Un escáner de huellas dactilares.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
