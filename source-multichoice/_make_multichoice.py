@@ -325,9 +325,13 @@ class Questionary():
    
    def docx_add_image(self, question):
       """Add image to question in docx document"""
-      image_width = question['Image']['display_width']
-      par = self.docx.add_paragraph(style='Image')
-      par.add_run().add_picture(question['Image']['filename'], width=Cm(image_width / self.px_cm))
+      try:
+         image_width = question['Image']['display_width']
+         par = self.docx.add_paragraph(style='Image')
+         par.add_run().add_picture(question['Image']['filename'], width=Cm(image_width / self.px_cm))
+      except:
+         print("File error: %s" % question['Image']['filename'])
+         raise "Error"
    
    
    def suffle_choices(self, question):
