@@ -9,6 +9,8 @@ import codecs
 join_moodle_jobs = [
     {'search_file': 'es-hardware.+\.xml',
      'output_file': 'es-hardware-all.xml'},
+    {'search_file': 'es-software.+\.xml',
+     'output_file': 'es-software-all.xml'},
 ]
 
 def main():
