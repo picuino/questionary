@@ -537,12 +537,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál de las siguientes opciones NO es una herramienta?</text> </name>
+    <name> <text>¿Cuál de las siguientes opciones NO ES una herramienta?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál de las siguientes opciones NO es una herramienta?</p>
+         <p>¿Cuál de las siguientes opciones NO ES una herramienta?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -700,7 +700,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -744,7 +744,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Medición.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -778,7 +778,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Medición y trazado.</text>
+       <text>Trazado y medición.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -788,7 +788,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Perforado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -920,7 +920,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -969,7 +969,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -998,7 +998,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -1042,7 +1042,7 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
@@ -1086,8 +1086,13 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>Marcado.</text>
+       <text>Iniciar un perforado.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>Trazado.</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
@@ -1097,11 +1102,6 @@
     
     <answer fraction="-33.333333333333336" format="html">
        <text>Corte.</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>Perforado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1145,7 +1145,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -1189,7 +1189,7 @@
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>Marcado.</text>
+       <text>Trazado.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
