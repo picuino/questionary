@@ -15,16 +15,16 @@ Show_max: 0
   Image_width: 180
   Choices:
     - Pila
-    - Generador de corriente alterna
+    - Alternador
     - Motor
     - Toma de tierra
 
-- Title: Identificar Generador de corriente alterna
+- Title: Identificar Alternador
   Question: ¿A qué componente corresponde el símbolo de la figura?
-  Image: ../images/electric-simbolo-generador.png
+  Image: ../images/electric-simbolo-alternador.png
   Image_width: 180
   Choices:
-    - Generador de corriente alterna
+    - Alternador
     - Batería o pila
     - Bombilla
     - Motor eléctrico
@@ -107,7 +107,7 @@ Show_max: 0
     - Zumbador
     - Altavoz
     - Motor
-    - Generador Alterna
+    - Alternador
 
 - Title: Identificar Altavoz
   Question: ¿A qué componente corresponde el símbolo de la figura?
@@ -116,8 +116,8 @@ Show_max: 0
   Choices:
     - Altavoz
     - Zumbador
-    - Generador alterna
-    - Generador de continua
+    - Alternador
+    - Condensador
 
 - Title: Identificar Motor
   Question: ¿A qué componente corresponde el símbolo de la figura?
@@ -156,7 +156,7 @@ Show_max: 0
   Choices:
     - Fusible
     - Resistencia
-    - Generador
+    - Alternador
     - Relé
 
 - Title: Identificar Pulsador n.c.
@@ -175,7 +175,7 @@ Show_max: 0
   Image_width: 180
   Choices:
     - Voltímetro
-    - Generador de tensión
+    - Alternador
     - Pila
     - Bombilla
 
@@ -185,7 +185,7 @@ Show_max: 0
   Image_width: 180
   Choices:
     - Amperímetro
-    - Generador de corriente
+    - Alternador
     - Pila
     - Aluminio
 
