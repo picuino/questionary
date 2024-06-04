@@ -94,7 +94,7 @@ index_template = """<!DOCTYPE html>
       
 	<hr style="margin:20px 0 20px 0">
 	<a class="btn2" href="index.html" target="_blank">Test en Español</a>
-	<a class="btn2" href="https://www.picuino.com/en/" target="_blank">Picuino</a>
+	<a class="btn3" href="https://www.picuino.com/es/" target="_blank"><img src="logo-picuino-bgblue.png" alt="Picuino"></a>
 	<hr style="margin:20px 0 80px 0">
 
         {% set sp = namespace(section=1, numtest=1, sumtest=0) %}

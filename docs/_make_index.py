@@ -8,11 +8,11 @@
 #
 #  This program is distributed in the hope that it will be useful,
 #  but WITHOUT ANY WARRANTY; without even the implied warranty of
-#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.	 See the
 #  GNU General Public License for more details.
 #
 #  You should have received a copy of the GNU General Public License
-#  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#  along with this program.	 If not, see <https://www.gnu.org/licenses/>.
 #
 
 import os
@@ -22,195 +22,195 @@ from jinja2 import Template
 
 index_data = [
    {
-      "header" : ["materiales", "Materiales"],
-      "links": [
-          ["es-material-classification.html", "Clasificación de los materiales"],
-          ["es-material-properties-1.html", "Propiedades de los materiales I"],
-          ["es-material-properties-2.html", "Propiedades de los materiales II"],
-          ["es-material-properties-3.html", "Propiedades de los materiales III"],
-          ["es-material-stone-1.html", "Los materiales pétreos I"],
-          ["es-material-stone-2.html", "Los materiales pétreos II"],
-          ["es-material-stone-3.html", "Los materiales pétreos III"],
-          ["es-material-wood-1.html", "La madera y sus derivados I"],
-          ["es-material-wood-2.html", "La madera y sus derivados II"],
-          ["es-material-textiles.html", "Los materiales textiles"],
-          ["es-material-metals-1.html", "Los materiales metálicos I"],
-          ["es-material-metals-2.html", "Los materiales metálicos II"],
-          ["es-material-metals-3.html", "Los materiales metálicos III"],
-          ["es-material-metals-4.html", "Los materiales metálicos IV"],
-          ["es-material-plastics-1.html", "Los materiales plásticos I"],
-          ["es-material-plastics-2.html", "Los materiales plásticos II"],
-          ["es-material-plastics-3.html", "Los materiales plásticos III"],
-          ["es-material-tools-1.html", "Las herramientas I"],
-          ["es-material-tools-2.html", "Las herramientas II"],
-          ["es-material.html", "Materiales y Herramientas. Test global"],
-      ]
+	  "header" : ["materiales", "Materiales"],
+	  "links": [
+		  ["es-material-classification.html", "Clasificación de los materiales"],
+		  ["es-material-properties-1.html", "Propiedades de los materiales I"],
+		  ["es-material-properties-2.html", "Propiedades de los materiales II"],
+		  ["es-material-properties-3.html", "Propiedades de los materiales III"],
+		  ["es-material-stone-1.html", "Los materiales pétreos I"],
+		  ["es-material-stone-2.html", "Los materiales pétreos II"],
+		  ["es-material-stone-3.html", "Los materiales pétreos III"],
+		  ["es-material-wood-1.html", "La madera y sus derivados I"],
+		  ["es-material-wood-2.html", "La madera y sus derivados II"],
+		  ["es-material-textiles.html", "Los materiales textiles"],
+		  ["es-material-metals-1.html", "Los materiales metálicos I"],
+		  ["es-material-metals-2.html", "Los materiales metálicos II"],
+		  ["es-material-metals-3.html", "Los materiales metálicos III"],
+		  ["es-material-metals-4.html", "Los materiales metálicos IV"],
+		  ["es-material-plastics-1.html", "Los materiales plásticos I"],
+		  ["es-material-plastics-2.html", "Los materiales plásticos II"],
+		  ["es-material-plastics-3.html", "Los materiales plásticos III"],
+		  ["es-material-tools-1.html", "Las herramientas I"],
+		  ["es-material-tools-2.html", "Las herramientas II"],
+		  ["es-material.html", "Materiales y Herramientas. Test global"],
+	  ]
    },
    {
-      "header" : ["mecanica", "Mecánica"],
-      "links": [
-          ["es-machines-simple.html", "Máquinas simples"],
-          ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
-          ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
-          ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
-          ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
-          ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
-          ["es-machines.html", "Máquinas y Mecanismos. Test global"],
-          ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
-          ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
-       ]
+	  "header" : ["mecanica", "Mecánica"],
+	  "links": [
+		  ["es-machines-simple.html", "Máquinas simples"],
+		  ["es-machines-transmission1.html", "Mecanismos de<br>transmisión I"],
+		  ["es-machines-transmission2.html", "Mecanismos de<br>transmisión II"],
+		  ["es-machines-transmission3.html", "Mecanismos de<br>transmisión III"],
+		  ["es-machines-transformation1.html", "Mecanismos de<br>transformación I"],
+		  ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
+		  ["es-machines.html", "Máquinas y Mecanismos. Test global"],
+		  ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
+		  ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
+	   ]
    },
    {
-      "header" : ["neumatica", "Neumática"],
-      "links": [
-          ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
-          ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
-       ]
+	  "header" : ["neumatica", "Neumática"],
+	  "links": [
+		  ["es-neumatic-symbol-name.html", "Nombre de símbolos neumáticos (Test)"],
+		  ["es-neumatic-symbol-name-cloze.html", "Nombre de símbolos neumáticos (Cloze)"],
+	   ]
    },
    {
-      "header" : ["electricidad", "Electricidad"],
-      "links": [
-          ["es-electric-introduction.html", "Fundamentos"],
-          ["es-electric-circuits.html", "El circuito eléctrico"],
+	  "header" : ["electricidad", "Electricidad"],
+	  "links": [
+		  ["es-electric-introduction.html", "Fundamentos"],
+		  ["es-electric-circuits.html", "El circuito eléctrico"],
 
-          ["es-electric-components-type.html", "Tipos de componentes"],
-          ["es-electric-components-name.html", "Nombre de componentes (test)"],
-          ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
+		  ["es-electric-components-type.html", "Tipos de componentes"],
+		  ["es-electric-components-name.html", "Nombre de componentes (test)"],
+		  ["es-electric-components-name-cloze.html", "Nombre de componentes (cloze)"],
 
-          ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
-          ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
-          ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
+		  ["es-electric-units-magnitudes.html", "Unidades y Magnitudes"],
+		  ["es-electric-ohms-law.html", "Ley de Ohm. Fundamentos"],
+		  ["es-electric-ohms-law-2.html", "Ley de Ohm. Cálculos"],
 
-          ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
-          ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
-          ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
+		  ["es-electric-series-parallel-identify.html", "Identificar serie y paralelo"],
+		  ["es-electric-series-parallel-calc.html", "Calcular serie y paralelo"],
+		  ["es-electric-series-parallel-calc-2.html", "Calcular resistencia equivalente"],
 
-          ["es-electric-resolver-circuitos-1.html", "Resolver circuitos I"],
-          ["es-electric-resolver-circuitos-2.html", "Resolver circuitos II"],
+		  ["es-electric-resolver-circuitos-1.html", "Resolver circuitos I"],
+		  ["es-electric-resolver-circuitos-2.html", "Resolver circuitos II"],
 
-          ["es-electric-energy-1.html", "Energía eléctrica I"],
-          ["es-electric-energy-2.html", "Energía eléctrica II"],
-          ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
+		  ["es-electric-energy-1.html", "Energía eléctrica I"],
+		  ["es-electric-energy-2.html", "Energía eléctrica II"],
+		  ["es-electric-energy-calc.html", "Cálculos con energía eléctrica"],
 
-          ["es-electric-power.html", "Potencia eléctrica"],
-       ]
+		  ["es-electric-power.html", "Potencia eléctrica"],
+	   ]
    },
    {
-      "header" : ["electronica", "Electrónica"],
-      "links": [
-          ["es-electric-color-code-1.html", "Código de colores 1"],
-          ["es-electric-color-code-2.html", "Código de colores 2"],
+	  "header" : ["electronica", "Electrónica"],
+	  "links": [
+		  ["es-electric-color-code-1.html", "Código de colores 1"],
+		  ["es-electric-color-code-2.html", "Código de colores 2"],
 
-          ["es-electric-breadboard.html", "Breadboard"],
-          ["es-electric-digital.html", "Electrónica digital"],
-       ]
+		  ["es-electric-breadboard.html", "Breadboard"],
+		  ["es-electric-digital.html", "Electrónica digital"],
+	   ]
    },
    {
-      "header" : ["controladores", "Control Automático"],
-      "links": [
-          ["es-control-introduction.html", "Introducción al control automático"],
-       ]
+	  "header" : ["controladores", "Control Automático"],
+	  "links": [
+		  ["es-control-introduction.html", "Introducción al control automático"],
+	   ]
    },
    {
-      "header" : ["hardware", "Hardware"],
-      "links": [
-          ["es-hardware-intro-1.html", "Introducción al hardware I"],
-          ["es-hardware-intro-2.html", "Introducción al hardware II"],
+	  "header" : ["hardware", "Hardware"],
+	  "links": [
+		  ["es-hardware-intro-1.html", "Introducción al hardware I"],
+		  ["es-hardware-intro-2.html", "Introducción al hardware II"],
 
-          ["es-hardware-clasificacion-1.html", "Clasificación de los ordenadores I"],
-          ["es-hardware-clasificacion-2.html", "Clasificación de los ordenadores II"],
+		  ["es-hardware-clasificacion-1.html", "Clasificación de los ordenadores I"],
+		  ["es-hardware-clasificacion-2.html", "Clasificación de los ordenadores II"],
 
-          ["es-hardware-unidades-1.html", "Unidades de medida I"],
-          ["es-hardware-unidades-2.html", "Unidades de medida II"],
+		  ["es-hardware-unidades-1.html", "Unidades de medida I"],
+		  ["es-hardware-unidades-2.html", "Unidades de medida II"],
 
-          ["es-hardware-ley-moore-1.html", "Ley de Moore I"],
-          ["es-hardware-ley-moore-2.html", "Ley de Moore II"],
+		  ["es-hardware-ley-moore-1.html", "Ley de Moore I"],
+		  ["es-hardware-ley-moore-2.html", "Ley de Moore II"],
 
-          ["es-hardware-pc-1.html", "Hardware del ordenador personal I"],
-          ["es-hardware-pc-2.html", "Hardware del ordenador personal II"],
-          
-          ["es-hardware-placa-base.html", "Placa base"],
+		  ["es-hardware-pc-1.html", "Hardware del ordenador personal I"],
+		  ["es-hardware-pc-2.html", "Hardware del ordenador personal II"],
+		  
+		  ["es-hardware-placa-base.html", "Placa base"],
 
-          ["es-hardware-procesadores-1.html", "Procesadores I"],
-          ["es-hardware-procesadores-2.html", "Procesadores II"],
-          ["es-hardware-procesadores-3.html", "Procesadores III"],
-          ["es-hardware-procesadores-4.html", "Procesadores IV"],
+		  ["es-hardware-procesadores-1.html", "Procesadores I"],
+		  ["es-hardware-procesadores-2.html", "Procesadores II"],
+		  ["es-hardware-procesadores-3.html", "Procesadores III"],
+		  ["es-hardware-procesadores-4.html", "Procesadores IV"],
 
-          ["es-hardware-perifericos-1.html", "Periféricos I"],
-          ["es-hardware-perifericos-2.html", "Periféricos II"],
-          ["es-hardware-perifericos-3.html", "Periféricos III"],
-          ["es-hardware-perifericos-4.html", "Periféricos IV"],
+		  ["es-hardware-perifericos-1.html", "Periféricos I"],
+		  ["es-hardware-perifericos-2.html", "Periféricos II"],
+		  ["es-hardware-perifericos-3.html", "Periféricos III"],
+		  ["es-hardware-perifericos-4.html", "Periféricos IV"],
 
-          ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
-          ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
-          ["es-hardware-almacenamiento-3.html", "Almacenamiento III"],
-          ["es-hardware-almacenamiento-4.html", "Almacenamiento IV"],
-          ["es-hardware-almacenamiento-5.html", "Almacenamiento V"],
-          ["es-hardware-almacenamiento-6.html", "Almacenamiento VI"],
+		  ["es-hardware-almacenamiento-1.html", "Almacenamiento I"],
+		  ["es-hardware-almacenamiento-2.html", "Almacenamiento II"],
+		  ["es-hardware-almacenamiento-3.html", "Almacenamiento III"],
+		  ["es-hardware-almacenamiento-4.html", "Almacenamiento IV"],
+		  ["es-hardware-almacenamiento-5.html", "Almacenamiento V"],
+		  ["es-hardware-almacenamiento-6.html", "Almacenamiento VI"],
 
-          ["es-hardware-comunicaciones-1.html", "Comunicaciones I"],
-          ["es-hardware-comunicaciones-2.html", "Comunicaciones II"],
-          ["es-hardware-comunicaciones-3.html", "Comunicaciones III"],
-          ["es-hardware-comunicaciones-4.html", "Comunicaciones IV"],
+		  ["es-hardware-comunicaciones-1.html", "Comunicaciones I"],
+		  ["es-hardware-comunicaciones-2.html", "Comunicaciones II"],
+		  ["es-hardware-comunicaciones-3.html", "Comunicaciones III"],
+		  ["es-hardware-comunicaciones-4.html", "Comunicaciones IV"],
 
-          ["es-hardware-auxiliares-1.html", "Elementos auxiliares I"],
-          ["es-hardware-auxiliares-2.html", "Elementos auxiliares II"],
+		  ["es-hardware-auxiliares-1.html", "Elementos auxiliares I"],
+		  ["es-hardware-auxiliares-2.html", "Elementos auxiliares II"],
 
-          ["es-hardware.html", "Test global de Hardware"],
-       ]
+		  ["es-hardware.html", "Test global de Hardware"],
+	   ]
    },
    {
-      "header" : ["software", "Software"],
-      "links": [
-          ["es-software-intro-1.html", "Introducción al software I"],
-          ["es-software-intro-2.html", "Introducción al software II"],
-          ["es-software-licencias-1.html", "Licencias de software I"],
-          ["es-software-licencias-2.html", "Licencias de software II"],
-          ["es-software-sistema-operativo-1.html", "Sistema Operativo I"],
-          ["es-software-sistema-operativo-2.html", "Sistema Operativo II"],
-          ["es-software-sistema-operativo-3.html", "Sistema Operativo III"],
-          ["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
-          ["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
-          ["es-software-sistema-operativo-6.html", "Sistema Operativo VI"],
-          ["es-software-formatos-imagen-1.html", "Formatos de imagen I"],
-          ["es-software-formatos-imagen-2.html", "Formatos de imagen II"],
-          ["es-software-formatos-imagen-3.html", "Formatos de imagen III"],
-          ["es-software-formatos-imagen-4.html", "Formatos de imagen IV"],
-          ["es-software-formatos-imagen-5.html", "Formatos de imagen V"],
-          ["es-software-formatos-imagen-6.html", "Formatos de imagen VI"],
-          ["es-software.html", "Test global de Software"],
-       ]
+	  "header" : ["software", "Software"],
+	  "links": [
+		  ["es-software-intro-1.html", "Introducción al software I"],
+		  ["es-software-intro-2.html", "Introducción al software II"],
+		  ["es-software-licencias-1.html", "Licencias de software I"],
+		  ["es-software-licencias-2.html", "Licencias de software II"],
+		  ["es-software-sistema-operativo-1.html", "Sistema Operativo I"],
+		  ["es-software-sistema-operativo-2.html", "Sistema Operativo II"],
+		  ["es-software-sistema-operativo-3.html", "Sistema Operativo III"],
+		  ["es-software-sistema-operativo-4.html", "Sistema Operativo IV"],
+		  ["es-software-sistema-operativo-5.html", "Sistema Operativo V"],
+		  ["es-software-sistema-operativo-6.html", "Sistema Operativo VI"],
+		  ["es-software-formatos-imagen-1.html", "Formatos de imagen I"],
+		  ["es-software-formatos-imagen-2.html", "Formatos de imagen II"],
+		  ["es-software-formatos-imagen-3.html", "Formatos de imagen III"],
+		  ["es-software-formatos-imagen-4.html", "Formatos de imagen IV"],
+		  ["es-software-formatos-imagen-5.html", "Formatos de imagen V"],
+		  ["es-software-formatos-imagen-6.html", "Formatos de imagen VI"],
+		  ["es-software.html", "Test global de Software"],
+	   ]
    },
    {
-      "header" : ["ciberseguridad", "Ciberseguridad"],
-      "links": [
-          ["es-ciberseguridad-amenazas-1.html", "Amenazas de seguridad I"],
-          ["es-ciberseguridad-amenazas-2.html", "Amenazas de seguridad II"],
-       ]
+	  "header" : ["ciberseguridad", "Ciberseguridad"],
+	  "links": [
+		  ["es-ciberseguridad-amenazas-1.html", "Amenazas de seguridad I"],
+		  ["es-ciberseguridad-amenazas-2.html", "Amenazas de seguridad II"],
+	   ]
    },
    {
-      "header" : ["tecnologia", "Tecnología y Sociedad"],
-      "links": [
-          ["es-historia-tecnologia-prehistoria.html", "Historia de la Tecnología. Prehistoria"],
-          ["es-historia-tecnologia-antigua.html", "Historia de la Tecnología. Edad Antigua"],
-          ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología. Edad Moderna"],
-          ["es-historia-tecnologia-revolucion-industrial.html", "Historia de la Tecnología. Revolución Industrial"],
-          ["es-historia-tecnologia-siglos-xx-xxi.html", "Historia de la Tecnología. Siglos XX y XXI"],
+	  "header" : ["tecnologia", "Tecnología y Sociedad"],
+	  "links": [
+		  ["es-historia-tecnologia-prehistoria.html", "Historia de la Tecnología. Prehistoria"],
+		  ["es-historia-tecnologia-antigua.html", "Historia de la Tecnología. Edad Antigua"],
+		  ["es-historia-tecnologia-moderna.html", "Historia de la Tecnología. Edad Moderna"],
+		  ["es-historia-tecnologia-revolucion-industrial.html", "Historia de la Tecnología. Revolución Industrial"],
+		  ["es-historia-tecnologia-siglos-xx-xxi.html", "Historia de la Tecnología. Siglos XX y XXI"],
 
-          ["es-technology-objects-1.html", "Los objetos técnicos y la sociedad I"],
-          ["es-technology-objects-2.html", "Los objetos técnicos y la sociedad II"],
-          ["es-technology-objects-3.html", "La Normalización I"],
-          ["es-technology-objects-4.html", "La Normalización II"],
+		  ["es-technology-objects-1.html", "Los objetos técnicos y la sociedad I"],
+		  ["es-technology-objects-2.html", "Los objetos técnicos y la sociedad II"],
+		  ["es-technology-objects-3.html", "La Normalización I"],
+		  ["es-technology-objects-4.html", "La Normalización II"],
 
-          ["es-historia-tecnologia.html", "Historia de la Tecnología. Test global"],
-          ["es-technology-objects.html", "Los objetos técnicos. Test global"],
-       ]
+		  ["es-historia-tecnologia.html", "Historia de la Tecnología. Test global"],
+		  ["es-technology-objects.html", "Los objetos técnicos. Test global"],
+	   ]
    },
    #{
    #   "header" : ["varios", "Test varios"],
    #   "links": [
-   #       ["es-dinosaurios-1.html", "Dinosaurios. Test I"],
-   #    ]
+   #	   ["es-dinosaurios-1.html", "Dinosaurios. Test I"],
+   #	]
    #},
 ]
 
@@ -261,37 +261,37 @@ index_template = """<!DOCTYPE html>
 
 <body>
    <div class="container">
-      <div id="home" class="flex-center flex-column">
+	  <div id="home" class="flex-center flex-column">
 
-        <h1 id="index">TEST DE TECNOLOGÍA</h1>
-        {% set sp = namespace(section = 1) %}
-        {% for section in data %}
-        <a class="btn2" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
-        {%- set sp.section = sp.section + 1 %}
-        {%- endfor %}
-      
+		<h1 id="index">TEST DE TECNOLOGÍA</h1>
+		{% set sp = namespace(section = 1) %}
+		{% for section in data %}
+		<a class="btn2" href="#{{section.header[0]}}">{{ sp.section }}. {{ section.header[1] }}</a>
+		{%- set sp.section = sp.section + 1 %}
+		{%- endfor %}
+	  
 	<hr style="margin:20px 0 20px 0">
 
 	<a class="btn2" href="index-en.html" target="_blank">Test in English</a>
-	<a class="btn2" href="https://www.picuino.com/es/" target="_blank">Picuino</a>
+	<a class="btn3" href="https://www.picuino.com/es/" target="_blank"><img src="logo-picuino-bgblue.png" alt="Picuino"></a>
 
 	<hr style="margin:20px 0 80px 0">
 
-        {% set sp = namespace(section=1, numtest=1, sumtest=0) %}
-        {%- for section in data %}
+		{% set sp = namespace(section=1, numtest=1, sumtest=0) %}
+		{%- for section in data %}
 
-        <h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
-        {%- for link in section.links %}
-        <a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
-        {%- set sp.numtest = sp.numtest + 1 %}
-        {%- set sp.sumtest = sp.sumtest + 1 %}
-        {%- endfor %}
-        <a class="btn2" href="#index">Volver al índice</a>
-        {%- set sp.section = sp.section + 1 %}
-        {%- set sp.numtest = 1 %}
-        {%- endfor %}
+		<h1 id="{{ section.header[0] }}">{{ section.header[1] }}</h1>
+		{%- for link in section.links %}
+		<a class="btn" href="{{ link[0] }}">{{ sp.section }}.{{ sp.numtest }} {{ link[1] }}</a>
+		{%- set sp.numtest = sp.numtest + 1 %}
+		{%- set sp.sumtest = sp.sumtest + 1 %}
+		{%- endfor %}
+		<a class="btn2" href="#index">Volver al índice</a>
+		{%- set sp.section = sp.section + 1 %}
+		{%- set sp.numtest = 1 %}
+		{%- endfor %}
 
-      </div>
+	  </div>
    </div>
 
    <div class="container">
@@ -319,7 +319,7 @@ def main():
    template = Template(index_template)
    data = template.render(data = index_data)
    with codecs.open("index.html", 'w', encoding="utf-8") as fo:
-       fo.write(data)
+	   fo.write(data)
 
 
 if __name__ == "__main__":
