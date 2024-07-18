@@ -371,7 +371,7 @@
 
 </head>
 
-<body>
+<body onbeforeunload="return closeConfirm()">
    <div class="container"> <div class="justify-center flex-column">
 
       <!-- HUD -->
@@ -662,6 +662,10 @@
          fill_question_text(page);
          message_hide();
          hud_show();
+      }
+
+      function closeConfirm() {
+         return "¿Realmente desea salir de la página web?";
       }
 
       function bin_atob(str) {

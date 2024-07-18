@@ -1945,12 +1945,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el metal más caro?</text> </name>
+    <name> <text>¿Cuál de estos metales es más caro?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el metal más caro?</p>
+         <p>¿Cuál de estos metales es más caro?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -5486,22 +5486,22 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>El titanio tiene un precio más de 20 veces más caro que el acero.</text>
+       <text>El titanio tiene un precio de 10 a 20 veces más caro que el acero.</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El titanio tiene un precio más de 50 veces más caro que el acero.</text>
+       <text>El titanio tiene un precio de 20 a 50 veces más caro que el acero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El titanio tiene un precio más de 100 veces más caro que el acero.</text>
+       <text>El titanio tiene un precio de 50 a 100 veces más caro que el acero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
-       <text>El titanio tiene un precio menor que el del acero.</text>
+       <text>El titanio tiene un precio de 5 a 10 veces más caro que el acero.</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
@@ -14925,12 +14925,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿Cuál es el metal más barato?</text> </name>
+    <name> <text>¿Cuál de estos metales es más barato?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿Cuál es el metal más barato?</p>
+         <p>¿Cuál de estos metales es más barato?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>

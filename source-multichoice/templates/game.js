@@ -34,6 +34,7 @@ const timeBeforeNextQuestion = 1800;
 const on = Date.now();
 
 var options = [];
+var closeConfirmVar = true;
 let currentQuestionNumChoices = 0;
 let acceptingAnswers = false;
 let acceptingScore = false;
@@ -51,6 +52,14 @@ let suffleQuestions = true;
 var questionBank = sessionStorage.getItem('questionBank');
 questionBankMax = sessionStorage.getItem('questionBankMax');
 
+function closeConfirm() {
+    if (closeConfirmVar) {
+        return "¿Realmente desea salir de la página web?";
+    }
+    else {
+        return; 
+    }
+}
 
 fetch(questionBank)
     .then((res) => {
@@ -94,6 +103,7 @@ getNewQuestion = () => {
         datetimeScore = Date.now();
         sessionStorage.setItem('datetimeScore', datetimeScore);        
         sessionStorage.setItem('mostRecentScore', ((score^on)>>16)^datetimeScore);
+        closeConfirmVar = false;
         return window.location.assign('end.html');
     }
 
