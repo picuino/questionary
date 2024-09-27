@@ -46,7 +46,7 @@ def main():
    moodle_path = '../moodle'
    html_path = '../docs'
    
-   questionary = Questionary(overwrite=False)
+   questionary = Questionary()
 
    # Process all yaml files of this directory
    questions_counter = DictCounter()
@@ -115,13 +115,18 @@ class Questionary():
 
 
    def write_file(self, filename, data):
-      if self.overwrite or self.file_older(filename):
-         print('   Writing: ' + filename)
-         if isinstance(data, docx.document.Document):
+      if isinstance(data, docx.document.Document):
+         if self.overwrite or self.file_older(filename):
+            print('   Writing: ' + filename)
             data.save(filename)
-         else:
-            with codecs.open(filename, 'w', encoding='utf-8') as outfile:
-               outfile.write(data)
+      else:
+         old_data = None
+         if os.path.exists(filename):
+            with codecs.open(filename, 'r', encoding='utf-8') as fi:
+               old_data = fi.read()
+         if data != old_data:
+            with codecs.open(filename, 'w', encoding='utf-8') as fo:
+               fo.write(data)
 
 
    def file_older(self, filename1, filename2=False):

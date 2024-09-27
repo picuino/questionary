@@ -60,7 +60,7 @@ projects = [
    'filename_output': 'es-material',
    'yaml_category': 'Materiales y Herramientas',
    'yaml_title': 'Test global',
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -85,7 +85,7 @@ projects = [
    'filename_output': 'es-hardware',
    'yaml_category': 'Hardware de ordenador',
    'yaml_title': 'Test global',
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -105,7 +105,7 @@ projects = [
    'filename_output': 'es-software',
    'yaml_category': 'Software de ordenador',
    'yaml_title': 'Test global',
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -121,7 +121,7 @@ projects = [
    'filename_output': 'es-machines',
    'yaml_category': 'Máquinas y Mecanismos',
    'yaml_title': 'Test global',   
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -136,7 +136,7 @@ projects = [
    'filename_output': 'es-historia-tecnologia',
    'yaml_category': 'Historia de la Tecnología',
    'yaml_title': 'Test global',   
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -150,7 +150,7 @@ projects = [
    'filename_output': 'es-technology-objects',
    'yaml_category': 'Los objetos técnicos',
    'yaml_title': 'Test global',   
-   'max_questions': 35,
+   'max_questions': 40,
    'random_seed': random_seed,
 },
 
@@ -185,7 +185,7 @@ def main():
       random.shuffle(all_questions)
 
       # Write questions
-      questionary = Questionary(overwrite=False)
+      questionary = Questionary()
       questionary.yaml_path = ''
       questionary.yaml_file = project['yaml_files'][0]
       questionary.filename = project['filename_output']
@@ -201,8 +201,8 @@ def main():
       questionary.mtime = max(Modify_times)
       questionary.docx_generate(path=build_path)
       questionary.moodle_generate(moodle_template, path=moodle_path)
-      questionary.json_generate(json_template, path=html_path)
       questionary.html_generate(html_template, path=html_path)
+      questionary.json_generate(json_template, path=html_path)
 
       print()
 
