@@ -11,6 +11,10 @@ join_moodle_jobs = [
      'output_file': 'es-hardware-all.xml'},
     {'search_file': 'es-software.+\.xml',
      'output_file': 'es-software-all.xml'},
+    {'search_file': 'es-technology.+\.xml',
+     'output_file': 'es-technology-all.xml'},
+    {'search_file': 'es-historia-tecnologia.+\.xml',
+     'output_file': 'es-historia-tecnologia-all.xml'},
 ]
 
 def main():
