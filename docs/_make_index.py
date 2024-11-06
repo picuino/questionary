@@ -57,6 +57,7 @@ index_data = [
 		  ["es-machines-transformation2.html", "Mecanismos de<br>transformación II"],
 		  ["es-machines.html", "Máquinas y Mecanismos. Test global"],
 		  ["es-mecan-poleas.html", "Cálculo de poleas y polipastos"],
+		  ["es-mecan-calibre-partes.html", "El calibre y sus componentes"],
 		  ["es-mecan-calibre-medidas.html", "Medidas con calibre"],
 	   ]
    },
@@ -320,6 +321,7 @@ def main():
    data = template.render(data = index_data)
    with codecs.open("index.html", 'w', encoding="utf-8") as fo:
 	   fo.write(data)
+   input('Pulsa Enter')
 
 
 if __name__ == "__main__":
