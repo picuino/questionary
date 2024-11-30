@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Software/es-software-formatos-imagen-1</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Formatos de imagen</strong> <br> Existen dos grandes tipos de formatos de imagen, los formatos de mapa de {1:SHORTANSWER:=bits} y los formatos {1:SHORTANSWER:=vectoriales}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Formato de imagen de mapa de bits</strong> <br> Las imágenes de mapa de bits, también llamadas {1:SHORTANSWER:=Raster}, están formadas por muchos puntos de color denominados {1:SHORTANSWER:=píxeles}, que conforman una fotografía o dibujo. Cuando este tipo de imagen se {1:SHORTANSWER:=amplía}, se pueden ver los diferentes píxeles de la {1:SHORTANSWER:=imagen} como elementos diferentes. Esto hace que la calidad de la imagen {1:SHORTANSWER:=empeore} en estos casos. <br> Un ejemplo de imagen de mapa de bits es las imágenes que toma una cámara {1:SHORTANSWER:=fotográfica} digital o un escáner.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Formato de imagen vectorial</strong> <br> Las imágenes {1:SHORTANSWER:=vectoriales} están formadas por instrucciones que determinan la aparición de objetos tales como {1:SHORTANSWER:=líneas}, círculos, cuadrados o curvas de {1:SHORTANSWER:=Bézier}. Cuando este tipo de imagen se amplía, las líneas y curvas {1:SHORTANSWER:=permanecen} con la misma calidad, sin que se puedan apreciar puntos que formen la imagen. <br> Un ejemplo de imagen vectorial se puede encontrar en las letras {1:SHORTANSWER:=TrueType} de un editor de textos o de un documento {1:SHORTANSWER:=PDF}. Estas letras se pueden ampliar todo lo que se desee sin perder nunca su {1:SHORTANSWER:=calidad}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Esquemas de color</strong> <br> Existen dos grandes esquemas de color, el {1:SHORTANSWER:=aditivo} y el {1:SHORTANSWER:=sustractivo}. Cada uno de ellos tiene un campo de aplicación distinto y es conveniente utilizar cada uno en su ámbito, para obtener los mejores {1:SHORTANSWER:=resultados}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Esquema de color aditivo RGB</strong> <br> Este esquema se denomina {1:SHORTANSWER:=aditivo} porque genera los diferentes colores añadiendo fuentes de {1:SHORTANSWER:=luz}. Es el esquema utilizado en los {1:SHORTANSWER:=monitores}, televisores, proyectores o pantallas de {1:SHORTANSWER:=teléfono}. <br> Los colores primarios a partir de los que se forman todos los demás son el {1:SHORTANSWER:=rojo} (Red), el {1:SHORTANSWER:=verde} (Green) y el {1:SHORTANSWER:=azul} (Blue). De esos tres colores proviene el nombre {1:SHORTANSWER:=RGB}. <br> Este esquema funciona basándose en que el ojo {1:SHORTANSWER:=humano} tiene tres receptores de color (rojo, verde y azul) que utiliza para detectar todos los colores del {1:SHORTANSWER:=arcoíris} a partir de una combinación de todos ellos. Así nuestro ojo percibe el color {1:SHORTANSWER:=amarillo} como una combinación de luz roja más luz {1:SHORTANSWER:=verde}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 06.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Esquema de color aditivo RGB</strong> <br> Los colores secundarios se forman sumando dos colores primarios.<br> Rojo + Verde = {1:SHORTANSWER:=Amarillo}<br> Rojo + Azul = {1:SHORTANSWER:=Magenta}<br> Verde + Azul = {1:SHORTANSWER:=Cian}<br> Rojo + Verde + Azul = {1:SHORTANSWER:=Blanco}<br> Ausencia de color = {1:SHORTANSWER:=Negro}<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 07.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Esquema de color sustractivo CMYK</strong> <br> Este esquema se denomina {1:SHORTANSWER:=sustractivo} porque genera los diferentes colores reflejando la luz {1:SHORTANSWER:=blanca}, que contiene todos los colores, menos algún color que se sustrae con una {1:SHORTANSWER:=tinta}. Por ejemplo, la tinta amarilla {1:SHORTANSWER:=reflejará} toda la luz blanca que le llega, menos el color {1:SHORTANSWER:=azul}, que se sustrae o absorbe en el interior de la tinta. Este es el esquema de color que se utiliza en las {1:SHORTANSWER:=imprentas}. <br> Los colores primarios a partir de los que se forman todos los demás son el {1:SHORTANSWER:=cian} (Cyan), el {1:SHORTANSWER:=magenta} (Magent), el {1:SHORTANSWER:=amarillo} (Yellow) y el color {1:SHORTANSWER:=negro} (Key). Si las tintas fuesen perfectas, podrían conseguir el color negro sumando todas ellas ({1:SHORTANSWER:=CMY}) pero en la práctica resulta más sencillo y se ve más oscuro al utilizar una tinta {1:SHORTANSWER:=específica} para conseguir el color negro. <br> Los colores secundarios se obtienen mezclando {1:SHORTANSWER:=tintas} y por lo tanto absorbiendo más de un {1:SHORTANSWER:=color}. De los tres colores que tiene la luz blanca (rojo, verde y azul) la tinta amarilla absorbe {1:SHORTANSWER:=azul}, la tinta cian absorbe {1:SHORTANSWER:=rojo} y la tinta magenta absorbe el {1:SHORTANSWER:=verde}. Al mezclar tintas amarilla y cian, se absorben el azul y el rojo, quedando solo el color {1:SHORTANSWER:=verde} como resultado final. <br> Este esquema se utiliza para la impresión de {1:SHORTANSWER:=revistas}, libros, folletos, carteles y todo tipo de trabajos de {1:SHORTANSWER:=imprenta}. También es la base de las {1:SHORTANSWER:=impresoras} a color y de las pinturas al óleo, acuarelas, ceras, etc.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 08.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Esquema de color sustractivo CMYK</strong> <br> Los colores secundarios se forman sumando dos colores primarios.<br> Cian + Magenta = {1:SHORTANSWER:=Azul}<br> Cian + Amarillo = {1:SHORTANSWER:=Verde}<br> Magenta + Amarillo = {1:SHORTANSWER:=Rojo}<br> Cian + Magenta + Amarillo = {1:SHORTANSWER:=Negro}<br> Ausencia de color = {1:SHORTANSWER:=Blanco}<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 09.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color</strong> <br> La profundidad de color se refiere al número de colores {1:SHORTANSWER:=distintos} que puede mostrar una imagen. La menor profundidad de color es la de una imagen que solo trabaja con 2 colores ({1:SHORTANSWER:=blanco} y negro). <br> La profundidad de color en las imágenes JPEG estándar de cámara fotográfica es de {1:SHORTANSWER:=8} bits ({1:SHORTANSWER:=256} niveles) para cada uno de los tres tonos RGB, con un resultado total de 16 {1:SHORTANSWER:=millones} de colores distintos. <br> Por último las cámaras profesionales pueden tomar imágenes de tipo RAW con hasta 14 bits ({1:SHORTANSWER:=16384} niveles) para cada uno de los tres tonos {1:SHORTANSWER:=RGB}, con un resultado total de 4 {1:SHORTANSWER:=billones} de colores distintos. En la práctica esta {1:SHORTANSWER:=profundidad} de color no se puede representar en papel ni nosotros somos capaces de {1:SHORTANSWER:=apreciarla}, pero permite trabajar con la imagen para {1:SHORTANSWER:=editarla} o 'revelarla' como nos convenga sin pérdidas de calidad.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 10.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 1 bit</strong> <br> {1:SHORTANSWER:=2} colores. <br> Esta profundidad de color se utiliza para enviar {1:SHORTANSWER:=fax}, almacenar texto o dibujos sencillos. La ventaja que presenta es que ocupa muy poco {1:SHORTANSWER:=espacio}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 11.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 4 bits</strong> <br> {1:SHORTANSWER:=16} colores. <br> Es una profundidad de color demasiado baja y presenta errores evidentes en la imagen, pero se puede utilizar en escaneado de documentos para representar color con un tamaño total más reducido.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 12.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 8 bits gris</strong> <br> {1:SHORTANSWER:=256} tonos de gris. <br> No tiene apenas pérdida de {1:SHORTANSWER:=calidad} en los tonos, pero no permite representar color.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 13.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 8 bits</strong> <br> {1:SHORTANSWER:=256} colores. <br> Este es el estándar de las imágenes con formato {1:SHORTANSWER:=GIF}. Permite representar suficientes colores como para que no se aprecie demasiada {1:SHORTANSWER:=pérdida} de calidad, con la ventaja de permitir reducir el tamaño de la imagen con respecto al color verdadero (True color).]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 14.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 24 bits</strong> <br> {1:SHORTANSWER:=16} millones de colores (256 tonos de rojo, 256 de verde y 256 de azul). <br> También llamado color {1:SHORTANSWER:=verdadero} o True Color. Este es el estándar de las imágenes con formato {1:SHORTANSWER:=JPEG}. Tiene una calidad suficiente como para almacenar {1:SHORTANSWER:=fotografías}, pero no tiene tanta calidad como para realizar operaciones de edición de imágenes sin peligro de perder {1:SHORTANSWER:=precisión}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Software. Formatos de imagen I. Pregunta 15.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2024 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Profundidad de color de 36 a 48 bits</strong> <br> 14 bits por cada tono RGB = 42 bits ó {1:SHORTANSWER:=4} billones de colores. <br> Los esquemas con mayor número de colores que el de 8 bits por cada tono {1:SHORTANSWER:=RGB} no presentan diferencias apreciables para el ojo humano. <br> Cuando una imagen tiene más de {1:SHORTANSWER:=8} bits por tono RGB se pueden realizar operaciones de edición de imágenes con menos {1:SHORTANSWER:=pérdida} de calidad que en las imágenes con menos {1:SHORTANSWER:=colores}, que no son apropiadas para las operaciones de {1:SHORTANSWER:=edición}.]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>

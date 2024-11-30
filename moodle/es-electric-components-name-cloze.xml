@@ -1,0 +1,726 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricidad/es-electric-components-name-cloze</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Pila</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/8bf4d4637fc1e869e390.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pila}.]]>
+      </text>
+      <file name="8bf4d4637fc1e869e390.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAeUExURf///wAAABERETMzM0RERFVVVXd3d5mZmbu7u93d3Xwh9esAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAa9JREFUeNrt2z9OAkEUwOEnEgmdL7okdBxBKyjxCNxAGmsSjsAF4MZMwBIS1zgxu/t9N5hfMn+KNxEAAAAAAAAAAAAAAAAAAAAAAAAAAH/vsNKgGGUuVIjYZDYqRGShgg466KDDoDtMv446XJ4GjQ4Rk7LCnQ7xWFb4pkM8lBU+66CDDjrooIMOOuiggw466KCDDjroUMs+b1kOrcM4b1sPrMPpTof5wDps73SY6TDIDvaFc9K96R2lgw466KCDDjrooIMOOuiggw466PD/zBVfmTP/5t/BlX8oLeiggw466KCDDjrooIMOOuiggw46/MY+q1l2KMM4K1p3p8OpZod5dzpsa3aY6dC1DvaFc9K9CQAAAAAAAAAAABeT9zaDcS+7vnb4aDch+NrTDNO2o5LHfnZ4atvhU4c+d7AvnJPuzR/zb1EHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcd0EEHHXTQQQcddNBBBx100EGHGjaZjQoRo8yFCsVhpQEAAAAAAAAAAAAAAAAAAAAAAAAAAHWdAYChlQVaF7dDAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Alterandor</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/70e602c2084b7a440ee2.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=alternador}.]]>
+      </text>
+      <file name="70e602c2084b7a440ee2.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Pulsador n.a.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/8deef4f41cd0964f04e0.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pulsador} normalmente abierto.]]>
+      </text>
+      <file name="8deef4f41cd0964f04e0.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAttJREFUeNrt3b9rE2EcwOEoVqtCY2pqHeqP0sFBUHRxNeAgomiHDjrZpYuDVhfdLAiuLuLqoHtxcC+4F8E/oPoXVBGnDuauMV6oJqR3ee9N+jyLFyhfzw93915y0lQqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAlI40an2ovx3VDvO1vkyNaIaJWp82RrPDeL8dnuswyh2cF66T1s2e9jX/rcf++3Lv0EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTIelcbmBtDlGGsNkB3hqfD10F2OD08HVYG2eGkDsPWwXnhOmndBAAAAACAqG29WXq2Ht2o4F6nzxvuRjYqtOqT1oOXK5sRjQrvQ/sJ1PmIRgV3MPMo7n40o8KfFdnf2T21Gcmo8MaKe0Q9NrRPu5sW052eu3Y5/fNEJKOCO5ru873NSvV9urUaxajwfiR7fDPd/JRsXoxiVHjLyRG8fUmrJsf1dBSjwpvNLHHJsjcZxajgDidf2/Bnhasm3/bwKoJR4R1o7u5M+9Va89XVCEaF973jzi85ms9EMGqANwhdrHasfDO7/XvWdozqKvTtxf5eOzT59wa4OpvjP8Gu7BjV3dmwHdZ67c/xzA9fyrHaLe8Y1d1M2A49v/Enu7zN5zheFzu/N6nn8VDXoYwOfZ0XjXznRT3i88J10rrpPmo3N8On2q8+572vLmhUeOMdF+5Gnq+QLHBUSe+7H7W2D+V/313QqHI+h5n+x3a5o8L7lly7b6WbX5LNC1GMCm97fXvQ3PpYzOe0hYwq7W353EJxn9svDOPn9pWfHXc3tyMZFd5E9o1YfSOSUSX4ldn5h9GMKoHn/q3D+XFr389tRDSqDC/Sfb8e2agSbL1ceroe3SgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYI/7DXjyGuO7AeHvAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Interruptor</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/679f552a10bb21eda68c.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=interruptor}.]]>
+      </text>
+      <file name="679f552a10bb21eda68c.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA99JREFUeNrt3EFoHFUYB/BBtDbWJsw2aSpENPRgVVTiRVAPLnhQaNEcvAiKXnoRrNGLHsQ2CB4VEbyK4r0oeG6w93poD96CYM9RpHrowZ33Nt2ZRDaQGXdmeL/faQLhy+zH7jdv5p+3WQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAc7NeP9WDkRj74QheyudU8f1Abjg/zPH9AHzZHbciXk2/D9aIN+ROpt+HoauhD6nPy/mFow6OJt2HhUmjD0i+J9+FqaEPyq4e/QxvyN1MfDmuhDY+lPhw24nDYTrwPP8bh8I3hUHg38TYci8Ph2dSHw9uhDScNh8KJy4m34WYcDhcSb8N9cTg8l3gb5uNwWN5JvA/fGg6F3+Nw+CT14RAfvTyf+nBYNxwKX4Y2LF5JvA034nD4PPE2zMXhcDbxNhyPw+FMZjgUwyH157IxtBlcTLwN49DmXOrDQWgTbAptCkKb4J+4gHoj8TZIdAOhTfSz0KYg0Q2OSXRLw0FoE5/Lpj4cbkl0S8NBaBOHQ+rPZb8T2hRuCm0K49Am+eEgtAnGie6VxNsg0Q2ENsE4tDkl0ZXoZruJbvKhzZzQJgyHoUS3sCnRLVwX2hTGia7QRmiT2Ya3S6IbCG3icBDahOEg0Q1swysPB6GNbXiZbXjV4SC0sQ2vYBtekPI2vNtfn//o2vi45ja8cqm++Sq89JfDcc3Qplyqb1fJD+JLz5/ZqbsNr1Kqb37Idz1eN9Etl+qbI/nEW/VCm0qpvn0q1ksnP6i1Da9Saqlnn4x78n3ONlLq1X71Ia4WTr/49J0XcKaZUif7dWcZzvn1nWzh+3EbDh3a7C3Vq9uTPycfhKs1E929pZ7qUx82Jv8UGe+2zzVWqlffyrlausQVc27QTKkj9UrN3FwxEHavcAtrdb5Ls1pq2K+v5bx7dLord37aGv30QgdKzd4flZVf8W5+qAOl/scFwhSXK1e+lcP+na19paaa9fLiroNOaDBZAC+MRt2pw/6hS/tKTffwbPuwddD5nCj98lqNq93GvlLTrcy2D8MD3w+lX16v8X4dff6W9lxFp1rUhzb64HNhTrpuWkdZV9dxtDK4i2vLxQ6Uaum++73x8b3177sbKtXOc5jl/zhut9Ts/Tb5x+Gw0+LJTpSavXh9e2d09FPdh6sNlmrttvz0aw08bG+w1Oz9VVndvNKRUrM3X74RW9zuSKkW3Cqd/IXOlGpBg2F9n3P/bP798bk/st2hUm34NJz7Sx0r1YLbn53/8FrnSgEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAifsXr/Ed+uQf/MEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Conmutador</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/282ed1e8710a30b307c3.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=conmutador}.]]>
+      </text>
+      <file name="282ed1e8710a30b307c3.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABFhJREFUeNrt3E+IjHEcx/FvYv1Zdvrszi5CSHFQxAU3Uw7+xh4ckLIOLhRrLxwUUW4o/w4OHDi4bYqzLbmiyHVzckQS5eAwv2fmmeeZZpKDej7v12m2XHzb5/v7zWd2PhEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo5ff9UxffMIY7kqQ95lOoTalp2xfrOTxTZqPzGAbUdsL4qRjPzWHU98mYp7xDtnOYkCSt27VVkjTmOoZBSdLRL1F7IkmaNp3DN0naHxERryRps+kcJiWNNbdjbULSUtM5rM2dlgOShj3HsFBSPTssaw1JtyznMFfSytZPM5J2Ws7ha8clckDSass5zHQclYPqo7LXiyvScPsuXVvbbxBrqntsjuR+3NJvDiure6seLZyiPdWZQ6XnwHPBnuTc5B7Fvbq3BR1nQEPSZd/33efS6/m+77tjMpe9TBrnMJ8k6XhERHyQpE2mc2gelacj4oV1Tpvl9ofNc/v43nFROmg7h6FG/m3UrO0c4kduDmfDGJ/7pyfjfBrDhtnwdk2StDsinj6wHsTv66cuvIkYmpIehb3BcUkr7MfwqyFJy93H8LEZyrnP4Uk6NLyfi6Gr2R3Cek8uPpmNYR8bUtLwGTakpJGbzmN43vor0mnjKdRuZ2PY8NZ4DEtaG3KP81/bL2JDRkR8zj7gHrnhPIbX2UFRd7491e5kq2G99YbMYijtcN6Qg63vnxxzXg0/sw05fIkNKan+0HkMj1sb8qVz2JB9YVPbZ9mQko4SNthvyI9syIh2HOsdNrTj2G3OG7Idx+5lQxLHEsdGEMemsIE4NoI4NiGOjQji2FLY8Mh5QxLHRhDHlsIG4ljCBuLYiCCOTWEDcWznhiSOZUMSx0YEcWzakMSxEcSxpQ1JHEscSxwb4RnHdikhd4xju5SQG8ax3UrIHePYLl9GdoxjyyXklnFsuYTcM44tlZCbxrHFEnLTOLZYQn7PNGwolpC7xrHFEnLXOLZYQm4ax5ZLyD3j2HJZomccWy7PrGzYMNGvIbWzTHWsohtyTr8xFMp1l1X0N3+m3xwKZctVbY1s9P19yP3j8erWBDIHngv25L+fm1Wtnf/bexQl5JSQ58+Wy5ZzoIQ8l8NQQk4Jef6opIQ8KCHPUELeRAl5Qgl5Qgl5ejIoIU/aJeTmUgk5AAAAAAAAAAAAAAAAAAAAAAAAAAD/W5dqdEd3JUlHzKfQrRrdEV+Rjohu1eieT0WpGt1TqRrdVLEa3VSxGt21cqdYjb7ZdA7FanTXSq5iNbppRVu5Gv2W5RyocGyi0rP9GzBdOER7qOz14kqp8re3NdU9NgsV0L1VtRB4QhotnKI91ZlDpecw2flfs30u2JOcm9yjut+rV7V+ekc1ekRQjZ5eU41efu3mkyQdiIiI91SjU41ONXpCNXoT1egJ1egJn/unJ4Nq9IRq9IRqdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADj4A4IHe2diEziWAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Resistencia rectangular</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d18ee2ba95c428e3bdbf.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=resistencia}.]]>
+      </text>
+      <file name="d18ee2ba95c428e3bdbf.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAbUExURf///wAAABERESIiIjMzM1VVVYiIiLu7u+7u7oKWAowAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAARtJREFUeNrt3LENwjAQQNFAJESZU0C0jAAjMAIbUKZlAyrmpggldEY+h/cGSPGlxJYjX9cBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJDP8xzFjFOzGbYFM0SMj1Y7bKKoW6sd+rIdTq12WJXtMOiggw7L6jCke5QOOuiggw466KCDDjrooIMOOuiggw466KCDDgvucP3xYfvXXwD7VBnWUatDHDN1uNfrcMjU4VKvw06HfB28F76T1k37KB100EEHHXTQQQcddNBBBx100EEHHXTQQQcdWuvgnpoOOujwiXvuM3MPZuZgvJmLAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/+QFZTyMyYEH4zoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Resistencia zigzag</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ad8adf3e49bf06dd3f05.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=resistencia}.]]>
+      </text>
+      <file name="ad8adf3e49bf06dd3f05.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+UCFBIVN79MhzwAAAAtUExURf///wAAACIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7okw3FYAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAvJJREFUeNrt2UFqU1EYhuELClatQhpFyawTEQfS7kDnTtyCK7ALEFoXIC6hugKX4MCxOHNaOnLgIrRKSW5yzklzj8H7H55n+l1oEvq/Ddp1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIXx/s601lC+TyYvtrKHcfTmZ3D/bxhrLzuS3422ssZxfvJen21hjObl4Lw+3scbKw/7Fe9k7+/drwDxkj7xmDZiH7JHXrAHzkD3ymjVgHnJHXrOGzEPmyGvWkHnIHHnNGjIPmSOvWUPmIX3kNWvAPEwPM0deswbMw+xD5shr1oB5OLiWOfKaNWAeTm+lj7xmjZiHrksfec0aMQ9dlz7ymjViHroufeQ1a8Q8dF3yyGvWmHlIH3nNGjMP6SOvWWPmIX3kNWvMPCSPvGaNmofUkdesUfOQOvKaNWoeUkdes441BG8nWad/H1k58oUAXGlNezyqbHzMv9Dp5TPLR76z6Zr2ZEyfw/P865xdPrN85Oebrmn3RvQx7OZf5uWJrx75yaZrxufxfA43JmvzsJKAXgCutGa8DvH7sDd/qp+AfgDWrfshfh8KHZvNH+on4Hzztdzh0XxRSHo2f6ifgH4A1q3Xsz9gVF8rdl9lXuWDhYd6CVgKwLq1O8r8gEdjOousn99Wruc4HYB1652vXTMWE7AcgHVrSxYTsByAdWtLFhKwGoA1a1PmCdhJ/Mkrry2ZJyAVgPLaZiBSASivTQYiGYDy2mQg0gEory0GIh2A8tpiINIBKK8NBiITgPLaYCByASiv7QUiF4Dy2l4gcgEory25+ScBfwLwftO1vUBkA3A4yn9t21ogsgEor80FIhuA8trcN4js94Py2mIgpkPWBgMxG7I2GIiDIWuDgTgdsrYXiOmwtblAzIatzQXiYNjaXCBOh61NOer/9+9Ga0t+HE7fDV2bcvvT8BUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/r9fT08qsez3VmQAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjEtMDItMjBUMTc6MjE6NDErMDE6MDB2b8P+AAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIxLTAyLTIwVDE3OjIxOjU1KzAxOjAwP9dfzwAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar LED</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/39d11fda92ef8568b470.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=diodo LED}.]]>
+      </text>
+      <file name="39d11fda92ef8568b470.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABIZJREFUeNrtnbFu01AUhq1WVGloU52GVMBUC8TcAAtsLWuHFAmJkUg8ALwBrQSCBRUxsrSESozwBgh1AEaeoOoCD9GBobFzHfs61wiW/37f2O1+/OdP4mObJAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD49xxv4yBJkjmzdSwkydBsDQtJYmaGBTzgAQ94wAMe8IAHPOABD3jAAx7wgAc84AEPeMADHvCABzzgAQ94wAMe8IAHPOABD3jAAx7wgAc86NN5/qACM7Oqvz/8ouphzxpxWTUOaTMPq6KBaFlDnuDBzMyeaXpYburhk2hB9Jtp6Kp+XhyaWa/8Abl1vfy3HTO7quphPvxwh2a2oeqhHR72vpkdyH6hDD5dW7keGqR9XrkeGhxPuh4axF27HoLPJ14PwXkXr4fgA4rXQ3Dg1esh8ITy9RCYePl6CDyifD0ERl6/HoLOGEE9BGU+gnoIOmQE9RAU+hjqIeCUUdRDQOrzyfn2LuqCyES1U7sbc0Fkg/PZTFrEjILIPb0xbREzCiKfm13TFjGjIHJNX01bxIyCyMembUURv1/HVBCOpVFBRCtdfRRRQbhTUxBxataLqCAKklwRu2Y2iKcgikPjiNg1uUDUFMS0o4mIU5MLRE1BlGYmF7FgcoGoKYiyolzEjlwgagqiYmQyEbf1AuEtiEpDmYhULhDegqiemJFz81gvioLwCHJFDGIoCN/AjEQD4Tmvv0BHmoHw5N//gXr2VjIQngN7+/ND2r2pGAjPAPjqofjEQk+9ILz1sFC88XogXhDeerggewN65ZG99bA4dSf+hnZBeL9uL0890XRFuiBqfn79kh2Mihmou1539vFxP5aCmLHgWfnx4p7eXFQMQTYqS6+8D2aNY6F0l0ipIHIz7617UBeL+3ekr0Fkk3LRrFaEGKWCyMQsWlQiSgWRDcr5467xiJgqiNzLUhqXiKmCmMzJoRVEdF6exFQQEy3tfkHEnt2IqSCcMSmI6KRq67zagihYcUW09Pa7dQVRnBJHREtvv1tXEFOtORHRSdUDURiF6a/ZExFD+UC41Vj62ZWLODL1QDizUPEzPBexqR4I5/BV1x4yEavqgXCGofo6fl90v+stCM+lSVdEL4aC8F2adEUMIigI76VJR0QvgoLwbi5WvvdjCMT4/N7NRXvLbqURBGI8D97Nxanqfre6ILz1MDTVhX9lQXjrYUd1v1tZEP7F5ptI3jh3PhH+xebPqYX/vnRB+BebnaeRDMaimXX7/n9pZ7mrXxAzJt/Z+e9LF8TsVyGMYyH8+Pt8cODPjq7pxiF7SvMgiYj2ZpPX016SdbPT7D29ql+jO03f23yi6YH3eOOBuaAn+dz8K/j/cfCABzzgAQ94wAMe8IAHPOABD3jAAx7wgAc84AEPeMADHvCABzzgAQ94wAMe8IAHPOABD3jAAx7wEDNDszUsJMmc2ToWkiQ53sYBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPxf/gDNP0PkR5+Y0gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Bombilla</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/74c1dfd9c174d0650733.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=bombilla}.]]>
+      </text>
+      <file name="74c1dfd9c174d0650733.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Zumbador</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ac43cb1d4a094131376b.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=zumbador}.]]>
+      </text>
+      <file name="ac43cb1d4a094131376b.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Altavoz</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ca40be1e73816d0d187d.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=altavoz}.]]>
+      </text>
+      <file name="ca40be1e73816d0d187d.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAnUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiLu7u93d3e7u7saKUlEAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAA1hJREFUeNrt3T9O22AAxmEXCXVhMRKIEWamXoOJHIEbVD1Bd6aqV+AQ7JV6rkJCHf/5HKOAB/t9fmulCj16FUxi56sqSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkvavnRwYvfb05/0mhqjZ1fUuhOq3r+grD6xzqCwyvc+BQVQ8cmjlw2L46cHibA4cNh9Yc4h0eOOyvHTbxDttXh/uFOTzdzXQpuSyHk7q+nmUOC3N4eUm7nOcvi2U5vP7Qs8wh3aH5QzPc4f8cwh327ztkOzRzyHZovQ0V7bCfQ7RD+13JZIfWHJIdOm9SBzu05xDs0P3MItehM4dch95HWLEO3TnEOvQ/0Ux16M0h1WHwAXeoQ38OoQ7D+x0yHQZzyHQo3P4S6TCcQ6RD6W6oRIfCHBIdijfHBTqU5hDoUL5XMs+hOIc8h5FbZ+McynOIcxi7kzrNYWQOaQ6jN9aHOYzNIcxh/DmLLIfROWQ5HHjsJsphfA5RDoeewkpyODCHJIeDD+WtyeHsdz3ZfYDDn2mGiyrA4dfxc1iVw7fj57Aqhw/MIcyh4sAh0uHYf+XAgQMHDhzW6XDsFQIHDhw4JDhsOGz7wmHXDw7zXmVx4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBw8odPKe2zXOLzU/LofJcMwcOHDjMeaXEgQMHDhw4cPisqwsOHHIdMr7H2/e67/I9/7uc+7DLOSDvKuZcmKmcEzQ9COeIBTo4V25yEM6dTHRwDunUIJxTnOng3OrDg3CufajDyCDyHMqDyHMoDyLQoTiIQIfiIBIdSoNIdCgNItKhMIhIh8IgMh2Gg8h0GA4i1GEwiFCHwSBSHfqDSHXoDyLWoTeIWIfeIHIduoPIdegOItihM4hgh84gkh3ag0h2aA8i2qE1iGiH1iCyHfaDyHbYDyLcoRlEuEMziGU5PNT1ZTXLIJblcFLX19Usg1jY96I83X32//g2iDV9T85HBsFhNwgOZ5vJh5aCBsGh+RaieIdTDu1BcDjl0PqVweHwo3xprxAcdoO4wrAdxC2Fqvp7c/6dwkvPjwwkSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZK02v4B9qdLZX96K8cAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Motor</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/cb7b9285abcc0d453278.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=motor}.]]>
+      </text>
+      <file name="cb7b9285abcc0d453278.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAACW9JREFUeNrtnVuIVHUcxw97m92dmR3O3lw1q8ElVyF1pCwSs9kMSbQcCnyxcvOll2jXFO0G7gb5kpASBL7kmhDSBaWHIKh2QSl6iF2zEntotXqpHswuEBE0538uc2bm/ztnzlmh/f3O9/vknsvg/3P+///v8r8ZBgRBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBELTQdW4bGJTVZJq3goJhjJhmPygYhlkWKIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOIADOCRA/54+bHE4ePz7BEO4vH/Y9DS4871EQsh96IPgoHjhWuIwfF5HQZF4NVkUMs+ahO6aShCGSwWTVM+RxGA4ZQZqa0I6yJf9he5evnl4cPO6vP/a3UnoLrsmfN3iU56tvPyKr+McmksQhu4t71ff+nlfPjkgvEax/tP6m//s8ZqGcAwfhFgFz5JsEI3hG6eUt5FeQuZJ55GnBWPocDqABwMMQu51p/t4TSyGbNEu4q7gx87bT/XOSOVwsiEMHohVQjH81SAGD8QzMltFoXFDYJuVnhm5rWKosYcnxLaMdlWyvgY/cbakHj8kL7oaiWYMbRPbLy7i+lN93+2Nv3BRvfCEtPBKuQ4DUV4ZV06EsIDrB9UqzkR5Ja1axr2yqoOymRujvfSVsp1z4qpDX8ROL1eSViFyqnfYHfW1NtVDCDIZylgsiv7emDCTMRLTJ1K+l5zNY1RxFsd586gop3IydmkUwSVCMGTyUV2oameqe0oGh99jGQufydgkp5fsi/tySUxP2TGvT6oqk4iU7QWricfOLGWtzuV2CRysmr20tnSHib4vc7CW2Nn5tKqF5jzUGM1yqlKflS9n9muTku1CXAirWfTWXCtvtajfa1F3oyijYZQ0xRijjMCIJg65IKJhdFrV+kTNRZWN0MSROZVxaOQXWDpRdV/TJIyhMrGmrkaxd6XGda1bFXdt/cPNWg4X4rvlC0Zded2XN4nwaVLLwaol3XO8OaQ0Dd7h0Fv/dFHLQXUno7w5XNU4UQ4Hsy57nTb1HCxXajX/7mEHwaHueivBoZV9B5GzuocpgsNNtZenCQ4Zq4Ngna5t1/tAdnn7dV6UdlFKibtr3az77C4HsyaSyJoUh2m9meWjSW334HLYXX21jeTQyj1LWdKZBY/D6nrboueQZh5iZPVugsthUX30RSxaK9a3Im5e1BKaQ7UNyOVpDpO8PSmrm1xDc6i2Ae0mzeE6747yLPEZ3RJvqo1MKQ4prVvKRmNEs3ZLXDXWdzSAQzbeOPFCUUHfTXoceuqSM9Ti3qIuXOOiDBUXeAtvTlSudZpBHMa1/jkjr3pZIIf7KtdaAjnMcvasW6he3ivy0uo+lebQXA2Nl65TVt8rcl+160lzSBEWmE10cSaQQ6XNZ8xADmnOEcYYlTZQxS1UhVoqyOohOVjOJlvDWSTMps1B+QvL/B2huZjkQP8WA5HfUBW3uSoXo3Iwa2kOVt1iHG0uoTmoeMLNx6v8vnmI5jDJN+K0PKObaQ52fDlasQflzoTmcIXv4F6KDBLt4qp8w5qKiS03IppDM9/Iu1WflPM4XPUtRRi381M0B/rHWGQfRgM42KZSGdZcwW4jNIcU3wxEEznDyy5utjLs3eHkr2kOHSbbYzrprs0p7og37O3aUJoD3ekueE2Tps4p7rQ37D3pjG/RHLL6kRAu4YURxKHVG/YuOuOdNAeDb4BxlHQBneKm3WFv7x8BHPIxp+z//xonc2lucd1q4FWMAA4FtmPeY2Ro5BbX7Ra8jiKAQ5FtwDkSysE1E57hCObQz5ZDXzAHx22oOBIBHEqCOdi5+t1tXg5fJIdSOAc7rKgEGsEc+sRysMPMSuApkkMD7cJOO1QSEUntH7q8ndTsxJRUDiF205sa5voGIu3mWAMcZl0OyxrgwNSPCverK3PDnIEMkX51aJxl+IaxpsI48I2zQuNup/vzDXSKjLtD8zCWzlYNfIvMw1yhhnn9xW2pmghBc0jzzcs1kXM3fMXtrJoYQ3No55unDcvbe3agYldE5u3DxnE8q1KxBCLHccLG9Sqtx6vxIsf1rCzLLaEc2vzTQWgOv/Fd9h8y7u9zmHuNUA6Mx/1D5oG4f7T4ZsKJnAcSMi/I++ujd4xwDpznBZHfkCwuzYHzPLHgeYORbrCeNxg8jzTSDdbzSIPnFUe6wXpecSpwnnmkG7OcFyYFrzuIdIP1uoPgdSiRbrBeh6Ky0TM3gkOW965igevUonBgvk4tcN1iFA7M1y0GrmONwoH5OtbAdc1RODBf16z+/1Pz55AxGUdZbn3eMX8O7Pc9aNZ7lFE5zHLfByNoX5QIHNjvi0Lsk5M3CfdQf4P/PjlqrckObbQwQIURA9ruYRFrDMQ+WtepbIL+hoB9tFJai1c+9EV/Qoz+RpH/vmr6ffaMvze/qX9ed0PCPnv6fRejScK+i/p9OKNJxD6c899VVca+rNp9eiM3CwEbWM+7GCUZ+zbPdx9uKft4K+s/j5zaWe4xt79hYJ9/Z9HNw3Hf/kPMuQ84B8TnSsWND1KCzoXBOUGOcG6Ur3LHP0dsVAoHnCvnN34D8XqH+CZ34amrEKt+p8QdRIpzSP0VYnu0ly7KO5fWPms3zjnFG0VhwLnVrn6Md475Q8IwuOfan2j0+U6h59rbRtDsa7Ced9nrGUcNeTqpSraysYePqYdXCcRgZOyNujc08uwH9jbfUxI5GD/ZSxQfC3/ya/vJxw2ZOtYgCAfDSqEYrNM1lXYFP3befqp3RioH74iLrUEPndIdjiFMTo03V5DfOrvXbLgbYay3nFL2HtHfv+Q0HfMe0RiM3IS78cUWTdCV3ufeHbomm4PRtdfbIWjLJ9W3ftnn7R60Ys4wEgPCNO987mP38ndvPFK5ngAMZRATpk/ddzwwPPjo/Xn/taEkYPBZRkJbjaTo2wJNoeclIzlK76EwrD9jJEqfDesoDL5oJE25t+tIDD5/zUiivti/rgJh+c53jeTq19MHLAgHjn9pJF30VmrgAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gAA7gIE0joraAia8mtgdr3mCd2wYGEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEMRJ/wEpLwfCR8E0+QAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Tierra</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/437798ba98a08b312238.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=tierra}.]]>
+      </text>
+      <file name="437798ba98a08b312238.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAYUExURf///wAAADMzM0RERFVVVXd3d5mZmd3d3ZQZMvYAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAWBJREFUeNrt2bENwjAQQNGTwgKHBKlpqBmBFVJR4w1SsD/JAq6wFOP3RviS7yRfBAAAAAAAAAAAAAAAAAAAAAAAAADA731eGmxOmU8VIt6ZVxUibplnFSJyo4IOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCCDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggg466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDkdQspl7RxmmbOjRT4e1ZYe5nw5Lyw4XHXrr4F2Yk/YmAAAAAAD0ofio303jHG6q1mEOeXXLMIddHbwLc9LeBAAAAACA/1F81O+mcQ43Veswh7y6ZZjDrg7ehTlpbwIAAAAAAAAAAAAAAAAAAAAAAAAAcHRfvgmM6xo4RU8AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Diodo</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/5fc571fd3222e771854d.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=diodo}.]]>
+      </text>
+      <file name="5fc571fd3222e771854d.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAtUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3QQvIKEAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAxtJREFUeNrt3b1tFGEYReGRnYAlLA1gCxEZiQKgBIidOEAidQeUgJCcUwJ0QAkELoRS2GXNan/m5xsJkvc+J7RI7tH7HTsaug4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODfc3/NwYqTvr9ioetu+/6Sha7rV7DAAw888MADDzzwwAMPPPDAAw888MADDzzwwAMPPPDAAw888MADDzzwwAMPPPDAAw888MBDfc7vPgyw9jD0848/q3r40i/iRdVzeLXMw9OiB/GoX8gnHv7wuaaHJ0s9/CgaiLfLNDwrqqH7vhp3cfwL8v3r45/drP7py6oeTtvHrZW9qerhrP3Y10/oW1UP7evOKudhwbWfVs7Dgnml87Dg3GvnoXlf8Tw033vxPDQPLJ6H5oOvnofGheXz0Hjx5fPQOLF8HhpPvn4emjYG5KHp5gPy0DQyIA9NR5+Qh4aVEXlouPqIPDTMjMhDw9ln5GF2Z0geZu8+JA+zQ0PyMHv4KXmYWRqTh5nLj8nDzNSYPMycfk4eJrcG5WHy9oPyMDk2KA+Tx5+Uh4m1UXmYuP6oPEzMjcrDxPln5WF0b1geRu8/LA+jg8PyMPoA0vIwsjguDyMvIC4PI5Pj8jDyBPLyMLg5MA+DbyAwD4OjA/Mw+AgS8zCwOjIPA68gMg8DsyPzMPAMMvNwtDs0D0fvIDQPR8ND83D0EFLzcLA8Ng8HLyE2DwfTY/Nw8BRy87C3PTgPe28hOA9744PzsPcYkvOwsz46DzuvIToPO/Oj87DzHLLzsN0fnoftewjPw1ZAeB62DyI9Dw8G4vPw8CLi8/AQiPg8dN3j9ZNYP46v2R7+fpMyPA+bQMjDJhDysPkLIu2vh7N3Sz5P+7ysm5tl3+m9KKrhfOl3m3/V9OA73jx4FwPo5Aa/N6fw/+PwwAMPPPDAAw888MADDzzwwAMPPPDAAw888MADDzzwwAMPPPDAAw888MADDzzwwAMPPPCQzG3fX7LQdSd9f8XCivtrDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPB/+Q11Vdb+2rN+9wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Fusible</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/3331e7cba2f95eea39f0.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=fusible}.]]>
+      </text>
+      <file name="3331e7cba2f95eea39f0.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAbUExURf///wAAABERESIiIjMzM1VVVYiIiLu7u+7u7oKWAowAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAARNJREFUeNrt3L0NwjAQgNEAEqLMKSBaRoARGIENKGnZgIq5KUJJacl34b0BXHySfxrfMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkM/7Es1Mj7IZdg0zREyvqh220dS9aodN2w7nqh1WbTuMOuigw7I6jOmW0kEHHXTQQQcddNBBBx100EEHHXTQQQcddNBhwR1u0ckhVYZ1dHPK1OHZr8MxU4drvw57HfJ1sC+ck+5N7ygddNBBBx100EEHHXTQQQcddNBBBx100EEHHap18E9NBx10+MU/95m5BzNzML7MRQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgH/yAfbbsoGshuIpAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Pulsador n.c.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/969683a19219c1b6d724.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=pulsador} normalmente cerrado.]]>
+      </text>
+      <file name="969683a19219c1b6d724.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAuVJREFUeNrt2z9rE2EcwPEoVqtCY2pqO8R/ODgIii6uFpxE0Q4ddLKLi4NWJzf7DlzE1UH34uAecBfBF1B9BVXEycHcNcYLibknd0n7JH4+ixeQH9cvd/dcr5dKBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAHkeWa0Oov57WDiu1oSxMaYa52pC2prPD7LAdnuswzR2cF66T1s1c+1o/67F/fvx/6KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooEOcfr168OzjaDoMHhW3l+nrHHdH0SFnVMyqT9vvtVzdLtshd1TM3nVe8LlQtkPuqIgdzLzpdL9ch/xREZ8V2XfjFrbLdAgYFa+Zrlff7pTpEDAqXmvpTp+7fiX990SZDgGjonU03ed725Xq23Rrs3iHkFHR+p7s8c1080Oyeal4h5BR0VpPjuCdS1o1Oa4Xi3cIGRWts5klLln25ot3CBkVq8PJ69F/Vrhq8lb1i6IdgkbF6kBrdxudT83Wp2tFOwSNitW3rju/5Gg+XbRD0Kg9v0EYYLNr5WsU7dDsGTXQbt9e7M/bofm/N8DV1qVuqWiHjZ5Rg53Z3Q7NvP05nvnPl/uudmEd1ntGDdbY3Q6536zJLm8rfY/XsA5r3d9Pyj0e6jrsRYehzovlcudFPeLzwnXSuuk+qsh99cnOp09l76tzR8VqtuvCvdz/q9phHYJGRf179+P29qHyv3fnjYr6Ocxin+2Cz2HyRkXra3LtvpVufk42LxbvEDIqWjvr28PW1vvRPKcdPCpe7Yftq6N7br86ic/tKz+67m5ul+kQMCpec9lfxOpbZToEjIrYz8zOP6qU6RAwKmb+7t8+nJ+09/38VtkOuaOi9aY2NjcmKMNMbYwm6C//X8bZ4dTkdNgYZ4clHSatg/PCddK6CQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABQxG9AExo5anh3HAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Voltímetro</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d897f66180b5b7f4e54d.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=voltímetro}.]]>
+      </text>
+      <file name="d897f66180b5b7f4e54d.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAACRtJREFUeNrtnV+IVFUcxw+76u66Ozt8Z3fV0v4MLvkHSkfLorAaMyJTdCgQwv5MvvQSuanYP8E1qJeClCDwye0PIVQ4FPRkuaAUPYSapehDa9FL9WCavUTQw527e2fu+TezPezv3O/38c69A/dzzz2fc84991ylGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhmJmeExvJQCnVAdxMCkpVgXmkoBQAkAI5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kAM5kEMG8u+RNwDgxUM/ZRjChd3rMJnhrZ9kEkL+iwSEOopXLmcOwzcpCgAw/Ga2KPTthCF3Hs8QhvMlGDPwVmYwfAhrHs9IBfla8qQLi9evG16/qpjcdlcWqsv+/Ylq8dlJV154PVFxLp3IEIbCQ582/vTbrmJ2QExiWPNV+sd/tk+CCBzDZ7EV9up/Pxeb5J6gMfxYP8tbjK2EvmfquzwXMIaeegXwsEUI+Xfq1cfbwWLIlaNT3Gbf7WS01+CpUDkc9MIwCWJZoBj+9sQwCeL5MO+Kkr8IIq0MBHlnvNdKwyBqZiwPEEM3AGDI8xLnKgCAfeH1rqqtyTBS7LzgelzXAACb/A84CwB4KrTuVRkAFrRyyCgADAbW4foFAApHWzmktwgA94ZVHEoAsLa1g74HgIGJ4IrDUIuVXr4SWoHIlwHg6VYPmwMAgwEp4xoAzG/9uJHAlFFts03UDYS0eEx3y85scGcwjcqxts+mGwCuDwRDX7Hd4hAViMLxMDhcbUsWCWXcF04tOdTuwZVgasqeaV3SqwAQxJDtGQCFtkeWckUAt4bAoQJgYXPVeczQSsxfbK4Ua9O5q2Za42FfSgPzTHXJAp/jhd4Wg03bukyn1g1gR9O2chg3RkVzGjVT62hMcw+dCeLGmAsAh5s2HtCUkclrf53PP4hsRA1puw0T6Z37tR2RSghNqVHd3W3qPuk7ZGfab5bPmPQXdc2gGgDcn957FjT1g+oBUJiQzaELwEBqaycA3Jje+xIArExtLmksIiw/6y5w1HtaYBhuSPfIagBuk189bElt7YVeGGUASA/uzxZfQeSLADTDByWtMPqhvYtUH4CC6OHabkMbSD9gaRyOrEhvWncCWKTZrheGXhdKqXFt9SkoY9rqwSQMgy6iCkL0KGVFW++ZhDFqGsDrFd7FyJn6EXphGHRR/0XwJKEuY3nWCcOki/r9Jbgl1QlghWG8Ja0Ay9OrK7IrynHjZdQJw6iLqGAtksthxHhb64Rh1EVU0cyXy6FkqCb1whi1PO8pm2oOCekz9wt0wjDrImJ0XHKr+gZzUWkShkUXSp2W3LKeZanl08KwTnbo1A/cyMgVi/XTwrDoIhLGCsm9i6OWC9woDIsuovpEbA9jxDJskBaGTRcqXxQszrJRmzph2HRh/6+ZHus1bBaGVRdR2RLc2zTf083CcMyNG5Pb45yrH5w3CMOqi6gWPSy3173S2hdNYrLqItpdaM97tmFQTi+MUftsMvufzfjRB/MlbBaGXReOwjWj02Gf4dUoDIcuVA/EfqbTUbU1CsM1ldpe6c7ojNtV1ygMhy5UTu6I1Jh9wbRGYTh0oZTcDsYBexOwURijrsnHxfSMISEZtY+lNQrDoQulSmKfeY84ukZJYbh0oVRZbIez6uCQFIb7zZuy2PnmVcdDyaQwXLpQqhIsh6QwnLoQzKHi4JAUhlMXzn+TyyEpDKcuBHNw3RcJYbh1EXD9kBCGx4uaojnYh1anhOHWhWBvutpRCWG4dSG4HTXquuWnhOHWheB29QHXUPuUMNy6ENzPGnMuVB4Lw0MXgvvd485HDrEwPHQheBzmkrOsx8Lw0EWv3HG5DufcjVgYHrroljtO6370EgvDQxeCx+3dj15iYXjoQvBzHI9LGAnDRxeCn+v1ALjJ2fQG9vksA/On3Nf+c04J1IXhoQtVEzzT3D2XJxKGhy4kzwPxmMsTCcNDF6LnBbmvYSQMD10oyfPExtynN/khjAE3MLHzBq+4XVeNOcxzO1jsPNJZ7uqvFnNY6K5Q75fKocsyzzwpDA9dnJb8YlKf+33kOTEHhy5Ev3dgeQ+lQRgeuhD9HoqquhuBJS9d5GSvKlbzFoaHLhbK5dDptl3NSxfC31vscrd+Or10Ifw9VuN7zSlhuHsXkt9rVmWn7np9dNEHwb2suDxv8RCGQxfi1z3odLcoqx66OC19HYxu98INNQ9diF8XxbROTiIdcD6ZkL9OjhpxVhCz4OxKzpb9lrtSpnW0mi+2o8gEsI5Wl9t4484HuGX566rp19lrLBCrV9uLQwjr7OnXXWwtIay7qF+Hs7UEsQ7n9FdVDWNdVu06vS3fFgEsYD3t06iEsW7zdNfhDmUdb1We3phaTXqfO3ljcJ3/+ncfNrd79F/BfPeB3wFJNKXa7R90BfRdGH4nqB5+NypRuNuaLH8A8rvcTTUlvytXl9+C9mqH9pU78xJ9hnRHW/dTUB8i5XdIkwViU2sHnQ3vu7TRt3bb+U7x2qAw8LvVDcpo/TvmmwPDEH/X/rDv/nMD/a59JEEMeZbz/grCakpO5T0AwDK/nQ8CAJYHiEH1RVMEH/HZ9/NoMuHxEDmoX6MpQE+49/wh2vNJFWYOeoKoY1gWKAaVK0cnuM2+28lor8FToXKI+tEANth2+qC+0z4VbuolHkuM1zr3AryrEcF5v36Wg2/pfz9fv3Vwd9AYVH5//KLBnZpOV+/O+Nell8PmoPrjco/CQ182/vT7rmL825IJpTIDArjjpWPx5ovvPjq1PQMYlOrfj0QKtz+4bvixB4rJbUuzgCFhRkM2qKzkXMlMYWCvyk56t5swrDmqMpWv1+koDL+qspb8RykSwy9fVlnMt7tXTUFYvPVjld38cWQPAOw59J3KeuBcfo0cyIEcyIEcSIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcyIEcQkk1qCVg2k+H2A9r/s85sZEMGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGEZS/gNgSfY6BeoBOwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Amperímetro</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/86e0ea4dd12c08a2dfe7.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=amperímetro}.]]>
+      </text>
+      <file name="86e0ea4dd12c08a2dfe7.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Transformador</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/d4be2ffb44702abb4d63.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=transformador}.]]>
+      </text>
+      <file name="d4be2ffb44702abb4d63.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABdRJREFUeNrtmzuPG1UYQG8S4wSvH3u9ZkN4CMaKBBWwSgMNZNEWKSgIJUIh/gMQoINIAZQiDRKBP7Bb0aYIovVKkWg3HaXFq15WAlrm3s/j2c2OPRPPjNB395zSca52judxZ+YeYwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOD/o701VjdyHUS2r27kGmhaa68rG7kOTsV/7aqykfGABzzgAQ94wAMe8IAHPOABD3jAAx7wgAc84AEPeMADHvCAh5Po4dm9nC9170xyP3mUzo46D7Z/ZbzwSyO7nvvJUdq3I6vPg7Vr3yz4Tiv+wnbOJ0f5ZUOGVefB2g/mf6cR//PlnE+O8GMyqEIP9p2F31nN+eQwD6w+D83Z39z/qCIPf86GVLQOxESpiHuVeFjZSEfUo8G0hpcSFecr8fBJIuHScFuRh5juD9Of8MMKPPw9vQB9PtElwdP51P/xg0lpD91NP9JLewotxPS+83/+m6U9/ObHeWNfp4ZYhD+sB/slPfT87nBerYZ4Juy34N2SHp7w54axXg3G/DP3kvEYHvxe9bFmDcZ85bbhXikPbTfE07o1mHNuI94q5eHADfGlcg9+h1gv5WEUwO4g9xr9cQkP7UjXPcUcehvZV4zCHtzVYk3xNTNhN96O50p4eJj9/9VxNvsEUdjD1fjjGwF46Lnje7K0h647vwRwWMgV49ulPTwZxNXCcZD53LGoB/fU8tUgPLgr5/NLe3gYxFXT4ebFF5b2sDNnXq6Q+ET51NIe4tnkWhgasjelqIcNm/OWSw93s658BT24q+6FQDy4GeV4SQ/tQGaTjr+yXlwW9OBeer4QiIfTWROpgh7cNOrFQDycyXqOUtCDe47zWiAeGll3SgU9nF38EhwPHBdqOV3CQ0jnSa6bAvMoIZ5XW+bV3Gcd2pTl77uvBnPfXe45zN2sk4tKeC4nHGROhYp6OBPMc9pyz+3PhfLc3r/H2VvaQyeU9zjuTun45eLkvdfbzTxNFvewG8aMspL3/gP9BwbrQATWBXnc8wP7SikPv9rMC6++3aHkusGVANYN/lvZOtJbmjV0qltXPFC62N7R+9qvjJ6U9ND1JcfLej18X213oNRC9zOJaPZKe+hI2vP6ROMx8ZNENPaaKe3B/C5DDb5QNq/svDdMOrX1/Qo89EZJpza8qOl8uZlWhtumAg+mlZaQA0W7QxqdXjOVeDB/pCL07BCNGrrm+7MxL59oDw8UemjX2neP9ZwgNmvsuxWdJ0377aGtpe+2w4uKdgcHfXcCffcU+u5EBH23QN89hb57Cn23QN99aIfgPQ7v9RLou6fQdwv03dMDg75boO8W6LsF1pEK9N1T6LsXbAp992N5oO9OTy703fTdCfTdAn23QN8dngeOC4G+W+C6KTCPEui7Be6zZptC303fncBzOYG+W6Dv9tB3C/TdAn23HBb03R7WgQisC/LQd6e7A303fbdA3+2h7xbou/3PSN9t6LvlB6Tv9tB3y+5A3+2h767PA323h77bQ98t0Hd76LvFKX23h75bhqHv9tB3C/TdslPRd3vouwX6bjks6Ls99N0CfbdA3+2h7xbouwX6boG+W6DvFui7BfpuD313enKh76bvTqDvFui7Bfru8DxwXAj03QLXTYF5lEDfLXCfNdsU+m767gSeywn03QJ9t4e+W6DvFui75bCg7/awDkRgXZCHvjvdHei76bsF+m4PfbdA3+1/RvpuQ9/tWRlu1dR3bw01LRKKauy7+3o0NGvtu6+r8XCq1r57VZ+H9+d/p3HsRXZj8avt+2o99G8u+E7r2EvPVtZr0EP8HKn00L+y+Mw+OnY7Psp5c7VyO9Ln4Zm8+4HunUnuJ4/S2VHnYVXZyHjAAx7wgAc84AEPeMADHvCABzzgAQ94wAMe8IAHPOABD3jAw0nz0KxttUZT15rzqLbVO5GmdUGmvTVWNzIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA5PEfmj0jRPgVUeoAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Plano de masa</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/95d3b12182c462d9ca55.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama plano de {1:SHORTANSWER:=masa}.]]>
+      </text>
+      <file name="95d3b12182c462d9ca55.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAqUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u93d3XTTJSAAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAflJREFUeNrt3b1NQ0EQhdGVQAhskuEnwBGOkIhwB9AJNdABOQTOCP1KcEiGqIJycAGTIL2RdtE5obXRN083dWsAAAAAAAAAAAAAAAAAAAAAAAAAAPP7edfg4CTiWYXWpoiVCq09RVyp0FocqKCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOqiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjqooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuigQw9eoszdQBmOo9DjOB22lR0G+rPvdWWHcf7se1GZIa6H6XBU2uFmmA5TaYfbYTpsSjvsRpqHy/wreSh53PE8rPKvZFfyuON5qDl8/rjneag5/MY8mAfzYB7Mg3kwD+bBPJgH82AezIN5MA/mwTyYB/NgHsyDeTAP5sE8mAfzYB7Mg3kwD+bBPJgH82AezIN5MA/mwTyYB/NgHsyDeTAP5sE8mAfz8H/mYZ/ecpnfcobHvdqmtzzLbznD4169prc8zW85w+Nefae3PF+nt5zhca8WcZF9vFPcFz3u1edb9uvy46voMQAAAAAAAAAAAAAAAAAAAAAAAAAA/MUvjYkkf3jRNZEAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Transistor NPN</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/9647333d812986b986a5.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=transistor} {1:SHORTANSWER:=NPN}.]]>
+      </text>
+      <file name="9647333d812986b986a5.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAB1pJREFUeNrtnUtonFUYht+mTZtpmkzfSdLWXrQjpeCi2ixURNC2CxdS0KlIVRASdaHgohVFcCGtohulJF3oQkTjxp0kC8FdWyiIu3REUfASXRVXDSKI3bj4L/NfzplMUxf2+95nl5nZ5OE/77n+3wGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCHErc3l43IAYIjcLwvALLlDFgCSlAV5kAd5kAd5kIf1eRj/tfmzPOCHaZL3L3v38ApJkq0Z3x66TGktevYw1s48cK9nD9/mGjjh2EPhcSA/9ethY0EDH/frYZ4kDy7i6zbJM349tJmuyYyQrRW3HhokOQcA+JKP+s3JIfaW6H5yPI76jeRhzbMwnzcL3x5mXc/Aex6mySl5wDjJXfKAEY+zq4CHjXS9w5d72GBvUnH13Do92Oo2N5Mz6/Ng63FYIHcP+tuGYQ9HyckBfzrWKXmwtU59A1sz51nycMqph+9IZqPIIZJHfHpoJAuSyahhmOQdLj0k4cCdyV+jvIF4NeUhCYepNByb7VyJLw9JOLTmCt3MhEMPaTg8m39w2lrHOZCHNBzu6n2yZK3jHMhDORwAYJXkPm8equEAYBPJ1rXkYXlt0YeHWjgAGCPJxwAAswMPzG9tD/VwSDsMtj4Bmp+RXPTgoR4OAHCFJFtP/3PCyD7vmh4C4QAAW4r73afsewiFQxoLPZbNewiHQ+WBsPAuwhoewuEAAOjkHo6Y9xAJBwDJHoaZx6G/h2g4AAD+PkGSPLli3UM8HNLZ99vkxJv2x9V9wsEcfTz0CwdHHvqHgxsPa4WDFw+ewqGPB1fhEPfgKxyiHpyFQ9SDs3CIefAWDhEP7sIh7MFfOIQ9+AuHoAeH4RDy4DEcAh5sh8P1awDwywAeTIfDX9mbt3NrebAdDqcZFVH2YDwceu+cTvb1YH3kUNh6OtzPg/WRQ8HDVB8P5kcOxT3Zi1EP9kcORQ9HYh4cTCtIbgewtU1yT8yDg2lF6gFD9WINuQcP04rMw3ibbIU9uJhWZB5wtja7TD34WHPIPazGPPhYc8g9XIl4cLLmkHuYDXvwsuaQeRhlMCfdLEhmHpbqA2uSdLMgmXr4niRvjww1PSxI9qlxlH/uYUGy6GEl/JWL3Yo15t2uDkFFaqDR2yGojD2hrxwdgsr7hcBXng5BRRqGt0NQ2wGMPsdaPRN6KgRVmnfvDK/DuPKwpbYg5dMDpqv/tlMPC/IAIFDYxamHVXnIOwx5QLMtD0Dyerr6TTQ7tbouHj00z9c3er15iG38u/UwCXkgyXvkgazXYHflYbrn4SE49jCfa3gQnj1szR6IB+DawxrRIQvyIA/yIA/ygHKlpyA+NAxRHgDgkjwASCoDyoM8qF0oJ9VvahwlD/IgD/IgD/IgD/IgD/IgD/IgD/IgD/IgD/IgD/IgD/IgD5Y8zEkDHJZojnpwVrI77sFdleaYh9acPFARAWd1cgbw4D0iXNXRWsPDeUVE/zp7Y68ve/IQrbt4lrt8zbPCdTgbjuYe/eqydkke8uUhGBGd0MUAxtcfAhHRIEme8eUhEBFdkuReZx7qEZE0lYlrzjxUI6Jh59L6G/JQjYhuuFCjfQ+ViOiQvNNNw4jeC9MgyY9Icsadh2JEdElOYdZLw4jeG9UheQh/BkpnOPDQi4hGsrExGih57cFDHhHdtMbz6VrFKR8esojopHMsLw0jdu9ktt+3zUnDiN1Dmpc+P0vyNo8e0ojIlh42kWwte/SQRkS6FDXWrl8+5sNDGhHZjQDzpINlyvg95vvSP4YDt/I58dAozrfH2yQfdumhWypbulArgu7FQ6e0UD1Mkosec7J8aMpFwwh56Fbuj1kiucOhh05l/2ZzqGE0L1j30KieJWxOk7y7MtjKy620njHqoVu7VilwD9umQh2NRZseOrVtzS31+2RW41eTGfHQqB+xDTSMpYKH/SY9dAO3jV2qfWb/eegEdvtHas/IhviV4DY8NIInz49W5fQ8tF422V+EmkXy6WTVg+nxQ4fkruXgUPuMIw/jybN+8otAZ7rXkYeRrNnf+15pf/f3yo6vGw/kxIuFjmBr5SiE+XbRLl4K8MjHsYZhPiffKtfgO/DGSrBhmPcw/nylGuHEUxfyhjHjxwNw/Z3pior73gcqRyEceADGPz9WMXHgpeXyjq8LDwC+qTaP1pOlhpGNqw9etO0B2PbudL106e7a/GKfdQ9A86sTVQ95w8jn3TvtewDwx6vtsojt1XWYCRcegG0flJrHDp/PQ9I8nqgXN7aWD0cHesWiMKSo9hdGjogsDHgcbuzDYzUPlsYPmwc/N/zjC4Y94Oq5dYXJBs91RORBHuRBHuRBHuRBHuThP/Fg6XzUzXuwf8a0nwdr52HW68Ha+Sg9DzfnYdjY+aj1esjf4jJyPmrdHjwjD/IgD/IgD/IgD/IgD/JwM8zaf49zIIYcrjUEuXxcDoQQQgghhBBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYT4f/Ev7KzAorV+ui4AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Transistor PNP</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/86ad4ee08607db08db9c.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=transistor} {1:SHORTANSWER:=PNP}.]]>
+      </text>
+      <file name="86ad4ee08607db08db9c.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Relé</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/e5c8a5ac5282f5710222.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=relé}.]]>
+      </text>
+      <file name="e5c8a5ac5282f5710222.png" path="/" encoding="base64">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</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Bobina</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/db60c4c33c800549bcc2.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=bobina}.]]>
+      </text>
+      <file name="db60c4c33c800549bcc2.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAohJREFUeNrt2TtrVEEYBuAQvOOFd2PiHdzGykYEK0FTWnj7B0ZLC+M/sLQQVLCz0dJC8ALWio2lgr0prKwCCtoIFpvEJLt7NDurnIHnqXbn3WXP+ebMzJmzExMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALTVzye3bz/89C/Smny51k2Szqmn405rsvtBVpxbGGdalZ1zWWX6/fjSuspwOWtMvx5XWteguJp1ji02pgt/+926vEyf4+NJq7J1+QQ6J092l1/PjyOtyp6lAX7szuLExJ53S9f59GJ5WpfPvf68vvz+Va9fL5SndU2SJ5Kkc/d3y49ukkwtlKZ1+ZYkubG66XuS5GJpWpfLSXJ6bdvblVFekta3WMwsDpo658vSujxPklvrW7clycGytK5ZspvkQH/7/SRTCyVpXXXYMrBLlzr1SklaVx1eJJkZFMwlOVyS1lWH2SRnBgVfk+wtSevacCfJwCcGu5Y3C6Omz2qqw+Yk+wdHN3snOnJ6qaY6fBh2afcu7pL0SE11uJnk3uBoe+9MR07311SHE0ln2C1w7xH0yOlUZdPkvqZrpSR9XU8dtjWN4w8pS2/VU4dNSc42hSXp2XrqMNm0M9yasvRoXcvmo2HhjpSlFS2cj5MMfWKyO2Vpq7fec+v/bOgM/2y3LF1rpnUTwlp7/00dZvt+qFXTxZu+w5v6X3Vo1Ua8//D+17ho10Z8Q3WYbTz42T+NqTbXoX9cHGpcVY+Mmj5v97iY3Mj0tanxnrA5nWz3PNm3bjYuZx/Pj57OtXrdBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAyvwDt29/z0I9YqwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Condensador</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/62b7e37c4e74c33c2816.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=condensador}.]]>
+      </text>
+      <file name="62b7e37c4e74c33c2816.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAeUExURf///wAAABERETMzM0RERFVVVXd3d5mZmbu7u93d3Xwh9esAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAVpJREFUeNrt27ENwkAQRcGVAxDhFzh3C2ROKcEdUAI9uAFKxsItnCVOzJTwpNtN9qoAAAAAAAAAAAAAAAAAAAAAAAAAANpbZw02QzKpULUkowpV2aiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjqooIMOOuiggw466KCDDjrooIMOOuiggw466KCDDjrooIMOOujwE873NHN99dvhkYZu3Wa4pKl3rx1ObTs8dei7g3dhTtqbAAAAAAAAAAAA/B33cjv3k1/uaXfuq3XwLsxJe7MF/xZ10EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQAR100EEHHXTQQQcddNBBBx10OMKSjCpUDcmkwmadNQAAAAAAAAAAAAAAAAAAAAAAAAAA4FgfRbN+160eqAsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Resistencia LDR</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/e1100ae065f303220098.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama resistencia {1:SHORTANSWER:=LDR}.]]>
+      </text>
+      <file name="e1100ae065f303220098.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAtUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u93d3e7u7hQWILgAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAuNJREFUeNrt3U1qU1EYBuBoWrABpV/SWhAHZuZI7MAFFFxAO3Ug6gLEJXToRMgKxGxAxB24gw4dOnUXDm6oVe45cG9Tmnz3eSYtvFA47/l6enPz09EIAAAAAAAAAAAAAAAAAAAAAAAAAODG3P940TvN5F087Z0mshsxveiZZnIWEec901zjUFlpPc02DuXJr6fZxuFhvzTbOMRpvzTbOBz2S42DcTAOxsE4GAfjYByMg3EwDsbBOBgH42AcjINxMA7GwTgYh35+fqpteD1N5N58+qG84fU0k+/Nc1OFDa+nmRxHxJvihtfTRCbNThc2vJ5mMo6IiPeFDa+nmSwjImJa2PB6mu14WDntmmY7HhqHXdN8x0Npw8dDGYfRMiJeFDe8nmY7Hr7OIyKedU6THQ+z3drxUE6zHQ+PzkonQD3NeTy0bXk9zXY8nBT/JNTTZMfD9PKK8ahTmvLq4XXbS2Trab4HFxGHk5OWl0zX04wPLl4135x3SRM+uDhoFvrf5NfTTHZWK503X466pBmPh8bsW5c06b2HiNmXTmnOew8tC50MpYardxdituiWJj0eWvZ7OZBpuHoAtC30eCg1TKoLnQylhr8HQOtCx0Op4fIAaF/ocig1jObVhc6HUsNedaF7Q6lh9fChdGWwM4DrhisrLe73zkCmYXVTftEvTeUspou+aaqD8uWidwoAAAAAAFzT739e+XU9s89bW8ODNdYQMfu1rT3sxVpt7dM84/X28Hxbe7iz3h729aAHPeTqYX/jfpQe9KAHPehBD3rQgx70oAc96EEPetCDHvSgBz3oIXEPb2/4ZnvxKYDN+i+td+O2eognm9TDj9vr4fEm9XByez0c6GHzevB74Zz0d9N1lB70oAc96EEPetCDHvSgBz3oQQ960IMe9KAHPehh23rwPjU96EEPbbzPveFzDxo+B2PF56IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9PUHwT0mMgC+0TAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Resistencia NTC</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/e0768a2424b8c2f1417b.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama resistencia {1:SHORTANSWER:=NTC}.]]>
+      </text>
+      <file name="e0768a2424b8c2f1417b.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABCtJREFUeNrt3D9PE3Ecx/EvFCKIUD78SzQO7SSDGljdeAY00cRRXHGAB6BBExNHTNzRyAOAOOqAgztMrjUmzoRFGUwcaK+F3vV+tU3gft/3a7EdHHzn07trz9YMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAyPP38+SXOhlOq5LmD71n+L0sSZo/8J2hXNWZmx7/9a3DwYmatv1l2J3baT7cTDpU3GWYaL0KystJh1vuOoxK842H40kGzbrrMCSp7fAwu2e/JGnLcYcjSUtm9rLxp9cO+5L2zKwkadp5BzOz6847JA/pQAc60IEOqR1+NB6WnXf4IOnYzMa4ftB24/raV4fyu+Ybq5n1s+vqe2ZWc3ddfa31DlN7VpKkF/ZRkt676nDS1mHVJlpP5n0dHPbbOlTMVpInt83xHuxt8sTZ2+7zxwcbSZ4c+OpQ3k3OF8+scaaQpLvmTtv1g9nkmiTpgTnvYJMrkhbNfQe/6EAHtx2+L+uCmXWPHToySDr012EiJYM2/HW4ltZhiT143UPbG+rWgbLusMOfzvPFc64fuI6iAx18dZh6/eicx3WfHV5dPCHc6aFDPZ45VDsuEFbDO2xE02Gs80Ip8FbMsKT7MXcIHMSIpLnjiF8XgYO4IUmL0YTYTBnEk6C/uXb+c5m4zpsPwwdx1LqfFaFa8BGi1Nv5pWBGgwfRPLRUzPkgfsa8hx4GYd8iPj70Mgj7VG3c73Y+iLjVIn7VMwgGwSAYBINgEAyCQTAIBsEgGASDYBAM4hKcpv0Xyf80u1PYDOUBZpBmC3t7a1wDVdifjyoNtkNhv6Y2NNgO03SgAx3i6jA9mIvKoZg79HBRGXWHHgYRd4fwQcTdIXwQkXcIHkTkHYIHEXuH0EHE3iF0ENF3CBxE9B0CBxF/h7BBxN8hbBAOOgQNwkGHoEF46BAyCA8dQgbhokPAIFx0CBiEjw75g/DRIX8QTjrkDqIoHdb6/LA9bxCZtwAWrlSG4X5vOuQNIvtWSOUqdfja982XnEFkd7hSP9a60neHnEFkd5iLq0POIArSof/XRc4gCvK6GB7AzdmugyjIcbLv82beIApy3hzIxU+3QTi5nswdhKcO3QbhqkOXQbjq0GUQvjpkD8JXh+xBOOuQOQhnHTIH4a1D1iC8dcgahLsOGYNw1yFjEP46pA/CX4f0QTjskDoIhx1SB+GxQ9ogPHZIG4TLDimDcNkhZRA+O3QOYojvqfF9PTrQIcYOfM/9DL97cIbfwWjgd1EGgJ8U6vbBFINgEAyCQTAIBsEgGASDYBAMgkEwCAbBIBgEg2AQDIJBMAgGcbmDWKCD1STN1OkwKklbdLAaHZqD4HVhZvZUi0Qws6k3zAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALjyD2z2RmCAPpV9AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Potenciómetro</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/0bc9615eb85a5ca36f0c.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=potenciómetro}.]]>
+      </text>
+      <file name="0bc9615eb85a5ca36f0c.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAnUExURf///wAAABERESIiIjMzM0RERFVVVXd3d4iIiJmZmbu7u93d3e7u7vFfmKoAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAnZJREFUeNrt3bFOwlAUgOEbohvLFUOIkw7G2Y3BJ2BSJhx5AzdnY9x8DB/A0bEJi76VoEgpClVDjHC+f2T8cnrb3pY0JUmSJEmSJEmSJEmSJEmSJEmSJP33HnoMxjVyPqSQ0jDnNoWU8jgKHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHMLUvM0r6xYxHEa5prMYDjd1Dp0YDqd1Dq04C+PqOHDgENnBZRUHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4/JHDy/Ujh9S8O8onHJ774x/3HoM7TIZh0lVsh7dhmHQe2eFjGII7zIYhtMPcMER2eOlX/v0e1GF+GI7vwjrMrQx7g2I3qENlGO5TCupQHYYU1WFhGMI6LAxDeIfpMEwdvqwdwGFQ3mEuddjgb39/06EchnE7Sx0OttxhUNluaCx12N9uh9kKGdzBcVGeNC8L66Tzpuso19Xus9x324exL/cTh5SeLuzTTkeCw3ue48xGwnO9hZEI7uC5f3Ukwr8HkrwXVPbkPbFtjQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhx+47A6Dhw4RHU4rWNoxXC4qXPoxHAY1TmcxXBo3q5m6BYpYnEWRg4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwEEcOHD43HCjP7q8vhqb/A3udfbQYyBJkiRJkiRJkiRJkiRJkiRJkiRtUq9JYOfVQ3mNGAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Final de carrera</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/dc0bec3828f50531f019.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=final} de {1:SHORTANSWER:=carrera}.]]>
+      </text>
+      <file name="dc0bec3828f50531f019.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABcdJREFUeNrt3U2IG3UYx/F/S7tbWXfTX97qatWGFfcgtKQIgiA2vmARa7vgCnpqCi6CB131YJGiC6InrR5kEQQp6lFcPehNXfDiqS4uVDytxYPgJdZitfbgIcnOJJmZpJmQzOT5fk67mfKQ/TV5/i+ZyTgHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwaL+sLi2d/sx6Cl8/IEnSHa9aTuHGU9p253dmY5hakE9hzeqroSUGqWDzFTFdVZvijxZz+Fgd7jUYw2Tzj597+InDzZ9fMBdDptEcHvnGOef+eLnRImrWctiUJOXebv7+c1mSdMxakyxLUvas98g/JUnKGWuVf0lS9jX/Q1dKknS/rRwWAt4Em5JUsDdYFNuaYqZqbsh4T5Jeb390jyTNWuuSs8HxWOqUE4Evh8YL4qSdHNYlFYMOVCXttzVaHA86cNnUiDElKRvYBqZLkszsQ+yWtC/40LKkE5baw8HgQxctNYhq8GjRHDGKVnIoSbmQBXamLGUNtcmbwg6u2GmUk5JuCzv4q50lxi5JR/o6OF52Rv2XT0o6YCOHjagWMCXpVhs5nJMUuh+bkXSzjRxWIofGUsRgMl6WpXz40UronHsMp5PRORTN5FCIXJOTg7UceF/QJxk3mUcxr2adxbq7R+zDeC2Afbn60JgLO2Zon5Z9+4YvJB0KPnRJ0i1WcuBzPa9RZreCjsyY+pyXz/0bOA+kjvOC6qbLwavKc9bOqOW8QW+JwXmkjRFDj7c+9pu984o5z7zZKUuSlP3Ie+Tf+iPWLtH6qX4dyjvN33+vX4dyn7EYtq9LOvqtc87994bV65K869TuXlx80O51ao05RKtZgzG4HZ057CUHciAHKetlULKcw17vezB2mM7BZX5485knn/2w5oznEPYrOZADOZADOZADOZADOZADOZADOZADOZADOZADOZADOZBDEnO4+sEaOTh3oTS2V69dRw6ZTzS+5133nsP0i5Kkd43ncLUicnDuQqnxibjp90W9NWiMr/LtKYdGa5CUtzxuNluDND+2J5j2kMN2a9Cj43tiZdccvNaQPWN4Xu1rDZ8bXl9YaA095GCiNXTNwUhr6JaDldbQJQczrSE6BzutISoHS60hIgdTrSE8B1utITQHY60hLIe8sdYQloO11tAlh3lTF7O25bAhe63B9oIiIgd7swYWFOE5WJw1RC0odMY5szl4rSF31tnNwXRrsL2gCMghb3bWwIIiIgerrcH2gqKF4QWFn+UFhQ+zBhYUAa1BtAbDCwqzreHa6tLp84NpDUGl0uJ9SdJTg5g1BJRKTTd8qfEX31OLO2sIKpUaX24PCnfFbQ0BpVJjwreaPBlv1hBQKj3vigXfky/U4iwoOkulyO6W7887EWdB0VEqTaqSpLmHDkuSinFmDe2l0mRKkvR0zWU+lSSt9r+gaC+VqtPuL0nSY8455773v6r72GtoL3UoTTkse1/bXv+29v73GtpLpeomhCXfEDcRbxuyvVSa7qZ0g6R8sxFkKnH2GjpLpehytV0ttzVZj7MN2VnqSHpy+LNl5jcRZxuys9TtCZwgRFhrGfkK/e41rHeUijTs6cXObk8o6zWDTJxbrK50lIp2YLg5rHd7Pv4b6JVjjHbLHaWiDfluS5WurwffP45zK+q2m1x3fT3kyWEUOVzX+6IS732RT/D7gj7Z37i5P84LL8Hj5tAmP0mfR3WdDHs34d6IMxkeYKnh29PSuCvht6EdaqkRrbub9/yZjLdYHmCp0ezD7Av4ebSlhu+iJB1zzjm3KUkHE1Fq+Orj23POua/ibq4OsNTIluVziwPYbB9gqeG73DK7OZ6QUsM341+I5bcSUmoE/vY9+ecTU2oEBvhhfZo/93czzQ9257cSVGoU6vfUPJqwUiNw7a2lV84nrhQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAG6H/9kcZPvAZWnwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Cable cruzado sin conectar</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/94d322b7644153a6ec3b.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Estos son cables {1:SHORTANSWER:=no conectados}.]]>
+      </text>
+      <file name="94d322b7644153a6ec3b.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAYUExURf///wAAADMzM0RERFVVVXd3d5mZmd3d3ZQZMvYAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAZ9JREFUeNrt1r0JwmAYhdELZoEbUOs01o6QFaxS6wYW2d8ZTBP4OM8IB96fRJIkSZIkSZIkSZIkSZIkSZIkSSe0bwySTO1KIXm3NwrJ0s4UkralwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBwocOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHCgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cOHDgwIEDBw4cTunT4XocYLh0wJ7/O3xHdLj/7/Aa0eHK4aiDubAn3U1/FAcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhwEAcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHMSBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwcOHDhw4MCBAwct7Uwhebc3CsnUrhSS7BsDSZIkSZIkSZIkSZIkSZIkSZIkadh+Vdy1j8m3q68AAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Cables conectados</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/3609f5a182c58df76460.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Estos son cables {1:SHORTANSWER:=conectados}.]]>
+      </text>
+      <file name="3609f5a182c58df76460.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAtUExURf///wAAABERESIiIjMzM0RERFVVVXd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7mOnIP4AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAm9JREFUeNrt2TkyRFEUgOEbGAJD1TGWQGAJdkCoJOyAnCq9ABuQqZLZgFAgkYnEJKSWohtFR4L7+t73PN+fn9PHV9WD7pQkSZIkSZIkSZIkSZIkSZIkSZLUuV7PGQybiTiikNJlxAaFlHYjViikFMMocODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQIHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAofXurzvh0OCMSfSyHbF8mjk7cjht/YxJdLc1+luW9mvPlluV1ezH4w8vOKs7W25VVguH8dXqU83Zcqvymo7vDmrOlluV1+DngPWas+VWZTW/9XPA0kO92XKr8pqKsXbqzZZbldfz+AGb9WbLrcrrePyAtXqz5Vb93lX0rr1mb0v96aDh868vZbyODProsM4h18Hzwuuk902fo3yu9n9Wo+bGD7itN1tule9hfC/ne1rf20+8u88D9mvPlluV2ePo8U8yZ0c/xp20fsZkavJb7eLNxVsHzujHARw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhw4cODAgQMHDhz+xBm7ESsdcGj9jMuIjQ44tH7GTMRRBxzaP+P1PHWhjpwhSZIkSZIkSZIkSZIkSZIkSZIk/aveAVssMmUWd8NKAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTExLTIwVDE3OjMzOjA1KzAxOjAwK3CShQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0xMS0yMFQxNzozMzowNiswMTowMGvFMKQAAAAASUVORK5CYII=</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Conector</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/b2468698cb733aaa38c8.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=conector}.]]>
+      </text>
+      <file name="b2468698cb733aaa38c8.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAndJREFUeNrt27uLVGcYB+ADXqM7K7/jLd6K02rhLghWiRERW4X0upWtoliJl9JK7URQ1C6d5h+IVimTkMpOsBA7UUIELSxm1p2ZnQWrYeR9nvItf+ec9zvfrWkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA78rn366cv/9X9RTmLndJ0p56XjqGt4sZ2P6wcAxvunzVXisbw8ehGJL2dtEYemcyYuffNXP4PWMOlYzhh+Xv4ciJ5e/jTsUcLvbHiavvmmbbn/1xY3fBGDYnSXYNekJvKUlyo14Oz0ZbY79p7qs3WHRJ2kcrhS1dkrbckPFfkvw0XPk3Sc5Wy+Fmkh2vhivzx5P8WCyG+S7Jz6O110naV7Vy2JSkHZtjznVJLtTK4Z8ke8eLj5McqJXD3SSnx4sbkuyplcNiklVjZC/J9lIxzCXZtbq8lOR5tTZ5YHLXKNUo1ydZWF1el+SXSjm8n/zgNyU5XCmHF5MbwVyS/ZVyeJxkUj1TsePRDM0u2kn1bjpB7JyVHC6u8aOwOJ0cMiuzmKU1nsmU3oeZWfeSg+9CnzRu+o/yX/0t1q09z1ow764377YOY11uhHXalU6walP3Wb11+40TNnV7XZJztXKY75IcG619KLiv19/nfTdc2VZxn9e+/3AzaJ+uFLbWPAfiXNCAc2IDy+cGm6ZpCp8bHLwQSXvy127Glg2n68n4OtHBkjE0veNjy2VFz5k3/4/eO7jeVOUeysDLlXtJD5rKtl7q31M7+rQp7tO9K+dv/dEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwLgvW1mq81cJCZAAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjMtMTEtMjBUMTc6MzM6MDUrMDE6MDArcJKFAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIzLTExLTIwVDE3OjMzOjA2KzAxOjAwa8UwpAAAAABJRU5ErkJggg==</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Condensador polarizado</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/ed5c8fb1d47c32f0465c.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=condensador} {1:SHORTANSWER:=polarizado}.]]>
+      </text>
+      <file name="ed5c8fb1d47c32f0465c.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAeUExURf///wAAABERETMzM0RERFVVVXd3d5mZmbu7u93d3Xwh9esAAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAAAZhJREFUeNrt27FtAkEQhtERkrEIfwFySgtkpHRgOiB1ZtdAA0Su1yefMx9GgkXy6d7r4D5pZy+YrQIAAAAAAAAAAAAAAAAAAAAAAAAAaO+006AzSzYqVB2StQpV6aiggw466KBD5/NNh85T8qpD1UfyokPVNlnqcO1LddBBBx100EEHHXTQQQcddNBBBx10uM/zNgOW71PrsM+g1cQ6LHLBeVod5pc6HHWYYgfnwpx0b/qP0kEHHXTQQQcddNBBBx100EEHHXT4B+wV9+yZ97w7+OEdyt1TVAcddNABHXTQQQcddNBBBx100OFPwytzt/m9aDce+zS0Gm2GRZo6j7XDvG2How7j7uBcmJPuTQAAAAAAAAAAACbHvlzP/uQ3+7Q9+9U6OBfmpHuzBe8WddBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100EEHHXTQQQcddNBBBx100AEddNBBBx100EEHHXTQQQcddHiEQ7JWoWqWbFTonHYaAAAAAAAAAAAAAAAAAAAAAAAAAADwWF+DUZz9DOPAHAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Identificar Amplificador Operacional</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2022 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <div style="text-align: center;"><img src="@@PLUGINFILE@@/4d63e65310571bf0092f.png" alt="" role="presentation" width="180"></div>
+         <br>
+         Este componente se llama {1:SHORTANSWER:=amplificador} {1:SHORTANSWER:=operacional}.]]>
+      </text>
+      <file name="4d63e65310571bf0092f.png" path="/" encoding="base64">iVBORw0KGgoAAAANSUhEUgAAAg4AAAFaBAMAAACEYsh2AAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB+cLFBIhBhVgt4sAAAAwUExURf///wAAABERESIiIjMzM0RERFVVVWZmZnd3d4iIiJmZmaqqqru7u8zMzN3d3e7u7j2dGw0AAAABdFJOUwBA5thmAAAAAWJLR0QAiAUdSAAABMVJREFUeNrt3btu1EAYhmETCZEiQnIUoEGILaBDog0dLV1qqtwBtxBaRMUl5EpS0XINVJRU1Gz2lD3Y4xnvzMj//71vbUXKI593PNM0REREREREREREREREREREREREREREREREVKOf3zCYdzprP6HQNHdtC8S8mxaI+67uHdoPOLRAbDnIQ6wd1CE2DuIQDw7aV425w7Nb9oiFQwPE0gGIlQMQKwd5iLWDOsTGQRziwUEbYstBGmLbQRlix0EYYtdBF2LPQRZi30EV4sBBFOLQQROiw0ESostBEaLTQRCi20EPosdBDqLPQQ2i10EMot9BCyLgIAURclCCCDoIQYQddCAGHGQghhxUIAYdRCCGHTQgIhwkIGIcFCCiHAQg4hz8QwQdzj7LQIQcns7adyoQIYfHQr99hhxO5v+1yjki5PBo18E1RIqDZ4gkB8cQaQ5+IRId3EKkOniFSHZwCpHu4BNihINLiDEORiGu23DpDiYhTtr8DhYh7oYcLkY4GIT4OORwPsbBHkS6w7/ZwTZvfpmHSD8urjo2em9+j0g/T3Zt9Mr+oZF63Tzr2uiF8xuqrvuoWeT+4Amiy+E67vzgCqLL4fRwh3jr5z4i4/OFQ4ijHZxAHO/gAyKDgwuIHA4eILI4OIDI42AfIpODeYhcDtYhsjkYh8jnYBsio4NpiJwOliGyOhiGGBgfdd6IQIQcTntex3mECI4j/Xr+pRGBCI8r/jviL9qEiBxf7R6igINJiBIOFiGKOBiEKONgD6KQgzmIUg7WIIo5GIMo52ALoqCDKYiSDpYgijoYgijrYAeisIMZiNIOViCKOxiBKO9gA6KCgwmIGg4WIKo4GICo4zB9iEoOk4eo5TB1iGoOE4eo5zBtiIoOk4ao6TBliKoOE4ao6zBdiMoOk4Wo7TBViOoOG4hwz907ND+iIF67d4jbI176d4jaIy4EHG5x4LhIvGC4P09y3eQ+ivtqnrN47uY9jFkG3tNWd+C9vQEGfter68DvvDYYGAdS0YFxQWYYGDdYy4FxpJYYGGdexYHvDowx8F1SeQe+U7PHwHeshR34rtkkA/MelHRgHgyrDMyTU8yBeZMMM2R3cDmvmg5DZgef8y4KMWR18DovqxBDRge/8zYLMWRz8DyvuxBDJgff6z4IMWRx8L4ujBBDBgf/60YJMRztoLCunBDDkQ6mGEav3+2LYfz63b4OirtSX84aOzeMX7/b1ymy0Prd5q4UZdbvtnfBLLJ+t8X7hgLrdztauDtwHzW4frc/hlHrdztkGLN+t0eGEc8XLhnSHXwyJDs4ZUh18MqQ6OCWIc3BL0OSg2OGFAfPDAkOrhniHXwzRDs4Z4h18M4Q6eCeIc7BP0OUgwBDjIMCQ4SDBMOwgwbDoIMIw5CDCsOAgwxD2EGHIeggxBByUGIIOEgx9DtoMfQ6iDH0Oagx9DjIMXQ76DF0OggydDkoMnQ4SDIcOmgyHDiIMuw7qDLsOcgy7DroMuw4CDNsOygzbDlIMzw4aDNsHMQZ1g7qDCsHeYalAwwLBxh2vkm7bHAQ3xu2HLQZNg6XDQ7sDWsHeYbmBoZFv2FY9ASGZX++Y0BERERERERERERERERERERERERERERERESk0n9VAw36BWDqpQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0xMS0yMFQxNzozMzowNSswMTowMCtwkoUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMTEtMjBUMTc6MzM6MDYrMDE6MDBrxTCkAAAAAElFTkSuQmCC</file>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>

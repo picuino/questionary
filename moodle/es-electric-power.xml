@@ -1,0 +1,678 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<quiz>
+
+  <question type="category">
+    <category> <text>$course$/top/Electricidad/es-electric-power</text> </category>
+    <info format="html"> <text></text> </info>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 01.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Potencia eléctrica</strong><br> La fórmula de la potencia eléctrica es P = {1:SHORTANSWER:=V*I~%100%V·I~%100%I*V~%100%I·V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 02.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Potencia eléctrica</strong><br> La fórmula de la corriente eléctrica es I = {1:SHORTANSWER:=P/V}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 03.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Potencia eléctrica</strong><br> La fórmula de la tensión eléctrica es V = {1:SHORTANSWER:=P/I}<br> Donde<br> P = {1:SHORTANSWER:=potencia} eléctrica en vatios (W)<br> V = {1:SHORTANSWER:=tensión} eléctrica en voltios (V)<br> I = {1:SHORTANSWER:=corriente} eléctrica en amperios (A)<br>]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 04.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 1,5 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=345} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 05.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0,8 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=184} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 06.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ordenador</strong><br> ¿Qué potencia tendrá un ordenador que consume 0,4 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=92} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 07.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0,10 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=23} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 08.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0,05 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=11,5} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 09.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla</strong><br> ¿Qué potencia tendrá una bombilla que consume 0,03 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=6,9} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 10.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 15 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 11.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 10 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=2300} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 12.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Vitrocerámica</strong><br> ¿Qué potencia tendrá una vitrocerámica que consume 8 amperios a 230 voltios?<br><br> P = {1:SHORTANSWER:=1840} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 13.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 5 amperios a 120 voltios?<br><br> P = {1:SHORTANSWER:=600} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 14.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Taladro</strong><br> ¿Qué potencia tendrá un taladro que consume 4 amperios a 125 voltios?<br><br> P = {1:SHORTANSWER:=500} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 15.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0,5 amperios a 5 voltios?<br><br> P = {1:SHORTANSWER:=2,5} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 16.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Teléfono móvil</strong><br> ¿Qué potencia tendrá un teléfono móvil que consume 0,8 amperios a 5 voltios?<br><br> P = {1:SHORTANSWER:=4} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 17.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 25 amperios si la tensión de red es de 230 voltios?<br><br> P = {1:SHORTANSWER:=5750} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 18.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Casa</strong><br> ¿Qué potencia máxima tendrá una casa con limitación de 15 amperios si la tensión de red es de 230 voltios?<br><br> P = {1:SHORTANSWER:=3450} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 19.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 2,5 amperios?<br><br> P = {1:SHORTANSWER:=30} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 20.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla de automóvil</strong><br> ¿Qué potencia tendrá una bombilla de automóvil que trabaja a 12 voltios y consume 1,5 amperios?<br><br> P = {1:SHORTANSWER:=18} W]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 21.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 2300 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=10} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 22.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Calentador de aire</strong><br> ¿Qué corriente consumirá un calentador de aire de 1840 vatios si se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=8} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 23.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 18,4 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=0,08} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 24.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Router</strong><br> ¿Qué corriente consumirá un router si tiene una potencia de 13,8 vatios y se conecta a la tensión de red de 230 voltios?<br><br> I = {1:SHORTANSWER:=0,06} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 25.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por una bombilla de automóvil si sabemos que tiene una potencia de 36 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=3} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 26.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Bombilla de automóvil</strong><br> ¿Qué corriente circulará por la bombilla de freno de un automóvil si sabemos que tiene una potencia de 12 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=2} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 27.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1080 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=90} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 28.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Motor de arranque</strong><br> ¿Qué corriente circulará por el motor de arranque de un automóvil si sabemos que tiene una potencia de 1020 vatios y la tensión de alimentación es de 12 voltios?<br><br> I = {1:SHORTANSWER:=85} A]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 29.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 250 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=125} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 30.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Batidora</strong><br> ¿Qué tensión tendrá una batidora sabiendo que tiene una potencia de 300 vatios y que consume 2,5 amperios?<br><br> V = {1:SHORTANSWER:=120} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 31.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 36 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=18} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 32.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Ordenador portátil</strong><br> ¿Qué tensión tendrá un ordenador portátil sabiendo que tiene una potencia de 40 vatios y que consume 2 amperios?<br><br> V = {1:SHORTANSWER:=20} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 33.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 2 vatios y que genera 0,001 amperios?<br><br> V = {1:SHORTANSWER:=2000} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 34.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>Raqueta antimosquitos</strong><br> ¿Qué tensión tendrá una raqueta antimosquitos sabiendo que tiene una potencia de 3 vatios y que genera 0,002 amperios?<br><br> V = {1:SHORTANSWER:=1500} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 35.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 18 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=9} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 36.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 36 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=18} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+  <question type="cloze">
+    <name> <text>Electricidad. Potencia eléctrica. Pregunta 37.</text> </name>
+    <questiontext format="html">
+      <text><![CDATA[
+         <!-- Copyright © 2021 por Carlos Félix Pardo Martín -->
+         <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
+         <strong>USB de carga</strong><br> ¿Qué tensión tendrá un USB de carga rápida que tiene una potencia de 10 vatios con una corriente de 2 amperios?<br><br> V = {1:SHORTANSWER:=5} V]]>
+      </text>
+    </questiontext>
+    <generalfeedback format="html">
+      <text></text>
+    </generalfeedback>
+    <penalty>0.3333333</penalty>
+    <hidden>0</hidden>
+    <idnumber></idnumber>
+  </question>
+
+
+
+</quiz>
