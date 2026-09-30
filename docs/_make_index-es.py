@@ -122,6 +122,9 @@ index_data = [
           ["es-electric-color-code-1.html", "Código de colores 1"],
           ["es-electric-color-code-2.html", "Código de colores 2"],
 
+          ["es-electronic-formato-eng-1.html", "Formato de ingeniería 1"],
+          ["es-electronic-formato-eng-2.html", "Formato de ingeniería 2"],
+
           ["es-electric-breadboard.html", "Breadboard"],
           ["es-electric-digital.html", "Electrónica digital"],
        ]

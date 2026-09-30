@@ -4371,12 +4371,12 @@
 
 
   <question type="multichoice">
-    <name> <text>¿En qué década comenzó a ser utilizada de forma masiva la red Arpanet, limitada a universidades, centros de cálculo o bases militares?</text> </name>
+    <name> <text>¿En qué década comenzó a ser utilizada de forma masiva la antigua red Arpanet, antes limitada a universidades, centros de cálculo o bases militares?</text> </name>
     <questiontext format="html">
       <text><![CDATA[
          <!-- Copyright © 2023 por Carlos Félix Pardo Martín -->
          <!-- Licencia Creative Commons Attribution-ShareAlike 4.0 https://creativecommons.org/licenses/by-sa/4.0/deed.es -->
-         <p>¿En qué década comenzó a ser utilizada de forma masiva la red Arpanet, limitada a universidades, centros de cálculo o bases militares?</p>
+         <p>¿En qué década comenzó a ser utilizada de forma masiva la antigua red Arpanet, antes limitada a universidades, centros de cálculo o bases militares?</p>
          ]]></text>
     </questiontext>
     <generalfeedback format="html"> <text></text> </generalfeedback>
@@ -4392,8 +4392,13 @@
     <partiallycorrectfeedback format="moodle_auto_format"> <text></text> </partiallycorrectfeedback>
     <incorrectfeedback format="moodle_auto_format"> <text>Incorrecto.</text> </incorrectfeedback>
     <answer fraction="100" format="html">
-       <text>En la década de 1960</text>
+       <text>En la década de 1990</text>
        <feedback format="html"> <text>Correcto.</text> </feedback>
+    </answer>
+    
+    <answer fraction="-33.333333333333336" format="html">
+       <text>En la década de 1960</text>
+       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
     <answer fraction="-33.333333333333336" format="html">
@@ -4403,11 +4408,6 @@
     
     <answer fraction="-33.333333333333336" format="html">
        <text>En la década de 1980</text>
-       <feedback format="html"> <text>Incorrecto.</text> </feedback> 
-    </answer>
-    
-    <answer fraction="-33.333333333333336" format="html">
-       <text>En la década de 1990</text>
        <feedback format="html"> <text>Incorrecto.</text> </feedback> 
     </answer>
     
